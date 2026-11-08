@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-08T20:13:59+00:00",
+ "run_at": "2026-11-08T20:17:01+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -35,9 +35,9 @@
    "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
   },
   "pogon": {
-   "ok": false,
+   "ok": true,
    "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+   "note": "trenutno nema koncerata"
   },
   "ulaznice": {
    "ok": true,
