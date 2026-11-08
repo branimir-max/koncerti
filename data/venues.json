@@ -1,0 +1,134 @@
+{
+ "arena": {
+  "name": "Arena Zagreb",
+  "address": "Ulica Vice Vukova 8",
+  "aliases": [
+   "Arena Zagreb",
+   "Zagreb Arena"
+  ]
+ },
+ "lisinski": {
+  "name": "Lisinski",
+  "address": "Trg Stjepana Radića 4",
+  "full": "Koncertna dvorana Vatroslava Lisinskog",
+  "aliases": [
+   "Koncertna dvorana Vatroslava Lisinskog",
+   "Vatroslav Lisinski",
+   "Lisinski"
+  ]
+ },
+ "lisV": {
+  "name": "Lisinski – Velika dvorana",
+  "address": "Trg Stjepana Radića 4",
+  "group": "lisinski"
+ },
+ "lisM": {
+  "name": "Lisinski – Mala dvorana",
+  "address": "Trg Stjepana Radića 4",
+  "group": "lisinski"
+ },
+ "tvornica": {
+  "name": "Tvornica kulture",
+  "address": "Šubićeva 2",
+  "aliases": [
+   "Tvornica kulture",
+   "Culture Factory",
+   "Tvornica"
+  ]
+ },
+ "boogaloo": {
+  "name": "Boogaloo",
+  "address": "Ulica grada Vukovara 68",
+  "aliases": [
+   "Boogaloo Club",
+   "Boogaloo"
+  ]
+ },
+ "mocvara": {
+  "name": "Močvara",
+  "address": "Trnjanski nasip bb",
+  "aliases": [
+   "Klub Močvara",
+   "Club Mochvara",
+   "Močvara",
+   "Mochvara"
+  ]
+ },
+ "vintage": {
+  "name": "Vintage Industrial Bar",
+  "address": "Savska cesta 160",
+  "aliases": [
+   "Vintage Industrial Bar",
+   "Vintage"
+  ]
+ },
+ "medika": {
+  "name": "AKC Medika (Attack!)",
+  "address": "Pierottijeva 11",
+  "aliases": [
+   "AKC Medika",
+   "AKC Attack",
+   "Attack!",
+   "Medika"
+  ]
+ },
+ "dvaosam": {
+  "name": "Dva Osam",
+  "address": "Jabukovac 28",
+  "aliases": [
+   "Dva Osam",
+   "Jabukovac 28"
+  ]
+ },
+ "bocarski": {
+  "name": "Boćarski dom",
+  "address": "Prisavlje 2",
+  "aliases": [
+   "Boćarski dom"
+  ]
+ },
+ "primarius": {
+  "name": "Primarius",
+  "address": "",
+  "aliases": [
+   "Primarius"
+  ]
+ },
+ "hardplace": {
+  "name": "Hard Place",
+  "address": "",
+  "aliases": [
+   "Hard Place"
+  ]
+ },
+ "salata": {
+  "name": "SRC Šalata",
+  "address": "",
+  "aliases": [
+   "SRC Šalata",
+   "Šalata"
+  ]
+ },
+ "kset": {
+  "name": "KSET",
+  "address": "Unska 3",
+  "aliases": [
+   "KSET"
+  ]
+ },
+ "sax": {
+  "name": "Sax!",
+  "address": "Palmotićeva 22",
+  "aliases": [
+   "Sax!",
+   "Klub Sax"
+  ]
+ },
+ "klaonica": {
+  "name": "Reci:Klaonica",
+  "address": "Heinzelova 66",
+  "aliases": [
+   "Klaonica"
+  ]
+ }
+}

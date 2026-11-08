@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Koncerti u Zagrebu</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+/* Layout: gig-poster header, sticky filter bar, day-grouped listing (or month grid). Accent = ZET tram blue, signal red only for "rasprodano". */
+:root{
+  --bg:#F2F4F7;
+  --surface:#FFFFFF;
+  --ink:#0E1828;
+  --muted:#5B6678;
+  --line:#DCE1E9;
+  --accent:#1D4E9E;
+  --accent-ink:#FFFFFF;
+  --accent-soft:#E3EBF8;
+  --signal:#D93A25;
+  --star:#E3A21A;
+  --font-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0A101C;--surface:#121A2A;--ink:#E7ECF4;--muted:#93A0B5;--line:#24304A;
+    --accent:#7FA6F5;--accent-ink:#0A101C;--accent-soft:#1A2848;--signal:#FF6B55;--star:#F2BC48;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0A101C;--surface:#121A2A;--ink:#E7ECF4;--muted:#93A0B5;--line:#24304A;
+  --accent:#7FA6F5;--accent-ink:#0A101C;--accent-soft:#1A2848;--signal:#FF6B55;--star:#F2BC48;
+  color-scheme:dark;
+}
+*{box-sizing:border-box}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+
+/* header */
+header.top{padding:28px 0 18px;border-bottom:3px solid var(--ink)}
+.brand{display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:12px 24px}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(44px,8vw,76px);line-height:.88;letter-spacing:.5px;margin:0;text-transform:uppercase;text-wrap:balance}
+h1 span{color:var(--accent)}
+.meta{color:var(--muted);font-size:13.5px;max-width:34ch}
+.meta strong{color:var(--ink);font-weight:600}
+.quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:20px}
+.qbtn{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:10px 12px;text-align:left;cursor:pointer;display:flex;flex-direction:column;gap:2px}
+.qbtn:hover{border-color:var(--accent)}
+.qbtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.qbtn b{font-family:var(--font-display);font-size:30px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
+.qbtn small{font-size:12.5px;opacity:.85}
+
+/* filters */
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 0}
+.bar .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar .row+.row{margin-top:8px}
+.search{flex:1 1 220px;display:flex;align-items:center;gap:8px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:0 10px}
+.search input{border:0;background:transparent;padding:9px 0;width:100%;outline:none}
+.search:focus-within{border-color:var(--accent)}
+select{background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:9px 10px;max-width:100%}
+.views{display:flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.views a{padding:8px 12px;text-decoration:none;color:var(--ink);background:var(--surface);font-weight:500;font-size:14px}
+.views a[aria-current="page"]{background:var(--ink);color:var(--bg)}
+.chips{display:flex;gap:6px;overflow-x:auto;scrollbar-width:thin;padding-bottom:2px}
+.chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;white-space:nowrap}
+.chip:hover{border-color:var(--accent)}
+.chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.toggle{display:flex;align-items:center;gap:6px;font-size:13.5px;color:var(--muted);cursor:pointer;white-space:nowrap}
+.toggle input{accent-color:var(--accent)}
+.status{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0 4px;color:var(--muted);font-size:13.5px}
+.status button{background:none;border:0;color:var(--accent);cursor:pointer;padding:0;text-decoration:underline}
+
+/* list */
+.day{margin-top:18px}
+.dayhead{display:flex;align-items:baseline;gap:10px;padding:6px 0;border-bottom:1px solid var(--ink)}
+.dayhead .dnum{font-family:var(--font-display);font-weight:800;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
+.dayhead .dname{font-weight:600}
+.dayhead .rel{margin-left:auto;font-size:12.5px;color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
+.ev{display:grid;grid-template-columns:58px minmax(0,1fr) auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
+.ev .time{font-variant-numeric:tabular-nums;font-weight:600;padding-top:3px}
+.ev .time.none{color:var(--muted);font-weight:400}
+.ev h3{margin:0;font-family:var(--font-display);font-weight:600;font-size:23px;line-height:1.05;letter-spacing:.2px;text-wrap:balance}
+.ev .sub{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;margin-top:4px;color:var(--muted);font-size:13.5px}
+.ev .sub a{color:var(--muted)}
+.tag{font-size:11.5px;font-weight:600;letter-spacing:.04em;text-transform:uppercase;padding:2px 7px;border-radius:3px;background:var(--accent-soft);color:var(--accent)}
+.side{display:flex;flex-direction:column;align-items:flex-end;gap:6px}
+.price{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;font-size:14px}
+.price.sold{color:var(--signal);text-transform:uppercase;letter-spacing:.06em;font-size:12px;border:1.5px solid var(--signal);padding:1px 6px;border-radius:3px;transform:rotate(-2deg)}
+.price.free{color:var(--accent)}
+.price.na{color:var(--muted);font-weight:400}
+.acts{display:flex;gap:4px}
+.icon{border:1px solid var(--line);background:var(--surface);border-radius:6px;height:32px;min-width:32px;padding:0 8px;display:inline-flex;align-items:center;justify-content:center;cursor:pointer;text-decoration:none;color:var(--ink);font-size:13px;gap:5px}
+.icon:hover{border-color:var(--accent)}
+.icon svg{width:16px;height:16px}
+.fav[aria-pressed="true"]{color:var(--star);border-color:var(--star)}
+.fav[aria-pressed="true"] svg{fill:var(--star)}
+.empty{padding:48px 0;text-align:center;color:var(--muted)}
+
+/* calendar */
+.cal{margin-top:18px}
+.calhead{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:10px}
+.calhead h2{font-family:var(--font-display);font-weight:800;font-size:34px;margin:0;text-transform:uppercase}
+.grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:4px}
+.grid .wd{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;padding:4px 6px}
+.cell{min-height:92px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:6px;display:flex;flex-direction:column;gap:3px;cursor:pointer;text-align:left;overflow:hidden}
+.cell:hover{border-color:var(--accent)}
+.cell.out{opacity:.35;cursor:default}
+.cell.past{opacity:.5}
+.cell.today{border:2px solid var(--accent)}
+.cell .n{font-weight:600;font-variant-numeric:tabular-nums;font-size:13px}
+.cell .it{font-size:11.5px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted)}
+.cell .more{font-size:11px;color:var(--accent);font-weight:600}
+.cell .cnt{display:none}
+
+footer{margin:40px 0 32px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:13px}
+footer p{margin:0 0 8px;max-width:72ch}
+
+@media (max-width:640px){
+  .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .ev{grid-template-columns:48px minmax(0,1fr)}
+  .side{grid-column:2;flex-direction:row;align-items:center;justify-content:space-between;margin-top:6px}
+  .cell{min-height:52px;padding:4px}
+  .cell .it,.cell .more{display:none}
+  .cell .cnt{display:block;font-family:var(--font-display);font-weight:800;color:var(--accent);font-size:18px;line-height:1}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <div class="brand">
+      <h1>Koncerti<br><span>u Zagrebu</span></h1>
+      <p class="meta" id="meta"></p>
+    </div>
+    <div class="quick" id="quick"></div>
+  </div>
+</header>
+
+<div class="bar">
+  <div class="wrap">
+    <div class="row">
+      <label class="search" for="q">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="Izvođač, prostor…" autocomplete="off">
+      </label>
+      <select id="venue" aria-label="Prostor"></select>
+      <nav class="views" aria-label="Prikaz">
+        <a href="#popis" id="v-popis">Popis</a>
+        <a href="#kalendar" id="v-kalendar">Kalendar</a>
+      </nav>
+    </div>
+    <div class="row">
+      <div class="chips" id="genres" role="group" aria-label="Žanr"></div>
+    </div>
+    <div class="row">
+      <label class="toggle"><input type="checkbox" id="hideSold"> Sakrij rasprodane</label>
+      <label class="toggle"><input type="checkbox" id="freeOnly"> Samo besplatni</label>
+      <label class="toggle"><input type="checkbox" id="favOnly"> Samo moji koncerti</label>
+    </div>
+  </div>
+</div>
+
+<main class="wrap">
+  <div class="status"><span id="count"></span><button id="reset" type="button">Poništi filtre</button></div>
+  <div id="out"></div>
+</main>
+
+<footer class="wrap">
+  <p><strong>Izvori:</strong> službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…) i agregatori poput Songkicka. Podaci se automatski osvježavaju svaki dan.</p>
+  <p>Datumi i cijene mogu se promijeniti, pa prije kupnje ulaznice provjeri kod organizatora (poveznica „Izvor” uz svaki koncert).</p>
+</footer>
+
+<script>
+const DATA = /*__DATA__*/{"updated": "2026-11-08", "venues": {"arena": {"name": "Arena Zagreb", "address": "Ulica Vice Vukova 8", "aliases": ["Arena Zagreb", "Zagreb Arena"]}, "lisinski": {"name": "Lisinski", "address": "Trg Stjepana Radića 4", "full": "Koncertna dvorana Vatroslava Lisinskog", "aliases": ["Koncertna dvorana Vatroslava Lisinskog", "Vatroslav Lisinski", "Lisinski"]}, "lisV": {"name": "Lisinski – Velika dvorana", "address": "Trg Stjepana Radića 4", "group": "lisinski"}, "lisM": {"name": "Lisinski – Mala dvorana", "address": "Trg Stjepana Radića 4", "group": "lisinski"}, "tvornica": {"name": "Tvornica kulture", "address": "Šubićeva 2", "aliases": ["Tvornica kulture", "Culture Factory", "Tvornica"]}, "boogaloo": {"name": "Boogaloo", "address": "Ulica grada Vukovara 68", "aliases": ["Boogaloo Club", "Boogaloo"]}, "mocvara": {"name": "Močvara", "address": "Trnjanski nasip bb", "aliases": ["Klub Močvara", "Club Mochvara", "Močvara", "Mochvara"]}, "vintage": {"name": "Vintage Industrial Bar", "address": "Savska cesta 160", "aliases": ["Vintage Industrial Bar", "Vintage"]}, "medika": {"name": "AKC Medika (Attack!)", "address": "Pierottijeva 11", "aliases": ["AKC Medika", "AKC Attack", "Attack!", "Medika"]}, "dvaosam": {"name": "Dva Osam", "address": "Jabukovac 28", "aliases": ["Dva Osam", "Jabukovac 28"]}, "bocarski": {"name": "Boćarski dom", "address": "Prisavlje 2", "aliases": ["Boćarski dom"]}, "primarius": {"name": "Primarius", "address": "", "aliases": ["Primarius"]}, "hardplace": {"name": "Hard Place", "address": "", "aliases": ["Hard Place"]}, "salata": {"name": "SRC Šalata", "address": "", "aliases": ["SRC Šalata", "Šalata"]}}, "events": [{"date": "2026-11-08", "time": "18:00", "title": "Finale 48. smotre folklornih amatera grada Zagreba", "venue": "lisV", "genre": "trad", "price": "15 / 20 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-08", "time": "", "title": "Kim Salmon's Smoked Salmon", "venue": "mocvara", "genre": "rock", "price": "20 € (25 € na dan)", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-09", "time": "20:00", "title": "UNICEF humanitarni gala koncert „80 godina u ritmu nade”", "venue": "lisV", "genre": "klasika", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-09", "time": "", "title": "Sólstafir + Moraines", "venue": "mocvara", "genre": "metal", "price": "29–35 €", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-10", "time": "19:00", "title": "Mladi za mlade: laureati natjecanja (HGM)", "venue": "lisM", "genre": "klasika", "price": "10 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-10", "time": "20:00", "title": "Branford Marsalis & Dianne Reeves slave Johna Coltranea", "venue": "lisV", "genre": "jazz", "price": "40 / 55 / 70 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-10", "time": "20:00", "title": "Dočekaj Martinja uz Gustafe", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-11", "time": "20:00", "title": "David Temelkov", "venue": "tvornica", "genre": "pop", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-11", "time": "20:00", "title": "Lisinski srijedom: Magalí Sare & Manel Fortià", "venue": "lisM", "genre": "world", "price": "22 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-11", "time": "", "title": "Podrži scenu!: Mladen, Pozeri, Felina", "venue": "mocvara", "genre": "alt", "price": "besplatno", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-12", "time": "19:30", "title": "Majstorski ciklus HRT: Nemir i zanos ljubavi (Kajana Pačko, violončelo)", "venue": "lisV", "genre": "klasika", "price": "13 / 18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-12", "time": "20:00", "title": "Kolt Teatar, Balkan Funk Experiment, Aleksandar Stajčić Band", "venue": "dvaosam", "genre": "world", "price": "10 € (studenti 6 €)", "url": "https://dvaosam.com/"}, {"date": "2026-11-12", "time": "", "title": "Officium Triste, The Answer Lies in the Black Void, Mortajas", "venue": "mocvara", "genre": "metal", "price": "15 € (18 € na dan)", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-13", "time": "19:30", "title": "Zagrebačka filharmonija – Plavi ciklus (Orest Shourgot, violina)", "venue": "lisV", "genre": "klasika", "price": "18 / 24 / 27 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-13", "time": "20:00", "title": "Clan of Xymox", "venue": "tvornica", "genre": "alt", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-13", "time": "21:00", "title": "KSET: Britni i Panterski x Viking Krew", "venue": "medika", "genre": "alt", "price": "10 € (12 € na dan)", "url": "https://www.kset.org/"}, {"date": "2026-11-13", "time": "23:00", "title": "Dark Dance Dejavu – Clan of Xymox afterparty (DJ Ivan Krželj)", "venue": "dvaosam", "genre": "dj", "price": "8 € (5 € s ulaznicom za Clan of Xymox)", "url": "https://dvaosam.com/"}, {"date": "2026-11-13", "time": "", "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81", "venue": "mocvara", "genre": "jazz", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-13", "time": "", "title": "Kamelot + Exit Eden + Temperance", "venue": "boogaloo", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-14", "time": "19:30", "title": "Lisinski subotom: Nikolaj Lugansky, glasovir", "venue": "lisV", "genre": "klasika", "price": "40 / 50 / 60 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-14", "time": "20:00", "title": "Let 3", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-14", "time": "", "title": "Cockney Rejects", "venue": "primarius", "genre": "punk", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-14", "time": "", "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi", "venue": "medika", "genre": "dj", "price": "", "url": "https://attack.hr/"}, {"date": "2026-11-14", "time": "", "title": "Zagreb Disco Festival 2026", "venue": "boogaloo", "genre": "elektro", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-15", "time": "10:00", "title": "Jojo i prijatelji (i u 12:30)", "venue": "tvornica", "genre": "djeca", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-15", "time": "20:00", "title": "Flamenco en vivo! feat. La Lupi", "venue": "lisM", "genre": "world", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-15", "time": "20:00", "title": "Najbolji hrvatski tamburaši", "venue": "lisV", "genre": "trad", "price": "30 / 35 / 40 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-15", "time": "", "title": "Još gori", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-17", "time": "20:00", "title": "Yamato – The Drummers of Japan", "venue": "lisV", "genre": "world", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-17", "time": "", "title": "The Cassandra Complex", "venue": "boogaloo", "genre": "elektro", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-18", "time": "20:00", "title": "The Darts (US)", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-19", "time": "20:00", "title": "Chansonfest 2026", "venue": "lisM", "genre": "pop", "price": "20 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-19", "time": "20:00", "title": "Tomislav Bralić i klapa Intrade – 20 godina", "venue": "lisV", "genre": "trad", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-19", "time": "21:00", "title": "Sea Sound Party: Hornsman Coyote, Anja G & Dr. Obi (live)", "venue": "dvaosam", "genre": "world", "price": "15 € (18 € na dan)", "url": "https://dvaosam.com/"}, {"date": "2026-11-20", "time": "19:30", "title": "André Rieu", "venue": "arena", "genre": "klasika", "price": "od 66 €", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-20", "time": "19:30", "title": "Zagrebačka filharmonija – Crveni ciklus (Sebastian Manz, klarinet)", "venue": "lisV", "genre": "klasika", "price": "18 / 24 / 27 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-20", "time": "20:00", "title": "Psihomodo Pop", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-20", "time": "23:00", "title": "In Aeternum + The Chameleons afterparty (DJ Mila Car)", "venue": "dvaosam", "genre": "dj", "price": "6 € (8 € na dan)", "url": "https://dvaosam.com/"}, {"date": "2026-11-20", "time": "", "title": "SOUND2LOUD: SAGA 1", "venue": "medika", "genre": "dj", "price": "", "url": "https://attack.hr/"}, {"date": "2026-11-20", "time": "", "title": "Stereo Deficit", "venue": "vintage", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-20", "time": "", "title": "The Chameleons", "venue": "boogaloo", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-21", "time": "19:00", "title": "Lisinski da camera: Kvartet Papandopulo", "venue": "lisM", "genre": "klasika", "price": "20 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-21", "time": "20:00", "title": "Jura Stublić & Film", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-21", "time": "20:00", "title": "KSET: Idu Hobiti – promocija albuma „Idu dalje”", "venue": "mocvara", "genre": "alt", "price": "12 € (15 € na dan)", "url": "https://www.kset.org/"}, {"date": "2026-11-21", "time": "20:00", "title": "Zabranjeno pušenje kao Neuštekani", "venue": "lisV", "genre": "rock", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-21", "time": "22:00", "title": "Open Heart K-pop Party", "venue": "dvaosam", "genre": "dj", "price": "5 € (7 € na dan)", "url": "https://dvaosam.com/"}, {"date": "2026-11-21", "time": "", "title": "Future Scope: Deep Dish", "venue": "boogaloo", "genre": "dj", "price": "", "url": "https://insite-croatia.com/?p=20511"}, {"date": "2026-11-22", "time": "19:30", "title": "Festival klapa Omiš: „Pismo moja, hrli tamo”", "venue": "lisV", "genre": "trad", "price": "20 / 25 / 30 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-22", "time": "19:30", "title": "Sarah Brightman", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-22", "time": "", "title": "Picastro", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-23", "time": "", "title": "Munly & The Lupercalians", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-11-24", "time": "20:00", "title": "Guitarra Viva: Hrvatski gitarski kvartet", "venue": "lisM", "genre": "klasika", "price": "13 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-24", "time": "20:00", "title": "Tomislav Bralić i klapa Intrade (drugi koncert)", "venue": "lisV", "genre": "trad", "price": "32–59 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-24", "time": "", "title": "Arab Strap", "venue": "vintage", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-24", "time": "", "title": "Lion's Law", "venue": "boogaloo", "genre": "punk", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-24", "time": "", "title": "Plattenbau", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-24", "time": "", "title": "The Riven", "venue": "hardplace", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-24", "time": "", "title": "The Witcher in Concert", "venue": "arena", "genre": "klasika", "price": "", "url": "https://www.concertarchives.org/venues/arena-zagreb--3"}, {"date": "2026-11-25", "time": "20:00", "title": "KSET: Dunjaluk", "venue": "vintage", "genre": "alt", "price": "12 € (15 € na dan)", "url": "https://www.kset.org/"}, {"date": "2026-11-25", "time": "20:00", "title": "Marko Vukeš – prvi samostalni koncert", "venue": "tvornica", "genre": "pop", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-25", "time": "20:00", "title": "Zubi, Bogec, Masna Repchuga, Take The Tides", "venue": "dvaosam", "genre": "punk", "price": "7 € (10 € na dan)", "url": "https://dvaosam.com/"}, {"date": "2026-11-26", "time": "19:30", "title": "Majstorski ciklus HRT: Simfonijski jazz (Makoto Ozone, glasovir)", "venue": "lisV", "genre": "jazz", "price": "13 / 18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-26", "time": "20:00", "title": "Nikola Vranjković", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-26", "time": "", "title": "Portrayal of Guilt", "venue": "medika", "genre": "punk", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-27", "time": "19:30", "title": "FEELharmonija: Tajne velikih majstora", "venue": "lisV", "genre": "klasika", "price": "besplatno", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-27", "time": "21:00", "title": "Zoster", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-28", "time": "19:30", "title": "Lisinski subotom: Bečki simfoničari (Petr Popelka, Mao Fujita)", "venue": "lisV", "genre": "klasika", "price": "40 / 50 / 60 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-28", "time": "20:00", "title": "Matija Cvek", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-28", "time": "20:00", "title": "Nikola Kojo: „Kako sam prestao da pevam pod tušem”", "venue": "tvornica", "genre": "pop", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-29", "time": "17:00", "title": "30. Hrvatski dječji festival", "venue": "lisV", "genre": "djeca", "price": "20 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-11-29", "time": "20:00", "title": "Kovacs", "venue": "tvornica", "genre": "pop", "price": "", "url": "https://www.tvornicakulture.com/"}, {"date": "2026-11-29", "time": "", "title": "Altın Gün", "venue": "tvornica", "genre": "world", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-11-30", "time": "19:30", "title": "Ansambl LADO: „Vrijeme plesa”", "venue": "lisV", "genre": "trad", "price": "22 / 28 / 33 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-01", "time": "20:00", "title": "Emilia Rukavina (mezzosopran) i David Vuković (glasovir)", "venue": "lisM", "genre": "klasika", "price": "15 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-02", "time": "19:30", "title": "Ansambl LADO: „Vrijeme plesa”", "venue": "lisV", "genre": "trad", "price": "22 / 28 / 33 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-02", "time": "20:00", "title": "Lisinski srijedom: Afro Gitano", "venue": "lisM", "genre": "world", "price": "25 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-03", "time": "", "title": "Eagle-Eye Cherry", "venue": "boogaloo", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-12-03", "time": "", "title": "Foltin", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-12-04", "time": "19:30", "title": "Zagrebačka filharmonija – Plavi ciklus (Dejan Lazić, glasovir)", "venue": "lisV", "genre": "klasika", "price": "18 / 24 / 27 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-04", "time": "20:00", "title": "Željko Joksimović", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.concertarchives.org/venues/arena-zagreb--3"}, {"date": "2026-12-05", "time": "19:00", "title": "Lisinski da camera: Bontek, Andrejaš, Leskovar, Filjak", "venue": "lisM", "genre": "klasika", "price": "20 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-05", "time": "20:00", "title": "Josipa Lisac", "venue": "lisV", "genre": "pop", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-06", "time": "10:00", "title": "Jacques Houdek: „Kad si sretan” (i u 12:30)", "venue": "lisV", "genre": "djeca", "price": "25 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-06", "time": "", "title": "Föllakzoid + Beau Wanzer", "venue": "mocvara", "genre": "elektro", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-12-07", "time": "", "title": "UREDDA", "venue": "mocvara", "genre": "elektro", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-12-08", "time": "20:00", "title": "Perpetuum Jazzile", "venue": "lisV", "genre": "jazz", "price": "36–55 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-08", "time": "", "title": "Desire, MOTHERMARY, Johnny Jewel", "venue": "mocvara", "genre": "elektro", "price": "", "url": "https://www.mochvara.hr/"}, {"date": "2026-12-09", "time": "20:00", "title": "Lisinski srijedom: Izvorišta Dunije", "venue": "lisM", "genre": "world", "price": "22 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-10", "time": "19:30", "title": "Majstorski ciklus HRT: Ljetni povjetarac, ledena svjetlost (Mayumi Kanagawa)", "venue": "lisV", "genre": "klasika", "price": "13–18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-11", "time": "20:00", "title": "Lang Lang i Zagrebačka filharmonija", "venue": "lisV", "genre": "klasika", "price": "80–200 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-12", "time": "19:00", "title": "Zagrebački solisti: Kevin Zhu, violina", "venue": "lisM", "genre": "klasika", "price": "18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-12", "time": "20:00", "title": "Dražen Zečić", "venue": "arena", "genre": "narodna", "price": "", "url": "https://www.concertarchives.org/venues/arena-zagreb--3"}, {"date": "2026-12-13", "time": "19:00", "title": "Rezidenti Muza: Ivan Petrović-Poljak, glasovir", "venue": "lisM", "genre": "klasika", "price": "10 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-14", "time": "", "title": "Týr", "venue": "boogaloo", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-12-15", "time": "19:30", "title": "Zagrebački kvartet – 108. sezona", "venue": "lisM", "genre": "klasika", "price": "15 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-17", "time": "", "title": "Avatar", "venue": "boogaloo", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-12-18", "time": "19:30", "title": "Zagrebačka filharmonija – Crveni ciklus: Antiphonus", "venue": "lisV", "genre": "klasika", "price": "18–27 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-19", "time": "19:30", "title": "Ansambl Cantus – 25. obljetnica", "venue": "lisV", "genre": "klasika", "price": "32–48 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-19", "time": "20:00", "title": "KSET50: Mašinko + Žasu", "venue": "vintage", "genre": "punk", "price": "14 € (18 € na dan)", "url": "https://www.kset.org/"}, {"date": "2026-12-19", "time": "21:00", "title": "Miroslav Škoro", "venue": "arena", "genre": "narodna", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-12-19", "time": "", "title": "Siniša Tamamović", "venue": "boogaloo", "genre": "narodna", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2026-12-20", "time": "20:00", "title": "Vlatko Stefanovski & Friends: Acoustic Night", "venue": "lisV", "genre": "world", "price": "37–50 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-22", "time": "10:00", "title": "Zagrebačka filharmonija – Minimini: Božić kod zimogroznih", "venue": "lisM", "genre": "djeca", "price": "10 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-23", "time": "20:00", "title": "Josipa Lisac", "venue": "lisV", "genre": "pop", "price": "rasprodano", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-29", "time": "20:00", "title": "Dan dvorane 2026", "venue": "lisV", "genre": "klasika", "price": "30–40 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2026-12-30", "time": "20:00", "title": "Filharmonijski bal", "venue": "lisV", "genre": "klasika", "price": "30–50 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-15", "time": "", "title": "Acid Arab", "venue": "boogaloo", "genre": "elektro", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-01-16", "time": "19:00", "title": "Zagrebački solisti: Petrit Çeku, gitara", "venue": "lisM", "genre": "klasika", "price": "18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-19", "time": "20:00", "title": "Guitarra Viva: Lovro Peretić", "venue": "lisM", "genre": "klasika", "price": "13 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-20", "time": "", "title": "Christopher Robin Cox and Powercords", "venue": "mocvara", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-01-21", "time": "19:30", "title": "Kanconijer: Fantom slobode (Zbor i Simfonijski orkestar HRT-a)", "venue": "lisV", "genre": "klasika", "price": "13–18 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-23", "time": "20:00", "title": "Džo Maračić Maki: Uspomene koje traju", "venue": "lisV", "genre": "pop", "price": "30–45 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-23", "time": "", "title": "Miroslav Ilić", "venue": "arena", "genre": "narodna", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-01-26", "time": "20:00", "title": "Trio BMI", "venue": "lisM", "genre": "klasika", "price": "15 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-27", "time": "20:00", "title": "Lisinski srijedom: Chui & Jazz orkestar HRT-a", "venue": "lisM", "genre": "jazz", "price": "25 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-01-28", "time": "20:00", "title": "Zabranjeno pušenje kao Neuštekani", "venue": "lisV", "genre": "rock", "price": "28–45 €", "url": "https://www.lisinski.hr/hr/dogadanja/"}, {"date": "2027-02-02", "time": "", "title": "Hollywood Undead", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-02-04", "time": "", "title": "Editors", "venue": "bocarski", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-02-28", "time": "", "title": "СОЮЗ (Sojuz)", "venue": "mocvara", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-06", "time": "", "title": "Natali Dizdar", "venue": "lisinski", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-10", "time": "", "title": "Leo Middea", "venue": "boogaloo", "genre": "world", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-12", "time": "", "title": "Warhaus", "venue": "vintage", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-15", "time": "", "title": "Soen", "venue": "boogaloo", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-17", "time": "", "title": "The Rasmus", "venue": "tvornica", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-03-19", "time": "", "title": "David Morales", "venue": "boogaloo", "genre": "elektro", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-03", "time": "", "title": "Lexington", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-12", "time": "", "title": "Katatonia", "venue": "boogaloo", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-13", "time": "", "title": "Tindersticks", "venue": "lisinski", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-15", "time": "", "title": "The Pineapple Thief", "venue": "boogaloo", "genre": "rock", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-15", "time": "", "title": "This is Michael", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-04-24", "time": "", "title": "16 Horsepower", "venue": "tvornica", "genre": "alt", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-05-02", "time": "", "title": "Tarja", "venue": "tvornica", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-06-25", "time": "", "title": "Bruce Dickinson", "venue": "salata", "genre": "metal", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}, {"date": "2027-11-30", "time": "20:00", "title": "Laura Pausini – Io Canto World Tour", "venue": "arena", "genre": "pop", "price": "", "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"}]};
+const UPDATED = DATA.updated;
+const VENUES = Object.fromEntries(Object.entries(DATA.venues).map(([k,v])=>[k,{n:v.name, a:v.address||"", full:v.full, group:v.group}]));
+const GENRES = {
+  rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", pop:"Pop", narodna:"Narodna",
+  elektro:"Elektronika", dj:"DJ party", jazz:"Jazz", klasika:"Klasika", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
+};
+
+const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
+  const v = VENUES[r.venue];
+  return {id:"e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24), date:r.date, time:r.time||"", artist:r.title, vkey:r.venue, vgroup:v.group||r.venue,
+    venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url,
+    sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
+}).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
+
+const DAYS = ["nedjelja","ponedjeljak","utorak","srijeda","četvrtak","petak","subota"];
+const DAYS_S = ["Pon","Uto","Sri","Čet","Pet","Sub","Ned"];
+const MONTHS = ["siječnja","veljače","ožujka","travnja","svibnja","lipnja","srpnja","kolovoza","rujna","listopada","studenoga","prosinca"];
+const MONTHS_N = ["Siječanj","Veljača","Ožujak","Travanj","Svibanj","Lipanj","Srpanj","Kolovoz","Rujan","Listopad","Studeni","Prosinac"];
+
+// helpers
+const pad = n => String(n).padStart(2,"0");
+const iso = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
+const parse = s => { const [y,m,d]=s.split("-").map(Number); return new Date(y,m-1,d); };
+const addDays = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
+
+const TODAY = iso(new Date());
+function ranges(){
+  const t = parse(TODAY), dow = (t.getDay()+6)%7; // 0 = pon
+  const weekEnd = addDays(t, 6-dow);
+  const friday = addDays(t, Math.max(0,4-dow));
+  const monthEnd = new Date(t.getFullYear(), t.getMonth()+1, 0);
+  return {
+    danas:  {label:"Danas", from:TODAY, to:TODAY},
+    vikend: {label:"Ovaj vikend", from: dow>=4 ? TODAY : iso(friday), to: iso(weekEnd)},
+    tjedan: {label:"Sljedećih 7 dana", from:TODAY, to: iso(addDays(t,6))},
+    mjesec: {label:"Do kraja mjeseca", from:TODAY, to: iso(monthEnd)}
+  };
+}
+const R = ranges();
+
+// state
+let favs = new Set();
+try { favs = new Set(JSON.parse(localStorage.getItem("kz-fav")||"[]")); } catch(e) {}
+const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} };
+const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, calMonth:null, day:""};
+
+const upcoming = EVENTS.filter(e => e.date >= TODAY);
+
+function match(e, ignoreRange){
+  if (S.q){ const q=S.q.toLowerCase(); if(!(e.artist+" "+e.venue).toLowerCase().includes(q)) return false; }
+  if (S.venue && e.vgroup!==S.venue && e.vkey!==S.venue) return false;
+  if (S.genres.size && !S.genres.has(e.genre)) return false;
+  if (S.hideSold && e.sold) return false;
+  if (S.freeOnly && !e.free) return false;
+  if (S.favOnly && !favs.has(e.id)) return false;
+  if (!ignoreRange){
+    if (S.day && e.date!==S.day) return false;
+    if (S.range){ const r=R[S.range]; if(e.date<r.from||e.date>r.to) return false; }
+  }
+  return true;
+}
+
+// header
+const venueCount = new Set(upcoming.map(e=>e.vgroup)).size;
+const u = parse(UPDATED);
+document.getElementById("meta").innerHTML =
+  `<strong>${upcoming.length} koncerata</strong> u ${venueCount} prostora, od Arene do Močvare. Podaci od ${u.getDate()}. ${MONTHS[u.getMonth()]} ${u.getFullYear()}.`;
+
+function renderQuick(){
+  const el = document.getElementById("quick");
+  el.innerHTML = Object.entries(R).map(([k,r])=>{
+    const n = upcoming.filter(e=>e.date>=r.from && e.date<=r.to && match(e,true)).length;
+    return `<button class="qbtn" type="button" data-range="${k}" aria-pressed="${S.range===k}"><b>${n}</b><small>${r.label}</small></button>`;
+  }).join("");
+}
+document.getElementById("quick").addEventListener("click", ev=>{
+  const b = ev.target.closest("[data-range]"); if(!b) return;
+  S.range = S.range===b.dataset.range ? "" : b.dataset.range; S.day=""; render();
+});
+
+// venue select
+(function(){
+  const groups = {};
+  upcoming.forEach(e=>{ groups[e.vgroup]=(groups[e.vgroup]||0)+1; });
+  const name = k => k==="lisinski" ? "Lisinski" : VENUES[k].n;
+  const opts = Object.keys(groups).sort((a,b)=>groups[b]-groups[a]);
+  document.getElementById("venue").innerHTML = `<option value="">Svi prostori</option>` +
+    opts.map(k=>`<option value="${k}">${esc(name(k))} (${groups[k]})</option>`).join("");
+})();
+document.getElementById("venue").addEventListener("change", e=>{ S.venue=e.target.value; render(); });
+
+// genre chips
+(function(){
+  const counts = {}; upcoming.forEach(e=>counts[e.genre]=(counts[e.genre]||0)+1);
+  const keys = Object.keys(GENRES).filter(k=>counts[k]).sort((a,b)=>counts[b]-counts[a]);
+  document.getElementById("genres").innerHTML = keys.map(k=>`<button type="button" class="chip" data-g="${k}" aria-pressed="false">${GENRES[k]}</button>`).join("");
+})();
+document.getElementById("genres").addEventListener("click", ev=>{
+  const b = ev.target.closest("[data-g]"); if(!b) return;
+  const g=b.dataset.g; S.genres.has(g)?S.genres.delete(g):S.genres.add(g);
+  b.setAttribute("aria-pressed", S.genres.has(g)); render();
+});
+
+document.getElementById("q").addEventListener("input", e=>{ S.q=e.target.value.trim(); render(); });
+["hideSold","freeOnly","favOnly"].forEach(id=>document.getElementById(id).addEventListener("change", e=>{ S[id]=e.target.checked; render(); }));
+document.getElementById("reset").addEventListener("click", ()=>{
+  Object.assign(S,{q:"",venue:"",range:"",hideSold:false,freeOnly:false,favOnly:false,day:""}); S.genres.clear();
+  document.getElementById("q").value=""; document.getElementById("venue").value="";
+  ["hideSold","freeOnly","favOnly"].forEach(id=>document.getElementById(id).checked=false);
+  document.querySelectorAll("#genres .chip").forEach(c=>c.setAttribute("aria-pressed","false"));
+  render();
+});
+
+function gcalLink(e){
+  const d = e.date.replace(/-/g,"");
+  let dates;
+  if (e.time){
+    const [h,m] = e.time.split(":").map(Number);
+    const end = new Date(2000,0,1,h+3,m);
+    const endDay = (h+3>=24) ? iso(addDays(parse(e.date),1)).replace(/-/g,"") : d;
+    dates = `${d}T${pad(h)}${pad(m)}00/${endDay}T${pad(end.getHours())}${pad(end.getMinutes())}00`;
+  } else {
+    dates = `${d}/${iso(addDays(parse(e.date),1)).replace(/-/g,"")}`;
+  }
+  const p = new URLSearchParams({action:"TEMPLATE", text:e.artist, dates, ctz:"Europe/Zagreb",
+    location: e.venue + (e.addr? ", "+e.addr : "") + ", Zagreb", details:"Izvor: "+e.src});
+  return "https://calendar.google.com/calendar/render?"+p.toString();
+}
+const mapLink = e => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((VENUES[e.vkey].full||e.venue.replace(/ – .*/,""))+", "+(e.addr? e.addr+", ":"")+"Zagreb");
+
+function priceHTML(e){
+  if (e.sold) return `<span class="price sold">Rasprodano</span>`;
+  if (e.free) return `<span class="price free">Besplatno</span>`;
+  if (e.price) return `<span class="price">${esc(e.price)}</span>`;
+  return `<span class="price na">cijena kod organizatora</span>`;
+}
+const STAR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>`;
+const CAL = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>`;
+
+function evHTML(e){
+  const fav = favs.has(e.id);
+  return `<article class="ev">
+    <div class="time ${e.time?"":"none"}">${e.time||"—"}</div>
+    <div>
+      <h3>${esc(e.artist)}</h3>
+      <div class="sub"><a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}</a><span class="tag">${GENRES[e.genre]}</span><a href="${e.src}" target="_blank" rel="noopener">Izvor</a></div>
+    </div>
+    <div class="side">
+      ${priceHTML(e)}
+      <div class="acts">
+        <a class="icon" href="${gcalLink(e)}" target="_blank" rel="noopener" title="Dodaj u Google kalendar" aria-label="Dodaj ${esc(e.artist)} u Google kalendar">${CAL}</a>
+        <button class="icon fav" type="button" data-fav="${e.id}" aria-pressed="${fav}" title="${fav?"Makni iz mojih koncerata":"Spremi u moje koncerte"}" aria-label="Spremi ${esc(e.artist)}">${STAR}</button>
+      </div>
+    </div>
+  </article>`;
+}
+
+function relLabel(date){
+  if (date===TODAY) return "Danas";
+  if (date===iso(addDays(parse(TODAY),1))) return "Sutra";
+  return "";
+}
+
+function renderList(list){
+  if (!list.length) return `<div class="empty">Nema koncerata za ove filtre. Probaj maknuti neki filtar.</div>`;
+  const byDay = {};
+  list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
+  return Object.entries(byDay).map(([d,evs])=>{
+    const dt=parse(d);
+    const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
+    return `<section class="day"><div class="dayhead"><span class="dnum">${dt.getDate()}.</span><span class="dname">${MONTHS[dt.getMonth()]}${yr} · ${DAYS[dt.getDay()]}</span><span class="rel">${relLabel(d)}</span></div>${evs.map(evHTML).join("")}</section>`;
+  }).join("");
+}
+
+function renderCal(list){
+  if (!S.calMonth){ const t=parse(TODAY); S.calMonth=[t.getFullYear(),t.getMonth()]; }
+  const [y,m]=S.calMonth;
+  const first=new Date(y,m,1), start=addDays(first,-((first.getDay()+6)%7));
+  const byDay={}; list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
+  let cells="";
+  for(let i=0;i<42;i++){
+    const d=addDays(start,i), k=iso(d), evs=byDay[k]||[], out=d.getMonth()!==m;
+    if (i>=35 && out) break;
+    const cls=["cell", out?"out":"", k<TODAY?"past":"", k===TODAY?"today":""].join(" ");
+    const items=evs.slice(0,3).map(e=>`<span class="it">${esc(e.artist)}</span>`).join("");
+    const more=evs.length>3?`<span class="more">+${evs.length-3} još</span>`:"";
+    cells+=`<button type="button" class="${cls}" ${out||!evs.length?"disabled":""} data-day="${k}" aria-label="${d.getDate()}. ${MONTHS[d.getMonth()]}: ${evs.length} koncerata"><span class="n">${d.getDate()}</span>${evs.length?`<span class="cnt">${evs.length}</span>`:""}${items}${more}</button>`;
+  }
+  const sel = S.day ? renderList(list.filter(e=>e.date===S.day)) : `<p class="empty" style="padding:20px 0">Klikni dan za popis koncerata.</p>`;
+  return `<div class="cal"><div class="calhead"><button class="icon" type="button" data-mon="-1" aria-label="Prethodni mjesec">‹</button><h2>${MONTHS_N[m]} ${y}.</h2><button class="icon" type="button" data-mon="1" aria-label="Sljedeći mjesec">›</button></div>
+  <div class="grid">${DAYS_S.map(d=>`<div class="wd">${d}</div>`).join("")}${cells}</div>${sel}</div>`;
+}
+
+const out = document.getElementById("out");
+out.addEventListener("click", ev=>{
+  const f=ev.target.closest("[data-fav]");
+  if (f){ const id=f.dataset.fav; favs.has(id)?favs.delete(id):favs.add(id); saveFavs(); render(); return; }
+  const mo=ev.target.closest("[data-mon]");
+  if (mo){ let [y,m]=S.calMonth; m+=Number(mo.dataset.mon); if(m<0){m=11;y--;} if(m>11){m=0;y++;} S.calMonth=[y,m]; S.day=""; render(); return; }
+  const dc=ev.target.closest("[data-day]");
+  if (dc && !dc.disabled){ S.day = S.day===dc.dataset.day ? "" : dc.dataset.day; render(); }
+});
+
+function view(){ return location.hash==="#kalendar" ? "kalendar" : "popis"; }
+function render(){
+  const v=view();
+  document.getElementById("v-popis").toggleAttribute("aria-current", v==="popis");
+  document.getElementById("v-kalendar").toggleAttribute("aria-current", v==="kalendar");
+  if (v==="popis") document.getElementById("v-popis").setAttribute("aria-current","page"); else document.getElementById("v-kalendar").setAttribute("aria-current","page");
+  renderQuick();
+  const list = upcoming.filter(e=>match(e, v==="kalendar"));
+  const n = list.length, n10 = n%10, n100 = n%100;
+  const word = (n10===1 && n100!==11) ? "koncert" : (n10>=2 && n10<=4 && (n100<12 || n100>14)) ? "koncerta" : "koncerata";
+  document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
+  const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.day;
+  document.getElementById("reset").hidden = !filtered;
+  out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list);
+}
+window.addEventListener("hashchange", ()=>{ S.day=""; render(); });
+render();
+</script>
+</body>
+</html>

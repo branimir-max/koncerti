@@ -1,0 +1,52 @@
+"""Popis izvora. Novi prostor = novi unos ovdje (i po potrebi u data/venues.json).
+
+Polja:
+  key        – kratko ime izvora (ime datoteke u data/scraped/)
+  urls       – stranice s programom
+  venue      – ključ prostora; None ako izvor pokriva više prostora (tada se prostor
+               prepoznaje iz teksta događaja ili iz JSON-LD lokacije)
+  genre      – zadani žanr ako ga ne prepoznamo iz naslova
+  card       – CSS selektor kartice događaja (neobavezno; bez njega radi heuristika)
+  exclude    – riječi zbog kojih se događaj preskače (kazalište, predavanja…)
+  dj_words   – riječi po kojima je događaj DJ party
+"""
+
+THEATRE = ["predstava", "komedija", "mjuzikl", "balet", "teorija glazbe", "predavanje",
+           "radionica", "stand-up", "stand up", "film", "izložba", "kviz", "poezij"]
+DJ = ["dj ", "dj:", "party", "afterparty", "after party", "sound system", "hi-fi", "rave", "techno night"]
+
+SOURCES = [
+    {"key": "lisinski", "venue": "lisinski", "genre": "klasika", "exclude": THEATRE,
+     "urls": [f"https://www.lisinski.hr/hr/dogadanja/?page={i}" for i in range(1, 6)],
+     "halls": {"velika dvorana": "lisV", "mala dvorana": "lisM"}},
+    {"key": "tvornica", "venue": "tvornica", "exclude": THEATRE,
+     "urls": ["https://www.tvornicakulture.com/"]},
+    {"key": "mocvara", "venue": "mocvara", "exclude": THEATRE, "dj_words": DJ,
+     "urls": ["https://www.mochvara.hr/"]},
+    {"key": "dvaosam", "venue": "dvaosam", "exclude": THEATRE, "dj_words": DJ,
+     "urls": ["https://dvaosam.com/"]},
+    {"key": "kset", "venue": None, "exclude": THEATRE, "dj_words": DJ, "title_prefix": "KSET: ",
+     "default_venue": "kset", "urls": ["https://www.kset.org/"]},
+    {"key": "attack", "venue": "medika", "exclude": THEATRE, "dj_words": DJ,
+     "urls": ["https://attack.hr/"]},
+    {"key": "boogaloo", "venue": "boogaloo", "dj_words": DJ,
+     "urls": ["https://www.boogaloozagreb.com/"]},
+    {"key": "vintage", "venue": "vintage", "dj_words": DJ,
+     "urls": ["https://vintageindustrial-bar.com/"]},
+    # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
+    {"key": "songkick", "venue": None,
+     "urls": ["https://www.songkick.com/metro-areas/29037-croatia-zagreb",
+              "https://www.songkick.com/metro-areas/29037-croatia-zagreb?page=2"]},
+]
+
+# Ključne riječi za prepoznavanje žanra iz naslova (prvi pogodak pobjeđuje)
+GENRE_WORDS = [
+    ("djeca", ["za djecu", "dječji", "djecu", "minimini"]),
+    ("klasika", ["filharmonij", "simfonij", "orkestar", "kvartet", "glasovir", "violin", "solisti",
+                 "lisinski subotom", "da camera", "majstorski ciklus", "opera"]),
+    ("jazz", ["jazz"]),
+    ("trad", ["klapa", "tambur", "folklor", "lado"]),
+    ("metal", ["metal"]),
+    ("punk", ["punk", "hardcore"]),
+    ("dj", ["party", "afterparty", " dj", "dj ", "sound system", "hi-fi"]),
+]

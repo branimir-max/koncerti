@@ -1,0 +1,1211 @@
+{
+ "_note": "Ručno uneseni događaji (prostori bez automatskog izvora ili s nepouzdanim izvorom). Automatski skupljeni podaci imaju prednost kad se poklope.",
+ "events": [
+  {
+   "date": "2026-11-13",
+   "time": "23:00",
+   "title": "Dark Dance Dejavu – Clan of Xymox afterparty (DJ Ivan Krželj)",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "8 € (5 € s ulaznicom za Clan of Xymox)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "23:00",
+   "title": "In Aeternum + The Chameleons afterparty (DJ Mila Car)",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "6 € (8 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "",
+   "title": "SOUND2LOUD: SAGA 1",
+   "venue": "medika",
+   "genre": "dj",
+   "price": "",
+   "url": "https://attack.hr/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "22:00",
+   "title": "Open Heart K-pop Party",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "5 € (7 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Future Scope: Deep Dish",
+   "venue": "boogaloo",
+   "genre": "dj",
+   "price": "",
+   "url": "https://insite-croatia.com/?p=20511"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "20:00",
+   "title": "Kolt Teatar, Balkan Funk Experiment, Aleksandar Stajčić Band",
+   "venue": "dvaosam",
+   "genre": "world",
+   "price": "10 € (studenti 6 €)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "21:00",
+   "title": "KSET: Britni i Panterski x Viking Krew",
+   "venue": "medika",
+   "genre": "alt",
+   "price": "10 € (12 € na dan)",
+   "url": "https://www.kset.org/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "",
+   "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
+   "venue": "medika",
+   "genre": "dj",
+   "price": "",
+   "url": "https://attack.hr/"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "21:00",
+   "title": "Sea Sound Party: Hornsman Coyote, Anja G & Dr. Obi (live)",
+   "venue": "dvaosam",
+   "genre": "world",
+   "price": "15 € (18 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:00",
+   "title": "KSET: Idu Hobiti – promocija albuma „Idu dalje”",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "12 € (15 € na dan)",
+   "url": "https://www.kset.org/"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:00",
+   "title": "Zubi, Bogec, Masna Repchuga, Take The Tides",
+   "venue": "dvaosam",
+   "genre": "punk",
+   "price": "7 € (10 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:00",
+   "title": "KSET: Dunjaluk",
+   "venue": "vintage",
+   "genre": "alt",
+   "price": "12 € (15 € na dan)",
+   "url": "https://www.kset.org/"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "20:00",
+   "title": "KSET50: Mašinko + Žasu",
+   "venue": "vintage",
+   "genre": "punk",
+   "price": "14 € (18 € na dan)",
+   "url": "https://www.kset.org/"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "18:00",
+   "title": "Finale 48. smotre folklornih amatera grada Zagreba",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "15 / 20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-08",
+   "time": "",
+   "title": "Kim Salmon's Smoked Salmon",
+   "venue": "mocvara",
+   "genre": "rock",
+   "price": "20 € (25 € na dan)",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-09",
+   "time": "",
+   "title": "Sólstafir + Moraines",
+   "venue": "mocvara",
+   "genre": "metal",
+   "price": "29–35 €",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-09",
+   "time": "20:00",
+   "title": "UNICEF humanitarni gala koncert „80 godina u ritmu nade”",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "19:00",
+   "title": "Mladi za mlade: laureati natjecanja (HGM)",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "20:00",
+   "title": "Branford Marsalis & Dianne Reeves slave Johna Coltranea",
+   "venue": "lisV",
+   "genre": "jazz",
+   "price": "40 / 55 / 70 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-10",
+   "time": "20:00",
+   "title": "Dočekaj Martinja uz Gustafe",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "20:00",
+   "title": "Lisinski srijedom: Magalí Sare & Manel Fortià",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "22 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "20:00",
+   "title": "David Temelkov",
+   "venue": "tvornica",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "",
+   "title": "Podrži scenu!: Mladen, Pozeri, Felina",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "besplatno",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "19:30",
+   "title": "Majstorski ciklus HRT: Nemir i zanos ljubavi (Kajana Pačko, violončelo)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13 / 18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-12",
+   "time": "",
+   "title": "Officium Triste, The Answer Lies in the Black Void, Mortajas",
+   "venue": "mocvara",
+   "genre": "metal",
+   "price": "15 € (18 € na dan)",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "19:30",
+   "title": "Zagrebačka filharmonija – Plavi ciklus (Orest Shourgot, violina)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18 / 24 / 27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "20:00",
+   "title": "Clan of Xymox",
+   "venue": "tvornica",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "",
+   "title": "Kamelot + Exit Eden + Temperance",
+   "venue": "boogaloo",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "",
+   "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81",
+   "venue": "mocvara",
+   "genre": "jazz",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "19:30",
+   "title": "Lisinski subotom: Nikolaj Lugansky, glasovir",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "40 / 50 / 60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "20:00",
+   "title": "Let 3",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "",
+   "title": "Zagreb Disco Festival 2026",
+   "venue": "boogaloo",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "",
+   "title": "Cockney Rejects",
+   "venue": "primarius",
+   "genre": "punk",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "10:00",
+   "title": "Jojo i prijatelji (i u 12:30)",
+   "venue": "tvornica",
+   "genre": "djeca",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "20:00",
+   "title": "Flamenco en vivo! feat. La Lupi",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "20:00",
+   "title": "Najbolji hrvatski tamburaši",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "30 / 35 / 40 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "",
+   "title": "Još gori",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "20:00",
+   "title": "Yamato – The Drummers of Japan",
+   "venue": "lisV",
+   "genre": "world",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-17",
+   "time": "",
+   "title": "The Cassandra Complex",
+   "venue": "boogaloo",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-18",
+   "time": "20:00",
+   "title": "The Darts (US)",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "20:00",
+   "title": "Chansonfest 2026",
+   "venue": "lisM",
+   "genre": "pop",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-19",
+   "time": "20:00",
+   "title": "Tomislav Bralić i klapa Intrade – 20 godina",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:30",
+   "title": "André Rieu",
+   "venue": "arena",
+   "genre": "klasika",
+   "price": "od 66 €",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "19:30",
+   "title": "Zagrebačka filharmonija – Crveni ciklus (Sebastian Manz, klarinet)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18 / 24 / 27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "20:00",
+   "title": "Psihomodo Pop",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "",
+   "title": "The Chameleons",
+   "venue": "boogaloo",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "",
+   "title": "Stereo Deficit",
+   "venue": "vintage",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "19:00",
+   "title": "Lisinski da camera: Kvartet Papandopulo",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:00",
+   "title": "Zabranjeno pušenje kao Neuštekani",
+   "venue": "lisV",
+   "genre": "rock",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:00",
+   "title": "Jura Stublić & Film",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "19:30",
+   "title": "Sarah Brightman",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "19:30",
+   "title": "Festival klapa Omiš: „Pismo moja, hrli tamo”",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "20 / 25 / 30 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "",
+   "title": "Picastro",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-23",
+   "time": "",
+   "title": "Munly & The Lupercalians",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "title": "The Witcher in Concert",
+   "venue": "arena",
+   "genre": "klasika",
+   "price": "",
+   "url": "https://www.concertarchives.org/venues/arena-zagreb--3"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:00",
+   "title": "Guitarra Viva: Hrvatski gitarski kvartet",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "13 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:00",
+   "title": "Tomislav Bralić i klapa Intrade (drugi koncert)",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "32–59 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "title": "Arab Strap",
+   "venue": "vintage",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "title": "Lion's Law",
+   "venue": "boogaloo",
+   "genre": "punk",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "title": "Plattenbau",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "",
+   "title": "The Riven",
+   "venue": "hardplace",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:00",
+   "title": "Marko Vukeš – prvi samostalni koncert",
+   "venue": "tvornica",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "19:30",
+   "title": "Majstorski ciklus HRT: Simfonijski jazz (Makoto Ozone, glasovir)",
+   "venue": "lisV",
+   "genre": "jazz",
+   "price": "13 / 18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "20:00",
+   "title": "Nikola Vranjković",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-26",
+   "time": "",
+   "title": "Portrayal of Guilt",
+   "venue": "medika",
+   "genre": "punk",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "19:30",
+   "title": "FEELharmonija: Tajne velikih majstora",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "besplatno",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-27",
+   "time": "21:00",
+   "title": "Zoster",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "19:30",
+   "title": "Lisinski subotom: Bečki simfoničari (Petr Popelka, Mao Fujita)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "40 / 50 / 60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "20:00",
+   "title": "Matija Cvek",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-28",
+   "time": "20:00",
+   "title": "Nikola Kojo: „Kako sam prestao da pevam pod tušem”",
+   "venue": "tvornica",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "17:00",
+   "title": "30. Hrvatski dječji festival",
+   "venue": "lisV",
+   "genre": "djeca",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "20:00",
+   "title": "Kovacs",
+   "venue": "tvornica",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-29",
+   "time": "",
+   "title": "Altın Gün",
+   "venue": "tvornica",
+   "genre": "world",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-11-30",
+   "time": "19:30",
+   "title": "Ansambl LADO: „Vrijeme plesa”",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "22 / 28 / 33 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "20:00",
+   "title": "Emilia Rukavina (mezzosopran) i David Vuković (glasovir)",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "19:30",
+   "title": "Ansambl LADO: „Vrijeme plesa”",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "22 / 28 / 33 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-02",
+   "time": "20:00",
+   "title": "Lisinski srijedom: Afro Gitano",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "",
+   "title": "Eagle-Eye Cherry",
+   "venue": "boogaloo",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-12-03",
+   "time": "",
+   "title": "Foltin",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "19:30",
+   "title": "Zagrebačka filharmonija – Plavi ciklus (Dejan Lazić, glasovir)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18 / 24 / 27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-04",
+   "time": "20:00",
+   "title": "Željko Joksimović",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.concertarchives.org/venues/arena-zagreb--3"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "19:00",
+   "title": "Lisinski da camera: Bontek, Andrejaš, Leskovar, Filjak",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-05",
+   "time": "20:00",
+   "title": "Josipa Lisac",
+   "venue": "lisV",
+   "genre": "pop",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "10:00",
+   "title": "Jacques Houdek: „Kad si sretan” (i u 12:30)",
+   "venue": "lisV",
+   "genre": "djeca",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-06",
+   "time": "",
+   "title": "Föllakzoid + Beau Wanzer",
+   "venue": "mocvara",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-12-07",
+   "time": "",
+   "title": "UREDDA",
+   "venue": "mocvara",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "20:00",
+   "title": "Perpetuum Jazzile",
+   "venue": "lisV",
+   "genre": "jazz",
+   "price": "36–55 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "",
+   "title": "Desire, MOTHERMARY, Johnny Jewel",
+   "venue": "mocvara",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-12-09",
+   "time": "20:00",
+   "title": "Lisinski srijedom: Izvorišta Dunije",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "22 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "19:30",
+   "title": "Majstorski ciklus HRT: Ljetni povjetarac, ledena svjetlost (Mayumi Kanagawa)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "20:00",
+   "title": "Lang Lang i Zagrebačka filharmonija",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "80–200 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "19:00",
+   "title": "Zagrebački solisti: Kevin Zhu, violina",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "20:00",
+   "title": "Dražen Zečić",
+   "venue": "arena",
+   "genre": "narodna",
+   "price": "",
+   "url": "https://www.concertarchives.org/venues/arena-zagreb--3"
+  },
+  {
+   "date": "2026-12-13",
+   "time": "19:00",
+   "title": "Rezidenti Muza: Ivan Petrović-Poljak, glasovir",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-14",
+   "time": "",
+   "title": "Týr",
+   "venue": "boogaloo",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-12-15",
+   "time": "19:30",
+   "title": "Zagrebački kvartet – 108. sezona",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "",
+   "title": "Avatar",
+   "venue": "boogaloo",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-12-18",
+   "time": "19:30",
+   "title": "Zagrebačka filharmonija – Crveni ciklus: Antiphonus",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "19:30",
+   "title": "Ansambl Cantus – 25. obljetnica",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "32–48 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "21:00",
+   "title": "Miroslav Škoro",
+   "venue": "arena",
+   "genre": "narodna",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "",
+   "title": "Siniša Tamamović",
+   "venue": "boogaloo",
+   "genre": "narodna",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2026-12-20",
+   "time": "20:00",
+   "title": "Vlatko Stefanovski & Friends: Acoustic Night",
+   "venue": "lisV",
+   "genre": "world",
+   "price": "37–50 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-22",
+   "time": "10:00",
+   "title": "Zagrebačka filharmonija – Minimini: Božić kod zimogroznih",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "20:00",
+   "title": "Josipa Lisac",
+   "venue": "lisV",
+   "genre": "pop",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-29",
+   "time": "20:00",
+   "title": "Dan dvorane 2026",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "30–40 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-30",
+   "time": "20:00",
+   "title": "Filharmonijski bal",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "30–50 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-15",
+   "time": "",
+   "title": "Acid Arab",
+   "venue": "boogaloo",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-01-16",
+   "time": "19:00",
+   "title": "Zagrebački solisti: Petrit Çeku, gitara",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-19",
+   "time": "20:00",
+   "title": "Guitarra Viva: Lovro Peretić",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "13 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-20",
+   "time": "",
+   "title": "Christopher Robin Cox and Powercords",
+   "venue": "mocvara",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-01-21",
+   "time": "19:30",
+   "title": "Kanconijer: Fantom slobode (Zbor i Simfonijski orkestar HRT-a)",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-23",
+   "time": "20:00",
+   "title": "Džo Maračić Maki: Uspomene koje traju",
+   "venue": "lisV",
+   "genre": "pop",
+   "price": "30–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-23",
+   "time": "",
+   "title": "Miroslav Ilić",
+   "venue": "arena",
+   "genre": "narodna",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-01-26",
+   "time": "20:00",
+   "title": "Trio BMI",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-27",
+   "time": "20:00",
+   "title": "Lisinski srijedom: Chui & Jazz orkestar HRT-a",
+   "venue": "lisM",
+   "genre": "jazz",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-01-28",
+   "time": "20:00",
+   "title": "Zabranjeno pušenje kao Neuštekani",
+   "venue": "lisV",
+   "genre": "rock",
+   "price": "28–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2027-02-02",
+   "time": "",
+   "title": "Hollywood Undead",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-02-04",
+   "time": "",
+   "title": "Editors",
+   "venue": "bocarski",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-02-28",
+   "time": "",
+   "title": "СОЮЗ (Sojuz)",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-06",
+   "time": "",
+   "title": "Natali Dizdar",
+   "venue": "lisinski",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-10",
+   "time": "",
+   "title": "Leo Middea",
+   "venue": "boogaloo",
+   "genre": "world",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-12",
+   "time": "",
+   "title": "Warhaus",
+   "venue": "vintage",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-15",
+   "time": "",
+   "title": "Soen",
+   "venue": "boogaloo",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-17",
+   "time": "",
+   "title": "The Rasmus",
+   "venue": "tvornica",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-03-19",
+   "time": "",
+   "title": "David Morales",
+   "venue": "boogaloo",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-03",
+   "time": "",
+   "title": "Lexington",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-12",
+   "time": "",
+   "title": "Katatonia",
+   "venue": "boogaloo",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-13",
+   "time": "",
+   "title": "Tindersticks",
+   "venue": "lisinski",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-15",
+   "time": "",
+   "title": "This is Michael",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-15",
+   "time": "",
+   "title": "The Pineapple Thief",
+   "venue": "boogaloo",
+   "genre": "rock",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-04-24",
+   "time": "",
+   "title": "16 Horsepower",
+   "venue": "tvornica",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-05-02",
+   "time": "",
+   "title": "Tarja",
+   "venue": "tvornica",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-06-25",
+   "time": "",
+   "title": "Bruce Dickinson",
+   "venue": "salata",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  },
+  {
+   "date": "2027-11-30",
+   "time": "20:00",
+   "title": "Laura Pausini – Io Canto World Tour",
+   "venue": "arena",
+   "genre": "pop",
+   "price": "",
+   "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
+  }
+ ]
+}
