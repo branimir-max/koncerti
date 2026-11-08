@@ -111,6 +111,9 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .det{margin-top:8px;padding:10px 12px;background:var(--bg);border-radius:6px;font-size:13.5px;display:grid;gap:6px}
 .det b{font-weight:600;margin-right:6px}
 .det a{color:var(--accent)}
+#toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:8px;font-size:14px;max-width:calc(100% - 32px);box-shadow:0 6px 24px rgba(0,0,0,.25);transition:transform .25s;z-index:20}
+#toast.on{transform:translate(-50%,0)}
+#toast a{color:var(--bg);font-weight:600}
 .pill{border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-left:auto}
 .pill[aria-expanded="true"]{background:var(--accent);color:var(--accent-ink)}
 .pill svg{width:15px;height:15px}
@@ -215,13 +218,13 @@ const UPDATED = DATA.updated;
 const VENUES = Object.fromEntries(Object.entries(DATA.venues).map(([k,v])=>[k,{n:v.name, a:v.address||"", full:v.full, group:v.group}]));
 const GENRES = {
   rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", pop:"Pop", narodna:"Narodna",
-  elektro:"Elektronika", dj:"DJ party", jazz:"Jazz", klasika:"Klasika", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
+  elektro:"Elektronika", dj:"DJ party", hiphop:"Hip-hop", jazz:"Jazz", klasika:"Klasika", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
 };
 
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
   const v = VENUES[r.venue];
   return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, vkey:r.venue, vgroup:v.group||r.venue,
-    venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url,
+    venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null,
     sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
 }).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
 
@@ -357,11 +360,20 @@ function artistQuery(t){
   q = q.split(/\s[–-]\s|\s\+\s|,|\(|\s@\s|\sx\s|\sfeat\.?\s|\sft\.?\s|:/i)[0];
   return q.replace(/["„“”]/g, "").trim() || t;
 }
+const LINK_NAMES = {spotify:"Spotify", youtube:"YouTube", deezer:"Deezer", bandcamp:"Bandcamp", soundcloud:"SoundCloud", web:"Web", instagram:"Instagram", facebook:"Facebook"};
 function detailsHTML(e){
   const q = encodeURIComponent(artistQuery(e.artist));
+  const L = e.links || {};
+  const listen = ["spotify","youtube","deezer","bandcamp","soundcloud"].filter(k=>L[k]).map(k=>`<a href="${L[k]}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
+  if (!L.spotify) listen.push(`<a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener">Spotify</a>`);
+  if (!L.youtube) listen.push(`<a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube</a>`);
+  const social = ["web","instagram","facebook"].filter(k=>L[k]).map(k=>`<a href="${L[k]}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
+  if (!social.length) social.push(`<a href="https://www.google.com/search?q=${q}+official" target="_blank" rel="noopener">Potraži web izvođača</a>`);
   return `<div class="det" id="d-${e.id}" hidden>
-    <div><b>Poslušaj</b> <a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener">Spotify</a> · <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.deezer.com/search/${q}" target="_blank" rel="noopener">Deezer</a> · <a href="https://www.google.com/search?q=${q}+official" target="_blank" rel="noopener">Web i društvene mreže</a></div>
-    <div><b>Koncert</b> <a href="${e.src}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${gcalLink(e)}" target="_blank" rel="noopener">Dodaj u Google kalendar</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>
+    <div><b>Poslušaj</b> ${listen.join(" · ")}</div>
+    <div><b>Izvođač</b> ${social.join(" · ")}</div>
+    <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
+    <div><b>Koncert</b> <a href="${e.src}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>
   </div>`;
 }
 const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
@@ -429,8 +441,15 @@ out.addEventListener("click", ev=>{
     out.querySelectorAll(`[data-more="${mo2.dataset.more}"]`).forEach(b=>b.setAttribute("aria-expanded", String(!d.hidden)));
     return;
   }
+  const ic=ev.target.closest("[data-ics]");
+  if (ic){ ev.preventDefault(); const e=EVENTS.find(x=>x.id===ic.dataset.ics); if(e) downloadICS([e], e.artist); return; }
   const f=ev.target.closest("[data-fav]");
-  if (f){ const id=f.dataset.fav; favs.has(id)?favs.delete(id):favs.add(id); saveFavs(); render(); return; }
+  if (f){
+    const id=f.dataset.fav, adding=!favs.has(id);
+    adding?favs.add(id):favs.delete(id); saveFavs(); render();
+    if (adding){ const e=EVENTS.find(x=>x.id===id); if(e) toast(e); }
+    return;
+  }
   const mo=ev.target.closest("[data-mon]");
   if (mo){ let [y,m]=S.calMonth; m+=Number(mo.dataset.mon); if(m<0){m=11;y--;} if(m>11){m=0;y++;} S.calMonth=[y,m]; S.day=""; render(); return; }
   const dc=ev.target.closest("[data-day]");
@@ -496,14 +515,21 @@ function icsDate(e){
   const endDay = h+3>=24 ? iso(addDays(parse(e.date),1)).replace(/-/g,"") : d;
   return [`DTSTART;TZID=Europe/Zagreb:${d}T${pad(h)}${pad(m)}00`, `DTEND;TZID=Europe/Zagreb:${endDay}T${pad(end.getHours())}${pad(end.getMinutes())}00`];
 }
-function downloadICS(list){
+function toast(e){
+  let t=document.getElementById("toast");
+  if(!t){ t=document.createElement("div"); t.id="toast"; t.setAttribute("role","status"); document.body.appendChild(t); }
+  t.innerHTML=`Spremljeno u Moji koncerti. Dodaj u kalendar: <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" id="toastIcs">Apple / Outlook</a>`;
+  document.getElementById("toastIcs").onclick=ev=>{ ev.preventDefault(); downloadICS([e], e.artist); };
+  t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"), 7000);
+}
+function downloadICS(list, name){
   const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
   const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Koncerti u Zagrebu//HR","X-WR-CALNAME:Moji koncerti"];
   list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${e.src}`,"END:VEVENT"));
   lines.push("END:VCALENDAR");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type:"text/calendar"}));
-  a.download = "moji-koncerti.ics"; document.body.appendChild(a); a.click(); a.remove();
+  a.download = (name ? name.toLowerCase().replace(/[^a-z0-9]+/g,"-").slice(0,40) : "moji-koncerti") + ".ics"; document.body.appendChild(a); a.click(); a.remove();
 }
 function renderBanner(){
   const b = document.getElementById("banner");

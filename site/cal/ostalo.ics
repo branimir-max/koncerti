@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:88d0c2af@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261109T190000
 DTEND;TZID=Europe/Zagreb:20261109T220000
 SUMMARY:Koncert u Povodu 220. Obljetnice Osnutka Židovske Općine Zagreb
@@ -38,7 +38,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/koncert-u-povodu-220-obljetnice-
 END:VEVENT
 BEGIN:VEVENT
 UID:072e0848@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;VALUE=DATE:20261110
 DTEND;VALUE=DATE:20261111
 SUMMARY:The Messthetics i James Brandon Lewis
@@ -48,7 +48,7 @@ URL:https://vintageindustrial-bar.com/?p=3993
 END:VEVENT
 BEGIN:VEVENT
 UID:e1625d88@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261112T200000
 DTEND;TZID=Europe/Zagreb:20261112T230000
 SUMMARY:Klinika Denisa Kataneca
@@ -60,7 +60,7 @@ URL:https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kultu
 END:VEVENT
 BEGIN:VEVENT
 UID:8f533de2@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261112T210000
 DTEND;TZID=Europe/Zagreb:20261113T000000
 SUMMARY:Kristijan Rahimovski – Promocija Novog Albuma „putnik“
@@ -72,7 +72,7 @@ URL:https://www.entrio.hr/event/kristijan-rahimovski-promocija-novog-albu
 END:VEVENT
 BEGIN:VEVENT
 UID:6cd35744@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;VALUE=DATE:20261112
 DTEND;VALUE=DATE:20261113
 SUMMARY:Monolord (swe) + Mars Red Sky (fr)
@@ -82,7 +82,7 @@ URL:https://vintageindustrial-bar.com/?p=3990
 END:VEVENT
 BEGIN:VEVENT
 UID:960f5a7f@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261113T210000
 DTEND;TZID=Europe/Zagreb:20261114T000000
 SUMMARY:EKV Real Tribute by IQV
@@ -93,7 +93,7 @@ URL:https://www.entrio.hr/event/ekv-real-tribute-by-iqv-34057
 END:VEVENT
 BEGIN:VEVENT
 UID:d8dc1159@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261113T210000
 DTEND;TZID=Europe/Zagreb:20261114T000000
 SUMMARY:U2 Tribute Band LIVE/13.11.2026.@METROPOLIS Club
@@ -105,7 +105,7 @@ URL:https://www.entrio.hr/event/u2-tribute-band-live13112026metropolis-cl
 END:VEVENT
 BEGIN:VEVENT
 UID:6e542de1@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261113T230000
 DTEND;TZID=Europe/Zagreb:20261114T020000
 SUMMARY:HUSH! W/ MARRØN (Amsterdam)\, XIORRO (Berlin)\, INSOLATE
@@ -117,7 +117,7 @@ URL:https://www.entrio.hr/event/hush-w-marron-amsterdam-xiorro-berlin-ins
 END:VEVENT
 BEGIN:VEVENT
 UID:06852a9e@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261114T180000
 DTEND;TZID=Europe/Zagreb:20261114T210000
 SUMMARY:K-pop Mania
@@ -127,7 +127,7 @@ URL:https://www.entrio.hr/event/k-pop-mania-34460
 END:VEVENT
 BEGIN:VEVENT
 UID:866f3972@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261114T203000
 DTEND;TZID=Europe/Zagreb:20261114T233000
 SUMMARY:Kao Rani Mraz- tribute bend Đorđa Balaševića
@@ -139,7 +139,7 @@ URL:https://www.entrio.hr/event/kao-rani-mraz-tribute-bend-djordja-balase
 END:VEVENT
 BEGIN:VEVENT
 UID:c8dd087e@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261116T200000
 DTEND;TZID=Europe/Zagreb:20261116T230000
 SUMMARY:ATROPHY @ Hard Place
@@ -150,7 +150,7 @@ URL:https://www.entrio.hr/event/atrophy-hard-place-35180
 END:VEVENT
 BEGIN:VEVENT
 UID:09534438@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261116T200000
 DTEND;TZID=Europe/Zagreb:20261116T230000
 SUMMARY:Enis Bešlagić: Da Sam Ja Neko
@@ -164,7 +164,7 @@ URL:https://www.songkick.com/festivals/3811377-enis-beslagic-da-sam-ja-ne
 END:VEVENT
 BEGIN:VEVENT
 UID:1942faa3@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261117T210000
 DTEND;TZID=Europe/Zagreb:20261118T000000
 SUMMARY:SUEDE – YAMMATOVO 6 fueled by Cockta
@@ -175,7 +175,7 @@ URL:https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5
 END:VEVENT
 BEGIN:VEVENT
 UID:291dd729@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;VALUE=DATE:20261118
 DTEND;VALUE=DATE:20261119
 SUMMARY:Ajngemahtec Kvintet – Večer u Čast i Sjećanje na Stjepana 
@@ -186,7 +186,7 @@ URL:https://vintageindustrial-bar.com/?p=4250
 END:VEVENT
 BEGIN:VEVENT
 UID:3171591b@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261119T211500
 DTEND;TZID=Europe/Zagreb:20261120T001500
 SUMMARY:TOM SKINNER u Vintageu
@@ -196,7 +196,7 @@ URL:https://vintageindustrial-bar.com/?p=4216
 END:VEVENT
 BEGIN:VEVENT
 UID:15da4fe5@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261120T190000
 DTEND;TZID=Europe/Zagreb:20261120T220000
 SUMMARY:ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina @Kino SC
@@ -208,7 +208,7 @@ URL:https://www.entrio.hr/event/atomsko-skloniste-i-gosti-50-atomskih-god
 END:VEVENT
 BEGIN:VEVENT
 UID:b9c9484d@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261120T210000
 DTEND;TZID=Europe/Zagreb:20261121T000000
 SUMMARY:AZRA Atribute by MATORI @ BOOGALOO 20.11.2026.
@@ -220,7 +220,7 @@ URL:https://www.entrio.hr/event/azra-atribute-by-matori-boogaloo-20112026
 END:VEVENT
 BEGIN:VEVENT
 UID:aac2d7d0@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261121T200000
 DTEND;TZID=Europe/Zagreb:20261121T230000
 SUMMARY:Marko Kutlić - Boogaloo @zagreb
@@ -231,7 +231,7 @@ URL:https://www.entrio.hr/event/marko-kutlic-boogaloo-zagreb-32100
 END:VEVENT
 BEGIN:VEVENT
 UID:d8f25dbd@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261121T220000
 DTEND;TZID=Europe/Zagreb:20261122T010000
 SUMMARY:DEEP DISH @ Boogaloo
@@ -242,7 +242,7 @@ URL:https://www.entrio.hr/event/deep-dish-boogaloo-32572
 END:VEVENT
 BEGIN:VEVENT
 UID:6d2401f2@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261122T193000
 DTEND;TZID=Europe/Zagreb:20261122T223000
 SUMMARY:Pismo Moja\, Hrli Tamo – Zagrebu na Dar
@@ -254,7 +254,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/pismo-moja-hrli-tamo-br-zagrebu-
 END:VEVENT
 BEGIN:VEVENT
 UID:e66bd950@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261122T193000
 DTEND;TZID=Europe/Zagreb:20261122T223000
 SUMMARY:Spk + Tehom
@@ -264,7 +264,7 @@ URL:https://www.entrio.hr/event/spk-tehom-34644
 END:VEVENT
 BEGIN:VEVENT
 UID:acb8792c@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261122T200000
 DTEND;TZID=Europe/Zagreb:20261122T230000
 SUMMARY:Akustika Session w/ Sajsi MC @ Peti kupe
@@ -275,7 +275,7 @@ URL:https://www.entrio.hr/event/akustika-session-peti-kupe-34902
 END:VEVENT
 BEGIN:VEVENT
 UID:35fa65db@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261123T210000
 DTEND;TZID=Europe/Zagreb:20261124T000000
 SUMMARY:Mothers Finest
@@ -285,7 +285,7 @@ URL:https://www.entrio.hr/event/mothers-finest-33939
 END:VEVENT
 BEGIN:VEVENT
 UID:08794d73@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261124T200000
 DTEND;TZID=Europe/Zagreb:20261124T230000
 SUMMARY:PRAYING MANTIS @ Hard Place
@@ -296,7 +296,7 @@ URL:https://www.entrio.hr/event/praying-mantis-hard-place-33079
 END:VEVENT
 BEGIN:VEVENT
 UID:b499a642@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261126T211500
 DTEND;TZID=Europe/Zagreb:20261127T001500
 SUMMARY:Skier and Yeti + Gliste
@@ -306,7 +306,7 @@ URL:https://vintageindustrial-bar.com/?p=4219
 END:VEVENT
 BEGIN:VEVENT
 UID:767de60c@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261127T200000
 DTEND;TZID=Europe/Zagreb:20261127T230000
 SUMMARY:nemanja
@@ -316,7 +316,7 @@ URL:https://www.entrio.hr/event/nemanja-32246
 END:VEVENT
 BEGIN:VEVENT
 UID:5da56ccc@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261127T220000
 DTEND;TZID=Europe/Zagreb:20261128T010000
 SUMMARY:Nataša Bekvalac @MINT CLUB
@@ -327,7 +327,7 @@ URL:https://www.entrio.hr/event/natasa-bekvalac-mint-club-34778
 END:VEVENT
 BEGIN:VEVENT
 UID:907f6a42@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261128T200000
 DTEND;TZID=Europe/Zagreb:20261128T230000
 SUMMARY:Toody Cole & Jenny Don't @ Hard Place 28.11.2026.
@@ -339,7 +339,7 @@ URL:https://www.entrio.hr/event/toody-cole-jenny-dont-hard-place-28112026
 END:VEVENT
 BEGIN:VEVENT
 UID:8713f467@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261204T200000
 DTEND;TZID=Europe/Zagreb:20261204T230000
 SUMMARY:Hood Vibes Night
@@ -349,7 +349,7 @@ URL:https://www.entrio.hr/event/hood-vibes-night-35226
 END:VEVENT
 BEGIN:VEVENT
 UID:640fdb78@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261205T200000
 DTEND;TZID=Europe/Zagreb:20261205T230000
 SUMMARY:ARTUR MENEZES (BRAZIL/U.S.A.) Blues Rock Extravaganza @ Hard Plac
@@ -362,7 +362,7 @@ URL:https://www.entrio.hr/event/artur-menezes-brazilusa-blues-rock-extrav
 END:VEVENT
 BEGIN:VEVENT
 UID:796117fd@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261205T220000
 DTEND;TZID=Europe/Zagreb:20261206T010000
 SUMMARY:Back To the 2000’s
@@ -372,7 +372,7 @@ URL:https://www.entrio.hr/event/back-to-the-2000s-35081
 END:VEVENT
 BEGIN:VEVENT
 UID:e2f91ae0@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261205T220000
 DTEND;TZID=Europe/Zagreb:20261206T010000
 SUMMARY:DAFT FUNK live!
@@ -382,7 +382,7 @@ URL:https://www.entrio.hr/event/daft-funk-live-32286
 END:VEVENT
 BEGIN:VEVENT
 UID:ef8c4fdf@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261206T211500
 DTEND;TZID=Europe/Zagreb:20261207T001500
 SUMMARY:CALIBRO 35! VS. L.A. u Vintageu
@@ -393,7 +393,7 @@ URL:https://www.entrio.hr/event/calibro-35-vs-la-u-vintageu-33492
 END:VEVENT
 BEGIN:VEVENT
 UID:5d443c5e@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261212T200000
 DTEND;TZID=Europe/Zagreb:20261212T230000
 SUMMARY:DRUGI NAČIN @ Hard Place 12.12.2026.
@@ -404,7 +404,7 @@ URL:https://www.entrio.hr/event/drugi-nacin-hard-place-12122026-33460
 END:VEVENT
 BEGIN:VEVENT
 UID:dc7c8968@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261215T210000
 DTEND;TZID=Europe/Zagreb:20261216T000000
 SUMMARY:Bilal\, Apollo Brown & Skyzoo
@@ -415,7 +415,7 @@ URL:https://www.entrio.hr/event/bilal-apollo-brown-skyzoo-33940
 END:VEVENT
 BEGIN:VEVENT
 UID:53db0aeb@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261217T110000
 DTEND;TZID=Europe/Zagreb:20261217T140000
 SUMMARY:SLUŠAJ OVO!\, glazbeno-scenski program za mlade
@@ -427,7 +427,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/slusaj-ovo-br-glazbeno-scenski-p
 END:VEVENT
 BEGIN:VEVENT
 UID:bcdd0f0f@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261217T211500
 DTEND;TZID=Europe/Zagreb:20261218T001500
 SUMMARY:Lika Kolorado
@@ -437,7 +437,7 @@ URL:https://www.entrio.hr/event/lika-kolorado-34973
 END:VEVENT
 BEGIN:VEVENT
 UID:113ba51a@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261218T211500
 DTEND;TZID=Europe/Zagreb:20261219T001500
 SUMMARY:SHE LOVES PABLO + Lazarvs + From Another Mother
@@ -449,7 +449,7 @@ URL:https://www.entrio.hr/event/she-loves-pablo-lazarvs-from-another-moth
 END:VEVENT
 BEGIN:VEVENT
 UID:83a195ff@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261218T213000
 DTEND;TZID=Europe/Zagreb:20261219T003000
 SUMMARY:"the Real Abba Tribute Band" CHRISTMAS/18.12.2026.@METROPOLIS Clu
@@ -462,7 +462,7 @@ URL:https://www.entrio.hr/event/the-real-abba-tribute-band-christmas18122
 END:VEVENT
 BEGIN:VEVENT
 UID:f8eff490@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261219T200000
 DTEND;TZID=Europe/Zagreb:20261219T230000
 SUMMARY:DAVID ELEFSON @ Hard Place
@@ -473,7 +473,7 @@ URL:https://www.entrio.hr/event/david-elefson-hard-place-33080
 END:VEVENT
 BEGIN:VEVENT
 UID:7ab34900@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261219T230000
 DTEND;TZID=Europe/Zagreb:20261220T020000
 SUMMARY:Future Scope w. PAN POT @ Boogaloo
@@ -484,7 +484,7 @@ URL:https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074
 END:VEVENT
 BEGIN:VEVENT
 UID:dcd775fb@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261220T200000
 DTEND;TZID=Europe/Zagreb:20261220T230000
 SUMMARY:Lalalar — Istanbulska Psihodelija
@@ -495,7 +495,7 @@ URL:https://www.entrio.hr/event/lalalar-istanbulska-psihodelija-34603
 END:VEVENT
 BEGIN:VEVENT
 UID:b53c05a3@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20261226T210000
 DTEND;TZID=Europe/Zagreb:20261227T000000
 SUMMARY:ZADRUGA live- 36\,5 godina
@@ -506,7 +506,7 @@ URL:https://www.entrio.hr/event/zadruga-live-365-godina-35234
 END:VEVENT
 BEGIN:VEVENT
 UID:dfc03b02@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270109T200000
 DTEND;TZID=Europe/Zagreb:20270109T230000
 SUMMARY:DAVID BOWIE tribute by GIFT
@@ -517,7 +517,7 @@ URL:https://www.entrio.hr/event/david-bowie-tribute-by-gift-34129
 END:VEVENT
 BEGIN:VEVENT
 UID:7deee641@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270116T190000
 DTEND;TZID=Europe/Zagreb:20270116T220000
 SUMMARY:73. Koncertna Sezona Zagrebačkih Solista Petrit Çeku\, Gitara G
@@ -530,7 +530,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
 END:VEVENT
 BEGIN:VEVENT
 UID:a04dae09@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270123T200000
 DTEND;TZID=Europe/Zagreb:20270123T230000
 SUMMARY:Dominik Šušković - Tvornica Kulture
@@ -541,7 +541,7 @@ URL:https://www.entrio.hr/event/dominik-suskovic-tvornica-kulture-34985
 END:VEVENT
 BEGIN:VEVENT
 UID:3548a531@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270123T210000
 DTEND;TZID=Europe/Zagreb:20270124T000000
 SUMMARY:Opća Opasnost
@@ -551,7 +551,7 @@ URL:https://www.entrio.hr/event/opca-opasnost-35237
 END:VEVENT
 BEGIN:VEVENT
 UID:8bd0ff39@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270205T200000
 DTEND;TZID=Europe/Zagreb:20270205T230000
 SUMMARY:Toma
@@ -563,7 +563,7 @@ URL:https://www.songkick.com/concerts/43496645-toma-at-sax?utm_medium=org
 END:VEVENT
 BEGIN:VEVENT
 UID:fe71f1cf@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270206T193000
 DTEND;TZID=Europe/Zagreb:20270206T223000
 SUMMARY:Miro Ungar To Je Bila Moja Muzika Koncert u Povodu 70 Godina Kari
@@ -576,7 +576,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/miro-ungar-br-to-je-bila-moja-mu
 END:VEVENT
 BEGIN:VEVENT
 UID:c634f420@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270207T200000
 DTEND;TZID=Europe/Zagreb:20270207T230000
 SUMMARY:Crvena Jabuka – Nek Vrijeme Stane
@@ -588,7 +588,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/crvena-jabuka-br-nek-vrijeme-sta
 END:VEVENT
 BEGIN:VEVENT
 UID:908fd3c2@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270210T200000
 DTEND;TZID=Europe/Zagreb:20270210T230000
 SUMMARY:Lisinski Srijedom Lp Duo
@@ -599,7 +599,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-lp-duo/
 END:VEVENT
 BEGIN:VEVENT
 UID:c66f90ae@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270216T200000
 DTEND;TZID=Europe/Zagreb:20270216T230000
 SUMMARY:Slavonske Lole – 45 Godina Karijere
@@ -611,7 +611,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/slavonske-lole-br-45-godina-kari
 END:VEVENT
 BEGIN:VEVENT
 UID:05076fb4@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270220T200000
 DTEND;TZID=Europe/Zagreb:20270220T230000
 SUMMARY:Haris Džinović – 40 Godina
@@ -622,7 +622,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/haris-dzinovic-br-40-godina/
 END:VEVENT
 BEGIN:VEVENT
 UID:f020b207@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270226T193000
 DTEND;TZID=Europe/Zagreb:20270226T223000
 SUMMARY:Feelharmonija Ususret Muzičkom Biennalu Zagreb Ivan Josip Skende
@@ -635,7 +635,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-ususret-muzicko
 END:VEVENT
 BEGIN:VEVENT
 UID:af99d09b@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270227T100000
 DTEND;TZID=Europe/Zagreb:20270227T130000
 SUMMARY:Čudnovata Dama Trema
@@ -646,7 +646,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/cudnovata-dama-trema-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:0e3c32c7@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270228T180000
 DTEND;TZID=Europe/Zagreb:20270228T210000
 SUMMARY:Domoljubni Koncert "djeca Pjevaju Domu Mom"
@@ -658,7 +658,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/domoljubni-koncert-br-djeca-pjev
 END:VEVENT
 BEGIN:VEVENT
 UID:e5dd4d32@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270228T200000
 DTEND;TZID=Europe/Zagreb:20270228T230000
 SUMMARY:Soyuz In Zagreb
@@ -668,7 +668,7 @@ URL:https://www.entrio.hr/event/soyuz-in-zagreb-32142
 END:VEVENT
 BEGIN:VEVENT
 UID:23df42f0@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270228T200000
 DTEND;TZID=Europe/Zagreb:20270228T230000
 SUMMARY:Союз
@@ -680,7 +680,7 @@ URL:https://www.songkick.com/concerts/43180691-soiuz-at-klub-mocvara?utm_
 END:VEVENT
 BEGIN:VEVENT
 UID:b7c39184@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270305T230000
 DTEND;TZID=Europe/Zagreb:20270306T020000
 SUMMARY:Vendi opet u Zagrebu\, special guest star: Biljana Dragaš - Nefe
@@ -693,7 +693,7 @@ URL:https://www.entrio.hr/event/vendi-opet-u-zagrebu-special-guest-star-b
 END:VEVENT
 BEGIN:VEVENT
 UID:c5f468ad@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270307T200000
 DTEND;TZID=Europe/Zagreb:20270307T230000
 SUMMARY:Dečki Z Bregov - 50 Let Z Vami
@@ -704,7 +704,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/decki-z-bregov-50-let-z-vami/
 END:VEVENT
 BEGIN:VEVENT
 UID:b1e50459@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270309T200000
 DTEND;TZID=Europe/Zagreb:20270309T230000
 SUMMARY:Mejaši - 15 Godina Hitova
@@ -715,7 +715,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/mejasi-15-godina-hitova/
 END:VEVENT
 BEGIN:VEVENT
 UID:736efb25@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270312T200000
 DTEND;TZID=Europe/Zagreb:20270312T230000
 SUMMARY:Adi Šoše @Arena Zagreb!
@@ -726,7 +726,7 @@ URL:https://www.entrio.hr/event/adi-sose-arena-zagreb-27578
 END:VEVENT
 BEGIN:VEVENT
 UID:fcf4944b@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270324T200000
 DTEND;TZID=Europe/Zagreb:20270324T230000
 SUMMARY:Lisinski Srijedom Miguel Zenón Quartet feat. Chico Pinheiro
@@ -738,7 +738,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-miguel-zeno
 END:VEVENT
 BEGIN:VEVENT
 UID:3bda0df2@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270331T200000
 DTEND;TZID=Europe/Zagreb:20270331T230000
 SUMMARY:Dobrotvorni Koncert Srce u Srcu Zagreba
@@ -750,7 +750,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/dobrotvorni-koncert-srce-u-srcu-
 END:VEVENT
 BEGIN:VEVENT
 UID:bcd7a19b@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270401T200000
 DTEND;TZID=Europe/Zagreb:20270401T230000
 SUMMARY:Luka Nižetić Autoportret s Juga 25 Godina Karijere
@@ -762,7 +762,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/luka-nizetic-br-autoportret-s-ju
 END:VEVENT
 BEGIN:VEVENT
 UID:d70467d9@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270406T200000
 DTEND;TZID=Europe/Zagreb:20270406T230000
 SUMMARY:S.a.r.s. – Elekroakustični Koncert
@@ -773,7 +773,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/sars-elekroakusticni-koncert/
 END:VEVENT
 BEGIN:VEVENT
 UID:fe925c5c@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270407T200000
 DTEND;TZID=Europe/Zagreb:20270407T230000
 SUMMARY:Lisinski Srijedom Adhd
@@ -784,7 +784,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-adhd/
 END:VEVENT
 BEGIN:VEVENT
 UID:08724c1b@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270409T200000
 DTEND;TZID=Europe/Zagreb:20270409T230000
 SUMMARY:Gipsy Kings ft. Tonino Baliardo
@@ -796,7 +796,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2
 END:VEVENT
 BEGIN:VEVENT
 UID:d59c9769@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270410T190000
 DTEND;TZID=Europe/Zagreb:20270410T220000
 SUMMARY:73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA ZIYANG ZHAO\, violonče
@@ -810,7 +810,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
 END:VEVENT
 BEGIN:VEVENT
 UID:f6beb3e6@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270417T200000
 DTEND;TZID=Europe/Zagreb:20270417T230000
 SUMMARY:DEPECHE MODE tribute+ Best of 80s by GIFT
@@ -822,7 +822,7 @@ URL:https://www.entrio.hr/event/depeche-mode-tribute-best-of-80s-by-gift-
 END:VEVENT
 BEGIN:VEVENT
 UID:7befe27a@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270421T200000
 DTEND;TZID=Europe/Zagreb:20270421T230000
 SUMMARY:Lisinski Srijedom Maja Rivić
@@ -833,7 +833,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-maja-rivic/
 END:VEVENT
 BEGIN:VEVENT
 UID:9203cba5@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270425T200000
 DTEND;TZID=Europe/Zagreb:20270425T230000
 SUMMARY:Od Opere do Hollywooda - Gala Koncert Tamare Radjenović
@@ -845,7 +845,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/od-opere-do-hollywooda-gala-konc
 END:VEVENT
 BEGIN:VEVENT
 UID:78b8925e@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270502T200000
 DTEND;TZID=Europe/Zagreb:20270502T230000
 SUMMARY:The Music of Hans Zimmer
@@ -858,7 +858,7 @@ URL:https://www.songkick.com/concerts/43272226-music-of-hans-zimmer-at-mo
 END:VEVENT
 BEGIN:VEVENT
 UID:46c61a0d@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270508T190000
 DTEND;TZID=Europe/Zagreb:20270508T220000
 SUMMARY:73. Koncertna Sezona Zagrebačkih Solista Mirella Hagen\, Sopran 
@@ -871,7 +871,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
 END:VEVENT
 BEGIN:VEVENT
 UID:95ec8c80@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
 SUMMARY:Crimson Glory
@@ -883,7 +883,7 @@ URL:https://www.songkick.com/concerts/43457402-crimson-glory-at-boogaloo?
 END:VEVENT
 BEGIN:VEVENT
 UID:ad4bb607@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270522T190000
 DTEND;TZID=Europe/Zagreb:20270522T220000
 SUMMARY:Progledaj srcem 2027
@@ -894,7 +894,7 @@ URL:https://www.entrio.hr/event/progledaj-srcem-2027-32369
 END:VEVENT
 BEGIN:VEVENT
 UID:210137f2@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270526T193000
 DTEND;TZID=Europe/Zagreb:20270526T223000
 SUMMARY:Feelharmonija Beethovenova Deveta Ivan Šćepanović\, Dirigent A
@@ -907,7 +907,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-beethovenova-de
 END:VEVENT
 BEGIN:VEVENT
 UID:cc407264@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270529T193000
 DTEND;TZID=Europe/Zagreb:20270529T223000
 SUMMARY:Doma Je Najljepše – Vjera\, Obitelj\, Domovina
@@ -919,7 +919,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/doma-je-najljepse-vjera-obitelj-
 END:VEVENT
 BEGIN:VEVENT
 UID:f5892980@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270612T200000
 DTEND;TZID=Europe/Zagreb:20270612T230000
 SUMMARY:EDO MAAJKA na Šalati!
@@ -930,7 +930,7 @@ URL:https://www.entrio.hr/event/edo-maajka-na-salati-32941
 END:VEVENT
 BEGIN:VEVENT
 UID:50ef1d49@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;VALUE=DATE:20270612
 DTEND;VALUE=DATE:20270613
 SUMMARY:Scorpions
@@ -942,7 +942,7 @@ URL:https://www.songkick.com/concerts/43492964-scorpions-at-arena-zagreb?
 END:VEVENT
 BEGIN:VEVENT
 UID:0c0a8d00@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20270712T190000
 DTEND;TZID=Europe/Zagreb:20270712T220000
 SUMMARY:Slash featuring Myles Kennedy
@@ -955,7 +955,7 @@ URL:https://www.songkick.com/concerts/43454053-slash-featuring-myles-kenn
 END:VEVENT
 BEGIN:VEVENT
 UID:98892f6a@koncerti-zagreb
-DTSTAMP:20261108T202126Z
+DTSTAMP:20261108T210521Z
 DTSTART;TZID=Europe/Zagreb:20301108T200000
 DTEND;TZID=Europe/Zagreb:20301108T230000
 SUMMARY:Domenica

@@ -91,6 +91,20 @@ def main() -> None:
     for e in scraped:
         add(dict(e), prefer=True)
 
+    # Podaci o izvođačima iz MusicBrainza (scrapers/enrich.py)
+    artists_path = DATA / "artists.json"
+    if artists_path.exists():
+        from scrapers.enrich import artist_query, norm as anorm
+        artists = json.loads(artists_path.read_text())
+        for b in buckets.values():
+            for e in b:
+                a = artists.get(anorm(artist_query(e["title"])))
+                if a and a.get("mbid"):
+                    if a.get("links"):
+                        e["links"] = a["links"]
+                    if a.get("genre") and e.get("genre") in ("", "ostalo", None):
+                        e["genre"] = a["genre"]
+
     events = sorted((e for b in buckets.values() for e in b), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
@@ -117,7 +131,7 @@ def main() -> None:
 
 
 GENRES = {"rock": "Rock", "metal": "Metal", "punk": "Punk", "alt": "Alternativa", "pop": "Pop", "narodna": "Narodna",
-          "elektro": "Elektronika", "dj": "DJ party", "jazz": "Jazz", "klasika": "Klasika", "trad": "Tradicijska",
+          "elektro": "Elektronika", "dj": "DJ party", "hiphop": "Hip-hop", "jazz": "Jazz", "klasika": "Klasika", "trad": "Tradicijska",
           "world": "World", "djeca": "Za djecu", "ostalo": "Ostalo"}
 
 VTIMEZONE = """BEGIN:VTIMEZONE
