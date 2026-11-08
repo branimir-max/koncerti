@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-08T20:17:01+00:00",
+ "run_at": "2026-11-08T20:19:45+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -29,11 +29,6 @@
    "ok": true,
    "count": 7
   },
-  "petikupe": {
-   "ok": false,
-   "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
-  },
   "pogon": {
    "ok": true,
    "count": 0,
@@ -41,7 +36,7 @@
   },
   "ulaznice": {
    "ok": true,
-   "count": 70
+   "count": 54
   },
   "songkick": {
    "ok": true,

@@ -1,109 +1,13 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Ijf Judo Grand Prix Zagreb 2026",
-  "venue": "arena",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/ijf-judo-grand-prix-zagreb-2026-34863",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-14",
-  "time": "",
-  "title": "Too Loud Fest 2026",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/too-loud-fest-2026-35024",
-  "venue_name": "TOO LOUD FEST 2026 Double Tree By Hilton, Zagreb, Zagreb 14.",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-12-11",
-  "time": "",
-  "title": "Jeboton Fešta",
-  "venue": "boogaloo",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/jeboton-festa-34834",
-  "source": "ulaznice"
- },
- {
-  "date": "2027-02-06",
-  "time": "",
-  "title": "Balkan Card Show",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/balkan-card-show-35001",
-  "venue_name": "Balkan Card Show Family Mall, Zagreb 06.02.2027. - 07.02.202",
-  "source": "ulaznice"
- },
- {
-  "date": "2027-02-27",
-  "time": "",
-  "title": "MUARTICO - \"Back to nature\" - regionalni kongres beauty industrije",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/muartico-back-to-nature-regionalni-kongres-beauty-industrije-34371",
-  "venue_name": "MUARTICO - \"Back to nature\" - regionalni kongres beauty indu",
-  "source": "ulaznice"
- },
- {
-  "date": "2027-03-10",
-  "time": "",
-  "title": "Money Motion 2027",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/money-motion-2027-31090",
-  "venue_name": "Money Motion 2027 Zagrebački velesajam, Zagreb 10.03.2027. -",
-  "source": "ulaznice"
- },
- {
   "date": "2026-11-11",
   "time": "20:00",
-  "title": "David Temelkov u Tvornici Kulture - 11.11.2026.",
+  "title": "David Temelkov",
   "venue": "tvornica",
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/david-temelkov-u-tvornici-kulture-11112026-33717",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-12",
-  "time": "09:00",
-  "title": "Crowd & Loud powered by Entrio 2026",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/crowd-loud-powered-by-entrio-2026-33736",
-  "venue_name": "Crowd & Loud powered by Entrio 2026 Lauba, Zagreb 12.11.2026",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-12",
-  "time": "10:00",
-  "title": "chalLEANge konferencija",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/challeange-konferencija-33901",
-  "venue_name": "chalLEANge konferencija Cinestar, Z centar, Zagreb 12.11.202",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-12",
-  "time": "16:00",
-  "title": "LEAD.YOU Masterclass: Don't Wait for the Future. Create It.",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/leadyou-masterclass-dont-wait-for-the-future-create-it-35007",
-  "venue_name": "LEAD.YOU Masterclass: Don't Wait for the Future. Create It. ",
+  "venue_name": "Tvornica Kulture",
   "source": "ulaznice"
  },
  {
@@ -114,17 +18,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/kristijan-rahimovski-promocija-novog-albuma-putnik-34524",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-13",
-  "time": "11:30",
-  "title": "Konferencija SALES4FUTURE 2026 by Prodajni Mindset",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/konferencija-sales4future-2026-by-prodajni-mindset-28480",
-  "venue_name": "Konferencija SALES4FUTURE 2026 by Prodajni Mindset HOTEL NOV",
+  "venue_name": "Klub Sax!",
   "source": "ulaznice"
  },
  {
@@ -135,6 +29,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/ekv-real-tribute-by-iqv-34057",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -145,7 +40,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/u2-tribute-band-live13112026metropolis-club-35048",
-  "venue_name": "U2 TRIBUTE BAND LIVE/13.11.2026.@METROPOLIS CLUB Metropolis ",
+  "venue_name": "Metropolis Music & Billiards Club",
   "source": "ulaznice"
  },
  {
@@ -156,6 +51,18 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/hush-w-marron-amsterdam-xiorro-berlin-insolate-35017",
+  "venue_name": "Peti kupe",
+  "source": "ulaznice"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "18:00",
+  "title": "K-pop Mania",
+  "venue": "kinosc",
+  "genre": "",
+  "price": "",
+  "url": "https://www.entrio.hr/event/k-pop-mania-34460",
+  "venue_name": "Kino SC",
   "source": "ulaznice"
  },
  {
@@ -166,6 +73,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/kao-rani-mraz-tribute-bend-djordja-balasevica-34622",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -176,6 +84,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/atrophy-hard-place-35180",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -186,6 +95,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/the-cassandra-complex-sjoblom-31567",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -196,6 +106,18 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/tom-skinner-u-vintageu-33624",
+  "venue_name": "Vintage Industrial Bar",
+  "source": "ulaznice"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "19:00",
+  "title": "ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina @Kino SC",
+  "venue": "kinosc",
+  "genre": "",
+  "price": "",
+  "url": "https://www.entrio.hr/event/atomsko-skloniste-i-gosti-50-atomskih-godina-kino-sc-33431",
+  "venue_name": "Kino SC",
   "source": "ulaznice"
  },
  {
@@ -206,6 +128,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/azra-atribute-by-matori-boogaloo-20112026-34124",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -216,6 +139,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/marko-kutlic-boogaloo-zagreb-32100",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -226,6 +150,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/deep-dish-boogaloo-32572",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -236,6 +161,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/spk-tehom-34644",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -246,6 +172,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/akustika-session-peti-kupe-34902",
+  "venue_name": "Peti kupe",
   "source": "ulaznice"
  },
  {
@@ -256,7 +183,7 @@
   "genre": "jazz",
   "price": "",
   "url": "https://www.entrio.hr/event/17-zagreb-jazz-festival-mary-halvorson-canis-major-34258",
-  "venue_name": "17. Zagreb Jazz festival: Mary Halvorson: Canis Major Histri",
+  "venue_name": "Histrionski dom",
   "source": "ulaznice"
  },
  {
@@ -267,6 +194,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/mothers-finest-33939",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -277,6 +205,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/the-witcher-in-concert-29981",
+  "venue_name": "Arena Zagreb",
   "source": "ulaznice"
  },
  {
@@ -287,39 +216,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/praying-mantis-hard-place-33079",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-25",
-  "time": "09:00",
-  "title": "NaPOD – Regionalni festival podcast kulture",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/napod-regionalni-festival-podcast-kulture-33827",
-  "venue_name": "NaPOD – Regionalni festival podcast kulture Mozaik Event Cen",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-25",
-  "time": "10:00",
-  "title": "Brands & Trends 2026",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/brands-trends-2026-33632",
-  "venue_name": "Brands & Trends 2026 Kaptol Boutique Cinema, Zagreb 25.11.20",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-26",
-  "time": "13:00",
-  "title": "TEDxZagreb 2026 - Re:Think",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/tedxzagreb-2026-rethink-34695",
-  "venue_name": "TEDxZagreb 2026 - Re:Think Kongresni centar - Zagrebački vel",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -330,6 +227,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/skier-and-yeti-gliste-34722",
+  "venue_name": "Vintage Industrial Bar",
   "source": "ulaznice"
  },
  {
@@ -340,6 +238,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/nemanja-32246",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -350,7 +249,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/natasa-bekvalac-mint-club-34778",
-  "venue_name": "Nataša Bekvalac @MINT CLUB Club Mint, Zagreb 27.11.2026. 22:",
+  "venue_name": "Club Mint",
   "source": "ulaznice"
  },
  {
@@ -361,6 +260,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/toody-cole-jenny-dont-hard-place-28112026-32832",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -371,6 +271,7 @@
   "genre": "punk",
   "price": "",
   "url": "https://www.entrio.hr/event/croatia-goes-hardcore-32702",
+  "venue_name": "Akc Attack",
   "source": "ulaznice"
  },
  {
@@ -381,28 +282,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/kovacs-32860",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-12-01",
-  "time": "10:00",
-  "title": "Konferencija za ravnatelje obrazovnih institucija: Akademija liderstva",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/konferencija-za-ravnatelje-obrazovnih-institucija-akademija-liderstva-34381",
-  "venue_name": "Konferencija za ravnatelje obrazovnih institucija: Akademija",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-12-02",
-  "time": "09:00",
-  "title": "Manufacturing Innovation as a Driver of the Future 2026.",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/manufacturing-innovation-as-a-driver-of-the-future-2026-33159",
-  "venue_name": "Manufacturing Innovation as a Driver of the Future 2026. NSK",
+  "venue_name": "Tvornica Kulture",
   "source": "ulaznice"
  },
  {
@@ -413,6 +293,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/eagle-eye-cherry-33392",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -423,6 +304,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/hood-vibes-night-35226",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -433,6 +315,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/artur-menezes-brazilusa-blues-rock-extravaganza-hard-place-33675",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -443,6 +326,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/daft-funk-live-32286",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -453,6 +337,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/back-to-the-2000s-35081",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -463,6 +348,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/calibro-35-vs-la-u-vintageu-33492",
+  "venue_name": "Vintage Industrial Bar",
   "source": "ulaznice"
  },
  {
@@ -473,6 +359,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/lang-lang-31842",
+  "venue_name": "KD \"Vatroslav Lisinski\"",
   "source": "ulaznice"
  },
  {
@@ -483,6 +370,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/drugi-nacin-hard-place-12122026-33460",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -493,6 +381,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/bilal-apollo-brown-skyzoo-33940",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -503,6 +392,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/lika-kolorado-34973",
+  "venue_name": "Vintage Industrial Bar",
   "source": "ulaznice"
  },
  {
@@ -513,6 +403,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/she-loves-pablo-lazarvs-from-another-mother-34870",
+  "venue_name": "Vintage Industrial Bar",
   "source": "ulaznice"
  },
  {
@@ -523,7 +414,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/the-real-abba-tribute-band-christmas18122026metropolis-club-34799",
-  "venue_name": "\"The REAL ABBA TRIBUTE band\" CHRISTMAS/18.12.2026.@METROPOLI",
+  "venue_name": "Metropolis Music & Billiards Club",
   "source": "ulaznice"
  },
  {
@@ -534,6 +425,7 @@
   "genre": "dj",
   "price": "",
   "url": "https://www.entrio.hr/event/rave-frequencies-croatia-34109",
+  "venue_name": "Akc Attack",
   "source": "ulaznice"
  },
  {
@@ -544,6 +436,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/david-elefson-hard-place-33080",
+  "venue_name": "Hard Place",
   "source": "ulaznice"
  },
  {
@@ -554,16 +447,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/future-scope-w-pan-pot-boogaloo-33074",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-12-20",
-  "time": "19:15",
-  "title": "Supertalent Finale @Arena Zagreb",
-  "venue": "arena",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/supertalent-finale-arena-zagreb-33703",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -574,16 +458,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/lalalar-istanbulska-psihodelija-34603",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-12-21",
-  "time": "20:00",
-  "title": "Vinča u Areni!",
-  "venue": "arena",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/vinca-u-areni-30080",
+  "venue_name": "Klub Močvara",
   "source": "ulaznice"
  },
  {
@@ -594,6 +469,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/zadruga-live-365-godina-35234",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -604,6 +480,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/david-bowie-tribute-by-gift-34129",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -614,6 +491,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/dominik-suskovic-tvornica-kulture-34985",
+  "venue_name": "Tvornica Kulture",
   "source": "ulaznice"
  },
  {
@@ -624,17 +502,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/opca-opasnost-35237",
-  "source": "ulaznice"
- },
- {
-  "date": "2027-02-27",
-  "time": "10:00",
-  "title": "Konferencija o liderstvu Slijedi svoj poziv",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/konferencija-o-liderstvu-slijedi-svoj-poziv-31982",
-  "venue_name": "Konferencija o liderstvu Slijedi svoj poziv KRAŠ Auditorium,",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -645,6 +513,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/soyuz-in-zagreb-32142",
+  "venue_name": "Klub Močvara",
   "source": "ulaznice"
  },
  {
@@ -655,7 +524,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/vendi-opet-u-zagrebu-special-guest-star-biljana-dragas-nefertiti-34476",
-  "venue_name": "Vendi opet u Zagrebu, special guest star: Biljana Dragaš - N",
+  "venue_name": "THE HALL",
   "source": "ulaznice"
  },
  {
@@ -666,6 +535,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/adi-sose-arena-zagreb-27578",
+  "venue_name": "Arena Zagreb",
   "source": "ulaznice"
  },
  {
@@ -676,6 +546,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/soen-reliance-europe-2027-34940",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -686,6 +557,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/the-pineapple-thief-far-and-wide-european-tour-2027-34511",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -696,6 +568,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/depeche-mode-tribute-best-of-80s-by-gift-34267",
+  "venue_name": "Klub Boogaloo",
   "source": "ulaznice"
  },
  {
@@ -706,6 +579,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/progledaj-srcem-2027-32369",
+  "venue_name": "Arena Zagreb",
   "source": "ulaznice"
  },
  {
@@ -716,6 +590,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.entrio.hr/event/edo-maajka-na-salati-32941",
+  "venue_name": "ŠRC Šalata",
   "source": "ulaznice"
  }
 ]
