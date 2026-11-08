@@ -283,3 +283,26 @@ def event_links(html: str, base_url: str, pattern: str, limit: int = 25) -> list
             seen.add(href)
             links.append(href)
     return links[:limit]
+
+
+# ---------- Ulaznice.hr (kategorija Glazba, cijela Hrvatska) ----------
+
+def ulaznice_events(html: str, base_url: str) -> list[dict]:
+    out = []
+    for art in soup(html).select("article.happeningContainer"):
+        h = art.select_one("h3.smallTitle a, h3 a")
+        spans = [sp.get_text(" ", strip=True) for sp in art.select(".happeningInfoContainer p span")]
+        if not h or not spans:
+            continue
+        place = clean(spans[0].replace("\xa0", " "))
+        when = " ".join(spans[1:])
+        if " - " in when:  # višemjesečne ulaznice/članstva, ne koncerti
+            continue
+        d = parse_date(when)
+        if not d:
+            continue
+        text = art.get_text(" ", strip=True)
+        out.append({"date": d, "time": parse_time(text), "title": clean(h.get_text(" ", strip=True)), "venue": "",
+                    "genre": "", "price": find_price(text), "url": requests.compat.urljoin(base_url, h.get("href", "")),
+                    "_text": place, "_place": place})
+    return out

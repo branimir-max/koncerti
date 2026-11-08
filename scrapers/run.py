@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
+from .base import ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -77,6 +77,10 @@ def scrape(src: dict) -> list[dict]:
         parser = src.get("parser")
         if parser == "tootoot":
             found = tootoot_events(html, v, url)
+        elif parser == "ulaznice":
+            found = [e for e in ulaznice_events(html, url) if "zagreb" in e["_place"].lower()]
+            for e in found:
+                e["venue_name"] = re.sub(r",\s*zagreb.*$", "", e.pop("_place"), flags=re.I).strip()
         elif parser == "microdata":
             found = microdata_events(html, v, url)
         elif parser == "detail":
@@ -106,7 +110,7 @@ def scrape(src: dict) -> list[dict]:
             if not src["venue"]:
                 e["venue"] = venue_from_text(blob) or src.get("default_venue", "")
                 if not e["venue"]:
-                    e["venue_name"] = blob[:60]
+                    e["venue_name"] = e.get("venue_name") or blob[:60]
         events += found
         time.sleep(1.5)  # pristojno prema serverima
     # Filtriranje i obogaćivanje
