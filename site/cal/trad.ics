@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f65f7af4@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261108T180000
 DTEND;TZID=Europe/Zagreb:20261108T210000
 SUMMARY:Finale 48. smotre folklornih amatera grada Zagreba
@@ -38,7 +38,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zavrsnica-48-smotre-folklornih-a
 END:VEVENT
 BEGIN:VEVENT
 UID:cca4d8e0@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261115T200000
 DTEND;TZID=Europe/Zagreb:20261115T230000
 SUMMARY:Najbolji hrvatski tamburaši
@@ -50,7 +50,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/najbolji-hrvatski-tamburasi-upre
 END:VEVENT
 BEGIN:VEVENT
 UID:52e28d0f@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261119T200000
 DTEND;TZID=Europe/Zagreb:20261119T230000
 SUMMARY:Tomislav Bralić i klapa Intrade – 20 godina
@@ -62,7 +62,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-
 END:VEVENT
 BEGIN:VEVENT
 UID:4acfeb75@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261122T193000
 DTEND;TZID=Europe/Zagreb:20261122T223000
 SUMMARY:Festival klapa Omiš: „Pismo moja\, hrli tamo”
@@ -73,7 +73,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/
 END:VEVENT
 BEGIN:VEVENT
 UID:6e2461e6@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261124T200000
 DTEND;TZID=Europe/Zagreb:20261124T230000
 SUMMARY:Tomislav Bralić i klapa Intrade (drugi koncert)
@@ -85,7 +85,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-
 END:VEVENT
 BEGIN:VEVENT
 UID:f2b90aaf@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261130T193000
 DTEND;TZID=Europe/Zagreb:20261130T223000
 SUMMARY:Ansambl LADO: „Vrijeme plesa”
@@ -96,7 +96,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/
 END:VEVENT
 BEGIN:VEVENT
 UID:7f3aebcb@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261130T193000
 DTEND;TZID=Europe/Zagreb:20261130T223000
 SUMMARY:„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado
@@ -108,7 +108,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnj
 END:VEVENT
 BEGIN:VEVENT
 UID:1a2737a7@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261201T110000
 DTEND;TZID=Europe/Zagreb:20261201T140000
 SUMMARY:Školski Sat s Ladom
@@ -119,7 +119,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/skolski-sat-s-ladom-4/
 END:VEVENT
 BEGIN:VEVENT
 UID:d32fc19a@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261202T193000
 DTEND;TZID=Europe/Zagreb:20261202T223000
 SUMMARY:Ansambl LADO: „Vrijeme plesa”
@@ -130,7 +130,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/
 END:VEVENT
 BEGIN:VEVENT
 UID:a5fb9b8b@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261202T193000
 DTEND;TZID=Europe/Zagreb:20261202T223000
 SUMMARY:„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado
@@ -142,7 +142,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnj
 END:VEVENT
 BEGIN:VEVENT
 UID:b151880c@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270314T193000
 DTEND;TZID=Europe/Zagreb:20270314T223000
 SUMMARY:Hrvatska Tamburaška Rapsodija u Lisinskom
@@ -154,7 +154,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-
 END:VEVENT
 BEGIN:VEVENT
 UID:cab05b39@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270315T193000
 DTEND;TZID=Europe/Zagreb:20270315T223000
 SUMMARY:Hrvatska Tamburaška Rapsodija u Lisinskom

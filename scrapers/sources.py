@@ -49,6 +49,11 @@ SOURCES = [
      "strip": [r"\s*@.*$", r"\s*/\s*\d{1,2}\.\d{1,2}\.\d{4}\.?$", r"\s*[-–]\s*\d{1,2}\.\s?\d{1,2}\.(\s?\d{4}\.?)?$",
                r"\s+u\s+tvornici\s+kulture!?$"], "exclude": THEATRE + ["kazalište", "konferencij", "masterclass"],
      "dj_words": DJ, "urls": ["https://www.ulaznice.hr/web/category/1"]},
+    # Probni izvori (prodaja ulaznica) – snimke stranica za izradu parsera
+    {"key": "entrio", "venue": None, "allow_empty": True, "debug_always": True, "require": "zagreb", "exclude": THEATRE,
+     "urls": ["https://www.entrio.hr/hr/"]},
+    {"key": "coreevent", "venue": None, "allow_empty": True, "debug_always": True, "require": "zagreb", "exclude": THEATRE,
+     "urls": ["https://core-event.co/"]},
     # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
     {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE,
      "urls": ["https://www.songkick.com/metro-areas/29037-croatia-zagreb",

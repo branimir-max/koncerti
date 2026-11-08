@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:82268d69@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261115T100000
 DTEND;TZID=Europe/Zagreb:20261115T130000
 SUMMARY:Jojo i prijatelji (i u 12:30)
@@ -37,7 +37,7 @@ URL:https://core-event.co/events/jojo-i-prijatelji-ed0b
 END:VEVENT
 BEGIN:VEVENT
 UID:6480fa5d@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261128T100000
 DTEND;TZID=Europe/Zagreb:20261128T130000
 SUMMARY:Čarobni Božićni Sat
@@ -48,7 +48,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-11/
 END:VEVENT
 BEGIN:VEVENT
 UID:1db300c1@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261129T170000
 DTEND;TZID=Europe/Zagreb:20261129T200000
 SUMMARY:30. Hrvatski dječji festival
@@ -60,7 +60,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/30-hrvatski-djecji-festival-2026
 END:VEVENT
 BEGIN:VEVENT
 UID:d3e57011@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261206T100000
 DTEND;TZID=Europe/Zagreb:20261206T130000
 SUMMARY:Jacques Houdek: „Kad si sretan” (i u 12:30)
@@ -72,7 +72,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/jacques-houdek-kad-si-sretan-naj
 END:VEVENT
 BEGIN:VEVENT
 UID:7967f5a5@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261211T100000
 DTEND;TZID=Europe/Zagreb:20261211T130000
 SUMMARY:Orašar – Glazbena Priča za Djecu
@@ -84,7 +84,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djec
 END:VEVENT
 BEGIN:VEVENT
 UID:6a155c1a@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261212T100000
 DTEND;TZID=Europe/Zagreb:20261212T130000
 SUMMARY:Orašar – Glazbena Priča za Djecu
@@ -96,7 +96,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djec
 END:VEVENT
 BEGIN:VEVENT
 UID:973c006e@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261220T160000
 DTEND;TZID=Europe/Zagreb:20261220T190000
 SUMMARY:Čarobni Božićni Sat
@@ -107,7 +107,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-14/
 END:VEVENT
 BEGIN:VEVENT
 UID:54575238@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261222T100000
 DTEND;TZID=Europe/Zagreb:20261222T130000
 SUMMARY:Zagrebačka filharmonija – Minimini: Božić kod zimogroznih
@@ -119,7 +119,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:2819d54e@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261223T100000
 DTEND;TZID=Europe/Zagreb:20261223T130000
 SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Božić Kod Zimogroznih
@@ -131,7 +131,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:32365b34@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20261223T170000
 DTEND;TZID=Europe/Zagreb:20261223T200000
 SUMMARY:Kako Je Vilenjak Spasio Božić
@@ -143,7 +143,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/kako-je-vilenjak-spasio-bozic-19
 END:VEVENT
 BEGIN:VEVENT
 UID:fd5cfa9a@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270211T100000
 DTEND;TZID=Europe/Zagreb:20270211T130000
 SUMMARY:Šuma Striborova – Glazbena Priča
@@ -155,7 +155,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-pric
 END:VEVENT
 BEGIN:VEVENT
 UID:f9641168@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270212T100000
 DTEND;TZID=Europe/Zagreb:20270212T130000
 SUMMARY:Šuma Striborova – Glazbena Priča
@@ -167,7 +167,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-pric
 END:VEVENT
 BEGIN:VEVENT
 UID:03513be8@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270302T100000
 DTEND;TZID=Europe/Zagreb:20270302T130000
 SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Da Sam Ja Kontesa Dora
@@ -179,7 +179,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:8715e6c1@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270312T100000
 DTEND;TZID=Europe/Zagreb:20270312T130000
 SUMMARY:REGOČ\, opera za djecu i mlade
@@ -191,7 +191,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/regoc-br-opera-za-djecu-i-mlade-
 END:VEVENT
 BEGIN:VEVENT
 UID:e082b3f3@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270406T100000
 DTEND;TZID=Europe/Zagreb:20270406T130000
 SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko A
@@ -204,7 +204,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:2126253c@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270407T100000
 DTEND;TZID=Europe/Zagreb:20270407T130000
 SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko A
@@ -217,7 +217,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:156117cf@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270427T100000
 DTEND;TZID=Europe/Zagreb:20270427T130000
 SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Napokon Orkestar
@@ -229,7 +229,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
 END:VEVENT
 BEGIN:VEVENT
 UID:2cdb212c@koncerti-zagreb
-DTSTAMP:20261108T212618Z
+DTSTAMP:20261108T213044Z
 DTSTART;TZID=Europe/Zagreb:20270506T193000
 DTEND;TZID=Europe/Zagreb:20270506T223000
 SUMMARY:Beethoven 9 – Kanconijer Zbor i Simfonijski Orkestar HRT-a Dje
