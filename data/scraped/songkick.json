@@ -2,7 +2,7 @@
  {
   "date": "2026-11-13",
   "time": "18:00",
-  "title": "Kamelot @ Boogaloo",
+  "title": "Kamelot",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -12,7 +12,7 @@
  {
   "date": "2026-11-14",
   "time": "",
-  "title": "Cockney Rejects @ Primarius",
+  "title": "Cockney Rejects",
   "venue": "primarius",
   "genre": "",
   "price": "",
@@ -21,19 +21,8 @@
  },
  {
   "date": "2026-11-14",
-  "time": "",
-  "title": "Junkie Kid @ Festivalna Dvorana Lent, Maribor Slovenia",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43309228-junkie-kid-at-festivalna-dvorana-lent-maribor-slovenia?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Festivalna Dvorana Lent, Maribor Slovenia",
-  "source": "songkick"
- },
- {
-  "date": "2026-11-14",
   "time": "21:00",
-  "title": "Zagreb Disco Festival 2026 @ Boogaloo Club",
+  "title": "Zagreb Disco Festival 2026",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -43,18 +32,17 @@
  {
   "date": "2026-11-16",
   "time": "20:00",
-  "title": "Enis Bešlagić: Da Sam Ja Neko @ Zagreb, 16.11.2026 2026 @ Kino SC",
-  "venue": "",
+  "title": "Enis Bešlagić: Da Sam Ja Neko",
+  "venue": "kinosc",
   "genre": "",
   "price": "",
   "url": "https://www.songkick.com/festivals/3811377-enis-beslagic-da-sam-ja-neko-zagreb-16112026/id/43485566-enis-belagi-da-sam-ja-neko--zagreb-16112026-2026?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Kino SC",
   "source": "songkick"
  },
  {
   "date": "2026-11-17",
   "time": "",
-  "title": "The Cassandra Complex @ Boogaloo",
+  "title": "The Cassandra Complex",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -64,7 +52,7 @@
  {
   "date": "2026-11-18",
   "time": "",
-  "title": "The Darts - US @ Tvornica",
+  "title": "The Darts - US",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -72,31 +60,9 @@
   "source": "songkick"
  },
  {
-  "date": "2026-11-19",
-  "time": "19:00",
-  "title": "Los Fastidios @ ZCUK Regenerator",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43401141-los-fastidios-at-zcuk-regenerator?utm_medium=organic&utm_source=microformat",
-  "venue_name": "ZCUK Regenerator",
-  "source": "songkick"
- },
- {
-  "date": "2026-11-19",
-  "time": "",
-  "title": "Obradovic-Tixier duo @ Cultural Centre Čakovec",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43482625-obradovictixier-duo-at-cultural-centre-cakovec?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Cultural Centre Čakovec",
-  "source": "songkick"
- },
- {
   "date": "2026-11-20",
   "time": "20:00",
-  "title": "Chameleons @ Boogaloo Club",
+  "title": "Chameleons",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -106,7 +72,7 @@
  {
   "date": "2026-11-20",
   "time": "19:30",
-  "title": "André Rieu @ Arena Zagreb",
+  "title": "André Rieu",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -116,7 +82,7 @@
  {
   "date": "2026-11-20",
   "time": "20:00",
-  "title": "Stereo Deficit @ Vintage Industrial Bar",
+  "title": "Stereo Deficit",
   "venue": "vintage",
   "genre": "",
   "price": "",
@@ -126,7 +92,7 @@
  {
   "date": "2026-11-22",
   "time": "19:30",
-  "title": "Sarah Brightman @ Arena Zagreb",
+  "title": "Sarah Brightman",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -136,7 +102,7 @@
  {
   "date": "2026-11-22",
   "time": "",
-  "title": "Picastro @ Club Mochvara",
+  "title": "Picastro",
   "venue": "mocvara",
   "genre": "",
   "price": "",
@@ -146,7 +112,7 @@
  {
   "date": "2026-11-24",
   "time": "20:00",
-  "title": "Arab Strap @ Vintage Industrial Bar",
+  "title": "Arab Strap",
   "venue": "vintage",
   "genre": "",
   "price": "",
@@ -156,7 +122,7 @@
  {
   "date": "2026-11-24",
   "time": "19:00",
-  "title": "Lion's Law @ Boogaloo",
+  "title": "Lion's Law",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -166,7 +132,7 @@
  {
   "date": "2026-11-24",
   "time": "",
-  "title": "The Riven @ Hard Place",
+  "title": "The Riven",
   "venue": "hardplace",
   "genre": "",
   "price": "",
@@ -176,7 +142,7 @@
  {
   "date": "2026-11-24",
   "time": "20:00",
-  "title": "Plattenbau @ Club Mochvara",
+  "title": "Plattenbau",
   "venue": "mocvara",
   "genre": "",
   "price": "",
@@ -186,7 +152,7 @@
  {
   "date": "2026-11-26",
   "time": "",
-  "title": "portrayal of guilt @ Attack! AKC Medika",
+  "title": "portrayal of guilt",
   "venue": "medika",
   "genre": "",
   "price": "",
@@ -196,7 +162,7 @@
  {
   "date": "2026-11-29",
   "time": "",
-  "title": "Altın Gün @ Tvornica Kulture",
+  "title": "Altın Gün",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -206,7 +172,7 @@
  {
   "date": "2026-11-29",
   "time": "",
-  "title": "Kovacs @ Tvornica Kulture",
+  "title": "Kovacs",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -216,7 +182,7 @@
  {
   "date": "2026-12-03",
   "time": "",
-  "title": "Eagle-Eye Cherry @ Boogaloo",
+  "title": "Eagle-Eye Cherry",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -226,7 +192,7 @@
  {
   "date": "2026-12-11",
   "time": "",
-  "title": "Lang Lang @ Vatroslav Lisinski Concert Hall",
+  "title": "Lang Lang",
   "venue": "lisinski",
   "genre": "",
   "price": "",
@@ -234,31 +200,9 @@
   "source": "songkick"
  },
  {
-  "date": "2026-12-11",
-  "time": "20:00",
-  "title": "Miroslav Tadic @ Centar Za Kulturu Čakovec",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43398647-miroslav-tadic-at-centar-za-kulturu-cakovec?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Centar Za Kulturu Čakovec",
-  "source": "songkick"
- },
- {
-  "date": "2026-12-12",
-  "time": "",
-  "title": "Not My Value @ Mala Scena",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43486015-not-my-value-at-mala-scena?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Mala Scena",
-  "source": "songkick"
- },
- {
   "date": "2026-12-14",
   "time": "19:00",
-  "title": "Týr @ Boogaloo",
+  "title": "Týr",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -268,7 +212,7 @@
  {
   "date": "2026-12-17",
   "time": "",
-  "title": "Avatar @ Boogaloo",
+  "title": "Avatar",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -278,7 +222,7 @@
  {
   "date": "2026-12-19",
   "time": "",
-  "title": "Sinisa Tamamovic @ Boogaloo",
+  "title": "Sinisa Tamamovic",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -288,7 +232,7 @@
  {
   "date": "2027-01-02",
   "time": "17:00",
-  "title": "Zagreb Jazz Workshop - Find Your Unique Voice 2027 @ Pavao Markovac Music School",
+  "title": "Zagreb Jazz Workshop - Find Your Unique Voice 2027",
   "venue": "",
   "genre": "jazz",
   "price": "",
@@ -299,7 +243,7 @@
  {
   "date": "2027-01-15",
   "time": "",
-  "title": "Acid Arab @ Boogaloo",
+  "title": "Acid Arab",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -309,7 +253,7 @@
  {
   "date": "2027-01-20",
   "time": "",
-  "title": "Christopher Robin Cox @ Klub Močvara",
+  "title": "Christopher Robin Cox",
   "venue": "mocvara",
   "genre": "",
   "price": "",
@@ -319,7 +263,7 @@
  {
   "date": "2027-01-23",
   "time": "20:00",
-  "title": "Miroslav Ilic @ Arena Zagreb",
+  "title": "Miroslav Ilic",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -329,7 +273,7 @@
  {
   "date": "2027-02-02",
   "time": "18:45",
-  "title": "Hollywood Undead @ Tvornica Kulture",
+  "title": "Hollywood Undead",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -339,7 +283,7 @@
  {
   "date": "2027-02-04",
   "time": "",
-  "title": "Editors @ Boćarski dom",
+  "title": "Editors",
   "venue": "bocarski",
   "genre": "",
   "price": "",
@@ -349,18 +293,17 @@
  {
   "date": "2027-02-05",
   "time": "20:00",
-  "title": "Toma @ Sax",
-  "venue": "",
+  "title": "Toma",
+  "venue": "sax",
   "genre": "",
   "price": "",
   "url": "https://www.songkick.com/concerts/43496645-toma-at-sax?utm_medium=organic&utm_source=microformat",
-  "venue_name": "Sax",
   "source": "songkick"
  },
  {
   "date": "2027-02-28",
   "time": "20:00",
-  "title": "СОЮЗ @ Klub Močvara",
+  "title": "Союз",
   "venue": "mocvara",
   "genre": "",
   "price": "",
@@ -370,7 +313,7 @@
  {
   "date": "2027-03-06",
   "time": "",
-  "title": "Natali Dizdar @ Vatroslav Lisinski Concert Hall",
+  "title": "Natali Dizdar",
   "venue": "lisinski",
   "genre": "",
   "price": "",
@@ -380,7 +323,7 @@
  {
   "date": "2027-03-10",
   "time": "19:30",
-  "title": "Leo Middea @ Boogaloo",
+  "title": "Leo Middea",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -390,7 +333,7 @@
  {
   "date": "2027-03-12",
   "time": "",
-  "title": "Warhaus @ Vintage Industrial Bar",
+  "title": "Warhaus",
   "venue": "vintage",
   "genre": "",
   "price": "",
@@ -400,7 +343,7 @@
  {
   "date": "2027-03-15",
   "time": "",
-  "title": "Soen @ Boogaloo",
+  "title": "Soen",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -410,7 +353,7 @@
  {
   "date": "2027-03-15",
   "time": "19:00",
-  "title": "Soen 2027 @ Boogaloo Club",
+  "title": "Soen 2027",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -420,7 +363,7 @@
  {
   "date": "2027-03-17",
   "time": "",
-  "title": "The Rasmus @ Tvornica Kulture",
+  "title": "The Rasmus",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -430,7 +373,7 @@
  {
   "date": "2027-03-19",
   "time": "23:00",
-  "title": "David Morales @ Boogaloo",
+  "title": "David Morales",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -440,7 +383,7 @@
  {
   "date": "2027-04-03",
   "time": "20:00",
-  "title": "Lexington @ Arena Zagreb",
+  "title": "Lexington",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -450,7 +393,7 @@
  {
   "date": "2027-04-12",
   "time": "",
-  "title": "Katatonia @ Boogaloo Club",
+  "title": "Katatonia",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -460,7 +403,7 @@
  {
   "date": "2027-04-13",
   "time": "20:00",
-  "title": "Tindersticks @ Koncertna dvorana Vatroslava Lisinskog",
+  "title": "Tindersticks",
   "venue": "lisinski",
   "genre": "",
   "price": "",
@@ -470,7 +413,7 @@
  {
   "date": "2027-04-15",
   "time": "20:00",
-  "title": "This is Michael @ Arena Zagreb",
+  "title": "This is Michael",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -480,7 +423,7 @@
  {
   "date": "2027-04-15",
   "time": "20:30",
-  "title": "The Pineapple Thief @ Boogaloo Club",
+  "title": "The Pineapple Thief",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -490,7 +433,7 @@
  {
   "date": "2027-04-24",
   "time": "",
-  "title": "16 Horsepower @ Tvornica Kulture",
+  "title": "16 Horsepower",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -500,7 +443,7 @@
  {
   "date": "2027-05-02",
   "time": "",
-  "title": "Tarja @ Tvornica Kulture",
+  "title": "Tarja",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -510,7 +453,7 @@
  {
   "date": "2027-05-02",
   "time": "20:00",
-  "title": "The Music of Hans Zimmer @ Mozaik Event Centar",
+  "title": "The Music of Hans Zimmer",
   "venue": "",
   "genre": "",
   "price": "",
@@ -521,7 +464,7 @@
  {
   "date": "2027-05-18",
   "time": "",
-  "title": "Crimson Glory @ Boogaloo",
+  "title": "Crimson Glory",
   "venue": "boogaloo",
   "genre": "",
   "price": "",
@@ -531,7 +474,7 @@
  {
   "date": "2027-06-12",
   "time": "",
-  "title": "Scorpions @ Arena Zagreb",
+  "title": "Scorpions",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -541,7 +484,7 @@
  {
   "date": "2027-06-25",
   "time": "20:00",
-  "title": "Bruce Dickinson @ SRC Šalata",
+  "title": "Bruce Dickinson",
   "venue": "salata",
   "genre": "",
   "price": "",
@@ -551,7 +494,7 @@
  {
   "date": "2027-07-12",
   "time": "19:00",
-  "title": "Slash featuring Myles Kennedy @ SRC Šalata",
+  "title": "Slash featuring Myles Kennedy",
   "venue": "salata",
   "genre": "",
   "price": "",
@@ -561,7 +504,7 @@
  {
   "date": "2027-11-30",
   "time": "20:00",
-  "title": "Laura Pausini @ Arena Zagreb",
+  "title": "Laura Pausini",
   "venue": "arena",
   "genre": "",
   "price": "",
@@ -571,7 +514,7 @@
  {
   "date": "2030-11-08",
   "time": "20:00",
-  "title": "Domenica @ Arena Zagreb",
+  "title": "Domenica",
   "venue": "arena",
   "genre": "",
   "price": "",
