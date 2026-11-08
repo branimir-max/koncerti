@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:4d472955@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261109T203000
 DTEND;TZID=Europe/Zagreb:20261109T233000
 SUMMARY:Sólstafir + Moraines
@@ -37,7 +37,7 @@ URL:https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/
 END:VEVENT
 BEGIN:VEVENT
 UID:e7c38139@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261112T200000
 DTEND;TZID=Europe/Zagreb:20261112T230000
 SUMMARY:Officium Triste\, The Answer Lies in the Black Void\, Mortajas
@@ -48,7 +48,7 @@ URL:https://mochvara.hr/event-detail/6aa1db893b0465ffa82fbb2b/
 END:VEVENT
 BEGIN:VEVENT
 UID:c3fa680c@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261113T180000
 DTEND;TZID=Europe/Zagreb:20261113T210000
 SUMMARY:Kamelot + Exit Eden + Temperance
@@ -60,7 +60,7 @@ URL:https://www.songkick.com/concerts/43102952-kamelot-at-boogaloo?utm_me
 END:VEVENT
 BEGIN:VEVENT
 UID:1b7d2bec@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261214T190000
 DTEND;TZID=Europe/Zagreb:20261214T220000
 SUMMARY:Týr
@@ -72,7 +72,7 @@ URL:https://www.songkick.com/concerts/43275901-tyr-at-boogaloo?utm_medium
 END:VEVENT
 BEGIN:VEVENT
 UID:e1c930df@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261217
 DTEND;VALUE=DATE:20261218
 SUMMARY:Avatar
@@ -84,19 +84,18 @@ URL:https://www.songkick.com/concerts/43362903-avatar-at-boogaloo?utm_med
 END:VEVENT
 BEGIN:VEVENT
 UID:2388c237@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20270315T190000
 DTEND;TZID=Europe/Zagreb:20270315T220000
 SUMMARY:Soen
 LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
-DESCRIPTION:Metal · https://www.songkick.com/festivals/3807593-soen/id/4
- 3442155-soen-2027?utm_medium=organic&utm_source=microformat
-URL:https://www.songkick.com/festivals/3807593-soen/id/43442155-soen-2027
- ?utm_medium=organic&utm_source=microformat
+DESCRIPTION:Metal · https://www.entrio.hr/event/soen-reliance-europe-202
+ 7-34940
+URL:https://www.entrio.hr/event/soen-reliance-europe-2027-34940
 END:VEVENT
 BEGIN:VEVENT
 UID:548cd175@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20270412
 DTEND;VALUE=DATE:20270413
 SUMMARY:Katatonia
@@ -108,7 +107,7 @@ URL:https://www.songkick.com/concerts/43503191-katatonia-at-boogaloo-club
 END:VEVENT
 BEGIN:VEVENT
 UID:af5a1b89@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:Tarja
@@ -120,7 +119,7 @@ URL:https://www.songkick.com/concerts/43449751-tarja-at-tvornica-kulture?
 END:VEVENT
 BEGIN:VEVENT
 UID:f5236d38@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20270625T200000
 DTEND;TZID=Europe/Zagreb:20270625T230000
 SUMMARY:Bruce Dickinson

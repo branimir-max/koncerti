@@ -25,8 +25,30 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:c8dd087e@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261116T200000
+DTEND;TZID=Europe/Zagreb:20261116T230000
+SUMMARY:ATROPHY @ Hard Place
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/atrophy-hard-place-3518
+ 0
+URL:https://www.entrio.hr/event/atrophy-hard-place-35180
+END:VEVENT
+BEGIN:VEVENT
+UID:08794d73@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261124T200000
+DTEND;TZID=Europe/Zagreb:20261124T230000
+SUMMARY:PRAYING MANTIS @ Hard Place
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/praying-mantis-hard-pla
+ ce-33079
+URL:https://www.entrio.hr/event/praying-mantis-hard-place-33079
+END:VEVENT
+BEGIN:VEVENT
 UID:7f092990@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261124
 DTEND;VALUE=DATE:20261125
 SUMMARY:The Riven
@@ -35,5 +57,52 @@ DESCRIPTION:Rock · https://www.songkick.com/concerts/43168396-riven-at-h
  ard-place?utm_medium=organic&utm_source=microformat
 URL:https://www.songkick.com/concerts/43168396-riven-at-hard-place?utm_me
  dium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:907f6a42@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261128T200000
+DTEND;TZID=Europe/Zagreb:20261128T230000
+SUMMARY:Toody Cole & Jenny Don't @ Hard Place 28.11.2026.
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/toody-cole-jenny-dont-h
+ ard-place-28112026-32832
+URL:https://www.entrio.hr/event/toody-cole-jenny-dont-hard-place-28112026
+ -32832
+END:VEVENT
+BEGIN:VEVENT
+UID:640fdb78@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261205T200000
+DTEND;TZID=Europe/Zagreb:20261205T230000
+SUMMARY:ARTUR MENEZES (BRAZIL/U.S.A.) Blues Rock Extravaganza @ Hard Plac
+ e
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/artur-menezes-brazilusa
+ -blues-rock-extravaganza-hard-place-33675
+URL:https://www.entrio.hr/event/artur-menezes-brazilusa-blues-rock-extrav
+ aganza-hard-place-33675
+END:VEVENT
+BEGIN:VEVENT
+UID:5d443c5e@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261212T200000
+DTEND;TZID=Europe/Zagreb:20261212T230000
+SUMMARY:DRUGI NAČIN @ Hard Place 12.12.2026.
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/drugi-nacin-hard-place-
+ 12122026-33460
+URL:https://www.entrio.hr/event/drugi-nacin-hard-place-12122026-33460
+END:VEVENT
+BEGIN:VEVENT
+UID:f8eff490@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261219T200000
+DTEND;TZID=Europe/Zagreb:20261219T230000
+SUMMARY:DAVID ELEFSON @ Hard Place
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/david-elefson-hard-plac
+ e-33080
+URL:https://www.entrio.hr/event/david-elefson-hard-place-33080
 END:VEVENT
 END:VCALENDAR

@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti – Vendi opet u Zagrebu\, special guest star: Bilj
+ ana Dragaš - N
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:2c308800@koncerti-zagreb
+DTSTAMP:20261108T201933Z
+DTSTART;TZID=Europe/Zagreb:20270305T230000
+DTEND;TZID=Europe/Zagreb:20270306T020000
+SUMMARY:Vendi opet u Zagrebu\, special guest star: Biljana Dragaš - Nefe
+ rtiti
+LOCATION:Vendi opet u Zagrebu\, special guest star: Biljana Dragaš - N\,
+  Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/vendi-opet-u-zagrebu-sp
+ ecial-guest-star-biljana-dragas-nefertiti-34476
+URL:https://www.entrio.hr/event/vendi-opet-u-zagrebu-special-guest-star-b
+ iljana-dragas-nefertiti-34476
+END:VEVENT
+END:VCALENDAR

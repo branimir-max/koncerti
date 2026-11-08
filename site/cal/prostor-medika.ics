@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:1f86e62e@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261113T210000
 DTEND;TZID=Europe/Zagreb:20261114T000000
 SUMMARY:KSET: Britni i Panterski x Viking Krew
@@ -38,7 +38,7 @@ URL:https://www.kset.org/dogadaj/2026-11-13-britni-i-panterski-x-viking-k
 END:VEVENT
 BEGIN:VEVENT
 UID:25521f36@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Ranking Ann\, Tonto Addi\, Long Fingah | Sandokan Hi-Fi
@@ -50,7 +50,7 @@ URL:https://attack.hr/hr/ranking-ann-tonto-addi-long-fingah-sandokan-hi-f
 END:VEVENT
 BEGIN:VEVENT
 UID:baddbbf6@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:SOUND2LOUD: SAGA 1
@@ -60,7 +60,7 @@ URL:https://attack.hr/hr/sound2loud-saga-1
 END:VEVENT
 BEGIN:VEVENT
 UID:c4b5d89b@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261126
 DTEND;VALUE=DATE:20261127
 SUMMARY:Portrayal of Guilt
@@ -69,5 +69,27 @@ DESCRIPTION:Punk · https://www.songkick.com/concerts/43350067-portrayal-
  of-guilt-at-attack-akc-medika?utm_medium=organic&utm_source=microformat
 URL:https://www.songkick.com/concerts/43350067-portrayal-of-guilt-at-atta
  ck-akc-medika?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:512a7265@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261128T220000
+DTEND;TZID=Europe/Zagreb:20261129T010000
+SUMMARY:Croatia Goes Hardcore
+LOCATION:AKC Medika (Attack!)\, Pierottijeva 11\, Zagreb
+DESCRIPTION:Punk · https://www.entrio.hr/event/croatia-goes-hardcore-327
+ 02
+URL:https://www.entrio.hr/event/croatia-goes-hardcore-32702
+END:VEVENT
+BEGIN:VEVENT
+UID:7eb243c6@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261218T220000
+DTEND;TZID=Europe/Zagreb:20261219T010000
+SUMMARY:Rave Frequencies Croatia
+LOCATION:AKC Medika (Attack!)\, Pierottijeva 11\, Zagreb
+DESCRIPTION:DJ party · https://www.entrio.hr/event/rave-frequencies-croa
+ tia-34109
+URL:https://www.entrio.hr/event/rave-frequencies-croatia-34109
 END:VEVENT
 END:VCALENDAR

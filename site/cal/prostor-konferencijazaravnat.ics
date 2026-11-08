@@ -1,0 +1,42 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti – Konferencija za ravnatelje obrazovnih instituci
+ ja: Akademija
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:02f32c62@koncerti-zagreb
+DTSTAMP:20261108T201933Z
+DTSTART;TZID=Europe/Zagreb:20261201T100000
+DTEND;TZID=Europe/Zagreb:20261201T130000
+SUMMARY:Konferencija za ravnatelje obrazovnih institucija: Akademija lide
+ rstva
+LOCATION:Konferencija za ravnatelje obrazovnih institucija: Akademija\, Z
+ agreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/konferencija-za-ravnate
+ lje-obrazovnih-institucija-akademija-liderstva-34381
+URL:https://www.entrio.hr/event/konferencija-za-ravnatelje-obrazovnih-ins
+ titucija-akademija-liderstva-34381
+END:VEVENT
+END:VCALENDAR

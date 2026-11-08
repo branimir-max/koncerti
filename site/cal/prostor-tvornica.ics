@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:257abbe9@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261110T200000
 DTEND;TZID=Europe/Zagreb:20261110T230000
 SUMMARY:Dočekaj Martinja uz Gustafe
@@ -38,19 +38,19 @@ URL:https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kul
 END:VEVENT
 BEGIN:VEVENT
 UID:c5fd588c@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261111T200000
 DTEND;TZID=Europe/Zagreb:20261111T230000
 SUMMARY:David Temelkov
 LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
-DESCRIPTION:Pop · https://www.tvornicakulture.com/2026/09/david-temelkov
- -u-tvornici-kulture/
-URL:https://www.tvornicakulture.com/2026/09/david-temelkov-u-tvornici-kul
- ture/
+DESCRIPTION:Pop · https://www.entrio.hr/event/david-temelkov-u-tvornici-
+ kulture-11112026-33717
+URL:https://www.entrio.hr/event/david-temelkov-u-tvornici-kulture-1111202
+ 6-33717
 END:VEVENT
 BEGIN:VEVENT
 UID:e1625d88@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261112T200000
 DTEND;TZID=Europe/Zagreb:20261112T230000
 SUMMARY:Klinika Denisa Kataneca
@@ -62,7 +62,7 @@ URL:https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kultu
 END:VEVENT
 BEGIN:VEVENT
 UID:dfdd8f55@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261113T200000
 DTEND;TZID=Europe/Zagreb:20261113T230000
 SUMMARY:Clan of Xymox
@@ -73,7 +73,7 @@ URL:https://core-event.co/events/clan-of-xymox-u-tvornici-kulture-ca34
 END:VEVENT
 BEGIN:VEVENT
 UID:4b44f509@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261114T200000
 DTEND;TZID=Europe/Zagreb:20261114T230000
 SUMMARY:Let 3
@@ -84,7 +84,7 @@ URL:https://core-event.co/events/let-3-u-tvornici-kulture-6c28
 END:VEVENT
 BEGIN:VEVENT
 UID:82268d69@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261115T100000
 DTEND;TZID=Europe/Zagreb:20261115T130000
 SUMMARY:Jojo i prijatelji (i u 12:30)
@@ -95,7 +95,7 @@ URL:https://core-event.co/events/jojo-i-prijatelji-ed0b
 END:VEVENT
 BEGIN:VEVENT
 UID:1942faa3@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261117T210000
 DTEND;TZID=Europe/Zagreb:20261118T000000
 SUMMARY:SUEDE – YAMMATOVO 6 fueled by Cockta
@@ -106,7 +106,7 @@ URL:https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5
 END:VEVENT
 BEGIN:VEVENT
 UID:a8461268@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261118T200000
 DTEND;TZID=Europe/Zagreb:20261118T230000
 SUMMARY:The Darts (US)
@@ -117,7 +117,7 @@ URL:https://core-event.co/events/the-darts-u-tvornici-kulture-577d
 END:VEVENT
 BEGIN:VEVENT
 UID:b3dac05f@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261120T200000
 DTEND;TZID=Europe/Zagreb:20261120T230000
 SUMMARY:Psihomodo Pop
@@ -128,7 +128,7 @@ URL:https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36
 END:VEVENT
 BEGIN:VEVENT
 UID:aa3bf2b3@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261121T200000
 DTEND;TZID=Europe/Zagreb:20261121T230000
 SUMMARY:Jura Stublić & Film
@@ -140,7 +140,7 @@ URL:https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2
 END:VEVENT
 BEGIN:VEVENT
 UID:97ecd0f9@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261125T200000
 DTEND;TZID=Europe/Zagreb:20261125T230000
 SUMMARY:Marko Vukeš – prvi samostalni koncert
@@ -150,7 +150,7 @@ URL:https://core-event.co/events/koncert-marka-vukesa-b70f
 END:VEVENT
 BEGIN:VEVENT
 UID:c7f37032@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261126T200000
 DTEND;TZID=Europe/Zagreb:20261126T230000
 SUMMARY:Nikola Vranjković
@@ -162,7 +162,7 @@ URL:https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921
 END:VEVENT
 BEGIN:VEVENT
 UID:8bbef003@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261127T210000
 DTEND;TZID=Europe/Zagreb:20261128T000000
 SUMMARY:Zoster
@@ -173,7 +173,7 @@ URL:https://core-event.co/events/zoster-u-tvornici-kulture-ff4b
 END:VEVENT
 BEGIN:VEVENT
 UID:ee5f5f96@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261128T200000
 DTEND;TZID=Europe/Zagreb:20261128T230000
 SUMMARY:Nikola Kojo: „Kako sam prestao da pevam pod tušem”
@@ -183,7 +183,7 @@ URL:https://www.tvornicakulture.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:54917b38@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261129T200000
 DTEND;TZID=Europe/Zagreb:20261129T230000
 SUMMARY:Kovacs
@@ -193,7 +193,7 @@ URL:https://www.entrio.hr/event/kovacs-32860
 END:VEVENT
 BEGIN:VEVENT
 UID:8f82090b@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20261129
 DTEND;VALUE=DATE:20261130
 SUMMARY:Altın Gün
@@ -204,8 +204,19 @@ URL:https://www.songkick.com/concerts/43465151-altin-gun-at-tvornica-kult
  ure?utm_medium=organic&utm_source=microformat
 END:VEVENT
 BEGIN:VEVENT
+UID:a04dae09@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20270123T200000
+DTEND;TZID=Europe/Zagreb:20270123T230000
+SUMMARY:Dominik Šušković - Tvornica Kulture
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/dominik-suskovic-tvorni
+ ca-kulture-34985
+URL:https://www.entrio.hr/event/dominik-suskovic-tvornica-kulture-34985
+END:VEVENT
+BEGIN:VEVENT
 UID:36cdceda@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20270202T184500
 DTEND;TZID=Europe/Zagreb:20270202T214500
 SUMMARY:Hollywood Undead
@@ -217,7 +228,7 @@ URL:https://www.songkick.com/concerts/43453437-hollywood-undead-at-tvorni
 END:VEVENT
 BEGIN:VEVENT
 UID:11d764e2@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20270317
 DTEND;VALUE=DATE:20270318
 SUMMARY:The Rasmus
@@ -229,7 +240,7 @@ URL:https://www.songkick.com/concerts/43449744-rasmus-at-tvornica-kulture
 END:VEVENT
 BEGIN:VEVENT
 UID:f00f6026@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20270424
 DTEND;VALUE=DATE:20270425
 SUMMARY:16 Horsepower
@@ -241,7 +252,7 @@ URL:https://www.songkick.com/concerts/43456396-16-horsepower-at-tvornica-
 END:VEVENT
 BEGIN:VEVENT
 UID:af5a1b89@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;VALUE=DATE:20270502
 DTEND;VALUE=DATE:20270503
 SUMMARY:Tarja

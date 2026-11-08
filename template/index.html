@@ -37,6 +37,7 @@
   color-scheme:dark;
 }
 *{box-sizing:border-box}
+[hidden]{display:none!important}
 html,body{margin:0}
 body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:15px;line-height:1.45;-webkit-font-smoothing:antialiased}
 a{color:var(--accent)}
@@ -103,6 +104,13 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .fav[aria-pressed="true"]{color:var(--star);border-color:var(--star)}
 .fav[aria-pressed="true"] svg{fill:var(--star)}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
+.ttl{all:unset;cursor:pointer}
+.ttl:hover{color:var(--accent)}
+.ttl:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.icon.more[aria-expanded="true"] svg{transform:rotate(180deg)}
+.det{margin-top:8px;padding:10px 12px;background:var(--bg);border-radius:6px;font-size:13.5px;display:grid;gap:6px}
+.det b{font-weight:600;margin-right:6px}
+.det a{color:var(--accent)}
 .pill{border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-left:auto}
 .pill[aria-expanded="true"]{background:var(--accent);color:var(--accent-ink)}
 .pill svg{width:15px;height:15px}
@@ -344,19 +352,33 @@ function priceHTML(e){
 const STAR = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg>`;
 const CAL = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4"/></svg>`;
 
+function artistQuery(t){
+  let q = t.replace(/^(kset\d*|lisinski (subotom|srijedom|da camera)[^:]*|majstorski ciklus[^:]*|[^:]{0,40}(festival|ciklus|party|večer|sezona)[^:]*):\s*/i, "");
+  q = q.split(/\s[–-]\s|\s\+\s|,|\(|\s@\s|\sx\s|\sfeat\.?\s|\sft\.?\s|:/i)[0];
+  return q.replace(/["„“”]/g, "").trim() || t;
+}
+function detailsHTML(e){
+  const q = encodeURIComponent(artistQuery(e.artist));
+  return `<div class="det" id="d-${e.id}" hidden>
+    <div><b>Poslušaj</b> <a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener">Spotify</a> · <a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">YouTube</a> · <a href="https://www.deezer.com/search/${q}" target="_blank" rel="noopener">Deezer</a> · <a href="https://www.google.com/search?q=${q}+official" target="_blank" rel="noopener">Web i društvene mreže</a></div>
+    <div><b>Koncert</b> <a href="${e.src}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${gcalLink(e)}" target="_blank" rel="noopener">Dodaj u Google kalendar</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>
+  </div>`;
+}
+const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
 function evHTML(e){
   const fav = favs.has(e.id);
   return `<article class="ev">
     <div class="time ${e.time?"":"none"}">${e.time||"—"}</div>
     <div>
-      <h3>${esc(e.artist)}</h3>
-      <div class="sub"><a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}</a><span class="tag">${GENRES[e.genre]}</span><a href="${e.src}" target="_blank" rel="noopener">Izvor</a></div>
+      <h3><button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
+      <div class="sub"><span>${esc(e.venue)}</span><span class="tag">${GENRES[e.genre]}</span></div>
+      ${detailsHTML(e)}
     </div>
     <div class="side">
       ${priceHTML(e)}
       <div class="acts">
-        <a class="icon" href="${gcalLink(e)}" target="_blank" rel="noopener" title="Dodaj u Google kalendar" aria-label="Dodaj ${esc(e.artist)} u Google kalendar">${CAL}</a>
         <button class="icon fav" type="button" data-fav="${e.id}" aria-pressed="${fav}" title="${fav?"Makni iz mojih koncerata":"Spremi u moje koncerte"}" aria-label="Spremi ${esc(e.artist)}">${STAR}</button>
+        <button class="icon more" type="button" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}" title="Više" aria-label="Više o ${esc(e.artist)}">${CHEV}</button>
       </div>
     </div>
   </article>`;
@@ -400,6 +422,13 @@ function renderCal(list){
 
 const out = document.getElementById("out");
 out.addEventListener("click", ev=>{
+  const mo2=ev.target.closest("[data-more]");
+  if (mo2){
+    const d=document.getElementById("d-"+mo2.dataset.more); if(!d) return;
+    d.hidden=!d.hidden;
+    out.querySelectorAll(`[data-more="${mo2.dataset.more}"]`).forEach(b=>b.setAttribute("aria-expanded", String(!d.hidden)));
+    return;
+  }
   const f=ev.target.closest("[data-fav]");
   if (f){ const id=f.dataset.fav; favs.has(id)?favs.delete(id):favs.add(id); saveFavs(); render(); return; }
   const mo=ev.target.closest("[data-mon]");

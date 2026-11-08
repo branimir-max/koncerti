@@ -25,8 +25,20 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:8f533de2@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261112T210000
+DTEND;TZID=Europe/Zagreb:20261113T000000
+SUMMARY:Kristijan Rahimovski – Promocija Novog Albuma „putnik“
+LOCATION:Sax!\, Palmotićeva 22\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/kristijan-rahimovski-pr
+ omocija-novog-albuma-putnik-34524
+URL:https://www.entrio.hr/event/kristijan-rahimovski-promocija-novog-albu
+ ma-putnik-34524
+END:VEVENT
+BEGIN:VEVENT
 UID:8bd0ff39@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20270205T200000
 DTEND;TZID=Europe/Zagreb:20270205T230000
 SUMMARY:Toma

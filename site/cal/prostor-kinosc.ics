@@ -25,8 +25,18 @@ RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:06852a9e@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261114T180000
+DTEND;TZID=Europe/Zagreb:20261114T210000
+SUMMARY:K-pop Mania
+LOCATION:Kino SC\, Savska cesta 25\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/k-pop-mania-34460
+URL:https://www.entrio.hr/event/k-pop-mania-34460
+END:VEVENT
+BEGIN:VEVENT
 UID:09534438@koncerti-zagreb
-DTSTAMP:20261108T201540Z
+DTSTAMP:20261108T202126Z
 DTSTART;TZID=Europe/Zagreb:20261116T200000
 DTEND;TZID=Europe/Zagreb:20261116T230000
 SUMMARY:Enis Bešlagić: Da Sam Ja Neko
@@ -37,5 +47,17 @@ DESCRIPTION:Ostalo · https://www.songkick.com/festivals/3811377-enis-bes
 URL:https://www.songkick.com/festivals/3811377-enis-beslagic-da-sam-ja-ne
  ko-zagreb-16112026/id/43485566-enis-belagi-da-sam-ja-neko--zagreb-161120
  26-2026?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:15da4fe5@koncerti-zagreb
+DTSTAMP:20261108T202126Z
+DTSTART;TZID=Europe/Zagreb:20261120T190000
+DTEND;TZID=Europe/Zagreb:20261120T220000
+SUMMARY:ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina @Kino SC
+LOCATION:Kino SC\, Savska cesta 25\, Zagreb
+DESCRIPTION:Ostalo · https://www.entrio.hr/event/atomsko-skloniste-i-gos
+ ti-50-atomskih-godina-kino-sc-33431
+URL:https://www.entrio.hr/event/atomsko-skloniste-i-gosti-50-atomskih-god
+ ina-kino-sc-33431
 END:VEVENT
 END:VCALENDAR
