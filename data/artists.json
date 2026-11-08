@@ -227,6 +227,23 @@
   "checked": "2026-11-08",
   "query": "brzeguze w"
  },
+ "buzzcocks": {
+  "checked": "2026-11-08",
+  "country": "GB",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://buzzcocks.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/2485",
+   "facebook": "https://www.facebook.com/buzzcocksofficial",
+   "instagram": "https://www.instagram.com/the_official_buzzcocks/",
+   "spotify": "https://open.spotify.com/artist/2DxlS3lTLFIq70S7ap5H3y",
+   "web": "https://web.archive.org/web/19980203220629/http://www.buzzcocks.demon.co.uk/",
+   "youtube": "https://www.youtube.com/channel/UCBkWN-TrMTbV4kd5vaD9NWA"
+  },
+  "mbid": "31e9c35b-2675-4632-8596-f9bd9286f6c8",
+  "name": "Buzzcocks",
+  "query": "Buzzcocks"
+ },
  "buzzcocks u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "BUZZCOCKS u Tvornici Kulture"
@@ -504,6 +521,22 @@
   "checked": "2026-11-08",
   "query": "EDO MAAJKA na Šalati!"
  },
+ "electric six": {
+  "checked": "2026-11-08",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://electricsix.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/929",
+   "facebook": "https://www.facebook.com/electricsixofficial",
+   "spotify": "https://open.spotify.com/artist/4xNadaO5ZZLVJdqDIVVIua",
+   "web": "http://www.electricsix.com/",
+   "youtube": "https://www.youtube.com/user/e6beat"
+  },
+  "mbid": "54b0584e-4e5e-4976-80d4-eea7a82a7213",
+  "name": "Electric Six",
+  "query": "Electric Six"
+ },
  "electric six u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "ELECTRIC SIX u Tvornici Kulture"
@@ -776,6 +809,22 @@
  "kim salmons smoked salmon": {
   "checked": "2026-11-08",
   "query": "Kim Salmon's Smoked Salmon"
+ },
+ "kim wilde": {
+  "checked": "2026-11-08",
+  "country": "GB",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1564",
+   "facebook": "https://www.facebook.com/officialkimwilde",
+   "instagram": "https://www.instagram.com/kimwilde/",
+   "spotify": "https://open.spotify.com/artist/73a6pNH4YtLNgDbPQwXveo",
+   "web": "http://www.kimwilde.com/",
+   "youtube": "https://www.youtube.com/user/KimWildeVEVO"
+  },
+  "mbid": "4b462375-c508-432a-8c88-ceeec38b16ae",
+  "name": "Kim Wilde",
+  "query": "Kim Wilde"
  },
  "kim wilde u tvornici kulture": {
   "checked": "2026-11-08",
@@ -1415,6 +1464,17 @@
   "checked": "2026-11-08",
   "query": "Rave Frequencies Croatia"
  },
+ "repetitor": {
+  "checked": "2026-11-08",
+  "country": "RS",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://repetitor.bandcamp.com/"
+  },
+  "mbid": "7404a2b1-a04b-4157-8790-ec7f2ca67159",
+  "name": "Repetitor",
+  "query": "Repetitor"
+ },
  "repetitor u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "REPETITOR u Tvornici kulture"
@@ -1502,6 +1562,10 @@
   "mbid": "784c35e7-4b45-484b-b699-844286efe194",
   "name": "Sinisa Tamamovic",
   "query": "Siniša Tamamović"
+ },
+ "sixteen horsepower": {
+  "checked": "2026-11-08",
+  "query": "Sixteen Horsepower"
  },
  "sixteen horsepower u tvornici kulture": {
   "checked": "2026-11-08",
@@ -1652,6 +1716,22 @@
   "name": "Stereo Deficit",
   "query": "Stereo Deficit"
  },
+ "stereo mcs": {
+  "checked": "2026-11-08",
+  "country": "GB",
+  "genre": "jazz",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1517",
+   "facebook": "https://www.facebook.com/stereomcs",
+   "soundcloud": "https://soundcloud.com/robstereo",
+   "spotify": "https://open.spotify.com/artist/1k8VBufn1nBs8LN9n4snc8",
+   "web": "http://www.stereomcs.com/",
+   "youtube": "https://www.youtube.com/user/stereomcsofficial"
+  },
+  "mbid": "5e0ca89b-f5a6-4034-af31-17f10ff5a7d2",
+  "name": "Stereo MC’s",
+  "query": "Stereo Mc's"
+ },
  "stereo mcs u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "STEREO MC's u Tvornici kulture"
@@ -1688,6 +1768,10 @@
  "svemirko u vintage u": {
   "checked": "2026-11-08",
   "query": "Svemirko u Vintage-u!"
+ },
+ "swingers presents elvis": {
+  "checked": "2026-11-08",
+  "query": "SWINGERS present's ELVIS!"
  },
  "swingers presents elvis u tvornici kulture": {
   "checked": "2026-11-08",
@@ -1983,6 +2067,15 @@
  "zirafa zizi plese step": {
   "checked": "2026-11-08",
   "query": "Žirafa Žiži Pleše Step"
+ },
+ "zivo blato": {
+  "checked": "2026-11-08",
+  "country": "HR",
+  "genre": "",
+  "links": {},
+  "mbid": "15cb4925-3ba4-4b79-b51b-07b6d97005e9",
+  "name": "Živo Blato",
+  "query": "Živo Blato"
  },
  "zivo blato u tvornici kulture": {
   "checked": "2026-11-08",

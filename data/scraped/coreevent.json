@@ -6,17 +6,19 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/the-messthetics-and-james-brandon-lewis-8efa/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
   "date": "2026-11-10",
   "time": "20:00",
-  "title": "DOČEK MARTINJA UZ GUSTAFE u Tvornici kulture",
+  "title": "Doček Martinja uz Gustafe",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kulture-1a2a/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -26,8 +28,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music BaBuLaBum - plesni koncerti za bebe 11.\n              ",
+  "url": "https://core-event.co/events/ba-bu-la-bum-improvizacijski-glazbeno-plesni-koncerti-za-bebe-a0b0/",
+  "venue_name": "Scena Ribnjak – velika dvorana",
   "source": "coreevent"
  },
  {
@@ -37,71 +39,41 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-12",
-  "time": "19:00",
-  "title": "Na Prvi Pogled - Speed dating Zagreb",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other Na Prvi Pogled - Speed dating Zagreb 12.\n             ",
+  "url": "https://core-event.co/events/spike-fuck-b53d/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
   "date": "2026-11-12",
   "time": "20:00",
-  "title": "Peti Korak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater PETI KORAK 12.\n                \n                stud",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-12",
-  "time": "20:00",
-  "title": "AKADEMIJA RIBNJAK: Istočno od Salema",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater AKADEMIJA RIBNJAK: Istočno od Salema 12.\n           ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-12",
-  "time": "20:00",
-  "title": "KLINIKA DENISA KATANECA u Tvornici Kulture",
+  "title": "Klinika Denisa Kataneca",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kulture-d012/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-13",
+  "date": "2026-11-12",
   "time": "",
   "title": "Kensington Lima - Drito Ispod",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music KENSINGTON LIMA - DRITO ISPOD 12.\n                \n   ",
+  "url": "https://core-event.co/events/kensington-lima-drito-ispod-c73c/",
+  "venue_name": "Drito Ispod",
   "source": "coreevent"
  },
  {
   "date": "2026-11-13",
   "time": "20:00",
-  "title": "CLAN OF XYMOX u Tvornici Kulture",
+  "title": "Clan of Xymox",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/clan-of-xymox-u-tvornici-kulture-ca34/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -111,17 +83,19 @@
   "venue": "mocvara",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/ooioo-eksterminator-81-7bf1/",
+  "venue_name": "Močvara",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-13",
   "time": "",
   "title": "Mudri Brk predstavlja: RØLØ, Gdinjko i Turbo Trans Turisti",
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/mudro-brk-predstavlja-rolo-gdinjko-i-turbo-trans-turisti-c076/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
@@ -131,30 +105,30 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music PETKOM PRIJE PONOĆI | Scena PIANO: Lovro Mirth & Nikol",
+  "url": "https://core-event.co/events/petkom-prije-ponoci-scena-piano-lovro-mirth-nikola-santek-9aa8/",
+  "venue_name": "Foaje, Scena Piano",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-13",
   "time": "",
   "title": "Yem Takes Over Katran",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music YEM TAKES OVER KATRAN 13.\n                \n           ",
+  "url": "https://core-event.co/events/yem-takes-over-katran-fdf6/",
+  "venue_name": "Museum katran",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-14",
+  "date": "2026-11-13",
   "time": "",
   "title": "hohcajt w/ Vladimir Ivković & Pepi",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music hohcajt w/ Vladimir Ivković & Pepi 13.\n               ",
+  "url": "https://core-event.co/events/hohcajt-w-vladimir-ivkovic-pepi-8045/",
+  "venue_name": "Mali Barbarella's",
   "source": "coreevent"
  },
  {
@@ -164,30 +138,8 @@
   "venue": "",
   "genre": "dj",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Elevate party - 13.11. Lift Club 13.\n                \n",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-14",
-  "time": "11:00",
-  "title": "Premijera / Alisa u Zemlji Dosade",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater PREMIJERA / ALISA U ZEMLJI DOSADE 14.\n              ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-28",
-  "time": "",
-  "title": "Gdje je nestalo moje dijete? dopunska nastava za roditelje adolescenata",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other Gdje je nestalo moje dijete? dopunska nastava za rodit",
+  "url": "https://core-event.co/events/elevate-party-1311-cc13/",
+  "venue_name": "Lift Club",
   "source": "coreevent"
  },
  {
@@ -197,40 +149,30 @@
   "venue": "",
   "genre": "trad",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music 50 godina mladi - svečani koncert u čast 50 godina KUD",
+  "url": "https://core-event.co/events/50-godina-mladi-svecani-koncert-u-cast-50-godina-kud-a-mladost-ac70/",
+  "venue_name": "KUC Travno",
   "source": "coreevent"
  },
  {
   "date": "2026-11-14",
   "time": "",
-  "title": "Paulaner acoustic live session - OIV toranj Sljeme - 14.11.2026.",
+  "title": "Paulaner acoustic live session - OIV toranj Sljeme",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Paulaner acoustic live session - OIV toranj Sljeme - 1",
+  "url": "https://core-event.co/events/paulaner-acoustic-live-session-oiv-toranj-sljeme-14112026-5461/",
+  "venue_name": "OIV toranj Sljeme - Ostakljeni Vidikovac",
   "source": "coreevent"
  },
  {
   "date": "2026-11-14",
-  "time": "20:00",
-  "title": "Košarkaški Klub Dinamo Zagreb - Košarkaški Klub Samobor",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Sport KOŠARKAŠKI KLUB DINAMO ZAGREB - KOŠARKAŠKI KLUB SAMOBO",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-15",
   "time": "",
-  "title": "Let 3 u Tvornici Kulture",
+  "title": "LET 3",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/let-3-u-tvornici-kulture-6c28/",
+  "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
  {
@@ -240,18 +182,19 @@
   "venue": "sax",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/rambo-amadeus-u-saxu-ca46/",
+  "venue_name": "Sax!",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-15",
+  "date": "2026-11-14",
   "time": "",
   "title": "Bailar Gasolina",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Bailar Gasolina 14.\n                \n                –",
+  "url": "https://core-event.co/events/bailar-gasolina-dc30/",
+  "venue_name": "Prvi kat (Out Garden)",
   "source": "coreevent"
  },
  {
@@ -261,51 +204,8 @@
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-15",
-  "time": "10:30",
-  "title": "Priča mi se priča: IVICA I MARICA - Teatar Poco Loco na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Priča mi se priča: IVICA I MARICA - Teatar Poco Loco",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-16",
-  "time": "21:00",
-  "title": "Queer Momenti: Tiger",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other QUEER MOMENTI: Tiger 16.\n                \n            ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-17",
-  "time": "17:00",
-  "title": "Come closer",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other Come closer 17.\n                \n                stude",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-17",
-  "time": "20:00",
-  "title": "Draga Ulija - Ljubavna pisma s Otoka",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Draga Ulija - Ljubavna pisma s Otoka 17.\n           ",
+  "url": "https://core-event.co/events/jojo-i-prijatelji-ed0b/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
@@ -315,39 +215,30 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Iza ugla, uho svijeta: IGOR BOŽANIĆ 17.\n              ",
+  "url": "https://core-event.co/events/iza-ugla-uho-svijeta-igor-bozanic-8116/",
+  "venue_name": "Scena Ribnjak – velika dvorana",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-18",
+  "date": "2026-11-17",
   "time": "",
   "title": "SUEDE - YAMMATOVO 6 fueled by Cockta",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
   "date": "2026-11-18",
   "time": "20:00",
-  "title": "THE DARTS u Tvornici Kulture",
+  "title": "The Darts",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-19",
-  "time": "20:00",
-  "title": ",,Iza lica, ispod maske'': Vla Vla Vlajland Cabaret u Centru za kulturu Novi Zagreb",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater ,,Iza lica, ispod maske'': Vla Vla Vlajland Cabaret ",
+  "url": "https://core-event.co/events/the-darts-u-tvornici-kulture-577d/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
@@ -357,106 +248,41 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music AfterWork Hangouts 20.\n                \n              ",
+  "url": "https://core-event.co/events/after-work-hangouts-pilot-9004/",
+  "venue_name": "OUT Rooftop",
   "source": "coreevent"
  },
  {
   "date": "2026-11-20",
   "time": "20:00",
-  "title": "Yasmina Reza: BOG MASAKRA",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Yasmina Reza: BOG MASAKRA 20.\n                \n     ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-20",
-  "time": "20:00",
-  "title": "N. Bauman & Synesthetic Project: ARACHNE na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater N. Bauman & Synesthetic Project: ARACHNE na Sceni Ri",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-20",
-  "time": "20:00",
-  "title": "PSIHOMODO POP u Tvornici Kulture",
+  "title": "Psihomodo Pop",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
   "date": "2026-11-20",
-  "time": "20:30",
-  "title": "Futsal Dinamo - Rijeka",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Sport FUTSAL DINAMO - RIJEKA 20.\n                \n          ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-21",
   "time": "",
   "title": "FLUX - First edition warm-up, Disko 70-e",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music FLUX - First edition warm-up, Disko 70-e 20.\n         ",
+  "url": "https://core-event.co/events/flux-first-edition-warm-up-disko-70-e-776d/",
+  "venue_name": "Koncept bar",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-21",
+  "date": "2026-11-20",
   "time": "",
   "title": "NØVA EVENTS: Podmornica",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music NØVA EVENTS: Podmornica 20.\n                \n         ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-21",
-  "time": "14:00",
-  "title": "Advent Prije Adventa 2026 - Jožekov Breg/zagreb",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other ADVENT PRIJE ADVENTA 2026 - JOŽEKOV BREG/ZAGREB 21.\n  ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-21",
-  "time": "19:00",
-  "title": "Lijevo Desno Glumac",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Lijevo Desno Glumac 21.\n                \n           ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-21",
-  "time": "19:30",
-  "title": "Uspješna.hr",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Uspješna.hr 21.\n                \n                stu",
+  "url": "https://core-event.co/events/nova-events-podmornica-93e8/",
+  "venue_name": "Katran, Podmornica",
   "source": "coreevent"
  },
  {
@@ -466,73 +292,41 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music MMV 2026 / SERIOUS ENSEMBLE ZAGREB / ”Koncert” 21.\n   ",
+  "url": "https://core-event.co/events/serious-ensemble-zagreb-koncert-f061/",
+  "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
  {
   "date": "2026-11-21",
   "time": "20:00",
-  "title": "AKADEMIJA RIBNJAK: Mile majke",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater AKADEMIJA RIBNJAK: Mile majke 21.\n                \n ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-21",
-  "time": "20:00",
-  "title": "JURA STUBLIĆ & FILM u Tvornici Kulture",
+  "title": "Jura Stublić & Film",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-22",
+  "date": "2026-11-21",
   "time": "",
   "title": "Bitanga & Princeza / Best of Ex-yu Hits",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music BITANGA & PRINCEZA / BEST OF EX-YU HITS 21.\n          ",
+  "url": "https://core-event.co/events/bitanga-princeza-best-of-ex-yu-hits-6409/",
+  "venue_name": "Grof Melin",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-22",
+  "date": "2026-11-21",
   "time": "",
   "title": "Lady Gaga - Mother Monster All Night",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Lady Gaga - Mother Monster All Night 21.\n             ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-22",
-  "time": "10:30",
-  "title": "Priča mi se priča: SNJEŽNA KRALJICA - Teatar Poco Loco na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Priča mi se priča: SNJEŽNA KRALJICA - Teatar Poco Lo",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-22",
-  "time": "11:00",
-  "title": "Snjeguljica",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater SNJEGULJICA 22.\n                \n                stu",
+  "url": "https://core-event.co/events/lady-gaga-mother-monster-all-night-f8dc/",
+  "venue_name": "Lift",
   "source": "coreevent"
  },
  {
@@ -542,7 +336,8 @@
   "venue": "sax",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/fluentes-10-godina-rodendanski-koncert-2dc8/",
+  "venue_name": "Klub Sax!",
   "source": "coreevent"
  },
  {
@@ -552,29 +347,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music MMV 2026 / ROOMFUL OF TEETH / Roomful of Teeth 24.\n   ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-24",
-  "time": "20:00",
-  "title": "N. Marković Ramšak, M. Marković Ramšak i J. Marčić: STVARI KOJE NE MOGU ISPRIČATI O STVARIMA",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater N. Marković Ramšak, M. Marković Ramšak i J. Marčić: ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-24",
-  "time": "20:00",
-  "title": "Zagreb, Klub Sax: Ante Travizi - \"Nit' ora nit' kopa\" - Stand-up Show",
-  "venue": "sax",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/mmv-2026-roomful-of-teeth-roomful-of-teeth-7261/",
+  "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
  {
@@ -584,8 +358,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music MMV 2026 / LOVRO MERČEP / Dijalog 25.\n                ",
+  "url": "https://core-event.co/events/mmv-2026-lovro-mercep-dijalog-c12d/",
+  "venue_name": "Koncertna dvorana Centra KNAP",
   "source": "coreevent"
  },
  {
@@ -595,50 +369,19 @@
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-25",
-  "time": "21:00",
-  "title": "QUEER MOMENTI: Bearcave",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other QUEER MOMENTI: Bearcave 25.\n                \n         ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-26",
-  "time": "19:00",
-  "title": "Žene Koje Vrište u Sebi",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater ŽENE KOJE VRIŠTE U SEBI 26.\n                \n       ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-26",
-  "time": "19:00",
-  "title": "Na Prvi Pogled - Speed dating Zagreb",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other Na Prvi Pogled - Speed dating Zagreb 26.\n             ",
+  "url": "https://core-event.co/events/koncert-marka-vukesa-b70f/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
   "date": "2026-11-26",
   "time": "20:00",
-  "title": "NIKOLA VRANJKOVIĆ u Tvornici Kulture",
+  "title": "Nikola Vranjković",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921c/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -648,18 +391,8 @@
   "venue": "sax",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-27",
-  "time": "19:30",
-  "title": "Žene koje vrište u sebi",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Žene koje vrište u sebi 27.\n                \n       ",
+  "url": "https://core-event.co/events/silente-u-sax-u-5b70/",
+  "venue_name": "SAX club",
   "source": "coreevent"
  },
  {
@@ -669,8 +402,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music MMV 2026 / HERMESensemble / Traces 27.\n               ",
+  "url": "https://core-event.co/events/mmv-2026-herme-sensemble-traces-7f7e/",
+  "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
  {
@@ -680,27 +413,30 @@
   "venue": "primarius",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/ocean-of-another-u-zagrebu-5ab4/",
+  "venue_name": "PRIMARIUS PIVOVARA",
   "source": "coreevent"
  },
  {
   "date": "2026-11-27",
   "time": "20:00",
-  "title": "Soul Legacy @ Kino Sc Zagreb",
+  "title": "Soul Legacy",
   "venue": "kinosc",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/soul-legacy-kino-sc-zagreb-109d/",
+  "venue_name": "KINO SC ZAGREB",
   "source": "coreevent"
  },
  {
   "date": "2026-11-27",
   "time": "21:00",
-  "title": "Zoster u Tvornici Kulture!",
+  "title": "Zoster",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/zoster-u-tvornici-kulture-ff4b/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
@@ -710,40 +446,19 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music PETKOM PRIJE PONOĆI | Scena PIANO: Ricardo Luque i Zla",
+  "url": "https://core-event.co/events/petkom-prije-ponoci-scena-piano-ricardo-luque-i-zlatan-doslic-d909/",
+  "venue_name": "Foaje, Scena Piano",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-29",
-  "time": "",
-  "title": "SRCE Super sedmica by House of Flamingo",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-28",
+  "date": "2026-11-27",
   "time": "",
   "title": "brzeguze w/ Pitaya Soundystem",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music brzeguze w/ Pitaya Soundystem 27.\n                \n   ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-28",
-  "time": "10:00",
-  "title": "3. Multidisciplinarna konferencija \"Znanost psihodelika u primjeni\"",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference 3. Multidisciplinarna konferencija \"Znanost psiho",
+  "url": "https://core-event.co/events/brzeguze-w-pitaya-soundystem-a541/",
+  "venue_name": "Club Aquarius",
   "source": "coreevent"
  },
  {
@@ -753,8 +468,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Božićno čudo 28.\n              \n              studenog",
+  "url": "https://core-event.co/events/3012-bozicno-cudo-d9a2/",
+  "venue_name": "Velika dvorana",
   "source": "coreevent"
  },
  {
@@ -764,8 +479,8 @@
   "venue": "",
   "genre": "trad",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Metaklapa - 10 godina a cappella metala 28.\n          ",
+  "url": "https://core-event.co/events/metaklapa-10-godina-a-cappella-metala-a613/",
+  "venue_name": "Hrvatski prirodoslovni muzej",
   "source": "coreevent"
  },
  {
@@ -775,39 +490,19 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/spike-and-the-gimme-gimmes-u-zagrebu-55b2/",
+  "venue_name": "Boogaloo",
   "source": "coreevent"
  },
  {
-  "date": "2026-11-29",
+  "date": "2026-11-28",
   "time": "",
   "title": "Greenlight w/ Danielle (UK)",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music Greenlight w/ Danielle (UK) 28.\n                \n     ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-29",
-  "time": "10:30",
-  "title": "Priča mi se priča: ORAŠAR - Teatar Poco Loco na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Priča mi se priča: ORAŠAR - Teatar Poco Loco na Scen",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-29",
-  "time": "19:00",
-  "title": "Slajd- dejting event",
-  "venue": "sax",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/greenlight-w-danielle-uk-9cfd/",
+  "venue_name": "Mali Barbarellas",
   "source": "coreevent"
  },
  {
@@ -817,8 +512,8 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music ALTIN GÜN 29.\n                \n                studeno",
+  "url": "https://core-event.co/events/altin-gun-4044/",
+  "venue_name": "Lauba",
   "source": "coreevent"
  },
  {
@@ -828,29 +523,8 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-30",
-  "time": "20:00",
-  "title": "Direkt u Glavu",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater DIREKT U GLAVU 30.\n                \n                ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-02",
-  "time": "20:00",
-  "title": "KUĆNO KINO RIBNJAK: \"Kuća na pijesku\", r. Ivan Martinac",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other KUĆNO KINO RIBNJAK: \"Kuća na pijesku\", r. Ivan Martina",
+  "url": "https://core-event.co/events/the-ocean-u-zagrebu-932f/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
@@ -860,18 +534,8 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-04",
-  "time": "20:00",
-  "title": "Maruška Aras: DEPRAH | Teatro VeRRdi i Studio tres pas na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Maruška Aras: DEPRAH | Teatro VeRRdi i Studio tres p",
+  "url": "https://core-event.co/events/svemirko-u-vintage-u-ece8/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
@@ -881,17 +545,19 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/blu-vinil-u-zagrebu-3174/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-06",
+  "date": "2026-12-05",
   "time": "",
   "title": "Shtosmo u Tvornici",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/shtosmo-u-tvornici-945f/",
+  "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
  {
@@ -901,62 +567,19 @@
   "venue": "sax",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/ante-balen-u-zagrebu-sax-06122026-494c/",
+  "venue_name": "SAX!",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-07",
-  "time": "20:00",
-  "title": "Sve Je To u Vašoj Glavi",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater SVE JE TO U VAŠOJ GLAVI 7.\n                \n        ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-08",
-  "time": "20:00",
-  "title": "Drugi Plan",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater DRUGI PLAN 8.\n                \n                prosi",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-08",
-  "time": "21:00",
-  "title": "Queer Momenti: Body Blow",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other QUEER MOMENTI: Body Blow 8.\n                \n         ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-12",
+  "date": "2026-12-11",
   "time": "",
   "title": "Dolores - Drito Ispod",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music DOLORES - DRITO ISPOD 11.\n                \n           ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-12",
-  "time": "19:00",
-  "title": "Suparnice",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater SUPARNICE 12.\n                \n                prosi",
+  "url": "https://core-event.co/events/dolores-drito-ispod-4d42/",
+  "venue_name": "Drito Ispod",
   "source": "coreevent"
  },
  {
@@ -966,49 +589,30 @@
   "venue": "sax",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/when-tomorrow-comes-1df5/",
+  "venue_name": "Klub Sax!",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-13",
+  "date": "2026-12-12",
   "time": "",
   "title": "Ružno Pače u Tvornici",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-13",
-  "time": "11:00",
-  "title": "Tri Praščića",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater TRI PRAŠČIĆA 13.\n                \n                pr",
+  "url": "https://core-event.co/events/ruzno-pace-u-tvornici-ee19/",
+  "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
  {
   "date": "2026-12-13",
   "time": "20:00",
-  "title": "Glas(na)",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater GLAS(NA) 13.\n                \n                prosin",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-13",
-  "time": "20:00",
-  "title": "BUZZCOCKS u Tvornici Kulture",
+  "title": "Buzzcocks",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/buzzcocks-u-tvornici-kulture-5a29/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1018,7 +622,8 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/kries-u-vintage-u-e29d/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
@@ -1028,7 +633,8 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/avatar-u-zagrebu-4d53/",
+  "venue_name": "Boogaloo",
   "source": "coreevent"
  },
  {
@@ -1038,18 +644,8 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-20",
-  "time": "",
-  "title": "N. Kopeč: Tri Sestre Fake",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater N. Kopeč: TRI SESTRE FAKE 19.\n                \n     ",
+  "url": "https://core-event.co/events/savrseni-marginalci-u-boogaloo-u-ad2b/",
+  "venue_name": "Boogaloo",
   "source": "coreevent"
  },
  {
@@ -1059,7 +655,8 @@
   "venue": "tvornica",
   "genre": "dj",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/80-s-vs-90-s-live-koncerti-fit-anja-rupel-videosex-dj-musikfantastique-predbozicni-party-14d3/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1069,111 +666,85 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/baby-lasagna-u-boogaloo-u-6bf8/",
+  "venue_name": "Boogaloo",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-20",
-  "time": "10:00",
-  "title": "Abracadabra - Božićni Specijal",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-21",
-  "time": "09:00",
-  "title": "Project Days 2026",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference Project Days 2026 21.\n                \n          ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-21",
-  "time": "09:00",
-  "title": "Project Days 2026 - zatraži ponudu",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference Project Days 2026 - zatraži ponudu 21.\n          ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-12-24",
+  "date": "2026-12-23",
   "time": "",
-  "title": "Indira Forza @ Arena Zagreb! 30 godina karijere",
+  "title": "Indira Forza",
   "venue": "arena",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/indira-forza-arena-zagreb-30-godina-karijere-0dbe/",
+  "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-24",
+  "date": "2026-12-23",
   "time": "",
   "title": "Winterfest 2026 Velesajam",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music WINTERFEST 2026 VELESAJAM 23.\n                \n       ",
+  "url": "https://core-event.co/events/winterfest-2026-velesajam-53df/",
+  "venue_name": "Velesajam - paviljon 9",
   "source": "coreevent"
  },
  {
-  "date": "2026-12-27",
+  "date": "2026-12-26",
   "time": "",
   "title": "Studio 54 by Tomo Ricov",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/studio-54-by-tomo-ricov-2026-1d7f/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
   "date": "2026-12-31",
   "time": "",
-  "title": "Doček 2027. Godine @ Oiv Toranj Sljeme",
+  "title": "Doček 2027. Godine",
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Music DOČEK 2027. GODINE @ OIV TORANJ SLJEME 31.\n           ",
+  "url": "https://core-event.co/events/docek-2027-godine-oiv-toranj-sljeme-d6a7/",
+  "venue_name": "OIV toranj Sljeme",
   "source": "coreevent"
  },
  {
   "date": "2027-01-08",
   "time": "20:00",
-  "title": "SWINGERS present's ELVIS! u Tvornici Kulture",
+  "title": "SWINGERS present's ELVIS!",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/swingers-presents-elvis-u-tvornici-kulture-813c/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
   "date": "2027-01-29",
   "time": "20:00",
-  "title": "ŽIVO BLATO u Tvornici kulture",
+  "title": "Živo Blato",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/zivo-blato-u-tvornici-kulture-cc00/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
   "date": "2027-01-30",
   "time": "20:00",
-  "title": "REPETITOR u Tvornici kulture",
+  "title": "Repetitor",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/repetitor-u-tvornici-kulture-07d0/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1183,7 +754,8 @@
   "venue": "bocarski",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/editors-u-zagrebu-7126/",
+  "venue_name": "Boćarski dom",
   "source": "coreevent"
  },
  {
@@ -1193,7 +765,8 @@
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/daf-deutsch-amerikanische-freundschaft-0764/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1203,18 +776,8 @@
   "venue": "mocvara",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2027-03-13",
-  "time": "",
-  "title": "Novi val poduzetništva powered by Aestus",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference Novi val poduzetništva powered by Aestus 12.\n    ",
+  "url": "https://core-event.co/events/my-new-band-believe-6de0/",
+  "venue_name": "Močvara",
   "source": "coreevent"
  },
  {
@@ -1224,7 +787,8 @@
   "venue": "vintage",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/warhaus-21f1/",
+  "venue_name": "Vintage Industrial",
   "source": "coreevent"
  },
  {
@@ -1234,7 +798,8 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/conjurer-u-boogaloo-u-7891/",
+  "venue_name": "Boogaloo klub",
   "source": "coreevent"
  },
  {
@@ -1244,7 +809,8 @@
   "venue": "vintage",
   "genre": "dj",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/party-cannon-x-internal-bleeding-u-zagrebu-4e05/",
+  "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
  {
@@ -1254,27 +820,30 @@
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/the-rasmus-weirdo-tour-36f5/",
+  "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
  {
-  "date": "2027-04-04",
+  "date": "2027-04-02",
   "time": "",
   "title": "Drito Iz Boćarskog",
   "venue": "bocarski",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/drito-iz-bocarskog-c5ac/",
+  "venue_name": "Boćarski dom",
   "source": "coreevent"
  },
  {
   "date": "2027-04-08",
   "time": "20:00",
-  "title": "Freedom – A Tribute to George Michael @ Tvornica Kulture",
+  "title": "Freedom – A Tribute to George Michael",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/freedom-a-tribute-to-george-michael-tvornica-kulture-6871/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
@@ -1284,17 +853,19 @@
   "venue": "arena",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/pips-chips-videoclips-u-areni-7687/",
+  "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
  {
   "date": "2027-04-10",
   "time": "21:00",
-  "title": "Luky @ Tvornica Kulture, Zagreb",
+  "title": "Luky",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/luky-tvornica-kulture-zagreb-4d0a/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
@@ -1304,28 +875,19 @@
   "venue": "boogaloo",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2027-04-23",
-  "time": "",
-  "title": "AECEF-EUCEET Joint Conference 2027 - Civil Engineering Education for the Green and Digital Transformation",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference AECEF-EUCEET Joint Conference 2027 - Civil Engine",
+  "url": "https://core-event.co/events/katatonia-u-boogaloo-u-4318/",
+  "venue_name": "Boogaloo klub",
   "source": "coreevent"
  },
  {
   "date": "2027-04-24",
   "time": "20:00",
-  "title": "SIXTEEN HORSEPOWER u Tvornici kulture",
+  "title": "Sixteen Horsepower",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1335,7 +897,8 @@
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/ian-paice-deep-purple-purpendicular-2574/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1345,7 +908,8 @@
   "venue": "arena",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/fontaines-dc-u-zagrebu-62e5/",
+  "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
  {
@@ -1355,27 +919,30 @@
   "venue": "arena",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/scorpions-with-special-guests-europe-arena-zagreb-cf3d/",
+  "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
  {
   "date": "2027-06-18",
   "time": "20:00",
-  "title": "KIM WILDE u Tvornici Kulture",
+  "title": "Kim Wilde",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/kim-wilde-u-tvornici-kulture-30a4/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
   "date": "2027-06-26",
   "time": "20:00",
-  "title": "ELECTRIC SIX u Tvornici Kulture",
+  "title": "Electric Six",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/electric-six-u-tvornici-kulture-6818/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
  {
@@ -1385,71 +952,30 @@
   "venue": "salata",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/slash-featuring-myles-kennedy-and-the-conspirators-flying-blind-world-tour-2027-zagreb-salata-18cc/",
+  "venue_name": "SRC Šalata",
   "source": "coreevent"
  },
  {
   "date": "2027-10-01",
   "time": "20:00",
-  "title": "Jasna Zlokić @ Zagreb - Tvornica Kulture",
+  "title": "Jasna Zlokić",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
+  "url": "https://core-event.co/events/jasna-zlokic-zagreb-tvornica-kulture-9903/",
+  "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
  {
   "date": "2027-10-22",
   "time": "20:00",
-  "title": "STEREO MC's u Tvornici kulture",
+  "title": "Stereo Mc's",
   "venue": "tvornica",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/",
-  "source": "coreevent"
- },
- {
-  "date": "2027-10-28",
-  "time": "",
-  "title": "Sport Innovest 2027",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Conference Sport Innovest 2027 27.\n                \n        ",
-  "source": "coreevent"
- },
- {
-  "date": "2027-02-12",
-  "time": "",
-  "title": "Oiv Toranj Sljeme - Ulaznice",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Other OIV TORANJ SLJEME - ULAZNICE 12.\n              \n      ",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-08",
-  "time": "10:30",
-  "title": "Priča mi se priča: BAKA ZIMA - Teatar Poco Loco na Sceni Ribnjak",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater Priča mi se priča: BAKA ZIMA - Teatar Poco Loco na S",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-08",
-  "time": "11:00",
-  "title": "Žirafa Žiži Pleše Step",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/",
-  "venue_name": "Theater ŽIRAFA ŽIŽI PLEŠE STEP 8.\n                \n         ",
+  "url": "https://core-event.co/events/stereo-m-cs-u-tvornici-kulture-e538/",
+  "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  }
 ]

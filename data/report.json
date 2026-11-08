@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-08T21:31:20+00:00",
+ "run_at": "2026-11-08T21:40:23+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -38,14 +38,9 @@
    "ok": true,
    "count": 54
   },
-  "entrio": {
-   "ok": false,
-   "count": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.entrio.hr/hr/"
-  },
   "coreevent": {
    "ok": true,
-   "count": 138
+   "count": 89
   },
   "songkick": {
    "ok": true,
