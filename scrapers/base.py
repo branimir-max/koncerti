@@ -254,3 +254,32 @@ def tootoot_events(html: str, venue: str, base_url: str) -> list[dict]:
             out.append({"date": d, "time": "", "title": clean(heading.get_text(" ", strip=True)), "venue": venue,
                         "genre": "", "price": "", "url": a["href"], "_text": ""})
     return out
+
+
+# ---------- stranica jednog događaja (za izvore koji na naslovnici nemaju datume) ----------
+
+def page_event(html: str, url: str, venue: str) -> dict | None:
+    found = jsonld_events(html, venue, url)
+    if found:
+        return found[0]
+    s = soup(html)
+    og = s.find("meta", property="og:title")
+    h1 = s.find("h1")
+    title = clean(og["content"]) if og and og.get("content") else (clean(h1.get_text(" ", strip=True)) if h1 else "")
+    main = s.find("main") or s.find("article") or s.body or s
+    text = main.get_text(" ", strip=True)[:3000]
+    d = parse_date(text)
+    if not title or not d:
+        return None
+    return {"date": d, "time": parse_time(text), "title": re.sub(r"\s[|–-]\s[^|–-]+$", "", title), "venue": venue,
+            "genre": "", "price": find_price(text), "url": url, "_text": text[:300]}
+
+
+def event_links(html: str, base_url: str, pattern: str, limit: int = 25) -> list[str]:
+    links, seen = [], set()
+    for a in soup(html).find_all("a", href=True):
+        href = requests.compat.urljoin(base_url, a["href"]).split("#")[0]
+        if re.search(pattern, href) and href not in seen and href.rstrip("/") != base_url.rstrip("/"):
+            seen.add(href)
+            links.append(href)
+    return links[:limit]

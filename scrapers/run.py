@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import card_events, clean, fetch, jsonld_events, microdata_events, soup, tootoot_events
+from .base import card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -79,6 +79,16 @@ def scrape(src: dict) -> list[dict]:
             found = tootoot_events(html, v, url)
         elif parser == "microdata":
             found = microdata_events(html, v, url)
+        elif parser == "detail":
+            found = []
+            for link in event_links(html, url, src["link_pattern"]):
+                try:
+                    e = page_event(fetch(link), link, v)
+                    if e:
+                        found.append(e)
+                except Exception:  # noqa: BLE001 – jedna pokvarena stranica ne ruši izvor
+                    pass
+                time.sleep(1)
         elif parser == "cards":
             found = card_events(html, v, url, card_selector=src.get("card"))
         else:
@@ -102,6 +112,10 @@ def scrape(src: dict) -> list[dict]:
     for e in events:
         blob = e.pop("_blob", e["title"].lower())
         if any(w in blob for w in src.get("exclude", [])):
+            continue
+        if src.get("include") and not any(w in blob for w in src["include"]):
+            continue
+        if src.get("require") and src["require"].lower() not in blob:
             continue
         for pat in src.get("strip", []):
             e["title"] = re.sub(pat, "", e["title"], flags=re.I).strip()

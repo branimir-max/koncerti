@@ -4,7 +4,8 @@
   "address": "Ulica Vice Vukova 8",
   "aliases": [
    "Arena Zagreb",
-   "Zagreb Arena"
+   "Zagreb Arena",
+   "Arena Zagreb d.o.o."
   ]
  },
  "lisinski": {
@@ -14,7 +15,10 @@
   "aliases": [
    "Koncertna dvorana Vatroslava Lisinskog",
    "Vatroslav Lisinski",
-   "Lisinski"
+   "Lisinski",
+   "KD \"Vatroslav Lisinski\"",
+   "KD Vatroslava Lisinskog",
+   "Vatroslav Lisinski"
   ]
  },
  "lisV": {
@@ -41,7 +45,8 @@
   "address": "Ulica grada Vukovara 68",
   "aliases": [
    "Boogaloo Club",
-   "Boogaloo"
+   "Boogaloo",
+   "Klub Boogaloo"
   ]
  },
  "mocvara": {
@@ -123,21 +128,80 @@
    "Sax!",
    "Klub Sax",
    "Sax"
-  ]
+  ],
+  "regular": "Jazz, blues i rock svirke više puta tjedno. Program objavljuju samo na društvenim mrežama."
  },
  "klaonica": {
   "name": "Reci:Klaonica",
   "address": "Heinzelova 66",
   "aliases": [
    "Klaonica"
-  ]
+  ],
+  "regular": "DIY punk i hardcore koncerti. Program objavljuju samo na društvenim mrežama."
  },
  "kinosc": {
   "name": "Kino SC",
   "address": "Savska cesta 25",
   "aliases": [
    "Kino SC",
-   "Studentski centar"
+   "Studentski centar",
+   "Teatar &TD",
+   "SC Polukružna"
+  ]
+ },
+ "petikupe": {
+  "name": "Peti Kupe",
+  "address": "Trnjanska cesta 5",
+  "aliases": [
+   "Peti Kupe",
+   "Peti kupe"
+  ]
+ },
+ "pogon": {
+  "name": "Pogon Jedinstvo",
+  "address": "Trnjanska struga 34",
+  "aliases": [
+   "Pogon Jedinstvo"
+  ]
+ },
+ "bikers": {
+  "name": "Bikers Beer Factory",
+  "address": "Savska cesta 150",
+  "aliases": [
+   "Bikers Beer Factory",
+   "Bikers"
+  ],
+  "regular": "Žive svirke (rock, blues, metal) svaki vikend, ulaz uglavnom slobodan. Program objavljuju samo na društvenim mrežama."
+ },
+ "hnk": {
+  "name": "HNK Zagreb",
+  "address": "Trg Republike Hrvatske 15",
+  "aliases": [
+   "HNK Zagreb",
+   "Hrvatsko narodno kazalište u Zagrebu"
+  ]
+ },
+ "domsportova": {
+  "name": "Dom sportova",
+  "address": "Trg Krešimira Ćosića 11",
+  "aliases": [
+   "Dom sportova"
+  ]
+ },
+ "hgz": {
+  "name": "Hrvatski glazbeni zavod",
+  "address": "Gundulićeva 6",
+  "aliases": [
+   "Hrvatski glazbeni zavod",
+   "HGZ"
+  ]
+ },
+ "klovicevi": {
+  "name": "Klovićevi dvori",
+  "address": "Jezuitski trg 4",
+  "aliases": [
+   "Klovićevi dvori",
+   "Galerija Klovićevi dvori"
   ]
  }
 }
