@@ -16,6 +16,14 @@
   "name": "16 Horsepower",
   "query": "16 Horsepower"
  },
+ "3 multidisciplinarna konferencija znanost psihodelika u primjeni": {
+  "checked": "2026-11-08",
+  "query": "3. Multidisciplinarna konferencija Znanost psihodelika u primjeni"
+ },
+ "50 godina mladi": {
+  "checked": "2026-11-08",
+  "query": "50 godina mladi"
+ },
  "73 koncertna sezona zagrebackih solista mirella hagen": {
   "checked": "2026-11-08",
   "query": "73. Koncertna Sezona Zagrebačkih Solista Mirella Hagen"
@@ -50,13 +58,29 @@
   "name": "Adi Šoše",
   "query": "Adi Šoše"
  },
+ "advent prije adventa 2026": {
+  "checked": "2026-11-08",
+  "query": "Advent Prije Adventa 2026"
+ },
+ "aecef euceet joint conference 2027": {
+  "checked": "2026-11-08",
+  "query": "AECEF-EUCEET Joint Conference 2027"
+ },
  "afro gitano": {
   "checked": "2026-11-08",
   "query": "Afro Gitano"
  },
+ "afterwork hangouts": {
+  "checked": "2026-11-08",
+  "query": "AfterWork Hangouts"
+ },
  "ajngemahtec kvintet": {
   "checked": "2026-11-08",
   "query": "Ajngemahtec Kvintet"
+ },
+ "akademija ribnjak": {
+  "checked": "2026-11-08",
+  "query": "AKADEMIJA RIBNJAK"
  },
  "akustika session w": {
   "checked": "2026-11-08",
@@ -80,9 +104,17 @@
   "name": "Altın Gün",
   "query": "Altın Gün"
  },
+ "altin gun": {
+  "checked": "2026-11-08",
+  "query": "Altin Gün"
+ },
  "ansambl lado": {
   "checked": "2026-11-08",
   "query": "Ansambl LADO"
+ },
+ "ante balen u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "Ante Balen u Zagrebu"
  },
  "arab strap": {
   "checked": "2026-11-08",
@@ -123,9 +155,25 @@
   "checked": "2026-11-08",
   "query": "Avatar"
  },
+ "babulabum": {
+  "checked": "2026-11-08",
+  "query": "BaBuLaBum"
+ },
+ "baby lasagna u boogaloo u": {
+  "checked": "2026-11-08",
+  "query": "Baby Lasagna u Boogaloo-u!"
+ },
  "back to the 2000 s": {
   "checked": "2026-11-08",
   "query": "Back To the 2000’s"
+ },
+ "back to the 2000s": {
+  "checked": "2026-11-08",
+  "query": "Back To the 2000’s"
+ },
+ "bailar gasolina": {
+  "checked": "2026-11-08",
+  "query": "Bailar Gasolina"
  },
  "bilal": {
   "checked": "2026-11-08",
@@ -141,6 +189,14 @@
   "mbid": "260097c7-d628-4a3f-966f-956ea430c0d8",
   "name": "Bilal",
   "query": "Bilal"
+ },
+ "bitanga": {
+  "checked": "2026-11-08",
+  "query": "Bitanga"
+ },
+ "bluvinil u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "BluVinil u Zagrebu!"
  },
  "branford marsalis": {
   "checked": "2026-11-08",
@@ -166,6 +222,14 @@
   "mbid": "50698127-f6f4-4c0c-8010-db98c21100e1",
   "name": "Bruce Dickinson",
   "query": "Bruce Dickinson"
+ },
+ "brzeguze w": {
+  "checked": "2026-11-08",
+  "query": "brzeguze w"
+ },
+ "buzzcocks u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "BUZZCOCKS u Tvornici Kulture"
  },
  "calibro 35 vs l a u vintageu": {
   "checked": "2026-11-08",
@@ -209,6 +273,14 @@
   "name": "Cockney Rejects",
   "query": "Cockney Rejects"
  },
+ "come closer": {
+  "checked": "2026-11-08",
+  "query": "Come closer"
+ },
+ "conjurer u boogaloo u": {
+  "checked": "2026-11-08",
+  "query": "Conjurer u Boogaloo-u!"
+ },
  "crimson glory": {
   "checked": "2026-11-08",
   "country": "US",
@@ -250,6 +322,10 @@
   "checked": "2026-11-08",
   "query": "Čudnovata Dama Trema"
  },
+ "daf": {
+  "checked": "2026-11-08",
+  "query": "DAF"
+ },
  "daft funk live": {
   "checked": "2026-11-08",
   "query": "DAFT FUNK live!"
@@ -288,13 +364,34 @@
   "checked": "2026-11-08",
   "query": "Desire"
  },
+ "direkt u glavu": {
+  "checked": "2026-11-08",
+  "query": "Direkt u Glavu"
+ },
  "dobrotvorni koncert srce u srcu zagreba": {
   "checked": "2026-11-08",
   "query": "Dobrotvorni Koncert Srce u Srcu Zagreba"
  },
+ "docek 2027 godine": {
+  "checked": "2026-11-08",
+  "query": "Doček 2027. Godine"
+ },
+ "docek martinja uz gustafe u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "DOČEK MARTINJA UZ GUSTAFE u Tvornici kulture"
+ },
  "docekaj martinja uz gustafe": {
   "checked": "2026-11-08",
   "query": "Dočekaj Martinja uz Gustafe"
+ },
+ "dolores": {
+  "checked": "2026-11-08",
+  "country": "HR",
+  "genre": "",
+  "links": {},
+  "mbid": "6ffee7da-5ba3-4efd-93ce-c640bd549f8d",
+  "name": "Dolores",
+  "query": "Dolores"
  },
  "doma je najljepse": {
   "checked": "2026-11-08",
@@ -317,6 +414,10 @@
   "checked": "2026-11-08",
   "query": "Domoljubni Koncert djeca Pjevaju Domu Mom"
  },
+ "draga ulija": {
+  "checked": "2026-11-08",
+  "query": "Draga Ulija"
+ },
  "drazen zecic": {
   "checked": "2026-11-08",
   "country": "HR",
@@ -331,6 +432,10 @@
   "name": "Dražen Zečić",
   "query": "Dražen Zečić"
  },
+ "drito iz bocarskog": {
+  "checked": "2026-11-08",
+  "query": "Drito Iz Boćarskog"
+ },
  "drugi nacin": {
   "checked": "2026-11-08",
   "country": "HR",
@@ -339,6 +444,10 @@
   "mbid": "37ec6f32-48eb-4f6e-9657-334dd81a097d",
   "name": "Drugi način",
   "query": "Drugi Način"
+ },
+ "drugi plan": {
+  "checked": "2026-11-08",
+  "query": "Drugi Plan"
  },
  "dunjaluk": {
   "checked": "2026-11-08",
@@ -395,6 +504,10 @@
   "checked": "2026-11-08",
   "query": "EDO MAAJKA na Šalati!"
  },
+ "electric six u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "ELECTRIC SIX u Tvornici Kulture"
+ },
  "enis beslagic": {
   "checked": "2026-11-08",
   "country": "",
@@ -411,6 +524,19 @@
  "flamenco en vivo": {
   "checked": "2026-11-08",
   "query": "Flamenco en vivo!"
+ },
+ "fluentes": {
+  "checked": "2026-11-08",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "58451f88-66c6-47b8-9c02-cb2d5c99f9b9",
+  "name": "Fluentes",
+  "query": "Fluentes"
+ },
+ "flux": {
+  "checked": "2026-11-08",
+  "query": "FLUX"
  },
  "follakzoid": {
   "checked": "2026-11-08",
@@ -439,6 +565,14 @@
   "name": "Foltin",
   "query": "Foltin"
  },
+ "fontaines d c u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "Fontaines D.C. u Zagrebu!"
+ },
+ "futsal dinamo": {
+  "checked": "2026-11-08",
+  "query": "Futsal Dinamo"
+ },
  "future scope": {
   "checked": "2026-11-08",
   "query": "Future Scope"
@@ -446,6 +580,10 @@
  "future scope w pan pot": {
   "checked": "2026-11-08",
   "query": "Future Scope w. PAN POT"
+ },
+ "gdje je nestalo moje dijete dopunska nastava za roditelje adolescenata": {
+  "checked": "2026-11-08",
+  "query": "Gdje je nestalo moje dijete? dopunska nastava za roditelje adolescenata"
  },
  "gipsy kings": {
   "checked": "2026-11-08",
@@ -463,6 +601,14 @@
   "name": "Gipsy Kings",
   "query": "Gipsy Kings"
  },
+ "glas": {
+  "checked": "2026-11-08",
+  "query": "Glas"
+ },
+ "greenlight w": {
+  "checked": "2026-11-08",
+  "query": "Greenlight w"
+ },
  "haris dzinovic": {
   "checked": "2026-11-08",
   "country": "BA",
@@ -477,6 +623,10 @@
   "mbid": "fb00ab7f-7c5b-4474-baa3-f6227fa52f48",
   "name": "Haris Džinović",
   "query": "Haris Džinović"
+ },
+ "hohcajt w": {
+  "checked": "2026-11-08",
+  "query": "hohcajt w"
  },
  "hollywood undead": {
   "checked": "2026-11-08",
@@ -507,13 +657,44 @@
   "checked": "2026-11-08",
   "query": "HUSH! W"
  },
+ "ian paice": {
+  "checked": "2026-11-08",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "spotify": "https://open.spotify.com/artist/2gNdXbhyIbXHWvurrlrUAq"
+  },
+  "mbid": "29c11f6b-df9f-454f-964e-75eedadb4a1e",
+  "name": "Ian Paice",
+  "query": "Ian Paice"
+ },
  "idu hobiti": {
   "checked": "2026-11-08",
   "query": "Idu Hobiti"
  },
+ "indira forza": {
+  "checked": "2026-11-08",
+  "query": "Indira Forza"
+ },
+ "iza ugla": {
+  "checked": "2026-11-08",
+  "query": "Iza ugla"
+ },
  "izvorista dunije": {
   "checked": "2026-11-08",
   "query": "Izvorišta Dunije"
+ },
+ "jasna zlokic": {
+  "checked": "2026-11-08",
+  "country": "HR",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/124709",
+   "spotify": "https://open.spotify.com/artist/26OGQMOeUa387ww8OnhVY8"
+  },
+  "mbid": "b09d7d1b-094d-48e4-9802-13ca69303140",
+  "name": "Jasna Zlokić",
+  "query": "Jasna Zlokić"
  },
  "jazz karneval": {
   "checked": "2026-11-08",
@@ -584,9 +765,21 @@
   "name": "Katatonia",
   "query": "Katatonia"
  },
+ "kensington lima": {
+  "checked": "2026-11-08",
+  "query": "Kensington Lima"
+ },
  "kim salmon s smoked salmon": {
   "checked": "2000-01-01",
   "query": "Kim Salmon's Smoked Salmon"
+ },
+ "kim salmons smoked salmon": {
+  "checked": "2026-11-08",
+  "query": "Kim Salmon's Smoked Salmon"
+ },
+ "kim wilde u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "KIM WILDE u Tvornici Kulture"
  },
  "klinika denisa kataneca": {
   "checked": "2026-11-08",
@@ -597,9 +790,17 @@
   "name": "Klinika Denisa Kataneca",
   "query": "Klinika Denisa Kataneca"
  },
+ "klinika denisa kataneca u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "KLINIKA DENISA KATANECA u Tvornici Kulture"
+ },
  "kolt teatar": {
   "checked": "2026-11-08",
   "query": "Kolt Teatar"
+ },
+ "kosarkaski klub dinamo zagreb": {
+  "checked": "2026-11-08",
+  "query": "Košarkaški Klub Dinamo Zagreb"
  },
  "kovacs": {
   "checked": "2026-11-08",
@@ -618,9 +819,34 @@
   "name": "Kovacs",
   "query": "Kovacs"
  },
+ "kries u vintage u": {
+  "checked": "2026-11-08",
+  "query": "Kries u Vintage-u!"
+ },
  "kristijan rahimovski": {
-  "checked": "2000-01-01",
+  "checked": "2026-11-08",
   "query": "Kristijan Rahimovski"
+ },
+ "kucno kino ribnjak": {
+  "checked": "2026-11-08",
+  "query": "KUĆNO KINO RIBNJAK"
+ },
+ "lady gaga": {
+  "checked": "2026-11-08",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/75491",
+   "facebook": "https://www.facebook.com/ladygaga",
+   "instagram": "https://www.instagram.com/ladygaga/",
+   "soundcloud": "https://soundcloud.com/ladygaga",
+   "spotify": "https://open.spotify.com/artist/1HY2Jd0NmPuamShAr6KMms",
+   "web": "https://www.ladygaga.com/",
+   "youtube": "https://www.youtube.com/channel/UC07Kxew-cMIaykMOkzqHtBQ"
+  },
+  "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
+  "name": "Lady Gaga",
+  "query": "Lady Gaga"
  },
  "lalalar istanbulska psihodelija": {
   "checked": "2026-11-08",
@@ -675,15 +901,37 @@
   "name": "Let 3",
   "query": "Let 3"
  },
+ "let 3 u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "Let 3 u Tvornici Kulture"
+ },
  "lexington": {
-  "checked": "2000-01-01",
+  "checked": "2026-11-08",
   "query": "Lexington"
+ },
+ "lijevo desno glumac": {
+  "checked": "2026-11-08",
+  "query": "Lijevo Desno Glumac"
  },
  "lika kolorado": {
   "checked": "2026-11-08",
   "query": "Lika Kolorado"
  },
  "lion s law": {
+  "checked": "2026-11-08",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://lionslaw.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5592103",
+   "facebook": "https://www.facebook.com/lionslawparis",
+   "spotify": "https://open.spotify.com/artist/7JVEe7dW62EeMOrMwmwG68"
+  },
+  "mbid": "f131d1a9-9147-4101-8aa7-6c3f8e033fbf",
+  "name": "Lion’s Law",
+  "query": "Lion's Law"
+ },
+ "lions law": {
   "checked": "2026-11-08",
   "country": "",
   "genre": "punk",
@@ -721,6 +969,15 @@
   "checked": "2026-11-08",
   "query": "Luka Nižetić Autoportret s Juga 25 Godina Karijere"
  },
+ "luky": {
+  "checked": "2026-11-08",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "63e376f7-3cb1-4dfd-9bb5-1dabc86cc0a8",
+  "name": "Luky",
+  "query": "Luky"
+ },
  "magali sare": {
   "checked": "2026-11-08",
   "country": "ES",
@@ -752,6 +1009,10 @@
  "marko vukes": {
   "checked": "2026-11-08",
   "query": "Marko Vukeš"
+ },
+ "maruska aras": {
+  "checked": "2026-11-08",
+  "query": "Maruška Aras"
  },
  "masinko": {
   "checked": "2026-11-08",
@@ -788,6 +1049,18 @@
   "name": "Mejaši",
   "query": "Mejaši"
  },
+ "metaklapa": {
+  "checked": "2026-11-08",
+  "country": "HR",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/metaklapa",
+   "instagram": "https://www.instagram.com/metaklapa/"
+  },
+  "mbid": "21c1b2dd-907e-4386-b4e0-b7db44611f78",
+  "name": "Metaklapa",
+  "query": "Metaklapa"
+ },
  "miroslav ilic": {
   "checked": "2026-11-08",
   "country": "RS",
@@ -808,6 +1081,10 @@
   "mbid": "543aa817-ec8d-4af2-8de1-1d58b45e38eb",
   "name": "Miroslav Škoro",
   "query": "Miroslav Škoro"
+ },
+ "mmv 2026": {
+  "checked": "2026-11-08",
+  "query": "MMV 2026"
  },
  "monolord": {
   "checked": "2026-11-08",
@@ -839,12 +1116,68 @@
   "query": "Mostar Sevdah Reunion"
  },
  "mothers finest": {
-  "checked": "2000-01-01",
+  "checked": "2026-11-08",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/11723",
+   "facebook": "https://www.facebook.com/mothersfinest",
+   "instagram": "https://www.instagram.com/mothersfinestofficial/",
+   "spotify": "https://open.spotify.com/artist/3csSQdDVhJlP3BUOoZ2N2H",
+   "web": "https://www.mothersfinest.com/",
+   "youtube": "https://www.youtube.com/channel/UCWHmefA2hECbt5TtNK2pOXw"
+  },
+  "mbid": "7b38a145-7137-4c61-8d04-89ade521a6fc",
+  "name": "Mother’s Finest",
   "query": "Mothers Finest"
  },
+ "mudri brk predstavlja": {
+  "checked": "2026-11-08",
+  "query": "Mudri Brk predstavlja"
+ },
+ "mudri brk predstavlja vol 2": {
+  "checked": "2026-11-08",
+  "query": "Mudri Brk predstavlja vol. 2"
+ },
  "munly": {
-  "checked": "2000-01-01",
+  "checked": "2026-11-08",
   "query": "Munly"
+ },
+ "my new band believe": {
+  "checked": "2026-11-08",
+  "country": "GB",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://mynewbandbelieve.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/304220561",
+   "instagram": "https://www.instagram.com/mynewbandbelieve/",
+   "spotify": "https://open.spotify.com/artist/5bPSCPf8wOY03ENKd6Aw9O",
+   "web": "https://www.mynewbandbelieve.com/",
+   "youtube": "https://www.youtube.com/channel/UCeOlmKnEC9fIUNa_mYxsPVg"
+  },
+  "mbid": "d296518f-e5e3-4ba9-a026-560916dcbc2f",
+  "name": "My New Band Believe",
+  "query": "My New Band Believe"
+ },
+ "n bauman": {
+  "checked": "2026-11-08",
+  "query": "N. Bauman"
+ },
+ "n kopec": {
+  "checked": "2026-11-08",
+  "query": "N. Kopeč"
+ },
+ "n markovic ramsak": {
+  "checked": "2026-11-08",
+  "query": "N. Marković Ramšak"
+ },
+ "n va events": {
+  "checked": "2026-11-08",
+  "query": "NØVA EVENTS"
+ },
+ "na prvi pogled": {
+  "checked": "2026-11-08",
+  "query": "Na Prvi Pogled"
  },
  "najbolji hrvatski tamburasi": {
   "checked": "2026-11-08",
@@ -902,8 +1235,16 @@
   "query": "Nikola Vranjković"
  },
  "no jazz": {
-  "checked": "2000-01-01",
+  "checked": "2026-11-08",
   "query": "NO Jazz"
+ },
+ "novi val poduzetnistva powered by aestus": {
+  "checked": "2026-11-08",
+  "query": "Novi val poduzetništva powered by Aestus"
+ },
+ "ocean of another u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "Ocean Of Another u Zagrebu"
  },
  "officium triste": {
   "checked": "2026-11-08",
@@ -923,6 +1264,10 @@
   "name": "Officium Triste",
   "query": "Officium Triste"
  },
+ "oiv toranj sljeme": {
+  "checked": "2026-11-08",
+  "query": "Oiv Toranj Sljeme"
+ },
  "opca opasnost": {
   "checked": "2026-11-08",
   "country": "HR",
@@ -940,6 +1285,10 @@
   "name": "Opća opasnost",
   "query": "Opća Opasnost"
  },
+ "paulaner acoustic live session": {
+  "checked": "2026-11-08",
+  "query": "Paulaner acoustic live session"
+ },
  "perpetuum jazzile": {
   "checked": "2026-11-08",
   "country": "SI",
@@ -955,9 +1304,21 @@
   "name": "Perpetuum Jazzile",
   "query": "Perpetuum Jazzile"
  },
+ "peti korak": {
+  "checked": "2026-11-08",
+  "query": "Peti Korak"
+ },
+ "petkom prije ponoci scena piano": {
+  "checked": "2026-11-08",
+  "query": "PETKOM PRIJE PONOĆI | Scena PIANO"
+ },
  "picastro": {
   "checked": "2026-11-08",
   "query": "Picastro"
+ },
+ "pipschips videoclips u areni": {
+  "checked": "2026-11-08",
+  "query": "PipsChips&Videoclips u Areni!"
  },
  "pismo moja": {
   "checked": "2026-11-08",
@@ -1000,9 +1361,21 @@
   "name": "Praying Mantis",
   "query": "Praying Mantis"
  },
+ "premijera": {
+  "checked": "2026-11-08",
+  "query": "Premijera"
+ },
+ "prica mi se prica": {
+  "checked": "2026-11-08",
+  "query": "Priča mi se priča"
+ },
  "progledaj srcem 2027": {
   "checked": "2026-11-08",
   "query": "Progledaj srcem 2027"
+ },
+ "project days 2026": {
+  "checked": "2026-11-08",
+  "query": "Project Days 2026"
  },
  "psihomodo pop": {
   "checked": "2026-11-08",
@@ -1021,6 +1394,14 @@
   "name": "Psihomodo Pop",
   "query": "Psihomodo Pop"
  },
+ "queer momenti": {
+  "checked": "2026-11-08",
+  "query": "QUEER MOMENTI"
+ },
+ "rambo amadeus u saxu": {
+  "checked": "2026-11-08",
+  "query": "Rambo Amadeus u Saxu!"
+ },
  "ranking ann": {
   "checked": "2026-11-08",
   "country": "",
@@ -1033,6 +1414,14 @@
  "rave frequencies croatia": {
   "checked": "2026-11-08",
   "query": "Rave Frequencies Croatia"
+ },
+ "repetitor u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "REPETITOR u Tvornici kulture"
+ },
+ "ruzno pace u tvornici": {
+  "checked": "2026-11-08",
+  "query": "Ružno Pače u Tvornici"
  },
  "s a r s": {
   "checked": "2026-11-08",
@@ -1055,6 +1444,10 @@
   "name": "Sarah Brightman",
   "query": "Sarah Brightman"
  },
+ "savrseni marginalci u boogaloo u": {
+  "checked": "2026-11-08",
+  "query": "Savršeni Marginalci u Boogaloo-u!"
+ },
  "scorpions": {
   "checked": "2026-11-08",
   "country": "DE",
@@ -1072,6 +1465,10 @@
   "name": "Scorpions",
   "query": "Scorpions"
  },
+ "scorpions with very special guests europe": {
+  "checked": "2026-11-08",
+  "query": "SCORPIONS with very special guests EUROPE"
+ },
  "she loves pablo": {
   "checked": "2026-11-08",
   "country": "",
@@ -1086,6 +1483,14 @@
   "name": "She Loves Pablo",
   "query": "SHE LOVES PABLO"
  },
+ "shtosmo u tvornici": {
+  "checked": "2026-11-08",
+  "query": "Shtosmo u Tvornici"
+ },
+ "silente u sax u": {
+  "checked": "2026-11-08",
+  "query": "Silente u Sax-u!"
+ },
  "sinisa tamamovic": {
   "checked": "2026-11-08",
   "country": "",
@@ -1098,6 +1503,10 @@
   "name": "Sinisa Tamamovic",
   "query": "Siniša Tamamović"
  },
+ "sixteen horsepower u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "SIXTEEN HORSEPOWER u Tvornici kulture"
+ },
  "skier and yeti": {
   "checked": "2026-11-08",
   "query": "Skier and Yeti"
@@ -1106,9 +1515,25 @@
   "checked": "2026-11-08",
   "query": "Školski Sat s Ladom"
  },
+ "slajd dejting event": {
+  "checked": "2026-11-08",
+  "query": "Slajd- dejting event"
+ },
  "slash featuring myles kennedy": {
   "checked": "2026-11-08",
   "query": "Slash featuring Myles Kennedy"
+ },
+ "slash featuring myles kennedy and the conspirators": {
+  "checked": "2026-11-08",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/10336",
+   "spotify": "https://open.spotify.com/artist/1J0FSEQhWSMHcYqaapIjY6"
+  },
+  "mbid": "7ce51ba7-91f4-46aa-a030-1e22aaa7510d",
+  "name": "Slash featuring Myles Kennedy and the Conspirators",
+  "query": "SLASH featuring Myles Kennedy and The Conspirators"
  },
  "slavonske lole": {
   "checked": "2026-11-08",
@@ -1122,6 +1547,10 @@
  "slusaj ovo": {
   "checked": "2026-11-08",
   "query": "SLUŠAJ OVO!"
+ },
+ "snjeguljica": {
+  "checked": "2026-11-08",
+  "query": "Snjeguljica"
  },
  "soen": {
   "checked": "2026-11-08",
@@ -1159,6 +1588,10 @@
   "name": "Sólstafir",
   "query": "Sólstafir"
  },
+ "soul legacy": {
+  "checked": "2026-11-08",
+  "query": "Soul Legacy"
+ },
  "sound2loud": {
   "checked": "2026-11-08",
   "query": "SOUND2LOUD"
@@ -1166,6 +1599,25 @@
  "soyuz in zagreb": {
   "checked": "2026-11-08",
   "query": "Soyuz In Zagreb"
+ },
+ "spike and the gimme gimmes u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "Spike and the Gimme Gimmes u Zagrebu!"
+ },
+ "spike fuck": {
+  "checked": "2026-11-08",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://spikefuck.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/11469056",
+   "instagram": "https://www.instagram.com/spike_fcuk/",
+   "spotify": "https://open.spotify.com/artist/1BCTAGmHZ4djDWQ0KtfKdZ",
+   "web": "https://spikefck.world/"
+  },
+  "mbid": "dfd00fba-ae9f-4f0e-a9fc-1da10cbb43da",
+  "name": "Spike Fuck",
+  "query": "Spike Fuck"
  },
  "spk": {
   "checked": "2026-11-08",
@@ -1180,6 +1632,14 @@
   "name": "SPK",
   "query": "Spk"
  },
+ "sport innovest 2027": {
+  "checked": "2026-11-08",
+  "query": "Sport Innovest 2027"
+ },
+ "srce super sedmica by house of flamingo": {
+  "checked": "2026-11-08",
+  "query": "SRCE Super sedmica by House of Flamingo"
+ },
  "stereo deficit": {
   "checked": "2026-11-08",
   "country": "",
@@ -1191,6 +1651,14 @@
   "mbid": "bf57e9d9-3680-41dd-b644-7f6c5b67074d",
   "name": "Stereo Deficit",
   "query": "Stereo Deficit"
+ },
+ "stereo mcs u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "STEREO MC's u Tvornici kulture"
+ },
+ "studio 54 by tomo ricov": {
+  "checked": "2026-11-08",
+  "query": "Studio 54 by Tomo Ricov"
  },
  "suede": {
   "checked": "2026-11-08",
@@ -1208,6 +1676,22 @@
   "mbid": "a55c2f1b-3f3f-4d6a-aa30-5e186dbadce6",
   "name": "Suede",
   "query": "SUEDE"
+ },
+ "suparnice": {
+  "checked": "2026-11-08",
+  "query": "Suparnice"
+ },
+ "sve je to u vasoj glavi": {
+  "checked": "2026-11-08",
+  "query": "Sve Je To u Vašoj Glavi"
+ },
+ "svemirko u vintage u": {
+  "checked": "2026-11-08",
+  "query": "Svemirko u Vintage-u!"
+ },
+ "swingers presents elvis u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "SWINGERS present's ELVIS! u Tvornici Kulture"
  },
  "tarja": {
   "checked": "2026-11-08",
@@ -1259,6 +1743,10 @@
   "checked": "2026-11-08",
   "query": "The Darts"
  },
+ "the messthetics and james brandon lewis": {
+  "checked": "2026-11-08",
+  "query": "The Messthetics and James Brandon Lewis"
+ },
  "the messthetics i james brandon lewis": {
   "checked": "2026-11-08",
   "query": "The Messthetics i James Brandon Lewis"
@@ -1266,6 +1754,10 @@
  "the music of hans zimmer": {
   "checked": "2026-11-08",
   "query": "The Music of Hans Zimmer"
+ },
+ "the ocean u zagrebu": {
+  "checked": "2026-11-08",
+  "query": "The Ocean u Zagrebu!"
  },
  "the pineapple thief": {
   "checked": "2026-11-08",
@@ -1365,6 +1857,10 @@
   "name": "Toody Cole",
   "query": "Toody Cole"
  },
+ "tri prascica": {
+  "checked": "2026-11-08",
+  "query": "Tri Praščića"
+ },
  "tyr": {
   "checked": "2026-11-08",
   "query": "Týr"
@@ -1372,6 +1868,10 @@
  "uredda": {
   "checked": "2026-11-08",
   "query": "UREDDA"
+ },
+ "uspjesna hr": {
+  "checked": "2026-11-08",
+  "query": "Uspješna.hr"
  },
  "vendi opet u zagrebu": {
   "checked": "2026-11-08",
@@ -1416,6 +1916,14 @@
   "name": "Warhaus",
   "query": "Warhaus"
  },
+ "when tomorrow comes": {
+  "checked": "2026-11-08",
+  "query": "When Tomorrow Comes"
+ },
+ "winterfest 2026 velesajam": {
+  "checked": "2026-11-08",
+  "query": "Winterfest 2026 Velesajam"
+ },
  "yamato": {
   "checked": "2026-11-08",
   "country": "JP",
@@ -1425,6 +1933,19 @@
   "name": "YAMATO組−",
   "query": "Yamato"
  },
+ "yasmina reza": {
+  "checked": "2026-11-08",
+  "country": "FR",
+  "genre": "",
+  "links": {},
+  "mbid": "47f17cb3-0b89-4cd3-9dc1-ea24ba554a20",
+  "name": "Yasmina Reza",
+  "query": "Yasmina Reza"
+ },
+ "yem takes over katran": {
+  "checked": "2026-11-08",
+  "query": "Yem Takes Over Katran"
+ },
  "zabranjeno pusenje kao neustekani": {
   "checked": "2026-11-08",
   "query": "Zabranjeno pušenje kao Neuštekani"
@@ -1432,6 +1953,10 @@
  "zadruga live 36": {
   "checked": "2026-11-08",
   "query": "ZADRUGA live- 36"
+ },
+ "zagreb": {
+  "checked": "2026-11-08",
+  "query": "Zagreb"
  },
  "zagreb jazz workshop": {
   "checked": "2026-11-08",
@@ -1450,6 +1975,18 @@
   "mbid": "380b799f-4aca-44e9-aade-5b0714cadb6c",
   "name": "Željko Joksimović",
   "query": "Željko Joksimović"
+ },
+ "zene koje vriste u sebi": {
+  "checked": "2026-11-08",
+  "query": "Žene koje vrište u sebi"
+ },
+ "zirafa zizi plese step": {
+  "checked": "2026-11-08",
+  "query": "Žirafa Žiži Pleše Step"
+ },
+ "zivo blato u tvornici kulture": {
+  "checked": "2026-11-08",
+  "query": "ŽIVO BLATO u Tvornici kulture"
  },
  "zoster": {
   "checked": "2026-11-08",
