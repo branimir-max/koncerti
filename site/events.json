@@ -128,31 +128,6 @@
     "Studentski centar"
    ]
   },
-  "festivalnadvoranalen": {
-   "name": "Festivalna Dvorana Lent, Maribor Slovenia",
-   "address": "",
-   "auto": true
-  },
-  "zcukregenerator": {
-   "name": "ZCUK Regenerator",
-   "address": "",
-   "auto": true
-  },
-  "culturalcentrecakove": {
-   "name": "Cultural Centre Čakovec",
-   "address": "",
-   "auto": true
-  },
-  "centarzakulturu": {
-   "name": "Centar Za Kulturu Čakovec",
-   "address": "",
-   "auto": true
-  },
-  "malascena": {
-   "name": "Mala Scena",
-   "address": "",
-   "auto": true
-  },
   "pavaomarkovacmusic": {
    "name": "Pavao Markovac Music School",
    "address": "",
@@ -171,35 +146,26 @@
    "title": "Finale 48. smotre folklornih amatera grada Zagreba",
    "venue": "lisV",
    "genre": "trad",
-   "price": "15 / 20 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "15–20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zavrsnica-48-smotre-folklornih-amatera-grada-zagre/"
   },
   {
    "date": "2026-11-08",
-   "time": "",
-   "title": "Blog",
-   "venue": "mocvara",
-   "genre": "",
-   "price": "",
-   "url": "https://mochvara.hr/intervju-kim-salmon/"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "",
-   "title": "Intervju: Kim Salmon",
-   "venue": "mocvara",
-   "genre": "",
-   "price": "",
-   "url": "https://mochvara.hr/intervju-kim-salmon/"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "",
+   "time": "21:00",
    "title": "Kim Salmon's Smoked Salmon",
    "venue": "mocvara",
    "genre": "rock",
    "price": "20 € (25 € na dan)",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6ab2ebfe555a499361f92587/"
+  },
+  {
+   "date": "2026-11-09",
+   "time": "19:00",
+   "title": "Koncert u Povodu 220. Obljetnice Osnutka Židovske Općine Zagreb",
+   "venue": "lisM",
+   "genre": "",
+   "price": "",
+   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-u-povodu-220-obljetnice-osnutka-zidovske-o/"
   },
   {
    "date": "2026-11-09",
@@ -208,16 +174,16 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/unicef-ov-humanitarni-br-gala-koncert-br-80-godina/"
   },
   {
    "date": "2026-11-09",
-   "time": "",
+   "time": "20:30",
    "title": "Sólstafir + Moraines",
    "venue": "mocvara",
    "genre": "metal",
    "price": "29–35 €",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/"
   },
   {
    "date": "2026-11-10",
@@ -226,7 +192,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "10 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/mladi-za-mlade-laureati-natjecanja/"
   },
   {
    "date": "2026-11-10",
@@ -234,17 +200,8 @@
    "title": "Branford Marsalis & Dianne Reeves slave Johna Coltranea",
    "venue": "lisV",
    "genre": "jazz",
-   "price": "40 / 55 / 70 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-11-10",
-   "time": "20:00",
-   "title": "DOČEK MARTINJA UZ GUSTAFE u Tvornici kulture",
-   "venue": "tvornica",
-   "genre": "",
-   "price": "",
-   "url": "https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kulture-1a2a"
+   "price": "40–70 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/branford-marsalis-dianne-reeves-celebrate-john-col/"
   },
   {
    "date": "2026-11-10",
@@ -253,7 +210,7 @@
    "venue": "tvornica",
    "genre": "rock",
    "price": "",
-   "url": "https://www.tvornicakulture.com/"
+   "url": "https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kulture-1a2a"
   },
   {
    "date": "2026-11-10",
@@ -280,7 +237,16 @@
    "venue": "lisM",
    "genre": "world",
    "price": "22 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-magali-sare-manel-f/"
+  },
+  {
+   "date": "2026-11-11",
+   "time": "20:30",
+   "title": "Podrži scenu!: Mladen, Pozeri, Felina",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "besplatno",
+   "url": "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/"
   },
   {
    "date": "2026-11-11",
@@ -292,36 +258,18 @@
    "url": "https://vintageindustrial-bar.com/?p=4213"
   },
   {
-   "date": "2026-11-11",
-   "time": "",
-   "title": "Podrži scenu!: Mladen, Pozeri, Felina",
-   "venue": "mocvara",
-   "genre": "alt",
-   "price": "besplatno",
-   "url": "https://www.mochvara.hr/"
-  },
-  {
    "date": "2026-11-12",
    "time": "19:30",
    "title": "Majstorski ciklus HRT: Nemir i zanos ljubavi (Kajana Pačko, violončelo)",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "13 / 18 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-nemir-i-zanos-ljubav/"
   },
   {
    "date": "2026-11-12",
    "time": "20:00",
-   "title": "Izdvojeno",
-   "venue": "tvornica",
-   "genre": "",
-   "price": "",
-   "url": "https://www.tvornicakulture.com/eu-projekt/"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "20:00",
-   "title": "KLINIKA DENISA KATANECA u Tvornici Kulture",
+   "title": "Klinika Denisa Kataneca",
    "venue": "tvornica",
    "genre": "",
    "price": "",
@@ -334,21 +282,21 @@
    "venue": "dvaosam",
    "genre": "world",
    "price": "10 € (studenti 6 €)",
-   "url": "https://dvaosam.com/"
+   "url": "https://dvaosam.com/event-detail/6acf4c04dd51d20115ebc2e5/"
   },
   {
    "date": "2026-11-12",
-   "time": "",
+   "time": "20:00",
    "title": "Officium Triste, The Answer Lies in the Black Void, Mortajas",
    "venue": "mocvara",
    "genre": "metal",
    "price": "15 € (18 € na dan)",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6aa1db893b0465ffa82fbb2b/"
   },
   {
    "date": "2026-11-12",
    "time": "",
-   "title": "𝗠𝗢𝗡𝗢𝗟𝗢𝗥𝗗 (𝗦𝗪𝗘) + 𝗠𝗔𝗥𝗦 𝗥𝗘𝗗 𝗦𝗞𝗬 (𝗙𝗥)",
+   "title": "Monolord (swe) + Mars Red Sky (fr)",
    "venue": "vintage",
    "genre": "",
    "price": "",
@@ -369,8 +317,8 @@
    "title": "Zagrebačka filharmonija – Plavi ciklus (Orest Shourgot, violina)",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "18 / 24 / 27 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-marija-/"
   },
   {
    "date": "2026-11-13",
@@ -384,11 +332,20 @@
   {
    "date": "2026-11-13",
    "time": "21:00",
+   "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81",
+   "venue": "mocvara",
+   "genre": "jazz",
+   "price": "",
+   "url": "https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "21:00",
    "title": "KSET: Britni i Panterski x Viking Krew",
    "venue": "medika",
    "genre": "alt",
-   "price": "10 € (12 € na dan)",
-   "url": "https://attack.hr/hr/britni-i-panterski"
+   "price": "10–12 €",
+   "url": "https://www.kset.org/dogadaj/2026-11-13-britni-i-panterski-x-viking-krew-akc-attack/"
   },
   {
    "date": "2026-11-13",
@@ -397,16 +354,7 @@
    "venue": "dvaosam",
    "genre": "dj",
    "price": "8 € (5 € s ulaznicom za Clan of Xymox)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-13",
-   "time": "",
-   "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81",
-   "venue": "mocvara",
-   "genre": "jazz",
-   "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://dvaosam.com/event-detail/6ad21144ff5b73d20d2f0262/"
   },
   {
    "date": "2026-11-14",
@@ -414,8 +362,8 @@
    "title": "Lisinski subotom: Nikolaj Lugansky, glasovir",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "40 / 50 / 60 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "40–60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-nikolaj-luganski-glasovir/"
   },
   {
    "date": "2026-11-14",
@@ -447,15 +395,6 @@
   {
    "date": "2026-11-14",
    "time": "",
-   "title": "Junkie Kid @ Festivalna Dvorana Lent, Maribor Slovenia",
-   "venue": "festivalnadvoranalen",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43309228-junkie-kid-at-festivalna-dvorana-lent-maribor-slovenia?utm_medium=organic&utm_source=microformat"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
    "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
    "venue": "medika",
    "genre": "dj",
@@ -478,7 +417,7 @@
    "venue": "lisM",
    "genre": "world",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/flamenco-en-vivo-feat-la-lupi/"
   },
   {
    "date": "2026-11-15",
@@ -486,8 +425,8 @@
    "title": "Najbolji hrvatski tamburaši",
    "venue": "lisV",
    "genre": "trad",
-   "price": "30 / 35 / 40 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "30–40 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/najbolji-hrvatski-tamburasi-upregnite-u-fijaker-vr/"
   },
   {
    "date": "2026-11-15",
@@ -496,12 +435,12 @@
    "venue": "mocvara",
    "genre": "alt",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6ab0ea3e162b2a007578d1bf/"
   },
   {
    "date": "2026-11-16",
    "time": "20:00",
-   "title": "Enis Bešlagić: Da Sam Ja Neko @ Zagreb, 16.11.2026 2026 @ Kino SC",
+   "title": "Enis Bešlagić: Da Sam Ja Neko",
    "venue": "kinosc",
    "genre": "",
    "price": "",
@@ -514,7 +453,7 @@
    "venue": "lisV",
    "genre": "world",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/yamato-the-drummers-of-japan-the-power-of-human-st/"
   },
   {
    "date": "2026-11-17",
@@ -546,20 +485,11 @@
   {
    "date": "2026-11-18",
    "time": "",
-   "title": "AJNGEMAHTEC KVINTET – VEČER U ČAST I SJEĆANJE NA STJEPANA „JIMMYJA“ STANIĆA",
+   "title": "Ajngemahtec Kvintet – Večer u Čast i Sjećanje na Stjepana „jimmyja“ Stanića",
    "venue": "vintage",
    "genre": "",
    "price": "",
    "url": "https://vintageindustrial-bar.com/?p=4250"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "19:00",
-   "title": "Los Fastidios @ ZCUK Regenerator",
-   "venue": "zcukregenerator",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43401141-los-fastidios-at-zcuk-regenerator?utm_medium=organic&utm_source=microformat"
   },
   {
    "date": "2026-11-19",
@@ -568,7 +498,7 @@
    "venue": "lisM",
    "genre": "pop",
    "price": "20 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/chansonfest-2026/"
   },
   {
    "date": "2026-11-19",
@@ -577,7 +507,7 @@
    "venue": "lisV",
    "genre": "trad",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagrebac/"
   },
   {
    "date": "2026-11-19",
@@ -586,21 +516,12 @@
    "venue": "dvaosam",
    "genre": "world",
    "price": "15 € (18 € na dan)",
-   "url": "https://dvaosam.com/"
+   "url": "https://dvaosam.com/event-detail/6ab4f723f11bc39a84ae5883/"
   },
   {
    "date": "2026-11-19",
    "time": "",
-   "title": "Obradovic-Tixier duo @ Cultural Centre Čakovec",
-   "venue": "culturalcentrecakove",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43482625-obradovictixier-duo-at-cultural-centre-cakovec?utm_medium=organic&utm_source=microformat"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "",
-   "title": "TOM SKINNER",
+   "title": "Tom Skinner",
    "venue": "vintage",
    "genre": "",
    "price": "",
@@ -621,8 +542,8 @@
    "title": "Zagrebačka filharmonija – Crveni ciklus (Sebastian Manz, klarinet)",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "18 / 24 / 27 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-pavl-3/"
   },
   {
    "date": "2026-11-20",
@@ -662,6 +583,15 @@
   },
   {
    "date": "2026-11-20",
+   "time": "23:00",
+   "title": "In Aeternum + after party The Chameleons",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "",
+   "url": "https://dvaosam.com/event-detail/6ad9c171a416a601e8e5a970/"
+  },
+  {
+   "date": "2026-11-20",
    "time": "",
    "title": "SOUND2LOUD: SAGA 1",
    "venue": "medika",
@@ -676,7 +606,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "20 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-7/"
   },
   {
    "date": "2026-11-21",
@@ -685,7 +615,7 @@
    "venue": "tvornica",
    "genre": "rock",
    "price": "",
-   "url": "https://www.tvornicakulture.com/"
+   "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c"
   },
   {
    "date": "2026-11-21",
@@ -693,8 +623,8 @@
    "title": "KSET: Idu Hobiti – promocija albuma „Idu dalje”",
    "venue": "mocvara",
    "genre": "alt",
-   "price": "12 € (15 € na dan)",
-   "url": "https://www.kset.org/"
+   "price": "12–15 €",
+   "url": "https://www.kset.org/dogadaj/2026-11-21-idu-hobiti-promocija-albuma-idu-dalje-gosti-mocvara/"
   },
   {
    "date": "2026-11-21",
@@ -703,7 +633,7 @@
    "venue": "lisV",
    "genre": "rock",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neustekani-2/"
   },
   {
    "date": "2026-11-21",
@@ -712,7 +642,7 @@
    "venue": "dvaosam",
    "genre": "dj",
    "price": "5 € (7 € na dan)",
-   "url": "https://dvaosam.com/"
+   "url": "https://dvaosam.com/event-detail/6adb7b638a1e5c4e41f8ffab/"
   },
   {
    "date": "2026-11-21",
@@ -731,6 +661,15 @@
    "genre": "trad",
    "price": "20 / 25 / 30 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-22",
+   "time": "19:30",
+   "title": "Pismo Moja, Hrli Tamo – Zagrebu na Dar",
+   "venue": "lisV",
+   "genre": "",
+   "price": "20–30 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/pismo-moja-hrli-tamo-br-zagrebu-na-dar/"
   },
   {
    "date": "2026-11-22",
@@ -757,7 +696,7 @@
    "venue": "mocvara",
    "genre": "alt",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6a462acf52370eea066a1efe/"
   },
   {
    "date": "2026-11-24",
@@ -784,7 +723,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "13 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-hrvats/"
   },
   {
    "date": "2026-11-24",
@@ -801,8 +740,8 @@
    "title": "Tomislav Bralić i klapa Intrade (drugi koncert)",
    "venue": "lisV",
    "genre": "trad",
-   "price": "32–59 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "59 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagreb-2/"
   },
   {
    "date": "2026-11-24",
@@ -828,15 +767,15 @@
    "title": "KSET: Dunjaluk",
    "venue": "vintage",
    "genre": "alt",
-   "price": "12 € (15 € na dan)",
-   "url": "https://www.kset.org/"
+   "price": "12–15 €",
+   "url": "https://www.kset.org/dogadaj/2026-11-25-dunjaluk-vintage-industrial-bar/"
   },
   {
    "date": "2026-11-25",
    "time": "20:00",
    "title": "Marko Vukeš – prvi samostalni koncert",
    "venue": "tvornica",
-   "genre": "klasika",
+   "genre": "pop",
    "price": "",
    "url": "https://core-event.co/events/koncert-marka-vukesa-b70f"
   },
@@ -847,7 +786,7 @@
    "venue": "dvaosam",
    "genre": "punk",
    "price": "7 € (10 € na dan)",
-   "url": "https://dvaosam.com/"
+   "url": "https://dvaosam.com/event-detail/6ae0bfb5ca71fac878a15673/"
   },
   {
    "date": "2026-11-26",
@@ -855,8 +794,8 @@
    "title": "Majstorski ciklus HRT: Simfonijski jazz (Makoto Ozone, glasovir)",
    "venue": "lisV",
    "genre": "jazz",
-   "price": "13 / 18 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-simfonijski-jazz-br-/"
   },
   {
    "date": "2026-11-26",
@@ -892,7 +831,7 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "besplatno",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-tajne-velikih-majstora-br-simfoni/"
   },
   {
    "date": "2026-11-27",
@@ -905,12 +844,21 @@
   },
   {
    "date": "2026-11-28",
+   "time": "10:00",
+   "title": "Čarobni Božićni Sat",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-11/"
+  },
+  {
+   "date": "2026-11-28",
    "time": "19:30",
    "title": "Lisinski subotom: Bečki simfoničari (Petr Popelka, Mao Fujita)",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "40 / 50 / 60 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "40–60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-becki-simfonicari-br-petr-pope/"
   },
   {
    "date": "2026-11-28",
@@ -937,7 +885,7 @@
    "venue": "lisV",
    "genre": "djeca",
    "price": "20 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/30-hrvatski-djecji-festival-2026/"
   },
   {
    "date": "2026-11-29",
@@ -945,15 +893,6 @@
    "title": "Kovacs",
    "venue": "tvornica",
    "genre": "pop",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43235691-kovacs-at-tvornica-kulture?utm_medium=organic&utm_source=microformat"
-  },
-  {
-   "date": "2026-11-29",
-   "time": "20:00",
-   "title": "Sharon Kovacs u Tvornici kulture",
-   "venue": "tvornica",
-   "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/kovacs-32860"
   },
@@ -976,13 +915,31 @@
    "url": "https://www.lisinski.hr/hr/dogadanja/"
   },
   {
+   "date": "2026-11-30",
+   "time": "19:30",
+   "title": "„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "22–33 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnji-koncert-ansambla/"
+  },
+  {
+   "date": "2026-12-01",
+   "time": "11:00",
+   "title": "Školski Sat s Ladom",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "8 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/skolski-sat-s-ladom-4/"
+  },
+  {
    "date": "2026-12-01",
    "time": "20:00",
    "title": "Emilia Rukavina (mezzosopran) i David Vuković (glasovir)",
    "venue": "lisM",
    "genre": "klasika",
    "price": "15 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-emilia-rukavina-mezz/"
   },
   {
    "date": "2026-12-02",
@@ -995,12 +952,21 @@
   },
   {
    "date": "2026-12-02",
+   "time": "19:30",
+   "title": "„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "22–33 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnji-koncert-ansamb-2/"
+  },
+  {
+   "date": "2026-12-02",
    "time": "20:00",
    "title": "Lisinski srijedom: Afro Gitano",
    "venue": "lisM",
    "genre": "world",
    "price": "25 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-afro-gitano/"
   },
   {
    "date": "2026-12-03",
@@ -1018,7 +984,7 @@
    "venue": "mocvara",
    "genre": "alt",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6aba39cd285befa19b3eba6d/"
   },
   {
    "date": "2026-12-04",
@@ -1026,8 +992,8 @@
    "title": "Zagrebačka filharmonija – Plavi ciklus (Dejan Lazić, glasovir)",
    "venue": "lisV",
    "genre": "klasika",
-   "price": "18 / 24 / 27 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-gabri-3/"
   },
   {
    "date": "2026-12-04",
@@ -1045,7 +1011,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "20 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-4/"
   },
   {
    "date": "2026-12-05",
@@ -1054,7 +1020,7 @@
    "venue": "lisV",
    "genre": "pop",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom/"
   },
   {
    "date": "2026-12-06",
@@ -1063,7 +1029,7 @@
    "venue": "lisV",
    "genre": "djeca",
    "price": "25 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/jacques-houdek-kad-si-sretan-najljepse-djecje-pj-3/"
   },
   {
    "date": "2026-12-06",
@@ -1072,7 +1038,7 @@
    "venue": "mocvara",
    "genre": "elektro",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6ac38a598012ef50cfc2ddb7/"
   },
   {
    "date": "2026-12-07",
@@ -1081,7 +1047,7 @@
    "venue": "mocvara",
    "genre": "elektro",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6ae49c646c0eb3a51ad503d1/"
   },
   {
    "date": "2026-12-08",
@@ -1090,7 +1056,7 @@
    "venue": "lisV",
    "genre": "jazz",
    "price": "36–55 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/perpetuum-jazzile-8/"
   },
   {
    "date": "2026-12-08",
@@ -1099,7 +1065,7 @@
    "venue": "mocvara",
    "genre": "elektro",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://mochvara.hr/event-detail/6a352d0cad796c9981d65fa6/"
   },
   {
    "date": "2026-12-09",
@@ -1108,7 +1074,16 @@
    "venue": "lisM",
    "genre": "world",
    "price": "22 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-dunije/"
+  },
+  {
+   "date": "2026-12-10",
+   "time": "19:30",
+   "title": "Ciklus Glazbene Staze: Weber 200 – Duo, Trio, Kvartet",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/ciklus-glazbene-staze-br-weber-200-duo-trio-kvarte/"
   },
   {
    "date": "2026-12-10",
@@ -1117,7 +1092,16 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "13–18 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-ljetni-povjetarac-le/"
+  },
+  {
+   "date": "2026-12-11",
+   "time": "10:00",
+   "title": "Orašar – Glazbena Priča za Djecu",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "5 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djecu-9/"
   },
   {
    "date": "2026-12-11",
@@ -1129,13 +1113,22 @@
    "url": "https://www.songkick.com/concerts/43445276-lang-lang-at-vatroslav-lisinski-concert-hall?utm_medium=organic&utm_source=microformat"
   },
   {
-   "date": "2026-12-11",
-   "time": "20:00",
-   "title": "Miroslav Tadic @ Centar Za Kulturu Čakovec",
-   "venue": "centarzakulturu",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43398647-miroslav-tadic-at-centar-za-kulturu-cakovec?utm_medium=organic&utm_source=microformat"
+   "date": "2026-12-12",
+   "time": "10:00",
+   "title": "Orašar – Glazbena Priča za Djecu",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djecu-10/"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "19:00",
+   "title": "73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA KEVIN ZHU, koncertni majstor i violina solo",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-kevin-z/"
   },
   {
    "date": "2026-12-12",
@@ -1156,22 +1149,13 @@
    "url": "https://www.concertarchives.org/venues/arena-zagreb--3"
   },
   {
-   "date": "2026-12-12",
-   "time": "",
-   "title": "Not My Value @ Mala Scena",
-   "venue": "malascena",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/43486015-not-my-value-at-mala-scena?utm_medium=organic&utm_source=microformat"
-  },
-  {
    "date": "2026-12-13",
    "time": "19:00",
    "title": "Rezidenti Muza: Ivan Petrović-Poljak, glasovir",
    "venue": "lisM",
    "genre": "klasika",
    "price": "10 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-ivan-petrovic-poljak-glasovir/"
   },
   {
    "date": "2026-12-14",
@@ -1185,11 +1169,29 @@
   {
    "date": "2026-12-15",
    "time": "19:30",
+   "title": "Koncert 108. Sezone Zagrebačkog Kvarteta",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-3/"
+  },
+  {
+   "date": "2026-12-15",
+   "time": "19:30",
    "title": "Zagrebački kvartet – 108. sezona",
    "venue": "lisM",
    "genre": "klasika",
    "price": "15 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-17",
+   "time": "11:00",
+   "title": "SLUŠAJ OVO!, glazbeno-scenski program za mlade",
+   "venue": "lisV",
+   "genre": "",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/slusaj-ovo-br-glazbeno-scenski-program-za-mlade-2/"
   },
   {
    "date": "2026-12-17",
@@ -1207,7 +1209,7 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "18–27 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-lionel/"
   },
   {
    "date": "2026-12-19",
@@ -1220,12 +1222,21 @@
   },
   {
    "date": "2026-12-19",
+   "time": "19:30",
+   "title": "Lisinski Subotom Koncert u Povodu 25. Obljetnice Cantus Ansambl",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "32–48 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-koncert-u-povodu-25-obljetnice/"
+  },
+  {
+   "date": "2026-12-19",
    "time": "20:00",
    "title": "KSET50: Mašinko + Žasu",
    "venue": "vintage",
    "genre": "punk",
-   "price": "14 € (18 € na dan)",
-   "url": "https://www.kset.org/"
+   "price": "14–18 €",
+   "url": "https://www.kset.org/dogadaj/2026-12-19-kset50-masinko-zasu-vintage-industrial-bar/"
   },
   {
    "date": "2026-12-19",
@@ -1247,12 +1258,21 @@
   },
   {
    "date": "2026-12-20",
+   "time": "16:00",
+   "title": "Čarobni Božićni Sat",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-14/"
+  },
+  {
+   "date": "2026-12-20",
    "time": "20:00",
    "title": "Vlatko Stefanovski & Friends: Acoustic Night",
    "venue": "lisV",
    "genre": "world",
    "price": "37–50 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/vlatko-stefanovski-prijatelji-br-acoustic-night/"
   },
   {
    "date": "2026-12-22",
@@ -1261,7 +1281,25 @@
    "venue": "lisM",
    "genre": "djeca",
    "price": "10 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-bo-8/"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "10:00",
+   "title": "Zagrebačka Filharmonija Minimini Ciklus: Božić Kod Zimogroznih",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-bo-9/"
+  },
+  {
+   "date": "2026-12-23",
+   "time": "17:00",
+   "title": "Kako Je Vilenjak Spasio Božić",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/kako-je-vilenjak-spasio-bozic-19/"
   },
   {
    "date": "2026-12-23",
@@ -1270,7 +1308,7 @@
    "venue": "lisV",
    "genre": "pop",
    "price": "rasprodano",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom-2/"
   },
   {
    "date": "2026-12-29",
@@ -1279,7 +1317,7 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "30–40 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/dan-dvorane-2026/"
   },
   {
    "date": "2026-12-30",
@@ -1288,12 +1326,12 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "30–50 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/filharmonijski-bal-br-dawid-runtz-dirigent/"
   },
   {
    "date": "2027-01-02",
    "time": "17:00",
-   "title": "Zagreb Jazz Workshop - Find Your Unique Voice 2027 @ Pavao Markovac Music School",
+   "title": "Zagreb Jazz Workshop - Find Your Unique Voice 2027",
    "venue": "pavaomarkovacmusic",
    "genre": "jazz",
    "price": "",
@@ -1311,6 +1349,15 @@
   {
    "date": "2027-01-16",
    "time": "19:00",
+   "title": "73. Koncertna Sezona Zagrebačkih Solista Petrit Çeku, Gitara Guy Braunstein, Koncertni Majstor",
+   "venue": "lisM",
+   "genre": "",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-petrit-/"
+  },
+  {
+   "date": "2027-01-16",
+   "time": "19:00",
    "title": "Zagrebački solisti: Petrit Çeku, gitara",
    "venue": "lisM",
    "genre": "klasika",
@@ -1324,7 +1371,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "13 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-lovro-/"
   },
   {
    "date": "2027-01-20",
@@ -1342,7 +1389,7 @@
    "venue": "lisV",
    "genre": "klasika",
    "price": "13–18 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/fantom-slobode-kanconijer-br-zbor-i-simfonijski-or/"
   },
   {
    "date": "2027-01-23",
@@ -1351,7 +1398,7 @@
    "venue": "lisV",
    "genre": "pop",
    "price": "30–45 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/dzo-maracic-maki-uspomene-koje-traju/"
   },
   {
    "date": "2027-01-23",
@@ -1369,7 +1416,7 @@
    "venue": "lisM",
    "genre": "klasika",
    "price": "15 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-trio-bmi-ana-batinic/"
   },
   {
    "date": "2027-01-27",
@@ -1378,7 +1425,7 @@
    "venue": "lisM",
    "genre": "jazz",
    "price": "25 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-chui-jazz-orkestar-hrt-a-br-c/"
   },
   {
    "date": "2027-01-28",
@@ -1387,7 +1434,34 @@
    "venue": "lisV",
    "genre": "rock",
    "price": "28–45 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
+   "url": "https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neustekani-3/"
+  },
+  {
+   "date": "2027-01-29",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus In Memoriam Maestro Lovro Von Matačić Ivo Lipanović, Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-in-me-3/"
+  },
+  {
+   "date": "2027-01-30",
+   "time": "19:30",
+   "title": "LISINSKI SUBOTOM ŠVEDSKI KOMORNI ORKESTAR MARTIN FROST, klarinet i umjetničko vodstvo",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "32–48 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-svedski-komorni-orkestar-br-ma/"
+  },
+  {
+   "date": "2027-01-31",
+   "time": "20:00",
+   "title": "100 Violina – Budimpeštanski Romski Simfonijski Orkestar",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "70–95 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/100-violina-budimpestanski-romski-simfonijski-or-2/"
   },
   {
    "date": "2027-02-02",
@@ -1400,6 +1474,15 @@
   },
   {
    "date": "2027-02-04",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a od Burbanka do Napulja François Leleux, Oboa i Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-od-burbanka-do-napul/"
+  },
+  {
+   "date": "2027-02-04",
    "time": "",
    "title": "Editors",
    "venue": "bocarski",
@@ -1409,17 +1492,242 @@
   },
   {
    "date": "2027-02-05",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus Case Scaglione, Dirigent Baiba Skride, Violina Ivan Vukčević, Viola",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-brcrveni-ciklus-br-case-sc/"
+  },
+  {
+   "date": "2027-02-05",
    "time": "20:00",
-   "title": "Toma @ Sax",
+   "title": "Toma",
    "venue": "sax",
    "genre": "",
    "price": "",
    "url": "https://www.songkick.com/concerts/43496645-toma-at-sax?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-02-06",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Trio Elogio",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-trio-elogio-8/"
+  },
+  {
+   "date": "2027-02-06",
+   "time": "19:30",
+   "title": "Miro Ungar To Je Bila Moja Muzika Koncert u Povodu 70 Godina Karijere",
+   "venue": "lisV",
+   "genre": "",
+   "price": "32–46 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/miro-ungar-br-to-je-bila-moja-muzika-br-koncert-u-/"
+  },
+  {
+   "date": "2027-02-07",
+   "time": "19:00",
+   "title": "Rezidenti Muza Katarina Kocelj, Violina",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-katarina-kocelj-violina/"
+  },
+  {
+   "date": "2027-02-07",
+   "time": "20:00",
+   "title": "Crvena Jabuka – Nek Vrijeme Stane",
+   "venue": "lisV",
+   "genre": "",
+   "price": "32.9–53.9 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/crvena-jabuka-br-nek-vrijeme-stane/"
+  },
+  {
+   "date": "2027-02-09",
+   "time": "10:30",
+   "title": "Jazz Karneval",
+   "venue": "lisV",
+   "genre": "jazz",
+   "price": "12 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/jazz-karneval/"
+  },
+  {
+   "date": "2027-02-10",
+   "time": "20:00",
+   "title": "Lisinski Srijedom Lp Duo",
+   "venue": "lisM",
+   "genre": "",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-lp-duo/"
+  },
+  {
+   "date": "2027-02-11",
+   "time": "10:00",
+   "title": "Šuma Striborova – Glazbena Priča",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "8 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-18/"
+  },
+  {
+   "date": "2027-02-12",
+   "time": "10:00",
+   "title": "Šuma Striborova – Glazbena Priča",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "8 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-19/"
+  },
+  {
+   "date": "2027-02-12",
+   "time": "19:30",
+   "title": "ZAGREBAČKA FILHARMONIJA OFF CIKLUS KARNEVALSKI KONCERT CARL ORFF: CARMINA BURANA, kantata za soliste, zbor i orkestar STJEPAN VUGER, dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "35–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-karneva-2/"
+  },
+  {
+   "date": "2027-02-13",
+   "time": "19:30",
+   "title": "Lisinski Subotom Wayne Marshall, Orgulje",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "32–48 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-wayne-marshall-orgulje/"
+  },
+  {
+   "date": "2027-02-16",
+   "time": "19:30",
+   "title": "Koncert 108. Sezone Zagrebačkog Kvarteta",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-4/"
+  },
+  {
+   "date": "2027-02-16",
+   "time": "20:00",
+   "title": "Slavonske Lole – 45 Godina Karijere",
+   "venue": "lisV",
+   "genre": "",
+   "price": "29–49 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/slavonske-lole-br-45-godina-karijere/"
+  },
+  {
+   "date": "2027-02-17",
+   "time": "20:00",
+   "title": "Lisinski Srijedom & Izvorišta Abdullah Miniawy",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-abdullah-miniawy/"
+  },
+  {
+   "date": "2027-02-18",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Manfred Aleksandar Marković, Dirigent Mirjana Krišković, Harfa",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-manfred-br-aleksanda/"
+  },
+  {
+   "date": "2027-02-19",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus In Memoriam Maestro Milan Horvat Dawid Runtz, Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-in-m-5/"
+  },
+  {
+   "date": "2027-02-20",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Dunja Bontek, Marija Andrejaš, Monika Leskovar, Martina Filjak",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-5/"
+  },
+  {
+   "date": "2027-02-20",
+   "time": "20:00",
+   "title": "Haris Džinović – 40 Godina",
+   "venue": "lisV",
+   "genre": "",
+   "price": "60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/haris-dzinovic-br-40-godina/"
+  },
+  {
+   "date": "2027-02-21",
+   "time": "19:00",
+   "title": "73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA RAMÓN ORTEGA QUERO, oboa GARY LEVINSON, koncertni majstor Simfonijskog orkestra Dallas",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ramon-o/"
+  },
+  {
+   "date": "2027-02-23",
+   "time": "20:00",
+   "title": "Glazbeni Umjetnici Zagrebu Goran Filipec, Klavir",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-goran-filipec-klavir/"
+  },
+  {
+   "date": "2027-02-25",
+   "time": "20:00",
+   "title": "Mostar Sevdah Reunion",
+   "venue": "lisV",
+   "genre": "world",
+   "price": "29–37 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/mostar-sevdah-reunion/"
+  },
+  {
+   "date": "2027-02-26",
+   "time": "19:30",
+   "title": "Feelharmonija Ususret Muzičkom Biennalu Zagreb Ivan Josip Skender, Dirigent",
+   "venue": "lisV",
+   "genre": "",
+   "price": "besplatno",
+   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-ususret-muzickom-biennalu-zagreb-/"
+  },
+  {
+   "date": "2027-02-27",
+   "time": "10:00",
+   "title": "Čudnovata Dama Trema",
+   "venue": "lisM",
+   "genre": "",
+   "price": "6 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/cudnovata-dama-trema-2/"
+  },
+  {
+   "date": "2027-02-27",
+   "time": "20:00",
+   "title": "Makedonski Nacionalni Jazz Orkestar & Rambo Amadeus",
+   "venue": "lisV",
+   "genre": "jazz",
+   "price": "35–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/makedonski-nacionalni-jazz-orkestar-rambo-amadeus/"
+  },
+  {
+   "date": "2027-02-28",
+   "time": "18:00",
+   "title": "Domoljubni Koncert \"djeca Pjevaju Domu Mom\"",
+   "venue": "lisV",
+   "genre": "",
+   "price": "28–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/domoljubni-koncert-br-djeca-pjevaju-domu-mom/"
+  },
+  {
    "date": "2027-02-28",
    "time": "20:00",
-   "title": "СОЮЗ @ Klub Močvara",
+   "title": "Союз",
    "venue": "mocvara",
    "genre": "",
    "price": "",
@@ -1435,13 +1743,67 @@
    "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb"
   },
   {
+   "date": "2027-03-02",
+   "time": "10:00",
+   "title": "Zagrebačka Filharmonija Minimini Ciklus: Da Sam Ja Kontesa Dora",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-da-s/"
+  },
+  {
+   "date": "2027-03-04",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Vrtlog Plesa, Vihor Rata Ana María Patiño-osorio, Dirigentica Ziyang Zhao, Violončelo",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-vrtlog-plesa-vihor-r/"
+  },
+  {
+   "date": "2027-03-05",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Off Ciklus Musical Gala Davor Kelić, Dirigent Renata Sabljak, Pjevačica",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "25–35 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-musical-g/"
+  },
+  {
    "date": "2027-03-06",
-   "time": "",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Papandopulo Kvartet",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-8/"
+  },
+  {
+   "date": "2027-03-06",
+   "time": "20:00",
    "title": "Natali Dizdar",
-   "venue": "lisinski",
+   "venue": "lisV",
    "genre": "pop",
-   "price": "",
+   "price": "35–45 €",
    "url": "https://www.songkick.com/concerts/43501446-natali-dizdar-at-vatroslav-lisinski-concert-hall?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "date": "2027-03-07",
+   "time": "20:00",
+   "title": "Dečki Z Bregov - 50 Let Z Vami",
+   "venue": "lisV",
+   "genre": "",
+   "price": "30–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/decki-z-bregov-50-let-z-vami/"
+  },
+  {
+   "date": "2027-03-09",
+   "time": "20:00",
+   "title": "Mejaši - 15 Godina Hitova",
+   "venue": "lisV",
+   "genre": "",
+   "price": "30–40 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/mejasi-15-godina-hitova/"
   },
   {
    "date": "2027-03-10",
@@ -1453,6 +1815,42 @@
    "url": "https://www.songkick.com/concerts/43422083-leo-middea-at-boogaloo?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-03-10",
+   "time": "20:00",
+   "title": "Lisinski Srijedom & Izvorišta Legen 30 Godina Paunovog Plesa",
+   "venue": "lisV",
+   "genre": "world",
+   "price": "25–35 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-legen-br-30-godina-/"
+  },
+  {
+   "date": "2027-03-11",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Lawrence Foster, Dirigent Plamena Mangova, Klavir Melody Moore, Sopran Armel Descotte, Oboa",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-lawrenc/"
+  },
+  {
+   "date": "2027-03-12",
+   "time": "10:00",
+   "title": "REGOČ, opera za djecu i mlade",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/regoc-br-opera-za-djecu-i-mlade-25/"
+  },
+  {
+   "date": "2027-03-12",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus Lawrence Foster, Dirigent Plamena Mangova, Klavir Melody Moore, Sopran Armel Descotte, Oboa",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-lawr-3/"
+  },
+  {
    "date": "2027-03-12",
    "time": "",
    "title": "Warhaus",
@@ -1460,6 +1858,24 @@
    "genre": "alt",
    "price": "",
    "url": "https://www.songkick.com/concerts/43408588-warhaus-at-vintage-industrial-bar?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "date": "2027-03-13",
+   "time": "19:30",
+   "title": "Lisinski Subotom Orkestar Nacionalne Akademije Santa Cecilia Daniel Harding, Dirigent Beatrice Rana, Glasovir",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "40–60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-orkestar-nacionalne-akademije-/"
+  },
+  {
+   "date": "2027-03-14",
+   "time": "19:30",
+   "title": "Hrvatska Tamburaška Rapsodija u Lisinskom",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "rasprodano",
+   "url": "https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-lisinskom/"
   },
   {
    "date": "2027-03-15",
@@ -1471,6 +1887,24 @@
    "url": "https://www.songkick.com/festivals/3807593-soen/id/43442155-soen-2027?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-03-15",
+   "time": "19:30",
+   "title": "Hrvatska Tamburaška Rapsodija u Lisinskom",
+   "venue": "lisV",
+   "genre": "trad",
+   "price": "35–55 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-lisinskom-2/"
+  },
+  {
+   "date": "2027-03-16",
+   "time": "20:00",
+   "title": "Glazbeni Umjetnici Zagrebu Kapun & Čižić",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-kapun-cizic/"
+  },
+  {
    "date": "2027-03-17",
    "time": "",
    "title": "The Rasmus",
@@ -1478,6 +1912,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43449744-rasmus-at-tvornica-kulture?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "date": "2027-03-18",
+   "time": "19:30",
+   "title": "Ciklus Kanconijer – Klasika za Tjeskobna Vremena Zbor i Simfonijski Orkestar HRT-a Dmitry Sinkovsky, Violina i Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/ciklus-kanconijer-klasika-za-tjeskobna-vremena-br-/"
   },
   {
    "date": "2027-03-19",
@@ -1489,6 +1932,69 @@
    "url": "https://www.songkick.com/concerts/43480696-david-morales-at-boogaloo?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-03-23",
+   "time": "20:00",
+   "title": "Guitarra Viva – Ciklus Gitarskih Koncerata Petra Poláčková",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "13 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-petra-/"
+  },
+  {
+   "date": "2027-03-24",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Dawid Runtz, Dirigent Marija Kuhar-šoša, Sopran Martina Menegoni, Mezzosopran Tomislav Jukić, Tenor Matija Meić, Bas Akademski Zbor Igk",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawid-9/"
+  },
+  {
+   "date": "2027-03-24",
+   "time": "20:00",
+   "title": "Lisinski Srijedom Miguel Zenón Quartet feat. Chico Pinheiro",
+   "venue": "lisM",
+   "genre": "",
+   "price": "35 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-miguel-zenon-quartet-feat-chi/"
+  },
+  {
+   "date": "2027-03-31",
+   "time": "20:00",
+   "title": "Dobrotvorni Koncert Srce u Srcu Zagreba",
+   "venue": "lisV",
+   "genre": "",
+   "price": "15–25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/dobrotvorni-koncert-srce-u-srcu-zagreba/"
+  },
+  {
+   "date": "2027-04-01",
+   "time": "20:00",
+   "title": "Luka Nižetić Autoportret s Juga 25 Godina Karijere",
+   "venue": "lisV",
+   "genre": "",
+   "price": "30–45 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/luka-nizetic-br-autoportret-s-juga-br-25-godina-ka/"
+  },
+  {
+   "date": "2027-04-02",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Killian Farrell, Dirigent Mirjam Lučev-debanić, Harfa",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-killian/"
+  },
+  {
+   "date": "2027-04-03",
+   "time": "19:30",
+   "title": "Lisinski Subotom Simfonijski Orkestar Bečkoga Radija – Orf Markus Poschner, Dirigent Nemanja Radulović, Violina",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "40–60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-simfonijski-orkestar-beckoga-r/"
+  },
+  {
    "date": "2027-04-03",
    "time": "20:00",
    "title": "Lexington",
@@ -1496,6 +2002,87 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.songkick.com/concerts/43307135-lexington-at-arena-zagreb?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "date": "2027-04-04",
+   "time": "19:00",
+   "title": "Rezidenti Muza Dane Franolić, Udaraljke",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-dane-franolic-udaraljke/"
+  },
+  {
+   "date": "2027-04-06",
+   "time": "10:00",
+   "title": "Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko Appelt, Dirigent",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-je-5/"
+  },
+  {
+   "date": "2027-04-06",
+   "time": "19:30",
+   "title": "Koncert 108. Sezone Zagrebačkog Kvarteta",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-5/"
+  },
+  {
+   "date": "2027-04-06",
+   "time": "20:00",
+   "title": "S.a.r.s. – Elekroakustični Koncert",
+   "venue": "lisV",
+   "genre": "",
+   "price": "35–55 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/sars-elekroakusticni-koncert/"
+  },
+  {
+   "date": "2027-04-07",
+   "time": "10:00",
+   "title": "Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko Appelt, Dirigent",
+   "venue": "lisM",
+   "genre": "djeca",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-je-7/"
+  },
+  {
+   "date": "2027-04-07",
+   "time": "20:00",
+   "title": "Lisinski Srijedom Adhd",
+   "venue": "lisM",
+   "genre": "",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-adhd/"
+  },
+  {
+   "date": "2027-04-08",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Phantasmagoria Pascal Rophé, Dirigent Eva Gevorgyan, Klavir",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-phantasmagoria-br-pa/"
+  },
+  {
+   "date": "2027-04-09",
+   "time": "20:00",
+   "title": "Gipsy Kings ft. Tonino Baliardo",
+   "venue": "lisV",
+   "genre": "",
+   "price": "",
+   "url": "https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2/"
+  },
+  {
+   "date": "2027-04-10",
+   "time": "19:00",
+   "title": "73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA ZIYANG ZHAO, violončelo – pobjednica natjecanja Antonio Janigro SRETEN KRSTIĆ, koncertni majstor",
+   "venue": "lisM",
+   "genre": "",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ziyang-/"
   },
   {
    "date": "2027-04-12",
@@ -1510,9 +2097,9 @@
    "date": "2027-04-13",
    "time": "20:00",
    "title": "Tindersticks",
-   "venue": "lisinski",
+   "venue": "lisV",
    "genre": "alt",
-   "price": "",
+   "price": "45–75 €",
    "url": "https://www.songkick.com/concerts/43257750-tindersticks-at-koncertna-dvorana-vatroslava-lisinskog?utm_medium=organic&utm_source=microformat"
   },
   {
@@ -1534,6 +2121,60 @@
    "url": "https://www.songkick.com/concerts/43410232-pineapple-thief-at-boogaloo-club?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-04-16",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus 34. Muzički Biennale Zagreb Ivan Josip Skender, Dirigent Naruhiko Kawaguchi, Klavir Ian Bousfield, Trombon",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-34-muz/"
+  },
+  {
+   "date": "2027-04-17",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Papandopulo Kvartet",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-9/"
+  },
+  {
+   "date": "2027-04-21",
+   "time": "20:00",
+   "title": "Lisinski Srijedom Maja Rivić",
+   "venue": "lisM",
+   "genre": "",
+   "price": "",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-maja-rivic/"
+  },
+  {
+   "date": "2027-04-22",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Enigma Stanislav Kochanovsky, Dirigent Sergey Krylov, Violina",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-enigma-br-stanislav-/"
+  },
+  {
+   "date": "2027-04-23",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Kirill Karabits, Dirigent Yevhen Churikov, Rog",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-kirill-/"
+  },
+  {
+   "date": "2027-04-24",
+   "time": "19:30",
+   "title": "Lisinski Subotom Simfonijski Orkestar Muzičke Akademije Sveučilišta u Zagrebu Aleksandar Marković, Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "22–38 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-simfonijski-orkestar-muzicke-2/"
+  },
+  {
    "date": "2027-04-24",
    "time": "",
    "title": "16 Horsepower",
@@ -1543,9 +2184,27 @@
    "url": "https://www.songkick.com/concerts/43456396-16-horsepower-at-tvornica-kulture?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-04-25",
+   "time": "20:00",
+   "title": "Od Opere do Hollywooda - Gala Koncert Tamare Radjenović",
+   "venue": "lisV",
+   "genre": "",
+   "price": "35–110 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/od-opere-do-hollywooda-gala-koncert-tamare-radjeno/"
+  },
+  {
+   "date": "2027-04-27",
+   "time": "10:00",
+   "title": "Zagrebačka Filharmonija Minimini Ciklus: Napokon Orkestar",
+   "venue": "lisV",
+   "genre": "djeca",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-na-6/"
+  },
+  {
    "date": "2027-05-02",
    "time": "20:00",
-   "title": "The Music of Hans Zimmer @ Mozaik Event Centar",
+   "title": "The Music of Hans Zimmer",
    "venue": "mozaikeventcentar",
    "genre": "",
    "price": "",
@@ -1561,22 +2220,202 @@
    "url": "https://www.songkick.com/concerts/43449751-tarja-at-tvornica-kulture?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-05-06",
+   "time": "19:30",
+   "title": "Beethoven 9 – Kanconijer Zbor i Simfonijski Orkestar HRT-a Dječji Zbor HRT-a Tomislav Fačini, Dirigent Darija Auguštan, Sopran Franko Klisović, Alt Tomislav Mužek, Tenor Krešimir Stražanac, Bariton",
+   "venue": "lisV",
+   "genre": "djeca",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/beethoven-9-kanconijer-br-zbor-i-simfonijski-orkes/"
+  },
+  {
+   "date": "2027-05-07",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus Cosette Justo Valdés, Dirigentica Lovro Peretić, Gitara",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-cosett/"
+  },
+  {
+   "date": "2027-05-08",
+   "time": "19:00",
+   "title": "73. Koncertna Sezona Zagrebačkih Solista Mirella Hagen, Sopran Guy Braunstein, Koncertni Majstor",
+   "venue": "lisM",
+   "genre": "",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-mirella/"
+  },
+  {
+   "date": "2027-05-08",
+   "time": "19:30",
+   "title": "Lisinski Subotom Estonski Nacionalni Muški Zbor Mikk Üleoja, Dirigent",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "32–48 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-estonski-nacionalni-muski-zbor/"
+  },
+  {
+   "date": "2027-05-09",
+   "time": "19:00",
+   "title": "Rezidenti Muza Zajednički Koncert",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "10 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-zajednicki-koncert/"
+  },
+  {
+   "date": "2027-05-12",
+   "time": "20:00",
+   "title": "Lisinski Srijedom & Izvorišta Yarákä",
+   "venue": "lisM",
+   "genre": "world",
+   "price": "22 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-yaraka/"
+  },
+  {
+   "date": "2027-05-14",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Off Ciklus John Williams: Ratovi Zvijezda Tonči Bilić, Dirigent Glazba Iz Filma",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "30–40 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-john-will/"
+  },
+  {
+   "date": "2027-05-15",
+   "time": "19:30",
+   "title": "Lisinski Subotom Academy of St. Martin In the Fields Augustin Hadelich, Violina i Umjetničko Vodstvo",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "40–60 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-academy-of-st-martin-in-the-fi/"
+  },
+  {
    "date": "2027-05-18",
    "time": "",
-   "title": "Crimson Glory @ Boogaloo",
+   "title": "Crimson Glory",
    "venue": "boogaloo",
    "genre": "",
    "price": "",
    "url": "https://www.songkick.com/concerts/43457402-crimson-glory-at-boogaloo?utm_medium=organic&utm_source=microformat"
   },
   {
+   "date": "2027-05-19",
+   "time": "20:00",
+   "title": "Guitarra Viva – Ciklus Gitarskih Koncerata Anja Lechner, Violončelo Pablo Márquez, Gitara",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "13 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-anja-l/"
+  },
+  {
+   "date": "2027-05-20",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Preobrazbe Pascal Rophé, Dirigent Martina Filjak, Klavir",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-preobrazbe-br-pascal/"
+  },
+  {
+   "date": "2027-05-21",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Dawid Runtz, Dirigent Rainer Honeck, Violina",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawi-10/"
+  },
+  {
+   "date": "2027-05-22",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Trio Elogio",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-trio-elogio-9/"
+  },
+  {
+   "date": "2027-05-25",
+   "time": "19:30",
+   "title": "Koncert 108. Sezone Zagrebačkog Kvarteta",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "15 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-6/"
+  },
+  {
+   "date": "2027-05-26",
+   "time": "19:30",
+   "title": "Feelharmonija Beethovenova Deveta Ivan Šćepanović, Dirigent Akademski Zbor Igk Fabijan Komljenović, Pripovjedač",
+   "venue": "lisV",
+   "genre": "",
+   "price": "besplatno",
+   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-beethovenova-deveta-br-ivan-scepa/"
+  },
+  {
+   "date": "2027-05-29",
+   "time": "19:30",
+   "title": "Doma Je Najljepše – Vjera, Obitelj, Domovina",
+   "venue": "lisV",
+   "genre": "",
+   "price": "30 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/doma-je-najljepse-vjera-obitelj-domovina-2/"
+  },
+  {
+   "date": "2027-06-03",
+   "time": "19:30",
+   "title": "Majstorski Ciklus SO HRT-a Simfonijski Horizonti Pascal Rophé, Dirigent Christian Schmitt, Orgulje",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "13–18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-simfonijski-horizont/"
+  },
+  {
+   "date": "2027-06-04",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Crveni Ciklus David Danzmayr, Dirigent Ava Bahari, Violina",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-davi-8/"
+  },
+  {
+   "date": "2027-06-05",
+   "time": "19:00",
+   "title": "Lisinski Da Camera Dunja Bontek, Marija Andrejaš, Monika Leskovar, Martina Filjak",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "20 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-6/"
+  },
+  {
+   "date": "2027-06-12",
+   "time": "19:30",
+   "title": "Zagrebačka Filharmonija Plavi Ciklus Dawid Runtz, Dirigent Fazil Say, Klavir",
+   "venue": "lisV",
+   "genre": "klasika",
+   "price": "18–27 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawi-11/"
+  },
+  {
    "date": "2027-06-12",
    "time": "",
-   "title": "Scorpions @ Arena Zagreb",
+   "title": "Scorpions",
    "venue": "arena",
    "genre": "",
    "price": "",
    "url": "https://www.songkick.com/concerts/43492964-scorpions-at-arena-zagreb?utm_medium=organic&utm_source=microformat"
+  },
+  {
+   "date": "2027-06-13",
+   "time": "19:00",
+   "title": "73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA ILYA GRINGOLTS, koncertni majstor i violina solo",
+   "venue": "lisM",
+   "genre": "klasika",
+   "price": "18 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ilya-gr/"
   },
   {
    "date": "2027-06-25",
@@ -1590,7 +2429,7 @@
   {
    "date": "2027-07-12",
    "time": "19:00",
-   "title": "Slash featuring Myles Kennedy @ SRC Šalata",
+   "title": "Slash featuring Myles Kennedy",
    "venue": "salata",
    "genre": "",
    "price": "",
@@ -1608,7 +2447,7 @@
   {
    "date": "2030-11-08",
    "time": "20:00",
-   "title": "Domenica @ Arena Zagreb",
+   "title": "Domenica",
    "venue": "arena",
    "genre": "",
    "price": "",

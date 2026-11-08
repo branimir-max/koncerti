@@ -48,11 +48,13 @@ SOURCES = [
 
 # Ključne riječi za prepoznavanje žanra iz naslova (prvi pogodak pobjeđuje)
 GENRE_WORDS = [
-    ("djeca", ["za djecu", "dječji", "djecu", "minimini"]),
-    ("klasika", ["filharmonij", "simfonij", "orkestar", "kvartet", "glasovir", "violin", "solisti",
-                 "lisinski subotom", "da camera", "majstorski ciklus", "opera"]),
+    ("djeca", ["za djecu", "dječj", "djecu", "minimini", "glazbena priča", "božićni sat", "vilenjak"]),
     ("jazz", ["jazz"]),
+    ("world", ["izvorišta", "sevdah", "flamenco", "drummers of japan"]),
     ("trad", ["klapa", "tambur", "folklor", "lado"]),
+    ("klasika", ["filharmonij", "simfonij", "orkestar", "kvartet", "glasovir", "violin", "solisti", "orgulje",
+                 "lisinski subotom", "da camera", "majstorski ciklus", "opera", "kanconijer", "rezidenti muza",
+                 "guitarra viva", "glazbeni umjetnici zagrebu", "klavir", "mezzosopran"]),
     ("metal", ["metal"]),
     ("punk", ["punk", "hardcore"]),
     ("dj", ["party", "afterparty", "sound system", "hi-fi"]),
