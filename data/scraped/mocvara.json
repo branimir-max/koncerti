@@ -1,22 +1,142 @@
 [
  {
   "date": "2026-11-08",
-  "time": "",
-  "title": "Blog",
+  "time": "21:00",
+  "title": "Kim Salmon's Smoked Salmon + DJ set: Blokes You Can Trust",
   "venue": "mocvara",
   "genre": "",
   "price": "",
-  "url": "https://mochvara.hr/intervju-kim-salmon/",
+  "url": "https://mochvara.hr/event-detail/6ab2ebfe555a499361f92587/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-09",
+  "time": "20:30",
+  "title": "Sólstafir, Moraines",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-11",
+  "time": "20:30",
+  "title": "Mladen, Pozeri, Felina",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-12",
+  "time": "20:00",
+  "title": "Officium Triste, The Answer Lies In The Black Void, Mortajas",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6aa1db893b0465ffa82fbb2b/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "21:00",
+  "title": "13. NO Jazz festival: OOIOO, Eksterminator '81",
+  "venue": "mocvara",
+  "genre": "jazz",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6a5f8f694b73f07adb3be3a2/",
   "source": "mocvara"
  },
  {
   "date": "2026-11-08",
   "time": "",
-  "title": "Intervju: Kim Salmon",
+  "title": "Kim Salmon's Smoked Salmon",
   "venue": "mocvara",
   "genre": "",
   "price": "",
-  "url": "https://mochvara.hr/intervju-kim-salmon/",
+  "url": "https://mochvara.hr/event-detail/6ab2ebfe555a499361f92587/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-15",
+  "time": "",
+  "title": "Još gori",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ab0ea3e162b2a007578d1bf/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-23",
+  "time": "",
+  "title": "Munly & The Lupercalians",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6a462acf52370eea066a1efe/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "",
+  "title": "Foltin",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6aba39cd285befa19b3eba6d/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-09",
+  "time": "",
+  "title": "Sólstafir",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "",
+  "title": "Artifacts Trio, Eksterminator '81",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-12-06",
+  "time": "",
+  "title": "Föllakzoid, Beau Wanzer",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ac38a598012ef50cfc2ddb7/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-12-07",
+  "time": "",
+  "title": "Uredda",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ae49c646c0eb3a51ad503d1/",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "",
+  "title": "Desire, MOTHERMARY, Johnny Jewel",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6a352d0cad796c9981d65fa6/",
   "source": "mocvara"
  }
 ]

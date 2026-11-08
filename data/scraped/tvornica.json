@@ -12,7 +12,7 @@
  {
   "date": "2026-11-13",
   "time": "20:00",
-  "title": "Clan OF Xymox",
+  "title": "Clan of Xymox",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -20,9 +20,19 @@
   "source": "tvornica"
  },
  {
+  "date": "2026-11-21",
+  "time": "20:00",
+  "title": "Jura Stublić & Film",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c",
+  "source": "tvornica"
+ },
+ {
   "date": "2026-11-10",
   "time": "20:00",
-  "title": "Doček Martinja UZ Gustafe",
+  "title": "Doček Martinja uz Gustafe",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -72,7 +82,7 @@
  {
   "date": "2026-11-18",
   "time": "20:00",
-  "title": "THE Darts",
+  "title": "The Darts",
   "venue": "tvornica",
   "genre": "",
   "price": "",
@@ -82,7 +92,7 @@
  {
   "date": "2026-11-20",
   "time": "20:00",
-  "title": "Psihomodo POP",
+  "title": "Psihomodo Pop",
   "venue": "tvornica",
   "genre": "",
   "price": "",
