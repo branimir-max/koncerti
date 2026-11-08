@@ -12,30 +12,32 @@ Polja:
 """
 
 THEATRE = ["predstava", "komedija", "mjuzikl", "balet", "teorija glazbe", "predavanje",
-           "radionica", "stand-up", "stand up", "film", "izložba", "kviz", "poezij"]
+           "radionica", "filmsk", "projekcij", "izložba", "kviz", "poezij"]
 JUNK = ["blog", "intervju", "izdvojeno", "vijesti", "novosti", "newsletter", "galerija", "o nama", "kontakt"]
 # Gradovi izvan Zagreba koje agregatori ponekad uvrste u "Zagreb i okolica"
 OUTSIDE = ["maribor", "čakovec", "cakovec", "zabok", "regenerator", "karlovac", "mala scena", "varaždin",
            "varazdin", "ljubljana", "slovenia", "samobor", "velika gorica", "sisak"]
-DJ = ["dj ", "dj:", "party", "afterparty", "after party", "sound system", "hi-fi", "rave", "techno night"]
+DJ = ["party", "afterparty", "after party", "sound system", "hi-fi", "rave", "techno night"]
 
 SOURCES = [
-    {"key": "lisinski", "venue": "lisinski", "genre": "klasika", "exclude": THEATRE,
+    {"key": "lisinski", "venue": "lisinski", "exclude": THEATRE + ["teatar", "aplauz", "mare #", "idea, obrt"],
+     "card": "tr", "parser": "cards",
      "urls": [f"https://www.lisinski.hr/hr/dogadanja/?page={i}" for i in range(1, 6)],
      "halls": {"velika dvorana": "lisV", "mala dvorana": "lisM"}},
     {"key": "tvornica", "venue": "tvornica", "exclude": THEATRE,
      "strip": [r"\s+u\s+tvornici\s+kulture!?$"],
      "urls": ["https://www.tvornicakulture.com/"]},
-    {"key": "mocvara", "venue": "mocvara", "exclude": THEATRE, "dj_words": DJ,
+    {"key": "mocvara", "venue": "mocvara", "exclude": THEATRE, "dj_words": DJ, "parser": "tootoot",
+     "strip": [r"^[^:]{3,70}:\s+(?=\S)"],
      "urls": ["https://www.mochvara.hr/"]},
-    {"key": "dvaosam", "venue": "dvaosam", "exclude": THEATRE, "dj_words": DJ,
+    {"key": "dvaosam", "venue": "dvaosam", "exclude": THEATRE, "dj_words": DJ, "parser": "tootoot",
      "urls": ["https://dvaosam.com/"]},
     {"key": "kset", "venue": None, "exclude": THEATRE, "dj_words": DJ, "title_prefix": "KSET: ",
+     "parser": "microdata", "strip": [r"\s+@\s+.*$"],
      "default_venue": "kset", "urls": ["https://www.kset.org/"]},
     {"key": "attack", "venue": "medika", "exclude": THEATRE, "dj_words": DJ,
      "urls": ["https://attack.hr/"]},
-    {"key": "boogaloo", "venue": "boogaloo", "dj_words": DJ,
-     "urls": ["https://www.boogaloozagreb.com/"]},
+    # Boogaloo: stranica ima zaštitu od botova, pa ga pokrivamo preko Songkicka.
     {"key": "vintage", "venue": "vintage", "dj_words": DJ,
      "urls": ["https://vintageindustrial-bar.com/"]},
     # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
@@ -53,5 +55,5 @@ GENRE_WORDS = [
     ("trad", ["klapa", "tambur", "folklor", "lado"]),
     ("metal", ["metal"]),
     ("punk", ["punk", "hardcore"]),
-    ("dj", ["party", "afterparty", " dj", "dj ", "sound system", "hi-fi"]),
+    ("dj", ["party", "afterparty", "sound system", "hi-fi"]),
 ]

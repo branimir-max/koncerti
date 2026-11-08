@@ -61,7 +61,7 @@ def parse_date(text: str, today: date | None = None) -> str | None:
         except ValueError:
             return None
     # 21.11. bez godine
-    m = re.search(r"\b(\d{1,2})\.\s?(\d{1,2})\.(?!\d)", text)
+    m = re.search(r"\b(\d{1,2})\.\s?(0?[1-9]|1[0-2])\.(?!\d)", text)
     if m:
         d, mo = int(m.group(1)), int(m.group(2))
         y = today.year + (1 if mo < today.month - 1 else 0)
@@ -85,7 +85,10 @@ def parse_time(text: str) -> str:
     # Prvo makni datume, inače bi "14.11.2026" izgledalo kao 14:11
     text = DATE_PATTERNS[0].sub(" ", DATE_PATTERNS[1].sub(" ", text))
     text = re.sub(r"\b\d{1,2}\.\s*(" + "|".join(MONTHS_HR) + r")", " ", text, flags=re.I)
-    text = re.sub(r"\b\d{1,2}\.\s?\d{1,2}\.(?!\d)", " ", text)  # 21.11. bez godine
+    text = re.sub(r"\b\d{1,2}\.\s?(0?[1-9]|1[0-2])\.(?!\d)", " ", text)  # 21.11. bez godine
+    m = re.search(r"po[čc]etak\D{0,5}([01]?\d|2[0-3])[:.]([0-5]\d)", text, re.I)  # "Početak 21:00" ima prednost pred vratima
+    if m:
+        return f"{int(m.group(1)):02d}:{m.group(2)}"
     m = TIME_RE.search(text)
     if m:
         return f"{int(m.group(1)):02d}:{m.group(2)}"
@@ -159,7 +162,7 @@ def card_events(html: str, venue: str, base_url: str, genre: str = "",
     out, seen = [], set()
     for c in cards:
         text = c.get_text(" ", strip=True)
-        if len(text) > 600:  # prevelik blok, vjerojatno cijela stranica
+        if not card_selector and len(text) > 600:  # prevelik blok, vjerojatno cijela stranica
             continue
         d = parse_date(text)
         if not d:
@@ -187,14 +190,69 @@ def find_price(text: str) -> str:
         return "rasprodano"
     if re.search(r"besplatn|free entry|ulaz slobodan", text, re.I):
         return "besplatno"
+    m = re.search(r"(\d{1,3})\s?/\s?(\d{1,3})\s?(?:€|eur)", text, re.I)
+    if m:
+        return f"{m.group(1)}–{m.group(2)} €"
     prices = PRICE_RE.findall(text)
     if not prices:
         return ""
-    vals = sorted({p.replace(",", ".") for p in prices}, key=float)
-    return f"{vals[0]} €" if len(vals) == 1 else f"{vals[0]}–{vals[-1]} €"
+    fmt = lambda v: f"{v:g}"  # noqa: E731 – 40.00 -> 40
+    vals = sorted({float(p.replace(",", ".")) for p in prices})
+    return f"{fmt(vals[0])} €" if len(vals) == 1 else f"{fmt(vals[0])}–{fmt(vals[-1])} €"
 
 
 def clean(s: str) -> str:
     import unicodedata
     s = unicodedata.normalize("NFKC", str(s))  # npr. 𝗠𝗢𝗡𝗢𝗟𝗢𝗥𝗗 -> MONOLORD
     return re.sub(r"\s+", " ", s).strip()
+
+
+# ---------- microdata (itemtype="http://schema.org/Event"), npr. KSET ----------
+
+def microdata_events(html: str, venue: str, base_url: str) -> list[dict]:
+    out = []
+    for el in soup(html).select('[itemtype*="schema.org/Event"], [itemtype*="schema.org/MusicEvent"]'):
+        name = el.select_one('[itemprop="name"]')
+        start = el.select_one('[itemprop="startDate"]')
+        if not name or not start:
+            continue
+        d = parse_date(start.get("datetime") or start.get("content") or start.get_text(" "))
+        if not d:
+            continue
+        door = el.select_one('[itemprop="doorTime"]')
+        tm = ""
+        if door:
+            t = door.get("datetime") or door.get_text(strip=True)
+            tm = parse_time(t) or (f"{int(t):02d}:00" if t.isdigit() and int(t) < 24 else "")
+        link = el.select_one('[itemprop="url"]') or el.find("a", href=True)
+        text = el.get_text(" ", strip=True)
+        out.append({"date": d, "time": tm, "title": clean(name.get_text(" ", strip=True)), "venue": venue,
+                    "genre": "", "price": find_price(text),
+                    "url": requests.compat.urljoin(base_url, link["href"]) if link and link.get("href") else base_url,
+                    "_text": clean(name.get_text(" ", strip=True))})
+    return out
+
+
+# ---------- TooToot (platforma za ulaznice koju koriste Močvara i Dva Osam) ----------
+
+def tootoot_events(html: str, venue: str, base_url: str) -> list[dict]:
+    s, out = soup(html), []
+    for li in s.select(".tt-evt-li"):
+        name = li.select_one(".tt-evt-li__name")
+        if not name:
+            continue
+        info = " ".join(x.get_text(" ", strip=True) for x in li.select("[class*=sub-info]") if "About" not in " ".join(x.get("class", [])))
+        d = parse_date(info)
+        if not d:
+            continue
+        a = name if name.name == "a" else name.find("a", href=True)
+        out.append({"date": d, "time": parse_time(info), "title": clean(name.get_text(" ", strip=True)), "venue": venue,
+                    "genre": "", "price": find_price(info), "url": a.get("href", base_url) if a else base_url, "_text": info})
+    for a in s.select('a.swiper-slide-inner[href*="event-detail"]'):
+        heading = a.select_one(".elementor-slide-heading")
+        desc = a.select_one(".elementor-slide-description")
+        d = parse_date(desc.get_text(" ", strip=True)) if desc else None
+        if heading and d:
+            out.append({"date": d, "time": "", "title": clean(heading.get_text(" ", strip=True)), "venue": venue,
+                        "genre": "", "price": "", "url": a["href"], "_text": ""})
+    return out

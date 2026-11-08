@@ -54,7 +54,7 @@ def main() -> None:
         if ta[0] == tb[0] and len(ta[0]) >= 3:
             return True
         sa, sb = set(ta), set(tb)
-        return len(sa & sb) / len(sa | sb) >= 0.5
+        return sa <= sb or sb <= sa or len(sa & sb) / len(sa | sb) >= 0.5
 
     def add(e: dict, prefer: bool) -> None:
         if not e.get("date") or e["date"] < today or not e.get("title"):
@@ -70,9 +70,11 @@ def main() -> None:
         for old in bucket:
             if same(old["title"], e["title"]):
                 if prefer:  # automatski podaci su svježiji, ali ne brišu poznate vrijednosti
-                    for f in ("time", "price", "url", "genre"):
+                    for f in ("time", "price", "url"):
                         if e.get(f):
                             old[f] = e[f]
+                    if not old.get("genre") and e.get("genre"):  # ručno odabrani žanr ima prednost
+                        old["genre"] = e["genre"]
                     # Konkretna dvorana (npr. Lisinski – Mala dvorana) ima prednost pred općim prostorom
                     if venues.get(e["venue"], {}).get("group"):
                         old["venue"] = e["venue"]
