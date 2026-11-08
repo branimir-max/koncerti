@@ -1,0 +1,226 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti u Zagrebu – Rock
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:b93adf89@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261108T210000
+DTEND;TZID=Europe/Zagreb:20261109T000000
+SUMMARY:Kim Salmon's Smoked Salmon
+LOCATION:Močvara\, Trnjanski nasip bb\, Zagreb
+DESCRIPTION:Rock · 20 € (25 € na dan) · https://mochvara.hr/event-d
+ etail/6ab2ebfe555a499361f92587/
+URL:https://mochvara.hr/event-detail/6ab2ebfe555a499361f92587/
+END:VEVENT
+BEGIN:VEVENT
+UID:257abbe9@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261110T200000
+DTEND;TZID=Europe/Zagreb:20261110T230000
+SUMMARY:Dočekaj Martinja uz Gustafe
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/docek-martinja-uz-gustaf
+ e-u-tvornici-kulture-1a2a
+URL:https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kul
+ ture-1a2a
+END:VEVENT
+BEGIN:VEVENT
+UID:4b44f509@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261114T200000
+DTEND;TZID=Europe/Zagreb:20261114T230000
+SUMMARY:Let 3
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/let-3-u-tvornici-kulture
+ -6c28
+URL:https://core-event.co/events/let-3-u-tvornici-kulture-6c28
+END:VEVENT
+BEGIN:VEVENT
+UID:a8461268@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261118T200000
+DTEND;TZID=Europe/Zagreb:20261118T230000
+SUMMARY:The Darts (US)
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/the-darts-u-tvornici-kul
+ ture-577d
+URL:https://core-event.co/events/the-darts-u-tvornici-kulture-577d
+END:VEVENT
+BEGIN:VEVENT
+UID:b3dac05f@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261120T200000
+DTEND;TZID=Europe/Zagreb:20261120T230000
+SUMMARY:Psihomodo Pop
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/psihomodo-pop-u-tvornici
+ -kulture-ba36
+URL:https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36
+END:VEVENT
+BEGIN:VEVENT
+UID:310689d6@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261120T200000
+DTEND;TZID=Europe/Zagreb:20261120T230000
+SUMMARY:Stereo Deficit
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43273453-stereo-def
+ icit-at-vintage-industrial-bar?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43273453-stereo-deficit-at-vintage-
+ industrial-bar?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:56f9866c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261120T200000
+DTEND;TZID=Europe/Zagreb:20261120T230000
+SUMMARY:The Chameleons
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43153757-chameleons
+ -at-boogaloo-club?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43153757-chameleons-at-boogaloo-clu
+ b?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:aa3bf2b3@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261121T200000
+DTEND;TZID=Europe/Zagreb:20261121T230000
+SUMMARY:Jura Stublić & Film
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/jura-stublic-film-u-tvor
+ nici-kulture-5f2c
+URL:https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2
+ c
+END:VEVENT
+BEGIN:VEVENT
+UID:0db12446@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261121T200000
+DTEND;TZID=Europe/Zagreb:20261121T230000
+SUMMARY:Zabranjeno pušenje kao Neuštekani
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Rock · rasprodano · https://www.lisinski.hr/hr/dogadanja/za
+ branjeno-pusenje-br-kao-neustekani-2/
+URL:https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neuste
+ kani-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f092990@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261124
+DTEND;VALUE=DATE:20261125
+SUMMARY:The Riven
+LOCATION:Hard Place\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43168396-riven-at-h
+ ard-place?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43168396-riven-at-hard-place?utm_me
+ dium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:c7f37032@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261126T200000
+DTEND;TZID=Europe/Zagreb:20261126T230000
+SUMMARY:Nikola Vranjković
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/nikola-vranjkovic-u-tvor
+ nici-kulture-921c
+URL:https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921
+ c
+END:VEVENT
+BEGIN:VEVENT
+UID:8bbef003@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261127T210000
+DTEND;TZID=Europe/Zagreb:20261128T000000
+SUMMARY:Zoster
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://core-event.co/events/zoster-u-tvornici-kultur
+ e-ff4b
+URL:https://core-event.co/events/zoster-u-tvornici-kulture-ff4b
+END:VEVENT
+BEGIN:VEVENT
+UID:bf2e76d5@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:Christopher Robin Cox and Powercords
+LOCATION:Močvara\, Trnjanski nasip bb\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43484149-christophe
+ r-robin-cox-at-klub-mocvara?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43484149-christopher-robin-cox-at-k
+ lub-mocvara?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:1fb215b4@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270128T200000
+DTEND;TZID=Europe/Zagreb:20270128T230000
+SUMMARY:Zabranjeno pušenje kao Neuštekani
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Rock · 28–45 € · https://www.lisinski.hr/hr/dogadanja/z
+ abranjeno-pusenje-br-kao-neustekani-3/
+URL:https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neuste
+ kani-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:36cdceda@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270202T184500
+DTEND;TZID=Europe/Zagreb:20270202T214500
+SUMMARY:Hollywood Undead
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43453437-hollywood-
+ undead-at-tvornica-kulture?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43453437-hollywood-undead-at-tvorni
+ ca-kulture?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:11d764e2@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270317
+DTEND;VALUE=DATE:20270318
+SUMMARY:The Rasmus
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43449744-rasmus-at-
+ tvornica-kulture?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43449744-rasmus-at-tvornica-kulture
+ ?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:e288cf63@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270415T203000
+DTEND;TZID=Europe/Zagreb:20270415T233000
+SUMMARY:The Pineapple Thief
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43410232-pineapple-
+ thief-at-boogaloo-club?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43410232-pineapple-thief-at-boogalo
+ o-club?utm_medium=organic&utm_source=microformat
+END:VEVENT
+END:VCALENDAR

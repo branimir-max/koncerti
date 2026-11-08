@@ -1,0 +1,167 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti u Zagrebu – Tradicijska
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f65f7af4@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261108T180000
+DTEND;TZID=Europe/Zagreb:20261108T210000
+SUMMARY:Finale 48. smotre folklornih amatera grada Zagreba
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 15–20 € · https://www.lisinski.hr/hr/doga
+ danja/zavrsnica-48-smotre-folklornih-amatera-grada-zagre/
+URL:https://www.lisinski.hr/hr/dogadanja/zavrsnica-48-smotre-folklornih-a
+ matera-grada-zagre/
+END:VEVENT
+BEGIN:VEVENT
+UID:cca4d8e0@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261115T200000
+DTEND;TZID=Europe/Zagreb:20261115T230000
+SUMMARY:Najbolji hrvatski tamburaši
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 30–40 € · https://www.lisinski.hr/hr/doga
+ danja/najbolji-hrvatski-tamburasi-upregnite-u-fijaker-vr/
+URL:https://www.lisinski.hr/hr/dogadanja/najbolji-hrvatski-tamburasi-upre
+ gnite-u-fijaker-vr/
+END:VEVENT
+BEGIN:VEVENT
+UID:52e28d0f@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261119T200000
+DTEND;TZID=Europe/Zagreb:20261119T230000
+SUMMARY:Tomislav Bralić i klapa Intrade – 20 godina
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · rasprodano · https://www.lisinski.hr/hr/dogad
+ anja/tomislav-bralic-i-klapa-intrade-20-godina-zagrebac/
+URL:https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-
+ 20-godina-zagrebac/
+END:VEVENT
+BEGIN:VEVENT
+UID:4acfeb75@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261122T193000
+DTEND;TZID=Europe/Zagreb:20261122T223000
+SUMMARY:Festival klapa Omiš: „Pismo moja\, hrli tamo”
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 20 / 25 / 30 € · https://www.lisinski.hr/hr
+ /dogadanja/
+URL:https://www.lisinski.hr/hr/dogadanja/
+END:VEVENT
+BEGIN:VEVENT
+UID:6e2461e6@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261124T200000
+DTEND;TZID=Europe/Zagreb:20261124T230000
+SUMMARY:Tomislav Bralić i klapa Intrade (drugi koncert)
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 32–59 € · https://www.lisinski.hr/hr/doga
+ danja/tomislav-bralic-i-klapa-intrade-20-godina-zagreb-2/
+URL:https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-
+ 20-godina-zagreb-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:f2b90aaf@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261130T193000
+DTEND;TZID=Europe/Zagreb:20261130T223000
+SUMMARY:Ansambl LADO: „Vrijeme plesa”
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 22 / 28 / 33 € · https://www.lisinski.hr/hr
+ /dogadanja/
+URL:https://www.lisinski.hr/hr/dogadanja/
+END:VEVENT
+BEGIN:VEVENT
+UID:7f3aebcb@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261130T193000
+DTEND;TZID=Europe/Zagreb:20261130T223000
+SUMMARY:„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 22–33 € · https://www.lisinski.hr/hr/doga
+ danja/vrijeme-plesa-br-svecani-godisnji-koncert-ansambla/
+URL:https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnj
+ i-koncert-ansambla/
+END:VEVENT
+BEGIN:VEVENT
+UID:1a2737a7@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261201T110000
+DTEND;TZID=Europe/Zagreb:20261201T140000
+SUMMARY:Školski Sat s Ladom
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 8 € · https://www.lisinski.hr/hr/dogadanja/
+ skolski-sat-s-ladom-4/
+URL:https://www.lisinski.hr/hr/dogadanja/skolski-sat-s-ladom-4/
+END:VEVENT
+BEGIN:VEVENT
+UID:d32fc19a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261202T193000
+DTEND;TZID=Europe/Zagreb:20261202T223000
+SUMMARY:Ansambl LADO: „Vrijeme plesa”
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 22 / 28 / 33 € · https://www.lisinski.hr/hr
+ /dogadanja/
+URL:https://www.lisinski.hr/hr/dogadanja/
+END:VEVENT
+BEGIN:VEVENT
+UID:a5fb9b8b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261202T193000
+DTEND;TZID=Europe/Zagreb:20261202T223000
+SUMMARY:„vrijeme Plesa“ Svečani Godišnji Koncert Ansambla Lado
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 22–33 € · https://www.lisinski.hr/hr/doga
+ danja/vrijeme-plesa-br-svecani-godisnji-koncert-ansamb-2/
+URL:https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnj
+ i-koncert-ansamb-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:b151880c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270314T193000
+DTEND;TZID=Europe/Zagreb:20270314T223000
+SUMMARY:Hrvatska Tamburaška Rapsodija u Lisinskom
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · rasprodano · https://www.lisinski.hr/hr/dogad
+ anja/hrvatska-tamburaska-rapsodija-u-lisinskom/
+URL:https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-
+ lisinskom/
+END:VEVENT
+BEGIN:VEVENT
+UID:cab05b39@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270315T193000
+DTEND;TZID=Europe/Zagreb:20270315T223000
+SUMMARY:Hrvatska Tamburaška Rapsodija u Lisinskom
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Tradicijska · 35–55 € · https://www.lisinski.hr/hr/doga
+ danja/hrvatska-tamburaska-rapsodija-u-lisinskom-2/
+URL:https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-
+ lisinskom-2/
+END:VEVENT
+END:VCALENDAR

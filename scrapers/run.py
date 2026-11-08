@@ -81,16 +81,19 @@ def scrape(src: dict) -> list[dict]:
             found = microdata_events(html, v, url)
         elif parser == "detail":
             found = []
-            for link in event_links(html, url, src["link_pattern"]):
+            for j, link in enumerate(event_links(html, url, src["link_pattern"])):
                 try:
-                    e = page_event(fetch(link), link, v)
+                    page = fetch(link)
+                    if j == 0:
+                        (DEBUG / f"{src['key']}-detail.html").write_text(page[:300_000])
+                    e = page_event(page, link, v)
                     if e:
                         found.append(e)
                 except Exception:  # noqa: BLE001 – jedna pokvarena stranica ne ruši izvor
                     pass
                 time.sleep(1)
         elif parser == "cards":
-            found = card_events(html, v, url, card_selector=src.get("card"))
+            found = card_events(html, v, url, card_selector=src.get("card"), title_selector=src.get("title", "h1, h2, h3, h4, .title, [class*=title]"))
         else:
             found = jsonld_events(html, v, url) or card_events(html, v, url, card_selector=src.get("card"))
         # Prostor iz teksta (agregatori, KSET) ili dvorana (Lisinski)
@@ -151,7 +154,12 @@ def main(only: list[str] | None = None) -> int:
             if events:
                 path.write_text(json.dumps(events, ensure_ascii=False, indent=1))
                 status = {"ok": True, "count": len(events)}
-                (DEBUG / f"{src['key']}.html").unlink(missing_ok=True)  # snimka treba samo kad izvor ne radi
+                if not src.get("debug_always"):
+                    (DEBUG / f"{src['key']}.html").unlink(missing_ok=True)  # snimka treba samo kad izvor ne radi
+                    (DEBUG / f"{src['key']}-detail.html").unlink(missing_ok=True)
+            elif src.get("allow_empty"):
+                path.write_text("[]")
+                status = {"ok": True, "count": 0, "note": "trenutno nema koncerata"}
             else:
                 status = {"ok": False, "count": 0, "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"}
         except Exception as ex:  # noqa: BLE001 – jedan izvor ne smije srušiti ostale

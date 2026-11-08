@@ -1,0 +1,230 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti – Boogaloo
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:c3fa680c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261113T180000
+DTEND;TZID=Europe/Zagreb:20261113T210000
+SUMMARY:Kamelot + Exit Eden + Temperance
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Metal · https://www.songkick.com/concerts/43102952-kamelot-a
+ t-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43102952-kamelot-at-boogaloo?utm_me
+ dium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:bd01eaf6@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261114T210000
+DTEND;TZID=Europe/Zagreb:20261115T000000
+SUMMARY:Zagreb Disco Festival 2026
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Elektronika · https://www.songkick.com/festivals/3752457-zag
+ reb-disco/id/43262621-zagreb-disco-festival-2026?utm_medium=organic&utm_
+ source=microformat
+URL:https://www.songkick.com/festivals/3752457-zagreb-disco/id/43262621-z
+ agreb-disco-festival-2026?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:b3d6eff3@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261117
+DTEND;VALUE=DATE:20261118
+SUMMARY:The Cassandra Complex
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Elektronika · https://www.songkick.com/concerts/43080523-cas
+ sandra-complex-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43080523-cassandra-complex-at-booga
+ loo?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:56f9866c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261120T200000
+DTEND;TZID=Europe/Zagreb:20261120T230000
+SUMMARY:The Chameleons
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43153757-chameleons
+ -at-boogaloo-club?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43153757-chameleons-at-boogaloo-clu
+ b?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:fb3ff67b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261121
+DTEND;VALUE=DATE:20261122
+SUMMARY:Future Scope: Deep Dish
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:DJ party · https://insite-croatia.com/?p=20511
+URL:https://insite-croatia.com/?p=20511
+END:VEVENT
+BEGIN:VEVENT
+UID:1022389f@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261124T190000
+DTEND;TZID=Europe/Zagreb:20261124T220000
+SUMMARY:Lion's Law
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Punk · https://www.songkick.com/concerts/43270127-lions-law-
+ at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43270127-lions-law-at-boogaloo?utm_
+ medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:e6447f40@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261203
+DTEND;VALUE=DATE:20261204
+SUMMARY:Eagle-Eye Cherry
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Pop · https://www.songkick.com/concerts/43308639-eagleeye-ch
+ erry-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43308639-eagleeye-cherry-at-boogalo
+ o?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:1b7d2bec@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261214T190000
+DTEND;TZID=Europe/Zagreb:20261214T220000
+SUMMARY:Týr
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Metal · https://www.songkick.com/concerts/43275901-tyr-at-bo
+ ogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43275901-tyr-at-boogaloo?utm_medium
+ =organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:e1c930df@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261217
+DTEND;VALUE=DATE:20261218
+SUMMARY:Avatar
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Metal · https://www.songkick.com/concerts/43362903-avatar-at
+ -boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43362903-avatar-at-boogaloo?utm_med
+ ium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:8ea7130c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Siniša Tamamović
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Narodna · https://www.songkick.com/concerts/43159886-sinisa-
+ tamamovic-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43159886-sinisa-tamamovic-at-boogal
+ oo?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:c757038b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270115
+DTEND;VALUE=DATE:20270116
+SUMMARY:Acid Arab
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Elektronika · https://www.songkick.com/concerts/43483877-aci
+ d-arab-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43483877-acid-arab-at-boogaloo?utm_
+ medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:4d153963@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270310T193000
+DTEND;TZID=Europe/Zagreb:20270310T223000
+SUMMARY:Leo Middea
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:World · https://www.songkick.com/concerts/43422083-leo-midde
+ a-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43422083-leo-middea-at-boogaloo?utm
+ _medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:2388c237@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270315T190000
+DTEND;TZID=Europe/Zagreb:20270315T220000
+SUMMARY:Soen
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Metal · https://www.songkick.com/festivals/3807593-soen/id/4
+ 3442155-soen-2027?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/festivals/3807593-soen/id/43442155-soen-2027
+ ?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:aa328b7a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270319T230000
+DTEND;TZID=Europe/Zagreb:20270320T020000
+SUMMARY:David Morales
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Elektronika · https://www.songkick.com/concerts/43480696-dav
+ id-morales-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43480696-david-morales-at-boogaloo?
+ utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:548cd175@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270412
+DTEND;VALUE=DATE:20270413
+SUMMARY:Katatonia
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Metal · https://www.songkick.com/concerts/43503191-katatonia
+ -at-boogaloo-club?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43503191-katatonia-at-boogaloo-club
+ ?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:e288cf63@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270415T203000
+DTEND;TZID=Europe/Zagreb:20270415T233000
+SUMMARY:The Pineapple Thief
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Rock · https://www.songkick.com/concerts/43410232-pineapple-
+ thief-at-boogaloo-club?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43410232-pineapple-thief-at-boogalo
+ o-club?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:95ec8c80@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Crimson Glory
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43457402-crimson-
+ glory-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43457402-crimson-glory-at-boogaloo?
+ utm_medium=organic&utm_source=microformat
+END:VEVENT
+END:VCALENDAR

@@ -41,12 +41,13 @@ SOURCES = [
     {"key": "vintage", "venue": "vintage", "dj_words": DJ,
      "urls": ["https://vintageindustrial-bar.com/"]},
     {"key": "petikupe", "venue": "petikupe", "parser": "detail", "dj_words": DJ,
-     "link_pattern": r"petikupe\.com/(?!arhiva|kontakt|o-nama|category|tag|wp-)[a-z0-9-]{6,}/?$",
+     "link_pattern": r"petikupe\.com/(?!arhiva|kontakt|o-klubu|clubbing|wine-dine|konferencije|izlozbe|rezerviraj|category|tag|wp-)[a-z0-9-]{6,}/?$",
      "urls": ["https://petikupe.com/"]},
-    {"key": "pogon", "venue": "pogon", "include": ["koncert", "concert"], "exclude": THEATRE,
+    {"key": "pogon", "venue": "pogon", "include": ["koncert", "concert"], "exclude": THEATRE, "allow_empty": True,
+     "parser": "cards", "card": ".item-card", "title": ".event-title",
      "urls": ["https://www.pogon.hr/program/"]},
     # Ulaznice.hr: cijela Hrvatska na jednoj stranici – uzimamo samo Zagreb, prostor iz teksta
-    {"key": "ulaznice", "venue": None, "require": "zagreb", "exclude": THEATRE + ["kazalište", "kino", "film"],
+    {"key": "ulaznice", "venue": None, "require": "zagreb", "debug_always": True, "exclude": THEATRE + ["kazalište", "kino", "film"],
      "dj_words": DJ, "urls": ["https://www.ulaznice.hr/web/events"]},
     # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
     {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE,

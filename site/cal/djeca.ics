@@ -1,0 +1,245 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti u Zagrebu – Za djecu
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:82268d69@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261115T100000
+DTEND;TZID=Europe/Zagreb:20261115T130000
+SUMMARY:Jojo i prijatelji (i u 12:30)
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Za djecu · https://core-event.co/events/jojo-i-prijatelji-ed
+ 0b
+URL:https://core-event.co/events/jojo-i-prijatelji-ed0b
+END:VEVENT
+BEGIN:VEVENT
+UID:6480fa5d@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261128T100000
+DTEND;TZID=Europe/Zagreb:20261128T130000
+SUMMARY:Čarobni Božićni Sat
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/ca
+ robni-bozicni-sat-11/
+URL:https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-11/
+END:VEVENT
+BEGIN:VEVENT
+UID:1db300c1@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261129T170000
+DTEND;TZID=Europe/Zagreb:20261129T200000
+SUMMARY:30. Hrvatski dječji festival
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 20 € · https://www.lisinski.hr/hr/dogadanja/30
+ -hrvatski-djecji-festival-2026/
+URL:https://www.lisinski.hr/hr/dogadanja/30-hrvatski-djecji-festival-2026
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:d3e57011@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261206T100000
+DTEND;TZID=Europe/Zagreb:20261206T130000
+SUMMARY:Jacques Houdek: „Kad si sretan” (i u 12:30)
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 25 € · https://www.lisinski.hr/hr/dogadanja/ja
+ cques-houdek-kad-si-sretan-najljepse-djecje-pj-3/
+URL:https://www.lisinski.hr/hr/dogadanja/jacques-houdek-kad-si-sretan-naj
+ ljepse-djecje-pj-3/
+END:VEVENT
+BEGIN:VEVENT
+UID:7967f5a5@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261211T100000
+DTEND;TZID=Europe/Zagreb:20261211T130000
+SUMMARY:Orašar – Glazbena Priča za Djecu
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 5 € · https://www.lisinski.hr/hr/dogadanja/ora
+ sar-br-glazbena-prica-za-djecu-9/
+URL:https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djec
+ u-9/
+END:VEVENT
+BEGIN:VEVENT
+UID:6a155c1a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261212T100000
+DTEND;TZID=Europe/Zagreb:20261212T130000
+SUMMARY:Orašar – Glazbena Priča za Djecu
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · rasprodano · https://www.lisinski.hr/hr/dogadanj
+ a/orasar-br-glazbena-prica-za-djecu-10/
+URL:https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djec
+ u-10/
+END:VEVENT
+BEGIN:VEVENT
+UID:973c006e@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261220T160000
+DTEND;TZID=Europe/Zagreb:20261220T190000
+SUMMARY:Čarobni Božićni Sat
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · rasprodano · https://www.lisinski.hr/hr/dogadanj
+ a/carobni-bozicni-sat-14/
+URL:https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-14/
+END:VEVENT
+BEGIN:VEVENT
+UID:54575238@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261222T100000
+DTEND;TZID=Europe/Zagreb:20261222T130000
+SUMMARY:Zagrebačka filharmonija – Minimini: Božić kod zimogroznih
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-bo-8/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-bo-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:2819d54e@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261223T100000
+DTEND;TZID=Europe/Zagreb:20261223T130000
+SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Božić Kod Zimogroznih
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-bo-9/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-bo-9/
+END:VEVENT
+BEGIN:VEVENT
+UID:32365b34@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261223T170000
+DTEND;TZID=Europe/Zagreb:20261223T200000
+SUMMARY:Kako Je Vilenjak Spasio Božić
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · rasprodano · https://www.lisinski.hr/hr/dogadanj
+ a/kako-je-vilenjak-spasio-bozic-19/
+URL:https://www.lisinski.hr/hr/dogadanja/kako-je-vilenjak-spasio-bozic-19
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:fd5cfa9a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270211T100000
+DTEND;TZID=Europe/Zagreb:20270211T130000
+SUMMARY:Šuma Striborova – Glazbena Priča
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 8 € · https://www.lisinski.hr/hr/dogadanja/sum
+ a-striborova-br-glazbena-prica-18/
+URL:https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-pric
+ a-18/
+END:VEVENT
+BEGIN:VEVENT
+UID:f9641168@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270212T100000
+DTEND;TZID=Europe/Zagreb:20270212T130000
+SUMMARY:Šuma Striborova – Glazbena Priča
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 8 € · https://www.lisinski.hr/hr/dogadanja/sum
+ a-striborova-br-glazbena-prica-19/
+URL:https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-pric
+ a-19/
+END:VEVENT
+BEGIN:VEVENT
+UID:03513be8@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270302T100000
+DTEND;TZID=Europe/Zagreb:20270302T130000
+SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Da Sam Ja Kontesa Dora
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-da-s/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-da-s/
+END:VEVENT
+BEGIN:VEVENT
+UID:8715e6c1@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270312T100000
+DTEND;TZID=Europe/Zagreb:20270312T130000
+SUMMARY:REGOČ\, opera za djecu i mlade
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/re
+ goc-br-opera-za-djecu-i-mlade-25/
+URL:https://www.lisinski.hr/hr/dogadanja/regoc-br-opera-za-djecu-i-mlade-
+ 25/
+END:VEVENT
+BEGIN:VEVENT
+UID:e082b3f3@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270406T100000
+DTEND;TZID=Europe/Zagreb:20270406T130000
+SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko A
+ ppelt\, Dirigent
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-je-5/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-je-5/
+END:VEVENT
+BEGIN:VEVENT
+UID:2126253c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270407T100000
+DTEND;TZID=Europe/Zagreb:20270407T130000
+SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Ježeva Kućica Dinko A
+ ppelt\, Dirigent
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 10 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-je-7/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-je-7/
+END:VEVENT
+BEGIN:VEVENT
+UID:156117cf@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270427T100000
+DTEND;TZID=Europe/Zagreb:20270427T130000
+SUMMARY:Zagrebačka Filharmonija Minimini Ciklus: Napokon Orkestar
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 15 € · https://www.lisinski.hr/hr/dogadanja/za
+ grebacka-filharmonija-br-minimini-ciklus-br-na-6/
+URL:https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minim
+ ini-ciklus-br-na-6/
+END:VEVENT
+BEGIN:VEVENT
+UID:2cdb212c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270506T193000
+DTEND;TZID=Europe/Zagreb:20270506T223000
+SUMMARY:Beethoven 9 – Kanconijer Zbor i Simfonijski Orkestar HRT-a Dje
+ čji Zbor HRT-a Tomislav Fačini\, Dirigent Darija Auguštan\, Sopran Fr
+ anko Klisović\, Alt Tomislav Mužek\, Tenor Krešimir Stražanac\, Bari
+ ton
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Za djecu · 13–18 € · https://www.lisinski.hr/hr/dogadan
+ ja/beethoven-9-kanconijer-br-zbor-i-simfonijski-orkes/
+URL:https://www.lisinski.hr/hr/dogadanja/beethoven-9-kanconijer-br-zbor-i
+ -simfonijski-orkes/
+END:VEVENT
+END:VCALENDAR

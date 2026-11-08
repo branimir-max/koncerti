@@ -1,0 +1,512 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti u Zagrebu – Ostalo
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:88d0c2af@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261109T190000
+DTEND;TZID=Europe/Zagreb:20261109T220000
+SUMMARY:Koncert u Povodu 220. Obljetnice Osnutka Židovske Općine Zagreb
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · https://www.lisinski.hr/hr/dogadanja/koncert-u-povo
+ du-220-obljetnice-osnutka-zidovske-o/
+URL:https://www.lisinski.hr/hr/dogadanja/koncert-u-povodu-220-obljetnice-
+ osnutka-zidovske-o/
+END:VEVENT
+BEGIN:VEVENT
+UID:072e0848@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:The Messthetics i James Brandon Lewis
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Ostalo · https://vintageindustrial-bar.com/?p=3993
+URL:https://vintageindustrial-bar.com/?p=3993
+END:VEVENT
+BEGIN:VEVENT
+UID:e1625d88@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261112T200000
+DTEND;TZID=Europe/Zagreb:20261112T230000
+SUMMARY:Klinika Denisa Kataneca
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Ostalo · https://core-event.co/events/klinika-denisa-katanec
+ a-u-tvornici-kulture-d012
+URL:https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kultu
+ re-d012
+END:VEVENT
+BEGIN:VEVENT
+UID:6cd35744@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261112
+DTEND;VALUE=DATE:20261113
+SUMMARY:Monolord (swe) + Mars Red Sky (fr)
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Ostalo · https://vintageindustrial-bar.com/?p=3990
+URL:https://vintageindustrial-bar.com/?p=3990
+END:VEVENT
+BEGIN:VEVENT
+UID:09534438@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261116T200000
+DTEND;TZID=Europe/Zagreb:20261116T230000
+SUMMARY:Enis Bešlagić: Da Sam Ja Neko
+LOCATION:Kino SC\, Savska cesta 25\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/festivals/3811377-enis-bes
+ lagic-da-sam-ja-neko-zagreb-16112026/id/43485566-enis-belagi-da-sam-ja-n
+ eko--zagreb-16112026-2026?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/festivals/3811377-enis-beslagic-da-sam-ja-ne
+ ko-zagreb-16112026/id/43485566-enis-belagi-da-sam-ja-neko--zagreb-161120
+ 26-2026?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:1942faa3@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261117T210000
+DTEND;TZID=Europe/Zagreb:20261118T000000
+SUMMARY:SUEDE – YAMMATOVO 6 fueled by Cockta
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Ostalo · https://core-event.co/events/suede-yammatov-6-fuele
+ d-by-cockta-78e5
+URL:https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5
+END:VEVENT
+BEGIN:VEVENT
+UID:291dd729@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Ajngemahtec Kvintet – Večer u Čast i Sjećanje na Stjepana 
+ „jimmyja“ Stanića
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Ostalo · https://vintageindustrial-bar.com/?p=4250
+URL:https://vintageindustrial-bar.com/?p=4250
+END:VEVENT
+BEGIN:VEVENT
+UID:088f6e2a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:Tom Skinner
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Ostalo · https://vintageindustrial-bar.com/?p=4216
+URL:https://vintageindustrial-bar.com/?p=4216
+END:VEVENT
+BEGIN:VEVENT
+UID:6d2401f2@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261122T193000
+DTEND;TZID=Europe/Zagreb:20261122T223000
+SUMMARY:Pismo Moja\, Hrli Tamo – Zagrebu na Dar
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 20–30 € · https://www.lisinski.hr/hr/dogadanja
+ /pismo-moja-hrli-tamo-br-zagrebu-na-dar/
+URL:https://www.lisinski.hr/hr/dogadanja/pismo-moja-hrli-tamo-br-zagrebu-
+ na-dar/
+END:VEVENT
+BEGIN:VEVENT
+UID:b499a642@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261126
+DTEND;VALUE=DATE:20261127
+SUMMARY:Skier and Yeti + GLISTE
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Ostalo · https://vintageindustrial-bar.com/?p=4219
+URL:https://vintageindustrial-bar.com/?p=4219
+END:VEVENT
+BEGIN:VEVENT
+UID:53db0aeb@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261217T110000
+DTEND;TZID=Europe/Zagreb:20261217T140000
+SUMMARY:SLUŠAJ OVO!\, glazbeno-scenski program za mlade
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 10 € · https://www.lisinski.hr/hr/dogadanja/slus
+ aj-ovo-br-glazbeno-scenski-program-za-mlade-2/
+URL:https://www.lisinski.hr/hr/dogadanja/slusaj-ovo-br-glazbeno-scenski-p
+ rogram-za-mlade-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:7deee641@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270116T190000
+DTEND;TZID=Europe/Zagreb:20270116T220000
+SUMMARY:73. Koncertna Sezona Zagrebačkih Solista Petrit Çeku\, Gitara G
+ uy Braunstein\, Koncertni Majstor
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 18 € · https://www.lisinski.hr/hr/dogadanja/73-k
+ oncertna-sezona-zagrebackih-solista-br-petrit-/
+URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
+ solista-br-petrit-/
+END:VEVENT
+BEGIN:VEVENT
+UID:8bd0ff39@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270205T200000
+DTEND;TZID=Europe/Zagreb:20270205T230000
+SUMMARY:Toma
+LOCATION:Sax!\, Palmotićeva 22\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43496645-toma-at-
+ sax?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43496645-toma-at-sax?utm_medium=org
+ anic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:fe71f1cf@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270206T193000
+DTEND;TZID=Europe/Zagreb:20270206T223000
+SUMMARY:Miro Ungar To Je Bila Moja Muzika Koncert u Povodu 70 Godina Kari
+ jere
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 32–46 € · https://www.lisinski.hr/hr/dogadanja
+ /miro-ungar-br-to-je-bila-moja-muzika-br-koncert-u-/
+URL:https://www.lisinski.hr/hr/dogadanja/miro-ungar-br-to-je-bila-moja-mu
+ zika-br-koncert-u-/
+END:VEVENT
+BEGIN:VEVENT
+UID:c634f420@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270207T200000
+DTEND;TZID=Europe/Zagreb:20270207T230000
+SUMMARY:Crvena Jabuka – Nek Vrijeme Stane
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 32\,90–53\,90 € · https://www.lisinski.hr/hr/d
+ ogadanja/crvena-jabuka-br-nek-vrijeme-stane/
+URL:https://www.lisinski.hr/hr/dogadanja/crvena-jabuka-br-nek-vrijeme-sta
+ ne/
+END:VEVENT
+BEGIN:VEVENT
+UID:908fd3c2@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270210T200000
+DTEND;TZID=Europe/Zagreb:20270210T230000
+SUMMARY:Lisinski Srijedom Lp Duo
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 25 € · https://www.lisinski.hr/hr/dogadanja/lisi
+ nski-srijedom-br-lp-duo/
+URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-lp-duo/
+END:VEVENT
+BEGIN:VEVENT
+UID:c66f90ae@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270216T200000
+DTEND;TZID=Europe/Zagreb:20270216T230000
+SUMMARY:Slavonske Lole – 45 Godina Karijere
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 29–49 € · https://www.lisinski.hr/hr/dogadanja
+ /slavonske-lole-br-45-godina-karijere/
+URL:https://www.lisinski.hr/hr/dogadanja/slavonske-lole-br-45-godina-kari
+ jere/
+END:VEVENT
+BEGIN:VEVENT
+UID:05076fb4@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270220T200000
+DTEND;TZID=Europe/Zagreb:20270220T230000
+SUMMARY:Haris Džinović – 40 Godina
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 33–60 € · https://www.lisinski.hr/hr/dogadanja
+ /haris-dzinovic-br-40-godina/
+URL:https://www.lisinski.hr/hr/dogadanja/haris-dzinovic-br-40-godina/
+END:VEVENT
+BEGIN:VEVENT
+UID:f020b207@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270226T193000
+DTEND;TZID=Europe/Zagreb:20270226T223000
+SUMMARY:Feelharmonija Ususret Muzičkom Biennalu Zagreb Ivan Josip Skende
+ r\, Dirigent
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · besplatno · https://www.lisinski.hr/hr/dogadanja/f
+ eelharmonija-br-ususret-muzickom-biennalu-zagreb-/
+URL:https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-ususret-muzicko
+ m-biennalu-zagreb-/
+END:VEVENT
+BEGIN:VEVENT
+UID:af99d09b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270227T100000
+DTEND;TZID=Europe/Zagreb:20270227T130000
+SUMMARY:Čudnovata Dama Trema
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 6 € · https://www.lisinski.hr/hr/dogadanja/cudno
+ vata-dama-trema-2/
+URL:https://www.lisinski.hr/hr/dogadanja/cudnovata-dama-trema-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:0e3c32c7@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270228T180000
+DTEND;TZID=Europe/Zagreb:20270228T210000
+SUMMARY:Domoljubni Koncert "djeca Pjevaju Domu Mom"
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 28–45 € · https://www.lisinski.hr/hr/dogadanja
+ /domoljubni-koncert-br-djeca-pjevaju-domu-mom/
+URL:https://www.lisinski.hr/hr/dogadanja/domoljubni-koncert-br-djeca-pjev
+ aju-domu-mom/
+END:VEVENT
+BEGIN:VEVENT
+UID:23df42f0@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270228T200000
+DTEND;TZID=Europe/Zagreb:20270228T230000
+SUMMARY:Союз
+LOCATION:Močvara\, Trnjanski nasip bb\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43180691-soiuz-at
+ -klub-mocvara?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43180691-soiuz-at-klub-mocvara?utm_
+ medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:c5f468ad@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270307T200000
+DTEND;TZID=Europe/Zagreb:20270307T230000
+SUMMARY:Dečki Z Bregov - 50 Let Z Vami
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 30–45 € · https://www.lisinski.hr/hr/dogadanja
+ /decki-z-bregov-50-let-z-vami/
+URL:https://www.lisinski.hr/hr/dogadanja/decki-z-bregov-50-let-z-vami/
+END:VEVENT
+BEGIN:VEVENT
+UID:b1e50459@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270309T200000
+DTEND;TZID=Europe/Zagreb:20270309T230000
+SUMMARY:Mejaši - 15 Godina Hitova
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 30–40 € · https://www.lisinski.hr/hr/dogadanja
+ /mejasi-15-godina-hitova/
+URL:https://www.lisinski.hr/hr/dogadanja/mejasi-15-godina-hitova/
+END:VEVENT
+BEGIN:VEVENT
+UID:fcf4944b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270324T200000
+DTEND;TZID=Europe/Zagreb:20270324T230000
+SUMMARY:Lisinski Srijedom Miguel Zenón Quartet feat. Chico Pinheiro
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 35 € · https://www.lisinski.hr/hr/dogadanja/lisi
+ nski-srijedom-br-miguel-zenon-quartet-feat-chi/
+URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-miguel-zeno
+ n-quartet-feat-chi/
+END:VEVENT
+BEGIN:VEVENT
+UID:3bda0df2@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270331T200000
+DTEND;TZID=Europe/Zagreb:20270331T230000
+SUMMARY:Dobrotvorni Koncert Srce u Srcu Zagreba
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 15–25 € · https://www.lisinski.hr/hr/dogadanja
+ /dobrotvorni-koncert-srce-u-srcu-zagreba/
+URL:https://www.lisinski.hr/hr/dogadanja/dobrotvorni-koncert-srce-u-srcu-
+ zagreba/
+END:VEVENT
+BEGIN:VEVENT
+UID:bcd7a19b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270401T200000
+DTEND;TZID=Europe/Zagreb:20270401T230000
+SUMMARY:Luka Nižetić Autoportret s Juga 25 Godina Karijere
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 30–45 € · https://www.lisinski.hr/hr/dogadanja
+ /luka-nizetic-br-autoportret-s-juga-br-25-godina-ka/
+URL:https://www.lisinski.hr/hr/dogadanja/luka-nizetic-br-autoportret-s-ju
+ ga-br-25-godina-ka/
+END:VEVENT
+BEGIN:VEVENT
+UID:d70467d9@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270406T200000
+DTEND;TZID=Europe/Zagreb:20270406T230000
+SUMMARY:S.a.r.s. – Elekroakustični Koncert
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 35–55 € · https://www.lisinski.hr/hr/dogadanja
+ /sars-elekroakusticni-koncert/
+URL:https://www.lisinski.hr/hr/dogadanja/sars-elekroakusticni-koncert/
+END:VEVENT
+BEGIN:VEVENT
+UID:fe925c5c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270407T200000
+DTEND;TZID=Europe/Zagreb:20270407T230000
+SUMMARY:Lisinski Srijedom Adhd
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 20 € · https://www.lisinski.hr/hr/dogadanja/lisi
+ nski-srijedom-br-adhd/
+URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-adhd/
+END:VEVENT
+BEGIN:VEVENT
+UID:08724c1b@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270409T200000
+DTEND;TZID=Europe/Zagreb:20270409T230000
+SUMMARY:Gipsy Kings ft. Tonino Baliardo
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft
+ -tonino-baliardo-2/
+URL:https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2
+ /
+END:VEVENT
+BEGIN:VEVENT
+UID:d59c9769@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270410T190000
+DTEND;TZID=Europe/Zagreb:20270410T220000
+SUMMARY:73. KONCERTNA SEZONA ZAGREBAČKIH SOLISTA ZIYANG ZHAO\, violonče
+ lo – pobjednica natjecanja Antonio Janigro SRETEN KRSTIĆ\, koncertni 
+ majstor
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 18 € · https://www.lisinski.hr/hr/dogadanja/73-k
+ oncertna-sezona-zagrebackih-solista-br-ziyang-/
+URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
+ solista-br-ziyang-/
+END:VEVENT
+BEGIN:VEVENT
+UID:7befe27a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270421T200000
+DTEND;TZID=Europe/Zagreb:20270421T230000
+SUMMARY:Lisinski Srijedom Maja Rivić
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · https://www.lisinski.hr/hr/dogadanja/lisinski-srije
+ dom-br-maja-rivic/
+URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-maja-rivic/
+END:VEVENT
+BEGIN:VEVENT
+UID:9203cba5@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270425T200000
+DTEND;TZID=Europe/Zagreb:20270425T230000
+SUMMARY:Od Opere do Hollywooda - Gala Koncert Tamare Radjenović
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 35–110 € · https://www.lisinski.hr/hr/dogadanj
+ a/od-opere-do-hollywooda-gala-koncert-tamare-radjeno/
+URL:https://www.lisinski.hr/hr/dogadanja/od-opere-do-hollywooda-gala-konc
+ ert-tamare-radjeno/
+END:VEVENT
+BEGIN:VEVENT
+UID:78b8925e@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270502T200000
+DTEND;TZID=Europe/Zagreb:20270502T230000
+SUMMARY:The Music of Hans Zimmer
+LOCATION:Mozaik Event Centar\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43272226-music-of
+ -hans-zimmer-at-mozaik-event-centar?utm_medium=organic&utm_source=microf
+ ormat
+URL:https://www.songkick.com/concerts/43272226-music-of-hans-zimmer-at-mo
+ zaik-event-centar?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:46c61a0d@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270508T190000
+DTEND;TZID=Europe/Zagreb:20270508T220000
+SUMMARY:73. Koncertna Sezona Zagrebačkih Solista Mirella Hagen\, Sopran 
+ Guy Braunstein\, Koncertni Majstor
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 18 € · https://www.lisinski.hr/hr/dogadanja/73-k
+ oncertna-sezona-zagrebackih-solista-br-mirella/
+URL:https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-
+ solista-br-mirella/
+END:VEVENT
+BEGIN:VEVENT
+UID:95ec8c80@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270518
+DTEND;VALUE=DATE:20270519
+SUMMARY:Crimson Glory
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43457402-crimson-
+ glory-at-boogaloo?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43457402-crimson-glory-at-boogaloo?
+ utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:210137f2@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270526T193000
+DTEND;TZID=Europe/Zagreb:20270526T223000
+SUMMARY:Feelharmonija Beethovenova Deveta Ivan Šćepanović\, Dirigent A
+ kademski Zbor Igk Fabijan Komljenović\, Pripovjedač
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · besplatno · https://www.lisinski.hr/hr/dogadanja/f
+ eelharmonija-br-beethovenova-deveta-br-ivan-scepa/
+URL:https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-beethovenova-de
+ veta-br-ivan-scepa/
+END:VEVENT
+BEGIN:VEVENT
+UID:cc407264@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270529T193000
+DTEND;TZID=Europe/Zagreb:20270529T223000
+SUMMARY:Doma Je Najljepše – Vjera\, Obitelj\, Domovina
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Ostalo · 30 € · https://www.lisinski.hr/hr/dogadanja/doma
+ -je-najljepse-vjera-obitelj-domovina-2/
+URL:https://www.lisinski.hr/hr/dogadanja/doma-je-najljepse-vjera-obitelj-
+ domovina-2/
+END:VEVENT
+BEGIN:VEVENT
+UID:50ef1d49@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20270612
+DTEND;VALUE=DATE:20270613
+SUMMARY:Scorpions
+LOCATION:Arena Zagreb\, Ulica Vice Vukova 8\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43492964-scorpion
+ s-at-arena-zagreb?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/43492964-scorpions-at-arena-zagreb?
+ utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:0c0a8d00@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270712T190000
+DTEND;TZID=Europe/Zagreb:20270712T220000
+SUMMARY:Slash featuring Myles Kennedy
+LOCATION:SRC Šalata\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/43454053-slash-fe
+ aturing-myles-kennedy-at-src-salata?utm_medium=organic&utm_source=microf
+ ormat
+URL:https://www.songkick.com/concerts/43454053-slash-featuring-myles-kenn
+ edy-at-src-salata?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:98892f6a@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20301108T200000
+DTEND;TZID=Europe/Zagreb:20301108T230000
+SUMMARY:Domenica
+LOCATION:Arena Zagreb\, Ulica Vice Vukova 8\, Zagreb
+DESCRIPTION:Ostalo · https://www.songkick.com/concerts/42879373-domenica
+ -at-arena-zagreb?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/concerts/42879373-domenica-at-arena-zagreb?u
+ tm_medium=organic&utm_source=microformat
+END:VEVENT
+END:VCALENDAR

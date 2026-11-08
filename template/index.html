@@ -103,6 +103,25 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .fav[aria-pressed="true"]{color:var(--star);border-color:var(--star)}
 .fav[aria-pressed="true"] svg{fill:var(--star)}
 .empty{padding:48px 0;text-align:center;color:var(--muted)}
+.pill{border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-left:auto}
+.pill[aria-expanded="true"]{background:var(--accent);color:var(--accent-ink)}
+.pill svg{width:15px;height:15px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 18px;margin-top:14px;display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(280px,1fr))}
+.panel h4{margin:0 0 4px;font-size:15px}
+.panel p{margin:0 0 10px;color:var(--muted);font-size:13.5px;max-width:60ch}
+.panel .links{display:flex;flex-wrap:wrap;gap:6px}
+.panel .links a,.panel .links button{font-size:13px;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-decoration:none;cursor:pointer}
+.panel .links a:hover,.panel .links button:hover{border-color:var(--accent)}
+.panel .feed{margin-top:8px}
+.panel .feed b{font-size:13px}
+.note{font-size:12.5px;color:var(--muted)}
+.banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:8px;padding:12px 14px;margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
+.banner button{font:inherit;font-size:13px;padding:5px 10px;border-radius:6px;border:1px solid var(--accent);background:var(--surface);color:var(--accent);cursor:pointer}
+.regular{margin-top:34px;border-top:1px solid var(--ink);padding-top:10px}
+.regular h3{font-family:var(--font-display);font-size:24px;margin:0 0 4px;text-transform:uppercase}
+.regular .rv{padding:10px 0;border-bottom:1px solid var(--line)}
+.regular .rv b{font-weight:600}
+.regular .rv span{display:block;color:var(--muted);font-size:13.5px}
 
 /* calendar */
 .cal{margin-top:18px}
@@ -165,11 +184,14 @@ footer p{margin:0 0 8px;max-width:72ch}
       <label class="toggle"><input type="checkbox" id="hideSold"> Sakrij rasprodane</label>
       <label class="toggle"><input type="checkbox" id="freeOnly"> Samo besplatni</label>
       <label class="toggle"><input type="checkbox" id="favOnly"> Samo moji koncerti</label>
+      <button class="pill" id="panelBtn" type="button" aria-expanded="false" aria-controls="panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Kalendar i obavijesti</button>
     </div>
   </div>
 </div>
 
 <main class="wrap">
+  <div id="panel" class="panel" hidden></div>
+  <div id="banner"></div>
   <div class="status"><span id="count"></span><button id="reset" type="button">Poništi filtre</button></div>
   <div id="out"></div>
 </main>
@@ -190,7 +212,7 @@ const GENRES = {
 
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
   const v = VENUES[r.venue];
-  return {id:"e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24), date:r.date, time:r.time||"", artist:r.title, vkey:r.venue, vgroup:v.group||r.venue,
+  return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, vkey:r.venue, vgroup:v.group||r.venue,
     venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url,
     sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
 }).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
@@ -237,6 +259,7 @@ function match(e, ignoreRange){
   if (S.hideSold && e.sold) return false;
   if (S.freeOnly && !e.free) return false;
   if (S.favOnly && !favs.has(e.id)) return false;
+  if (SHARED && !SHARED.has(e.id)) return false;
   if (!ignoreRange){
     if (S.day && e.date!==S.day) return false;
     if (S.range){ const r=R[S.range]; if(e.date<r.from||e.date>r.to) return false; }
@@ -385,6 +408,89 @@ out.addEventListener("click", ev=>{
   if (dc && !dc.disabled){ S.day = S.day===dc.dataset.day ? "" : dc.dataset.day; render(); }
 });
 
+// ---------- Kalendar, obavijesti, dijeljenje ----------
+const SITE_URL = DATA.site_url || (location.href.split("#")[0].replace(/[^/]*$/, ""));
+let SHARED = null;
+function readShared(){
+  const m = location.hash.match(/^#moji=([a-z0-9,]+)/i);
+  SHARED = m ? new Set(m[1].split(",")) : null;
+}
+const feedKey = () => {
+  if (S.genres.size===1) return {key:[...S.genres][0], label:GENRES[[...S.genres][0]]};
+  if (S.venue) return {key:"prostor-"+S.venue, label:(S.venue==="lisinski"?"Lisinski":VENUES[S.venue].n)};
+  return {key:"sve", label:"svi koncerti"};
+};
+function feedLinks(key){
+  const https = SITE_URL+"cal/"+key+".ics", webcal = https.replace(/^https?:/, "webcal:");
+  return `<div class="links">
+    <a href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">Google kalendar</a>
+    <a href="${webcal}">Apple / iPhone</a>
+    <a href="https://outlook.live.com/calendar/0/addfromweb?url=${encodeURIComponent(https)}" target="_blank" rel="noopener">Outlook</a>
+    <button type="button" data-copy="${https}">Kopiraj poveznicu</button>
+    <a href="${SITE_URL}rss/${key}.xml" target="_blank" rel="noopener">RSS</a></div>`;
+}
+function renderPanel(){
+  const el = document.getElementById("panel");
+  if (el.hidden) return;
+  const f = feedKey(), mine = upcoming.filter(e=>favs.has(e.id));
+  const others = [...S.genres].length>1 ? [...S.genres].map(g=>`<div class="feed"><b>${GENRES[g]}</b>${feedLinks(g)}</div>`).join("") : `<div class="feed"><b>${esc(f.label[0].toUpperCase()+f.label.slice(1))}</b>${feedLinks(f.key)}</div>`;
+  el.innerHTML = `<section>
+      <h4>Pretplati se na kalendar</h4>
+      <p>Koncerti se sami pojavljuju u tvom kalendaru na mobitelu i osvježavaju se svaki dan. Odaberi žanr ili prostor u filtrima pa se pretplati samo na to, npr. samo jazz ili samo Močvaru.</p>
+      ${others}
+      <p class="note" style="margin-top:10px">RSS javlja novo najavljene koncerte. Možeš ga spojiti s aplikacijom za vijesti ili e-mail obavijesti.</p>
+    </section>
+    <section>
+      <h4>Moji koncerti (${mine.length})</h4>
+      ${mine.length ? `<p>Zvjezdicom spremljeni koncerti. Dodaj ih u kalendar ili pošalji popis prijateljima.</p>
+      <div class="links"><button type="button" id="dlMine">Preuzmi u kalendar (.ics)</button><button type="button" data-copy="${SITE_URL}#moji=${mine.map(e=>e.id).join(",")}">Kopiraj poveznicu za dijeljenje</button></div>`
+      : `<p>Klikni zvjezdicu uz koncert da ga spremiš. Spremljene možeš dodati u kalendar ili poslati prijateljima.</p>`}
+    </section>`;
+}
+document.getElementById("panelBtn").addEventListener("click", e=>{
+  const p = document.getElementById("panel"); p.hidden = !p.hidden;
+  e.currentTarget.setAttribute("aria-expanded", String(!p.hidden)); renderPanel();
+});
+document.getElementById("panel").addEventListener("click", async ev=>{
+  const c = ev.target.closest("[data-copy]");
+  if (c){
+    try { await navigator.clipboard.writeText(c.dataset.copy); c.textContent = "Kopirano"; }
+    catch(e){ c.outerHTML = `<input value="${c.dataset.copy}" readonly style="width:100%;font-size:12px" onclick="this.select()">`; }
+    return;
+  }
+  if (ev.target.id==="dlMine") downloadICS(upcoming.filter(e=>favs.has(e.id)));
+});
+function icsDate(e){
+  const d=e.date.replace(/-/g,"");
+  if(!e.time){ return [`DTSTART;VALUE=DATE:${d}`, `DTEND;VALUE=DATE:${iso(addDays(parse(e.date),1)).replace(/-/g,"")}`]; }
+  const [h,m]=e.time.split(":").map(Number), end=new Date(2000,0,1,h+3,m);
+  const endDay = h+3>=24 ? iso(addDays(parse(e.date),1)).replace(/-/g,"") : d;
+  return [`DTSTART;TZID=Europe/Zagreb:${d}T${pad(h)}${pad(m)}00`, `DTEND;TZID=Europe/Zagreb:${endDay}T${pad(end.getHours())}${pad(end.getMinutes())}00`];
+}
+function downloadICS(list){
+  const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
+  const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Koncerti u Zagrebu//HR","X-WR-CALNAME:Moji koncerti"];
+  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${e.src}`,"END:VEVENT"));
+  lines.push("END:VCALENDAR");
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type:"text/calendar"}));
+  a.download = "moji-koncerti.ics"; document.body.appendChild(a); a.click(); a.remove();
+}
+function renderBanner(){
+  const b = document.getElementById("banner");
+  if (!SHARED){ b.innerHTML=""; return; }
+  const n = upcoming.filter(e=>SHARED.has(e.id)).length;
+  const w = (n%10===1 && n%100!==11) ? "koncerta" : "koncerata";
+  b.innerHTML = `<div class="banner"><span>Netko ti je poslao popis od <b>${n}</b> ${w}.</span><button type="button" id="saveShared">Spremi sve u moje koncerte</button><button type="button" id="showAll">Prikaži sve koncerte</button></div>`;
+  document.getElementById("saveShared").onclick = ()=>{ SHARED.forEach(id=>favs.add(id)); saveFavs(); location.hash="popis"; };
+  document.getElementById("showAll").onclick = ()=>{ location.hash="popis"; };
+}
+function renderRegular(){
+  const regs = Object.entries(DATA.venues).filter(([k,v])=>v.regular && (!S.venue || S.venue===k));
+  if (!regs.length || S.favOnly || SHARED) return "";
+  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+(v.address||"")+", Zagreb")}" target="_blank" rel="noopener">${esc(v.address||"karta")}</a><span>${esc(v.regular)}</span></div>`).join("")}</section>`;
+}
+
 function view(){ return location.hash==="#kalendar" ? "kalendar" : "popis"; }
 function render(){
   const v=view();
@@ -398,9 +504,11 @@ function render(){
   document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
   const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.day;
   document.getElementById("reset").hidden = !filtered;
-  out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list);
+  out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
+  renderBanner(); renderPanel();
 }
-window.addEventListener("hashchange", ()=>{ S.day=""; render(); });
+window.addEventListener("hashchange", ()=>{ S.day=""; readShared(); render(); });
+readShared();
 render();
 </script>
 </body>

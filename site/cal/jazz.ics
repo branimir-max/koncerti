@@ -1,0 +1,132 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Koncerti u Zagrebu//HR
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Koncerti u Zagrebu – Jazz
+X-WR-TIMEZONE:Europe/Zagreb
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Zagreb
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:f20322b9@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261110T200000
+DTEND;TZID=Europe/Zagreb:20261110T230000
+SUMMARY:Branford Marsalis & Dianne Reeves slave Johna Coltranea
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 40–70 € · https://www.lisinski.hr/hr/dogadanja/b
+ ranford-marsalis-dianne-reeves-celebrate-john-col/
+URL:https://www.lisinski.hr/hr/dogadanja/branford-marsalis-dianne-reeves-
+ celebrate-john-col/
+END:VEVENT
+BEGIN:VEVENT
+UID:07b1ad65@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;VALUE=DATE:20261111
+DTEND;VALUE=DATE:20261112
+SUMMARY:NO Jazz: Spike Fuck
+LOCATION:Vintage Industrial Bar\, Savska cesta 160\, Zagreb
+DESCRIPTION:Jazz · https://vintageindustrial-bar.com/?p=4213
+URL:https://vintageindustrial-bar.com/?p=4213
+END:VEVENT
+BEGIN:VEVENT
+UID:e4aa2c8f@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261113T210000
+DTEND;TZID=Europe/Zagreb:20261114T000000
+SUMMARY:13. NO Jazz festival: Artifacts Trio\, Eksterminator '81
+LOCATION:Močvara\, Trnjanski nasip bb\, Zagreb
+DESCRIPTION:Jazz · https://mochvara.hr/event-detail/6ab3c6ea555a49936141
+ 0214/
+URL:https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/
+END:VEVENT
+BEGIN:VEVENT
+UID:fd47495c@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261126T193000
+DTEND;TZID=Europe/Zagreb:20261126T223000
+SUMMARY:Majstorski ciklus HRT: Simfonijski jazz (Makoto Ozone\, glasovir)
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 13–18 € · https://www.lisinski.hr/hr/dogadanja/m
+ ajstorski-ciklus-so-hrt-a-br-simfonijski-jazz-br-/
+URL:https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-si
+ mfonijski-jazz-br-/
+END:VEVENT
+BEGIN:VEVENT
+UID:ade64ec9@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20261208T200000
+DTEND;TZID=Europe/Zagreb:20261208T230000
+SUMMARY:Perpetuum Jazzile
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 36–55 € · https://www.lisinski.hr/hr/dogadanja/p
+ erpetuum-jazzile-8/
+URL:https://www.lisinski.hr/hr/dogadanja/perpetuum-jazzile-8/
+END:VEVENT
+BEGIN:VEVENT
+UID:63082c0e@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270102T170000
+DTEND;TZID=Europe/Zagreb:20270102T200000
+SUMMARY:Zagreb Jazz Workshop - Find Your Unique Voice 2027
+LOCATION:Pavao Markovac Music School\, Zagreb
+DESCRIPTION:Jazz · https://www.songkick.com/festivals/3804095-zagreb-jaz
+ z-workshop-find-your-unique-voice/id/43401288-zagreb-jazz-workshop--find
+ -your-unique-voice-2027?utm_medium=organic&utm_source=microformat
+URL:https://www.songkick.com/festivals/3804095-zagreb-jazz-workshop-find-
+ your-unique-voice/id/43401288-zagreb-jazz-workshop--find-your-unique-voi
+ ce-2027?utm_medium=organic&utm_source=microformat
+END:VEVENT
+BEGIN:VEVENT
+UID:67d3d74d@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270127T200000
+DTEND;TZID=Europe/Zagreb:20270127T230000
+SUMMARY:Lisinski srijedom: Chui & Jazz orkestar HRT-a
+LOCATION:Lisinski – Mala dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 25 € · https://www.lisinski.hr/hr/dogadanja/lisins
+ ki-srijedom-br-chui-jazz-orkestar-hrt-a-br-c/
+URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-chui-jazz-o
+ rkestar-hrt-a-br-c/
+END:VEVENT
+BEGIN:VEVENT
+UID:8bfe9340@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270209T103000
+DTEND;TZID=Europe/Zagreb:20270209T133000
+SUMMARY:Jazz Karneval
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 12 € · https://www.lisinski.hr/hr/dogadanja/jazz-k
+ arneval/
+URL:https://www.lisinski.hr/hr/dogadanja/jazz-karneval/
+END:VEVENT
+BEGIN:VEVENT
+UID:1223bd20@koncerti-zagreb
+DTSTAMP:20261108T201540Z
+DTSTART;TZID=Europe/Zagreb:20270227T200000
+DTEND;TZID=Europe/Zagreb:20270227T230000
+SUMMARY:Makedonski Nacionalni Jazz Orkestar & Rambo Amadeus
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Jazz · 35–45 € · https://www.lisinski.hr/hr/dogadanja/m
+ akedonski-nacionalni-jazz-orkestar-rambo-amadeus/
+URL:https://www.lisinski.hr/hr/dogadanja/makedonski-nacionalni-jazz-orkes
+ tar-rambo-amadeus/
+END:VEVENT
+END:VCALENDAR
