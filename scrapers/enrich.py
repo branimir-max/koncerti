@@ -46,6 +46,7 @@ GENRE_MAP = [
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s.lower())
     s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"['’`]", "", s)  # Mother’s = Mothers
     return re.sub(r"[^a-z0-9]+", " ", s).strip()
 
 
