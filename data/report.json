@@ -1,10 +1,45 @@
 {
- "run_at": "2026-11-08T12:41:58+00:00",
+ "run_at": "2026-11-08T13:27:31+00:00",
  "sources": {
   "lisinski": {
    "ok": false,
    "count": 0,
-   "error": "ProxyError: HTTPSConnectionPool(host='www.lisinski.hr', port=443): Max retries exceeded with url: /hr/dogadanja/?page=1 (Caused by ProxyError('Unable to connect to proxy', OSError('Tunnel connection failed: 403 Forbidden')))"
+   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+  },
+  "tvornica": {
+   "ok": true,
+   "count": 14
+  },
+  "mocvara": {
+   "ok": true,
+   "count": 2
+  },
+  "dvaosam": {
+   "ok": false,
+   "count": 0,
+   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+  },
+  "kset": {
+   "ok": false,
+   "count": 0,
+   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+  },
+  "attack": {
+   "ok": true,
+   "count": 3
+  },
+  "boogaloo": {
+   "ok": false,
+   "count": 0,
+   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+  },
+  "vintage": {
+   "ok": true,
+   "count": 7
+  },
+  "songkick": {
+   "ok": true,
+   "count": 57
   }
  }
 }
