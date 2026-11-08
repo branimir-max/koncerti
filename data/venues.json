@@ -121,7 +121,8 @@
   "address": "Palmotićeva 22",
   "aliases": [
    "Sax!",
-   "Klub Sax"
+   "Klub Sax",
+   "Sax"
   ]
  },
  "klaonica": {
@@ -129,6 +130,14 @@
   "address": "Heinzelova 66",
   "aliases": [
    "Klaonica"
+  ]
+ },
+ "kinosc": {
+  "name": "Kino SC",
+  "address": "Savska cesta 25",
+  "aliases": [
+   "Kino SC",
+   "Studentski centar"
   ]
  }
 }

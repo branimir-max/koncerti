@@ -24,6 +24,14 @@ def norm(s: str) -> str:
     return " ".join(words[:3])
 
 
+def norm_all(s: str) -> list[str]:
+    s = unicodedata.normalize("NFKD", s.lower())
+    s = "".join(c for c in s if not unicodedata.combining(c))
+    s = re.sub(r"^kset\d*:\s*", "", s)
+    stop = {"the", "i", "and", "feat", "ft", "koncert", "live", "u", "na", "x", "presents"}
+    return [w for w in re.findall(r"[a-z0-9]+", s) if w not in stop]
+
+
 def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", norm(s).replace(" ", ""))[:20] or "prostor"
 
@@ -37,7 +45,16 @@ def main() -> None:
 
     group = lambda k: venues.get(k, {}).get("group", k)  # noqa: E731
     today = date.today().isoformat()
-    merged: dict[tuple, dict] = {}
+    buckets: dict[tuple, list[dict]] = {}
+
+    def same(a: str, b: str) -> bool:
+        ta, tb = norm_all(a), norm_all(b)
+        if not ta or not tb:
+            return False
+        if ta[0] == tb[0] and len(ta[0]) >= 3:
+            return True
+        sa, sb = set(ta), set(tb)
+        return len(sa & sb) / len(sa | sb) >= 0.5
 
     def add(e: dict, prefer: bool) -> None:
         if not e.get("date") or e["date"] < today or not e.get("title"):
@@ -49,25 +66,25 @@ def main() -> None:
             key = slug(name)
             venues.setdefault(key, {"name": name.strip(), "address": "", "auto": True})
             e["venue"] = key
-        k = (e["date"], group(e["venue"]), norm(e["title"]))
-        if k in merged:
-            old = merged[k]
-            if prefer:  # automatski podaci su svježiji, ali ne brišu poznate vrijednosti
-                for f in ("time", "price", "url", "genre", "title"):
-                    if e.get(f):
-                        old[f] = e[f]
-                # Konkretna dvorana (npr. Lisinski – Mala dvorana) ima prednost pred općim prostorom
-                if venues.get(e["venue"], {}).get("group"):
-                    old["venue"] = e["venue"]
-            return
-        merged[k] = {f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")}
+        bucket = buckets.setdefault((e["date"], group(e["venue"])), [])
+        for old in bucket:
+            if same(old["title"], e["title"]):
+                if prefer:  # automatski podaci su svježiji, ali ne brišu poznate vrijednosti
+                    for f in ("time", "price", "url", "genre"):
+                        if e.get(f):
+                            old[f] = e[f]
+                    # Konkretna dvorana (npr. Lisinski – Mala dvorana) ima prednost pred općim prostorom
+                    if venues.get(e["venue"], {}).get("group"):
+                        old["venue"] = e["venue"]
+                return
+        bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")})
 
     for e in manual:
         add(dict(e), prefer=False)
     for e in scraped:
         add(dict(e), prefer=True)
 
-    events = sorted(merged.values(), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
+    events = sorted((e for b in buckets.values() for e in b), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used}
     payload = {"updated": today, "venues": out_venues, "events": events}

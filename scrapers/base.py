@@ -195,4 +195,6 @@ def find_price(text: str) -> str:
 
 
 def clean(s: str) -> str:
-    return re.sub(r"\s+", " ", str(s)).strip()
+    import unicodedata
+    s = unicodedata.normalize("NFKC", str(s))  # npr. 𝗠𝗢𝗡𝗢𝗟𝗢𝗥𝗗 -> MONOLORD
+    return re.sub(r"\s+", " ", s).strip()
