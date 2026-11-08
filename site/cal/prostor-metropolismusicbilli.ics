@@ -26,10 +26,10 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d8dc1159@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261113T210000
 DTEND;TZID=Europe/Zagreb:20261114T000000
-SUMMARY:U2 Tribute Band LIVE/13.11.2026.@METROPOLIS Club
+SUMMARY:U2 Tribute Band Live
 LOCATION:Metropolis Music & Billiards Club\, Zagreb
 DESCRIPTION:Ostalo · https://www.entrio.hr/event/u2-tribute-band-live131
  12026metropolis-club-35048
@@ -38,11 +38,10 @@ URL:https://www.entrio.hr/event/u2-tribute-band-live13112026metropolis-cl
 END:VEVENT
 BEGIN:VEVENT
 UID:83a195ff@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261218T213000
 DTEND;TZID=Europe/Zagreb:20261219T003000
-SUMMARY:"the Real Abba Tribute Band" CHRISTMAS/18.12.2026.@METROPOLIS Clu
- b
+SUMMARY:"the Real Abba Tribute Band" Christmas
 LOCATION:Metropolis Music & Billiards Club\, Zagreb
 DESCRIPTION:Ostalo · https://www.entrio.hr/event/the-real-abba-tribute-b
  and-christmas18122026metropolis-club-34799

@@ -69,8 +69,8 @@ def get(url: str, params: dict) -> dict:
 
 def pick(results: list[dict], q: str) -> dict | None:
     nq = norm(q)
-    exact = [a for a in results if a.get("score", 0) >= 90 and
-             (norm(a.get("name", "")) == nq or any(norm(al.get("name", "")) == nq for al in a.get("aliases", []) or []))]
+    strip_the = lambda n: re.sub(r"^the ", "", n)  # noqa: E731
+    exact = [a for a in results if a.get("score", 0) >= 90 and strip_the(norm(a.get("name", ""))) == strip_the(nq)]
     if not exact:
         return None
     if len(exact) == 1:

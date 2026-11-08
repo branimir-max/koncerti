@@ -585,14 +585,7 @@
   "query": "Katatonia"
  },
  "kim salmon s smoked salmon": {
-  "checked": "2026-11-08",
-  "country": "AU",
-  "genre": "",
-  "links": {
-   "facebook": "https://www.facebook.com/kim.salmon.549"
-  },
-  "mbid": "080cd28a-0eba-4975-8dc8-b863ea2e2b20",
-  "name": "Smoked Salmon",
+  "checked": "2000-01-01",
   "query": "Kim Salmon's Smoked Salmon"
  },
  "klinika denisa kataneca": {
@@ -626,17 +619,7 @@
   "query": "Kovacs"
  },
  "kristijan rahimovski": {
-  "checked": "2026-11-08",
-  "country": "HR",
-  "genre": "",
-  "links": {
-   "deezer": "https://www.deezer.com/artist/1666411",
-   "soundcloud": "https://soundcloud.com/kristijanrahimovski",
-   "spotify": "https://open.spotify.com/artist/4Y8eP8SISso5VxgRtlStN6",
-   "youtube": "https://www.youtube.com/channel/UCAK8C7AIiRCluyYw7c5oE9Q"
-  },
-  "mbid": "edc871e8-8667-4f29-815c-25f20f6118ef",
-  "name": "Kiki Rahimovski",
+  "checked": "2000-01-01",
   "query": "Kristijan Rahimovski"
  },
  "lalalar istanbulska psihodelija": {
@@ -693,12 +676,7 @@
   "query": "Let 3"
  },
  "lexington": {
-  "checked": "2026-11-08",
-  "country": "",
-  "genre": "",
-  "links": {},
-  "mbid": "161aeb0d-879b-4aa3-b73b-d06e6d766a2b",
-  "name": "The Lexington Devils",
+  "checked": "2000-01-01",
   "query": "Lexington"
  },
  "lika kolorado": {
@@ -861,31 +839,11 @@
   "query": "Mostar Sevdah Reunion"
  },
  "mothers finest": {
-  "checked": "2026-11-08",
-  "country": "US",
-  "genre": "rock",
-  "links": {
-   "deezer": "https://www.deezer.com/artist/11723",
-   "facebook": "https://www.facebook.com/mothersfinest",
-   "instagram": "https://www.instagram.com/mothersfinestofficial/",
-   "spotify": "https://open.spotify.com/artist/3csSQdDVhJlP3BUOoZ2N2H",
-   "web": "https://www.mothersfinest.com/",
-   "youtube": "https://www.youtube.com/channel/UCWHmefA2hECbt5TtNK2pOXw"
-  },
-  "mbid": "7b38a145-7137-4c61-8d04-89ade521a6fc",
-  "name": "Mother’s Finest",
+  "checked": "2000-01-01",
   "query": "Mothers Finest"
  },
  "munly": {
-  "checked": "2026-11-08",
-  "country": "US",
-  "genre": "rock",
-  "links": {
-   "spotify": "https://open.spotify.com/artist/2L28HnA1XSuPt7Q0Ny0spl",
-   "web": "http://www.munlymunly.com/"
-  },
-  "mbid": "b1d01525-965a-4ffa-a2d4-17623e1d8169",
-  "name": "Jay Munly",
+  "checked": "2000-01-01",
   "query": "Munly"
  },
  "najbolji hrvatski tamburasi": {
@@ -944,16 +902,7 @@
   "query": "Nikola Vranjković"
  },
  "no jazz": {
-  "checked": "2026-11-08",
-  "country": "FR",
-  "genre": "",
-  "links": {
-   "instagram": "https://www.instagram.com/nojazz_officiel/",
-   "web": "https://www.nojazz.fr/",
-   "youtube": "https://www.youtube.com/channel/UClPbiDPFogidHZ5mX26XjwA"
-  },
-  "mbid": "710e4f10-55ee-4328-8270-672ab64031f8",
-  "name": "NoJazz",
+  "checked": "2000-01-01",
   "query": "NO Jazz"
  },
  "officium triste": {

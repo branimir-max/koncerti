@@ -246,6 +246,16 @@
    "genre": "metal",
    "price": "29–35 €",
    "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
+   "links": {
+    "bandcamp": "https://solstafir.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/182911",
+    "facebook": "https://www.facebook.com/solstafirice",
+    "instagram": "https://www.instagram.com/solstafir_official/",
+    "soundcloud": "https://soundcloud.com/solstafir-music",
+    "spotify": "https://open.spotify.com/artist/721C5U5rM8J0jjq6IQuSBK",
+    "web": "https://www.solstafir.net/",
+    "youtube": "https://www.youtube.com/channel/UCoTzPHBPPUDLI4EHnXnqLkg"
+   },
    "id": "4d472955",
    "added": "2026-11-08"
   },
@@ -312,6 +322,13 @@
    "genre": "world",
    "price": "22 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-magali-sare-manel-f/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/10283782",
+    "facebook": "https://www.facebook.com/384425491591675",
+    "instagram": "https://www.instagram.com/magalisare/",
+    "spotify": "https://open.spotify.com/artist/4yU06ZMQgomPONCGeO0HgE",
+    "web": "https://www.magalisare.com/"
+   },
    "id": "139de81d",
    "added": "2026-11-08"
   },
@@ -378,6 +395,16 @@
    "genre": "metal",
    "price": "15 € (18 € na dan)",
    "url": "https://mochvara.hr/event-detail/6aa1db893b0465ffa82fbb2b/",
+   "links": {
+    "bandcamp": "https://officiumtriste.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/190223",
+    "facebook": "https://www.facebook.com/pages/Officium-Triste/83401022114",
+    "instagram": "https://www.instagram.com/officium_triste/",
+    "soundcloud": "https://soundcloud.com/officiumtriste",
+    "spotify": "https://open.spotify.com/artist/0EYHpV21bEAgOv2j0yn0pb",
+    "web": "http://www.officiumtriste.com/",
+    "youtube": "https://music.youtube.com/channel/UCSKhTrdqMVhz-_7wflaji6g"
+   },
    "id": "e7c38139",
    "added": "2026-11-08"
   },
@@ -397,9 +424,19 @@
    "time": "",
    "title": "Monolord (swe) + Mars Red Sky (fr)",
    "venue": "vintage",
-   "genre": "",
+   "genre": "metal",
    "price": "",
    "url": "https://vintageindustrial-bar.com/?p=3990",
+   "links": {
+    "bandcamp": "https://monolord.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/5623523",
+    "facebook": "https://www.facebook.com/monolordsweden",
+    "instagram": "https://www.instagram.com/monolordofficial/",
+    "soundcloud": "https://soundcloud.com/monolord",
+    "spotify": "https://open.spotify.com/artist/3X0a18Q9nluwuFYv5hB5cm",
+    "web": "http://monolord.com/",
+    "youtube": "https://music.youtube.com/channel/UCNbhUsWNBbX0MH6s63hBBkw"
+   },
    "id": "6cd35744",
    "added": "2026-11-08"
   },
@@ -411,6 +448,16 @@
    "genre": "metal",
    "price": "",
    "url": "https://www.songkick.com/concerts/43102952-kamelot-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://kamelot.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/3040",
+    "facebook": "https://www.facebook.com/kamelotofficial",
+    "instagram": "https://www.instagram.com/kamelotofficial/",
+    "soundcloud": "https://soundcloud.com/kamelot-official",
+    "spotify": "https://open.spotify.com/artist/7gTbq5nTZGQIUgjEGXQpOS",
+    "web": "https://kamelot.com/",
+    "youtube": "https://www.youtube.com/channel/UCZ8tFz25t-9RsGCZKhwML0A"
+   },
    "id": "c3fa680c",
    "added": "2026-11-08"
   },
@@ -433,6 +480,15 @@
    "genre": "alt",
    "price": "",
    "url": "https://core-event.co/events/clan-of-xymox-u-tvornici-kulture-ca34",
+   "links": {
+    "bandcamp": "https://clanofxymox.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/3736",
+    "facebook": "https://www.facebook.com/clanofxymox.official",
+    "soundcloud": "https://soundcloud.com/clanofxymoxofficial",
+    "spotify": "https://open.spotify.com/artist/1wHmR7I0UlF58WFQexCPha",
+    "web": "http://www.clanofxymox.com/",
+    "youtube": "https://www.youtube.com/xymoxcontrol"
+   },
    "id": "dfdd8f55",
    "added": "2026-11-08"
   },
@@ -472,7 +528,7 @@
   {
    "date": "2026-11-13",
    "time": "21:00",
-   "title": "U2 Tribute Band LIVE/13.11.2026.@METROPOLIS Club",
+   "title": "U2 Tribute Band Live",
    "venue": "metropolismusicbilli",
    "genre": "",
    "price": "",
@@ -532,6 +588,13 @@
    "genre": "rock",
    "price": "",
    "url": "https://core-event.co/events/let-3-u-tvornici-kulture-6c28",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/397239",
+    "facebook": "https://www.facebook.com/let3music",
+    "instagram": "https://www.instagram.com/let_3/",
+    "spotify": "https://open.spotify.com/artist/4gs82a9ZgG2faut653OMRD",
+    "youtube": "https://www.youtube.com/@let3official"
+   },
    "id": "4b44f509",
    "added": "2026-11-08"
   },
@@ -565,6 +628,11 @@
    "genre": "punk",
    "price": "",
    "url": "https://www.songkick.com/concerts/43182295-cockney-rejects-at-primarius?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/8317",
+    "spotify": "https://open.spotify.com/artist/4EfSXeVFbCEYIde3E9k4wr",
+    "web": "http://www.cockneyrejects.net/"
+   },
    "id": "169b85c2",
    "added": "2026-11-08"
   },
@@ -626,12 +694,12 @@
   {
    "date": "2026-11-16",
    "time": "20:00",
-   "title": "ATROPHY @ Hard Place",
+   "title": "Atrophy",
    "venue": "hardplace",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/atrophy-hard-place-35180",
-   "id": "c8dd087e",
+   "id": "0ad073c2",
    "added": "2026-11-08"
   },
   {
@@ -653,6 +721,12 @@
    "genre": "elektro",
    "price": "",
    "url": "https://www.entrio.hr/event/the-cassandra-complex-sjoblom-31567",
+   "links": {
+    "bandcamp": "https://thecassandracomplex.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/258301",
+    "spotify": "https://open.spotify.com/artist/3NhBwiq1BSgJg7HMJPlwVT",
+    "web": "http://cassandracomplex.co.uk/"
+   },
    "id": "b3d6eff3",
    "added": "2026-11-08"
   },
@@ -672,9 +746,18 @@
    "time": "21:00",
    "title": "SUEDE – YAMMATOVO 6 fueled by Cockta",
    "venue": "tvornica",
-   "genre": "",
+   "genre": "pop",
    "price": "",
    "url": "https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/6365",
+    "facebook": "https://www.facebook.com/suede",
+    "instagram": "https://www.instagram.com/suedehq/",
+    "soundcloud": "https://soundcloud.com/crushed-kid",
+    "spotify": "https://open.spotify.com/artist/6PHIK3kjWggLtVygsOtpqS",
+    "web": "http://wmg.jp/artist/suede/",
+    "youtube": "https://www.youtube.com/channel/UCdNf1p4SVbcFWKJULVNvl3A"
+   },
    "id": "1942faa3",
    "added": "2026-11-08"
   },
@@ -747,7 +830,7 @@
   {
    "date": "2026-11-20",
    "time": "19:00",
-   "title": "ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina @Kino SC",
+   "title": "ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina",
    "venue": "kinosc",
    "genre": "",
    "price": "",
@@ -785,6 +868,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/996640",
+    "facebook": "https://www.facebook.com/PPopOfficial",
+    "instagram": "https://www.instagram.com/psihomodopop1/",
+    "soundcloud": "https://soundcloud.com/psihomodo_pop",
+    "spotify": "https://open.spotify.com/artist/5MMBcUUl5CbDPsox02W4XQ",
+    "web": "http://www.psihomodopop.hr/",
+    "youtube": "https://www.youtube.com/user/Psihomodopopoficial"
+   },
    "id": "b3dac05f",
    "added": "2026-11-08"
   },
@@ -796,6 +888,10 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43273453-stereo-deficit-at-vintage-industrial-bar?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "facebook": "https://www.facebook.com/stereodeficit",
+    "web": "https://www.real-tribute.org/real-tribute-bands/stereo-deficit-arctic-monkeys/"
+   },
    "id": "310689d6",
    "added": "2026-11-08"
   },
@@ -807,13 +903,20 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43153757-chameleons-at-boogaloo-club?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://chameleonsuk.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/8531",
+    "spotify": "https://open.spotify.com/artist/4HLWX9kzfraiCsTvrxJEXm",
+    "web": "http://www.thechameleons.com/",
+    "youtube": "https://music.youtube.com/channel/UCEgl7o7hPiqoGWseLmRtOkg"
+   },
    "id": "56f9866c",
    "added": "2026-11-08"
   },
   {
    "date": "2026-11-20",
    "time": "21:00",
-   "title": "AZRA Atribute by MATORI @ BOOGALOO 20.11.2026.",
+   "title": "AZRA Atribute by MATORI",
    "venue": "boogaloo",
    "genre": "",
    "price": "",
@@ -879,11 +982,16 @@
   {
    "date": "2026-11-21",
    "time": "20:00",
-   "title": "Marko Kutlić - Boogaloo @zagreb",
+   "title": "Marko Kutlić - Boogaloo",
    "venue": "boogaloo",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/marko-kutlic-boogaloo-zagreb-32100",
+   "links": {
+    "facebook": "https://www.facebook.com/832379603471988",
+    "instagram": "https://www.instagram.com/markokutlic/",
+    "spotify": "https://open.spotify.com/artist/0fi0R0IKdxzeHbfFeYddJo"
+   },
    "id": "aac2d7d0",
    "added": "2026-11-08"
   },
@@ -901,12 +1009,12 @@
   {
    "date": "2026-11-21",
    "time": "22:00",
-   "title": "DEEP DISH @ Boogaloo",
+   "title": "Future Scope: Deep Dish",
    "venue": "boogaloo",
-   "genre": "",
+   "genre": "dj",
    "price": "",
    "url": "https://www.entrio.hr/event/deep-dish-boogaloo-32572",
-   "id": "d8f25dbd",
+   "id": "fb3ff67b",
    "added": "2026-11-08"
   },
   {
@@ -918,17 +1026,6 @@
    "price": "5 € (7 € na dan)",
    "url": "https://dvaosam.com/event-detail/6adb7b638a1e5c4e41f8ffab/",
    "id": "def0265e",
-   "added": "2026-11-08"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Future Scope: Deep Dish",
-   "venue": "boogaloo",
-   "genre": "dj",
-   "price": "",
-   "url": "https://insite-croatia.com/?p=20511",
-   "id": "fb3ff67b",
    "added": "2026-11-08"
   },
   {
@@ -961,6 +1058,15 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.songkick.com/concerts/42951007-sarah-brightman-at-arena-zagreb?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/363",
+    "facebook": "https://www.facebook.com/SarahBrightmanMusic",
+    "instagram": "https://www.instagram.com/sarahbrightmanmusic/",
+    "soundcloud": "https://soundcloud.com/sarahbrightman",
+    "spotify": "https://open.spotify.com/artist/7Ead768rc4ShGxnqtqccU5",
+    "web": "https://sarahbrightman.com/",
+    "youtube": "https://www.youtube.com/channel/UCriL6-sBup_Tis7trjOALnw"
+   },
    "id": "8053e0d4",
    "added": "2026-11-08"
   },
@@ -969,16 +1075,21 @@
    "time": "19:30",
    "title": "Spk + Tehom",
    "venue": "boogaloo",
-   "genre": "",
+   "genre": "elektro",
    "price": "",
    "url": "https://www.entrio.hr/event/spk-tehom-34644",
+   "links": {
+    "bandcamp": "https://spkau.bandcamp.com/",
+    "spotify": "https://open.spotify.com/artist/7zfZAtYvNGgUP8qBppnFGV",
+    "web": "http://spk.id.au/"
+   },
    "id": "e66bd950",
    "added": "2026-11-08"
   },
   {
    "date": "2026-11-22",
    "time": "20:00",
-   "title": "Akustika Session w/ Sajsi MC @ Peti kupe",
+   "title": "Akustika Session w/ Sajsi MC",
    "venue": "petikupe",
    "genre": "",
    "price": "",
@@ -1038,6 +1149,12 @@
    "genre": "punk",
    "price": "",
    "url": "https://www.songkick.com/concerts/43270127-lions-law-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://lionslaw.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/5592103",
+    "facebook": "https://www.facebook.com/lionslawparis",
+    "spotify": "https://open.spotify.com/artist/7JVEe7dW62EeMOrMwmwG68"
+   },
    "id": "1022389f",
    "added": "2026-11-08"
   },
@@ -1049,6 +1166,14 @@
    "genre": "alt",
    "price": "",
    "url": "https://vintageindustrial-bar.com/?p=3986",
+   "links": {
+    "bandcamp": "https://arabstrapband.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/1242",
+    "facebook": "https://www.facebook.com/arabstrapofficial",
+    "instagram": "https://www.instagram.com/arabstrapband/",
+    "spotify": "https://open.spotify.com/artist/6g8Jqb5JMfv92eB2r0awTN",
+    "web": "http://www.arabstrap.co.uk/"
+   },
    "id": "865f3b0f",
    "added": "2026-11-08"
   },
@@ -1066,23 +1191,26 @@
   {
    "date": "2026-11-24",
    "time": "20:00",
-   "title": "PRAYING MANTIS @ Hard Place",
-   "venue": "hardplace",
-   "genre": "",
-   "price": "",
-   "url": "https://www.entrio.hr/event/praying-mantis-hard-place-33079",
-   "id": "08794d73",
-   "added": "2026-11-08"
-  },
-  {
-   "date": "2026-11-24",
-   "time": "20:00",
    "title": "Plattenbau",
    "venue": "mocvara",
    "genre": "alt",
    "price": "",
    "url": "https://www.songkick.com/concerts/43344984-plattenbau-at-club-mochvara?utm_medium=organic&utm_source=microformat",
    "id": "07a9b396",
+   "added": "2026-11-08"
+  },
+  {
+   "date": "2026-11-24",
+   "time": "20:00",
+   "title": "Praying Mantis",
+   "venue": "hardplace",
+   "genre": "metal",
+   "price": "",
+   "url": "https://www.entrio.hr/event/praying-mantis-hard-place-33079",
+   "links": {
+    "web": "http://www.prayingmantis.rocks/"
+   },
+   "id": "b24ab637",
    "added": "2026-11-08"
   },
   {
@@ -1115,6 +1243,12 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43168396-riven-at-hard-place?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://theriven.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/12176538",
+    "facebook": "https://www.facebook.com/TheRivenMusic",
+    "spotify": "https://open.spotify.com/artist/21fGyjfeXBjIQmKUE4iSzw"
+   },
    "id": "7f092990",
    "added": "2026-11-08"
   },
@@ -1192,6 +1326,16 @@
    "genre": "punk",
    "price": "",
    "url": "https://www.songkick.com/concerts/43350067-portrayal-of-guilt-at-attack-akc-medika?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://portrayalofguilt.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/11933297",
+    "facebook": "https://www.facebook.com/portrayalofguilt",
+    "instagram": "https://www.instagram.com/portrayalofguilt/",
+    "soundcloud": "https://soundcloud.com/portrayalofguilt",
+    "spotify": "https://open.spotify.com/artist/1Uwe1MbiKnPHAFh3qMWuNp",
+    "web": "https://portrayalofguilt.com/",
+    "youtube": "https://www.youtube.com/channel/UCVUorKw6tWO9axRT-J7ZPDQ"
+   },
    "id": "c4b5d89b",
    "added": "2026-11-08"
   },
@@ -1231,12 +1375,19 @@
   {
    "date": "2026-11-27",
    "time": "22:00",
-   "title": "Nataša Bekvalac @MINT CLUB",
+   "title": "Nataša Bekvalac",
    "venue": "clubmint",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/natasa-bekvalac-mint-club-34778",
-   "id": "5da56ccc",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/95044",
+    "facebook": "https://www.facebook.com/natasab.official",
+    "instagram": "https://www.instagram.com/bekvalceva/",
+    "spotify": "https://open.spotify.com/artist/0fLubJall2M6nQ61eCphyj",
+    "youtube": "https://www.youtube.com/channel/UCYd42uqEFBlXl-THI-QtDUQ"
+   },
+   "id": "7c14c357",
    "added": "2026-11-08"
   },
   {
@@ -1269,6 +1420,10 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/5079592",
+    "spotify": "https://open.spotify.com/artist/3w2gHWDF2UYUql2e4bRX84"
+   },
    "id": "336cc1c6",
    "added": "2026-11-08"
   },
@@ -1286,7 +1441,7 @@
   {
    "date": "2026-11-28",
    "time": "20:00",
-   "title": "Toody Cole & Jenny Don't @ Hard Place 28.11.2026.",
+   "title": "Toody Cole & Jenny Don't",
    "venue": "hardplace",
    "genre": "",
    "price": "",
@@ -1324,6 +1479,15 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.entrio.hr/event/kovacs-32860",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1447512",
+    "facebook": "https://www.facebook.com/431292533636499",
+    "instagram": "https://www.instagram.com/kovacsofficial/",
+    "soundcloud": "https://soundcloud.com/kovacs_music",
+    "spotify": "https://open.spotify.com/artist/62peb1sKdVJQD00xYvMCKF",
+    "web": "https://kovacsmusic.com/",
+    "youtube": "https://www.youtube.com/channel/UC3m8IF_W9UwKwRx4be7yJOw"
+   },
    "id": "54917b38",
    "added": "2026-11-08"
   },
@@ -1335,6 +1499,16 @@
    "genre": "world",
    "price": "",
    "url": "https://www.songkick.com/concerts/43465151-altin-gun-at-tvornica-kulture?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://altingun.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/12494758",
+    "facebook": "https://www.facebook.com/altingunband",
+    "instagram": "https://www.instagram.com/altingunband/",
+    "soundcloud": "https://soundcloud.com/altin_gun",
+    "spotify": "https://open.spotify.com/artist/37PL04N8kBWWW69jdrMMWT",
+    "web": "https://altingunband.com/",
+    "youtube": "https://www.youtube.com/channel/UChEZ2psKMV0dei91gpDtI_A"
+   },
    "id": "8f82090b",
    "added": "2026-11-08"
   },
@@ -1423,6 +1597,13 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.entrio.hr/event/eagle-eye-cherry-33392",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1193",
+    "facebook": "https://www.facebook.com/EagleEyeCherryofficial",
+    "spotify": "https://open.spotify.com/artist/3ngKsDXZAssmljeXCvEgOe",
+    "web": "http://www.eagle-eye-cherry.com/",
+    "youtube": "https://www.youtube.com/channel/UC2t2ZkC7eKVtYzECM7SdtOQ"
+   },
    "id": "e6447f40",
    "added": "2026-11-08"
   },
@@ -1467,6 +1648,12 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.concertarchives.org/venues/arena-zagreb--3",
+   "links": {
+    "facebook": "https://www.facebook.com/joksimoviczeljko",
+    "spotify": "https://open.spotify.com/artist/1pIYImXgkOQFZAeGrLk7ZI",
+    "web": "http://www.zeljkojoksimovic.com/",
+    "youtube": "https://www.youtube.com/user/ZeljkoJoksimovicTV"
+   },
    "id": "c103ef0c",
    "added": "2026-11-08"
   },
@@ -1484,11 +1671,14 @@
   {
    "date": "2026-12-05",
    "time": "20:00",
-   "title": "ARTUR MENEZES (BRAZIL/U.S.A.) Blues Rock Extravaganza @ Hard Place",
+   "title": "ARTUR MENEZES (BRAZIL/U.S.A.) Blues Rock Extravaganza",
    "venue": "hardplace",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/artur-menezes-brazilusa-blues-rock-extravaganza-hard-place-33675",
+   "links": {
+    "facebook": "https://www.facebook.com/arturmenezesofficial"
+   },
    "id": "640fdb78",
    "added": "2026-11-08"
   },
@@ -1500,6 +1690,15 @@
    "genre": "pop",
    "price": "rasprodano",
    "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/321645",
+    "facebook": "https://www.facebook.com/20118606082",
+    "instagram": "https://www.instagram.com/josipa_lisac/",
+    "soundcloud": "https://soundcloud.com/josipalisac",
+    "spotify": "https://open.spotify.com/artist/2DknWiTisiqRoSiyKSFog0",
+    "web": "https://www.josipalisac.com/",
+    "youtube": "https://www.youtube.com/channel/UCHybozPdxYsHAk4CkHjZruQ"
+   },
    "id": "1ed9345a",
    "added": "2026-11-08"
   },
@@ -1555,6 +1754,16 @@
    "genre": "elektro",
    "price": "",
    "url": "https://mochvara.hr/event-detail/6ac38a598012ef50cfc2ddb7/",
+   "links": {
+    "bandcamp": "https://follakzoid.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/1340390",
+    "facebook": "https://www.facebook.com/FOLLAKZOID",
+    "instagram": "https://www.instagram.com/follakzoid/",
+    "soundcloud": "https://soundcloud.com/follakzoid",
+    "spotify": "https://open.spotify.com/artist/7djT11AqtEBzdME1OGFfxL",
+    "web": "http://www.follakzoid.com/",
+    "youtube": "https://www.youtube.com/channel/UCkuF5SRhfwha-WH0S8zW_7g"
+   },
    "id": "08c5e037",
    "added": "2026-11-08"
   },
@@ -1577,6 +1786,13 @@
    "genre": "jazz",
    "price": "36–55 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/perpetuum-jazzile-8/",
+   "links": {
+    "facebook": "https://www.facebook.com/perpetuumjazzile",
+    "instagram": "https://www.instagram.com/perpetuumjazzile/",
+    "spotify": "https://open.spotify.com/artist/3h3OU5J29RUMqfsJrY7VbM",
+    "web": "http://perpetuumjazzile.si/",
+    "youtube": "https://www.youtube.com/channel/UCQdAKqmbyvf7GRn5D89kaRQ"
+   },
    "id": "ade64ec9",
    "added": "2026-11-08"
   },
@@ -1682,23 +1898,29 @@
   {
    "date": "2026-12-12",
    "time": "20:00",
-   "title": "DRUGI NAČIN @ Hard Place 12.12.2026.",
-   "venue": "hardplace",
-   "genre": "",
-   "price": "",
-   "url": "https://www.entrio.hr/event/drugi-nacin-hard-place-12122026-33460",
-   "id": "5d443c5e",
-   "added": "2026-11-08"
-  },
-  {
-   "date": "2026-12-12",
-   "time": "20:00",
    "title": "Dražen Zečić",
    "venue": "arena",
    "genre": "narodna",
    "price": "",
    "url": "https://www.concertarchives.org/venues/arena-zagreb--3",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/321907",
+    "facebook": "https://www.facebook.com/drazen.zecic.official",
+    "spotify": "https://open.spotify.com/artist/6KR9DsRPfBBmSA4E8nyHD2",
+    "youtube": "https://www.youtube.com/channel/UClNBTzeL_a9kXDt5XS2CFjQ"
+   },
    "id": "84f16259",
+   "added": "2026-11-08"
+  },
+  {
+   "date": "2026-12-12",
+   "time": "20:00",
+   "title": "Drugi Način",
+   "venue": "hardplace",
+   "genre": "",
+   "price": "",
+   "url": "https://www.entrio.hr/event/drugi-nacin-hard-place-12122026-33460",
+   "id": "94de0e5a",
    "added": "2026-11-08"
   },
   {
@@ -1750,9 +1972,16 @@
    "time": "21:00",
    "title": "Bilal, Apollo Brown & Skyzoo",
    "venue": "boogaloo",
-   "genre": "",
+   "genre": "pop",
    "price": "",
    "url": "https://www.entrio.hr/event/bilal-apollo-brown-skyzoo-33940",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/4988",
+    "facebook": "https://www.facebook.com/OfficialBilalPage",
+    "spotify": "https://open.spotify.com/artist/4jCbgl5Dmt3uOh8WRQfpPs",
+    "web": "http://www.bilalmusic.com/",
+    "youtube": "https://music.youtube.com/channel/UCeRsyHEgkntE4dvMWDuVuNQ"
+   },
    "id": "dc7c8968",
    "added": "2026-11-08"
   },
@@ -1808,13 +2037,19 @@
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/she-loves-pablo-lazarvs-from-another-mother-34870",
+   "links": {
+    "bandcamp": "https://shelovespablo.bandcamp.com/",
+    "facebook": "https://www.facebook.com/SheLovesPablo",
+    "instagram": "https://www.instagram.com/shelovespabloband/",
+    "youtube": "https://www.youtube.com/user/shelovespablo"
+   },
    "id": "113ba51a",
    "added": "2026-11-08"
   },
   {
    "date": "2026-12-18",
    "time": "21:30",
-   "title": "\"the Real Abba Tribute Band\" CHRISTMAS/18.12.2026.@METROPOLIS Club",
+   "title": "\"the Real Abba Tribute Band\" Christmas",
    "venue": "metropolismusicbilli",
    "genre": "",
    "price": "",
@@ -1858,12 +2093,12 @@
   {
    "date": "2026-12-19",
    "time": "20:00",
-   "title": "DAVID ELEFSON @ Hard Place",
+   "title": "David Elefson",
    "venue": "hardplace",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/david-elefson-hard-place-33080",
-   "id": "f8eff490",
+   "id": "8536d84a",
    "added": "2026-11-08"
   },
   {
@@ -1885,13 +2120,17 @@
    "genre": "narodna",
    "price": "",
    "url": "https://www.songkick.com/metro-areas/29037-croatia-zagreb",
+   "links": {
+    "facebook": "https://www.facebook.com/MiroslavSkoroofficial",
+    "web": "http://www.skoro.hr/"
+   },
    "id": "2a365820",
    "added": "2026-11-08"
   },
   {
    "date": "2026-12-19",
    "time": "23:00",
-   "title": "Future Scope w. PAN POT @ Boogaloo",
+   "title": "Future Scope w. PAN POT",
    "venue": "boogaloo",
    "genre": "",
    "price": "",
@@ -1907,6 +2146,10 @@
    "genre": "narodna",
    "price": "",
    "url": "https://www.songkick.com/concerts/43159886-sinisa-tamamovic-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/130186",
+    "spotify": "https://open.spotify.com/artist/6RZu4rqwk6BOFnDlUczE8g"
+   },
    "id": "8ea7130c",
    "added": "2026-11-08"
   },
@@ -1940,6 +2183,15 @@
    "genre": "world",
    "price": "37–50 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/vlatko-stefanovski-prijatelji-br-acoustic-night/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/366955",
+    "facebook": "https://www.facebook.com/157145594615",
+    "instagram": "https://www.instagram.com/vlatko_stefanovski_official/",
+    "soundcloud": "https://soundcloud.com/vlatkostefanovski",
+    "spotify": "https://open.spotify.com/artist/5ekFgfk58KqyjN2dIVcZ1V",
+    "web": "http://vlatkostefanovski.com.mk/",
+    "youtube": "https://music.youtube.com/channel/UCdV_AfuIW_ngFO-g1LOu6iw"
+   },
    "id": "f84b3734",
    "added": "2026-11-08"
   },
@@ -1984,6 +2236,15 @@
    "genre": "pop",
    "price": "rasprodano",
    "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom-2/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/321645",
+    "facebook": "https://www.facebook.com/20118606082",
+    "instagram": "https://www.instagram.com/josipa_lisac/",
+    "soundcloud": "https://soundcloud.com/josipalisac",
+    "spotify": "https://open.spotify.com/artist/2DknWiTisiqRoSiyKSFog0",
+    "web": "https://www.josipalisac.com/",
+    "youtube": "https://www.youtube.com/channel/UCHybozPdxYsHAk4CkHjZruQ"
+   },
    "id": "c839247d",
    "added": "2026-11-08"
   },
@@ -2050,6 +2311,15 @@
    "genre": "elektro",
    "price": "",
    "url": "https://www.songkick.com/concerts/43483877-acid-arab-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://acidarab.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/4844362",
+    "facebook": "https://www.facebook.com/acidarab",
+    "instagram": "https://www.instagram.com/acid_arab/",
+    "soundcloud": "https://soundcloud.com/acid-arab",
+    "spotify": "https://open.spotify.com/artist/3ShO8tPKqXUUpOA0urOWW7",
+    "youtube": "https://www.youtube.com/channel/UChbNWfnY5xA-A57jmcals1w"
+   },
    "id": "c757038b",
    "added": "2026-11-08"
   },
@@ -2149,6 +2419,15 @@
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/opca-opasnost-35237",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1981941",
+    "facebook": "https://www.facebook.com/OpcaOpasnostOfficial",
+    "instagram": "https://www.instagram.com/opcaopasnostofficial/",
+    "soundcloud": "https://soundcloud.com/opcaopasnost",
+    "spotify": "https://open.spotify.com/artist/3gWdkRe8fkWbe9PgnDGAWG",
+    "web": "http://www.opca-opasnost.com/main/",
+    "youtube": "https://www.youtube.com/user/0pca0pasnost"
+   },
    "id": "3548a531",
    "added": "2026-11-08"
   },
@@ -2226,6 +2505,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43453437-hollywood-undead-at-tvornica-kulture?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/17000",
+    "facebook": "https://www.facebook.com/hollywoodundead",
+    "instagram": "https://www.instagram.com/hollywoodundead/",
+    "soundcloud": "https://soundcloud.com/hollywoodundead",
+    "spotify": "https://open.spotify.com/artist/0CEFCo8288kQU7mJi25s6E",
+    "web": "https://hollywoodundead.com/",
+    "youtube": "https://www.youtube.com/channel/UCXFa2CWe9E_wOUSq51JZ9qg"
+   },
    "id": "36cdceda",
    "added": "2026-11-08"
   },
@@ -2248,6 +2536,16 @@
    "genre": "alt",
    "price": "",
    "url": "https://www.songkick.com/concerts/43186427-editors-at-bocarski-dom?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://editors.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/1181",
+    "facebook": "https://www.facebook.com/editorsmusic",
+    "instagram": "https://www.instagram.com/editorsofficial/",
+    "soundcloud": "https://soundcloud.com/editors",
+    "spotify": "https://open.spotify.com/artist/6e9wIFWhBPHLE9bXK8gtBI",
+    "web": "http://www.editorsofficial.com/",
+    "youtube": "https://www.youtube.com/user/editorsofficial"
+   },
    "id": "caf13948",
    "added": "2026-11-08"
   },
@@ -2311,9 +2609,17 @@
    "time": "20:00",
    "title": "Crvena Jabuka – Nek Vrijeme Stane",
    "venue": "lisV",
-   "genre": "",
+   "genre": "rock",
    "price": "32,90–53,90 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/crvena-jabuka-br-nek-vrijeme-stane/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/296170",
+    "facebook": "https://www.facebook.com/C.Jabuka",
+    "instagram": "https://www.instagram.com/crvenajabukaofficial/",
+    "soundcloud": "https://soundcloud.com/crvenajabuka",
+    "spotify": "https://open.spotify.com/artist/19hMTYd0ummiKGQEDI1C6s",
+    "youtube": "https://www.youtube.com/channel/UCi-wA5tOhq291rOwbEoTIEw"
+   },
    "id": "c634f420",
    "added": "2026-11-08"
   },
@@ -2457,6 +2763,13 @@
    "genre": "",
    "price": "33–60 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/haris-dzinovic-br-40-godina/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/414575",
+    "facebook": "https://www.facebook.com/haris.dzinovic",
+    "spotify": "https://open.spotify.com/artist/09RBIwsBGuhgSvNPLKpD3Z",
+    "web": "http://www.harisdzinovic.com/",
+    "youtube": "https://www.youtube.com/channel/UCivtI3djPy2SrJ5DVsT38ng"
+   },
    "id": "05076fb4",
    "added": "2026-11-08"
   },
@@ -2490,6 +2803,9 @@
    "genre": "world",
    "price": "29–37 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/mostar-sevdah-reunion/",
+   "links": {
+    "web": "http://www.mostarsevdahreunion.com/"
+   },
    "id": "b5b090bd",
    "added": "2026-11-08"
   },
@@ -2655,6 +2971,12 @@
    "genre": "",
    "price": "30–40 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/mejasi-15-godina-hitova/",
+   "links": {
+    "deezer": "http://www.deezer.com/artist/4851865",
+    "facebook": "https://www.facebook.com/tamburasiustarkama",
+    "web": "http://www.mejasi.net/",
+    "youtube": "https://www.youtube.com/channel/UCWmpDDfPJJu4ZDW5aWH3uwQ"
+   },
    "id": "b1e50459",
    "added": "2026-11-08"
   },
@@ -2666,6 +2988,15 @@
    "genre": "world",
    "price": "",
    "url": "https://www.songkick.com/concerts/43422083-leo-middea-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/7858674",
+    "facebook": "https://www.facebook.com/leomiddea",
+    "instagram": "https://www.instagram.com/leomiddea/",
+    "soundcloud": "https://soundcloud.com/leomiddea",
+    "spotify": "https://open.spotify.com/artist/0axa4ZdiQG1tafIU0u5SYG",
+    "web": "http://www.leomiddea.com.br/",
+    "youtube": "https://www.youtube.com/channel/UCsgVsP7hCOAPMTBPNLGf6kQ"
+   },
    "id": "4d153963",
    "added": "2026-11-08"
   },
@@ -2716,12 +3047,12 @@
   {
    "date": "2027-03-12",
    "time": "20:00",
-   "title": "Adi Šoše @Arena Zagreb!",
+   "title": "Adi Šoše",
    "venue": "arena",
    "genre": "",
    "price": "",
    "url": "https://www.entrio.hr/event/adi-sose-arena-zagreb-27578",
-   "id": "736efb25",
+   "id": "c05b4327",
    "added": "2026-11-08"
   },
   {
@@ -2732,6 +3063,16 @@
    "genre": "alt",
    "price": "",
    "url": "https://www.songkick.com/concerts/43408588-warhaus-at-vintage-industrial-bar?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://warhaus.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/10300962",
+    "facebook": "https://www.facebook.com/warhausmusic",
+    "instagram": "https://www.instagram.com/warhausmusic/",
+    "soundcloud": "https://soundcloud.com/warhausmusic",
+    "spotify": "https://open.spotify.com/artist/5uy67fWgovgNdbkP1kAf7m",
+    "web": "https://www.warhausmusic.com/",
+    "youtube": "https://www.youtube.com/channel/UCNPNDrhxBm2cjO2AGUzzC8g"
+   },
    "id": "a5b0ff94",
    "added": "2026-11-08"
   },
@@ -2765,6 +3106,16 @@
    "genre": "metal",
    "price": "",
    "url": "https://www.entrio.hr/event/soen-reliance-europe-2027-34940",
+   "links": {
+    "bandcamp": "https://soen-sweden.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/1581851",
+    "facebook": "https://www.facebook.com/SoenMusic",
+    "instagram": "https://www.instagram.com/soenmusic/",
+    "soundcloud": "https://soundcloud.com/soen-official",
+    "spotify": "https://open.spotify.com/artist/38uWD5h115pdz278q4rwZW",
+    "web": "http://soenmusic.com/",
+    "youtube": "https://www.youtube.com/channel/UClQMLE-V4T10bjc69Mnsljw"
+   },
    "id": "2388c237",
    "added": "2026-11-08"
   },
@@ -2798,6 +3149,16 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43449744-rasmus-at-tvornica-kulture?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://rasmusweirdo.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/84",
+    "facebook": "https://www.facebook.com/therasmusofficial",
+    "instagram": "https://www.instagram.com/therasmusofficial/",
+    "soundcloud": "https://soundcloud.com/the-rasmus-official",
+    "spotify": "https://open.spotify.com/artist/76ptJV8617638xrpeoUtzl",
+    "web": "https://therasmus.com/",
+    "youtube": "https://www.youtube.com/user/RasmusOfficial"
+   },
    "id": "11d764e2",
    "added": "2026-11-08"
   },
@@ -2820,6 +3181,16 @@
    "genre": "elektro",
    "price": "",
    "url": "https://www.songkick.com/concerts/43480696-david-morales-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://davidmorales1.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/11600",
+    "facebook": "https://www.facebook.com/djdavidmorales",
+    "instagram": "https://www.instagram.com/djdavidmorales/",
+    "soundcloud": "https://soundcloud.com/davidmorales",
+    "spotify": "https://open.spotify.com/artist/6CwQfN34JdGHfo0A752Lts",
+    "web": "http://www.djdavidmorales.com/",
+    "youtube": "https://www.youtube.com/channel/UCX0p1dKauHlVXar0M-7BKuQ"
+   },
    "id": "aa328b7a",
    "added": "2026-11-08"
   },
@@ -2993,9 +3364,17 @@
    "time": "20:00",
    "title": "Gipsy Kings ft. Tonino Baliardo",
    "venue": "lisV",
-   "genre": "",
+   "genre": "pop",
    "price": "",
    "url": "https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2/",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/723",
+    "facebook": "https://www.facebook.com/thegipsykings",
+    "instagram": "https://www.instagram.com/gipsykingsmusic/",
+    "spotify": "https://open.spotify.com/artist/3jc496ljiyrS3ECrD7QiqL",
+    "web": "http://www.gipsykings.com/",
+    "youtube": "https://www.youtube.com/user/GipsyKingsOfficial"
+   },
    "id": "08724c1b",
    "added": "2026-11-08"
   },
@@ -3018,6 +3397,16 @@
    "genre": "metal",
    "price": "",
    "url": "https://www.songkick.com/concerts/43503191-katatonia-at-boogaloo-club?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://katatonia.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/4019",
+    "facebook": "https://www.facebook.com/katatonia",
+    "instagram": "https://www.instagram.com/katatoniaband/",
+    "soundcloud": "https://soundcloud.com/katatonia",
+    "spotify": "https://open.spotify.com/artist/2CWWgbxApjbyByxBBCvGTm",
+    "web": "https://katatonia.com/",
+    "youtube": "https://www.youtube.com/channel/UCoe-mXCnuAlAxeDtAsYlCNg"
+   },
    "id": "548cd175",
    "added": "2026-11-08"
   },
@@ -3029,6 +3418,15 @@
    "genre": "alt",
    "price": "45–75 €",
    "url": "https://www.songkick.com/concerts/43257750-tindersticks-at-koncertna-dvorana-vatroslava-lisinskog?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "bandcamp": "https://tindersticks.bandcamp.com/",
+    "deezer": "https://www.deezer.com/artist/1296",
+    "facebook": "https://www.facebook.com/tindersticksofficial",
+    "instagram": "https://www.instagram.com/tindersticks_uk/",
+    "spotify": "https://open.spotify.com/artist/3dmSPhg0tdao8ePj4pySJ5",
+    "web": "http://www.tindersticks.co.uk/",
+    "youtube": "https://www.youtube.com/user/tindersticksofficial"
+   },
    "id": "b3a3119c",
    "added": "2026-11-08"
   },
@@ -3040,6 +3438,9 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.songkick.com/concerts/43386010-this-is-michael-at-arena-zagreb?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "instagram": "https://www.instagram.com/thisismichaelok/"
+   },
    "id": "08cb2361",
    "added": "2026-11-08"
   },
@@ -3051,6 +3452,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.entrio.hr/event/the-pineapple-thief-far-and-wide-european-tour-2027-34511",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/94494",
+    "facebook": "https://www.facebook.com/thepineapplethief",
+    "instagram": "https://www.instagram.com/thepineapplethief/",
+    "soundcloud": "https://soundcloud.com/thepineapplethief",
+    "spotify": "https://open.spotify.com/artist/4lrBMUSk8PiNnCEZfsmPAk",
+    "web": "https://www.pineapplethief.com/",
+    "youtube": "https://www.youtube.com/channel/UCiM2ZsguGDiGfsL2sUNatXQ"
+   },
    "id": "e288cf63",
    "added": "2026-11-08"
   },
@@ -3139,6 +3549,11 @@
    "genre": "alt",
    "price": "",
    "url": "https://www.songkick.com/concerts/43456396-16-horsepower-at-tvornica-kulture?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1414",
+    "facebook": "https://www.facebook.com/p/sixteen-horsepower-100063927750825",
+    "instagram": "https://www.instagram.com/16horsepower_band/"
+   },
    "id": "f00f6026",
    "added": "2026-11-08"
   },
@@ -3183,6 +3598,15 @@
    "genre": "metal",
    "price": "",
    "url": "https://www.songkick.com/concerts/43449751-tarja-at-tvornica-kulture?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/110592",
+    "facebook": "https://www.facebook.com/tarjaofficial",
+    "instagram": "https://www.instagram.com/tarjaofficial/",
+    "soundcloud": "https://soundcloud.com/tarja-official",
+    "spotify": "https://open.spotify.com/artist/5IRFMGI8aEtZdN07OYrBZc",
+    "web": "https://tarjaturunen.com/",
+    "youtube": "https://www.youtube.com/channel/UCWnNVZwSz0AjecdiRaP-Fgw"
+   },
    "id": "af5a1b89",
    "added": "2026-11-08"
   },
@@ -3279,9 +3703,18 @@
    "time": "",
    "title": "Crimson Glory",
    "venue": "boogaloo",
-   "genre": "",
+   "genre": "metal",
    "price": "",
    "url": "https://www.songkick.com/concerts/43457402-crimson-glory-at-boogaloo?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/66001",
+    "facebook": "https://www.facebook.com/crimsonglory",
+    "instagram": "https://www.instagram.com/crimsonglory.official/",
+    "soundcloud": "https://soundcloud.com/crimsongloryofficial",
+    "spotify": "https://open.spotify.com/artist/2B73nUiRlcSwjTyVaIAwhR",
+    "web": "https://theofficialcrimsonglory.com/",
+    "youtube": "https://www.youtube.com/channel/UCdODWbC4NKUpFtOBxOezSnw"
+   },
    "id": "95ec8c80",
    "added": "2026-11-08"
   },
@@ -3433,9 +3866,18 @@
    "time": "",
    "title": "Scorpions",
    "venue": "arena",
-   "genre": "",
+   "genre": "rock",
    "price": "",
    "url": "https://www.songkick.com/concerts/43492964-scorpions-at-arena-zagreb?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/863",
+    "facebook": "https://www.facebook.com/Scorpions",
+    "instagram": "https://www.instagram.com/scorpions/",
+    "soundcloud": "https://soundcloud.com/scorpions-official",
+    "spotify": "https://open.spotify.com/artist/27T030eWyCQRmDyuvr1kxY",
+    "web": "http://www.the-scorpions.com/",
+    "youtube": "https://www.youtube.com/channel/UCcvnDgwSH5Dl2b3Bxfz4OCQ"
+   },
    "id": "50ef1d49",
    "added": "2026-11-08"
   },
@@ -3458,6 +3900,15 @@
    "genre": "metal",
    "price": "",
    "url": "https://www.songkick.com/concerts/43493610-bruce-dickinson-at-src-salata?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1779",
+    "facebook": "https://www.facebook.com/pages/BRUCE-DICKINSON-IRON-MAIDEN/56067577104",
+    "instagram": "https://www.instagram.com/brucedickinsonhq/",
+    "soundcloud": "https://soundcloud.com/brucedickinsonofficial",
+    "spotify": "https://open.spotify.com/artist/7Iffw1nP3NjCWkRIx3Ily9",
+    "web": "http://www.screamforme.com/",
+    "youtube": "https://www.youtube.com/channel/UCuxB-cofMU3KfWkX19q4s0w"
+   },
    "id": "f5236d38",
    "added": "2026-11-08"
   },
@@ -3480,18 +3931,16 @@
    "genre": "pop",
    "price": "",
    "url": "https://www.songkick.com/concerts/43108382-laura-pausini-at-arena-zagreb?utm_medium=organic&utm_source=microformat",
+   "links": {
+    "deezer": "https://www.deezer.com/artist/1456",
+    "facebook": "https://www.facebook.com/LauraPausini",
+    "instagram": "https://www.instagram.com/laurapausini/",
+    "soundcloud": "https://soundcloud.com/laura-pausini-official",
+    "spotify": "https://open.spotify.com/artist/2e4nwiX8ZCU09LGLOpeqTH",
+    "web": "https://laurapausini.com/",
+    "youtube": "https://www.youtube.com/channel/UC2ScTcowKLzbyCl8ogJ_KKg"
+   },
    "id": "6ea64e30",
-   "added": "2026-11-08"
-  },
-  {
-   "date": "2030-11-08",
-   "time": "20:00",
-   "title": "Domenica",
-   "venue": "arena",
-   "genre": "",
-   "price": "",
-   "url": "https://www.songkick.com/concerts/42879373-domenica-at-arena-zagreb?utm_medium=organic&utm_source=microformat",
-   "id": "98892f6a",
    "added": "2026-11-08"
   }
  ]

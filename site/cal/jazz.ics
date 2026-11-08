@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:f20322b9@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261110T200000
 DTEND;TZID=Europe/Zagreb:20261110T230000
 SUMMARY:Branford Marsalis & Dianne Reeves slave Johna Coltranea
@@ -38,7 +38,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/branford-marsalis-dianne-reeves-
 END:VEVENT
 BEGIN:VEVENT
 UID:07b1ad65@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;VALUE=DATE:20261111
 DTEND;VALUE=DATE:20261112
 SUMMARY:NO Jazz: Spike Fuck
@@ -48,7 +48,7 @@ URL:https://vintageindustrial-bar.com/?p=4213
 END:VEVENT
 BEGIN:VEVENT
 UID:e4aa2c8f@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261113T210000
 DTEND;TZID=Europe/Zagreb:20261114T000000
 SUMMARY:13. NO Jazz festival: Artifacts Trio\, Eksterminator '81
@@ -59,7 +59,7 @@ URL:https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/
 END:VEVENT
 BEGIN:VEVENT
 UID:5f87ea70@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261123T200000
 DTEND;TZID=Europe/Zagreb:20261123T230000
 SUMMARY:17. Zagreb Jazz festival: Mary Halvorson: Canis Major
@@ -71,7 +71,7 @@ URL:https://www.entrio.hr/event/17-zagreb-jazz-festival-mary-halvorson-ca
 END:VEVENT
 BEGIN:VEVENT
 UID:fd47495c@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261126T193000
 DTEND;TZID=Europe/Zagreb:20261126T223000
 SUMMARY:Majstorski ciklus HRT: Simfonijski jazz (Makoto Ozone\, glasovir)
@@ -83,7 +83,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-si
 END:VEVENT
 BEGIN:VEVENT
 UID:ade64ec9@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261208T200000
 DTEND;TZID=Europe/Zagreb:20261208T230000
 SUMMARY:Perpetuum Jazzile
@@ -94,7 +94,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/perpetuum-jazzile-8/
 END:VEVENT
 BEGIN:VEVENT
 UID:63082c0e@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270102T170000
 DTEND;TZID=Europe/Zagreb:20270102T200000
 SUMMARY:Zagreb Jazz Workshop - Find Your Unique Voice 2027
@@ -108,7 +108,7 @@ URL:https://www.songkick.com/festivals/3804095-zagreb-jazz-workshop-find-
 END:VEVENT
 BEGIN:VEVENT
 UID:67d3d74d@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270127T200000
 DTEND;TZID=Europe/Zagreb:20270127T230000
 SUMMARY:Lisinski srijedom: Chui & Jazz orkestar HRT-a
@@ -120,7 +120,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-chui-jazz-o
 END:VEVENT
 BEGIN:VEVENT
 UID:8bfe9340@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270209T103000
 DTEND;TZID=Europe/Zagreb:20270209T133000
 SUMMARY:Jazz Karneval
@@ -131,7 +131,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/jazz-karneval/
 END:VEVENT
 BEGIN:VEVENT
 UID:1223bd20@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270227T200000
 DTEND;TZID=Europe/Zagreb:20270227T230000
 SUMMARY:Makedonski Nacionalni Jazz Orkestar & Rambo Amadeus

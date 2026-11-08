@@ -64,6 +64,8 @@ def main() -> None:
     def add(e: dict, prefer: bool) -> None:
         if not e.get("date") or e["date"] < today or not e.get("title"):
             return
+        if e["date"] > (date.today() + timedelta(days=550)).isoformat():  # očito krivi datumi (npr. 2030.)
+            return
         if not e.get("venue") or e["venue"] not in venues:
             name = e.get("venue_name") or e.get("venue") or ""
             if not name:
@@ -99,7 +101,7 @@ def main() -> None:
         for b in buckets.values():
             for e in b:
                 a = artists.get(anorm(artist_query(e["title"])))
-                if a and a.get("mbid"):
+                if a and a.get("mbid") and a.get("links"):
                     if a.get("links"):
                         e["links"] = a["links"]
                     if a.get("genre") and e.get("genre") in ("", "ostalo", None):

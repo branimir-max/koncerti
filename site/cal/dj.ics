@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:d79ac081@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261113T230000
 DTEND;TZID=Europe/Zagreb:20261114T020000
 SUMMARY:Dark Dance Dejavu – Clan of Xymox afterparty (DJ Ivan Krželj)
@@ -37,7 +37,7 @@ URL:https://dvaosam.com/event-detail/6ad21144ff5b73d20d2f0262/
 END:VEVENT
 BEGIN:VEVENT
 UID:25521f36@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;VALUE=DATE:20261114
 DTEND;VALUE=DATE:20261115
 SUMMARY:Ranking Ann\, Tonto Addi\, Long Fingah | Sandokan Hi-Fi
@@ -49,7 +49,7 @@ URL:https://attack.hr/hr/ranking-ann-tonto-addi-long-fingah-sandokan-hi-f
 END:VEVENT
 BEGIN:VEVENT
 UID:f5346890@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261120T230000
 DTEND;TZID=Europe/Zagreb:20261121T020000
 SUMMARY:In Aeternum + The Chameleons afterparty (DJ Mila Car)
@@ -60,7 +60,7 @@ URL:https://dvaosam.com/event-detail/6ad9c171a416a601e8e5a970/
 END:VEVENT
 BEGIN:VEVENT
 UID:baddbbf6@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;VALUE=DATE:20261120
 DTEND;VALUE=DATE:20261121
 SUMMARY:SOUND2LOUD: SAGA 1
@@ -69,8 +69,19 @@ DESCRIPTION:DJ party · https://attack.hr/hr/sound2loud-saga-1
 URL:https://attack.hr/hr/sound2loud-saga-1
 END:VEVENT
 BEGIN:VEVENT
+UID:fb3ff67b@koncerti-zagreb
+DTSTAMP:20261108T212618Z
+DTSTART;TZID=Europe/Zagreb:20261121T220000
+DTEND;TZID=Europe/Zagreb:20261122T010000
+SUMMARY:Future Scope: Deep Dish
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:DJ party · https://www.entrio.hr/event/deep-dish-boogaloo-32
+ 572
+URL:https://www.entrio.hr/event/deep-dish-boogaloo-32572
+END:VEVENT
+BEGIN:VEVENT
 UID:def0265e@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261121T220000
 DTEND;TZID=Europe/Zagreb:20261122T010000
 SUMMARY:Open Heart K-pop Party
@@ -80,18 +91,8 @@ DESCRIPTION:DJ party · 5 € (7 € na dan) · https://dvaosam.com/event
 URL:https://dvaosam.com/event-detail/6adb7b638a1e5c4e41f8ffab/
 END:VEVENT
 BEGIN:VEVENT
-UID:fb3ff67b@koncerti-zagreb
-DTSTAMP:20261108T210521Z
-DTSTART;VALUE=DATE:20261121
-DTEND;VALUE=DATE:20261122
-SUMMARY:Future Scope: Deep Dish
-LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
-DESCRIPTION:DJ party · https://insite-croatia.com/?p=20511
-URL:https://insite-croatia.com/?p=20511
-END:VEVENT
-BEGIN:VEVENT
 UID:7eb243c6@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261218T220000
 DTEND;TZID=Europe/Zagreb:20261219T010000
 SUMMARY:Rave Frequencies Croatia

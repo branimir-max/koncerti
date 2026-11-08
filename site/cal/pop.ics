@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:c5fd588c@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261111T200000
 DTEND;TZID=Europe/Zagreb:20261111T230000
 SUMMARY:David Temelkov
@@ -37,8 +37,19 @@ URL:https://www.entrio.hr/event/david-temelkov-u-tvornici-kulture-1111202
  6-33717
 END:VEVENT
 BEGIN:VEVENT
+UID:1942faa3@koncerti-zagreb
+DTSTAMP:20261108T212618Z
+DTSTART;TZID=Europe/Zagreb:20261117T210000
+DTEND;TZID=Europe/Zagreb:20261118T000000
+SUMMARY:SUEDE – YAMMATOVO 6 fueled by Cockta
+LOCATION:Tvornica kulture\, Šubićeva 2\, Zagreb
+DESCRIPTION:Pop · https://core-event.co/events/suede-yammatov-6-fueled-b
+ y-cockta-78e5
+URL:https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5
+END:VEVENT
+BEGIN:VEVENT
 UID:1385dc74@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261119T200000
 DTEND;TZID=Europe/Zagreb:20261119T230000
 SUMMARY:Chansonfest 2026
@@ -49,7 +60,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/chansonfest-2026/
 END:VEVENT
 BEGIN:VEVENT
 UID:8053e0d4@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261122T193000
 DTEND;TZID=Europe/Zagreb:20261122T223000
 SUMMARY:Sarah Brightman
@@ -61,7 +72,7 @@ URL:https://www.songkick.com/concerts/42951007-sarah-brightman-at-arena-z
 END:VEVENT
 BEGIN:VEVENT
 UID:97ecd0f9@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261125T200000
 DTEND;TZID=Europe/Zagreb:20261125T230000
 SUMMARY:Marko Vukeš – prvi samostalni koncert
@@ -71,7 +82,7 @@ URL:https://core-event.co/events/koncert-marka-vukesa-b70f
 END:VEVENT
 BEGIN:VEVENT
 UID:336cc1c6@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261128T200000
 DTEND;TZID=Europe/Zagreb:20261128T230000
 SUMMARY:Matija Cvek
@@ -82,7 +93,7 @@ URL:https://www.songkick.com/metro-areas/29037-croatia-zagreb
 END:VEVENT
 BEGIN:VEVENT
 UID:ee5f5f96@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261128T200000
 DTEND;TZID=Europe/Zagreb:20261128T230000
 SUMMARY:Nikola Kojo: „Kako sam prestao da pevam pod tušem”
@@ -92,7 +103,7 @@ URL:https://www.tvornicakulture.com/
 END:VEVENT
 BEGIN:VEVENT
 UID:54917b38@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261129T200000
 DTEND;TZID=Europe/Zagreb:20261129T230000
 SUMMARY:Kovacs
@@ -102,7 +113,7 @@ URL:https://www.entrio.hr/event/kovacs-32860
 END:VEVENT
 BEGIN:VEVENT
 UID:e6447f40@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261203T210000
 DTEND;TZID=Europe/Zagreb:20261204T000000
 SUMMARY:Eagle-Eye Cherry
@@ -112,7 +123,7 @@ URL:https://www.entrio.hr/event/eagle-eye-cherry-33392
 END:VEVENT
 BEGIN:VEVENT
 UID:c103ef0c@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261204T200000
 DTEND;TZID=Europe/Zagreb:20261204T230000
 SUMMARY:Željko Joksimović
@@ -122,7 +133,7 @@ URL:https://www.concertarchives.org/venues/arena-zagreb--3
 END:VEVENT
 BEGIN:VEVENT
 UID:1ed9345a@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261205T200000
 DTEND;TZID=Europe/Zagreb:20261205T230000
 SUMMARY:Josipa Lisac
@@ -132,8 +143,19 @@ DESCRIPTION:Pop · rasprodano · https://www.lisinski.hr/hr/dogadanja/jos
 URL:https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom/
 END:VEVENT
 BEGIN:VEVENT
+UID:dc7c8968@koncerti-zagreb
+DTSTAMP:20261108T212618Z
+DTSTART;TZID=Europe/Zagreb:20261215T210000
+DTEND;TZID=Europe/Zagreb:20261216T000000
+SUMMARY:Bilal\, Apollo Brown & Skyzoo
+LOCATION:Boogaloo\, Ulica grada Vukovara 68\, Zagreb
+DESCRIPTION:Pop · https://www.entrio.hr/event/bilal-apollo-brown-skyzoo-
+ 33940
+URL:https://www.entrio.hr/event/bilal-apollo-brown-skyzoo-33940
+END:VEVENT
+BEGIN:VEVENT
 UID:c839247d@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261223T200000
 DTEND;TZID=Europe/Zagreb:20261223T230000
 SUMMARY:Josipa Lisac
@@ -144,7 +166,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom-2/
 END:VEVENT
 BEGIN:VEVENT
 UID:08f2e8a6@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270123T200000
 DTEND;TZID=Europe/Zagreb:20270123T230000
 SUMMARY:Džo Maračić Maki: Uspomene koje traju
@@ -156,7 +178,7 @@ URL:https://www.lisinski.hr/hr/dogadanja/dzo-maracic-maki-uspomene-koje-t
 END:VEVENT
 BEGIN:VEVENT
 UID:7cb6f7a5@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270306T200000
 DTEND;TZID=Europe/Zagreb:20270306T230000
 SUMMARY:Natali Dizdar
@@ -169,7 +191,7 @@ URL:https://www.songkick.com/concerts/43501446-natali-dizdar-at-vatroslav
 END:VEVENT
 BEGIN:VEVENT
 UID:cc8da600@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270403T200000
 DTEND;TZID=Europe/Zagreb:20270403T230000
 SUMMARY:Lexington
@@ -180,8 +202,20 @@ URL:https://www.songkick.com/concerts/43307135-lexington-at-arena-zagreb?
  utm_medium=organic&utm_source=microformat
 END:VEVENT
 BEGIN:VEVENT
+UID:08724c1b@koncerti-zagreb
+DTSTAMP:20261108T212618Z
+DTSTART;TZID=Europe/Zagreb:20270409T200000
+DTEND;TZID=Europe/Zagreb:20270409T230000
+SUMMARY:Gipsy Kings ft. Tonino Baliardo
+LOCATION:Lisinski – Velika dvorana\, Trg Stjepana Radića 4\, Zagreb
+DESCRIPTION:Pop · https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-to
+ nino-baliardo-2/
+URL:https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2
+ /
+END:VEVENT
+BEGIN:VEVENT
 UID:08cb2361@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20270415T200000
 DTEND;TZID=Europe/Zagreb:20270415T230000
 SUMMARY:This is Michael
@@ -193,7 +227,7 @@ URL:https://www.songkick.com/concerts/43386010-this-is-michael-at-arena-z
 END:VEVENT
 BEGIN:VEVENT
 UID:6ea64e30@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20271130T200000
 DTEND;TZID=Europe/Zagreb:20271130T230000
 SUMMARY:Laura Pausini – Io Canto World Tour

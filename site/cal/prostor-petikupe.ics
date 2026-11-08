@@ -26,7 +26,7 @@ END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
 UID:6e542de1@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261113T230000
 DTEND;TZID=Europe/Zagreb:20261114T020000
 SUMMARY:HUSH! W/ MARRØN (Amsterdam)\, XIORRO (Berlin)\, INSOLATE
@@ -38,10 +38,10 @@ URL:https://www.entrio.hr/event/hush-w-marron-amsterdam-xiorro-berlin-ins
 END:VEVENT
 BEGIN:VEVENT
 UID:acb8792c@koncerti-zagreb
-DTSTAMP:20261108T210521Z
+DTSTAMP:20261108T212618Z
 DTSTART;TZID=Europe/Zagreb:20261122T200000
 DTEND;TZID=Europe/Zagreb:20261122T230000
-SUMMARY:Akustika Session w/ Sajsi MC @ Peti kupe
+SUMMARY:Akustika Session w/ Sajsi MC
 LOCATION:Peti Kupe\, Trnjanska cesta 5\, Zagreb
 DESCRIPTION:Ostalo · https://www.entrio.hr/event/akustika-session-peti-k
  upe-34902
