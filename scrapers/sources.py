@@ -49,10 +49,10 @@ SOURCES = [
      "strip": [r"\s*@.*$", r"\s*/\s*\d{1,2}\.\d{1,2}\.\d{4}\.?$", r"\s*[-–]\s*\d{1,2}\.\s?\d{1,2}\.(\s?\d{4}\.?)?$",
                r"\s+u\s+tvornici\s+kulture!?$"], "exclude": THEATRE + ["kazalište", "konferencij", "masterclass"],
      "dj_words": DJ, "urls": ["https://www.ulaznice.hr/web/category/1"]},
-    # Probni izvori (prodaja ulaznica) – snimke stranica za izradu parsera
-    {"key": "entrio", "venue": None, "allow_empty": True, "debug_always": True, "require": "zagreb", "exclude": THEATRE,
-     "urls": ["https://www.entrio.hr/hr/"]},
-    {"key": "coreevent", "venue": None, "allow_empty": True, "debug_always": True, "require": "zagreb", "exclude": THEATRE,
+    # Core Event: prodaja ulaznica za mnoge klubove (Vintage, Sax, Tvornica…); samo kategorija Music, samo Zagreb
+    # (Entrio blokira automatske posjete, pa njegove koncerte hvatamo preko Ulaznice.hr)
+    {"key": "coreevent", "venue": None, "parser": "coreevent", "exclude": THEATRE, "dj_words": DJ,
+     "strip": [r"\s+u\s+tvornici\s+kulture!?$", r"\s*@.*$", r"\s*[-–|]\s*\d{1,2}\.\s?\d{1,2}\.(\s?\d{4}\.?)?$"],
      "urls": ["https://core-event.co/"]},
     # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
     {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE,

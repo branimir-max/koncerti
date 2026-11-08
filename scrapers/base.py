@@ -306,3 +306,28 @@ def ulaznice_events(html: str, base_url: str) -> list[dict]:
                     "genre": "", "price": find_price(text), "url": requests.compat.urljoin(base_url, h.get("href", "")),
                     "_text": place, "_place": place})
     return out
+
+
+# ---------- Core Event (core-event.co) ----------
+
+def coreevent_events(html: str, base_url: str) -> list[dict]:
+    out = []
+    for a in soup(html).select("a.event-card-background"):
+        typ = a.select_one(".event-type")
+        title = a.select_one(".event-title")
+        desc = a.select_one(".event-description")
+        loc = a.select_one(".event-location")
+        if not title or not desc or not loc:
+            continue
+        if typ and typ.get_text(strip=True).lower() not in ("music", "glazba", "koncert", "party", "festival"):
+            continue
+        when = clean(desc.get_text(" ", strip=True))
+        when = re.sub(r"(\d{1,2})\.\s*[–-]\s*\d{1,2}\.", r"\1.", when)  # "13. – 14. studenoga" -> prvi dan
+        d = parse_date(when)
+        if not d:
+            continue
+        place = clean(loc.get_text(" ", strip=True))
+        out.append({"date": d, "time": parse_time(when), "title": clean(title.get_text(" ", strip=True)), "venue": "",
+                    "genre": "", "price": "", "url": clean(a.get("href", base_url)),
+                    "_text": place, "_place": place})
+    return out
