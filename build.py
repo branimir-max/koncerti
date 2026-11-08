@@ -51,7 +51,9 @@ def main() -> None:
         ta, tb = norm_all(a), norm_all(b)
         if not ta or not tb:
             return False
-        if ta[0] == tb[0] and len(ta[0]) >= 3:
+        fa = next((w for w in ta if len(w) >= 3), "")
+        fb = next((w for w in tb if len(w) >= 3), "")
+        if fa and fa == fb:
             return True
         sa, sb = set(ta), set(tb)
         return sa <= sb or sb <= sa or len(sa & sb) / len(sa | sb) >= 0.5

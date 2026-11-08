@@ -190,13 +190,11 @@ def find_price(text: str) -> str:
         return "rasprodano"
     if re.search(r"besplatn|free entry|ulaz slobodan", text, re.I):
         return "besplatno"
-    m = re.search(r"(\d{1,3})\s?/\s?(\d{1,3})\s?(?:€|eur)", text, re.I)
-    if m:
-        return f"{m.group(1)}–{m.group(2)} €"
-    prices = PRICE_RE.findall(text)
+    m = re.search(r"(\d{1,3}(?:[.,]\d{2})?)\s?[/–-]\s?(\d{1,3}(?:[.,]\d{2})?)\s?(?:€|eur)", text, re.I)
+    prices = [m.group(1), m.group(2)] + PRICE_RE.findall(text) if m else PRICE_RE.findall(text)
     if not prices:
         return ""
-    fmt = lambda v: f"{v:g}"  # noqa: E731 – 40.00 -> 40
+    fmt = lambda v: f"{v:g}" if v.is_integer() else f"{v:.2f}".replace(".", ",")  # noqa: E731 – 40.00 -> 40, 32.9 -> 32,90
     vals = sorted({float(p.replace(",", ".")) for p in prices})
     return f"{fmt(vals[0])} €" if len(vals) == 1 else f"{fmt(vals[0])}–{fmt(vals[-1])} €"
 
