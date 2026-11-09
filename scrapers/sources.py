@@ -73,6 +73,11 @@ SOURCES = [
       for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1), ("rijeka", "29032-croatia-rijeka", 1),
                                  ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
     # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
+    # HNK Zagreb: samo glazbeni program (drama ne ide u Gigomat)
+    {"key": "hnk-opera", "venue": "hnk", "force_genre": "opera", "probe": True, "allow_empty": True,
+     "urls": ["https://www.hnk.hr/hr/raspored/opera/", "https://www.hnk.hr/hr/raspored/balet/"]},
+    {"key": "hnk-koncert", "venue": "hnk", "genre": "klasika", "probe": True, "allow_empty": True,
+     "urls": ["https://www.hnk.hr/hr/raspored/koncert/"]},
     {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics", "tolerant": True,
      "include": ["koncert", "concert", "festival", "band", "dj", "jazz", "rock", "punk", "metal", "live", "glazb", "music",
                  "orkest", "orchestra", "zbor", "choir", "klapa", "palach", "marganovo"],
@@ -89,10 +94,12 @@ SOURCES = [
 GENRE_WORDS = [
     ("djeca", ["za djecu", "dječj", "djecu", "minimini", "glazbena priča", "božićni sat", "vilenjak"]),
     ("jazz", ["jazz"]),
+    ("hiphop", ["hip hop", "hip-hop", " rap ", " rapper", " trap ", "freestyle"]),
+    ("opera", ["opera ", "opera:", "opere", "operet", "opernih", "balet"]),
     ("world", ["izvorišta", "sevdah", "flamenco", "drummers of japan"]),
     ("trad", ["klapa", "tambur", "folklor", "lado"]),
     ("klasika", ["filharmonij", "simfonij", "orkestar", "kvartet", "glasovir", "violin", "solisti", "orgulje",
-                 "lisinski subotom", "da camera", "majstorski ciklus", "opera", "kanconijer", "rezidenti muza",
+                 "lisinski subotom", "da camera", "majstorski ciklus", "kanconijer", "rezidenti muza",
                  "guitarra viva", "glazbeni umjetnici zagrebu", "klavir", "mezzosopran"]),
     ("metal", ["metal"]),
     ("punk", ["punk", "hardcore"]),

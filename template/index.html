@@ -306,7 +306,7 @@ const CITIES = DATA.cities || {zagreb:{name:"Zagreb", in:"u Zagrebu"}};
 const cityName = c => (CITIES[c]||CITIES.zagreb).name;
 const GENRES = {
   rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", pop:"Pop", narodna:"Narodna",
-  elektro:"Elektronika", dj:"DJ party", hiphop:"Hip-hop", jazz:"Jazz", klasika:"Klasika", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
+  elektro:"Elektronika", dj:"DJ party", hiphop:"Hip-hop", jazz:"Jazz", klasika:"Klasika", opera:"Opera i balet", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
 };
 
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{

@@ -82,6 +82,33 @@ def nice_case(t: str) -> str:
     return " ".join(words)
 
 
+PROBE = ROOT / "data" / "probe"
+
+
+def write_probe(key: str, html: str) -> None:
+    """Kratki sažetak strukture stranice (bez skripti i ključeva) za pisanje novog parsera.
+    Sprema se u repozitorij, za razliku od cijelih snimki."""
+    from .base import parse_date, soup as _soup
+    s = _soup(html)
+    lines = [f"title: {s.title.get_text(strip=True) if s.title else ''}"]
+    lines.append("jsonld types: " + ", ".join(re.findall(r'"@type"\s*:\s*"([^"]+)"', html))[:300])
+    n = 0
+    for el in s.find_all(["article", "li", "div", "a", "tr"]):
+        t = el.get_text(" ", strip=True)
+        if not t or len(t) > 220 or not parse_date(t):
+            continue
+        cls = ".".join(el.get("class", [])[:3])
+        href = el.get("href", "") if el.name == "a" else (el.find("a", href=True) or {}).get("href", "")
+        lines.append(f"<{el.name} class={cls}> {t[:200]} | {str(href)[:120]}")
+        n += 1
+        if n >= 60:
+            break
+    PROBE.mkdir(parents=True, exist_ok=True)
+    text = "\n".join(lines)
+    text = re.sub(r"[A-Za-z0-9_\-]{32,}", "[…]", text)  # dugi nizovi (mogući ključevi) van
+    (PROBE / f"{key}.txt").write_text(text)
+
+
 def scrape(src: dict) -> list[dict]:
     events: list[dict] = []
     for i, url in enumerate(src["urls"]):
@@ -94,6 +121,8 @@ def scrape(src: dict) -> list[dict]:
         if i == 0:  # snimka prve stranice za otklanjanje grešaka
             DEBUG.mkdir(parents=True, exist_ok=True)
             (DEBUG / f"{src['key']}.html").write_text(html[:400_000])
+            if src.get("probe"):
+                write_probe(src["key"], html)
         v = src["venue"] or ""
         parser = src.get("parser")
         if parser == "tootoot":
@@ -179,7 +208,7 @@ def scrape(src: dict) -> list[dict]:
         prefix = src.get("title_prefix", "")
         if prefix and not e["title"].upper().startswith(prefix.split(":")[0].upper()):
             e["title"] = prefix + e["title"]
-        e["genre"] = e.get("genre") or classify(e["title"], src.get("genre", ""), src.get("dj_words", []))
+        e["genre"] = src.get("force_genre") or e.get("genre") or classify(e["title"], src.get("genre", ""), src.get("dj_words", []))
         e["source"] = src["key"]
         k = (e["date"], e["title"].lower())
         if k not in seen:
