@@ -6,7 +6,8 @@
    "Arena Zagreb",
    "Zagreb Arena",
    "Arena Zagreb d.o.o."
-  ]
+  ],
+  "addr_ok": true
  },
  "lisinski": {
   "name": "Lisinski",
@@ -47,7 +48,8 @@
    "Boogaloo Club",
    "Boogaloo",
    "Klub Boogaloo"
-  ]
+  ],
+  "addr_ok": true
  },
  "mocvara": {
   "name": "Močvara",
@@ -65,7 +67,8 @@
   "aliases": [
    "Vintage Industrial Bar",
    "Vintage"
-  ]
+  ],
+  "addr_ok": true
  },
  "medika": {
   "name": "AKC Medika (Attack!)",
@@ -83,14 +86,16 @@
   "aliases": [
    "Dva Osam",
    "Jabukovac 28"
-  ]
+  ],
+  "addr_ok": true
  },
  "bocarski": {
   "name": "Boćarski dom",
   "address": "Prisavlje 2",
   "aliases": [
    "Boćarski dom"
-  ]
+  ],
+  "addr_ok": true
  },
  "primarius": {
   "name": "Primarius",
@@ -130,7 +135,8 @@
    "Sax"
   ],
   "regular": "Jazz, blues i rock svirke više puta tjedno. Program objavljuju samo na društvenim mrežama.",
-  "web": "https://www.sax-zg.hr/"
+  "web": "https://www.sax-zg.hr/",
+  "addr_ok": true
  },
  "klaonica": {
   "name": "Reci:Klaonica",
@@ -148,7 +154,8 @@
    "Studentski centar",
    "Teatar &TD",
    "SC Polukružna"
-  ]
+  ],
+  "addr_ok": true
  },
  "petikupe": {
   "name": "Peti Kupe",
@@ -156,14 +163,16 @@
   "aliases": [
    "Peti Kupe",
    "Peti kupe"
-  ]
+  ],
+  "addr_ok": true
  },
  "pogon": {
   "name": "Pogon Jedinstvo",
   "address": "Trnjanska struga 34",
   "aliases": [
    "Pogon Jedinstvo"
-  ]
+  ],
+  "addr_ok": true
  },
  "bikers": {
   "name": "Bikers Beer Factory",
@@ -392,7 +401,8 @@
    "Klub Palach",
    "Palach"
   ],
-  "city": "rijeka"
+  "city": "rijeka",
+  "addr_ok": true
  },
  "ri-hkd": {
   "name": "HKD na Sušaku",
@@ -488,7 +498,8 @@
    "Koncertna dvorana Centra KNAP",
    "Kazalište Knap",
    "Centar KNAP"
-  ]
+  ],
+  "addr_ok": true
  },
  "lauba": {
   "name": "Lauba",
@@ -498,6 +509,7 @@
   "aliases": [
    "Lauba",
    "Lauba – kuća za ljude i umjetnost"
-  ]
+  ],
+  "addr_ok": true
  }
 }

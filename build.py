@@ -271,7 +271,11 @@ def main() -> None:
     for e in events:
         e.pop("_t", None)
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
-    out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
+    out_venues = {k: dict(v) for k, v in venues.items() if k in used or v.get("regular")}
+    # Na stranicu ide samo provjerena adresa ("addr_ok"): kriva adresa može nekoga poslati na krivo mjesto
+    for v in out_venues.values():
+        if not v.get("addr_ok"):
+            v["address"] = ""
     # Službena stranica prostora: ručno upisana ("web") ili adresa izvora koji skuplja njegov program
     from urllib.parse import urlparse
     from scrapers.sources import SOURCES
