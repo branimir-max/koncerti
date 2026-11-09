@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T12:53:14+00:00",
+ "run_at": "2026-11-09T13:22:32+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -65,6 +65,16 @@
   "songkick-bec": {
    "ok": true,
    "count": 242
+  },
+  "hnk-opera": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "hnk-koncert": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
   },
   "visitrijeka": {
    "ok": false,
