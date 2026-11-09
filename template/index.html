@@ -135,8 +135,14 @@ body.festmode .cities a[data-city]{color:var(--muted)}
 .qbtn small{font-size:12.5px;opacity:.85}
 
 /* novi izgled (faza A) */
+.bar .row:first-child{flex-wrap:nowrap}
+.bar .row:first-child .search{flex:1 1 0;min-width:0}
+.status:has(.lh[hidden]):has(#reset[hidden]){display:none}
 .topacts{display:flex;align-items:center;gap:8px}
 .topacts .addgig{font-size:14px;padding:5px 10px 4px}
+.bellbtn{display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;border:0;background:transparent;cursor:pointer;color:var(--ink)}
+.bellbtn svg{width:20px;height:20px}
+.bellbtn[aria-expanded="true"]{color:var(--accent)}
 .minebtn{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:2px solid var(--ink);border-radius:22px;background:transparent;font-weight:700;cursor:pointer}
 .minebtn svg{width:18px;height:18px}
 .minebtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
@@ -307,6 +313,7 @@ footer p{margin:0 0 8px;max-width:72ch}
   <a class="logo" href="./" aria-label="Gigomat, početna"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="3" height="10" rx="1"/><rect x="8.5" y="5" width="3" height="15" rx="1"/><rect x="14" y="8" width="3" height="12" rx="1"/><rect x="19.5" y="13" width="1.5" height="7" rx=".75"/></svg>Gigomat</a>
         <span class="topacts">
           <a class="addgig" href="prijavi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Prijavi</a>
+          <button type="button" class="bellbtn" id="panelBtn" aria-expanded="false" aria-controls="panel" title="Kalendar i obavijesti" aria-label="Kalendar i obavijesti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>
           <button type="button" class="minebtn" id="mineBtn" aria-pressed="false" title="Moji koncerti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span id="mineN">0</span></button>
         </span>
       </div>
@@ -334,11 +341,6 @@ footer p{margin:0 0 8px;max-width:72ch}
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="Izvođač, prostor…" autocomplete="off">
       </label>
-      <button type="button" class="filtbtn" id="filtBtn" aria-expanded="false" aria-controls="filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtri<span id="filtN"></span></button>
-    </div>
-    <div id="filters" hidden>
-    <div class="row">
-      <select id="venue" aria-label="Prostor"></select>
       <nav class="views" aria-label="Prikaz">
         <a href="#popis" id="v-popis">Popis</a>
         <a href="#kalendar" id="v-kalendar">Kalendar</a>
@@ -347,12 +349,10 @@ footer p{margin:0 0 8px;max-width:72ch}
     <div class="row">
       <div class="chips" id="genres" role="group" aria-label="Žanr"></div>
     </div>
-    <div class="row">
-      <label class="toggle"><input type="checkbox" id="hideSold"> Sakrij rasprodane</label>
-      <label class="toggle"><input type="checkbox" id="freeOnly"> Samo besplatni</label>
-      <label class="toggle"><input type="checkbox" id="favOnly"> Samo moji koncerti</label>
-      <button class="pill" id="panelBtn" type="button" aria-expanded="false" aria-controls="panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Kalendar i obavijesti</button>
-    </div>
+    <div hidden>
+      <select id="venue" aria-label="Prostor"></select>
+      <input type="checkbox" id="hideSold"><input type="checkbox" id="freeOnly"><input type="checkbox" id="favOnly">
+      <button type="button" id="filtBtn"></button><span id="filtN"></span><div id="filters"></div>
     </div>
   </div>
 </div>
@@ -361,8 +361,7 @@ footer p{margin:0 0 8px;max-width:72ch}
   <div id="panel" class="panel" hidden></div>
   <div id="soon" class="soon" hidden></div>
   <div id="banner"></div>
-  <section id="now" class="now" aria-labelledby="nowH" hidden></section>
-  <div class="status"><span class="lh"><b>Svi koncerti</b> · <span id="count"></span></span><span class="sacts"><button id="reset" type="button">Poništi filtre</button><button id="newBtn" class="newbtn" type="button" aria-pressed="false" hidden></button></span></div>
+  <div class="status"><span class="lh" hidden><b></b><span id="count"></span></span><button id="reset" type="button">Poništi filtre</button></div>
   <div id="out"></div>
 </main>
 
@@ -652,7 +651,7 @@ function detailsHTML(e){
   </div>`;
 }
 const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
-const SHAREI = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>`;
+const SHAREI = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4M15.4 6.5l-6.8 4"/></svg>`;
 const CALP = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>`;
 function priceSub(e){
   if (e.sold) return `<span class="sold">Rasprodano</span>`;
@@ -663,7 +662,7 @@ function evHTML(e){
   const fav = favs.has(e.id);
   return `<article class="ev" id="e-${e.id}">
     <div>
-      <h3>${isNew(e)?`<span class="new">NOVO</span>`:""}<button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
+      <h3><button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
       <div class="sub"><span>${e.time||"—"}</span><span>${esc(e.venue)}</span><span class="g">${GENRES[e.genre]}</span>${priceSub(e)}</div>
       ${detailsHTML(e)}
     </div>
@@ -949,24 +948,8 @@ function renderRegular(){
 // ---------- Faza A: vrh stranice, dijeljenje, link na koncert ----------
 const DNAME = ["Ned","Pon","Uto","Sri","Čet","Pet","Sub"];
 function renderTop(v, filtered){
-  const now = document.getElementById("now");
-  const r = R.vikend;
-  const list = upcoming.filter(e=>e.date===TODAY || (e.date>=r.from && e.date<=r.to)).slice(0, 14);
-  const show = v==="popis" && !filtered && !SHARED && list.length;
-  now.hidden = !show;
-  if (show){
-    now.innerHTML = `<h2 id="nowH">Danas i ovaj vikend</h2><div class="nowrow">` + list.map(e=>{
-      const w = (e.date===TODAY ? "Danas" : DNAME[parse(e.date).getDay()]) + (e.time ? " " + e.time : "");
-      return `<a class="nowc" href="?k=${e.id}" data-goto="${e.id}"><span class="w">${w}</span><span class="t">${esc(e.artist)}</span><span class="v">${esc(e.venue)}</span></a>`;
-    }).join("") + `</div>`;
-  }
-  document.querySelector(".status .lh b").textContent = S.newOnly ? "Novo najavljeno" : S.favOnly ? "Moji koncerti" : "Svi koncerti";
-  if (S.newOnly && !(S.q||S.venue||S.genres.size||S.hideSold||S.freeOnly||S.favOnly||S.day||S.range)) document.getElementById("reset").hidden = true;
-  const nNew = upcoming.filter(isNew).length;
-  const nb = document.getElementById("newBtn");
-  nb.hidden = !nNew && !S.newOnly;
-  nb.textContent = S.newOnly ? "Prikaži sve" : `${nNew} ${plural(nNew,"novi","nova","novih")}`;
-  nb.setAttribute("aria-pressed", String(S.newOnly));
+  document.querySelector(".status .lh b").textContent = S.favOnly ? "Moji koncerti" : "";
+  document.querySelector(".status .lh").hidden = !S.favOnly;
   const mine = upcoming.filter(e=>favs.has(e.id)).length;
   document.getElementById("mineN").textContent = mine;
   const mb = document.getElementById("mineBtn");
@@ -975,18 +958,9 @@ function renderTop(v, filtered){
   const nf = S.genres.size + (S.venue?1:0) + (S.hideSold?1:0) + (S.freeOnly?1:0) + (S.favOnly?1:0) + (v==="kalendar"?1:0);
   document.getElementById("filtN").textContent = nf ? String(nf) : "";
 }
-document.getElementById("filtBtn").addEventListener("click", e=>{
-  const f = document.getElementById("filters"); f.hidden = !f.hidden;
-  e.currentTarget.setAttribute("aria-expanded", String(!f.hidden));
-});
-document.getElementById("newBtn").addEventListener("click", ()=>{ S.newOnly = !S.newOnly; render(); });
 document.getElementById("mineBtn").addEventListener("click", ()=>{
   S.favOnly = !S.favOnly; document.getElementById("favOnly").checked = S.favOnly;
   if (location.hash==="#festivali") location.hash = "popis"; else render();
-});
-document.getElementById("now").addEventListener("click", ev=>{
-  const a = ev.target.closest("[data-goto]"); if (!a) return;
-  ev.preventDefault(); goTo(a.dataset.goto);
 });
 function goTo(id){
   const e = EVENTS.find(x=>x.id===id); if (!e) return;
