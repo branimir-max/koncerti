@@ -134,6 +134,46 @@ body.festmode .cities a[data-city]{color:var(--muted)}
 .qbtn b{font-family:var(--font-display);font-size:30px;font-weight:800;line-height:1;font-variant-numeric:tabular-nums}
 .qbtn small{font-size:12.5px;opacity:.85}
 
+/* novi izgled (faza A) */
+.topacts{display:flex;align-items:center;gap:8px}
+.topacts .addgig{font-size:14px;padding:5px 10px 4px}
+.minebtn{display:inline-flex;align-items:center;gap:6px;min-height:40px;padding:0 14px;border:2px solid var(--ink);border-radius:22px;background:transparent;font-weight:700;cursor:pointer}
+.minebtn svg{width:18px;height:18px}
+.minebtn[aria-pressed="true"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink)}
+.minebtn[aria-pressed="true"] svg{fill:currentColor}
+.citybtn{all:unset;cursor:pointer;display:inline-flex;align-items:center;gap:8px;color:var(--accent)}
+.citybtn svg{width:.42em;height:.42em;color:var(--ink);transition:transform .2s}
+.citybtn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.citybtn:focus-visible{outline:2px solid var(--accent);outline-offset:4px}
+header.top{padding:18px 0 14px}
+.filtbtn{display:inline-flex;align-items:center;gap:6px;background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:0 14px;min-height:40px;font-weight:500;cursor:pointer}
+.filtbtn svg{width:16px;height:16px}
+.filtbtn[aria-expanded="true"]{border-color:var(--ink)}
+#filtN:not(:empty){background:var(--accent);color:var(--accent-ink);border-radius:10px;font-size:12px;font-weight:700;padding:1px 7px}
+#filters{margin-top:8px}
+.now{margin:16px 0 4px}
+.now h2{font-size:12.5px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);margin:0 0 8px}
+.nowrow{display:flex;gap:10px;overflow-x:auto;scrollbar-width:none;padding-bottom:4px}
+.nowrow::-webkit-scrollbar{display:none}
+.nowc{flex:0 0 auto;width:168px;background:var(--surface);border:1.5px solid var(--ink);border-radius:10px;padding:10px 12px;text-decoration:none;color:var(--ink);display:flex;flex-direction:column;gap:4px}
+.nowc:hover{border-color:var(--accent)}
+.nowc .w{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--accent)}
+.nowc .t{font-family:var(--font-display);font-weight:700;font-size:20px;line-height:1.05;text-transform:uppercase;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.nowc .v{font-size:13px;color:var(--muted)}
+.status .lh b{color:var(--ink);text-transform:uppercase;letter-spacing:.06em;font-size:12.5px}
+.sacts{display:flex;align-items:center;gap:12px}
+.newbtn{white-space:nowrap;background:var(--accent)!important;color:var(--accent-ink)!important;text-decoration:none!important;border-radius:16px!important;padding:5px 12px!important;font-weight:700;font-size:13px}
+.newbtn[aria-pressed="true"]{outline:2px solid var(--ink);outline-offset:1px}
+.ev .new{display:inline-block;vertical-align:middle;font-family:var(--font-body);font-size:10.5px;font-weight:700;letter-spacing:.08em;background:var(--accent);color:var(--accent-ink);padding:2px 5px;border-radius:3px;margin-right:8px;position:relative;top:-2px}
+.ev .sub{gap:2px 0}
+.ev .sub>span+span::before{content:"·";margin:0 6px;color:var(--muted)}
+.ev .sub .g{font-size:12px}
+.ev .sub .sold{color:var(--signal);font-weight:700;text-transform:uppercase;font-size:11.5px;letter-spacing:.05em}
+.ev .sub .free{color:var(--accent);font-weight:600}
+.ev .acts .icon{border:0;background:transparent;height:40px;min-width:40px;padding:0;color:var(--muted)}
+.ev .acts .icon:hover{color:var(--ink)}
+.ev .acts .icon svg{width:20px;height:20px}
+.ev.hl{background:var(--accent-soft);box-shadow:-8px 0 0 var(--accent-soft),8px 0 0 var(--accent-soft)}
 /* filters */
 .bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 0}
 .bar .row{display:flex;flex-wrap:wrap;gap:8px;align-items:center}
@@ -160,7 +200,7 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .dayhead .dnum{font-family:var(--font-display);font-weight:800;font-size:30px;line-height:1;font-variant-numeric:tabular-nums}
 .dayhead .dname{font-weight:600}
 .dayhead .rel{margin-left:auto;font-size:12.5px;color:var(--accent);font-weight:600;text-transform:uppercase;letter-spacing:.06em}
-.ev{display:grid;grid-template-columns:58px minmax(0,1fr) auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
+.ev{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
 .ev .time{font-variant-numeric:tabular-nums;font-weight:600;padding-top:3px}
 .ev .time.none{color:var(--muted);font-weight:400}
 .ev h3{margin:0;font-family:var(--font-display);font-weight:600;font-size:23px;line-height:1.05;letter-spacing:.2px;text-wrap:balance}
@@ -250,8 +290,8 @@ footer p{margin:0 0 8px;max-width:72ch}
 @media (max-width:640px){
   .bar{position:static}
   .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
-  .ev{grid-template-columns:48px minmax(0,1fr)}
-  .side{grid-column:2;flex-direction:row;align-items:center;justify-content:space-between;margin-top:6px}
+  .ev{gap:4px 4px}
+  .ev .acts .icon{min-width:38px}
   .cell{min-height:52px;padding:4px}
   .cell .it,.cell .more{display:none}
   .cell .cnt{display:block;font-family:var(--font-display);font-weight:800;color:var(--accent);font-size:18px;line-height:1}
@@ -265,13 +305,16 @@ footer p{margin:0 0 8px;max-width:72ch}
     <div class="brand">
       <div class="toprow">
   <a class="logo" href="./" aria-label="Gigomat, početna"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="3" height="10" rx="1"/><rect x="8.5" y="5" width="3" height="15" rx="1"/><rect x="14" y="8" width="3" height="12" rx="1"/><rect x="19.5" y="13" width="1.5" height="7" rx=".75"/></svg>Gigomat</a>
-        <a class="addgig" href="prijavi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Prijavi koncert</a>
+        <span class="topacts">
+          <a class="addgig" href="prijavi.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg>Prijavi</a>
+          <button type="button" class="minebtn" id="mineBtn" aria-pressed="false" title="Moji koncerti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span id="mineN">0</span></button>
+        </span>
       </div>
+      <h1><button type="button" class="citybtn" id="cityBtn" aria-expanded="false" aria-controls="cities"><span id="cityIn">Zagreb</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h1>
       <nav class="cities" id="cities" aria-label="Grad" hidden></nav>
-      <h1><a href="./" class="home" title="Početna">Koncerti<br><span id="cityIn">u Zagrebu</span></a></h1>
-      <p class="meta" id="meta"></p>
+      <p class="meta" id="meta" hidden></p>
     </div>
-    <div class="quick" id="quick"></div>
+    <div class="quick" id="quick" hidden></div>
   </div>
 </header>
 
@@ -291,6 +334,10 @@ footer p{margin:0 0 8px;max-width:72ch}
         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
         <input id="q" type="search" placeholder="Izvođač, prostor…" autocomplete="off">
       </label>
+      <button type="button" class="filtbtn" id="filtBtn" aria-expanded="false" aria-controls="filters"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>Filtri<span id="filtN"></span></button>
+    </div>
+    <div id="filters" hidden>
+    <div class="row">
       <select id="venue" aria-label="Prostor"></select>
       <nav class="views" aria-label="Prikaz">
         <a href="#popis" id="v-popis">Popis</a>
@@ -306,6 +353,7 @@ footer p{margin:0 0 8px;max-width:72ch}
       <label class="toggle"><input type="checkbox" id="favOnly"> Samo moji koncerti</label>
       <button class="pill" id="panelBtn" type="button" aria-expanded="false" aria-controls="panel"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg>Kalendar i obavijesti</button>
     </div>
+    </div>
   </div>
 </div>
 
@@ -313,7 +361,8 @@ footer p{margin:0 0 8px;max-width:72ch}
   <div id="panel" class="panel" hidden></div>
   <div id="soon" class="soon" hidden></div>
   <div id="banner"></div>
-  <div class="status"><span id="count"></span><button id="reset" type="button">Poništi filtre</button></div>
+  <section id="now" class="now" aria-labelledby="nowH" hidden></section>
+  <div class="status"><span class="lh"><b>Svi koncerti</b> · <span id="count"></span></span><span class="sacts"><button id="reset" type="button">Poništi filtre</button><button id="newBtn" class="newbtn" type="button" aria-pressed="false" hidden></button></span></div>
   <div id="out"></div>
 </main>
 
@@ -338,7 +387,7 @@ const GENRES = {
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
   const v = VENUES[r.venue];
   return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, alt:r.alt||[], vkey:r.venue, vgroup:v.group||r.venue,
-    venue:v.n, addr:v.a, city:v.city, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null,
+    venue:v.n, addr:v.a, city:v.city, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null, added:r.added||"",
     sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
 }).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
 
@@ -380,12 +429,14 @@ const REM_LIST = [["","bez podsjetnika"],["1440","dan prije"],["180","3 sata pri
 const REM_OPTS = Object.fromEntries(REM_LIST);
 let REM = "1440,180";
 try { const r = localStorage.getItem("kz-rem"); if (r !== null && r in REM_OPTS) REM = r; } catch(e) {}
-const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, calMonth:null, day:""};
+const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, newOnly:false, calMonth:null, day:""};
 
 // Grad: ?grad=… u adresi, zatim zadnji odabir, inače Zagreb. Podijeljeni popis (#moji=…) otvara svoj grad.
 let CITY = (()=>{
   let c = new URLSearchParams(location.search).get("grad");
   if (!c) { try { c = localStorage.getItem("kz-city"); } catch(e) {} }
+  const kid = new URLSearchParams(location.search).get("k");
+  if (kid){ const ke = EVENTS.find(e=>e.id===kid); if (ke) c = ke.city; }
   const ids = (location.hash.match(/^#moji=([a-z0-9,]+)/i)||[])[1];
   if (ids){ const first = EVENTS.find(e=>ids.split(",").includes(e.id)); if (first) c = first.city; }
   return CITIES[c] ? c : "zagreb";
@@ -394,7 +445,7 @@ const PRE = CITY==="zagreb" ? "" : CITY+"-";
 const FEST = (DATA.festivals||[]).map(f=>({...f, genre:GENRES[f.genre]?f.genre:"ostalo"}));
 document.documentElement.dataset.city = CITY;
 (function(){ const m=document.querySelector('meta[name="theme-color"]'); if(m) m.content = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || m.content; })();   // prefiks kalendara i RSS-a za druge gradove
-document.getElementById("cityIn").textContent = CITIES[CITY].in;
+document.getElementById("cityIn").textContent = CITIES[CITY].name;
 (function(){
   // Izvori u podnožju za odabrani grad
   const SRC = {
@@ -415,7 +466,8 @@ document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
   const nav = document.getElementById("cities");
   nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}<sup>${n[k]}</sup></a>`).join("")
     + (FEST.length ? `<a href="#festivali" class="fest" data-fest>Festivali<sup>${FEST.length}</sup></a>` : "");
-  nav.hidden = false;
+  const cb = document.getElementById("cityBtn");
+  cb.addEventListener("click", ()=>{ nav.hidden = !nav.hidden; cb.setAttribute("aria-expanded", String(!nav.hidden)); });
   nav.addEventListener("click", ev=>{
     const a = ev.target.closest("[data-city]"); if (!a) return;
     try { localStorage.setItem("kz-city", a.dataset.city); } catch(e) {}
@@ -423,6 +475,16 @@ document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
   const cur = nav.querySelector('[aria-current]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({block:"nearest", inline:"center"});
 })();
 const upcoming = EVENTS.filter(e => e.date >= TODAY && e.city === CITY);
+// NOVO: najavljeno nakon zadnjeg posjeta (prvi posjet: zadnja 3 dana, ali ne prvi dan baze)
+const SINCE = (()=>{
+  let seen=null, prev=null; try { seen=localStorage.getItem("kz-seen"); prev=localStorage.getItem("kz-seen-prev"); } catch(e) {}
+  const d3 = iso(addDays(parse(TODAY),-3));
+  let since = !seen ? d3 : (seen < TODAY ? seen : (prev || d3));
+  try { if (seen && seen < TODAY) localStorage.setItem("kz-seen-prev", seen); localStorage.setItem("kz-seen", TODAY); } catch(e) {}
+  const first = EVENTS.reduce((m,e)=>e.added && e.added<m ? e.added : m, "9999");
+  return since < first ? first : since;
+})();
+const isNew = e => (e.added||"") > SINCE;
 
 // ---------- Festivali ----------
 function km(a,b){
@@ -469,10 +531,10 @@ function renderFest(){
 }
 function festRowHTML(f){
   const d = km(CITIES[CITY], f);
-  return `<article class="ev fest"><div class="time">Festival</div><div>
-    <h3>${f.url?`<a class="ttl" href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>`:esc(f.name)}</h3>
-    <div class="sub"><span>${fRange(f.from,f.to)} · ${esc(f.place)}${d!=null&&d>=5?` · ~${d} km`:""}</span><span class="tag">${GENRES[f.genre]}</span></div></div>
-    <div class="side"><a class="icon" href="#festivali" title="Svi festivali">Svi festivali</a></div></article>`;
+  return `<article class="ev fest"><div>
+    <h3><span class="new">FESTIVAL</span>${f.url?`<a class="ttl" href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>`:esc(f.name)}</h3>
+    <div class="sub"><span>${fRange(f.from,f.to)}</span><span>${esc(f.place)}${d!=null&&d>=5?` · ~${d} km`:""}</span><span class="g">${GENRES[f.genre]}</span></div></div>
+    <div class="acts"><a class="icon" href="#festivali" title="Svi festivali" style="width:auto;padding:0 6px;font-size:13px">Svi festivali</a></div></article>`;
 }
 
 function match(e, ignoreRange){
@@ -482,6 +544,7 @@ function match(e, ignoreRange){
   if (S.hideSold && e.sold) return false;
   if (S.freeOnly && !e.free) return false;
   if (S.favOnly && !favs.has(e.id)) return false;
+  if (S.newOnly && !isNew(e)) return false;
   if (SHARED && !SHARED.has(e.id)) return false;
   if (!ignoreRange){
     if (S.day && e.date!==S.day) return false;
@@ -535,7 +598,7 @@ document.getElementById("genres").addEventListener("click", ev=>{
 document.getElementById("q").addEventListener("input", e=>{ S.q=e.target.value.trim(); render(); });
 ["hideSold","freeOnly","favOnly"].forEach(id=>document.getElementById(id).addEventListener("change", e=>{ S[id]=e.target.checked; render(); }));
 document.getElementById("reset").addEventListener("click", ()=>{
-  Object.assign(S,{q:"",venue:"",range:"",hideSold:false,freeOnly:false,favOnly:false,day:""}); S.genres.clear();
+  Object.assign(S,{q:"",venue:"",range:"",hideSold:false,freeOnly:false,favOnly:false,newOnly:false,day:""}); S.genres.clear();
   document.getElementById("q").value=""; document.getElementById("venue").value="";
   ["hideSold","freeOnly","favOnly"].forEach(id=>document.getElementById(id).checked=false);
   document.querySelectorAll("#genres .chip").forEach(c=>c.setAttribute("aria-pressed","false"));
@@ -584,25 +647,30 @@ function detailsHTML(e){
     ${listen.length ? `<div><b>Poslušaj</b> ${listen.join(" · ")}</div>` : ""}
     ${social.length ? `<div><b>Izvođač</b> ${social.join(" · ")}</div>` : ""}
     <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
+    <div><b>Cijena</b> ${e.sold?"rasprodano":e.free?"besplatno":esc(e.price||"kod organizatora")}</div>
     <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · ${venueWeb(e) ? `<a href="${safeUrl(venueWeb(e))}" target="_blank" rel="noopener">${esc(e.venue)}</a>` : esc(e.venue)}${e.addr?", "+esc(e.addr):""}</div>
   </div>`;
 }
 const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
+const SHAREI = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 15V3M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>`;
+const CALP = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M3 10h18M8 3v4M16 3v4M12 13v5M9.5 15.5h5"/></svg>`;
+function priceSub(e){
+  if (e.sold) return `<span class="sold">Rasprodano</span>`;
+  if (e.free) return `<span class="free">Besplatno</span>`;
+  return "";
+}
 function evHTML(e){
   const fav = favs.has(e.id);
-  return `<article class="ev">
-    <div class="time ${e.time?"":"none"}">${e.time||"—"}</div>
+  return `<article class="ev" id="e-${e.id}">
     <div>
-      <h3><button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
-      <div class="sub"><span>${esc(e.venue)}</span><span class="tag">${GENRES[e.genre]}</span></div>
+      <h3>${isNew(e)?`<span class="new">NOVO</span>`:""}<button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
+      <div class="sub"><span>${e.time||"—"}</span><span>${esc(e.venue)}</span><span class="g">${GENRES[e.genre]}</span>${priceSub(e)}</div>
       ${detailsHTML(e)}
     </div>
-    <div class="side">
-      ${priceHTML(e)}
-      <div class="acts">
-        <button class="icon fav" type="button" data-fav="${e.id}" aria-pressed="${fav}" title="${fav?"Makni iz mojih koncerata":"Spremi u moje koncerte"}" aria-label="Spremi ${esc(e.artist)}">${STAR}</button>
-        <button class="icon more" type="button" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}" title="Više" aria-label="Više o ${esc(e.artist)}">${CHEV}</button>
-      </div>
+    <div class="acts">
+      <button class="icon fav" type="button" data-fav="${e.id}" aria-pressed="${fav}" title="${fav?"Makni iz mojih koncerata":"Spremi u moje koncerte"}" aria-label="Spremi ${esc(e.artist)}">${STAR}</button>
+      <a class="icon" href="${gcalLink(e)}" target="_blank" rel="noopener" title="Dodaj u Google kalendar" aria-label="Dodaj ${esc(e.artist)} u Google kalendar">${CALP}</a>
+      <button class="icon" type="button" data-share="${e.id}" title="Podijeli" aria-label="Podijeli ${esc(e.artist)}">${SHAREI}</button>
     </div>
   </article>`;
 }
@@ -633,7 +701,7 @@ function renderList(list){
   }
   const byDay = {};
   list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
-  if (!S.q && !S.venue && !S.favOnly && !S.hideSold && !S.freeOnly && !SHARED){
+  if (!S.q && !S.venue && !S.favOnly && !S.newOnly && !S.hideSold && !S.freeOnly && !SHARED){
     const last = more ? list[list.length-1].date : "9999";
     const lo = S.day || (S.range ? R[S.range].from : TODAY), hi = S.day || (S.range ? R[S.range].to : last);
     nearFest.filter(f=>(!S.genres.size || S.genres.has(f.genre)) && f.from<=hi && f.to>=lo).forEach(f=>{
@@ -668,6 +736,8 @@ function renderCal(list){
 
 const out = document.getElementById("out");
 out.addEventListener("click", ev=>{
+  const sh=ev.target.closest("[data-share]");
+  if (sh){ const e=EVENTS.find(x=>x.id===sh.dataset.share); if(e) shareEvent(e); return; }
   if (ev.target.closest("#moreBtn")){ shownWeeks += 1; const y = scrollY; render(); scrollTo(0, y); return; }
   const mo2=ev.target.closest("[data-more]");
   if (mo2){
@@ -876,14 +946,81 @@ function renderRegular(){
   return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, ${v.web ? `<a href="${safeUrl(v.web)}" target="_blank" rel="noopener">${esc(v.address||"web")}</a>` : v.address ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+v.address+", "+cityName(v.city||"zagreb"))}" target="_blank" rel="noopener">${esc(v.address)}</a>` : ""}<span>${esc(v.regular)}</span></div>`).join("")}</section>`;
 }
 
+// ---------- Faza A: vrh stranice, dijeljenje, link na koncert ----------
+const DNAME = ["Ned","Pon","Uto","Sri","Čet","Pet","Sub"];
+function renderTop(v, filtered){
+  const now = document.getElementById("now");
+  const r = R.vikend;
+  const list = upcoming.filter(e=>e.date===TODAY || (e.date>=r.from && e.date<=r.to)).slice(0, 14);
+  const show = v==="popis" && !filtered && !SHARED && list.length;
+  now.hidden = !show;
+  if (show){
+    now.innerHTML = `<h2 id="nowH">Danas i ovaj vikend</h2><div class="nowrow">` + list.map(e=>{
+      const w = (e.date===TODAY ? "Danas" : DNAME[parse(e.date).getDay()]) + (e.time ? " " + e.time : "");
+      return `<a class="nowc" href="?k=${e.id}" data-goto="${e.id}"><span class="w">${w}</span><span class="t">${esc(e.artist)}</span><span class="v">${esc(e.venue)}</span></a>`;
+    }).join("") + `</div>`;
+  }
+  document.querySelector(".status .lh b").textContent = S.newOnly ? "Novo najavljeno" : S.favOnly ? "Moji koncerti" : "Svi koncerti";
+  if (S.newOnly && !(S.q||S.venue||S.genres.size||S.hideSold||S.freeOnly||S.favOnly||S.day||S.range)) document.getElementById("reset").hidden = true;
+  const nNew = upcoming.filter(isNew).length;
+  const nb = document.getElementById("newBtn");
+  nb.hidden = !nNew && !S.newOnly;
+  nb.textContent = S.newOnly ? "Prikaži sve" : `${nNew} ${plural(nNew,"novi","nova","novih")}`;
+  nb.setAttribute("aria-pressed", String(S.newOnly));
+  const mine = upcoming.filter(e=>favs.has(e.id)).length;
+  document.getElementById("mineN").textContent = mine;
+  const mb = document.getElementById("mineBtn");
+  mb.setAttribute("aria-pressed", String(S.favOnly));
+  mb.setAttribute("aria-label", `Moji koncerti, ${mine} spremljeno`);
+  const nf = S.genres.size + (S.venue?1:0) + (S.hideSold?1:0) + (S.freeOnly?1:0) + (S.favOnly?1:0) + (v==="kalendar"?1:0);
+  document.getElementById("filtN").textContent = nf ? String(nf) : "";
+}
+document.getElementById("filtBtn").addEventListener("click", e=>{
+  const f = document.getElementById("filters"); f.hidden = !f.hidden;
+  e.currentTarget.setAttribute("aria-expanded", String(!f.hidden));
+});
+document.getElementById("newBtn").addEventListener("click", ()=>{ S.newOnly = !S.newOnly; render(); });
+document.getElementById("mineBtn").addEventListener("click", ()=>{
+  S.favOnly = !S.favOnly; document.getElementById("favOnly").checked = S.favOnly;
+  if (location.hash==="#festivali") location.hash = "popis"; else render();
+});
+document.getElementById("now").addEventListener("click", ev=>{
+  const a = ev.target.closest("[data-goto]"); if (!a) return;
+  ev.preventDefault(); goTo(a.dataset.goto);
+});
+function goTo(id){
+  const e = EVENTS.find(x=>x.id===id); if (!e) return;
+  if (!document.getElementById("e-"+id)){
+    const weeks = Math.ceil((parse(e.date) - parse(TODAY)) / 6048e5) + 1;
+    if (weeks > shownWeeks){ shownWeeks = weeks; lastSig = JSON.stringify([S.q,S.venue,[...S.genres],S.range,S.hideSold,S.freeOnly,S.favOnly,S.newOnly,S.day,view()]); render(); }
+  }
+  const el = document.getElementById("e-"+id); if (!el) return;
+  const d = document.getElementById("d-"+id); if (d && d.hidden){ d.hidden = false; el.querySelectorAll("[data-more]").forEach(b=>b.setAttribute("aria-expanded","true")); }
+  el.classList.add("hl"); setTimeout(()=>el.classList.remove("hl"), 2500);
+  el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
+}
+async function shareEvent(e){
+  const url = SITE_URL + "k/" + e.id + "/";
+  const dt = parse(e.date);
+  const text = `${e.artist} · ${e.venue}, ${DAYS[dt.getDay()]} ${dt.getDate()}. ${MONTHS[dt.getMonth()]}${e.time ? " u " + e.time : ""}`;
+  if (navigator.share){ try { await navigator.share({title: e.artist, text, url}); } catch(err) {} return; }
+  try { await navigator.clipboard.writeText(text + "\n" + url); flash("Link kopiran, zalijepi ga prijatelju."); }
+  catch(err) { flash(url); }
+}
+function flash(msg){
+  let t=document.getElementById("toast");
+  if(!t){ t=document.createElement("div"); t.id="toast"; t.setAttribute("role","status"); document.body.appendChild(t); }
+  t.textContent = msg; t.classList.add("on"); clearTimeout(t._h); t._h=setTimeout(()=>t.classList.remove("on"), 3000);
+}
+
 function view(){ return location.hash==="#kalendar" ? "kalendar" : location.hash==="#festivali" ? "festivali" : "popis"; }
 function render(){
   const v=view();
   const fm = v==="festivali";
   document.body.classList.toggle("festmode", fm);
   const ft = document.querySelector("#cities [data-fest]"); if (ft){ ft.toggleAttribute("aria-current", fm); if (fm){ ft.setAttribute("aria-current","page"); ft.scrollIntoView && ft.scrollIntoView({block:"nearest", inline:"center"}); } }
-  document.getElementById("cityIn").textContent = fm ? "u Hrvatskoj" : CITIES[CITY].in;
-  document.querySelector("h1 .home").firstChild.textContent = fm ? "Festivali" : "Koncerti";
+  document.getElementById("cityIn").textContent = fm ? "Festivali" : CITIES[CITY].name;
+  document.getElementById("meta").hidden = !fm;
   const meta = document.getElementById("meta"); meta.dataset.c = meta.dataset.c || meta.innerHTML;
   if (fm){ const nl = FEST.filter(fLive).length;
     meta.innerHTML = `<strong>${FEST.length} ${plural(FEST.length,"festival","festivala","festivala")}</strong>, ${nl} s potvrđenim datumima. Od velikih ljetnih do malih lokalnih.`;
@@ -894,21 +1031,22 @@ function render(){
   if (v==="popis") document.getElementById("v-popis").setAttribute("aria-current","page"); else document.getElementById("v-kalendar").setAttribute("aria-current","page");
   renderQuick();
   const list = upcoming.filter(e=>match(e, v==="kalendar"));
-  const sig = JSON.stringify([S.q,S.venue,[...S.genres],S.range,S.hideSold,S.freeOnly,S.favOnly,S.day,v]);
+  const sig = JSON.stringify([S.q,S.venue,[...S.genres],S.range,S.hideSold,S.freeOnly,S.favOnly,S.newOnly,S.day,v]);
   if (sig !== lastSig){ shownWeeks = 1; lastSig = sig; }
   const n = list.length, n10 = n%10, n100 = n%100;
   const word = (n10===1 && n100!==11) ? "koncert" : (n10>=2 && n10<=4 && (n100<12 || n100>14)) ? "koncerta" : "koncerata";
   document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
-  const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.day;
+  const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.newOnly||S.day;
   document.getElementById("reset").hidden = !filtered;
   out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
-  renderBanner(); renderPanel(); renderSoon();
+  renderBanner(); renderPanel(); renderSoon(); renderTop(v, filtered);
 }
 out.addEventListener("change", ev=>{ if (ev.target.id==="fcity"){ FCITY = ev.target.value; render(); } });
 out.addEventListener("click", ev=>{ const b = ev.target.closest("[data-fsort]"); if (b){ FSORT = b.dataset.fsort; render(); } });
 window.addEventListener("hashchange", ()=>{ S.day=""; readShared(); render(); });
 readShared();
 render();
+(function(){ const kid = new URLSearchParams(location.search).get("k"); if (kid) setTimeout(()=>goTo(kid), 50); })();
 
 // ---------- Instalacija (PWA) ----------
 if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {

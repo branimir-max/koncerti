@@ -324,6 +324,7 @@ def main() -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(data)
     (SITE / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1))
+    write_event_pages(events, out_venues)
     print(f"{len(events)} događaja u {len(out_venues)} prostora (ručno {len(manual)}, automatski {len(scraped)})")
 
 
@@ -405,6 +406,38 @@ def rss(events: list[dict], venues: dict, name: str, city_in: str = "u Zagrebu")
     return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
             f"<title>{esc(name)}</title><link>{SITE_URL}</link>"
             f"<description>Novo najavljeni koncerti {esc(city_in)}</description><language>hr</language>{''.join(items)}</channel></rss>")
+
+
+DAYS_HR = ["ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota", "nedjelja"]
+MONTHS_HR = ["siječnja", "veljače", "ožujka", "travnja", "svibnja", "lipnja", "srpnja", "kolovoza", "rujna",
+             "listopada", "studenoga", "prosinca"]
+
+
+def write_event_pages(events: list[dict], venues: dict) -> None:
+    """Mala stranica po koncertu (gigomat.com/k/<id>/) da link poslan na WhatsApp ima naslov i opis,
+    a otvaranje vodi na Gigomat s tim koncertom."""
+    import html as H
+    root = SITE / "k"
+    root.mkdir(exist_ok=True)
+    for e in events:
+        d = date.fromisoformat(e["date"])
+        v = venues.get(e["venue"], {})
+        city = CITIES.get(v.get("city", "zagreb"), {}).get("name", "")
+        when = f"{DAYS_HR[d.weekday()]} {d.day}. {MONTHS_HR[d.month - 1]}" + (f" u {e['time']}" if e.get("time") else "")
+        title = H.escape(f"{e['title']} · {v.get('name', '')}")
+        desc = H.escape(f"{when.capitalize()} · {city}. Gigomat – koncerti u tvom gradu.")
+        target = f"../../?k={e['id']}"
+        page = f"""<!doctype html><html lang="hr"><head><meta charset="utf-8">
+<title>{title} – Gigomat</title><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Gigomat">
+<meta property="og:title" content="{title}"><meta property="og:description" content="{desc}">
+<meta property="og:url" content="{SITE_URL}k/{e['id']}/"><meta property="og:image" content="{SITE_URL}icon-512.png">
+<meta name="twitter:card" content="summary"><meta name="description" content="{desc}">
+<link rel="canonical" href="{SITE_URL}?k={e['id']}"><meta name="robots" content="noindex">
+<meta http-equiv="refresh" content="0;url={target}"></head>
+<body><p><a href="{target}">{title}</a></p><script>location.replace("{target}")</script></body></html>"""
+        (root / e["id"]).mkdir(exist_ok=True)
+        (root / e["id"] / "index.html").write_text(page)
 
 
 def km(a: dict, b: dict) -> float:
