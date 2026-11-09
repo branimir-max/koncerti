@@ -39,6 +39,35 @@ def slug(s: str) -> str:
     return re.sub(r"[^a-z0-9]+", "", norm(s).replace(" ", ""))[:20] or "prostor"
 
 
+def _compact(s: str) -> str:
+    s = unicodedata.normalize("NFKD", s.lower().replace("ø", "o").replace("đ", "d"))
+    return re.sub(r"[^a-z0-9]", "", "".join(c for c in s if not unicodedata.combining(c)))
+
+
+def trust_links(title: str, links: dict) -> dict:
+    """Poveznice s najave vrijede samo ako su sigurno od izvođača iz naslova.
+    Kod više izvođača na najavi profil mora imenom odgovarati nekom od njih,
+    a Spotify/Deezer (samo brojčani ID) prihvaćamo samo za jednog izvođača."""
+    names = [n for n in (_compact(x) for x in re.split(r"[,&+/:–—|]| x | feat\.? | ft\.? | i | and ", title, flags=re.I)) if len(n) >= 3]
+    single = len(names) <= 1
+    out = {}
+    for k, u in links.items():
+        m = re.match(r"https?://([^/]+)/?([^/?#]*)", u or "")
+        if not m:
+            continue
+        host, seg = m.group(1).lower(), m.group(2)
+        handle = host.split(".")[0] if host.endswith("bandcamp.com") else seg.lstrip("@")
+        handle = _compact(handle)
+        id_only = k in ("spotify", "deezer") or seg in ("channel", "c", "user") or handle.isdigit()
+        if id_only:
+            if single:
+                out[k] = u
+            continue
+        if single or any(len(handle) >= 4 and (handle in n or n in handle) for n in names):
+            out[k] = f"https://{host}/" if k == "bandcamp" else u
+    return out
+
+
 def main() -> None:
     venues = json.loads((DATA / "venues.json").read_text())
     manual = json.loads((DATA / "manual.json").read_text())["events"]
@@ -115,7 +144,7 @@ def main() -> None:
         ev_links = json.loads(ev_links_path.read_text())
         for b in buckets.values():
             for e in b:
-                extra = (ev_links.get(e.get("url") or "") or {}).get("clean") or {}
+                extra = trust_links(e["title"], (ev_links.get(e.get("url") or "") or {}).get("clean") or {})
                 if extra:
                     links = dict(extra)
                     links.update(e.get("links") or {})  # MusicBrainz ima prednost
