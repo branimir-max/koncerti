@@ -37,13 +37,14 @@ async function checkMine(){
   const r = await c.match("moji.json"); if (!r) return;
   const {rem, events} = await r.json(); if (!rem || !events || !events.length) return;
   const sent = await c.match("sent.json").then(x => x ? x.json() : {}).catch(() => ({}));
-  const now = new Date(), today = zgDate(now), tomorrow = zgDate(new Date(now.getTime() + 864e5));
+  const now = new Date(), today = zgDate(now), tomorrow = zgDate(new Date(now.getTime() + 864e5)), in2 = zgDate(new Date(now.getTime() + 2 * 864e5));
   const hm = new Intl.DateTimeFormat("en-GB", {timeZone: "Europe/Zagreb", hour: "2-digit", minute: "2-digit", hour12: false}).format(now);
   const mins = (t) => { const [h, m] = t.split(":").map(Number); return h * 60 + m; };
   for (const e of events){
     let key = "", when = "";
+    if (rem.includes("2880") && e.date === in2){ key = e.id + ":d2"; when = "Prekosutra" + (e.time ? " u " + e.time : ""); }
     if (rem.includes("1440") && e.date === tomorrow){ key = e.id + ":d"; when = "Sutra" + (e.time ? " u " + e.time : ""); }
-    if (e.date === today && (rem.includes("180") || rem === "1440")){
+    if (e.date === today && (rem.includes("180") || rem === "1440" || rem === "2880")){
       // na dan koncerta: ako je odabrano "3 sata prije", javi tek kad je blizu
       const close = !e.time || !rem.includes("180") || mins(e.time) - mins(hm) <= 240;
       if (close && (!e.time || mins(e.time) > mins(hm) - 30)){ key = e.id + ":t"; when = "Danas" + (e.time ? " u " + e.time : ""); }

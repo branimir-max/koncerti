@@ -428,9 +428,9 @@ try { favs = new Set(JSON.parse(localStorage.getItem("kz-fav")||"[]")); } catch(
 const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} syncMine(); };
 // Podsjetnici: koliko prije koncerta (u minutama) javiti, za .ics i obavijesti na uređaju
 // polje parova, ne objekt: brojčani ključevi bi u objektu promijenili redoslijed
-const REM_LIST = [["","bez podsjetnika"],["1440","dan prije"],["180","3 sata prije"],["1440,180","dan prije i 3 sata prije"]];
+const REM_LIST = [["2880,180","2 dana prije i 3 sata prije"],["2880","2 dana prije"],["1440,180","dan prije i 3 sata prije"],["1440","dan prije"],["","bez podsjetnika"]];
 const REM_OPTS = Object.fromEntries(REM_LIST);
-let REM = "1440,180";
+let REM = "2880,180";
 try { const r = localStorage.getItem("kz-rem"); if (r !== null && r in REM_OPTS) REM = r; } catch(e) {}
 const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, newOnly:false, calMonth:null, day:""};
 
@@ -871,8 +871,8 @@ function downloadICS(list, name){
   const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
   const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Gigomat//HR","X-WR-CALNAME:Moji koncerti"];
   const alarms = e => (REM ? REM.split(",") : []).flatMap(m => ["BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${x(e.artist)}`,
-    // koncert bez satnice traje cijeli dan: "dan prije" = 12 h prije ponoći, tj. podne dan ranije
-    `TRIGGER:-PT${e.time ? m : (m==="180" ? 0 : 720)}M`, "END:VALARM"]);
+    // koncert bez satnice traje cijeli dan: "dan prije" = podne dan ranije, "2 dana prije" = podne dva dana ranije
+    `TRIGGER:-PT${e.time ? m : (m==="180" ? 0 : Number(m)-720)}M`, "END:VALARM"]);
   list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", "+cityName(e.city))}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,...alarms(e),"END:VEVENT"));
   lines.push("END:VCALENDAR");
   const a = document.createElement("a");
