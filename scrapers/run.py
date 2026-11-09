@@ -88,7 +88,7 @@ def scrape(src: dict) -> list[dict]:
         try:
             html = fetch(url)
         except Exception:  # noqa: BLE001 – prva stranica mora proći, dodatne (page=2…) smiju izostati
-            if i == 0:
+            if i == 0 and not src.get("tolerant"):
                 raise
             continue
         if i == 0:  # snimka prve stranice za otklanjanje grešaka

@@ -73,7 +73,7 @@ SOURCES = [
       for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1), ("rijeka", "29032-croatia-rijeka", 1),
                                  ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
     # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
-    {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics",
+    {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics", "tolerant": True,
      "include": ["koncert", "concert", "festival", "band", "dj", "jazz", "rock", "punk", "metal", "live", "glazb", "music",
                  "orkest", "orchestra", "zbor", "choir", "klapa", "palach", "marganovo"],
      "exclude": ["izložb", "exhibition", "predstava", "radionic", "workshop", "predavanj", "lecture", "film"],
