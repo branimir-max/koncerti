@@ -893,9 +893,9 @@ function notifLabel(){
 function notifNote(){
   if (!canNotify()) return "Ovaj preglednik ne prikazuje obavijesti. Podsjetnik u kalendaru radi svugdje.";
   if (Notification.permission === "denied") return "Obavijesti su blokirane u postavkama preglednika za ovu stranicu.";
-  if (localStorage.getItem("kz-notif")!=="1") return "Javimo ti se za koncerte označene zvjezdicom. Na iPhoneu i u pregledniku na računalu pouzdaniji je podsjetnik u kalendaru.";
-  return NS.periodic ? "Uključeno. Obavijest stiže i kad je aplikacija zatvorena."
-    : "Uključeno, ali ovaj preglednik javlja samo kad otvoriš aplikaciju. Za podsjetnik u svakom slučaju dodaj koncert u kalendar.";
+  if (localStorage.getItem("kz-notif")!=="1") return "Javimo ti se za koncerte označene zvjezdicom. Na računalu i iPhoneu to radi samo dok je Gigomat otvoren, pa je ondje sigurniji podsjetnik u kalendaru.";
+  return NS.periodic ? "Uključeno. Obavijest stiže i kad Gigomat nije otvoren."
+    : "Uključeno, ali na ovom uređaju obavijest stiže samo dok je Gigomat otvoren. Za siguran podsjetnik dodaj koncert u kalendar (📅 uz koncert).";
 }
 async function enableNotifs(){
   if (!canNotify()) return;
