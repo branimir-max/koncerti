@@ -425,7 +425,7 @@ const R = ranges();
 // state
 let favs = new Set();
 try { favs = new Set(JSON.parse(localStorage.getItem("kz-fav")||"[]")); } catch(e) {}
-const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} syncMine(); };
+const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} syncMine(); cloudLater(); };
 // Podsjetnici: koliko prije koncerta (u minutama) javiti, za .ics i obavijesti na uređaju
 // polje parova, ne objekt: brojčani ključevi bi u objektu promijenili redoslijed
 const REM_LIST = [["2880,180","2 dana prije i 3 sata prije"],["2880","2 dana prije"],["1440,180","dan prije i 3 sata prije"],["1440","dan prije"],["","bez podsjetnika"]];
@@ -798,38 +798,46 @@ function topVenues(){
   const c = {}; upcoming.forEach(e=>{ c[e.vgroup]=(c[e.vgroup]||0)+1; });
   return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,14).map(([k,n])=>({k, n, name: k==="lisinski"?"Lisinski":(VENUES[k]?VENUES[k].n:k)}));
 }
+// ---------- Moji koncerti u kalendaru (pretplata preko Workera, bez prijave) ----------
+const API = "https://gigomat-prijava.gigomat-com.workers.dev/";
+function calToken(){
+  let t = null; try { t = localStorage.getItem("kz-tok"); } catch(e) {}
+  if (!t){ const a = new Uint8Array(16); crypto.getRandomValues(a); t = [...a].map(b=>b.toString(16).padStart(2,"0")).join(""); try { localStorage.setItem("kz-tok", t); } catch(e) {} }
+  return t;
+}
+let calId = null; try { calId = localStorage.getItem("kz-calid"); } catch(e) {}
+let cloudTimer = null;
+async function cloudSync(){
+  clearTimeout(cloudTimer); cloudTimer = null;
+  try {
+    const r = await fetch(API + "moji", {method:"POST", headers:{"Content-Type":"application/json"},
+      body: JSON.stringify({token: calToken(), ids: [...favs], rem: REM})});
+    const j = await r.json();
+    if (j.ok && j.id){ calId = j.id; try { localStorage.setItem("kz-calid", calId); } catch(e) {} }
+  } catch(e) {}
+  return calId;
+}
+// klikovi na zvjezdice se skupljaju: jedno spremanje nakon par sekundi mira
+function cloudLater(){ if (!calId && !favs.size) return; clearTimeout(cloudTimer); cloudTimer = setTimeout(cloudSync, 4000); }
+addEventListener("pagehide", ()=>{ if (cloudTimer){ clearTimeout(cloudTimer);
+  try { navigator.sendBeacon(API + "moji", new Blob([JSON.stringify({token: calToken(), ids: [...favs], rem: REM})], {type:"text/plain"})); } catch(e) {} } });
+const calHttps = () => API + "cal/" + calId + ".ics";
 function renderPanel(){
   const el = document.getElementById("panel");
   if (el.hidden) return;
-  if (!P.init){ S.genres.forEach(g=>P.genres.add(g)); if (S.venue) P.venues.add(S.venue); P.init = true; }
-  const gc = {}; upcoming.forEach(e=>{ gc[e.genre]=(gc[e.genre]||0)+1; });
-  const gchips = Object.keys(GENRES).filter(g=>gc[g]).map(g=>`<button type="button" class="chip" data-pg="${g}" aria-pressed="${P.genres.has(g)}">${GENRES[g]}</button>`).join("");
-  const vchips = topVenues().map(v=>`<button type="button" class="chip" data-pv="${v.k}" aria-pressed="${P.venues.has(v.k)}">${esc(v.name)}</button>`).join("");
-  const picked = [...[...P.genres].map(g=>({key:PRE+g, label:GENRES[g]})), ...[...P.venues].map(k=>({key:"prostor-"+k, label:(k==="lisinski"?"Lisinski":VENUES[k].n)}))];
-  const rows = picked.length
-    ? picked.map(p=>`<div class="feedrow"><b>${esc(p.label)}</b>${feedLinks(p.key)}</div>`).join("") +
-      `<p class="note">Svaki odabir dolazi kao zaseban kalendar, pa mu u kalendaru možeš dati boju ili ga privremeno sakriti. Za svaki klikni jednom.</p>`
-    : `<p class="note">Odaberi barem jedan žanr ili prostor.</p>`;
-  const mine = upcoming.filter(e=>favs.has(e.id));
-  el.innerHTML = `<section class="sub-sec">
-      <h4>Pretplati se na kalendar</h4>
-      <p>Odaberi što te zanima. Ti koncerti se sami pojavljuju u tvom kalendaru i osvježavaju svaki dan, a ostali ne.</p>
-      <div class="pick"><span>Žanrovi</span><div class="chipwrap">${gchips}</div></div>
-      <div class="pick"><span>Prostori</span><div class="chipwrap">${vchips}</div></div>
-      <div class="feeds">${rows}</div>
+  const mine = EVENTS.filter(e=>favs.has(e.id) && e.date>=TODAY);
+  el.innerHTML = `<section>
+      <h4>Moji koncerti u kalendaru</h4>
+      <p>Koncerti koje označiš ⭐ sami se pojave u tvom kalendaru, s podsjetnikom. Klikni jednom.</p>
+      <div class="links"><button type="button" data-sub="google">Google kalendar</button><button type="button" data-sub="apple">Apple (iPhone, Mac)</button><button type="button" data-sub="outlook">Outlook</button><button type="button" data-sub="copy">Kopiraj link</button></div>
+      <p class="note">Google kalendar novi koncert pokaže za nekoliko sati, Apple i Outlook brže.</p>
     </section>
     <section>
-      <h4>Moji koncerti (${mine.length})</h4>
-      ${mine.length ? `<p>Zvjezdicom spremljeni koncerti. Dodaj ih u kalendar ili pošalji popis prijateljima.</p>
-      <div class="links"><button type="button" id="dlMine">Preuzmi u kalendar (.ics)</button><button type="button" data-copy="${SITE_URL}#moji=${mine.map(e=>e.id).join(",")}">Kopiraj poveznicu za dijeljenje</button></div>`
-      : `<p>Želiš samo pojedine koncerte? Klikni zvjezdicu uz koncert i dodaj ga u kalendar jednim klikom.</p>`}
-    </section>
-    <section>
-      <h4>Podsjetnici za spremljene koncerte</h4>
-      <div class="pick"><span>Kad podsjetiti</span><div class="chipwrap">${REM_LIST.map(([k,v])=>`<button type="button" class="chip" data-rem="${k}" aria-pressed="${REM===k}">${v}</button>`).join("")}</div></div>
-      <p class="note">Vrijedi za koncerte koje dodaš u kalendar preko „Apple / Outlook” i za obavijesti na ovom uređaju. Google kalendar koristi svoje zadane obavijesti (obično 30 minuta prije).</p>
-      <div class="links"><button type="button" id="notifBtn">${notifLabel()}</button></div>
+      <h4>Podsjeti me</h4>
+      <div class="chipwrap">${REM_LIST.map(([k,v])=>`<button type="button" class="chip" data-rem="${k}" aria-pressed="${REM===k}">${v}</button>`).join("")}</div>
+      <div class="links" style="margin-top:12px"><button type="button" id="notifBtn">${notifLabel()}</button></div>
       <p class="note" id="notifNote">${notifNote()}</p>
+      ${mine.length ? `<div class="links" style="margin-top:12px"><button type="button" data-copy="${SITE_URL}#moji=${mine.map(e=>e.id).join(",")}">Pošalji popis svojih koncerata prijatelju (kopiraj link)</button></div>` : ""}
     </section>`;
 }
 document.getElementById("panelBtn").addEventListener("click", e=>{
@@ -837,10 +845,18 @@ document.getElementById("panelBtn").addEventListener("click", e=>{
   e.currentTarget.setAttribute("aria-expanded", String(!p.hidden)); renderPanel();
 });
 document.getElementById("panel").addEventListener("click", async ev=>{
-  const pg = ev.target.closest("[data-pg]"), pv = ev.target.closest("[data-pv]");
-  if (pg || pv){
-    const set = pg ? P.genres : P.venues, k = pg ? pg.dataset.pg : pv.dataset.pv;
-    set.has(k) ? set.delete(k) : set.add(k); renderPanel(); return;
+  const sb = ev.target.closest("[data-sub]");
+  if (sb){
+    const kind = sb.dataset.sub;
+    const w = (kind==="google" || kind==="outlook") ? window.open("", "_blank") : null;
+    if (!calId || cloudTimer) await cloudSync();
+    if (!calId){ if (w) w.close(); flash("Trenutno ne mogu napraviti kalendar. Pokušaj za minutu."); return; }
+    const https = calHttps(), webcal = https.replace(/^https:/, "webcal:");
+    if (kind==="google") w.location = "https://calendar.google.com/calendar/r?cid=" + encodeURIComponent(webcal);
+    else if (kind==="outlook") w.location = "https://outlook.live.com/calendar/0/addfromweb?url=" + encodeURIComponent(https) + "&name=" + encodeURIComponent("Moji koncerti (Gigomat)");
+    else if (kind==="apple") location.href = webcal;
+    else { try { await navigator.clipboard.writeText(https); flash("Link kalendara kopiran."); } catch(e) { flash(https); } }
+    return;
   }
   const c = ev.target.closest("[data-copy]");
   if (c){
@@ -849,7 +865,7 @@ document.getElementById("panel").addEventListener("click", async ev=>{
     return;
   }
   const rb = ev.target.closest("[data-rem]");
-  if (rb){ REM = rb.dataset.rem; try { localStorage.setItem("kz-rem", REM); } catch(e) {} syncMine(); renderPanel(); return; }
+  if (rb){ REM = rb.dataset.rem; try { localStorage.setItem("kz-rem", REM); } catch(e) {} syncMine(); cloudLater(); renderPanel(); return; }
   if (ev.target.id==="notifBtn"){ await enableNotifs(); renderPanel(); return; }
   if (ev.target.id==="dlMine") downloadICS(upcoming.filter(e=>favs.has(e.id)));
 });
