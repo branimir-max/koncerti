@@ -111,6 +111,38 @@ def links_of(rels: list[dict]) -> dict:
     return out
 
 
+WIKIDATA_PROPS = {  # Wikidata svojstvo -> (naš ključ, predložak poveznice)
+    "P1902": ("spotify", "https://open.spotify.com/artist/{}"),
+    "P3283": ("bandcamp", "https://{}.bandcamp.com/"),
+    "P2722": ("deezer", "https://www.deezer.com/artist/{}"),
+    "P2397": ("youtube", "https://www.youtube.com/channel/{}"),
+    "P2003": ("instagram", "https://www.instagram.com/{}/"),
+    "P2013": ("facebook", "https://www.facebook.com/{}"),
+    "P856": ("web", "{}"),
+}
+
+
+def wikidata_links(rels: list[dict]) -> dict:
+    """Ako MusicBrainz upućuje na Wikidatu, odande dopuni poveznice koje fale."""
+    qid = next((re.search(r"(Q\d+)", (r.get("url") or {}).get("resource", "")).group(1)
+                for r in rels if "wikidata.org" in (r.get("url") or {}).get("resource", "")), None)
+    if not qid:
+        return {}
+    r = requests.get(f"https://www.wikidata.org/wiki/Special:EntityData/{qid}.json", headers={"User-Agent": UA}, timeout=20)
+    time.sleep(0.5)
+    if not r.ok:
+        return {}
+    claims = (r.json().get("entities", {}).get(qid, {}) or {}).get("claims", {})
+    out = {}
+    for prop, (key, tpl) in WIKIDATA_PROPS.items():
+        for c in claims.get(prop, []):
+            v = ((c.get("mainsnak") or {}).get("datavalue") or {}).get("value")
+            if isinstance(v, str) and v:
+                out.setdefault(key, tpl.format(v))
+                break
+    return out
+
+
 def genre_of(data: dict) -> str:
     tags = sorted((data.get("genres") or []) + (data.get("tags") or []), key=lambda t: -t.get("count", 0))
     for t in tags:
@@ -132,18 +164,26 @@ def main() -> int:
         queries.append(q)
     stale = (date.today() - timedelta(days=60)).isoformat()
     todo = [q for q in dict.fromkeys(queries) if norm(q) not in cache or
-            (not cache[norm(q)].get("mbid") and cache[norm(q)].get("checked", "") < stale)]
+            (not cache[norm(q)].get("mbid") and cache[norm(q)].get("checked", "") < stale) or
+            (cache[norm(q)].get("mbid") and cache[norm(q)].get("v", 1) < 2)]
     print(f"{len(set(queries))} izvođača, {len(todo)} za provjeru")
     hits = 0
     for q in todo[:MAX_LOOKUPS]:
-        entry = {"query": q, "checked": date.today().isoformat()}
+        entry = {"query": q, "checked": date.today().isoformat(), "v": 2}
         try:
             res = get(f"{API}/artist/", {"query": f'artist:"{q}" OR alias:"{q}"', "limit": 8}).get("artists", [])
             a = pick(res, q)
             if a:
                 full = get(f"{API}/artist/{a['id']}", {"inc": "url-rels+genres+tags"})
+                rels = full.get("relations", [])
+                links = links_of(rels)
+                try:
+                    for k, u in wikidata_links(rels).items():
+                        links.setdefault(k, u)
+                except requests.RequestException:
+                    pass
                 entry.update({"mbid": a["id"], "name": a.get("name"), "country": a.get("country", ""),
-                              "links": links_of(full.get("relations", [])), "genre": genre_of(full)})
+                              "links": links, "genre": genre_of(full)})
                 hits += 1
         except requests.RequestException as ex:
             print("  greška:", q, ex)

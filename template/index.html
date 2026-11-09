@@ -404,13 +404,11 @@ function artistQuery(t){
 }
 const LINK_NAMES = {spotify:"Spotify", youtube:"YouTube", deezer:"Deezer", bandcamp:"Bandcamp", soundcloud:"SoundCloud", web:"Web", instagram:"Instagram", facebook:"Facebook"};
 function detailsHTML(e){
-  const q = encodeURIComponent(artistQuery(e.artist));
   const L = e.links || {};
-  const listen = ["spotify","youtube","deezer","bandcamp","soundcloud"].filter(k=>L[k]).map(k=>`<a href="${safeUrl(L[k])}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
-  if (!listen.length) listen.push(`<a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener">Traži na Spotifyju</a>`, `<a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Traži na YouTubeu</a>`);
+  const listen = ["spotify","bandcamp","youtube","deezer","soundcloud"].filter(k=>L[k]).map(k=>`<a href="${safeUrl(L[k])}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
   const social = ["web","instagram","facebook"].filter(k=>L[k]).map(k=>`<a href="${safeUrl(L[k])}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
   return `<div class="det" id="d-${e.id}" hidden>
-    <div><b>Poslušaj</b> ${listen.join(" · ")}</div>
+    ${listen.length ? `<div><b>Poslušaj</b> ${listen.join(" · ")}</div>` : ""}
     ${social.length ? `<div><b>Izvođač</b> ${social.join(" · ")}</div>` : ""}
     <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
     <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>

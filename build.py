@@ -109,6 +109,18 @@ def main() -> None:
                     if a.get("genre") and e.get("genre") in ("", "ostalo", None):
                         e["genre"] = a["genre"]
 
+    # Poveznice bendova sa stranica najava (scrapers/eventlinks.py) – dopunjuju ono što MusicBrainz nema
+    ev_links_path = DATA / "eventlinks.json"
+    if ev_links_path.exists():
+        ev_links = json.loads(ev_links_path.read_text())
+        for b in buckets.values():
+            for e in b:
+                extra = (ev_links.get(e.get("url") or "") or {}).get("clean") or {}
+                if extra:
+                    links = dict(extra)
+                    links.update(e.get("links") or {})  # MusicBrainz ima prednost
+                    e["links"] = {k: u for k, u in links.items() if re.match(r"^https?://", u or "")}
+
     events = sorted((e for b in buckets.values() for e in b), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
