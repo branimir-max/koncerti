@@ -1,0 +1,40 @@
+/* Zajednički izgled za podstranice (prijava koncerta, privatnost) */
+:root{
+  --bg:#F2F4F7;--surface:#FFFFFF;--ink:#0E1828;--muted:#5B6678;--line:#DCE1E9;
+  --accent:#1D4E9E;--accent-ink:#FFFFFF;--signal:#D93A25;
+  --font-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
+  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root{--bg:#0A101C;--surface:#121A2A;--ink:#E7ECF4;--muted:#93A0B5;--line:#24304A;--accent:#7FA6F5;--accent-ink:#0A101C;--signal:#FF6B55;color-scheme:dark}
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:var(--font-body);font-size:16px;line-height:1.5;-webkit-font-smoothing:antialiased}
+a{color:var(--accent)}
+.wrap{max-width:680px;margin:0 auto;padding:24px 20px 48px}
+.logo{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:800;font-size:20px;color:var(--ink);text-decoration:none}
+.logo svg{width:22px;height:22px;fill:var(--accent)}
+h1{font-family:var(--font-display);font-weight:800;font-size:clamp(36px,7vw,52px);line-height:.95;text-transform:uppercase;margin:20px 0 10px}
+h2{font-size:18px;margin:28px 0 6px}
+p,li{color:var(--ink)}
+.lead{color:var(--muted);margin:0 0 20px}
+form{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:grid;gap:14px}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:520px){.row2{grid-template-columns:1fr}}
+label{display:grid;gap:5px;font-weight:600;font-size:14px}
+label small{font-weight:400;color:var(--muted)}
+input,select,textarea{font:inherit;font-weight:400;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:10px 12px;width:100%}
+input:focus,select:focus,textarea:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:var(--accent)}
+textarea{min-height:90px;resize:vertical}
+.check{display:flex;gap:10px;align-items:flex-start;font-weight:400}
+.check input{width:auto;margin-top:4px}
+button{font:inherit;font-weight:600;background:var(--accent);color:var(--accent-ink);border:0;border-radius:6px;padding:12px 18px;cursor:pointer;justify-self:start}
+button[disabled]{opacity:.6;cursor:default}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.msg{padding:12px 14px;border-radius:6px;border:1px solid var(--line);background:var(--surface)}
+.msg.err{border-color:var(--signal);color:var(--signal)}
+.note{color:var(--muted);font-size:14px}
+footer{margin-top:32px;color:var(--muted);font-size:14px}

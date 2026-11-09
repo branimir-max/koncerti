@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Prijavi koncert · Gigomat</title>
+<meta name="description" content="Organiziraš svirku, sviraš u bendu ili vodiš klub? Prijavi koncert i pojavit će se na Gigomatu.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="stylesheet" href="fonts.css">
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<main class="wrap">
+  <a class="logo" href="./"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="3" height="10" rx="1"/><rect x="8.5" y="5" width="3" height="15" rx="1"/><rect x="14" y="8" width="3" height="12" rx="1"/><rect x="19.5" y="13" width="1.5" height="7" rx=".75"/></svg>Gigomat</a>
+  <h1>Prijavi koncert</h1>
+  <p class="lead">Sviraš u bendu, organiziraš svirku ili vodiš klub koji program objavljuje samo na društvenim mrežama? Javi nam koncert. Provjerimo ga i objavimo, obično isti ili sljedeći dan.</p>
+
+  <form id="f" novalidate>
+    <label>Izvođač ili naziv događaja
+      <input name="izvodjac" required maxlength="200" autocomplete="off" placeholder="npr. Amethyst + gosti">
+    </label>
+    <div class="row2">
+      <label>Datum
+        <input name="datum" type="date" required>
+      </label>
+      <label>Početak <small>(ako se zna)</small>
+        <input name="vrijeme" type="time">
+      </label>
+    </div>
+    <div class="row2">
+      <label>Prostor
+        <input name="prostor" required maxlength="120" placeholder="npr. Klub Palach">
+      </label>
+      <label>Grad
+        <select name="grad" required>
+          <option>Zagreb</option><option>Ljubljana</option><option>Rijeka</option><option>Split</option>
+          <option>Zabok</option><option>Budimpešta</option><option>Beč</option><option>Drugo</option>
+        </select>
+      </label>
+    </div>
+    <label>Poveznica na najavu ili ulaznice <small>(Facebook, Instagram, prodaja ulaznica…)</small>
+      <input name="link" type="url" maxlength="500" placeholder="https://">
+    </label>
+    <div class="row2">
+      <label>Cijena <small>(neobavezno)</small>
+        <input name="cijena" maxlength="80" placeholder="npr. 10 € / besplatno">
+      </label>
+      <label>Žanr <small>(neobavezno)</small>
+        <input name="zanr" maxlength="60" placeholder="npr. rock, jazz, DJ">
+      </label>
+    </div>
+    <label>Napomena <small>(neobavezno)</small>
+      <textarea name="napomena" maxlength="1000"></textarea>
+    </label>
+    <label>Tvoj e-mail <small>(neobavezno, samo ako želiš da ti se javimo s pitanjem)</small>
+      <input name="kontakt" type="email" maxlength="200" autocomplete="email">
+    </label>
+    <div class="hp" aria-hidden="true"><label>Web stranica <input name="web" tabindex="-1" autocomplete="off"></label></div>
+    <label class="check"><input type="checkbox" name="ok" required>
+      <span>Potvrđujem da su podaci točni i da Gigomat smije objaviti ovaj koncert. Kako postupamo s podacima piše u <a href="privatnost.html">pravilima privatnosti</a>.</span>
+    </label>
+    <button type="submit">Pošalji prijavu</button>
+    <div id="msg" class="msg" role="status" hidden></div>
+  </form>
+
+  <footer><a href="./">Natrag na koncerte</a> · <a href="privatnost.html">Privatnost</a> · <a href="mailto:info@gigomat.com">info@gigomat.com</a></footer>
+</main>
+<script>
+// Prijave idu na mali Cloudflare Worker koji ih šalje e-mailom na info@gigomat.com.
+const ENDPOINT = "https://gigomat-prijava.gigomat-com.workers.dev/";
+const f = document.getElementById("f"), msg = document.getElementById("msg"), t0 = Date.now();
+f.datum.min = new Date().toISOString().slice(0, 10);
+function show(text, err){ msg.textContent = text; msg.className = "msg" + (err ? " err" : ""); msg.hidden = false; }
+f.addEventListener("submit", async ev => {
+  ev.preventDefault();
+  const need = [["izvodjac","izvođača"],["datum","datum"],["prostor","prostor"]];
+  for (const [k, n] of need) if (!f[k].value.trim()) { show("Upiši " + n + ".", true); f[k].focus(); return; }
+  if (f.link.value && !/^https?:\/\//i.test(f.link.value)) { show("Poveznica treba počinjati s https://", true); f.link.focus(); return; }
+  if (!f.ok.checked) { show("Označi potvrdu na dnu obrasca.", true); return; }
+  const data = Object.fromEntries(new FormData(f).entries());
+  data.ms = Date.now() - t0;
+  const b = f.querySelector("button"); b.disabled = true; b.textContent = "Šaljem…";
+  try {
+    const r = await fetch(ENDPOINT, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(data)});
+    const j = await r.json().catch(() => ({}));
+    if (!r.ok || !j.ok) throw new Error(j.error || "greška");
+    f.reset(); show("Hvala! Prijava je stigla. Koncert ćemo provjeriti i objaviti.");
+  } catch (e) {
+    show("Slanje nije uspjelo (" + e.message + "). Pošalji nam podatke na info@gigomat.com.", true);
+  } finally { b.disabled = false; b.textContent = "Pošalji prijavu"; }
+});
+</script>
+</body>
+</html>

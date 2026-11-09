@@ -184,11 +184,16 @@ def main() -> None:
     html = re.sub(r"/\*__DATA__\*/\{.*?\};", lambda _: f"/*__DATA__*/{data_js};", html, count=1, flags=re.S)
     (SITE / "index.html").write_text(html)
     # Statične datoteke aplikacije (ikone, manifest, service worker)
-    for f in (ROOT / "template" / "static").iterdir():
+    static = ROOT / "template" / "static"
+    for f in static.rglob("*"):
+        if f.is_dir():
+            continue
         data = f.read_bytes()
         if f.name == "sw.js":
             data = data.replace(b"__VERSION__", hashlib.sha1(html.encode()).hexdigest()[:10].encode())
-        (SITE / f.name).write_bytes(data)
+        dest = SITE / f.relative_to(static)
+        dest.parent.mkdir(parents=True, exist_ok=True)
+        dest.write_bytes(data)
     (SITE / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1))
     print(f"{len(events)} događaja u {len(out_venues)} prostora (ručno {len(manual)}, automatski {len(scraped)})")
 
