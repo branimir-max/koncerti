@@ -1,2 +1,10 @@
 title: HNK - Koncert
 jsonld types: 
+bez prepoznatih datuma; html bytes=431324
+api/json hints: /hr/raspored/, /hr/raspored/?predstava=aida-nova, /hr/raspored/?predstava=cabaret, /hr/raspored/?predstava=ero-s-onoga-svijeta, /hr/raspored/?predstava=godine, /hr/raspored/?predstava=iza-kulisa, /hr/raspored/?predstava=kazimirs-colours-rossini-cards, /hr/raspored/?predstava=la-bohème, /hr/raspored/?predstava=maria-stuart, /hr/raspored/?predstava=[…], /hr/raspored/?predstava=nikola-šubić-zrinjski, /hr/raspored/?predstava=orašarr2025, /hr/raspored/?predstava=raseljene, /hr/raspored/?predstava=razgovori-karmelićanki, /hr/raspored/?predstava=richard-iii
+<select class=third.filter-select> Sve kategorije Opera Drama Balet Koncert Ostalo ZAGREBAČKI OPERNI FESTIVAL HNK2 HNK2EU
+<div class=item.keep-img-ratio> Ned 22 Koncert Zagrebački kvartet saksofona Haydn, Mozart i Sax None 11:00 Ulaznice u slobodnoj prodaji Rasprodano
+<h4 class=date> Ned 22
+<div class=content-wrapper> Koncert Zagrebački kvartet saksofona Haydn, Mozart i Sax None 11:00 Ulaznice u slobodnoj prodaji Rasprodano
+<div class=tickets> None 11:00 Ulaznice u slobodnoj prodaji Rasprodano
+<div class=copyright.footer-info> © 2026 HNK u Zagrebu. Fiksni tečaj konverzije: 1 EUR = 7,53450 HRK
