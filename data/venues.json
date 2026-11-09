@@ -467,5 +467,14 @@
    "Beertija"
   ],
   "city": "rijeka"
+ },
+ "liftclub": {
+  "name": "Lift Club",
+  "address": "",
+  "aliases": [
+   "Lift Club",
+   "Lift"
+  ],
+  "city": "zagreb"
  }
 }

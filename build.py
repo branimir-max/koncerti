@@ -50,6 +50,10 @@ presents predstavlja povodu svecani godisnji koncertna koncertne majstorski simf
 christmas bozicni bozic novogodisnji klapa klape tamburasi""".split())
 
 
+# tribute bendovi i tematske DJ večeri ("Lady Gaga - Mother Monster All Night", "ABBA tribute")
+COVER_NIGHT = re.compile(r"tribute|all[- ]night|\bhits night\b|sing-?along|karaoke|\bnight of\b|\bnoć\b|\bvečer\b", re.I)
+
+
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s.lower())
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -163,6 +167,8 @@ def main() -> None:
             return
         if e.get("genre") == "jazz" and "no jazz" in e["title"].lower() and "jazz" not in e["title"].lower().replace("no jazz", ""):
             e["genre"] = ""  # "NO Jazz" je naziv festivala, ne žanr
+        if not e.get("genre") and re.search(r"all[- ]night|\bparty\b|\bhits\b", e["title"], re.I):
+            e["genre"] = "dj"  # npr. "Lady Gaga - Mother Monster All Night" je DJ večer, ne koncert
         if NOT_MUSIC.search(e["title"]):  # sportske utakmice s prodaje ulaznica (npr. dvorana Tivoli)
             return
         if e["date"] > (date.today() + timedelta(days=550)).isoformat():  # očito krivi datumi (npr. 2030.)
@@ -172,6 +178,11 @@ def main() -> None:
             if not name:
                 return
             city = e.get("city") or "zagreb"
+            known = next((k for k, v in venues.items() if v.get("city", "zagreb") == city and
+                          name.strip().lower() in [a.lower() for a in v.get("aliases", [])]), None)
+            if known:
+                e["venue"] = known
+        if not e.get("venue") or e["venue"] not in venues:
             pfx = CITIES.get(city, {}).get("pfx", "")
             key = f"{pfx}-{slug(name)}" if pfx else slug(name)
             venues.setdefault(key, {"name": name.strip(), "address": "", "auto": True, "city": city})
@@ -234,9 +245,10 @@ def main() -> None:
         artists = json.loads(artists_path.read_text())
         for b in buckets.values():
             for e in b:
+                cover = COVER_NIGHT.search(e["title"])  # tribute ili tematska večer: žanr da, poveznice ne
                 a = artists.get(anorm(artist_query(e["title"])))
                 if a and a.get("mbid") and a.get("links"):
-                    if a.get("links"):
+                    if a.get("links") and not cover:
                         e["links"] = {k: u for k, u in a["links"].items() if re.match(r"^https?://", u or "")}
                     if a.get("genre") and e.get("genre") in ("", "ostalo", None):
                         e["genre"] = a["genre"]
@@ -247,6 +259,8 @@ def main() -> None:
         ev_links = json.loads(ev_links_path.read_text())
         for b in buckets.values():
             for e in b:
+                if COVER_NIGHT.search(e["title"]):
+                    continue
                 extra = trust_links(e["title"], (ev_links.get(e.get("url") or "") or {}).get("clean") or {})
                 if extra:
                     links = dict(extra)
