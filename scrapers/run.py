@@ -217,6 +217,31 @@ def scrape(src: dict) -> list[dict]:
     return out
 
 
+_ROBOTS: dict = {}
+
+
+def robots_blocked(urls: list[str]) -> list[str]:
+    """Koje adrese robots.txt stranice ne dopušta automatskom čitanju (za naš UA ili sve)."""
+    from urllib.parse import urlsplit
+    from urllib.robotparser import RobotFileParser
+    from .base import UA
+    out = []
+    for u in urls:
+        p = urlsplit(u)
+        root = f"{p.scheme}://{p.netloc}"
+        if root not in _ROBOTS:
+            rp = RobotFileParser()
+            try:
+                txt = fetch(root + "/robots.txt")
+                rp.parse(txt.splitlines())
+            except Exception:  # noqa: BLE001 – bez robots.txt sve je dopušteno
+                rp.parse([])
+            _ROBOTS[root] = rp
+        if not _ROBOTS[root].can_fetch(UA.split("/")[0], u):
+            out.append(u)
+    return out
+
+
 def main(only: list[str] | None = None) -> int:
     OUT.mkdir(parents=True, exist_ok=True)
     report = {"run_at": datetime.now(timezone.utc).isoformat(timespec="seconds"), "sources": {}}
@@ -239,6 +264,12 @@ def main(only: list[str] | None = None) -> int:
                 status = {"ok": False, "count": 0, "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"}
         except Exception as ex:  # noqa: BLE001 – jedan izvor ne smije srušiti ostale
             status = {"ok": False, "count": 0, "error": f"{type(ex).__name__}: {ex}"[:300]}
+        try:
+            blocked = robots_blocked(src["urls"])
+            if blocked:
+                status["robots"] = "zabranjeno: " + ", ".join(blocked)[:300]
+        except Exception:  # noqa: BLE001
+            pass
         report["sources"][src["key"]] = status
         print(f"{src['key']:10} {'OK ' if status['ok'] else 'ERR'} {status['count']:4}  {status.get('error', '')}")
     (ROOT / "data" / "report.json").write_text(json.dumps(report, ensure_ascii=False, indent=1))
