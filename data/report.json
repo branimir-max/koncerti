@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T14:45:49+00:00",
+ "run_at": "2026-11-09T23:50:29+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -7,11 +7,11 @@
   },
   "tvornica": {
    "ok": true,
-   "count": 14
+   "count": 30
   },
   "mocvara": {
    "ok": true,
-   "count": 12
+   "count": 11
   },
   "dvaosam": {
    "ok": true,
@@ -42,29 +42,37 @@
    "ok": true,
    "count": 115
   },
-  "songkick": {
+  "ticketmaster-zagreb": {
    "ok": true,
-   "count": 52
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "ticketmaster-ljubljana": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "ticketmaster-budimpesta": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "ticketmaster-bec": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
   },
   "songkick-ljubljana": {
    "ok": true,
-   "count": 85
-  },
-  "songkick-split": {
-   "ok": true,
-   "count": 1
-  },
-  "songkick-rijeka": {
-   "ok": true,
-   "count": 5
+   "count": 84
   },
   "songkick-budimpesta": {
    "ok": true,
-   "count": 123
+   "count": 124
   },
   "songkick-bec": {
    "ok": true,
-   "count": 242
+   "count": 237
   },
   "hnk-opera": {
    "ok": true,
@@ -81,7 +89,7 @@
   },
   "kinosiska": {
    "ok": true,
-   "count": 3
+   "count": 2
   },
   "orto": {
    "ok": false,

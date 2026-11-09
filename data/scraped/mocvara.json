@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-09",
-  "time": "20:30",
-  "title": "Sólstafir, Moraines",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
   "date": "2026-11-11",
   "time": "20:30",
   "title": "Mladen, Pozeri, Felina",
@@ -55,6 +44,17 @@
   "source": "mocvara"
  },
  {
+  "date": "2026-11-13",
+  "time": "23:00",
+  "title": "Majmuniranje – indie party",
+  "venue": "mocvara",
+  "genre": "dj",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
   "date": "2026-11-16",
   "time": "",
   "title": "Još gori u Začaranoj Močvari, dan drugi",
@@ -84,17 +84,6 @@
   "genre": "",
   "price": "",
   "url": "https://mochvara.hr/event-detail/6aba39cd285befa19b3eba6d/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
-  "date": "2026-11-09",
-  "time": "",
-  "title": "Sólstafir",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6a8d4de3c3276ddebd3550f9/",
   "city": "zagreb",
   "source": "mocvara"
  },

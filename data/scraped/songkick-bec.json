@@ -1,77 +1,5 @@
 [
  {
-  "date": "2026-11-09",
-  "time": "19:30",
-  "title": "Nico Santos",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/42284076-nico-santos-at-halle-d-wiener-stadthalle?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Halle D, Wiener Stadthalle",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-09",
-  "time": "20:00",
-  "title": "Mine",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/42936148-mine-at-ottakringer-brauerei?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Ottakringer Brauerei",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-09",
-  "time": "",
-  "title": "David Eugene Edwards",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43205681-david-eugene-edwards-at-flucc?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "FLUCC",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-09",
-  "time": "19:30",
-  "title": "Branford Marsalis",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43392303-branford-marsalis-at-grosser-saal-wiener-konzerthaus?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Großer Saal, Wiener Konzerthaus",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-09",
-  "time": "19:00",
-  "title": "Drawn And Quartered",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43386254-drawn-and-quartered-at-arena-wien?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Arena Wien",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-10",
-  "time": "19:30",
-  "title": "Placebo",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43118919-placebo-at-halle-d-wiener-stadthalle?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Halle D, Wiener Stadthalle",
-  "source": "songkick-bec"
- },
- {
   "date": "2026-11-10",
   "time": "19:00",
   "title": "Gloryhammer",
@@ -2899,6 +2827,18 @@
   "genre": "",
   "price": "",
   "url": "https://www.songkick.com/concerts/42976892-simone-kopmajer-at-globe-wien-marx-halle-studio-2?utm_medium=organic&utm_source=microformat",
+  "city": "bec",
+  "venue_name": "Globe Wien - Marx Halle - Studio 2",
+  "source": "songkick-bec"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "",
+  "title": "Viktor Gernot",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/42978280-viktor-gernot-at-globe-wien-marx-halle-studio-2?utm_medium=organic&utm_source=microformat",
   "city": "bec",
   "venue_name": "Globe Wien - Marx Halle - Studio 2",
   "source": "songkick-bec"
