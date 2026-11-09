@@ -1,7 +1,7 @@
 {
-  "name": "Koncerti u Zagrebu",
-  "short_name": "Koncerti ZG",
-  "description": "Svi koncerti i DJ večeri u Zagrebu na jednom mjestu.",
+  "name": "Gigomat – koncerti u tvom gradu",
+  "short_name": "Gigomat",
+  "description": "Svi koncerti i DJ večeri u Zagrebu, Ljubljani, Rijeci, Splitu, Beču i Budimpešti.",
   "lang": "hr",
   "start_url": "./",
   "scope": "./",

@@ -22,7 +22,7 @@ from bs4 import BeautifulSoup
 
 ROOT = Path(__file__).resolve().parent.parent
 CACHE = ROOT / "data" / "eventlinks.json"
-UA = "KoncertiZagreb/0.2 (+https://github.com/branimir-max/koncerti)"
+UA = "Gigomat/0.3 (+https://github.com/branimir-max/koncerti)"
 MAX_FETCH = 250
 # Agregatori i prodaja ulaznica nemaju korisne poveznice bendova
 SKIP_HOSTS = ("songkick.com", "ulaznice.hr", "entrio.hr", "eventim", "karlobag.eu")

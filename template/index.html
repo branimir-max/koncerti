@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Koncerti u Zagrebu</title>
+<title>Gigomat · Koncerti u Zagrebu</title>
 <meta name="description" content="Svi koncerti i DJ večeri u Zagrebu na jednom mjestu: Lisinski, Tvornica, Močvara, Vintage, Boogaloo i ostali.">
 <meta name="theme-color" content="#1D4E9E">
 <link rel="manifest" href="manifest.webmanifest">
@@ -11,10 +11,10 @@
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-title" content="Koncerti ZG">
+<meta name="apple-mobile-web-app-title" content="Gigomat">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta property="og:title" content="Koncerti u Zagrebu">
-<meta property="og:description" content="Svi koncerti i DJ večeri u Zagrebu na jednom mjestu.">
+<meta property="og:title" content="Gigomat · koncerti u tvom gradu">
+<meta property="og:description" content="Svi koncerti i DJ večeri u Zagrebu, Ljubljani, Rijeci, Splitu, Beču i Budimpešti.">
 <meta property="og:image" content="icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -64,6 +64,8 @@ h1{font-family:var(--font-display);font-weight:800;font-size:clamp(44px,8vw,76px
 h1 span{color:var(--accent)}
 h1 .home{color:inherit;text-decoration:none}
 h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
+.logo{flex:1 0 100%;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:800;font-size:20px;letter-spacing:.3px;color:var(--ink);text-decoration:none;margin-bottom:2px}
+.logo svg{width:22px;height:22px;fill:var(--accent)}
 .cities{flex:1 0 100%;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -2px 4px;padding:2px}
 .cities::-webkit-scrollbar{display:none}
 .cities a{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;white-space:nowrap}
@@ -209,6 +211,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 <header class="top">
   <div class="wrap">
     <div class="brand">
+      <a class="logo" href="./" aria-label="Gigomat, početna"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="10" width="3" height="10" rx="1"/><rect x="8.5" y="5" width="3" height="15" rx="1"/><rect x="14" y="8" width="3" height="12" rx="1"/><rect x="19.5" y="13" width="1.5" height="7" rx=".75"/></svg>Gigomat</a>
       <nav class="cities" id="cities" aria-label="Grad" hidden></nav>
       <h1><a href="./" class="home" title="Početna">Koncerti<br><span id="cityIn">u Zagrebu</span></a></h1>
       <p class="meta" id="meta"></p>
@@ -220,7 +223,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 <div id="install" class="install" hidden>
   <div class="wrap install-in">
     <img src="icon-192.png" alt="" width="40" height="40">
-    <div><b>Stavi Koncerte na mobitel</b><span id="installHint">Otvara se kao aplikacija, radi i bez interneta.</span></div>
+    <div><b>Stavi Gigomat na mobitel</b><span id="installHint">Otvara se kao aplikacija, radi i bez interneta.</span></div>
     <button type="button" id="installBtn">Instaliraj</button>
     <button type="button" id="installClose" class="x" aria-label="Zatvori">×</button>
   </div>
@@ -332,7 +335,7 @@ let CITY = (()=>{
 })();
 const PRE = CITY==="zagreb" ? "" : CITY+"-";   // prefiks kalendara i RSS-a za druge gradove
 document.getElementById("cityIn").textContent = CITIES[CITY].in;
-document.title = "Koncerti " + CITIES[CITY].in;
+document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
 (function(){
   // Gradovi kao gumbi iznad naslova (s brojem nadolazećih koncerata)
   const keys = Object.keys(CITIES); if (keys.length < 2) return;
@@ -642,7 +645,7 @@ function toast(e){
 }
 function downloadICS(list, name){
   const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
-  const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Koncerti u Zagrebu//HR","X-WR-CALNAME:Moji koncerti"];
+  const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Gigomat//HR","X-WR-CALNAME:Moji koncerti"];
   const alarms = e => (REM ? REM.split(",") : []).flatMap(m => ["BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${x(e.artist)}`,
     // koncert bez satnice traje cijeli dan: "dan prije" = 12 h prije ponoći, tj. podne dan ranije
     `TRIGGER:-PT${e.time ? m : (m==="180" ? 0 : 720)}M`, "END:VALARM"]);
