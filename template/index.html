@@ -305,8 +305,8 @@ const VENUES = Object.fromEntries(Object.entries(DATA.venues).map(([k,v])=>[k,{n
 const CITIES = DATA.cities || {zagreb:{name:"Zagreb", in:"u Zagrebu"}};
 const cityName = c => (CITIES[c]||CITIES.zagreb).name;
 const GENRES = {
-  rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", pop:"Pop", narodna:"Narodna",
-  elektro:"Elektronika", dj:"DJ party", hiphop:"Hip-hop / rap", jazz:"Jazz", klasika:"Klasika", opera:"Opera i balet", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
+  rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", jazz:"Jazz", blues:"Blues", pop:"Pop", hiphop:"Hip-hop / rap",
+  elektro:"Elektronika", dj:"DJ party", klasika:"Klasika", opera:"Opera i balet", world:"World", trad:"Tradicijska", narodna:"Narodna", djeca:"Za djecu", ostalo:"Ostalo"
 };
 
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
@@ -432,7 +432,7 @@ document.getElementById("venue").addEventListener("change", e=>{ S.venue=e.targe
 // genre chips
 (function(){
   const counts = {}; upcoming.forEach(e=>counts[e.genre]=(counts[e.genre]||0)+1);
-  const keys = Object.keys(GENRES).filter(k=>counts[k]).sort((a,b)=>counts[b]-counts[a]);
+  const keys = Object.keys(GENRES).filter(k=>counts[k]);
   document.getElementById("genres").innerHTML = keys.map(k=>`<button type="button" class="chip" data-g="${k}" aria-pressed="false">${GENRES[k]}</button>`).join("");
 })();
 document.getElementById("genres").addEventListener("click", ev=>{

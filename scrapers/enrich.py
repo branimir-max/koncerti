@@ -38,7 +38,7 @@ GENRE_MAP = [
     ("techno", "elektro"), ("house", "elektro"), ("electronic", "elektro"), ("ambient", "elektro"),
     ("drum and bass", "elektro"), ("synth", "alt"), ("post-punk", "alt"), ("indie", "alt"), ("alternative", "alt"),
     ("shoegaze", "alt"), ("darkwave", "alt"), ("experimental", "alt"), ("folk", "world"), ("world", "world"),
-    ("reggae", "world"), ("blues", "rock"), ("rock", "rock"), ("pop", "pop"), ("schlager", "narodna"),
+    ("reggae", "world"), ("blues", "blues"), ("rock", "rock"), ("pop", "pop"), ("schlager", "narodna"),
     ("turbo-folk", "narodna"), ("singer-songwriter", "pop"), ("soul", "pop"), ("funk", "pop"),
 ]
 

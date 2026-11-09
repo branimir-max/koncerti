@@ -94,6 +94,7 @@ SOURCES = [
 GENRE_WORDS = [
     ("djeca", ["za djecu", "dječj", "djecu", "minimini", "glazbena priča", "božićni sat", "vilenjak"]),
     ("jazz", ["jazz"]),
+    ("blues", ["blues"]),
     ("hiphop", ["hip hop", "hip-hop", " rap ", " rapper", " trap ", "freestyle"]),
     ("opera", ["opera ", "opera:", "opere", "operet", "opernih", "balet"]),
     ("world", ["izvorišta", "sevdah", "flamenco", "drummers of japan"]),

@@ -198,9 +198,10 @@ def main() -> None:
     print(f"{len(events)} događaja u {len(out_venues)} prostora (ručno {len(manual)}, automatski {len(scraped)})")
 
 
-GENRES = {"rock": "Rock", "metal": "Metal", "punk": "Punk", "alt": "Alternativa", "pop": "Pop", "narodna": "Narodna",
-          "elektro": "Elektronika", "dj": "DJ party", "hiphop": "Hip-hop / rap", "jazz": "Jazz", "klasika": "Klasika", "opera": "Opera i balet", "trad": "Tradicijska",
-          "world": "World", "djeca": "Za djecu", "ostalo": "Ostalo"}
+GENRES = {"rock": "Rock", "metal": "Metal", "punk": "Punk", "alt": "Alternativa", "jazz": "Jazz", "blues": "Blues",
+          "pop": "Pop", "hiphop": "Hip-hop / rap", "elektro": "Elektronika", "dj": "DJ party", "klasika": "Klasika",
+          "opera": "Opera i balet", "world": "World", "trad": "Tradicijska", "narodna": "Narodna", "djeca": "Za djecu",
+          "ostalo": "Ostalo"}
 
 VTIMEZONE = """BEGIN:VTIMEZONE
 TZID:Europe/Zagreb
