@@ -51,21 +51,21 @@
 :root[data-city="split"]{--accent:#0F78B0;--accent-soft:#DFF0F9;--accent-ink:#FFFFFF}
 :root[data-city="rijeka"]{--accent:#8E1B3A;--accent-soft:#F6E3E8;--accent-ink:#FFFFFF}
 :root[data-city="zabok"]{--accent:#127F80;--accent-soft:#DDF2F1;--accent-ink:#FFFFFF}
-:root[data-city="budimpesta"]{--accent:#9A6B00;--accent-soft:#F7EDD3;--accent-ink:#FFFFFF}
+:root[data-city="budimpesta"]{--accent:#7A4A2A;--accent-soft:#F1E6DD;--accent-ink:#FFFFFF}
 :root[data-city="bec"]{--accent:#C8201B;--accent-soft:#FAE1E0;--accent-ink:#FFFFFF}
 @media (prefers-color-scheme: dark){
   :root[data-city="ljubljana"]:not([data-theme="light"]){--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
   :root[data-city="split"]:not([data-theme="light"]){--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
   :root[data-city="rijeka"]:not([data-theme="light"]){--accent:#E46E8D;--accent-soft:#3A1220;--accent-ink:#0A101C}
   :root[data-city="zabok"]:not([data-theme="light"]){--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
-  :root[data-city="budimpesta"]:not([data-theme="light"]){--accent:#F2C14E;--accent-soft:#3A2E10;--accent-ink:#1A1300}
+  :root[data-city="budimpesta"]:not([data-theme="light"]){--accent:#C99470;--accent-soft:#3A2A1F;--accent-ink:#1A120C}
   :root[data-city="bec"]:not([data-theme="light"]){--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
 }
 :root[data-theme="dark"][data-city="ljubljana"]{--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
 :root[data-theme="dark"][data-city="split"]{--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
 :root[data-theme="dark"][data-city="rijeka"]{--accent:#E46E8D;--accent-soft:#3A1220;--accent-ink:#0A101C}
 :root[data-theme="dark"][data-city="zabok"]{--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
-:root[data-theme="dark"][data-city="budimpesta"]{--accent:#F2C14E;--accent-soft:#3A2E10;--accent-ink:#1A1300}
+:root[data-theme="dark"][data-city="budimpesta"]{--accent:#C99470;--accent-soft:#3A2A1F;--accent-ink:#1A120C}
 :root[data-theme="dark"][data-city="bec"]{--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
@@ -318,7 +318,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 </main>
 
 <footer class="wrap">
-  <p><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick. Podaci se automatski osvježavaju svaki dan.</p>
+  <p id="sources"><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick. Podaci se automatski osvježavaju svaki dan.</p>
   <p>Datumi i cijene mogu se promijeniti, pa prije kupnje ulaznice provjeri kod organizatora (poveznica „Izvor” uz svaki koncert).</p>
   <p><strong>Organiziraš svirku ili sviraš u bendu?</strong> <a href="prijavi.html">Prijavi koncert</a> · <a href="privatnost.html">Privatnost</a> · <a href="mailto:info@gigomat.com">info@gigomat.com</a></p>
   <p class="tm">Gigomat™ i izgled stranice zaštićeni su autorskim pravom. © 2026 Gigomat</p>
@@ -395,6 +395,18 @@ const FEST = (DATA.festivals||[]).map(f=>({...f, genre:GENRES[f.genre]?f.genre:"
 document.documentElement.dataset.city = CITY;
 (function(){ const m=document.querySelector('meta[name="theme-color"]'); if(m) m.content = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || m.content; })();   // prefiks kalendara i RSS-a za druge gradove
 document.getElementById("cityIn").textContent = CITIES[CITY].in;
+(function(){
+  // Izvori u podnožju za odabrani grad
+  const SRC = {
+    zagreb: "službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack!, Vintage, HNK…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick",
+    ljubljana: "službeni program Kina Šiška i Songkick",
+    rijeka: "prodaja ulaznica (Ulaznice.hr, Core Event), kalendar Visit Rijeka i Songkick",
+    split: "prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick",
+    zabok: "prodaja ulaznica (Ulaznice.hr, Core Event)",
+  };
+  const el = document.getElementById("sources");
+  if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "Songkick") + ". Podaci se automatski osvježavaju svaki dan.";
+})();
 document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
 (function(){
   // Gradovi kao gumbi iznad naslova (s brojem nadolazećih koncerata)

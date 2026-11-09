@@ -22,6 +22,10 @@ VENUES = json.loads((ROOT / "data" / "venues.json").read_text())
 CITIES = json.loads((ROOT / "data" / "cities.json").read_text())
 
 
+GENERIC_TITLES = {"koncert", "koncerti", "dogodek", "dogodki", "događaj", "concert", "event", "klub", "festival",
+                  "predstava", "party", "zabava"}
+
+
 def city_of(place: str) -> str | None:
     """Grad iz teksta mjesta ('Dom mladih, Split' -> 'split')."""
     p = place.lower()
@@ -208,6 +212,12 @@ def scrape(src: dict) -> list[dict]:
             continue
         for pat in src.get("strip", []):
             e["title"] = re.sub(pat, "", e["title"], flags=re.I).strip()
+        # Naslov je samo kategorija ("koncert", "dogodek"): pravi naziv uzmi iz adrese događaja
+        if e["title"].strip().lower() in GENERIC_TITLES:
+            slug = (e.get("url") or "").rstrip("/").rsplit("/", 1)[-1]
+            if not slug or "dostava" in slug:
+                continue  # npr. "Kino Šiška dostava": događaj je u drugom prostoru, a ne znamo kojem
+            e["title"] = slug.replace("-", " ").title()
         e["title"] = nice_case(clean(e["title"]))
         # ukrasi s najava: emojiji na rubovima i "… u Rijeci!" / "… u Pogonu!" na kraju
         e["title"] = re.sub(r"^[^\w\"„(]+|[^\w)\"”'’.?!]+$", "", e["title"]).strip()
