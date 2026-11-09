@@ -165,7 +165,10 @@ def main() -> None:
         e["city"] = venues[e["venue"]].get("city", "zagreb")
     used_cities = {e["city"] for e in events} | {"zagreb"}
     out_cities = {k: {"name": c["name"], "in": c["in"]} for k, c in CITIES.items() if k in used_cities}
-    payload = {"updated": today, "site_url": SITE_URL, "cities": out_cities, "venues": out_venues, "events": events}
+    out_cities = {k: {"name": c["name"], "in": c["in"], "lat": c.get("lat"), "lon": c.get("lon")} for k, c in CITIES.items() if k in used_cities}
+    festivals = build_festivals(events, today)
+    payload = {"updated": today, "site_url": SITE_URL, "cities": out_cities, "venues": out_venues, "events": events,
+               "festivals": festivals}
 
     # Stabilan kratki ID i datum prve pojave (za RSS "novo najavljeno")
     seen_path = DATA / "seen.json"
@@ -179,6 +182,7 @@ def main() -> None:
 
     SITE.mkdir(exist_ok=True)
     write_feeds(events, out_venues)
+    (SITE / "cal" / "festivali.ics").write_text(festivals_ics(festivals), newline="")
     html = (ROOT / "template" / "index.html").read_text()
     data_js = json.dumps(payload, ensure_ascii=False).replace("</", "<\\/")
     html = re.sub(r"/\*__DATA__\*/\{.*?\};", lambda _: f"/*__DATA__*/{data_js};", html, count=1, flags=re.S)
@@ -276,6 +280,55 @@ def rss(events: list[dict], venues: dict, name: str, city_in: str = "u Zagrebu")
     return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
             f"<title>{esc(name)}</title><link>{SITE_URL}</link>"
             f"<description>Novo najavljeni koncerti {esc(city_in)}</description><language>hr</language>{''.join(items)}</channel></rss>")
+
+
+def km(a: dict, b: dict) -> float:
+    import math
+    if a.get("lat") is None or b.get("lat") is None:
+        return 9999
+    p1, p2 = math.radians(a["lat"]), math.radians(b["lat"])
+    h = math.sin((p2 - p1) / 2) ** 2 + math.cos(p1) * math.cos(p2) * math.sin(math.radians(b["lon"] - a["lon"]) / 2) ** 2
+    return 12742 * math.asin(math.sqrt(h))
+
+
+def build_festivals(events: list[dict], today: str) -> list[dict]:
+    """Festivali iz data/festivals.json. Datumi sljedećeg izdanja: potvrđeni ("next", ručno ili
+    od robota scrapers/festivals.py), inače iz skupljenih koncerata čiji naslov sadrži ime festivala."""
+    path = DATA / "festivals.json"
+    if not path.exists():
+        return []
+    out = []
+    for f in json.loads(path.read_text())["festivals"]:
+        nxt = f.get("next") or {}
+        dates = (nxt["from"], nxt["to"]) if nxt.get("to", "") >= today else None
+        if not dates:
+            key = " ".join(w for w in norm_all(f["name"]) if w not in {"festival", "fest", "croatia"})
+            hits = sorted(e["date"] for e in events if len(key) >= 5 and e["date"] >= today
+                          and km(CITIES[e["city"]], f) <= 60 and f" {key} " in " " + " ".join(norm_all(e["title"])) + " ")
+            if hits and (date.fromisoformat(hits[-1]) - date.fromisoformat(hits[0])).days <= 14:
+                dates = (hits[0], hits[-1])
+        last = f.get("last") or {}
+        out.append({"key": f["key"], "name": f["name"], "place": f["place"], "city": f.get("city", ""),
+                    "lat": f["lat"], "lon": f["lon"], "url": f.get("url", ""), "genre": f.get("genre", "ostalo"),
+                    "from": dates[0] if dates else "", "to": dates[1] if dates else "",
+                    "last": [last["from"], last["to"]] if last.get("from") and last["to"] < today else None})
+    return out
+
+
+def festivals_ics(festivals: list[dict]) -> str:
+    stamp = datetime.now(timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+    lines = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Gigomat//HR", "CALSCALE:GREGORIAN", "METHOD:PUBLISH",
+             "X-WR-CALNAME:Festivali u Hrvatskoj", "REFRESH-INTERVAL;VALUE=DURATION:PT12H", "X-PUBLISHED-TTL:PT12H"]
+    for f in festivals:
+        if not f["from"]:
+            continue
+        end = (date.fromisoformat(f["to"]) + timedelta(days=1)).strftime("%Y%m%d")
+        lines += ["BEGIN:VEVENT", f"UID:fest-{f['key']}-{f['from'][:4]}@gigomat.com", f"DTSTAMP:{stamp}",
+                  f"DTSTART;VALUE=DATE:{f['from'].replace('-', '')}", f"DTEND;VALUE=DATE:{end}",
+                  f"SUMMARY:{ics_escape(f['name'])}", f"LOCATION:{ics_escape(f['place'])}",
+                  f"DESCRIPTION:{ics_escape(GENRES.get(f['genre'], ''))}"] + ([f"URL:{f['url']}"] if f["url"] else []) + ["END:VEVENT"]
+    lines.append("END:VCALENDAR")
+    return "\r\n".join(ics_fold(l) for l in lines) + "\r\n"
 
 
 def write_feeds(events: list[dict], venues: dict) -> None:

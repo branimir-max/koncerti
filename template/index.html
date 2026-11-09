@@ -95,6 +95,31 @@ h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text
 .cities a sup{font-family:var(--font-body);font-size:11px;font-weight:600;letter-spacing:0;margin-left:3px;vertical-align:top;position:relative;top:-2px;opacity:.8}
 .cities a:hover{color:var(--ink)}
 .cities a[aria-current="page"]{color:var(--ink)}
+.cities a.fest{margin-left:auto;padding-left:14px;border-left:1px solid var(--line);color:var(--ink)}
+.cities a.fest[aria-current="page"]::after{left:14px}
+body.festmode .bar,body.festmode .quick,body.festmode .status,body.festmode #soon,body.festmode #banner,body.festmode #panel{display:none}
+body.festmode .cities a[data-city]::after{display:none}
+body.festmode .cities a[data-city]{color:var(--muted)}
+.fhead{display:flex;flex-wrap:wrap;gap:8px 16px;align-items:center;padding:16px 0 4px;color:var(--muted);font-size:13.5px}
+.fhead select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:6px;padding:4px 6px}
+.fhead .seg{display:inline-flex;border:1px solid var(--line);border-radius:6px;overflow:hidden}
+.fhead .seg button{all:unset;cursor:pointer;padding:4px 10px;font-size:13px}
+.fhead .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.fhead a{color:var(--accent);margin-left:auto}
+.fsec{margin-top:22px}
+.fsec>h2{font-family:var(--font-display);font-weight:800;font-size:15px;text-transform:uppercase;letter-spacing:.08em;margin:0;padding:6px 0;border-bottom:1px solid var(--ink)}
+.fsec>p{color:var(--muted);font-size:13.5px;margin:8px 0 0}
+.fe{display:grid;grid-template-columns:92px minmax(0,1fr) auto;gap:4px 16px;padding:12px 0;border-bottom:1px solid var(--line);align-items:start}
+.fe .when{font-family:var(--font-display);font-weight:800;font-size:19px;line-height:1.05}
+.fe .when small{display:block;font-family:var(--font-body);font-weight:500;font-size:12px;color:var(--muted);margin-top:3px}
+.fe .when.tbd{font-size:14px;color:var(--muted);font-weight:600}
+.fe h3{margin:0;font-family:var(--font-display);font-weight:600;font-size:23px;line-height:1.05}
+.fe h3 a{color:inherit;text-decoration:none}.fe h3 a:hover{color:var(--accent)}
+.fe .sub{display:flex;flex-wrap:wrap;gap:4px 10px;align-items:center;margin-top:4px;color:var(--muted);font-size:13.5px}
+.fe .sub a{color:var(--muted)}
+.fe .km{font-variant-numeric:tabular-nums;font-weight:600;white-space:nowrap;font-size:14px}
+.ev.fest{background:linear-gradient(90deg,var(--accent-soft),transparent 70%);border-left:4px solid var(--accent);padding-left:10px}
+.ev.fest .time{font-size:11.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
 .cities a[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:4px;background:var(--accent)}
 .loadmore{display:flex;justify-content:center;margin:18px 0 6px}
 .loadmore button{font:inherit;font-weight:600;font-size:15px;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:0;padding:12px 22px;cursor:pointer;text-transform:uppercase;letter-spacing:.04em;font-family:var(--font-display);font-size:18px}
@@ -365,6 +390,7 @@ let CITY = (()=>{
   return CITIES[c] ? c : "zagreb";
 })();
 const PRE = CITY==="zagreb" ? "" : CITY+"-";
+const FEST = (DATA.festivals||[]).map(f=>({...f, genre:GENRES[f.genre]?f.genre:"ostalo"}));
 document.documentElement.dataset.city = CITY;
 (function(){ const m=document.querySelector('meta[name="theme-color"]'); if(m) m.content = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || m.content; })();   // prefiks kalendara i RSS-a za druge gradove
 document.getElementById("cityIn").textContent = CITIES[CITY].in;
@@ -374,7 +400,8 @@ document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
   const keys = Object.keys(CITIES); if (keys.length < 2) return;
   const n = {}; EVENTS.forEach(e=>{ if (e.date>=TODAY) n[e.city]=(n[e.city]||0)+1; });
   const nav = document.getElementById("cities");
-  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}<sup>${n[k]}</sup></a>`).join("");
+  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}<sup>${n[k]}</sup></a>`).join("")
+    + (FEST.length ? `<a href="#festivali" class="fest" data-fest>Festivali<sup>${FEST.length}</sup></a>` : "");
   nav.hidden = false;
   nav.addEventListener("click", ev=>{
     const a = ev.target.closest("[data-city]"); if (!a) return;
@@ -383,6 +410,58 @@ document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
   const cur = nav.querySelector('[aria-current]'); if (cur && cur.scrollIntoView) cur.scrollIntoView({block:"nearest", inline:"center"});
 })();
 const upcoming = EVENTS.filter(e => e.date >= TODAY && e.city === CITY);
+
+// ---------- Festivali ----------
+function km(a,b){
+  if (!a || a.lat==null || b.lat==null) return null;
+  const r=Math.PI/180, h=Math.sin((b.lat-a.lat)*r/2)**2+Math.cos(a.lat*r)*Math.cos(b.lat*r)*Math.sin((b.lon-a.lon)*r/2)**2;
+  return Math.round(12742*Math.asin(Math.sqrt(h)));
+}
+const fLive = f => f.from && f.to >= TODAY;
+function fRange(a,b){
+  const x=parse(a), y=parse(b);
+  if (a===b) return `${x.getDate()}. ${MONTHS[x.getMonth()]}`;
+  return x.getMonth()===y.getMonth() ? `${x.getDate()}.–${y.getDate()}. ${MONTHS[y.getMonth()]}` : `${x.getDate()}. ${MONTHS[x.getMonth()]} – ${y.getDate()}. ${MONTHS[y.getMonth()]}`;
+}
+const NEAR_KM = 100;   // festivali do ove udaljenosti pojavljuju se i u popisu koncerata grada
+const nearFest = FEST.filter(f=>fLive(f) && (f.city===CITY || (km(CITIES[CITY],f)??999) <= NEAR_KM));
+let FCITY = CITY, FSORT = "date";
+function festMapLink(f){ return `https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lon}`; }
+function festGcal(f){
+  const end = iso(addDays(parse(f.to),1)).replace(/-/g,"");
+  return "https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(f.name)+"&dates="+f.from.replace(/-/g,"")+"/"+end+"&location="+encodeURIComponent(f.place)+(f.url?"&details="+encodeURIComponent(f.url):"");
+}
+function feHTML(f){
+  const d = km(CITIES[FCITY], f);
+  const x = f.from ? parse(f.from) : null;
+  const yr = x && x.getFullYear()!==parse(TODAY).getFullYear() ? x.getFullYear()+"." : "";
+  const when = fLive(f) ? `<div class="when">${fRange(f.from,f.to)}${yr?`<small>${yr}</small>`:""}</div>`
+    : `<div class="when tbd">uskoro${f.last?`<small>prošli put ${fRange(f.last[0],f.last[1])}</small>`:""}</div>`;
+  const name = f.url ? `<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name);
+  return `<article class="fe">${when}<div><h3>${name}</h3>
+    <div class="sub"><a href="${festMapLink(f)}" target="_blank" rel="noopener">${esc(f.place)}</a><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
+    <div class="km" title="Zračna udaljenost od grada ${esc(cityName(FCITY))}">${d==null?"":d<5?"u gradu":"~"+d+" km"}</div></article>`;
+}
+function renderFest(){
+  const dist = f => km(CITIES[FCITY], f) ?? 9999;
+  const md = f => f.last ? f.last[0].slice(5) : "99";
+  const live = FEST.filter(fLive).sort((a,b)=> FSORT==="km" ? dist(a)-dist(b) : a.from.localeCompare(b.from));
+  const tbd = FEST.filter(f=>!fLive(f)).sort((a,b)=> FSORT==="km" ? dist(a)-dist(b) : md(a).localeCompare(md(b)) || a.name.localeCompare(b.name));
+  const opts = Object.keys(CITIES).filter(k=>CITIES[k].lat!=null).map(k=>`<option value="${k}"${k===FCITY?" selected":""}>${esc(CITIES[k].name)}</option>`).join("");
+  return `<div class="fhead"><label>Udaljenost od <select id="fcity">${opts}</select></label>
+    <span class="seg" role="group" aria-label="Poredaj"><button type="button" data-fsort="date" aria-pressed="${FSORT==="date"}">Po datumu</button><button type="button" data-fsort="km" aria-pressed="${FSORT==="km"}">Najbliži</button></span>
+    <a href="${("webcal://"+location.host+location.pathname.replace(/[^/]*$/,"")+"cal/festivali.ics")}">Pretplati se na kalendar festivala</a></div>
+    <section class="fsec"><h2>Potvrđeni datumi</h2>${live.length ? live.map(feHTML).join("") : `<p>Još nijedan festival nije objavio datume za iduću sezonu.</p>`}</section>
+    ${tbd.length ? `<section class="fsec"><h2>Datumi još nisu objavljeni</h2><p>Poredano po tome kad su bili prošli put. Čim festival objavi datume, robot ih upiše ovdje.</p>${tbd.map(feHTML).join("")}</section>` : ""}
+    <p class="note" style="color:var(--muted);font-size:13.5px;margin-top:20px">Fali festival? <a href="prijavi.html?vrsta=festival">Prijavi ga</a>.</p>`;
+}
+function festRowHTML(f){
+  const d = km(CITIES[CITY], f);
+  return `<article class="ev fest"><div class="time">Festival</div><div>
+    <h3>${f.url?`<a class="ttl" href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>`:esc(f.name)}</h3>
+    <div class="sub"><span>${fRange(f.from,f.to)} · ${esc(f.place)}${d!=null&&d>=5?` · ~${d} km`:""}</span><span class="tag">${GENRES[f.genre]}</span></div></div>
+    <div class="side"><a class="icon" href="#festivali" title="Svi festivali">Svi festivali</a></div></article>`;
+}
 
 function match(e, ignoreRange){
   if (S.q){ const q=S.q.toLowerCase(); if(!(e.artist+" "+e.venue+" "+e.alt.join(" ")).toLowerCase().includes(q)) return false; }
@@ -540,10 +619,17 @@ function renderList(list){
   }
   const byDay = {};
   list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
-  return Object.entries(byDay).map(([d,evs])=>{
+  if (!S.q && !S.venue && !S.favOnly && !S.hideSold && !S.freeOnly && !SHARED){
+    const last = more ? list[list.length-1].date : "9999";
+    const lo = S.day || (S.range ? R[S.range].from : TODAY), hi = S.day || (S.range ? R[S.range].to : last);
+    nearFest.filter(f=>(!S.genres.size || S.genres.has(f.genre)) && f.from<=hi && f.to>=lo).forEach(f=>{
+      const d = f.from < lo ? lo : f.from; (byDay[d]=byDay[d]||[]).unshift({fest:f});
+    });
+  }
+  return Object.entries(byDay).sort((a,b)=>a[0].localeCompare(b[0])).map(([d,evs])=>{
     const dt=parse(d);
     const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
-    return `<section class="day"><div class="dayhead"><span class="dnum">${dt.getDate()}.</span><span class="dname">${MONTHS[dt.getMonth()]}${yr} · ${DAYS[dt.getDay()]}</span><span class="rel">${relLabel(d)}</span></div>${evs.map(evHTML).join("")}</section>`;
+    return `<section class="day"><div class="dayhead"><span class="dnum">${dt.getDate()}.</span><span class="dname">${MONTHS[dt.getMonth()]}${yr} · ${DAYS[dt.getDay()]}</span><span class="rel">${relLabel(d)}</span></div>${evs.map(e=>e.fest?festRowHTML(e.fest):evHTML(e)).join("")}</section>`;
   }).join("") + more;
 }
 
@@ -776,9 +862,19 @@ function renderRegular(){
   return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+(v.address||"")+", "+cityName(v.city||"zagreb"))}" target="_blank" rel="noopener">${esc(v.address||"karta")}</a><span>${esc(v.regular)}</span></div>`).join("")}</section>`;
 }
 
-function view(){ return location.hash==="#kalendar" ? "kalendar" : "popis"; }
+function view(){ return location.hash==="#kalendar" ? "kalendar" : location.hash==="#festivali" ? "festivali" : "popis"; }
 function render(){
   const v=view();
+  const fm = v==="festivali";
+  document.body.classList.toggle("festmode", fm);
+  const ft = document.querySelector("#cities [data-fest]"); if (ft){ ft.toggleAttribute("aria-current", fm); if (fm){ ft.setAttribute("aria-current","page"); ft.scrollIntoView && ft.scrollIntoView({block:"nearest", inline:"center"}); } }
+  document.getElementById("cityIn").textContent = fm ? "u Hrvatskoj" : CITIES[CITY].in;
+  document.querySelector("h1 .home").firstChild.textContent = fm ? "Festivali" : "Koncerti";
+  const meta = document.getElementById("meta"); meta.dataset.c = meta.dataset.c || meta.innerHTML;
+  if (fm){ const nl = FEST.filter(fLive).length;
+    meta.innerHTML = `<strong>${FEST.length} ${plural(FEST.length,"festival","festivala","festivala")}</strong>, ${nl} s potvrđenim datumima. Od velikih ljetnih do malih lokalnih.`;
+    out.innerHTML = renderFest(); return; }
+  meta.innerHTML = meta.dataset.c;
   document.getElementById("v-popis").toggleAttribute("aria-current", v==="popis");
   document.getElementById("v-kalendar").toggleAttribute("aria-current", v==="kalendar");
   if (v==="popis") document.getElementById("v-popis").setAttribute("aria-current","page"); else document.getElementById("v-kalendar").setAttribute("aria-current","page");
@@ -794,6 +890,8 @@ function render(){
   out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
   renderBanner(); renderPanel(); renderSoon();
 }
+out.addEventListener("change", ev=>{ if (ev.target.id==="fcity"){ FCITY = ev.target.value; render(); } });
+out.addEventListener("click", ev=>{ const b = ev.target.closest("[data-fsort]"); if (b){ FSORT = b.dataset.fsort; render(); } });
 window.addEventListener("hashchange", ()=>{ S.day=""; readShared(); render(); });
 readShared();
 render();

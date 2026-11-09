@@ -5,7 +5,9 @@
   "pfx": "",
   "match": [
    "zagreb"
-  ]
+  ],
+  "lat": 45.813,
+  "lon": 15.977
  },
  "ljubljana": {
   "name": "Ljubljana",
@@ -13,7 +15,9 @@
   "pfx": "lj",
   "match": [
    "ljubljana"
-  ]
+  ],
+  "lat": 46.056,
+  "lon": 14.506
  },
  "split": {
   "name": "Split",
@@ -21,7 +25,9 @@
   "pfx": "st",
   "match": [
    "split"
-  ]
+  ],
+  "lat": 43.508,
+  "lon": 16.44
  },
  "rijeka": {
   "name": "Rijeka",
@@ -29,7 +35,9 @@
   "pfx": "ri",
   "match": [
    "rijeka"
-  ]
+  ],
+  "lat": 45.327,
+  "lon": 14.442
  },
  "zabok": {
   "name": "Zabok",
@@ -38,7 +46,9 @@
   "match": [
    "zabok",
    "regenerator"
-  ]
+  ],
+  "lat": 46.029,
+  "lon": 15.91
  },
  "budimpesta": {
   "name": "Budimpešta",
@@ -47,7 +57,9 @@
   "match": [
    "budapest",
    "budimpešta"
-  ]
+  ],
+  "lat": 47.498,
+  "lon": 19.04
  },
  "bec": {
   "name": "Beč",
@@ -57,6 +69,8 @@
    "vienna",
    "wien",
    "beč"
-  ]
+  ],
+  "lat": 48.208,
+  "lon": 16.373
  }
 }

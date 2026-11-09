@@ -31,7 +31,7 @@ jobs:
 
       - name: Skupi podatke
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[skupi]')
-        run: python -m scrapers.run
+        run: python -m scrapers.run && (python -m scrapers.festivals || echo 'festivali: greška')
 
       - name: Izgradi stranicu
         run: python build.py
@@ -46,7 +46,7 @@ jobs:
           git config user.name "koncerti-bot"
           git config user.email "actions@users.noreply.github.com"
           mkdir -p data/probe && touch data/probe/.keep
-          git add data/scraped data/report.json data/probe data/seen.json data/artists.json data/eventlinks.json
+          git add data/scraped data/report.json data/probe data/seen.json data/artists.json data/eventlinks.json data/festivals.json data/festivals-report.json
           git diff --cached --quiet || git commit -m "Podaci: $(date -u +%F)"
           # neuspjelo spremanje podataka ne smije zaustaviti objavu stranice
           git pull --rebase -q || true

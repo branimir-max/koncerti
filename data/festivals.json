@@ -1,0 +1,422 @@
+{
+ "_note": "Popis festivala u Hrvatskoj. 'last' = zadnje izdanje (za savjet 'obično'), 'next' = potvrđeni datumi. Robot (scrapers/festivals.py) sam dopunjuje 'next'.",
+ "festivals": [
+  {
+   "key": "inmusic",
+   "name": "INmusic Festival",
+   "place": "Jarun, Zagreb",
+   "city": "zagreb",
+   "lat": 45.783,
+   "lon": 15.921,
+   "url": "https://www.inmusicfestival.com/",
+   "genre": "rock",
+   "last": {
+    "from": "2026-06-22",
+    "to": "2026-06-24"
+   },
+   "next": null
+  },
+  {
+   "key": "ultra",
+   "name": "Ultra Europe",
+   "place": "Park mladeži, Split",
+   "city": "split",
+   "lat": 43.519,
+   "lon": 16.464,
+   "url": "https://ultraeurope.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-10",
+    "to": "2026-07-12"
+   },
+   "next": null
+  },
+  {
+   "key": "bearstone",
+   "name": "Bear Stone Festival",
+   "place": "Donje Primišlje (Slunj)",
+   "city": "",
+   "lat": 45.108,
+   "lon": 15.585,
+   "url": "https://bearstonefestival.com/",
+   "genre": "rock",
+   "last": {
+    "from": "2026-07-02",
+    "to": "2026-07-05"
+   },
+   "next": null
+  },
+  {
+   "key": "modem",
+   "name": "Mo:Dem",
+   "place": "Donje Primišlje (Slunj)",
+   "city": "",
+   "lat": 45.108,
+   "lon": 15.585,
+   "url": "https://www.modemfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-08-03",
+    "to": "2026-08-09"
+   },
+   "next": null
+  },
+  {
+   "key": "horizons",
+   "name": "Horizons Spring Break",
+   "place": "Primošten",
+   "city": "",
+   "lat": 43.586,
+   "lon": 15.923,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-04-29",
+    "to": "2026-05-03"
+   },
+   "next": null
+  },
+  {
+   "key": "seastar",
+   "name": "Sea Star Festival",
+   "place": "Stella Maris, Umag",
+   "city": "",
+   "lat": 45.447,
+   "lon": 13.517,
+   "url": "https://www.seastarfestival.com/",
+   "genre": "pop",
+   "last": {
+    "from": "2026-05-28",
+    "to": "2026-05-31"
+   },
+   "next": null
+  },
+  {
+   "key": "lighthouse",
+   "name": "Lighthouse Festival",
+   "place": "Tar (Poreč)",
+   "city": "",
+   "lat": 45.3,
+   "lon": 13.62,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-06-03",
+    "to": "2026-06-07"
+   },
+   "next": null
+  },
+  {
+   "key": "agartha",
+   "name": "Gates of Agartha",
+   "place": "Cave Romane (Pula)",
+   "city": "",
+   "lat": 44.84,
+   "lon": 13.87,
+   "url": "",
+   "genre": "rock",
+   "last": {
+    "from": "2026-06-04",
+    "to": "2026-06-07"
+   },
+   "next": null
+  },
+  {
+   "key": "surf",
+   "name": "Surf Festival",
+   "place": "Punat, Krk",
+   "city": "",
+   "lat": 45.017,
+   "lon": 14.628,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-06-25",
+    "to": "2026-06-28"
+   },
+   "next": null
+  },
+  {
+   "key": "hideout",
+   "name": "Hideout Festival",
+   "place": "Zrće, Novalja",
+   "city": "",
+   "lat": 44.539,
+   "lon": 14.904,
+   "url": "https://www.hideoutfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-06-30",
+    "to": "2026-07-03"
+   },
+   "next": null
+  },
+  {
+   "key": "dropzone",
+   "name": "Dropzone",
+   "place": "Zrće, Novalja",
+   "city": "",
+   "lat": 44.539,
+   "lon": 14.904,
+   "url": "https://www.dropzonefest.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-04",
+    "to": "2026-07-09"
+   },
+   "next": null
+  },
+  {
+   "key": "love",
+   "name": "Love International",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "https://www.loveinternationalfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-08",
+    "to": "2026-07-14"
+   },
+   "next": null
+  },
+  {
+   "key": "verknipt",
+   "name": "Verknipt Croatia",
+   "place": "Zrće, Novalja",
+   "city": "",
+   "lat": 44.539,
+   "lon": 14.904,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-12",
+    "to": "2026-07-16"
+   },
+   "next": null
+  },
+  {
+   "key": "seasound",
+   "name": "Sea Sound Festival",
+   "place": "Šibenik",
+   "city": "",
+   "lat": 43.735,
+   "lon": 15.889,
+   "url": "",
+   "genre": "world",
+   "last": {
+    "from": "2026-07-16",
+    "to": "2026-07-19"
+   },
+   "next": null
+  },
+  {
+   "key": "terminalv",
+   "name": "Terminal V Croatia",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-16",
+    "to": "2026-07-20"
+   },
+   "next": null
+  },
+  {
+   "key": "rocklive",
+   "name": "RockLive",
+   "place": "Koprivnica",
+   "city": "",
+   "lat": 46.162,
+   "lon": 16.828,
+   "url": "",
+   "genre": "rock",
+   "last": {
+    "from": "2026-07-23",
+    "to": "2026-07-25"
+   },
+   "next": null
+  },
+  {
+   "key": "outlook",
+   "name": "Outlook Origins",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "https://www.outlookfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-23",
+    "to": "2026-07-27"
+   },
+   "next": null
+  },
+  {
+   "key": "membrain",
+   "name": "Membrain",
+   "place": "Šibenik",
+   "city": "",
+   "lat": 43.735,
+   "lon": 15.889,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-30",
+    "to": "2026-07-30"
+   },
+   "next": null
+  },
+  {
+   "key": "barrakud",
+   "name": "Barrakud",
+   "place": "Zrće, Novalja",
+   "city": "",
+   "lat": 44.539,
+   "lon": 14.904,
+   "url": "",
+   "genre": "hiphop",
+   "last": {
+    "from": "2026-08-09",
+    "to": "2026-08-13"
+   },
+   "next": null
+  },
+  {
+   "key": "sonus",
+   "name": "Sonus Festival",
+   "place": "Obonjan (Šibenik)",
+   "city": "",
+   "lat": 43.711,
+   "lon": 15.795,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-09-03",
+    "to": "2026-09-07"
+   },
+   "next": null
+  },
+  {
+   "key": "foresterra",
+   "name": "Foresterra",
+   "place": "Fužine",
+   "city": "",
+   "lat": 45.305,
+   "lon": 14.714,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-08-20",
+    "to": "2026-08-23"
+   },
+   "next": null
+  },
+  {
+   "key": "dekmantel",
+   "name": "Dekmantel Selectors",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "https://www.dekmantelfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-08-20",
+    "to": "2026-08-24"
+   },
+   "next": null
+  },
+  {
+   "key": "summerpeak",
+   "name": "Summer Peak",
+   "place": "Zrće, Novalja",
+   "city": "",
+   "lat": 44.539,
+   "lon": 14.904,
+   "url": "https://www.summerpeak.eu/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-08-22",
+    "to": "2026-08-27"
+   },
+   "next": null
+  },
+  {
+   "key": "dimensions",
+   "name": "Dimensions Festival",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "https://www.dimensionsfestival.com/",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-08-27",
+    "to": "2026-08-31"
+   },
+   "next": null
+  },
+  {
+   "key": "attackfest",
+   "name": "Attack Fest",
+   "place": "Zagreb",
+   "city": "zagreb",
+   "lat": 45.815,
+   "lon": 15.982,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-10-15",
+    "to": "2026-10-15"
+   },
+   "next": null
+  },
+  {
+   "key": "balance",
+   "name": "Balance Croatia",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "",
+   "genre": "elektro",
+   "last": null,
+   "next": {
+    "from": "2027-08-05",
+    "to": "2027-08-09"
+   }
+  },
+  {
+   "key": "monteparadiso",
+   "name": "Monteparadiso",
+   "place": "Pula",
+   "city": "",
+   "lat": 44.866,
+   "lon": 13.85,
+   "url": "",
+   "genre": "punk",
+   "last": null,
+   "next": null
+  },
+  {
+   "key": "defected",
+   "name": "Defected Croatia",
+   "place": "The Garden, Tisno",
+   "city": "",
+   "lat": 43.802,
+   "lon": 15.645,
+   "url": "",
+   "genre": "elektro",
+   "last": {
+    "from": "2026-07-29",
+    "to": "2026-08-02"
+   },
+   "next": null
+  }
+ ]
+}

@@ -16,19 +16,26 @@
   <p class="lead">Sviraš u bendu, organiziraš svirku ili vodiš klub koji program objavljuje samo na društvenim mrežama? Javi nam koncert. Provjerimo ga i objavimo, obično isti ili sljedeći dan.</p>
 
   <form id="f" novalidate>
-    <label>Izvođač ili naziv događaja
+    <div class="kind" role="radiogroup" aria-label="Vrsta">
+      <label><input type="radio" name="vrsta" value="koncert" checked> Koncert</label>
+      <label><input type="radio" name="vrsta" value="festival"> Festival</label>
+    </div>
+    <label><span id="l-name">Izvođač ili naziv događaja</span>
       <input name="izvodjac" required maxlength="200" autocomplete="off" placeholder="npr. Amethyst + gosti">
     </label>
     <div class="row2">
-      <label>Datum
+      <label><span id="l-date">Datum</span>
         <input name="datum" type="date" required>
       </label>
-      <label>Početak <small>(ako se zna)</small>
+      <label class="for-koncert">Početak <small>(ako se zna)</small>
         <input name="vrijeme" type="time">
+      </label>
+      <label class="for-festival" hidden>Zadnji dan
+        <input name="zadnji" type="date">
       </label>
     </div>
     <div class="row2">
-      <label>Prostor
+      <label><span id="l-place">Prostor</span>
         <input name="prostor" required maxlength="120" placeholder="npr. Klub Palach">
       </label>
       <label>Grad
@@ -70,6 +77,22 @@
 const ENDPOINT = "https://gigomat-prijava.gigomat-com.workers.dev/";
 const f = document.getElementById("f"), msg = document.getElementById("msg"), t0 = Date.now();
 f.datum.min = new Date().toISOString().slice(0, 10);
+// Koncert ili festival (gigomat.com/prijavi.html?vrsta=festival otvara festival)
+function kind(){
+  const fest = f.vrsta.value === "festival";
+  document.querySelector("h1").textContent = fest ? "Prijavi festival" : "Prijavi koncert";
+  document.getElementById("l-name").textContent = fest ? "Naziv festivala" : "Izvođač ili naziv događaja";
+  document.getElementById("l-date").textContent = fest ? "Prvi dan" : "Datum";
+  document.getElementById("l-place").textContent = fest ? "Mjesto" : "Prostor";
+  f.izvodjac.placeholder = fest ? "npr. Bear Stone Festival" : "npr. Amethyst + gosti";
+  f.prostor.placeholder = fest ? "npr. Tisno, The Garden" : "npr. Klub Palach";
+  document.querySelectorAll(".for-koncert").forEach(el => el.hidden = fest);
+  document.querySelectorAll(".for-festival").forEach(el => el.hidden = !fest);
+  if (fest && f.grad.value === "Zagreb") f.grad.value = "Drugo";
+}
+if (new URLSearchParams(location.search).get("vrsta") === "festival") f.vrsta.value = "festival";
+f.addEventListener("change", ev => { if (ev.target.name === "vrsta") kind(); });
+kind();
 function show(text, err){ msg.textContent = text; msg.className = "msg" + (err ? " err" : ""); msg.hidden = false; }
 f.addEventListener("submit", async ev => {
   ev.preventDefault();
@@ -79,12 +102,17 @@ f.addEventListener("submit", async ev => {
   if (!f.ok.checked) { show("Označi potvrdu na dnu obrasca.", true); return; }
   const data = Object.fromEntries(new FormData(f).entries());
   data.ms = Date.now() - t0;
+  if (data.vrsta === "festival") {   // Worker šalje stalna polja, pa festival označimo u naslovu i napomeni
+    data.izvodjac = "[FESTIVAL] " + data.izvodjac;
+    data.napomena = "Festival" + (data.zadnji ? ", traje do " + data.zadnji : "") + (data.napomena ? "\n" + data.napomena : "");
+    data.vrijeme = "";
+  }
   const b = f.querySelector("button"); b.disabled = true; b.textContent = "Šaljem…";
   try {
     const r = await fetch(ENDPOINT, {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(data)});
     const j = await r.json().catch(() => ({}));
     if (!r.ok || !j.ok) throw new Error(j.error || "greška");
-    f.reset(); show("Hvala! Prijava je stigla. Koncert ćemo provjeriti i objaviti.");
+    f.reset(); kind(); show("Hvala! Prijava je stigla. Koncert ćemo provjeriti i objaviti.");
   } catch (e) {
     show("Slanje nije uspjelo (" + e.message + "). Pošalji nam podatke na info@gigomat.com.", true);
   } finally { b.disabled = false; b.textContent = "Pošalji prijavu"; }
