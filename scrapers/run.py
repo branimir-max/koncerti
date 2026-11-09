@@ -103,6 +103,16 @@ def write_probe(key: str, html: str) -> None:
         n += 1
         if n >= 60:
             break
+    if n == 0:  # nijedan blok s prepoznatim datumom: pokaži općenitu strukturu
+        lines.append("bez prepoznatih datuma; html bytes=%d" % len(html))
+        lines.append("api/json hints: " + ", ".join(sorted(set(re.findall(r"[\"'](/[\w/.-]*(?:api|json|ajax|raspored)[\w/.?=&-]*)[\"']", html)))[:15]))
+        for el in s.find_all(True, class_=True):
+            t = el.get_text(" ", strip=True)
+            if t and len(t) < 160 and re.search(r"\d", t) and el.name not in ("script", "style"):
+                lines.append(f"<{el.name} class={'.'.join(el.get('class', [])[:3])}> {t[:150]}")
+                n += 1
+                if n >= 60:
+                    break
     PROBE.mkdir(parents=True, exist_ok=True)
     text = "\n".join(lines)
     text = re.sub(r"[A-Za-z0-9_\-]{32,}", "[…]", text)  # dugi nizovi (mogući ključevi) van
