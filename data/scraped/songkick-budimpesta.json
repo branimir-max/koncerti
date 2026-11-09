@@ -589,6 +589,18 @@
  },
  {
   "date": "2026-12-05",
+  "time": "19:00",
+  "title": "Baby Lasagna",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43288469-baby-lasagna-at-a38-ship-a38-hajo?utm_medium=organic&utm_source=microformat",
+  "city": "budimpesta",
+  "venue_name": "A38 Ship / A38 Hajó",
+  "source": "songkick-budimpesta"
+ },
+ {
+  "date": "2026-12-05",
   "time": "",
   "title": "Nagy Emma Quintet",
   "venue": "",
@@ -681,6 +693,18 @@
   "url": "https://www.songkick.com/concerts/43477335-hilo-dj-at-arzenal?utm_medium=organic&utm_source=microformat",
   "city": "budimpesta",
   "venue_name": "Arzenál",
+  "source": "songkick-budimpesta"
+ },
+ {
+  "date": "2026-12-12",
+  "time": "",
+  "title": "NTO",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43506419-nto-at-obuda-bay?utm_medium=organic&utm_source=microformat",
+  "city": "budimpesta",
+  "venue_name": "Óbuda Bay",
   "source": "songkick-budimpesta"
  },
  {
@@ -1161,18 +1185,6 @@
   "url": "https://www.songkick.com/concerts/43457339-castle-at-riff?utm_medium=organic&utm_source=microformat",
   "city": "budimpesta",
   "venue_name": "RIFF",
-  "source": "songkick-budimpesta"
- },
- {
-  "date": "2027-03-19",
-  "time": "",
-  "title": "Loreena McKennitt",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43250928-loreena-mckennitt-at-papp-laszlo-budapest-sportarena?utm_medium=organic&utm_source=microformat",
-  "city": "budimpesta",
-  "venue_name": "Papp László Budapest Sportaréna",
   "source": "songkick-budimpesta"
  },
  {

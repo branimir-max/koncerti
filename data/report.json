@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T13:22:32+00:00",
+ "run_at": "2026-11-09T13:25:23+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -60,7 +60,7 @@
   },
   "songkick-budimpesta": {
    "ok": true,
-   "count": 122
+   "count": 123
   },
   "songkick-bec": {
    "ok": true,
