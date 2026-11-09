@@ -15,6 +15,7 @@ from pathlib import Path
 
 from .base import hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
+from .ticketmaster import events as tm_events
 
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "scraped"
@@ -125,21 +126,24 @@ def write_probe(key: str, html: str) -> None:
 
 def scrape(src: dict) -> list[dict]:
     events: list[dict] = []
+    api = src.get("parser") == "ticketmaster"
     for i, url in enumerate(src["urls"]):
         try:
-            html = fetch(url)
+            html = "" if api else fetch(url)
         except Exception:  # noqa: BLE001 – prva stranica mora proći, dodatne (page=2…) smiju izostati
             if i == 0 and not src.get("tolerant"):
                 raise
             continue
-        if i == 0:  # snimka prve stranice za otklanjanje grešaka
+        if i == 0 and not api:  # snimka prve stranice za otklanjanje grešaka
             DEBUG.mkdir(parents=True, exist_ok=True)
             (DEBUG / f"{src['key']}.html").write_text(html[:400_000])
             if src.get("probe"):
                 write_probe(src["key"], html)
         v = src["venue"] or ""
         parser = src.get("parser")
-        if parser == "tootoot":
+        if api:
+            found = tm_events(url)
+        elif parser == "tootoot":
             found = tootoot_events(html, v, url)
         elif parser in ("ulaznice", "coreevent"):
             fn = ulaznice_events if parser == "ulaznice" else coreevent_events
@@ -198,7 +202,7 @@ def scrape(src: dict) -> list[dict]:
                 if not e["venue"]:
                     e["venue_name"] = strip_city(e.get("venue_name") or blob[:60], e["city"])
         events += found
-        time.sleep(1.5)  # pristojno prema serverima
+        time.sleep(0 if api else 1.5)  # pristojno prema serverima
     # Filtriranje i obogaćivanje
     out, seen = [], set()
     today = date.today().isoformat()
@@ -289,7 +293,7 @@ def main(only: list[str] | None = None) -> int:
         except Exception as ex:  # noqa: BLE001 – jedan izvor ne smije srušiti ostale
             status = {"ok": False, "count": 0, "error": f"{type(ex).__name__}: {ex}"[:300]}
         try:
-            blocked = robots_blocked(src["urls"])
+            blocked = [] if src.get("parser") == "ticketmaster" else robots_blocked(src["urls"])
             if blocked:
                 status["robots"] = "zabranjeno: " + ", ".join(blocked)[:300]
         except Exception:  # noqa: BLE001

@@ -30,7 +30,7 @@ SOURCES = [
      "halls": {"velika dvorana": "lisV", "mala dvorana": "lisM"}},
     {"key": "tvornica", "venue": "tvornica", "exclude": THEATRE,
      "strip": [r"\s+u\s+tvornici\s+kulture!?$"],
-     "urls": ["https://www.tvornicakulture.com/"]},
+     "urls": ["https://www.tvornicakulture.com/", "https://www.tvornicakulture.com/svi-dogadaji/"]},
     {"key": "mocvara", "venue": "mocvara", "exclude": THEATRE, "dj_words": DJ, "parser": "tootoot",
      "strip": [r"^[^:]{3,70}:\s+(?=\S)"],
      "urls": ["https://www.mochvara.hr/"]},
@@ -41,10 +41,10 @@ SOURCES = [
      "default_venue": "kset", "urls": ["https://www.kset.org/"]},
     {"key": "attack", "venue": "medika", "exclude": THEATRE, "dj_words": DJ,
      "urls": ["https://attack.hr/"]},
-    # Boogaloo: stranica ima zaštitu od botova, pa ga pokrivamo preko Songkicka.
+    # Boogaloo: robots.txt zabranjuje robote – samo uz njihovo dopuštenje (poslan upit).
     {"key": "vintage", "venue": "vintage", "dj_words": DJ,
      "urls": ["https://vintageindustrial-bar.com/"]},
-    # Peti Kupe: na stranicama događaja nema pouzdanog datuma – pokriva ga Ulaznice.hr/Songkick.
+    # Peti Kupe: na stranicama događaja nema pouzdanog datuma – pokriva ga Ulaznice.hr.
     {"key": "pogon", "venue": "pogon", "include": ["koncert", "concert"], "exclude": THEATRE, "allow_empty": True,
      "parser": "cards", "card": ".item-card", "title": ".event-title",
      "urls": ["https://www.pogon.hr/program/"]},
@@ -58,20 +58,22 @@ SOURCES = [
     {"key": "coreevent", "venue": None, "parser": "coreevent", "exclude": THEATRE, "dj_words": DJ,
      "strip": [r"\s+u\s+tvornici\s+kulture!?$", r"\s*@.*$", r"\s*[-–|]\s*\d{1,2}\.\s?\d{1,2}\.(\s?\d{4}\.?)?$"],
      "urls": ["https://core-event.co/"]},
-    # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
-    {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE, "locality": True,
-     "urls": ["https://www.songkick.com/metro-areas/29037-croatia-zagreb",
-              "https://www.songkick.com/metro-areas/29037-croatia-zagreb?page=2"]},
+    # Songkick NE koristimo za hrvatske gradove: to je agregator, a nemamo njegovo dopuštenje.
+    # Arena Zagreb i Boogaloo zabranjuju robote u robots.txt – njih dodajemo tek uz njihovo dopuštenje.
+    # Ticketmaster Discovery: službeni API, radi tek kad je postavljen ključ TM_API_KEY.
+    *[{"key": f"ticketmaster-{city}", "city": city, "venue": None, "parser": "ticketmaster", "locality": True,
+       "allow_empty": True, "exclude": THEATRE, "dj_words": DJ, "urls": [spec]}
+      for city, spec in [("zagreb", "HR/Zagreb"), ("ljubljana", "SI/Ljubljana"),
+                         ("budimpesta", "HU/Budapest"), ("bec", "AT/Wien")]],
 
     # ---------- Drugi gradovi ----------
-    # Split i Zabok stižu preko Ulaznice.hr i Core Eventa (gore). Songkick daje osnovu za
-    # svaki grad ("locality": samo događaji kojima je mjesto baš taj grad, ne okolica),
-    # a službeni programi klubova dodaju se jedan po jedan.
+    # Split, Rijeka i Zabok stižu preko Ulaznice.hr i Core Eventa (gore) i Visit Rijeke.
+    # Songkick je PRIVREMENO samo za Ljubljanu, Budimpeštu i Beč, dok Ticketmaster API
+    # i službeni programi klubova ne preuzmu pokrivenost; tada ga potpuno gasimo.
     *[{"key": f"songkick-{city}", "city": city, "venue": None, "strip": [r"\s+@\s+.*$"], "locality": True,
        "allow_empty": True, "urls": [f"https://www.songkick.com/metro-areas/{metro}"] +
        [f"https://www.songkick.com/metro-areas/{metro}?page={n}" for n in range(2, pages + 1)]}
-      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1), ("rijeka", "29032-croatia-rijeka", 1),
-                                 ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
+      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
     # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
     # HNK Zagreb: samo glazbeni program (drama ne ide u Gigomat)
     {"key": "hnk-opera", "venue": "hnk", "parser": "hnk", "force_genre": "opera", "probe": True, "allow_empty": True,

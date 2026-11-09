@@ -34,7 +34,7 @@ def trust(source: str) -> int:
     """Pouzdanost izvora: službeni program prostora > prodaja ulaznica > Songkick (agregator)."""
     if source.startswith("songkick"):
         return 1
-    if source in ("ulaznice", "coreevent", "entrio", "eventim", "visitrijeka") or source.startswith(("ulaznice", "coreevent", "entrio")):
+    if source in ("ulaznice", "coreevent", "entrio", "eventim", "visitrijeka") or source.startswith(("ulaznice", "coreevent", "entrio", "ticketmaster")):
         return 2
     return 3
 

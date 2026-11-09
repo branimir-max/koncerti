@@ -31,6 +31,8 @@ jobs:
 
       - name: Skupi podatke
         if: github.event_name != 'push' || contains(github.event.head_commit.message, '[skupi]')
+        env:
+          TM_API_KEY: ${{ secrets.TM_API_KEY }}
         run: |
           python -m scrapers.run
           python -m scrapers.festivals || echo "Robot za festivale nije uspio"

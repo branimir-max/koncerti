@@ -199,6 +199,14 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .chip{flex:none;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 11px;font-size:13px;cursor:pointer;white-space:nowrap}
 .chip:hover{border-color:var(--accent)}
 .chip[aria-pressed="true"]{background:var(--accent-soft);border-color:var(--accent);color:var(--accent);font-weight:600}
+.clubchip{position:relative;margin-right:6px}
+.clubchip::after{content:"";position:absolute;right:-7px;top:5px;bottom:5px;border-right:1px solid var(--line)}
+.clubs{margin-top:8px;border:1px solid var(--line);background:var(--surface);border-radius:12px;padding:10px}
+.clubs input{width:100%;box-sizing:border-box;border:1px solid var(--line);border-radius:8px;padding:7px 10px;font:inherit;font-size:14px;background:var(--bg);color:inherit;margin-bottom:8px}
+.clubs .chipwrap{max-height:220px;overflow-y:auto}
+.clubs .chip small{color:var(--muted);margin-left:4px}
+.vlink{all:unset;cursor:pointer}
+.vlink:hover,.vlink:focus-visible{text-decoration:underline dotted;text-underline-offset:3px;color:var(--accent)}
 .toggle{display:flex;align-items:center;gap:6px;font-size:13.5px;color:var(--muted);cursor:pointer;white-space:nowrap}
 .toggle input{accent-color:var(--accent)}
 .status{display:flex;justify-content:space-between;align-items:center;gap:12px;padding:14px 0 4px;color:var(--muted);font-size:13.5px}
@@ -353,6 +361,7 @@ footer p{margin:0 0 8px;max-width:72ch}
     <div class="row">
       <div class="chips" id="genres" role="group" aria-label="Žanr"></div>
     </div>
+    <div id="clubs" class="clubs" hidden></div>
     <div hidden>
       <select id="venue" aria-label="Prostor"></select>
       <input type="checkbox" id="hideSold"><input type="checkbox" id="freeOnly"><input type="checkbox" id="favOnly">
@@ -370,7 +379,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 </main>
 
 <footer class="wrap">
-  <p id="sources"><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick. Podaci se automatski osvježavaju svaki dan.</p>
+  <p id="sources"><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event). Podaci se automatski osvježavaju svaki dan.</p>
   <p>Datumi i cijene mogu se promijeniti, pa prije kupnje ulaznice provjeri kod organizatora (poveznica „Izvor” uz svaki koncert).</p>
   <p><strong>Organiziraš svirku ili sviraš u bendu?</strong> <a href="prijavi.html">Prijavi koncert</a> · <a href="privatnost.html">Privatnost</a> · <a href="mailto:info@gigomat.com">info@gigomat.com</a></p>
   <p class="tm">Gigomat™ i izgled stranice zaštićeni su autorskim pravom. © 2026 Gigomat</p>
@@ -452,14 +461,14 @@ document.getElementById("cityIn").textContent = CITIES[CITY].name;
 (function(){
   // Izvori u podnožju za odabrani grad
   const SRC = {
-    zagreb: "službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack!, Vintage, HNK…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick",
-    ljubljana: "službeni program Kina Šiška i Songkick",
-    rijeka: "prodaja ulaznica (Ulaznice.hr, Core Event), kalendar Visit Rijeka i Songkick",
-    split: "prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick",
+    zagreb: "službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack!, Vintage, HNK…) i prodaja ulaznica (Ulaznice.hr, Core Event)",
+    ljubljana: "službeni programi Kina Šiška i Orta, privremeno Songkick",
+    rijeka: "prodaja ulaznica (Ulaznice.hr, Core Event) i kalendar Visit Rijeka",
+    split: "prodaja ulaznica (Ulaznice.hr, Core Event)",
     zabok: "prodaja ulaznica (Ulaznice.hr, Core Event)",
   };
   const el = document.getElementById("sources");
-  if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "Songkick") + ". Podaci se automatski osvježavaju svaki dan.";
+  if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "privremeno Songkick") + ". Podaci se automatski osvježavaju svaki dan.";
 })();
 document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
 (function(){
@@ -575,24 +584,61 @@ document.getElementById("quick").addEventListener("click", ev=>{
   S.range = S.range===b.dataset.range ? "" : b.dataset.range; S.day=""; render();
 });
 
-// venue select
-(function(){
-  const groups = {};
-  upcoming.forEach(e=>{ groups[e.vgroup]=(groups[e.vgroup]||0)+1; });
-  const name = k => k==="lisinski" ? "Lisinski" : VENUES[k].n;
-  const opts = Object.keys(groups).sort((a,b)=>groups[b]-groups[a]);
-  document.getElementById("venue").innerHTML = `<option value="">Svi prostori</option>` +
-    opts.map(k=>`<option value="${k}">${esc(name(k))} (${groups[k]})</option>`).join("");
-})();
-document.getElementById("venue").addEventListener("change", e=>{ S.venue=e.target.value; render(); });
+// Klubovi: gumb ispred žanrova otvara popis prostora (najviše koncerata prvo); klik na ime prostora u retku radi isto
+const VCOUNT = {};
+upcoming.forEach(e=>{ VCOUNT[e.vgroup]=(VCOUNT[e.vgroup]||0)+1; });
+const vName = k => k==="lisinski" ? "Lisinski" : (VENUES[k] ? VENUES[k].n : k);
+const VORDER = Object.keys(VCOUNT).sort((a,b)=>VCOUNT[b]-VCOUNT[a] || vName(a).localeCompare(vName(b),"hr"));
+document.getElementById("venue").innerHTML = `<option value="">Svi prostori</option>` + VORDER.map(k=>`<option value="${k}">${esc(vName(k))}</option>`).join("");
+function setVenue(k){
+  S.venue = k || ""; document.getElementById("venue").value = S.venue;
+  document.getElementById("clubs").hidden = true; render();
+}
+function syncClub(){
+  const b = document.getElementById("clubBtn"); if (!b) return;
+  b.setAttribute("aria-pressed", !!S.venue);
+  b.setAttribute("aria-expanded", !document.getElementById("clubs").hidden);
+  b.textContent = S.venue ? vName(S.venue) + " ✕" : "Klubovi ▾";
+  b.title = S.venue ? "Prikaži sve klubove" : "Odaberi klub";
+}
+function openClubs(){
+  const box = document.getElementById("clubs");
+  const list = q => VORDER.filter(k=>!q || fold(vName(k)).includes(fold(q)))
+    .map(k=>`<button type="button" class="chip" data-club="${k}">${esc(vName(k))}<small>${VCOUNT[k]}</small></button>`).join("") || `<span style="color:var(--muted);font-size:13px">Nema takvog kluba.</span>`;
+  box.innerHTML = (VORDER.length > 12 ? `<input type="search" id="clubQ" placeholder="Traži klub…" autocomplete="off" aria-label="Traži klub">` : "") +
+    `<div class="chipwrap">${list("")}</div>`;
+  box.hidden = false; syncClub();
+  const qi = document.getElementById("clubQ");
+  if (qi){
+    qi.addEventListener("input", ()=>{ box.querySelector(".chipwrap").innerHTML = list(qi.value.trim()); });
+    if (!matchMedia("(pointer: coarse)").matches) qi.focus();
+  }
+}
+const fold = t => t.toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/đ/g,"d");
+document.getElementById("clubs").addEventListener("click", ev=>{ const b = ev.target.closest("[data-club]"); if (b) setVenue(b.dataset.club); });
+document.addEventListener("click", ev=>{
+  const box = document.getElementById("clubs");
+  if (!box.hidden && !ev.target.closest("#clubs,#clubBtn")){ box.hidden = true; syncClub(); }
+});
+document.addEventListener("keydown", ev=>{ if (ev.key==="Escape" && !document.getElementById("clubs").hidden){ document.getElementById("clubs").hidden = true; syncClub(); } });
+document.getElementById("out").addEventListener("click", ev=>{
+  const b = ev.target.closest("[data-v]"); if (!b) return;
+  setVenue(b.dataset.v); window.scrollTo({top:0, behavior:"smooth"});
+});
 
 // genre chips
 (function(){
   const counts = {}; upcoming.forEach(e=>counts[e.genre]=(counts[e.genre]||0)+1);
   const keys = Object.keys(GENRES).filter(k=>counts[k]);
-  document.getElementById("genres").innerHTML = keys.map(k=>`<button type="button" class="chip" data-g="${k}" aria-pressed="false">${GENRES[k]}</button>`).join("");
+  document.getElementById("genres").innerHTML = `<button type="button" class="chip clubchip" id="clubBtn" aria-expanded="false" aria-controls="clubs">Klubovi ▾</button>` + keys.map(k=>`<button type="button" class="chip" data-g="${k}" aria-pressed="false">${GENRES[k]}</button>`).join("");
 })();
 document.getElementById("genres").addEventListener("click", ev=>{
+  if (ev.target.closest("#clubBtn")){
+    if (S.venue) setVenue("");
+    else if (document.getElementById("clubs").hidden) openClubs();
+    else { document.getElementById("clubs").hidden = true; syncClub(); }
+    return;
+  }
   const b = ev.target.closest("[data-g]"); if(!b) return;
   const g=b.dataset.g; S.genres.has(g)?S.genres.delete(g):S.genres.add(g);
   b.setAttribute("aria-pressed", S.genres.has(g)); render();
@@ -667,7 +713,7 @@ function evHTML(e){
   return `<article class="ev" id="e-${e.id}">
     <div>
       <h3><button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
-      <div class="sub"><span>${e.time||"—"}</span><span>${esc(e.venue)}</span><span class="g">${GENRES[e.genre]}</span>${priceSub(e)}</div>
+      <div class="sub"><span>${e.time||"—"}</span><span><button type="button" class="vlink" data-v="${e.vgroup}" title="Svi koncerti: ${esc(e.venue)}">${esc(e.venue)}</button></span><span class="g">${GENRES[e.genre]}</span>${priceSub(e)}</div>
       ${detailsHTML(e)}
     </div>
     <div class="acts">
@@ -1077,7 +1123,7 @@ function render(){
   const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.newOnly||S.day;
   document.getElementById("reset").hidden = !filtered;
   out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
-  renderBanner(); renderPanel(); renderSoon(); renderTop(v, filtered);
+  renderBanner(); renderPanel(); renderSoon(); renderTop(v, filtered); syncClub();
 }
 out.addEventListener("change", ev=>{ if (ev.target.id==="fcity"){ FCITY = ev.target.value; render(); } });
 out.addEventListener("click", ev=>{ const b = ev.target.closest("[data-fsort]"); if (b){ FSORT = b.dataset.fsort; render(); } });
