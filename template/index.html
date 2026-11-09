@@ -180,7 +180,7 @@ header.top{padding:18px 0 14px}
 .ev .acts .icon:hover{color:var(--ink)}
 .ev .acts .icon svg{width:20px;height:20px}
 .ev .acts{position:relative}
-.sharemenu{position:absolute;right:0;top:42px;z-index:6;min-width:170px;background:var(--surface);border:1.5px solid var(--ink);border-radius:10px;padding:6px;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.sharemenu{position:absolute;right:0;top:42px;z-index:6;min-width:230px;background:var(--surface);border:1.5px solid var(--ink);border-radius:10px;padding:6px;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.15)}
 .sharemenu a,.sharemenu button{all:unset;cursor:pointer;padding:10px 12px;border-radius:6px;font-size:14.5px;color:var(--ink)}
 .sharemenu a:hover,.sharemenu button:hover,.sharemenu a:focus-visible,.sharemenu button:focus-visible{background:var(--accent-soft);color:var(--accent)}
 .ev.hl{background:var(--accent-soft);box-shadow:-8px 0 0 var(--accent-soft),8px 0 0 var(--accent-soft)}
@@ -672,7 +672,7 @@ function evHTML(e){
     </div>
     <div class="acts">
       <button class="icon fav" type="button" data-fav="${e.id}" aria-pressed="${fav}" title="${fav?"Makni iz mojih koncerata":"Spremi u moje koncerte"}" aria-label="Spremi ${esc(e.artist)}">${STAR}</button>
-      <a class="icon" href="${gcalLink(e)}" target="_blank" rel="noopener" title="Dodaj u Google kalendar" aria-label="Dodaj ${esc(e.artist)} u Google kalendar">${CALP}</a>
+      <button class="icon" type="button" data-cal="${e.id}" title="Dodaj u kalendar" aria-label="Dodaj ${esc(e.artist)} u kalendar">${CALP}</button>
       <button class="icon" type="button" data-share="${e.id}" title="Podijeli" aria-label="Podijeli ${esc(e.artist)}">${SHAREI}</button>
     </div>
   </article>`;
@@ -739,6 +739,8 @@ function renderCal(list){
 
 const out = document.getElementById("out");
 out.addEventListener("click", ev=>{
+  const cb=ev.target.closest("[data-cal]");
+  if (cb){ const e=EVENTS.find(x=>x.id===cb.dataset.cal); if(e) calMenu(e, cb); return; }
   const sh=ev.target.closest("[data-share]");
   if (sh){ const e=EVENTS.find(x=>x.id===sh.dataset.share); if(e) shareEvent(e, sh); return; }
   if (ev.target.closest("#moreBtn")){ shownWeeks += 1; const y = scrollY; render(); scrollTo(0, y); return; }
@@ -995,6 +997,31 @@ async function shareEvent(e, btn){
     try { await navigator.clipboard.writeText(full); flash("Link kopiran."); } catch(err) { flash(url); }
     closeShare();
   };
+  btn.parentElement.appendChild(m);
+  m.querySelector("a,button").focus();
+  setTimeout(()=>document.addEventListener("click", outShare), 0);
+}
+function outlookLink(e, host){
+  const st = e.time ? `${e.date}T${e.time}:00` : e.date;
+  let en;
+  if (e.time){ const [h,m]=e.time.split(":").map(Number); const d=new Date(parse(e.date)); d.setHours(h+3, m); en = `${iso(d)}T${pad(d.getHours())}:${pad(d.getMinutes())}:00`; }
+  else en = iso(addDays(parse(e.date),1));
+  const p = new URLSearchParams({path:"/calendar/action/compose", rru:"addevent", subject:e.artist, startdt:st, enddt:en,
+    location: e.venue + (e.addr? ", "+e.addr : "") + ", " + cityName(e.city), body: e.src||""});
+  if (!e.time) p.set("allday","true");
+  return `https://${host}/calendar/0/deeplink/compose?` + p.toString();
+}
+function calMenu(e, btn){
+  closeShare();
+  const m = document.createElement("div");
+  m.className = "sharemenu"; m.setAttribute("role", "menu");
+  m.innerHTML = `<a role="menuitem" href="${gcalLink(e)}" target="_blank" rel="noopener">Google kalendar</a>
+    <button role="menuitem" type="button" data-icsone>Apple kalendar (iPhone, Mac)</button>
+    <a role="menuitem" href="${outlookLink(e, "outlook.live.com")}" target="_blank" rel="noopener">Outlook.com</a>
+    <a role="menuitem" href="${outlookLink(e, "outlook.office.com")}" target="_blank" rel="noopener">Outlook (posao, Microsoft 365)</a>
+    <button role="menuitem" type="button" data-icsone>Ostali (.ics datoteka)</button>`;
+  m.querySelectorAll("[data-icsone]").forEach(b=>b.onclick = ()=>{ downloadICS([e], e.artist); closeShare(); });
+  m.querySelectorAll("a").forEach(a=>a.addEventListener("click", ()=>setTimeout(closeShare, 0)));
   btn.parentElement.appendChild(m);
   m.querySelector("a,button").focus();
   setTimeout(()=>document.addEventListener("click", outShare), 0);
