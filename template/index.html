@@ -279,6 +279,7 @@ const pad = n => String(n).padStart(2,"0");
 const iso = d => d.getFullYear()+"-"+pad(d.getMonth()+1)+"-"+pad(d.getDate());
 const parse = s => { const [y,m,d]=s.split("-").map(Number); return new Date(y,m-1,d); };
 const addDays = (d,n) => { const x=new Date(d); x.setDate(x.getDate()+n); return x; };
+const safeUrl = u => /^https?:\/\//i.test(u||"") ? esc(u) : "#";
 const esc = s => String(s).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;"}[c]));
 
 const TODAY = iso(new Date());
@@ -405,14 +406,14 @@ const LINK_NAMES = {spotify:"Spotify", youtube:"YouTube", deezer:"Deezer", bandc
 function detailsHTML(e){
   const q = encodeURIComponent(artistQuery(e.artist));
   const L = e.links || {};
-  const listen = ["spotify","youtube","deezer","bandcamp","soundcloud"].filter(k=>L[k]).map(k=>`<a href="${L[k]}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
+  const listen = ["spotify","youtube","deezer","bandcamp","soundcloud"].filter(k=>L[k]).map(k=>`<a href="${safeUrl(L[k])}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
   if (!listen.length) listen.push(`<a href="https://open.spotify.com/search/${q}" target="_blank" rel="noopener">Traži na Spotifyju</a>`, `<a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener">Traži na YouTubeu</a>`);
-  const social = ["web","instagram","facebook"].filter(k=>L[k]).map(k=>`<a href="${L[k]}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
+  const social = ["web","instagram","facebook"].filter(k=>L[k]).map(k=>`<a href="${safeUrl(L[k])}" target="_blank" rel="noopener">${LINK_NAMES[k]}</a>`);
   return `<div class="det" id="d-${e.id}" hidden>
     <div><b>Poslušaj</b> ${listen.join(" · ")}</div>
     ${social.length ? `<div><b>Izvođač</b> ${social.join(" · ")}</div>` : ""}
     <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
-    <div><b>Koncert</b> <a href="${e.src}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>
+    <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · <a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}${e.addr?", "+esc(e.addr):""}</a></div>
   </div>`;
 }
 const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
@@ -589,7 +590,7 @@ function toast(e){
 function downloadICS(list, name){
   const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
   const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Koncerti u Zagrebu//HR","X-WR-CALNAME:Moji koncerti"];
-  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${e.src}`,"END:VEVENT"));
+  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,"END:VEVENT"));
   lines.push("END:VCALENDAR");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type:"text/calendar"}));

@@ -86,6 +86,8 @@ def main() -> None:
                     if venues.get(e["venue"], {}).get("group"):
                         old["venue"] = e["venue"]
                 return
+        if not re.match(r"^https?://", e.get("url") or ""):  # samo prave web poveznice
+            e["url"] = ""
         bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")})
 
     for e in manual:
@@ -103,7 +105,7 @@ def main() -> None:
                 a = artists.get(anorm(artist_query(e["title"])))
                 if a and a.get("mbid") and a.get("links"):
                     if a.get("links"):
-                        e["links"] = a["links"]
+                        e["links"] = {k: u for k, u in a["links"].items() if re.match(r"^https?://", u or "")}
                     if a.get("genre") and e.get("genre") in ("", "ostalo", None):
                         e["genre"] = a["genre"]
 
