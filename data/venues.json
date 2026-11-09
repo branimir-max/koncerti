@@ -129,7 +129,8 @@
    "Klub Sax",
    "Sax"
   ],
-  "regular": "Jazz, blues i rock svirke više puta tjedno. Program objavljuju samo na društvenim mrežama."
+  "regular": "Jazz, blues i rock svirke više puta tjedno. Program objavljuju samo na društvenim mrežama.",
+  "web": "https://www.sax-zg.hr/"
  },
  "klaonica": {
   "name": "Reci:Klaonica",
@@ -476,5 +477,27 @@
    "Lift"
   ],
   "city": "zagreb"
+ },
+ "knap": {
+  "name": "Kazalište KNAP",
+  "address": "Ivanićgradska 41a",
+  "city": "zagreb",
+  "web": "https://www.knap.hr/",
+  "aliases": [
+   "Kazalište Knap - Zagreb",
+   "Koncertna dvorana Centra KNAP",
+   "Kazalište Knap",
+   "Centar KNAP"
+  ]
+ },
+ "lauba": {
+  "name": "Lauba",
+  "address": "Prilaz baruna Filipovića 23a",
+  "city": "zagreb",
+  "web": "https://www.lauba.hr/",
+  "aliases": [
+   "Lauba",
+   "Lauba – kuća za ljude i umjetnost"
+  ]
  }
 }

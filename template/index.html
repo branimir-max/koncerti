@@ -439,7 +439,7 @@ function feHTML(f){
     : `<div class="when tbd">uskoro${f.last?`<small>prošli put ${fRange(f.last[0],f.last[1])}</small>`:""}</div>`;
   const name = f.url ? `<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name);
   return `<article class="fe">${when}<div><h3>${name}</h3>
-    <div class="sub"><span>${esc(f.place)}</span><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
+    <div class="sub"><a href="https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lon}" target="_blank" rel="noopener">${esc(f.place)}</a><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
     <div class="km" title="Zračna udaljenost od grada ${esc(cityName(FCITY))}">${d==null?"":d<5?"u gradu":"~"+d+" km"}</div></article>`;
 }
 function renderFest(){
@@ -545,8 +545,9 @@ function gcalLink(e){
     location: e.venue + (e.addr? ", "+e.addr : "") + ", " + cityName(e.city), details:"Izvor: "+e.src});
   return "https://calendar.google.com/calendar/render?"+p.toString();
 }
-// Prostor vodi na njegovu službenu stranicu; ako je ne znamo, samo ime (bez Google pretraga)
-const venueWeb = e => (VENUES[e.vkey]||{}).web || "";
+// Prostor vodi na svoju službenu stranicu; ako je nemamo, a znamo adresu, na Google Maps; inače samo ime
+const venueWeb = e => (VENUES[e.vkey]||{}).web ||
+  (e.addr ? "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((VENUES[e.vkey].full||e.venue.replace(/ – .*/,""))+", "+e.addr+", "+cityName(e.city)) : "");
 
 function priceHTML(e){
   if (e.sold) return `<span class="price sold">Rasprodano</span>`;
@@ -860,7 +861,7 @@ function renderBanner(){
 function renderRegular(){
   const regs = Object.entries(DATA.venues).filter(([k,v])=>v.regular && (v.city||"zagreb")===CITY && (!S.venue || S.venue===k));
   if (!regs.length || S.favOnly || SHARED) return "";
-  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, ${esc(v.address||"")}<span>${esc(v.regular)}</span></div>`).join("")}</section>`;
+  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, ${v.web ? `<a href="${safeUrl(v.web)}" target="_blank" rel="noopener">${esc(v.address||"web")}</a>` : v.address ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+v.address+", "+cityName(v.city||"zagreb"))}" target="_blank" rel="noopener">${esc(v.address)}</a>` : ""}<span>${esc(v.regular)}</span></div>`).join("")}</section>`;
 }
 
 function view(){ return location.hash==="#kalendar" ? "kalendar" : location.hash==="#festivali" ? "festivali" : "popis"; }
