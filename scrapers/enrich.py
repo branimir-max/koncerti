@@ -33,6 +33,8 @@ SKIP = re.compile(r"filharmonij|simfonij|orkestar|kvartet|zbor|ciklus|koncert u 
 
 # MusicBrainz žanr/oznaka -> naš žanr (prvi pogodak pobjeđuje)
 GENRE_MAP = [
+    # podžanrovi koji sadrže "jazz"/"rock" a nisu to (npr. Stereo MC's = "acid jazz")
+    ("acid jazz", "elektro"), ("nu jazz", "elektro"), ("trip hop", "elektro"), ("jazz rap", "hiphop"),
     ("metal", "metal"), ("punk", "punk"), ("hardcore", "punk"), ("hip hop", "hiphop"), ("hip-hop", "hiphop"),
     ("rap", "hiphop"), ("trap", "hiphop"), ("jazz", "jazz"), ("classical", "klasika"), ("opera", "klasika"),
     ("techno", "elektro"), ("house", "elektro"), ("electronic", "elektro"), ("ambient", "elektro"),

@@ -20,6 +20,10 @@ SITE = ROOT / "site"
 CITIES = json.loads((DATA / "cities.json").read_text())
 
 
+NOT_MUSIC = re.compile(r"\b(HK|KK|NK|RK|ACH)\s+\w+.*\s[–-]\s|\bvolley|hokej|košark|nogomet|rokomet|"
+                       r"paketna vstopnica|paket dveh tekem|\btekm[ae]\b", re.I)
+
+
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s.lower())
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -82,7 +86,20 @@ def main() -> None:
     today = date.today().isoformat()
     buckets: dict[tuple, list[dict]] = {}
 
+    def core(t: str) -> str:
+        """Bez naziva ciklusa ispred dvotočke ("NO Jazz: Spike Fuck" -> "Spike Fuck")."""
+        m = re.match(r"^([^:]{2,45}):\s*(.+)$", t)
+        return m.group(2) if m else t
+
     def same(a: str, b: str) -> bool:
+        ca, cb = core(a), core(b)
+        return _same(a, b) or _same(ca, cb) or _same(ca, b) or _same(a, cb) or _same_set(a, b)
+
+    def _same_set(a: str, b: str) -> bool:
+        sa, sb = set(norm_all(a)), set(norm_all(b))
+        return bool(sa and sb) and (sa <= sb or sb <= sa)
+
+    def _same(a: str, b: str) -> bool:
         ta, tb = norm_all(a), norm_all(b)
         if not ta or not tb:
             return False
@@ -95,6 +112,8 @@ def main() -> None:
 
     def add(e: dict, prefer: bool) -> None:
         if not e.get("date") or e["date"] < today or not e.get("title"):
+            return
+        if NOT_MUSIC.search(e["title"]):  # sportske utakmice s prodaje ulaznica (npr. dvorana Tivoli)
             return
         if e["date"] > (date.today() + timedelta(days=550)).isoformat():  # očito krivi datumi (npr. 2030.)
             return

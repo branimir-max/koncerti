@@ -341,7 +341,7 @@
   "mbid": "80fe34d0-6b4f-4ccd-81c3-281ab37f0451",
   "name": "Angélique Kidjo",
   "query": "Angélique Kidjo",
-  "v": 2
+  "v": 1
  },
  "anna k": {
   "checked": "2026-11-09",
@@ -389,7 +389,7 @@
   "mbid": "1ffab459-9b77-488d-b224-49a9e730a41f",
   "name": "Anouar Brahem",
   "query": "Anouar Brahem",
-  "v": 2
+  "v": 1
  },
  "ansambl lado": {
   "checked": "2026-11-08",
@@ -3060,7 +3060,7 @@
   "mbid": "c116b504-ce24-4264-96dc-d10a7458236f",
   "name": "Julian Lage",
   "query": "Julian Lage",
-  "v": 2
+  "v": 1
  },
  "jungle": {
   "checked": "2026-11-09",
@@ -3786,7 +3786,7 @@
   "mbid": "7877f283-89e5-4491-b11c-4477c02cb1bd",
   "name": "Magalí Sare",
   "query": "Magalí Sare",
-  "v": 2
+  "v": 1
  },
  "maiija": {
   "checked": "2026-11-09",
@@ -4252,7 +4252,7 @@
   "mbid": "9730c469-42b6-4353-8839-3e60f16e3504",
   "name": "Monika Herzig",
   "query": "Monika Herzig",
-  "v": 2
+  "v": 1
  },
  "monobrother": {
   "checked": "2026-11-09",
@@ -4430,7 +4430,7 @@
   "mbid": "f02e9957-f8c6-4395-b9f7-bd11d66e7f40",
   "name": "Myles Sanko",
   "query": "Myles Sanko",
-  "v": 2
+  "v": 1
  },
  "n bauman": {
   "checked": "2026-11-08",
@@ -4712,7 +4712,7 @@
   "mbid": "b017a7ae-e5ee-4675-bb13-c83346134971",
   "name": "Nouvelle Vague",
   "query": "Nouvelle Vague",
-  "v": 2
+  "v": 1
  },
  "novi val poduzetnistva powered by aestus": {
   "checked": "2026-11-08",
@@ -4791,7 +4791,7 @@
   "mbid": "bed6a824-1e65-4742-a850-8085dd6a46d7",
   "name": "Okvsho",
   "query": "okvsho",
-  "v": 2
+  "v": 1
  },
  "oldschoolbasterds": {
   "checked": "2026-11-09",
@@ -5600,7 +5600,7 @@
   "mbid": "aebc8542-f6ef-4e59-9fe0-e831e8a0dd7a",
   "name": "Sigi Finkel",
   "query": "Sigi Finkel",
-  "v": 2
+  "v": 1
  },
  "signs of the swarm": {
   "checked": "2026-11-09",
@@ -5894,7 +5894,7 @@
   "mbid": "a244d658-c78a-4abb-be68-4e5fb87d776b",
   "name": "Special EFX",
   "query": "Special EFX",
-  "v": 2
+  "v": 1
  },
  "spike": {
   "checked": "2026-11-09",
@@ -5964,7 +5964,7 @@
  "stereo mcs": {
   "checked": "2026-11-09",
   "country": "GB",
-  "genre": "jazz",
+  "genre": "hiphop",
   "links": {
    "deezer": "https://www.deezer.com/artist/1517",
    "facebook": "https://www.facebook.com/stereomcs",
