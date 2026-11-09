@@ -105,6 +105,9 @@ def main() -> None:
         bucket = buckets.setdefault((e["date"], group(e["venue"])), [])
         for old in bucket:
             if same(old["title"], e["title"]):
+                # drugi nazivi istog koncerta (druga postava na drugom izvoru) – za pretragu
+                if not set(norm_all(e["title"])) <= set(norm_all(old["title"])) and e["title"] not in old.setdefault("alt", []):
+                    old["alt"].append(e["title"])
                 if prefer:  # automatski podaci su svježiji, ali ne brišu poznate vrijednosti
                     for f in ("time", "price", "url"):
                         if e.get(f):
@@ -117,7 +120,7 @@ def main() -> None:
                 return
         if not re.match(r"^https?://", e.get("url") or ""):  # samo prave web poveznice
             e["url"] = ""
-        bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")})
+        bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")} | {"alt": []})
 
     for e in manual:
         add(dict(e), prefer=False)

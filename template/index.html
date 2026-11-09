@@ -267,7 +267,7 @@ const GENRES = {
 
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
   const v = VENUES[r.venue];
-  return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, vkey:r.venue, vgroup:v.group||r.venue,
+  return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, alt:r.alt||[], vkey:r.venue, vgroup:v.group||r.venue,
     venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null,
     sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
 }).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
@@ -315,7 +315,7 @@ const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:
 const upcoming = EVENTS.filter(e => e.date >= TODAY);
 
 function match(e, ignoreRange){
-  if (S.q){ const q=S.q.toLowerCase(); if(!(e.artist+" "+e.venue).toLowerCase().includes(q)) return false; }
+  if (S.q){ const q=S.q.toLowerCase(); if(!(e.artist+" "+e.venue+" "+e.alt.join(" ")).toLowerCase().includes(q)) return false; }
   if (S.venue && e.vgroup!==S.venue && e.vkey!==S.venue) return false;
   if (S.genres.size && !S.genres.has(e.genre)) return false;
   if (S.hideSold && e.sold) return false;
