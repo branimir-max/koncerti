@@ -72,11 +72,11 @@ SOURCES = [
      "categories": ["music", "glazba", "koncert", "concert"],
      "urls": ["https://visitrijeka.hr/en/events/?ical=1"]},
     {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True,
-     "urls": ["https://www.kinosiska.si/program/"]},
+     "urls": ["https://www.kinosiska.si/"]},
     {"key": "cvetlicarna", "city": "ljubljana", "venue": "lj-cvetlicarna", "debug_always": True,
-     "urls": ["https://www.cvetlicarna.info/"]},
+     "urls": ["https://cvetlicarna.info/"]},
     {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True,
-     "urls": ["https://www.orto-bar.com/dogodki/koncerti/"]},
+     "urls": ["https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa"]},
 ]
 
 # Ključne riječi za prepoznavanje žanra iz naslova (prvi pogodak pobjeđuje)
