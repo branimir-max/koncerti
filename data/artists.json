@@ -22,6 +22,11 @@
   "checked": "2026-11-08",
   "query": "3. Multidisciplinarna konferencija Znanost psihodelika u primjeni"
  },
+ "3sestre 2026": {
+  "checked": "2026-11-09",
+  "query": "3Sestre 2026",
+  "v": 2
+ },
  "50 godina mladi": {
   "checked": "2026-11-08",
   "query": "50 godina mladi"
@@ -33,6 +38,44 @@
  "73 koncertna sezona zagrebackih solista petrit ceku": {
   "checked": "2026-11-08",
   "query": "73. Koncertna Sezona Zagrebačkih Solista Petrit Çeku"
+ },
+ "999": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/93241",
+   "spotify": "https://open.spotify.com/artist/14IKysoZ0qyGRsIiTk1Ase",
+   "web": "https://www.pirate-punk.net/groupe-musique-punk/?band=999"
+  },
+  "mbid": "90967f7a-dccf-43f8-a212-e84b34e24a7d",
+  "name": "999",
+  "query": "999",
+  "v": 2
+ },
+ "accept": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://accept.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5761",
+   "facebook": "https://www.facebook.com/accepttheband",
+   "instagram": "https://www.instagram.com/acceptworldwide/",
+   "soundcloud": "https://soundcloud.com/accept-official",
+   "spotify": "https://open.spotify.com/artist/3JDIAtVrJdQ7GFOX26LYpv",
+   "web": "http://www.acceptworldwide.com/",
+   "youtube": "https://www.youtube.com/channel/UCyhVxwsqif2_ATAHtTHn7zg"
+  },
+  "mbid": "41f4d85a-0bd7-4602-a3e3-8c47f36efb0a",
+  "name": "Accept",
+  "query": "Accept",
+  "v": 2
+ },
+ "ach volley ljubljana": {
+  "checked": "2026-11-09",
+  "query": "ACH Volley Ljubljana",
+  "v": 2
  },
  "acid arab": {
   "checked": "2026-11-09",
@@ -70,6 +113,25 @@
   "checked": "2026-11-08",
   "query": "AECEF-EUCEET Joint Conference 2027"
  },
+ "aephanemer": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://aephanemer.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12249836",
+   "facebook": "https://www.facebook.com/Aephanemer",
+   "instagram": "https://www.instagram.com/aephanemerofficial/",
+   "soundcloud": "https://soundcloud.com/aephanemerofficial",
+   "spotify": "https://open.spotify.com/artist/1M2nK2dOXJjcCuW3SQEzET",
+   "web": "https://aephanemer.com/",
+   "youtube": "https://www.youtube.com/channel/UCKbrOcSm2kqLTGE3aEZqbFQ"
+  },
+  "mbid": "114a7dd2-00bb-4666-a650-367a2fb08b35",
+  "name": "Aephanemer",
+  "query": "Aephanemer",
+  "v": 2
+ },
  "afro gitano": {
   "checked": "2026-11-08",
   "query": "Afro Gitano"
@@ -77,6 +139,24 @@
  "afterwork hangouts": {
   "checked": "2026-11-08",
   "query": "AfterWork Hangouts"
+ },
+ "against the current": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5506820",
+   "facebook": "https://www.facebook.com/againstthecurrentband",
+   "instagram": "https://www.instagram.com/againstthecurrent/",
+   "soundcloud": "https://soundcloud.com/against-the-current-official",
+   "spotify": "https://open.spotify.com/artist/6yhD1KjhLxIETFF7vIRf8B",
+   "web": "http://www.atcofficial.com/",
+   "youtube": "https://www.youtube.com/channel/UCxMsgwldMZiuFTD6jjv32yQ"
+  },
+  "mbid": "c40a79e9-3b9e-492e-9469-0e5b952ad3e1",
+  "name": "Against the Current",
+  "query": "Against the Current",
+  "v": 2
  },
  "ajngemahtec kvintet": {
   "checked": "2026-11-08",
@@ -89,6 +169,39 @@
  "akustika session w": {
   "checked": "2026-11-08",
   "query": "Akustika Session w"
+ },
+ "allt": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://allt.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/105300172",
+   "facebook": "https://www.facebook.com/alltofficial",
+   "instagram": "https://www.instagram.com/alltband/",
+   "soundcloud": "https://soundcloud.com/allt-music",
+   "spotify": "https://open.spotify.com/artist/6YRr0btzGqfQ5K7r23qjEM",
+   "web": "https://shop.alltband.com/",
+   "youtube": "https://www.youtube.com/channel/UCnIeVbou8giGgw9NtjwSkGw"
+  },
+  "mbid": "bd25b4a6-09ee-4c88-96f3-04464e36c2e5",
+  "name": "Allt",
+  "query": "Allt",
+  "v": 2
+ },
+ "alo stari": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/63007522",
+   "spotify": "https://open.spotify.com/artist/4QACQyCgNVMYCWGy1Yj5P5",
+   "web": "https://www.alostari.si/"
+  },
+  "mbid": "9d08ed30-2125-439e-a9a4-d2cc45dfa402",
+  "name": "Alo!Stari",
+  "query": "Alo!Stari",
+  "v": 2
  },
  "alt n gun": {
   "checked": "2026-11-09",
@@ -113,6 +226,157 @@
   "checked": "2026-11-08",
   "query": "Altin Gün"
  },
+ "amira medunjanin": {
+  "checked": "2026-11-09",
+  "country": "BA",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1678493",
+   "facebook": "https://www.facebook.com/amira.medunjanin",
+   "instagram": "https://www.instagram.com/amira_medunjanin/",
+   "soundcloud": "https://soundcloud.com/amiramedunjanin",
+   "spotify": "https://open.spotify.com/artist/3wkxbSRLiVRpHpS8WJ3Nl9",
+   "web": "https://www.amiramedunjanin.com/",
+   "youtube": "https://www.youtube.com/channel/UCKBKrmIbIrxyn5MjdXbm-_Q"
+  },
+  "mbid": "a005e38e-0867-4d7d-9317-fcbca64e1c4b",
+  "name": "Amira Medunjanin",
+  "query": "Amira Medunjanin",
+  "v": 2
+ },
+ "ammo": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {},
+  "mbid": "980a87e4-3532-49ea-bbda-bd691cc193ad",
+  "name": "Ammo",
+  "query": "Ammo",
+  "v": 2
+ },
+ "amorphis": {
+  "checked": "2026-11-09",
+  "country": "FI",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3579",
+   "facebook": "https://www.facebook.com/amorphis",
+   "instagram": "https://www.instagram.com/amorphisband/",
+   "soundcloud": "https://soundcloud.com/amorphis-official",
+   "spotify": "https://open.spotify.com/artist/2UOVgpgiNTC6KK0vSC77aD",
+   "web": "https://amorphis.net/",
+   "youtube": "https://www.youtube.com/channel/UC-7JFVd4iyli6EB-ycLUEfA"
+  },
+  "mbid": "efaefde1-e09b-4d49-9d8e-b1304d2ece8d",
+  "name": "Amorphis",
+  "query": "Amorphis",
+  "v": 2
+ },
+ "ana moura": {
+  "checked": "2026-11-09",
+  "country": "PT",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/314634",
+   "facebook": "https://www.facebook.com/anamoura",
+   "spotify": "https://open.spotify.com/artist/5HjL8Wcg8TdKTABDci2mB7",
+   "web": "http://www.anamoura.pt/",
+   "youtube": "https://www.youtube.com/channel/UCuhjZvE58ZdffqeIka4gTBg"
+  },
+  "mbid": "b5954bc9-bd18-4064-a17a-1ad719e617a5",
+  "name": "Ana Moura",
+  "query": "Ana Moura",
+  "v": 2
+ },
+ "andre rieu": {
+  "checked": "2026-11-09",
+  "country": "NL",
+  "genre": "klasika",
+  "links": {
+   "bandcamp": "https://andrrieu.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8728",
+   "facebook": "https://www.facebook.com/andrerieu",
+   "instagram": "https://www.instagram.com/andrerieu/",
+   "soundcloud": "https://soundcloud.com/andre-rieu-official",
+   "spotify": "https://open.spotify.com/artist/3hJv5p2HwekJysNB2NDnEC",
+   "web": "http://www.andrerieu.com/",
+   "youtube": "https://www.youtube.com/andrerieu"
+  },
+  "mbid": "0eaa4a38-6bc3-46aa-91be-563f1fa86e16",
+  "name": "André Rieu",
+  "query": "André Rieu",
+  "v": 2
+ },
+ "andrea vanzo": {
+  "checked": "2026-11-09",
+  "query": "Andrea Vanzo",
+  "v": 2
+ },
+ "angelique kidjo": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "jazz",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/6165",
+   "facebook": "https://www.facebook.com/angeliquekidjo",
+   "instagram": "https://www.instagram.com/angeliquekidjo/",
+   "spotify": "https://open.spotify.com/artist/51qUDJb5AtQX6jIL4VJx6M",
+   "web": "http://ayemusic.free.fr/accueil.html",
+   "youtube": "https://www.youtube.com/channel/UCminozacV4jDfaQohcSFyCQ"
+  },
+  "mbid": "80fe34d0-6b4f-4ccd-81c3-281ab37f0451",
+  "name": "Angélique Kidjo",
+  "query": "Angélique Kidjo",
+  "v": 2
+ },
+ "anna k": {
+  "checked": "2026-11-09",
+  "country": "CZ",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/pages/ANNA-K-official/92416469265",
+   "web": "http://www.anna-k.cz/",
+   "youtube": "https://www.youtube.com/user/tvannak"
+  },
+  "mbid": "9443202f-a7f5-4987-8b4c-477113e6c1dd",
+  "name": "Anna K",
+  "query": "Anna K.",
+  "v": 2
+ },
+ "annett louisan": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/8330",
+   "facebook": "https://www.facebook.com/Annett.Louisan",
+   "instagram": "https://www.instagram.com/annettlouisan_official/",
+   "spotify": "https://open.spotify.com/artist/0kcGSitPHYyZ9B7bP7wJo8",
+   "web": "https://www.annettlouisan.de/",
+   "youtube": "https://www.youtube.com/channel/UComs0044GnASc12qvcVnKTg"
+  },
+  "mbid": "0a172f7d-b3b1-40bf-833d-192892e04b5a",
+  "name": "Annett Louisan",
+  "query": "Annett Louisan",
+  "v": 2
+ },
+ "anouar brahem": {
+  "checked": "2026-11-09",
+  "country": "TN",
+  "genre": "jazz",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1401",
+   "facebook": "https://www.facebook.com/anouar.brahem",
+   "instagram": "https://www.instagram.com/anouar.brahem/",
+   "spotify": "https://open.spotify.com/artist/1aO9NulHwrE9pxHXFfCIoM",
+   "web": "http://www.anouarbrahem.com/",
+   "youtube": "https://www.youtube.com/user/anouarbrahemofficial"
+  },
+  "mbid": "1ffab459-9b77-488d-b224-49a9e730a41f",
+  "name": "Anouar Brahem",
+  "query": "Anouar Brahem",
+  "v": 2
+ },
  "ansambl lado": {
   "checked": "2026-11-08",
   "query": "Ansambl LADO"
@@ -120,6 +384,29 @@
  "ante balen u zagrebu": {
   "checked": "2026-11-08",
   "query": "Ante Balen u Zagrebu"
+ },
+ "antimatter": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://antimatteronline.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8952",
+   "facebook": "https://www.facebook.com/antimatteronline",
+   "instagram": "https://www.instagram.com/mickmoss1975/",
+   "spotify": "https://open.spotify.com/artist/2k4duorvZ5lTq33ljpT0sc",
+   "web": "https://www.antimatteronline.com/",
+   "youtube": "https://www.youtube.com/channel/UCCWL2KXSSAW6XIfz4vzPAXA"
+  },
+  "mbid": "7389b838-9bd1-46d3-b514-95e0df255a52",
+  "name": "Antimatter",
+  "query": "Antimatter",
+  "v": 2
+ },
+ "any given day": {
+  "checked": "2026-11-09",
+  "query": "Any Given Day",
+  "v": 2
  },
  "arab strap": {
   "checked": "2026-11-09",
@@ -138,6 +425,25 @@
   "query": "Arab Strap",
   "v": 2
  },
+ "arlo parks": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://arloparks.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/13286961",
+   "facebook": "https://www.facebook.com/arloparks",
+   "instagram": "https://www.instagram.com/arlo.parks/",
+   "soundcloud": "https://soundcloud.com/arlo_parks",
+   "spotify": "https://open.spotify.com/artist/4kIwETcbpuFgRukE8o7Opx",
+   "web": "https://www.arloparksofficial.com/",
+   "youtube": "https://www.youtube.com/@ArloParks"
+  },
+  "mbid": "6e8e3717-a62d-4a3f-886d-6a4e82507930",
+  "name": "Arlo Parks",
+  "query": "Arlo Parks",
+  "v": 2
+ },
  "artur menezes": {
   "checked": "2026-11-09",
   "country": "BR",
@@ -148,6 +454,20 @@
   "mbid": "513db29e-65b1-4aff-bb6e-ed9b643cec6f",
   "name": "Artur Menezes",
   "query": "ARTUR MENEZES",
+  "v": 2
+ },
+ "atomic rooster": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/7275",
+   "spotify": "https://open.spotify.com/artist/6Ix7Hx8Af0jg9X4OfD9sYR",
+   "web": "https://www.atomicroostermusic.com"
+  },
+  "mbid": "5cf54b1a-831f-4cfc-b946-41131c463fc1",
+  "name": "Atomic Rooster",
+  "query": "Atomic Rooster",
   "v": 2
  },
  "atomsko skloniste i gosti 50 atomskih godina": {
@@ -162,13 +482,55 @@
   "checked": "2026-11-08",
   "query": "Avatar"
  },
+ "aws": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1593687",
+   "facebook": "https://www.facebook.com/282149301413",
+   "instagram": "https://www.instagram.com/awsofficial/",
+   "spotify": "https://open.spotify.com/artist/2I5ZkGFj7RYeIBjV4dFlWn",
+   "youtube": "https://www.youtube.com/channel/UCpVH3AFcRbAri5OAUsYRZDw"
+  },
+  "mbid": "d16598bc-0fac-4c31-8647-578cc15875ce",
+  "name": "AWS",
+  "query": "Aws",
+  "v": 2
+ },
+ "baba yaga": {
+  "checked": "2026-11-09",
+  "query": "Baba Yaga",
+  "v": 2
+ },
  "babulabum": {
   "checked": "2026-11-08",
   "query": "BaBuLaBum"
  },
+ "baby lasagna": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/237789251",
+   "instagram": "https://www.instagram.com/the_baby_lasagna_/",
+   "spotify": "https://open.spotify.com/artist/1ncWEkB4AQh1rxC8ObpBoH",
+   "web": "https://babylasagnamusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCvF3sNJf_ueHl8gVdLb0PYA"
+  },
+  "mbid": "ac1739a6-4378-42fb-89f6-1f89e32e4369",
+  "name": "Baby Lasagna",
+  "query": "Baby Lasagna",
+  "v": 2
+ },
  "baby lasagna u boogaloo u": {
   "checked": "2026-11-08",
   "query": "Baby Lasagna u Boogaloo-u!"
+ },
+ "back to the 2000": {
+  "checked": "2026-11-09",
+  "query": "Back To the 2000",
+  "v": 2
  },
  "back to the 2000 s": {
   "checked": "2026-11-08",
@@ -178,9 +540,102 @@
   "checked": "2026-11-08",
   "query": "Back To the 2000’s"
  },
+ "bad ida": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/148688412",
+   "spotify": "https://open.spotify.com/artist/3TjCNvbDvzaMRar2i0EjNy"
+  },
+  "mbid": "78c4ec0d-d132-46b3-a76a-36fcb64e2bd9",
+  "name": "Bad Ida",
+  "query": "Bad Ida",
+  "v": 2
+ },
  "bailar gasolina": {
   "checked": "2026-11-08",
   "query": "Bailar Gasolina"
+ },
+ "beatrice egli": {
+  "checked": "2026-11-09",
+  "country": "CH",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1424622",
+   "facebook": "https://www.facebook.com/beatrice.egli.offiziell",
+   "instagram": "https://www.instagram.com/beatrice_egli_offiziell/",
+   "spotify": "https://open.spotify.com/artist/7J8A1bNBCuikXoOOetFCKz",
+   "web": "http://www.beatrice-egli.ch/",
+   "youtube": "https://www.youtube.com/channel/UChtsg2W4AmCe0bAR9QkixFQ"
+  },
+  "mbid": "b14dcad7-bf9a-4d17-9a0f-f56d5b0d79bd",
+  "name": "Beatrice Egli",
+  "query": "Beatrice Egli",
+  "v": 2
+ },
+ "belocca": {
+  "checked": "2026-11-09",
+  "query": "Belocca",
+  "v": 2
+ },
+ "ben sims": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/468795",
+   "facebook": "https://www.facebook.com/pages/Ben-Sims/60542184918",
+   "spotify": "https://open.spotify.com/artist/5wW4dvR027rdRFG0mtvckt",
+   "web": "http://www.bensims.com/"
+  },
+  "mbid": "bfdd55cf-82e6-4fad-95f6-135136da25d6",
+  "name": "Ben Sims",
+  "query": "Ben Sims",
+  "v": 2
+ },
+ "beogradski sindikat": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "web": "http://beogradskisindikat.com/",
+   "youtube": "https://www.youtube.com/channel/UCYE0ZJ6WJnhwwwdsbF4frog"
+  },
+  "mbid": "3142e757-b0a0-41ce-9822-84ab0ede241d",
+  "name": "Beogradski Sindikat",
+  "query": "Beogradski Sindikat",
+  "v": 2
+ },
+ "berio": {
+  "checked": "2026-11-09",
+  "query": "Berio",
+  "v": 2
+ },
+ "berny": {
+  "checked": "2026-11-09",
+  "query": "Berny",
+  "v": 2
+ },
+ "berq": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/178410377",
+   "instagram": "https://www.instagram.com/berqmitq/",
+   "spotify": "https://open.spotify.com/artist/0eVixEZVW2PB1UogwTWXc1",
+   "youtube": "https://www.youtube.com/channel/UCDJBL7EZlt9C6Cy1fg2BTmA"
+  },
+  "mbid": "b44a1850-3a9e-4784-8428-40b38a2a7a05",
+  "name": "Berq",
+  "query": "Berq",
+  "v": 2
+ },
+ "bila": {
+  "checked": "2026-11-09",
+  "query": "Bila",
+  "v": 2
  },
  "bilal": {
   "checked": "2026-11-09",
@@ -198,13 +653,185 @@
   "query": "Bilal",
   "v": 2
  },
+ "billy liar": {
+  "checked": "2026-11-09",
+  "query": "Billy Liar",
+  "v": 2
+ },
+ "billylildove": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "3ffff52c-da6a-4a4d-882a-97c0913136f3",
+  "name": "Billylildove",
+  "query": "Billylildove",
+  "v": 2
+ },
+ "birdstone fr": {
+  "checked": "2026-11-09",
+  "query": "birdstone_fr",
+  "v": 2
+ },
+ "birgit denk": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "web": "http://www.bdenk.at/"
+  },
+  "mbid": "46913720-7cef-4460-9551-a12121bb3dde",
+  "name": "Birgit Denk",
+  "query": "Birgit Denk",
+  "v": 2
+ },
  "bitanga": {
   "checked": "2026-11-08",
   "query": "Bitanga"
  },
+ "blackgold": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5136159",
+   "facebook": "https://www.facebook.com/BLACKGOLDHG",
+   "instagram": "https://www.instagram.com/blackgoldhg/",
+   "spotify": "https://open.spotify.com/artist/3IWxZuMgQKWrNn1S20D1qa",
+   "youtube": "https://www.youtube.com/@blackgoldhg"
+  },
+  "mbid": "0b72ed9e-578c-4748-bb08-1d8c8dd117b9",
+  "name": "BLACKGOLD",
+  "query": "Blackgold",
+  "v": 2
+ },
+ "blok3": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/117259882",
+   "instagram": "https://www.instagram.com/blok3.real/",
+   "spotify": "https://open.spotify.com/artist/1GMwSpFzrLd12jUX15bHB6",
+   "youtube": "https://music.youtube.com/channel/UCZpmeLoLLb3vmxgscRyLPgw"
+  },
+  "mbid": "064814c9-1560-4d45-aaab-1b1f2c3b2b65",
+  "name": "BLOK3",
+  "query": "BLOK3",
+  "v": 2
+ },
  "bluvinil u zagrebu": {
   "checked": "2026-11-08",
   "query": "BluVinil u Zagrebu!"
+ },
+ "bob dylan": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/808",
+   "facebook": "https://www.facebook.com/bobdylan",
+   "instagram": "https://www.instagram.com/bobdylan/",
+   "soundcloud": "https://soundcloud.com/bobdylan",
+   "spotify": "https://open.spotify.com/artist/74ASZWbe4lXaubB36ztrGX",
+   "web": "https://bobdylan.com/",
+   "youtube": "https://www.youtube.com/channel/UCnRI0ay61tY-fKYzzB3fCnw"
+  },
+  "mbid": "72c536dc-7137-4477-a521-567eeb840fa8",
+  "name": "Bob Dylan",
+  "query": "Bob Dylan",
+  "v": 2
+ },
+ "bob vylan": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://bobvylan.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5008696",
+   "facebook": "https://www.facebook.com/BobVylan",
+   "instagram": "https://www.instagram.com/bobbyvylan/",
+   "soundcloud": "https://soundcloud.com/bobbyvylan",
+   "spotify": "https://open.spotify.com/artist/6XgIk9Y6qy6JCMZVime6DQ",
+   "web": "https://www.bobvylan.com/",
+   "youtube": "https://www.youtube.com/channel/UCPZAeZvlZ-8eddSHglsjhww"
+  },
+  "mbid": "d1bc5be1-f552-4e2e-95ae-da8d6a4d3c17",
+  "name": "Bob Vylan",
+  "query": "Bob Vylan",
+  "v": 2
+ },
+ "borgore": {
+  "checked": "2026-11-09",
+  "country": "IL",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/406688",
+   "facebook": "https://www.facebook.com/Borgore",
+   "instagram": "https://www.instagram.com/borgore/",
+   "soundcloud": "https://soundcloud.com/borgore",
+   "spotify": "https://open.spotify.com/artist/7u160I5qtBYZTQMLEIJmyz",
+   "web": "http://therealborgore.com/",
+   "youtube": "https://www.youtube.com/channel/UCrHiP_tOJ0aGeG9HGbOKHdw"
+  },
+  "mbid": "215e2b5d-06f8-4c68-b33b-8fccec27a077",
+  "name": "Borgore",
+  "query": "Borgore",
+  "v": 2
+ },
+ "bosse": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/162065",
+   "facebook": "https://www.facebook.com/bossemusik",
+   "instagram": "https://www.instagram.com/axelbosse/",
+   "spotify": "https://open.spotify.com/artist/2e4uIDIIBXR0MmZe0AJGhR",
+   "web": "https://www.axelbosse.de/",
+   "youtube": "https://www.youtube.com/channel/UCbF0OGEgQHGZVHfeog3PsKA"
+  },
+  "mbid": "ba8fe46e-af81-4fcd-8581-59d6920d5d55",
+  "name": "Bosse",
+  "query": "Bosse",
+  "v": 2
+ },
+ "boy harsher": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://boyharsher.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8512914",
+   "facebook": "https://www.facebook.com/boyharsher/",
+   "instagram": "https://www.instagram.com/boyharsher/",
+   "soundcloud": "https://soundcloud.com/boy-harsher",
+   "spotify": "https://open.spotify.com/artist/4iom7VVRU6AHRIu1JUXpLG",
+   "web": "http://boyharsher.com/",
+   "youtube": "https://www.youtube.com/channel/UCcwLVJ0hC4YnSfMRlolkVDw"
+  },
+  "mbid": "6dc9bc09-a0c7-40f9-b491-f90845927533",
+  "name": "Boy Harsher",
+  "query": "Boy Harsher",
+  "v": 2
+ },
+ "bragolin": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://bragolin.bandcamp.com/",
+   "facebook": "https://www.facebook.com/Bragolinmusic",
+   "instagram": "https://www.instagram.com/bragolin/",
+   "soundcloud": "https://soundcloud.com/user-804366011/albums",
+   "spotify": "https://open.spotify.com/artist/3WbMTcYVLy8BJXZOP1uPnD",
+   "web": "http://www.bragolin.nl/",
+   "youtube": "https://www.youtube.com/channel/UCpJJZY1QijqOYUc9dihLzFg"
+  },
+  "mbid": "405f339f-eac9-4519-9f51-c397a2b7851b",
+  "name": "Bragolin",
+  "query": "Bragolin",
+  "v": 2
  },
  "branford marsalis": {
   "checked": "2026-11-08",
@@ -232,9 +859,45 @@
   "query": "Bruce Dickinson",
   "v": 2
  },
+ "bryan adams": {
+  "checked": "2026-11-09",
+  "country": "CA",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/170",
+   "facebook": "https://www.facebook.com/bryanadamsofficial",
+   "instagram": "https://www.instagram.com/bryanadams/",
+   "soundcloud": "https://soundcloud.com/bryan-adams-official",
+   "spotify": "https://open.spotify.com/artist/3Z02hBLubJxuFJfhacLSDc",
+   "web": "http://www.bryanadams.com/",
+   "youtube": "https://www.youtube.com/channel/UC58iZEkGZi7ETeXizx_03vg"
+  },
+  "mbid": "4dbf5678-7a31-406a-abbe-232f8ac2cd63",
+  "name": "Bryan Adams",
+  "query": "Bryan Adams",
+  "v": 2
+ },
  "brzeguze w": {
   "checked": "2026-11-08",
   "query": "brzeguze w"
+ },
+ "bullet for my valentine": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/327",
+   "facebook": "https://www.facebook.com/BulletForMyValentine",
+   "instagram": "https://www.instagram.com/bfmvofficial/",
+   "soundcloud": "https://soundcloud.com/bulletformyvalentine",
+   "spotify": "https://open.spotify.com/artist/7iWiAD5LLKyiox2grgfmUT",
+   "web": "http://www.bulletformyvalentine.com/",
+   "youtube": "https://www.youtube.com/bulletformyvalentine"
+  },
+  "mbid": "d530dbf9-69b1-404f-98f2-0431104f5a1e",
+  "name": "Bullet for My Valentine",
+  "query": "Bullet for My Valentine",
+  "v": 2
  },
  "buzzcocks": {
   "checked": "2026-11-09",
@@ -262,13 +925,172 @@
   "checked": "2026-11-08",
   "query": "CALIBRO 35! VS. L.A. u Vintageu"
  },
+ "cara elizabeth": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "instagram": "https://www.instagram.com/caraxelizabeth/",
+   "soundcloud": "https://soundcloud.com/caraxelizabeth",
+   "spotify": "https://open.spotify.com/artist/4Ol10UBcGz0YO0XpAKoGIU"
+  },
+  "mbid": "49b73ca7-4f3c-4255-93e1-cfec125664a4",
+  "name": "Cara Elizabeth",
+  "query": "Cara Elizabeth",
+  "v": 2
+ },
+ "carnifex": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/73453",
+   "facebook": "https://www.facebook.com/CarnifexMetal",
+   "instagram": "https://www.instagram.com/Carnifex/",
+   "soundcloud": "https://soundcloud.com/carnifexofficial",
+   "spotify": "https://open.spotify.com/artist/4nqY8hkQNkHaDq4fdVxdYr",
+   "web": "https://www.carnifexmetal.com/",
+   "youtube": "https://www.youtube.com/channel/UCS0TDNQROGNJbM_tcK9CR_w"
+  },
+  "mbid": "b463a831-8ea0-40c4-9a56-34cfe0896931",
+  "name": "Carnifex",
+  "query": "Carnifex",
+  "v": 2
+ },
+ "carpenter brut": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://carpenterbrut.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/388459471",
+   "facebook": "https://www.facebook.com/carpenter.brut",
+   "instagram": "https://www.instagram.com/carpenterbrut/",
+   "soundcloud": "https://soundcloud.com/carpenter_brut",
+   "spotify": "https://open.spotify.com/artist/1l2oLiukA9i5jEtIyNWIEP",
+   "web": "https://carpenterbrut.com/",
+   "youtube": "https://www.youtube.com/channel/UCPVnLrkvF3M_H1NTOsMvgrA"
+  },
+  "mbid": "303abdee-ffca-4685-a582-6aaaefd81b01",
+  "name": "Carpenter Brut",
+  "query": "Carpenter Brut",
+  "v": 2
+ },
+ "cassia": {
+  "checked": "2026-11-09",
+  "query": "Cassia",
+  "v": 2
+ },
+ "castle": {
+  "checked": "2026-11-09",
+  "query": "Castle",
+  "v": 2
+ },
+ "catt": {
+  "checked": "2026-11-09",
+  "query": "Catt",
+  "v": 2
+ },
+ "cedevita olimpija": {
+  "checked": "2026-11-09",
+  "query": "Cedevita Olimpija",
+  "v": 2
+ },
+ "chameleons": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://chameleonsuk.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8531",
+   "spotify": "https://open.spotify.com/artist/4HLWX9kzfraiCsTvrxJEXm",
+   "web": "http://www.thechameleons.com/",
+   "youtube": "https://music.youtube.com/channel/UCEgl7o7hPiqoGWseLmRtOkg"
+  },
+  "mbid": "8d07f60f-b9f4-46c0-9c27-31de0fb9b671",
+  "name": "The Chameleons",
+  "query": "Chameleons",
+  "v": 2
+ },
  "chansonfest 2026": {
   "checked": "2026-11-08",
   "query": "Chansonfest 2026"
  },
+ "chapo102": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "hiphop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/13106955",
+   "instagram": "https://www.instagram.com/chapo102/",
+   "spotify": "https://open.spotify.com/artist/36caCzfSrrL7a8Mvd1SuRr"
+  },
+  "mbid": "5b58a620-4390-4373-913e-eeb68bdb37c3",
+  "name": "Chapo102",
+  "query": "Chapo102",
+  "v": 2
+ },
+ "chelsea wolfe": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://chelseawolfe.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/398157",
+   "facebook": "https://www.facebook.com/chelseawolfeofficial",
+   "instagram": "https://www.instagram.com/chelseawolfeofficial/",
+   "soundcloud": "https://soundcloud.com/chelseawolfe",
+   "spotify": "https://open.spotify.com/artist/6ZK2nrW8aCTg8Bid7I7N10",
+   "web": "https://chelseawolfe.com/",
+   "youtube": "https://www.youtube.com/channel/UCjunnZq5ArgycpGBkOVLUMA"
+  },
+  "mbid": "60e8e938-365e-4429-a141-4c79eb49588d",
+  "name": "Chelsea Wolfe",
+  "query": "Chelsea Wolfe",
+  "v": 2
+ },
+ "chinchilla": {
+  "checked": "2026-11-09",
+  "query": "Chinchilla",
+  "v": 2
+ },
+ "chloe slater": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://chloeslater.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/226653735",
+   "facebook": "https://www.facebook.com/profile.php?id=61550060565573",
+   "instagram": "https://www.instagram.com/chloeslater333/",
+   "soundcloud": "https://soundcloud.com/user-chloeslater3/tracks",
+   "spotify": "https://open.spotify.com/artist/43R8Umt7qVmJCcOZGWJy24",
+   "web": "https://chloeslater.co.uk/",
+   "youtube": "https://www.youtube.com/channel/UCRdM72vjFu-vRryz61nYDcg"
+  },
+  "mbid": "ee93d61d-67c3-4a58-80b1-2ecf346d767e",
+  "name": "Chloe Slater",
+  "query": "chloe slater",
+  "v": 2
+ },
  "christopher robin cox and powercords": {
   "checked": "2026-11-08",
   "query": "Christopher Robin Cox and Powercords"
+ },
+ "chuck prophet": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://chuckprophet.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/112478",
+   "spotify": "https://open.spotify.com/artist/3vidJsiALgVC5ZuweJgeDT",
+   "web": "http://www.chuckprophet.com/"
+  },
+  "mbid": "61568439-b790-4e96-9b4f-64503ce0ab12",
+  "name": "Chuck Prophet",
+  "query": "Chuck Prophet",
+  "v": 2
  },
  "clan of xymox": {
   "checked": "2026-11-09",
@@ -288,6 +1110,20 @@
   "query": "Clan of Xymox",
   "v": 2
  },
+ "climax blues band": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/211236",
+   "spotify": "https://open.spotify.com/artist/4eeRviM714mXXeILmKHxh2",
+   "web": "http://www.climaxbluesband.com/"
+  },
+  "mbid": "d0ff507b-51fa-486d-902a-d27c88ff214d",
+  "name": "Climax Blues Band",
+  "query": "Climax Blues Band",
+  "v": 2
+ },
  "cockney rejects": {
   "checked": "2026-11-09",
   "country": "GB",
@@ -302,13 +1138,85 @@
   "query": "Cockney Rejects",
   "v": 2
  },
+ "come": {
+  "checked": "2026-11-09",
+  "query": "Come",
+  "v": 2
+ },
  "come closer": {
   "checked": "2026-11-08",
   "query": "Come closer"
  },
+ "comeback kid": {
+  "checked": "2026-11-09",
+  "country": "CA",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://comebackkid-hc.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/3560",
+   "facebook": "https://www.facebook.com/Comeback.Kid",
+   "instagram": "https://www.instagram.com/comebackkid_hc/",
+   "soundcloud": "https://soundcloud.com/comebackkidofficial",
+   "spotify": "https://open.spotify.com/artist/67f7GZXNMGRn98lqrtIdrN",
+   "web": "http://www.comeback-kid.com/",
+   "youtube": "https://www.youtube.com/user/comebackkidtv"
+  },
+  "mbid": "6d152109-c447-446d-9a06-3621c920bebd",
+  "name": "Comeback Kid",
+  "query": "Comeback Kid",
+  "v": 2
+ },
+ "concentus musicus wien": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "klasika",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/870780",
+   "facebook": "https://www.facebook.com/concentusmusicus",
+   "spotify": "https://open.spotify.com/artist/13I2ztd72qYJXj9wS7a5VU",
+   "web": "https://www.concentusmusicus.com"
+  },
+  "mbid": "9b891046-35af-4eb0-a058-eba4c9b8d01f",
+  "name": "Concentus Musicus Wien",
+  "query": "Concentus Musicus Wien",
+  "v": 2
+ },
  "conjurer u boogaloo u": {
   "checked": "2026-11-08",
   "query": "Conjurer u Boogaloo-u!"
+ },
+ "conway the machine": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "hiphop",
+  "links": {
+   "bandcamp": "https://conwaythemachine.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1300694",
+   "facebook": "https://www.facebook.com/WhoIsConway",
+   "instagram": "https://www.instagram.com/whoisconway/",
+   "soundcloud": "https://soundcloud.com/conway_the_machine",
+   "spotify": "https://open.spotify.com/artist/67gqUXxHedeUGDTxwBzdjS",
+   "youtube": "https://music.youtube.com/channel/UCp5nbXufYzYUiSnq74Z0ncA"
+  },
+  "mbid": "a633ebb5-b81a-400f-b5df-0e625ea81fe9",
+  "name": "Conway the Machine",
+  "query": "Conway the Machine",
+  "v": 2
+ },
+ "cordoba78": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "instagram": "https://www.instagram.com/cordoba.achtundsiebzig/",
+   "spotify": "https://open.spotify.com/artist/2GNQkf6PWF0octGR2XzpQt",
+   "web": "https://www.cordoba78.com/",
+   "youtube": "https://www.youtube.com/channel/UC1WxcSymxKLoYiwX2p1BItg"
+  },
+  "mbid": "a839b27e-45b7-4337-889a-856a903210bd",
+  "name": "Cordoba78",
+  "query": "Cordoba78",
+  "v": 2
  },
  "crimson glory": {
   "checked": "2026-11-09",
@@ -350,9 +1258,61 @@
   "query": "Crvena Jabuka",
   "v": 2
  },
+ "cserihanna": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/186149107",
+   "spotify": "https://open.spotify.com/artist/7MHRzj7k1gqYcJ2P7V8mwl"
+  },
+  "mbid": "0e80aa88-4805-4fd8-80ca-dfe7eb3ea9b5",
+  "name": "cserihanna",
+  "query": "cserihanna",
+  "v": 2
+ },
  "cudnovata dama trema": {
   "checked": "2026-11-08",
   "query": "Čudnovata Dama Trema"
+ },
+ "curawaka": {
+  "checked": "2026-11-09",
+  "country": "NO",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/60145232",
+   "facebook": "https://www.facebook.com/curawaka",
+   "soundcloud": "https://soundcloud.com/curawaka_official",
+   "spotify": "https://open.spotify.com/artist/44fpQPDp87ENRKkB3szMop",
+   "web": "https://www.curawaka.com/",
+   "youtube": "https://www.youtube.com/channel/UC1UNdI8t-HWT7py89Pp9nTA"
+  },
+  "mbid": "23e75c64-a6ea-46e9-a6e3-bef192f62eca",
+  "name": "Curawaka",
+  "query": "Curawaka",
+  "v": 2
+ },
+ "current 93": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "world",
+  "links": {
+   "bandcamp": "https://current931.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4968",
+   "facebook": "https://www.facebook.com/Current93",
+   "instagram": "https://www.instagram.com/davidtibet_current93/",
+   "spotify": "https://open.spotify.com/artist/7vF3DcPluq6lZI36VniagW",
+   "web": "http://www.copticcat.com/"
+  },
+  "mbid": "944655bc-16b1-48d2-b4ff-f73654612fcf",
+  "name": "Current 93",
+  "query": "Current 93",
+  "v": 2
+ },
+ "dad harmony": {
+  "checked": "2026-11-09",
+  "query": "Dad Harmony",
+  "v": 2
  },
  "daf": {
   "checked": "2026-11-08",
@@ -362,9 +1322,84 @@
   "checked": "2026-11-08",
   "query": "DAFT FUNK live!"
  },
+ "daily thompson": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://dailythompsonband.bandcamp.com/",
+   "facebook": "https://www.facebook.com/dailythompson.band"
+  },
+  "mbid": "6ccec0a7-2c03-4fff-91f0-b4212c26dcb7",
+  "name": "Daily Thompson",
+  "query": "Daily Thompson",
+  "v": 2
+ },
+ "dance mix by gift": {
+  "checked": "2026-11-09",
+  "query": "Dance mix By GIFT",
+  "v": 2
+ },
+ "danielle nicole": {
+  "checked": "2026-11-09",
+  "query": "Danielle Nicole",
+  "v": 2
+ },
+ "dartagnan": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/9617580",
+   "facebook": "https://www.facebook.com/dartagnan.de",
+   "instagram": "https://www.instagram.com/dartagnan_official/",
+   "spotify": "https://open.spotify.com/artist/7Lj8CmxeAuJ2c2I6YxA6AJ",
+   "web": "http://www.dartagnan.de/",
+   "youtube": "https://www.youtube.com/channel/UCua2XB7SjnZsknC8ZK-DhAg"
+  },
+  "mbid": "4266e965-7a2f-4556-acf6-2fb3257023aa",
+  "name": "dArtagnan",
+  "query": "Dartagnan",
+  "v": 2
+ },
+ "darvaza": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://darvazablackmetal.bandcamp.com/",
+   "facebook": "https://www.facebook.com/Darvaza.blackmetal",
+   "instagram": "https://www.instagram.com/darvaza_bm/",
+   "spotify": "https://open.spotify.com/artist/3bLPyQrEBC1SClEcf6kZ3n"
+  },
+  "mbid": "3f80bed4-3807-4423-90ba-a2dae0de8c72",
+  "name": "Darvaza",
+  "query": "Darvaza",
+  "v": 2
+ },
  "david elefson": {
   "checked": "2026-11-08",
   "query": "David Elefson"
+ },
+ "david eugene edwards": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://davideugeneedwards.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1017817",
+   "spotify": "https://open.spotify.com/artist/4T8Z2MuOWpnhGzTTSOz0Rj",
+   "web": "http://www.wovenhand.com"
+  },
+  "mbid": "567533af-f026-4923-b5d3-16fd50776b69",
+  "name": "David Eugene Edwards",
+  "query": "David Eugene Edwards",
+  "v": 2
+ },
+ "david mccredie": {
+  "checked": "2026-11-09",
+  "query": "David McCredie",
+  "v": 2
  },
  "david morales": {
   "checked": "2026-11-09",
@@ -389,17 +1424,143 @@
   "checked": "2026-11-08",
   "query": "David Temelkov"
  },
+ "davina michelle": {
+  "checked": "2026-11-09",
+  "country": "NL",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/12550742",
+   "facebook": "https://www.facebook.com/DavinaMichelleMusic",
+   "instagram": "https://www.instagram.com/davinamichelleofficial/",
+   "spotify": "https://open.spotify.com/artist/6OG9fZ1LKXyL0hShRmmnq1",
+   "web": "https://davinamichelle.com/",
+   "youtube": "https://www.youtube.com/channel/UCNFhPxOF1NRT1QlxJzgctzw"
+  },
+  "mbid": "aa0104a7-ce6f-403f-bd8a-19779a0a7f77",
+  "name": "Davina Michelle",
+  "query": "Davina Michelle",
+  "v": 2
+ },
+ "dead poet society": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://deadpoetsocietyofficial.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4231855",
+   "facebook": "https://www.facebook.com/deadpoetsocietyband",
+   "instagram": "https://www.instagram.com/wearedps/",
+   "soundcloud": "https://soundcloud.com/deadpoetsociety",
+   "spotify": "https://open.spotify.com/artist/31M8EXHYtEqOqVb1X7JRVe",
+   "web": "https://www.wearedps.com/",
+   "youtube": "https://www.youtube.com/channel/UCSIDln9BMrcXa6Pmeu7NDew"
+  },
+  "mbid": "435bcadf-2278-4492-a2d3-f7f0ce09badb",
+  "name": "Dead Poet Society",
+  "query": "Dead Poet Society",
+  "v": 2
+ },
  "decki z bregov": {
   "checked": "2026-11-08",
   "query": "Dečki Z Bregov"
+ },
+ "der nino aus wien": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1050510",
+   "spotify": "https://open.spotify.com/artist/4uxaBWHg68KF1mB0r5YFWJ",
+   "web": "http://www.myspace.com/ninoshouseband"
+  },
+  "mbid": "1999f1e6-8896-46ab-8628-f72870d25e87",
+  "name": "Der Nino aus Wien",
+  "query": "Der Nino Aus Wien",
+  "v": 2
  },
  "desire": {
   "checked": "2026-11-08",
   "query": "Desire"
  },
+ "despised icon": {
+  "checked": "2026-11-09",
+  "country": "CA",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/161182",
+   "facebook": "https://www.facebook.com/despisedicon",
+   "instagram": "https://www.instagram.com/despisedicon/",
+   "soundcloud": "https://soundcloud.com/despisedicon",
+   "spotify": "https://open.spotify.com/artist/3MjNMjqBpaQ0P8ebfbZjYn",
+   "web": "https://www.despisedicon.com/",
+   "youtube": "https://www.youtube.com/channel/UC4NBXLFNA_12JMAYzUmt5zg"
+  },
+  "mbid": "c8dd5b47-a9c7-4dc8-be8f-ec089a622599",
+  "name": "Despised Icon",
+  "query": "Despised Icon",
+  "v": 2
+ },
+ "devito u splitu": {
+  "checked": "2026-11-09",
+  "query": "Devito u Splitu",
+  "v": 2
+ },
+ "diana arbenina": {
+  "checked": "2026-11-09",
+  "query": "Diana Arbenina",
+  "v": 2
+ },
+ "die fledermaus": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "39cede68-6464-4a2f-ae21-b5ac2e50e007",
+  "name": "Die Fledermaus",
+  "query": "Die Fledermaus",
+  "v": 2
+ },
+ "die strottern": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/diestrottern",
+   "web": "http://diestrottern.at/"
+  },
+  "mbid": "3e1163f9-c9ea-4d11-b894-3abb9a0c6792",
+  "name": "Die Strottern",
+  "query": "Die Strottern",
+  "v": 2
+ },
+ "dikka": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/8977906",
+   "instagram": "https://www.instagram.com/hallo.dikka/",
+   "spotify": "https://open.spotify.com/artist/79BUGg8I39oq0mSeIetvob",
+   "youtube": "https://music.youtube.com/channel/UCoKPEzPZqKxdOfGilyiCrgg"
+  },
+  "mbid": "c8f092fc-939f-4a0a-a580-5998259c4bef",
+  "name": "DIKKA",
+  "query": "Dikka",
+  "v": 2
+ },
  "direkt u glavu": {
   "checked": "2026-11-08",
   "query": "Direkt u Glavu"
+ },
+ "dj kraak": {
+  "checked": "2026-11-09",
+  "query": "DJ Kraak",
+  "v": 2
+ },
+ "dj marky": {
+  "checked": "2026-11-09",
+  "query": "DJ Marky",
+  "v": 2
  },
  "dobrotvorni koncert srce u srcu zagreba": {
   "checked": "2026-11-08",
@@ -444,13 +1605,56 @@
   "checked": "2026-11-08",
   "query": "Dominik Šušković"
  },
+ "dominum": {
+  "checked": "2026-11-09",
+  "query": "Dominum",
+  "v": 2
+ },
  "domoljubni koncert djeca pjevaju domu mom": {
   "checked": "2026-11-08",
   "query": "Domoljubni Koncert djeca Pjevaju Domu Mom"
  },
+ "donna savage": {
+  "checked": "2026-11-09",
+  "query": "Donna Savage",
+  "v": 2
+ },
  "draga ulija": {
   "checked": "2026-11-08",
   "query": "Draga Ulija"
+ },
+ "dragonforce": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://dragonforce.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4421",
+   "facebook": "https://www.facebook.com/dragonforce",
+   "instagram": "https://www.instagram.com/DragonForceHQ/",
+   "soundcloud": "https://soundcloud.com/dragonforceofficial",
+   "spotify": "https://open.spotify.com/artist/2pH3wEn4eYlMMIIQyKPbVR",
+   "web": "http://www.dragonforce.com/",
+   "youtube": "https://www.youtube.com/dragonforce"
+  },
+  "mbid": "ef58d4c9-0d40-42ba-bfab-9186c1483edd",
+  "name": "DragonForce",
+  "query": "Dragonforce",
+  "v": 2
+ },
+ "drawn and quartered": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://drawnandquartered1.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/255481",
+   "spotify": "https://open.spotify.com/artist/2p6lv19FRrVoKEL52qm99e"
+  },
+  "mbid": "d866ef3c-dc96-46dc-9464-40d4ad9a4f92",
+  "name": "Drawn and Quartered",
+  "query": "Drawn And Quartered",
+  "v": 2
  },
  "drazen zecic": {
   "checked": "2026-11-09",
@@ -465,6 +1669,11 @@
   "mbid": "f8ddbcd8-a856-4508-a353-0b43159b8f65",
   "name": "Dražen Zečić",
   "query": "Dražen Zečić",
+  "v": 2
+ },
+ "dreamers exyu": {
+  "checked": "2026-11-09",
+  "query": "Dreamers ExYu",
   "v": 2
  },
  "drito iz bocarskog": {
@@ -484,6 +1693,37 @@
  "drugi plan": {
   "checked": "2026-11-08",
   "query": "Drugi Plan"
+ },
+ "duckshell": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/DuckShellOfficial"
+  },
+  "mbid": "6b85e46e-1ec4-4085-943c-b769ce0e1c50",
+  "name": "Duckshell",
+  "query": "Duckshell",
+  "v": 2
+ },
+ "ductape": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://ductape.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/11954269",
+   "facebook": "https://www.facebook.com/ductapeofficial",
+   "instagram": "https://www.instagram.com/ductape_official/",
+   "soundcloud": "https://soundcloud.com/ductape_official",
+   "spotify": "https://open.spotify.com/artist/2Qte1S9njYjLMRDYlbRFny",
+   "web": "https://www.ductape.info/",
+   "youtube": "https://www.youtube.com/channel/UC7yg052GRJoFtSLYXui8bCw"
+  },
+  "mbid": "d5ed4bd7-56be-4586-aca4-fbbac75a5d5a",
+  "name": "Ductape",
+  "query": "Ductape",
+  "v": 2
  },
  "dunjaluk": {
   "checked": "2026-11-09",
@@ -566,6 +1806,82 @@
   "checked": "2026-11-08",
   "query": "ELECTRIC SIX u Tvornici Kulture"
  },
+ "elektro guzzi": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/elektroguzzi",
+   "instagram": "https://www.instagram.com/elektroguzzi/",
+   "soundcloud": "https://soundcloud.com/elektroguzzi",
+   "web": "http://www.elektroguzzi.net/",
+   "youtube": "https://www.youtube.com/channel/UCwZqvr-snk1MI2jdbW7TqMQ"
+  },
+  "mbid": "9fba1ae7-aeb3-4930-98f0-7e4b82512714",
+  "name": "Elektro Guzzi",
+  "query": "Elektro Guzzi",
+  "v": 2
+ },
+ "ella stern": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "instagram": "https://www.instagram.com/ellaastern/",
+   "spotify": "https://open.spotify.com/artist/4JqjErIJOUuM9VSJdSsmxd"
+  },
+  "mbid": "79292a8d-98f7-4c2b-8b6f-ed6af275bfba",
+  "name": "Ella Stern",
+  "query": "Ella Stern",
+  "v": 2
+ },
+ "elsa": {
+  "checked": "2026-11-09",
+  "query": "Elsa",
+  "v": 2
+ },
+ "eluveitie": {
+  "checked": "2026-11-09",
+  "country": "CH",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/6253",
+   "facebook": "https://www.facebook.com/eluveitie",
+   "instagram": "https://www.instagram.com/eluveitie_official/",
+   "soundcloud": "https://soundcloud.com/eluveitie",
+   "spotify": "https://open.spotify.com/artist/5X0N2k3qMnI8kSrGJT3kfT",
+   "web": "http://eluveitie.ch/",
+   "youtube": "https://www.youtube.com/channel/UClV0x3k5Oxm7vREoLEOPeGg"
+  },
+  "mbid": "8000598a-5edb-401c-8e6d-36b167feaf38",
+  "name": "Eluveitie",
+  "query": "Eluveitie",
+  "v": 2
+ },
+ "elvis big band experience by troublemakers": {
+  "checked": "2026-11-09",
+  "query": "ELVIS Big Band Experience by Troublemakers",
+  "v": 2
+ },
+ "employed to serve": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://employedtoserve.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5550954",
+   "facebook": "https://www.facebook.com/employedtoserve",
+   "instagram": "https://www.instagram.com/employedtoserve/",
+   "soundcloud": "https://soundcloud.com/employed-to-serve",
+   "spotify": "https://open.spotify.com/artist/58d50jBQXhOetEGuSBgu64",
+   "web": "http://www.employedtoserve.com/",
+   "youtube": "https://www.youtube.com/user/EmployedtoServe"
+  },
+  "mbid": "29aaf014-dd11-4c84-9edf-0361693a2b84",
+  "name": "Employed to Serve",
+  "query": "Employed To Serve",
+  "v": 2
+ },
  "enis beslagic": {
   "checked": "2026-11-09",
   "country": "",
@@ -578,13 +1894,193 @@
   "query": "Enis Bešlagić",
   "v": 2
  },
+ "erdling": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://erdling.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/7173478",
+   "facebook": "https://www.facebook.com/erdlingofficial",
+   "spotify": "https://open.spotify.com/artist/1YbFcjdUGqumvNIWLVGcJK",
+   "web": "http://www.erdling.band"
+  },
+  "mbid": "2bdff1c8-49ec-4f0c-b5e6-0dcb44e6f33e",
+  "name": "Erdling",
+  "query": "Erdling",
+  "v": 2
+ },
+ "eric johanson": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://ericjohanson.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4630794",
+   "facebook": "https://www.facebook.com/EricJohansonBlues",
+   "instagram": "https://www.instagram.com/eric.johanson/",
+   "spotify": "https://open.spotify.com/artist/0mPiFtQynz01cwuBYNA87Z",
+   "web": "https://ericjohanson.com/home"
+  },
+  "mbid": "109f1370-fef0-4bc0-b422-587e7c3afd63",
+  "name": "Eric Johanson",
+  "query": "Eric Johanson",
+  "v": 2
+ },
+ "erra": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://erramusic.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/995453",
+   "facebook": "https://www.facebook.com/Erra.music",
+   "instagram": "https://www.instagram.com/erraband/",
+   "spotify": "https://open.spotify.com/artist/2UoOdQyBGyzrEfxcY77ce0",
+   "web": "https://www.erraband.com/",
+   "youtube": "https://www.youtube.com/channel/UCM64dJz1HdlmYlZ8xYSO8TA"
+  },
+  "mbid": "5c14e10e-735e-4108-a8a5-74d8771672da",
+  "name": "ERRA",
+  "query": "Erra",
+  "v": 2
+ },
+ "escape my shadows": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/escapemyshadows",
+   "instagram": "https://www.instagram.com/escapemyshadows/",
+   "spotify": "https://open.spotify.com/artist/3dGVADHtSRqb1af3p0AayZ",
+   "youtube": "https://www.youtube.com/channel/UCLMrtsv-bO2ZqpByJERglmg"
+  },
+  "mbid": "28276755-b1dd-49ba-8859-a30aa911a9f9",
+  "name": "Escape My Shadows",
+  "query": "Escape My Shadows",
+  "v": 2
+ },
+ "esdeekid": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/271613792",
+   "instagram": "https://www.instagram.com/esdeekid/",
+   "soundcloud": "https://soundcloud.com/esdeekid",
+   "spotify": "https://open.spotify.com/artist/0EyhkwP3UnwGFBy6xwKjSy",
+   "youtube": "https://www.youtube.com/@EsDeeKid"
+  },
+  "mbid": "3d253cbd-fb66-4752-a8d1-f9b0db75bcea",
+  "name": "EsDeeKid",
+  "query": "EsDeeKid",
+  "v": 2
+ },
+ "ethan jewell": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "dd98ebe8-639c-4d99-9f73-122645f8deac",
+  "name": "Ethan Jewell",
+  "query": "Ethan Jewell",
+  "v": 2
+ },
+ "evergrey": {
+  "checked": "2026-11-09",
+  "country": "SE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://evergrey.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8892",
+   "facebook": "https://www.facebook.com/Evergrey",
+   "instagram": "https://www.instagram.com/evergreyofficial/",
+   "soundcloud": "https://soundcloud.com/evergreyofficial",
+   "spotify": "https://open.spotify.com/artist/4S0foX2r0RlC12KBW8u73D",
+   "web": "https://evergrey.net/",
+   "youtube": "https://www.youtube.com/channel/UCujgv2Lm1wJqO6PPJHNOSFQ"
+  },
+  "mbid": "40842674-a794-4580-a0f5-e43d5b600729",
+  "name": "Evergrey",
+  "query": "Evergrey",
+  "v": 2
+ },
+ "f o system": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "rock",
+  "links": {
+   "facebook": "https://www.facebook.com/FOSystem",
+   "web": "http://fosystem.hu/"
+  },
+  "mbid": "b2807967-c504-47bb-9a9d-b6af9e73f9cb",
+  "name": "F.O. System",
+  "query": "F.O. System",
+  "v": 2
+ },
+ "fake names": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/88782942",
+   "facebook": "https://www.facebook.com/fakenamesofficial",
+   "instagram": "https://www.instagram.com/fakenamesofficial/",
+   "soundcloud": "https://soundcloud.com/fakenames",
+   "spotify": "https://open.spotify.com/artist/4NfSqwWc96WkRxN1LeFXGx",
+   "web": "http://epitaph.com/artists/fake-names/bio",
+   "youtube": "https://www.youtube.com/channel/UCetyXqZxqd2j2am075yeV4g"
+  },
+  "mbid": "a4271e33-8969-4dd8-9e3c-88b269e89fe0",
+  "name": "Fake Names",
+  "query": "Fake Names",
+  "v": 2
+ },
  "feelharmonija ususret muzickom biennalu zagreb ivan josip skender": {
   "checked": "2026-11-08",
   "query": "Feelharmonija Ususret Muzičkom Biennalu Zagreb Ivan Josip Skender"
  },
+ "fiddlers green": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3476",
+   "facebook": "https://www.facebook.com/Speedfolk",
+   "instagram": "https://www.instagram.com/fiddlersgreen_official/",
+   "soundcloud": "https://soundcloud.com/fiddlers-green-official",
+   "spotify": "https://open.spotify.com/artist/3EDllPZzA7Ipj53OWeArLe",
+   "web": "http://www.fiddlers.de/",
+   "youtube": "https://www.youtube.com/channel/UCg6DF6Bl17sIc9hDvXrw24A"
+  },
+  "mbid": "03eb47c4-61a5-4334-bf03-1efc1e75dfb3",
+  "name": "Fiddler’s Green",
+  "query": "Fiddler's Green",
+  "v": 2
+ },
+ "filow": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/87370442",
+   "instagram": "https://www.instagram.com/filow1337/",
+   "spotify": "https://open.spotify.com/artist/0BRUlYcw8Rr4MGHe8kRgTv",
+   "youtube": "https://www.youtube.com/channel/UCeyP7G6IFDUa6UypHghbxdw"
+  },
+  "mbid": "871d6585-be99-4e0a-abf9-18d81a2c74c4",
+  "name": "Filow",
+  "query": "Filow",
+  "v": 2
+ },
  "flamenco en vivo": {
   "checked": "2026-11-08",
   "query": "Flamenco en vivo!"
+ },
+ "flirrt30 2027": {
+  "checked": "2026-11-09",
+  "query": "Flirrt30 2027",
+  "v": 2
  },
  "fluentes": {
   "checked": "2026-11-09",
@@ -633,9 +2129,60 @@
   "checked": "2026-11-08",
   "query": "Fontaines D.C. u Zagrebu!"
  },
+ "frittenbude": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/182338",
+   "facebook": "https://www.facebook.com/frittenbubu",
+   "instagram": "https://www.instagram.com/frittenbude/",
+   "soundcloud": "https://soundcloud.com/frittenbude",
+   "spotify": "https://open.spotify.com/artist/7jy0nL3F5ehHJxXYMBImkk",
+   "web": "https://frittenbude.xyz/",
+   "youtube": "https://www.youtube.com/channel/UCZDTrUrgBYiC1lGOvmBDEMQ"
+  },
+  "mbid": "ed4aa69e-e049-4ac4-90c3-869aee5decac",
+  "name": "Frittenbude",
+  "query": "Frittenbude",
+  "v": 2
+ },
+ "frytz": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/12378270",
+   "instagram": "https://www.instagram.com/frytzfrytzfrytz/",
+   "spotify": "https://open.spotify.com/artist/4hX2AmJ9iZiXYA2Zx1vtBO"
+  },
+  "mbid": "6ceec05f-3ba8-4128-a578-c7a87d622070",
+  "name": "frytz",
+  "query": "frytz",
+  "v": 2
+ },
  "futsal dinamo": {
   "checked": "2026-11-08",
   "query": "Futsal Dinamo"
+ },
+ "future palace": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://futurepalace.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/61555972",
+   "facebook": "https://www.facebook.com/futurepalace",
+   "instagram": "https://www.instagram.com/futurepalaceofficial/",
+   "soundcloud": "https://soundcloud.com/future_palace",
+   "spotify": "https://open.spotify.com/artist/4QnuZOyl4C9d1keyOZXJ21",
+   "web": "https://future-palace.com/",
+   "youtube": "https://www.youtube.com/FuturePalace"
+  },
+  "mbid": "db5a2b13-4a16-4394-b538-6a9992bbf0a2",
+  "name": "Future Palace",
+  "query": "Future Palace",
+  "v": 2
  },
  "future scope": {
   "checked": "2026-11-08",
@@ -645,9 +2192,61 @@
   "checked": "2026-11-08",
   "query": "Future Scope w. PAN POT"
  },
+ "gautier capucon": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/401540",
+   "facebook": "https://www.facebook.com/GautierCapucon.OfficialPage",
+   "instagram": "https://www.instagram.com/gautiercapucon/",
+   "spotify": "https://open.spotify.com/artist/57ziOSBD3x0PhVbl7MXTgI",
+   "web": "http://www.gautiercapucon.com/",
+   "youtube": "https://www.youtube.com/user/GautierCapucon"
+  },
+  "mbid": "03ebaa38-5d45-4347-93a5-1b31e9e7a44c",
+  "name": "Gautier Capuçon",
+  "query": "Gautier Capuçon",
+  "v": 2
+ },
  "gdje je nestalo moje dijete dopunska nastava za roditelje adolescenata": {
   "checked": "2026-11-08",
   "query": "Gdje je nestalo moje dijete? dopunska nastava za roditelje adolescenata"
+ },
+ "giant rooks": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/11476350",
+   "facebook": "https://www.facebook.com/giantrooks",
+   "instagram": "https://www.instagram.com/giantrooksmusic/",
+   "soundcloud": "https://soundcloud.com/giant-rooks",
+   "spotify": "https://open.spotify.com/artist/5wD0owYApRtYmjPWavWKvb",
+   "web": "https://www.giant-rooks.com/",
+   "youtube": "https://www.youtube.com/channel/UCzIi0O2b-T0M2GF0xe_5eEA"
+  },
+  "mbid": "917f3950-9a2a-4c0b-804c-06b1ffddd0c5",
+  "name": "Giant Rooks",
+  "query": "Giant Rooks",
+  "v": 2
+ },
+ "gilla band": {
+  "checked": "2026-11-09",
+  "country": "IE",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://gillaband.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/152385282",
+   "facebook": "https://www.facebook.com/girlband",
+   "spotify": "https://open.spotify.com/artist/7IdPmzvB3PugXieZE9vS4S",
+   "web": "https://gillaband.com/",
+   "youtube": "https://www.youtube.com/channel/UCeVtCaUUn2KLrlxO_puXGrQ"
+  },
+  "mbid": "9018ba16-a391-4a08-af8c-21cdc52672c2",
+  "name": "Gilla Band",
+  "query": "Gilla Band",
+  "v": 2
  },
  "gipsy kings": {
   "checked": "2026-11-09",
@@ -670,9 +2269,170 @@
   "checked": "2026-11-08",
   "query": "Glas"
  },
+ "gloryhammer": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://gloryhammer.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4506681",
+   "facebook": "https://www.facebook.com/gloryhammer",
+   "instagram": "https://www.instagram.com/gloryhammerofficial/",
+   "soundcloud": "https://soundcloud.com/gloryhammer-official",
+   "spotify": "https://open.spotify.com/artist/7dkEByOe0oHqc54qU4hwzV",
+   "web": "http://www.gloryhammer.com/",
+   "youtube": "https://www.youtube.com/@gloryhammer"
+  },
+  "mbid": "85997032-ff48-4383-b86a-a920d4230a0b",
+  "name": "Gloryhammer",
+  "query": "Gloryhammer",
+  "v": 2
+ },
+ "green lung": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://greenlung.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12555676",
+   "facebook": "https://www.facebook.com/greenlungband",
+   "instagram": "https://www.instagram.com/greenlungband/",
+   "soundcloud": "https://soundcloud.com/greenlung-music",
+   "spotify": "https://open.spotify.com/artist/2MIoyDjdxCUdnV59UqbJGk",
+   "web": "https://greenlung.co.uk/",
+   "youtube": "https://www.youtube.com/channel/UCtHtRXF0wtMkTmBclSn97LQ"
+  },
+  "mbid": "36274201-f583-4859-83b8-5b8778dcb9f7",
+  "name": "Green Lung",
+  "query": "Green Lung",
+  "v": 2
+ },
  "greenlight w": {
   "checked": "2026-11-08",
   "query": "Greenlight w"
+ },
+ "gregorian": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/2753",
+   "facebook": "https://www.facebook.com/gregorianofficial",
+   "spotify": "https://open.spotify.com/artist/5QO1NNCLglKxgogzx6XLJn",
+   "web": "http://www.gregorian.de/",
+   "youtube": "https://www.youtube.com/user/GregorianMasters"
+  },
+  "mbid": "18a0d72d-0be0-4196-a340-035163bfae1c",
+  "name": "Gregorian",
+  "query": "Gregorian",
+  "v": 2
+ },
+ "gurriers": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://gurriersdub.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/143101532",
+   "facebook": "https://www.facebook.com/gurriersband",
+   "instagram": "https://www.instagram.com/gurriersband/",
+   "spotify": "https://open.spotify.com/artist/0bPAi2zCrxUrPBREWdetZ5",
+   "youtube": "https://www.youtube.com/channel/UCNdXGw1baUM2smmk1WPNUxA"
+  },
+  "mbid": "b3e28883-d118-4180-b458-568a18bc239d",
+  "name": "Gurriers",
+  "query": "Gurriers",
+  "v": 2
+ },
+ "half me": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/76428102",
+   "facebook": "https://www.facebook.com/halfmeband",
+   "instagram": "https://www.instagram.com/half_me.mp3/",
+   "spotify": "https://open.spotify.com/artist/4LNvQot1CDYC3kWGW144XC",
+   "web": "https://www.halfme.band/",
+   "youtube": "https://music.youtube.com/channel/UCDLrZy9SVZXEEbjR2WgqG1g"
+  },
+  "mbid": "963fa0ee-ceeb-4dbb-abcf-6b85cdc0a3ec",
+  "name": "Half Me",
+  "query": "Half Me",
+  "v": 2
+ },
+ "halott penz": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5380757",
+   "facebook": "https://www.facebook.com/HalottPenzOfficial",
+   "spotify": "https://open.spotify.com/artist/0Hir00e5sSBEH8WqOmvi8h",
+   "web": "http://halottpenz.hu/",
+   "youtube": "https://www.youtube.com/channel/UC_fwxj011v4ZCDKcV8U4rTw"
+  },
+  "mbid": "bed8c975-babe-47ba-aaed-740f06aef4db",
+  "name": "Halott Pénz",
+  "query": "Halott Penz",
+  "v": 2
+ },
+ "hamatom": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/393876",
+   "facebook": "https://www.facebook.com/haematommusic",
+   "instagram": "https://www.instagram.com/haematommusic/",
+   "soundcloud": "https://soundcloud.com/haematommusic",
+   "spotify": "https://open.spotify.com/artist/6vg9BW5gHSjidGbypXQku2",
+   "web": "http://www.haematom.de/",
+   "youtube": "https://www.youtube.com/channel/UCdGz2Uvjn8guaHTyWIqizpQ"
+  },
+  "mbid": "f10ad2fb-d81e-4075-9070-453f481b5fc9",
+  "name": "Hämatom",
+  "query": "Hämatom",
+  "v": 2
+ },
+ "hang massive": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://hangmassive.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4086197",
+   "facebook": "https://www.facebook.com/HangMassive",
+   "instagram": "https://www.instagram.com/hangmassive/",
+   "soundcloud": "https://soundcloud.com/hangmassive",
+   "spotify": "https://open.spotify.com/artist/6bkF6GDcyXZn2T0D5Fwldl",
+   "web": "http://hangmusic.org/",
+   "youtube": "https://www.youtube.com/channel/UCHJB_mpFHEjzrHgCO06a7Tg"
+  },
+  "mbid": "2fe1afcb-1325-41ff-8f94-55696ca6955d",
+  "name": "Hang Massive",
+  "query": "Hang Massive",
+  "v": 2
+ },
+ "hans theessink": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "rock",
+  "links": {
+   "facebook": "https://www.facebook.com/pages/Hans-Theessink/153112938109885",
+   "spotify": "https://open.spotify.com/artist/2e02wACgnPCZ1lPeQEUCom",
+   "web": "http://www.theessink.com/",
+   "youtube": "https://www.youtube.com/channel/UCk6tArlB_hv--Ns0TcedvgA"
+  },
+  "mbid": "6529bf81-8dae-43e3-b9af-f4ac3bbbda79",
+  "name": "Hans Theessink",
+  "query": "Hans Theessink",
+  "v": 2
+ },
+ "hansel": {
+  "checked": "2026-11-09",
+  "query": "Hänsel",
+  "v": 2
  },
  "haris dzinovic": {
   "checked": "2026-11-09",
@@ -689,6 +2449,70 @@
   "mbid": "fb00ab7f-7c5b-4474-baa3-f6227fa52f48",
   "name": "Haris Džinović",
   "query": "Haris Džinović",
+  "v": 2
+ },
+ "haunt me": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://hauntmeofficial.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/116002382",
+   "facebook": "https://www.facebook.com/hauntme.music",
+   "instagram": "https://www.instagram.com/hauntme.music/",
+   "soundcloud": "https://soundcloud.com/hauntmeofficial",
+   "spotify": "https://open.spotify.com/artist/0xc6gzkeMKN1R3cAkEKCK6",
+   "youtube": "https://www.youtube.com/channel/UC846HdBHuOnr2bkfcrX4G2g"
+  },
+  "mbid": "08c0477f-3b12-43ff-9f22-b8fffd04a248",
+  "name": "Haunt Me",
+  "query": "Haunt Me",
+  "v": 2
+ },
+ "henge": {
+  "checked": "2026-11-09",
+  "query": "Henge",
+  "v": 2
+ },
+ "hgich t": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://hgicht.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/870506",
+   "facebook": "https://www.facebook.com/HGich.T",
+   "instagram": "https://www.instagram.com/hgich.t_official/",
+   "soundcloud": "https://soundcloud.com/hgicht",
+   "spotify": "https://open.spotify.com/artist/0Mc1RdR7nqk1S2DHapXJhl",
+   "web": "https://hgicht.de/",
+   "youtube": "https://www.youtube.com/channel/UCWDIostxXEiwKQINtqUUKPg"
+  },
+  "mbid": "ff4d9181-81ba-4200-8d01-6ba73f3dc08b",
+  "name": "HGich.T",
+  "query": "HGich.T",
+  "v": 2
+ },
+ "hi lo": {
+  "checked": "2026-11-09",
+  "country": "NL",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/277102",
+   "facebook": "https://www.facebook.com/officialhilo",
+   "instagram": "https://www.instagram.com/officialhilo/",
+   "soundcloud": "https://soundcloud.com/official-hilo",
+   "spotify": "https://open.spotify.com/artist/0ETJQforv5OXgDgidQv9qd",
+   "youtube": "https://music.youtube.com/channel/UCk9lwKtkFuGO1L3o6lH7XRA"
+  },
+  "mbid": "6fd38c3b-00c0-4f92-befc-fa460f1cdcf4",
+  "name": "HI‐LO",
+  "query": "Hi-lo",
+  "v": 2
+ },
+ "hk olimpija ljubljana": {
+  "checked": "2026-11-09",
+  "query": "HK Olimpija Ljubljana",
   "v": 2
  },
  "hohcajt w": {
@@ -718,9 +2542,37 @@
   "checked": "2026-11-08",
   "query": "Hood Vibes Night"
  },
+ "howie day": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5305",
+   "facebook": "https://www.facebook.com/howieday",
+   "spotify": "https://open.spotify.com/artist/0ekbDNE2eOq8QiaXM34wer",
+   "web": "http://howieday.com/",
+   "youtube": "https://www.youtube.com/channel/UCE2jZnhSEH93qOCBO007EYg"
+  },
+  "mbid": "1aff9117-5820-490d-9938-ccad96669292",
+  "name": "Howie Day",
+  "query": "Howie Day",
+  "v": 2
+ },
  "hrvatska tamburaska rapsodija u lisinskom": {
   "checked": "2026-11-08",
   "query": "Hrvatska Tamburaška Rapsodija u Lisinskom"
+ },
+ "hugo race fatalists": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://hugoracefatalists.bandcamp.com/"
+  },
+  "mbid": "dc9d162e-bac0-464d-9c14-3b24338435b9",
+  "name": "Hugo Race Fatalists",
+  "query": "Hugo Race Fatalists",
+  "v": 2
  },
  "hush w": {
   "checked": "2026-11-08",
@@ -743,9 +2595,133 @@
   "checked": "2026-11-08",
   "query": "Idu Hobiti"
  },
+ "ikan hyu": {
+  "checked": "2026-11-09",
+  "country": "CH",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://ikanhyu.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/51955192",
+   "facebook": "https://www.facebook.com/ikanhyumusic",
+   "instagram": "https://www.instagram.com/ikan_hyu/",
+   "soundcloud": "https://soundcloud.com/ikan-hyu",
+   "spotify": "https://open.spotify.com/artist/1kcgm5pRULbDb5gs7kDRNK",
+   "web": "http://www.ikanhyu.ch/",
+   "youtube": "https://www.youtube.com/channel/UCyuJOJwbcHYQ4hzSNc_dbRA"
+  },
+  "mbid": "3b6f7907-37a9-4639-acbc-367442dc5935",
+  "name": "IKAN HYU",
+  "query": "Ikan Hyu",
+  "v": 2
+ },
+ "ikkimel": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "hiphop",
+  "links": {
+   "bandcamp": "https://ikkimel.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/151229192",
+   "instagram": "https://www.instagram.com/ikkimel42/",
+   "soundcloud": "https://soundcloud.com/ikkimel",
+   "spotify": "https://open.spotify.com/artist/0CzoJbqBbtBNLArLyAFDPn",
+   "web": "https://www.ikkimel.de/",
+   "youtube": "https://www.youtube.com/channel/UCB3ZjRaAlknXi3mVx_YDrTQ"
+  },
+  "mbid": "b0061f91-ca53-45b9-ad13-d217f4f6caa2",
+  "name": "Ikkimel",
+  "query": "Ikkimel",
+  "v": 2
+ },
+ "il volo": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "klasika",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/439641",
+   "facebook": "https://www.facebook.com/109760812423358",
+   "soundcloud": "https://soundcloud.com/il-volo-mundial-oficial",
+   "spotify": "https://open.spotify.com/artist/0dE9ooTNz8iEKIKItRI66t",
+   "web": "https://www.ilvolomusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCbtTjg8XzmTeeVjIeg8ksBQ"
+  },
+  "mbid": "0bf8b6a0-8ae4-42f7-ba7a-d66d343c73da",
+  "name": "Il Volo",
+  "query": "Il Volo",
+  "v": 2
+ },
+ "imminence": {
+  "checked": "2026-11-09",
+  "country": "SE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://imminenceswe.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1004734",
+   "facebook": "https://www.facebook.com/imminenceswe",
+   "instagram": "https://www.instagram.com/imminenceswe/",
+   "soundcloud": "https://soundcloud.com/imminenceofficial",
+   "spotify": "https://open.spotify.com/artist/7rqJQQxuUOCk052MK5kLsH",
+   "web": "https://imminenceswe.com/",
+   "youtube": "https://www.youtube.com/channel/UCgtgnFiB1nsbq6lIaSh_R3A"
+  },
+  "mbid": "431ed486-4606-485a-b11d-f05feb860257",
+  "name": "Imminence",
+  "query": "Imminence",
+  "v": 2
+ },
  "indira forza": {
   "checked": "2026-11-08",
   "query": "Indira Forza"
+ },
+ "inna": {
+  "checked": "2026-11-09",
+  "country": "RO",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/288252",
+   "facebook": "https://www.facebook.com/Inna",
+   "instagram": "https://www.instagram.com/inna/",
+   "soundcloud": "https://soundcloud.com/innamusic",
+   "spotify": "https://open.spotify.com/artist/2w9zwq3AktTeYYMuhMjju8",
+   "web": "https://innaofficial.com/",
+   "youtube": "https://www.youtube.com/channel/UCr8RbU-D7iSvpy0ZO-AasoQ"
+  },
+  "mbid": "99efca32-eea1-45fb-92cb-8798976a9769",
+  "name": "INNA",
+  "query": "Inna",
+  "v": 2
+ },
+ "iskra": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "",
+  "links": {
+   "web": "http://www.iskramenarini.com/"
+  },
+  "mbid": "92cdc7a0-5961-4b81-8120-0d966789eaa2",
+  "name": "Iskra",
+  "query": "Iskra",
+  "v": 2
+ },
+ "isu b2b cvrdwell all night long": {
+  "checked": "2026-11-09",
+  "query": "Isu b2b CVRDWELL all night long",
+  "v": 2
+ },
+ "itchy": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/13359",
+   "facebook": "https://www.facebook.com/ITCHYofficial1",
+   "instagram": "https://www.instagram.com/itchyofficial1/",
+   "spotify": "https://open.spotify.com/artist/42pWilgI9MEZARoTtGHNR4",
+   "web": "https://itchyofficial.de/"
+  },
+  "mbid": "10c4141d-7169-4796-9b39-faa2eb5710a6",
+  "name": "ITCHY",
+  "query": "Itchy",
+  "v": 2
  },
  "iza ugla": {
   "checked": "2026-11-08",
@@ -754,6 +2730,38 @@
  "izvorista dunije": {
   "checked": "2026-11-08",
   "query": "Izvorišta Dunije"
+ },
+ "j r august": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "dddc5eac-24aa-48c2-b9d2-a4bf822f5220",
+  "name": "J.R. August",
+  "query": "J.r. August",
+  "v": 2
+ },
+ "james harries": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "86386068-2a27-4adb-a445-b1ce2c3239c9",
+  "name": "James Harries",
+  "query": "James Harries",
+  "v": 2
+ },
+ "jamie winchester": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "web": "https://www.jamiewinchester.hu/"
+  },
+  "mbid": "2af32e96-8e8b-45e8-9e41-e37691651764",
+  "name": "Jamie Winchester",
+  "query": "Jamie Winchester",
+  "v": 2
  },
  "jasna zlokic": {
   "checked": "2026-11-09",
@@ -768,13 +2776,126 @@
   "query": "Jasna Zlokić",
   "v": 2
  },
+ "jazz and more": {
+  "checked": "2026-11-09",
+  "query": "Jazz and More",
+  "v": 2
+ },
+ "jazz gitti": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/jazzgitti",
+   "web": "http://www.jazz-gitti.at/"
+  },
+  "mbid": "a5e10f21-766c-4726-ac97-3d6ee0d8ccfa",
+  "name": "Jazz Gitti",
+  "query": "Jazz Gitti",
+  "v": 2
+ },
  "jazz karneval": {
   "checked": "2026-11-08",
   "query": "Jazz Karneval"
  },
+ "jeanette biedermann": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/450752",
+   "facebook": "https://www.facebook.com/jeanbiedermann",
+   "instagram": "https://www.instagram.com/jeanettebiedermann/",
+   "soundcloud": "https://soundcloud.com/jeanettebiedermann",
+   "spotify": "https://open.spotify.com/artist/26aTCLYjlXZclv9ZFiokpy",
+   "web": "http://www.jeanettebiedermann.de/",
+   "youtube": "https://www.youtube.com/channel/UC1bA-gunPs-c6gsMTKrvu_Q"
+  },
+  "mbid": "c3e87563-c60f-4cc7-b4f5-7ea0eb90993f",
+  "name": "Jeanette Biedermann",
+  "query": "Jeanette Biedermann",
+  "v": 2
+ },
+ "jethro tull": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/2888",
+   "facebook": "https://www.facebook.com/officialjethrotull",
+   "instagram": "https://www.instagram.com/jethrotull_/",
+   "soundcloud": "https://soundcloud.com/jethrotullmusic",
+   "spotify": "https://open.spotify.com/artist/6w6z8m4WXX7Tub4Rb6Lu7R",
+   "web": "https://jethrotull.com/",
+   "youtube": "https://www.youtube.com/channel/UCyZe0Uc78q7aEA7bFKtZ-oA"
+  },
+  "mbid": "ece57992-dc2e-4f67-a269-fa43626c1a3d",
+  "name": "Jethro Tull",
+  "query": "Jethro Tull",
+  "v": 2
+ },
+ "jlp": {
+  "checked": "2026-11-09",
+  "country": "CH",
+  "genre": "",
+  "links": {},
+  "mbid": "3caa0ad3-5b5c-4ff9-8387-c5c89eb20141",
+  "name": "JLP",
+  "query": "JLP",
+  "v": 2
+ },
+ "jodok cello": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/141117722",
+   "facebook": "https://www.facebook.com/jodok.vuille",
+   "instagram": "https://www.instagram.com/jodokcello/",
+   "spotify": "https://open.spotify.com/artist/69Nj6pO0Z96cx1g9eOUpua",
+   "youtube": "https://music.youtube.com/channel/UCtXrysa8BWoh5e4A7W5eznA?feature=gws_kp_artist&feature=gws_kp_artist"
+  },
+  "mbid": "8d12ffea-ce0e-4c19-af44-289cfcca85b9",
+  "name": "Jodok Cello",
+  "query": "Jodok Cello",
+  "v": 2
+ },
+ "joe bonamassa": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/4781",
+   "facebook": "https://www.facebook.com/JoeBonamassa",
+   "instagram": "https://www.instagram.com/joebonamassa/",
+   "soundcloud": "https://soundcloud.com/joe-bonamassa",
+   "spotify": "https://open.spotify.com/artist/2SNzxY1OsSCHBLVi77mpPQ",
+   "web": "http://jbonamassa.com/",
+   "youtube": "https://www.youtube.com/channel/UCcCa2gD7AEA-6SVN8nZw_IA"
+  },
+  "mbid": "984f8239-8fe1-4683-9c54-10ffb14439e9",
+  "name": "Joe Bonamassa",
+  "query": "Joe Bonamassa",
+  "v": 2
+ },
+ "jojo lackner": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "d184613e-52db-43a0-bd7f-019b546fb4b5",
+  "name": "Jojo Lackner",
+  "query": "Jojo Lackner",
+  "v": 2
+ },
  "jos gori": {
   "checked": "2026-11-08",
   "query": "Još gori"
+ },
+ "jose gonzalez": {
+  "checked": "2026-11-09",
+  "query": "José González",
+  "v": 2
  },
  "josipa lisac": {
   "checked": "2026-11-09",
@@ -794,6 +2915,56 @@
   "query": "Josipa Lisac",
   "v": 2
  },
+ "jugo urdens": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "hiphop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/116181252",
+   "facebook": "https://www.facebook.com/jugouerdens",
+   "instagram": "https://www.instagram.com/jugouerdens/",
+   "soundcloud": "https://soundcloud.com/jugo-uerdens",
+   "spotify": "https://open.spotify.com/artist/05ygKFPjfiChHhQSx5Y9Y2",
+   "youtube": "https://www.youtube.com/channel/UCMvwg_jvAAm4LohO0yemAjg"
+  },
+  "mbid": "f46941a0-8a30-4b0a-a165-50363d45e65e",
+  "name": "Jugo Ürdens",
+  "query": "Jugo Ürdens",
+  "v": 2
+ },
+ "julia buchner": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "b752d833-88b7-4f0f-967e-b0376f0664c2",
+  "name": "Julia Buchner",
+  "query": "Julia buchner",
+  "v": 2
+ },
+ "julian lage": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "jazz",
+  "links": {
+   "bandcamp": "https://julianlage.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/188291",
+   "facebook": "https://www.facebook.com/julianlage",
+   "instagram": "https://www.instagram.com/jlage/",
+   "spotify": "https://open.spotify.com/artist/2TSuAchdgVzsAa9wDK1IeT",
+   "web": "http://www.julianlage.com/",
+   "youtube": "https://www.youtube.com/JulianLageofficial"
+  },
+  "mbid": "c116b504-ce24-4264-96dc-d10a7458236f",
+  "name": "Julian Lage",
+  "query": "Julian Lage",
+  "v": 2
+ },
+ "jungle": {
+  "checked": "2026-11-09",
+  "query": "Jungle",
+  "v": 2
+ },
  "jura stublic": {
   "checked": "2026-11-08",
   "query": "Jura Stublić"
@@ -801,6 +2972,25 @@
  "k pop mania": {
   "checked": "2026-11-08",
   "query": "K-pop Mania"
+ },
+ "kalandra": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "world",
+  "links": {
+   "bandcamp": "https://kalandra.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5396204",
+   "facebook": "https://www.facebook.com/Kalandramusic",
+   "instagram": "https://www.instagram.com/kalandramusic/",
+   "soundcloud": "https://soundcloud.com/kalandra",
+   "spotify": "https://open.spotify.com/artist/2N0vFuOoMtAQfBmhsRo24e",
+   "web": "https://www.kalandra.no/",
+   "youtube": "https://www.youtube.com/channel/UCdF7ZG37sLXF1zfipGT2T6A"
+  },
+  "mbid": "7c67fb96-7e24-4893-a020-fcc53a1f7814",
+  "name": "Kalandra",
+  "query": "Kalandra",
+  "v": 2
  },
  "kamelot": {
   "checked": "2026-11-09",
@@ -819,6 +3009,24 @@
   "mbid": "2449300a-6ca7-45da-8102-22789d256475",
   "name": "Kamelot",
   "query": "Kamelot",
+  "v": 2
+ },
+ "kanonenfieber": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/126959422",
+   "facebook": "https://www.facebook.com/Kanonenfieber",
+   "instagram": "https://www.instagram.com/kanonenfieber/",
+   "soundcloud": "https://soundcloud.com/kanonenfieber",
+   "spotify": "https://open.spotify.com/artist/5VI8SBEX7uSvoHsdI5xNVJ",
+   "web": "https://kanonenfieber.noisebringer.de/",
+   "youtube": "https://www.youtube.com/channel/UCbrwaeSgw80p_VTFW396Zbg"
+  },
+  "mbid": "b0016af8-3953-47ce-b865-475a770d7b17",
+  "name": "Kanonenfieber",
+  "query": "Kanonenfieber",
   "v": 2
  },
  "katatonia": {
@@ -843,6 +3051,41 @@
  "kensington lima": {
   "checked": "2026-11-08",
   "query": "Kensington Lima"
+ },
+ "kevin seddiki": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://magictakadin.bandcamp.com/",
+   "facebook": "https://www.facebook.com/MagicTakadin",
+   "instagram": "https://www.instagram.com/kevinseddiki/",
+   "soundcloud": "https://soundcloud.com/kevinseddiki",
+   "spotify": "https://open.spotify.com/artist/66AyHRi9OkFJzRzKAqIzGa",
+   "web": "https://www.kevinseddiki.com/",
+   "youtube": "https://www.youtube.com/user/kevinseddiki"
+  },
+  "mbid": "71d5e5b6-a012-4d02-85d5-2a2f8fe9d779",
+  "name": "Kevin Seddiki",
+  "query": "Kevin Seddiki",
+  "v": 2
+ },
+ "kid kapichi": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/14331995",
+   "facebook": "https://www.facebook.com/KidKapichi",
+   "instagram": "https://www.instagram.com/@kidkapichi/",
+   "spotify": "https://open.spotify.com/artist/2iwVdN0Geaw5Sn2Abeh9fB",
+   "web": "https://www.kidkapichi.com/",
+   "youtube": "https://www.youtube.com/@kidkapichi"
+  },
+  "mbid": "b0e1beff-2561-44c2-9c25-5f5fa9f41984",
+  "name": "Kid Kapichi",
+  "query": "Kid Kapichi",
+  "v": 2
  },
  "kim salmon s smoked salmon": {
   "checked": "2000-01-01",
@@ -873,6 +3116,46 @@
   "checked": "2026-11-08",
   "query": "KIM WILDE u Tvornici Kulture"
  },
+ "kimyan": {
+  "checked": "2026-11-09",
+  "query": "Kimyan",
+  "v": 2
+ },
+ "king no one": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "web": "http://www.kingno-one.com/"
+  },
+  "mbid": "9c703ea7-7e3a-4986-ab0f-a6ffc8338a72",
+  "name": "King No-One",
+  "query": "King No-One",
+  "v": 2
+ },
+ "kisbetus unnepnapok": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/kisbetusunnepnapok",
+   "youtube": "https://music.youtube.com/channel/UCNaOY8osZrqSOrPBqVW6EuA"
+  },
+  "mbid": "be80bc78-42a2-4ac0-9028-709c67a4c269",
+  "name": "kisbetűs ünnepnapok",
+  "query": "kisbetűs ünnepnapok",
+  "v": 2
+ },
+ "klavier": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "bb41eb1e-bd7d-4a36-8a61-7b4df5ccf32c",
+  "name": "Klavier",
+  "query": "Klavier",
+  "v": 2
+ },
  "klinika denisa kataneca": {
   "checked": "2026-11-09",
   "country": "",
@@ -887,13 +3170,87 @@
   "checked": "2026-11-08",
   "query": "KLINIKA DENISA KATANECA u Tvornici Kulture"
  },
+ "knoll": {
+  "checked": "2026-11-09",
+  "query": "Knoll",
+  "v": 2
+ },
+ "kodaline": {
+  "checked": "2026-11-09",
+  "country": "IE",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3803881",
+   "facebook": "https://www.facebook.com/Kodaline",
+   "instagram": "https://www.instagram.com/kodaline/",
+   "soundcloud": "https://soundcloud.com/kodaline",
+   "spotify": "https://open.spotify.com/artist/4BxCuXFJrSWGi1KHcVqaU4",
+   "web": "http://www.kodaline.com/",
+   "youtube": "https://www.youtube.com/channel/UCrhAHTR8NVmdyEmyY-YwCWg"
+  },
+  "mbid": "74aab3b7-93a5-473c-a729-f975234c58b6",
+  "name": "Kodaline",
+  "query": "Kodaline",
+  "v": 2
+ },
+ "kokoskuss": {
+  "checked": "2026-11-09",
+  "query": "Kokoskuss",
+  "v": 2
+ },
+ "kokosy 2027": {
+  "checked": "2026-11-09",
+  "query": "Kokosy 2027",
+  "v": 2
+ },
  "kolt teatar": {
   "checked": "2026-11-08",
   "query": "Kolt Teatar"
  },
+ "konstantinos argiros": {
+  "checked": "2026-11-09",
+  "query": "Konstantinos Argiros",
+  "v": 2
+ },
+ "korn": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://kornofficial.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1327",
+   "facebook": "https://www.facebook.com/korn",
+   "instagram": "https://www.instagram.com/korn_official/",
+   "soundcloud": "https://soundcloud.com/kornofficial",
+   "spotify": "https://open.spotify.com/artist/3RNrq3jvMZxD9ZyoOZbQOD",
+   "web": "http://www.korn.com/",
+   "youtube": "https://www.youtube.com/channel/UC6ly_u2ufiHGpYzC_28-8zw"
+  },
+  "mbid": "ac865b2e-bba8-4f5a-8756-dd40d5e39f46",
+  "name": "Korn",
+  "query": "Korn",
+  "v": 2
+ },
  "kosarkaski klub dinamo zagreb": {
   "checked": "2026-11-08",
   "query": "Košarkaški Klub Dinamo Zagreb"
+ },
+ "kosheen": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/7041",
+   "facebook": "https://www.facebook.com/SianKosheen",
+   "instagram": "https://www.instagram.com/siankosheen/",
+   "spotify": "https://open.spotify.com/artist/5squ8uM6fhMQY71t9xobJC",
+   "web": "https://kosheen.live/",
+   "youtube": "https://www.youtube.com/SianEvans"
+  },
+  "mbid": "4f4bda3c-d636-4135-b65a-6cc26bc75788",
+  "name": "Kosheen",
+  "query": "Kosheen",
+  "v": 2
  },
  "kovacs": {
   "checked": "2026-11-09",
@@ -913,6 +3270,25 @@
   "query": "Kovacs",
   "v": 2
  },
+ "kozmosz": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/Kozmoszzenekar",
+   "spotify": "https://open.spotify.com/artist/6Vfl90aoGAiXeHyA9WztPP",
+   "youtube": "https://www.youtube.com/channel/UC49isz2ee7NlUTOmmsNzByg"
+  },
+  "mbid": "e60bd55e-8fc8-490b-8806-b50c87ec0a65",
+  "name": "Kozmosz",
+  "query": "Kozmosz",
+  "v": 2
+ },
+ "kraak": {
+  "checked": "2026-11-09",
+  "query": "Kraak",
+  "v": 2
+ },
  "kries u vintage u": {
   "checked": "2026-11-08",
   "query": "Kries u Vintage-u!"
@@ -924,6 +3300,11 @@
  "kucno kino ribnjak": {
   "checked": "2026-11-08",
   "query": "KUĆNO KINO RIBNJAK"
+ },
+ "kytes": {
+  "checked": "2026-11-09",
+  "query": "Kytes",
+  "v": 2
  },
  "lady gaga": {
   "checked": "2026-11-09",
@@ -941,6 +3322,18 @@
   "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
   "name": "Lady Gaga",
   "query": "Lady Gaga",
+  "v": 2
+ },
+ "lahra": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "spotify": "https://open.spotify.com/artist/3VJmc3ZrfHTausmE3eTwYJ"
+  },
+  "mbid": "a8671def-e0d1-4483-ab98-a182da3b1b32",
+  "name": "Lahra",
+  "query": "Lahra",
   "v": 2
  },
  "lalalar istanbulska psihodelija": {
@@ -963,6 +3356,29 @@
   "mbid": "472b9953-1f10-4aed-b1ec-d0c23ffb2cf1",
   "name": "Laura Pausini",
   "query": "Laura Pausini",
+  "v": 2
+ },
+ "leap": {
+  "checked": "2026-11-09",
+  "query": "Leap",
+  "v": 2
+ },
+ "lebanon hanover": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://lebanonhanover.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4697863",
+   "facebook": "https://www.facebook.com/lebanonhanover",
+   "soundcloud": "https://soundcloud.com/lebanon-hanover",
+   "spotify": "https://open.spotify.com/artist/6w8h2uD28BEdg7bX4k3Lh7",
+   "web": "https://www.lebanonhanover.com/",
+   "youtube": "https://www.youtube.com/channel/UCUM2Q6aQXYex5y36sBej0Ng"
+  },
+  "mbid": "7de3b7b4-8288-4baf-929b-98af9224c0cb",
+  "name": "Lebanon Hanover",
+  "query": "Lebanon Hanover",
   "v": 2
  },
  "leo middea": {
@@ -1069,9 +3485,132 @@
   "checked": "2026-11-08",
   "query": "Lisinski Srijedom Miguel Zenón Quartet"
  },
+ "little barrie": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://littlebarrie.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8542",
+   "facebook": "https://www.facebook.com/96595274197",
+   "instagram": "https://www.instagram.com/littlebarrie/",
+   "soundcloud": "https://soundcloud.com/user-798008402",
+   "spotify": "https://open.spotify.com/artist/5ozUXaDjc4mfVyDIWCJH4E",
+   "web": "http://littlebarrie.com/",
+   "youtube": "https://www.youtube.com/channel/UCVn9XB03wI5dM4d0Vbl-i2A"
+  },
+  "mbid": "e78332e1-629b-43ba-ae27-f60abab2f893",
+  "name": "Little Barrie",
+  "query": "Little Barrie",
+  "v": 2
+ },
+ "little big": {
+  "checked": "2026-11-09",
+  "query": "Little BIG",
+  "v": 2
+ },
+ "little miss nasty": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/LittleMsNasty",
+   "spotify": "https://open.spotify.com/artist/4Pv3bj7t1vb7W8aK8Tt5C9",
+   "web": "https://www.littlemissnastyofficial.com/",
+   "youtube": "https://www.youtube.com/channel/UCq8a19Ti-BmgUL08X-d1xYQ"
+  },
+  "mbid": "6f30279b-11aa-4982-9002-0e371054951a",
+  "name": "Little Miss Nasty",
+  "query": "Little Miss Nasty",
+  "v": 2
+ },
+ "liz rosa": {
+  "checked": "2026-11-09",
+  "query": "Liz Rosa",
+  "v": 2
+ },
+ "look mum no computer": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://lookmumnocomputer.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/60045762",
+   "facebook": "https://www.facebook.com/LOOKMUMNOCOMPUTER",
+   "instagram": "https://www.instagram.com/lookmumnocomputer/",
+   "soundcloud": "https://soundcloud.com/lookmumnocomputer/",
+   "spotify": "https://open.spotify.com/artist/24KLOfQv2HrpsCerfN6bef",
+   "web": "https://www.lookmumnocomputer.com/",
+   "youtube": "https://www.youtube.com/channel/UCafxR2HWJRmMfSdyZXvZMTw"
+  },
+  "mbid": "feaea9cb-5c0d-4cb4-b6d1-d4d5021ce5ec",
+  "name": "LOOK MUM NO COMPUTER",
+  "query": "Look Mum No Computer",
+  "v": 2
+ },
+ "loreena mckennitt": {
+  "checked": "2026-11-09",
+  "country": "CA",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/2760",
+   "facebook": "https://www.facebook.com/loreenamckennitt",
+   "instagram": "https://www.instagram.com/loreenamckennitt/",
+   "spotify": "https://open.spotify.com/artist/1JdeDdujDbS6ZeSlkXqx3a",
+   "web": "https://loreenamckennitt.com/",
+   "youtube": "https://www.youtube.com/channel/UCO2gpkWwgxeGvlg5ThMB87w"
+  },
+  "mbid": "c1e5344e-1bff-4727-9417-a4f55e41b5ff",
+  "name": "Loreena McKennitt",
+  "query": "Loreena McKennitt",
+  "v": 2
+ },
+ "los fastidios": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3297",
+   "facebook": "https://www.facebook.com/losfastidios",
+   "instagram": "https://www.instagram.com/losfastidios_official/",
+   "spotify": "https://open.spotify.com/artist/7mj1qBxQNKorkNUCHXjOw9",
+   "web": "https://www.losfastidios.net/"
+  },
+  "mbid": "0580c1de-0218-42d1-bd2c-bcb45f72e66b",
+  "name": "Los Fastidios",
+  "query": "Los Fastidios",
+  "v": 2
+ },
  "luka nizetic autoportret s juga 25 godina karijere": {
   "checked": "2026-11-08",
   "query": "Luka Nižetić Autoportret s Juga 25 Godina Karijere"
+ },
+ "luka sulic": {
+  "checked": "2026-11-09",
+  "country": "SI",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/lukasulicofficial",
+   "web": "http://www.lukasulic.com/"
+  },
+  "mbid": "0afe2d8d-2445-46e5-a165-7d7dda2b8330",
+  "name": "Luka Šulić",
+  "query": "Luka Sulic",
+  "v": 2
+ },
+ "lukas lauermann": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/lauermannlukas",
+   "spotify": "https://open.spotify.com/artist/3NaZbRIwOVIBdSnXp7s6b6",
+   "youtube": "https://www.youtube.com/channel/UCu4ketAsLwZ6tgIu-Hzo81Q"
+  },
+  "mbid": "6c99b134-7eee-429c-995b-701a45bcef5c",
+  "name": "Lukas Lauermann",
+  "query": "Lukas Lauermann",
+  "v": 2
  },
  "luky": {
   "checked": "2026-11-09",
@@ -1081,6 +3620,29 @@
   "mbid": "63e376f7-3cb1-4dfd-9bb5-1dabc86cc0a8",
   "name": "Luky",
   "query": "Luky",
+  "v": 2
+ },
+ "macy gray": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://macygray.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/135",
+   "facebook": "https://www.facebook.com/176046896552",
+   "instagram": "https://www.instagram.com/macygray/",
+   "spotify": "https://open.spotify.com/artist/4ylR3zwA0zaapAu94fktwa",
+   "web": "https://macygrayofficial.com/",
+   "youtube": "https://www.youtube.com/channel/UC-vfCyibell_51GCZAd_60A"
+  },
+  "mbid": "48772747-4cda-4ba8-b470-cfd5a32e05f7",
+  "name": "Macy Gray",
+  "query": "Macy Gray",
+  "v": 2
+ },
+ "madsen": {
+  "checked": "2026-11-09",
+  "query": "Madsen",
   "v": 2
  },
  "magali sare": {
@@ -1097,6 +3659,139 @@
   "mbid": "7877f283-89e5-4491-b11c-4477c02cb1bd",
   "name": "Magalí Sare",
   "query": "Magalí Sare",
+  "v": 2
+ },
+ "maiija": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/profile.php?id=100063141973568",
+   "instagram": "https://www.instagram.com/ma.ii.ja/",
+   "spotify": "https://open.spotify.com/artist/3v4RTsN9aG4x0OyMFBKQYN",
+   "web": "https://www.maiija.net/"
+  },
+  "mbid": "ec92c417-6f86-4753-9fc7-9172f2a268b1",
+  "name": "MAIIJA",
+  "query": "MaIIja",
+  "v": 2
+ },
+ "malte marten": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/66913682",
+   "instagram": "https://www.instagram.com/maltemarten/",
+   "spotify": "https://open.spotify.com/artist/6gmfGQKmOr9z7GTYK7ecEj",
+   "web": "https://maltemarten.com/",
+   "youtube": "https://www.youtube.com/channel/UCXs4k986CY3jHkJ8XfOataQ"
+  },
+  "mbid": "584f9b49-fa41-412d-9233-0b035bc53132",
+  "name": "Malte Marten",
+  "query": "Malte Marten",
+  "v": 2
+ },
+ "mamma mia": {
+  "checked": "2026-11-09",
+  "query": "Mamma Mia!",
+  "v": 2
+ },
+ "mamma mia 2026": {
+  "checked": "2026-11-09",
+  "query": "Mamma Mia! 2026",
+  "v": 2
+ },
+ "mammoth": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/112937382",
+   "facebook": "https://www.facebook.com/MammothWVH",
+   "instagram": "https://www.instagram.com/mammothwvh/",
+   "spotify": "https://open.spotify.com/artist/6WKdhhc03LqnixYI2ZzWzO",
+   "web": "https://www.mammothwvh.com/",
+   "youtube": "https://www.youtube.com/channel/UCIzomCKpD_K71FGHvoljNFg"
+  },
+  "mbid": "49a6efb9-9b52-44ce-8167-7cb1c21a8c45",
+  "name": "Mammoth",
+  "query": "Mammoth",
+  "v": 2
+ },
+ "manowar": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5530",
+   "facebook": "https://www.facebook.com/manowar",
+   "instagram": "https://www.instagram.com/manowarband_official/",
+   "soundcloud": "https://soundcloud.com/manowarofficial",
+   "spotify": "https://open.spotify.com/artist/4CzUzn54Cp9TQr6a7JIlMZ",
+   "web": "http://manowar.com/",
+   "youtube": "https://www.youtube.com/MANOWARband"
+  },
+  "mbid": "00eeed6b-5897-4359-8347-b8cd28375331",
+  "name": "Manowar",
+  "query": "Manowar",
+  "v": 2
+ },
+ "manu delago": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://manudelago.bandcamp.com/",
+   "facebook": "https://www.facebook.com/delagomanu",
+   "instagram": "https://www.instagram.com/manudelagomusic/",
+   "soundcloud": "https://soundcloud.com/manudelago",
+   "spotify": "https://open.spotify.com/artist/08LrhaMKwKuGbB9XHBEjXF",
+   "web": "http://www.manudelago.com/",
+   "youtube": "https://www.youtube.com/user/defigotto"
+  },
+  "mbid": "6cb60417-ceb2-45ef-8534-07d3baf24c47",
+  "name": "Manu Delago",
+  "query": "Manu Delago",
+  "v": 2
+ },
+ "marco mezquida": {
+  "checked": "2026-11-09",
+  "country": "ES",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5079334",
+   "instagram": "https://www.instagram.com/marcomezquida/",
+   "spotify": "https://open.spotify.com/artist/0TxvWQFZoBIYNhR0QPthp5",
+   "web": "http://marcomezquida.com/"
+  },
+  "mbid": "bb143da5-465f-4aa6-8657-11056dd952be",
+  "name": "Marco Mezquida",
+  "query": "Marco Mezquida",
+  "v": 2
+ },
+ "mari froes": {
+  "checked": "2026-11-09",
+  "query": "Mari Froes",
+  "v": 2
+ },
+ "marina herlop": {
+  "checked": "2026-11-09",
+  "country": "ES",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://marinaherlop.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/11297004",
+   "facebook": "https://www.facebook.com/marinaherlop",
+   "instagram": "https://www.instagram.com/marinaherlop/",
+   "soundcloud": "https://soundcloud.com/marinaherlop",
+   "spotify": "https://open.spotify.com/artist/4ZG4S6skttdVhHz08AjMhR",
+   "web": "http://www.marinaherlop.com/",
+   "youtube": "https://www.youtube.com/channel/UC0E7jAnHqleMPg4c_eA8XfQ"
+  },
+  "mbid": "a9cf7208-96ef-4b24-acfd-48f361b10f26",
+  "name": "Marina Herlop",
+  "query": "Marina Herlop",
   "v": 2
  },
  "marko kutlic": {
@@ -1117,9 +3812,33 @@
   "checked": "2026-11-08",
   "query": "Marko Vukeš"
  },
+ "martin listabarth": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "56c13a16-b4ae-4f0a-b317-2ba6f2ecc2f3",
+  "name": "Martin Listabarth",
+  "query": "Martin Listabarth",
+  "v": 2
+ },
  "maruska aras": {
   "checked": "2026-11-08",
   "query": "Maruška Aras"
+ },
+ "mary broadcast": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/marybroadcast",
+   "web": "http://www.marybroadcastband.com/",
+   "youtube": "https://www.youtube.com/MaryBroadcastBand"
+  },
+  "mbid": "d9158b3a-8058-4eef-8bb2-dcf5dea6cb1a",
+  "name": "Mary Broadcast",
+  "query": "Mary Broadcast",
+  "v": 2
  },
  "masinko": {
   "checked": "2026-11-09",
@@ -1129,6 +3848,25 @@
   "mbid": "672f9429-1c18-4931-9eed-b21d81f62cb4",
   "name": "Mašinko",
   "query": "Mašinko",
+  "v": 2
+ },
+ "master boot record": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://masterbootrecord.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12240468",
+   "facebook": "https://www.facebook.com/100045103091016",
+   "instagram": "https://www.instagram.com/masterbootrecord/",
+   "soundcloud": "https://soundcloud.com/masterbootrecordmusic",
+   "spotify": "https://open.spotify.com/artist/77s5NAGQbxu8oLstaqSwHE",
+   "web": "http://mbrserver.com/",
+   "youtube": "https://www.youtube.com/channel/UCEVndLRqBDNcZhBdWo5oepg"
+  },
+  "mbid": "604dd351-5f3a-479f-b33a-615db3b2dcfb",
+  "name": "MASTER BOOT RECORD",
+  "query": "Master Boot Record",
   "v": 2
  },
  "matija cvek": {
@@ -1142,6 +3880,56 @@
   "mbid": "a05df3f2-cffa-4ea1-be8f-49b4b089bdfd",
   "name": "Matija Cvek",
   "query": "Matija Cvek",
+  "v": 2
+ },
+ "mavi phoenix": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://maviphoenix.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/9056170",
+   "facebook": "https://www.facebook.com/maviphoenix",
+   "instagram": "https://www.instagram.com/maviphoenix/",
+   "soundcloud": "https://soundcloud.com/maviphoenix",
+   "spotify": "https://open.spotify.com/artist/0Lt05xaSe2ACmAiSkIdcSm",
+   "web": "http://www.maviphoenix.com/",
+   "youtube": "https://www.youtube.com/channel/UCPoDEKE0vz1Q0he3vCtJvrw"
+  },
+  "mbid": "875aedb2-c6f7-40c9-b5d6-a5957046253d",
+  "name": "Mavi Phoenix",
+  "query": "Mavi Phoenix",
+  "v": 2
+ },
+ "maxi meraki": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/69718982",
+   "facebook": "https://www.facebook.com/maximerakimusic",
+   "instagram": "https://www.instagram.com/maximeraki/",
+   "soundcloud": "https://soundcloud.com/maximeraki",
+   "spotify": "https://open.spotify.com/artist/7xGBxYsje4pkBngv1dcLmm"
+  },
+  "mbid": "2220aad3-3784-46ba-b121-e5222df70ba2",
+  "name": "MAXI MERAKI",
+  "query": "Maxi Meraki",
+  "v": 2
+ },
+ "mehringer": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/177439677",
+   "facebook": "https://www.facebook.com/marcimehringer",
+   "spotify": "https://open.spotify.com/artist/2onsfuh37zW0OHB3lFa3t1",
+   "youtube": "https://www.youtube.com/@mehringerofficial"
+  },
+  "mbid": "7cdce50a-919f-4696-8075-e045e2ea2a5b",
+  "name": "Mehringer",
+  "query": "Mehringer",
   "v": 2
  },
  "mejasi": {
@@ -1159,6 +3947,18 @@
   "query": "Mejaši",
   "v": 2
  },
+ "mess": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "hiphop",
+  "links": {
+   "spotify": "https://open.spotify.com/artist/2xyVzVOTIotLuozrY6VQmv"
+  },
+  "mbid": "1eeaaa6b-42de-4272-ae1e-df469318cd46",
+  "name": "Mess",
+  "query": "Mess",
+  "v": 2
+ },
  "metaklapa": {
   "checked": "2026-11-09",
   "country": "HR",
@@ -1170,6 +3970,64 @@
   "mbid": "21c1b2dd-907e-4386-b4e0-b7db44611f78",
   "name": "Metaklapa",
   "query": "Metaklapa",
+  "v": 2
+ },
+ "metrik": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://metrikmusic.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/469495",
+   "facebook": "https://www.facebook.com/metrikmusic",
+   "instagram": "https://www.instagram.com/metrikmusic/",
+   "soundcloud": "https://soundcloud.com/metrik",
+   "spotify": "https://open.spotify.com/artist/2NCEtX40i9lLNpTg2X5583",
+   "web": "http://www.metrikmusic.com/",
+   "youtube": "https://music.youtube.com/channel/UC3GpUBcrmY846NVSUB0aUjg"
+  },
+  "mbid": "2744b622-aaaf-467a-8641-d0deffbe43ac",
+  "name": "Metrik",
+  "query": "Metrik",
+  "v": 2
+ },
+ "mickey lyxx": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/mickeylyxx",
+   "instagram": "https://www.instagram.com/mickey_lyxx/",
+   "web": "https://www.mickeylyxx.com/",
+   "youtube": "https://www.youtube.com/MickeyLyxx"
+  },
+  "mbid": "233267f2-7d99-4ee6-9864-838e3f2eb954",
+  "name": "Mickey Lyxx",
+  "query": "Mickey Lyxx",
+  "v": 2
+ },
+ "mighty oaks": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "world",
+  "links": {
+   "bandcamp": "https://mightyoaks.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4859735",
+   "facebook": "https://www.facebook.com/mightyoaksmusic",
+   "instagram": "https://www.instagram.com/mightyoaksmusic/",
+   "soundcloud": "https://soundcloud.com/mightyoaksmusic",
+   "spotify": "https://open.spotify.com/artist/5AVJt6VYXT4hMRP8D3MRAC",
+   "web": "https://www.mightyoaksmusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCVuXr4bKb5z86Z7aFT22a9A"
+  },
+  "mbid": "ffa6c35e-4398-4200-8bd8-915f5d470304",
+  "name": "Mighty Oaks",
+  "query": "Mighty Oaks",
+  "v": 2
+ },
+ "mine": {
+  "checked": "2026-11-09",
+  "query": "Mine",
   "v": 2
  },
  "miroslav ilic": {
@@ -1198,9 +4056,86 @@
   "query": "Miroslav Škoro",
   "v": 2
  },
+ "misha piatigorsky trio": {
+  "checked": "2026-11-09",
+  "query": "Misha Piatigorsky Trio",
+  "v": 2
+ },
+ "mladi virtuozi": {
+  "checked": "2026-11-09",
+  "query": "Mladi virtuozi",
+  "v": 2
+ },
  "mmv 2026": {
   "checked": "2026-11-08",
   "query": "MMV 2026"
+ },
+ "mnozil brass": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "klasika",
+  "links": {
+   "facebook": "https://www.facebook.com/Mnozil-Brass-139445732743413",
+   "web": "http://www.mnozilbrass.at/",
+   "youtube": "https://www.youtube.com/channel/UCKFvIiBTKxOQLdFXp5u6C6A"
+  },
+  "mbid": "7a1551c1-a5c5-4d9e-880c-c4e28e059115",
+  "name": "Mnozil Brass",
+  "query": "Mnozil Brass",
+  "v": 2
+ },
+ "modestep": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/573089",
+   "facebook": "https://www.facebook.com/modestep",
+   "soundcloud": "https://soundcloud.com/modestep",
+   "spotify": "https://open.spotify.com/artist/5zYJziKktyqWwmoAWXrShP",
+   "web": "http://www.modestep.co.uk/"
+  },
+  "mbid": "04ef7efd-f54e-49b2-a367-bc4ed6c172f0",
+  "name": "Modestep",
+  "query": "Modestep",
+  "v": 2
+ },
+ "molden": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "d2408cd5-6c67-4b0b-bcf0-cf25bf98de21",
+  "name": "Molden",
+  "query": "Molden",
+  "v": 2
+ },
+ "monika herzig": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "jazz",
+  "links": {
+   "web": "https://www.monikaherzig.com/"
+  },
+  "mbid": "9730c469-42b6-4353-8839-3e60f16e3504",
+  "name": "Monika Herzig",
+  "query": "Monika Herzig",
+  "v": 2
+ },
+ "monobrother": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://monobrother.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4314172",
+   "spotify": "https://open.spotify.com/artist/5RJlRbd9K7amX7GKtrpjVT",
+   "youtube": "https://music.youtube.com/channel/UCQLmQBKyMlnwe9BWGAe5gow"
+  },
+  "mbid": "1e6bda4c-a0e1-41db-8e5c-3d38b8721928",
+  "name": "Monobrother",
+  "query": "Monobrother",
+  "v": 2
  },
  "monolord": {
   "checked": "2026-11-09",
@@ -1219,6 +4154,23 @@
   "mbid": "043225b4-3c61-4aea-8644-9065306d3499",
   "name": "Monolord",
   "query": "Monolord",
+  "v": 2
+ },
+ "moon walker": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/795437",
+   "facebook": "https://www.facebook.com/ListenToMoonWalker",
+   "instagram": "https://www.instagram.com/moonwalkerbandofficial/",
+   "spotify": "https://open.spotify.com/artist/4Qvflafuw7a0F2E3NonxsA",
+   "web": "https://www.listentomoonwalker.com/meet-moon-walker",
+   "youtube": "https://www.youtube.com/@moonwalkerbandofficial"
+  },
+  "mbid": "5c4c2df9-63ba-4605-a965-5ea11db27cf5",
+  "name": "Moon Walker",
+  "query": "Moon Walker",
   "v": 2
  },
  "mostar sevdah reunion": {
@@ -1250,6 +4202,41 @@
   "query": "Mothers Finest",
   "v": 2
  },
+ "motionless in white": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://motionlessinwhite.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/131886",
+   "facebook": "https://www.facebook.com/motionlessinwhite",
+   "instagram": "https://www.instagram.com/miwband/",
+   "soundcloud": "https://soundcloud.com/motionlessinwhite",
+   "spotify": "https://open.spotify.com/artist/6MwPCCR936cYfM1dLsGVnl",
+   "web": "http://motionlessinwhite.net/",
+   "youtube": "https://www.youtube.com/channel/UC5MWh1k90KULpPOeXAzoIZA"
+  },
+  "mbid": "1c5b9bd6-76e8-4fe7-a6df-3bc0b5a452cc",
+  "name": "Motionless in White",
+  "query": "Motionless In White",
+  "v": 2
+ },
+ "mrfy": {
+  "checked": "2026-11-09",
+  "country": "SI",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://mrfy.bandcamp.com/",
+   "facebook": "https://www.facebook.com/MRFYnm",
+   "instagram": "https://www.instagram.com/mrfy_band/",
+   "spotify": "https://open.spotify.com/artist/0nWEe4MRacRVVWT71b9PeM",
+   "youtube": "https://www.youtube.com/channel/UCfBQmBpRjEsIBUD9KbxxxQQ"
+  },
+  "mbid": "36afd90f-53de-4ac4-a621-20d53945b4a6",
+  "name": "MRFY",
+  "query": "Mrfy",
+  "v": 2
+ },
  "mudri brk predstavlja": {
   "checked": "2026-11-08",
   "query": "Mudri Brk predstavlja"
@@ -1257,6 +4244,23 @@
  "mudri brk predstavlja vol 2": {
   "checked": "2026-11-08",
   "query": "Mudri Brk predstavlja vol. 2"
+ },
+ "muff potter": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/80537",
+   "facebook": "https://www.facebook.com/muffpotterofficial",
+   "instagram": "https://www.instagram.com/muffpotterofficial/",
+   "spotify": "https://open.spotify.com/artist/672ZRYLQfxfnNWoWcmtmZC",
+   "web": "https://www.muff-potter.de/",
+   "youtube": "https://www.youtube.com/@MuffPotter"
+  },
+  "mbid": "720bbfaf-ada2-464f-83ae-069fb9a806c1",
+  "name": "muff potter.",
+  "query": "Muff Potter",
+  "v": 2
  },
  "munly": {
   "checked": "2026-11-08",
@@ -1279,6 +4283,23 @@
   "query": "My New Band Believe",
   "v": 2
  },
+ "myles sanko": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "jazz",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/4634892",
+   "facebook": "https://www.facebook.com/mylessankofanpage",
+   "soundcloud": "https://soundcloud.com/myles-sanko",
+   "spotify": "https://open.spotify.com/artist/0EeY17gAdOJIBjNrpi6q1G",
+   "web": "http://www.mylessanko.com/",
+   "youtube": "https://www.youtube.com/user/mylessanko"
+  },
+  "mbid": "f02e9957-f8c6-4395-b9f7-bd11d66e7f40",
+  "name": "Myles Sanko",
+  "query": "Myles Sanko",
+  "v": 2
+ },
  "n bauman": {
   "checked": "2026-11-08",
   "query": "N. Bauman"
@@ -1299,6 +4320,20 @@
   "checked": "2026-11-08",
   "query": "Na Prvi Pogled"
  },
+ "nagy emma quintet": {
+  "checked": "2026-11-09",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/nemquintet",
+   "spotify": "https://open.spotify.com/artist/2BqShLY4f9VtVrvSQJ8BR5",
+   "youtube": "https://music.youtube.com/channel/UC2rq2FmTRRt4PIzVHakk5Sw"
+  },
+  "mbid": "fce191f0-d99d-41cf-b9d9-a5321a7e6d8d",
+  "name": "Nagy Emma Quintet",
+  "query": "Nagy Emma Quintet",
+  "v": 2
+ },
  "najbolji hrvatski tamburasi": {
   "checked": "2026-11-09",
   "country": "HR",
@@ -1307,6 +4342,49 @@
   "mbid": "a28f7391-f56f-40fd-b6b7-d0ed019667b1",
   "name": "Najbolji Hrvatski Tamburasi",
   "query": "Najbolji hrvatski tamburaši",
+  "v": 2
+ },
+ "najboljsi prijateljici 2026": {
+  "checked": "2026-11-09",
+  "query": "Najboljši prijateljici 2026",
+  "v": 2
+ },
+ "nand": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://1nand1.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4690312",
+   "facebook": "https://www.facebook.com/nandmusic",
+   "instagram": "https://www.instagram.com/nand_musik/",
+   "soundcloud": "https://soundcloud.com/nandmusik",
+   "spotify": "https://open.spotify.com/artist/5wqj5DHpNUW5TySzEtzdFg",
+   "web": "https://nand-music.de/",
+   "youtube": "https://www.youtube.com/channel/UC0htaNvCL5rCwokQPjiKATw"
+  },
+  "mbid": "445b60a1-1b67-47e4-a91a-d960c7b45aa7",
+  "name": "nand",
+  "query": "Nand",
+  "v": 2
+ },
+ "napalm death": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://napalm-death.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5110",
+   "facebook": "https://www.facebook.com/officialnapalmdeath",
+   "instagram": "https://www.instagram.com/theofficialnapalmdeath/",
+   "soundcloud": "https://soundcloud.com/napalmdeathofficial",
+   "spotify": "https://open.spotify.com/artist/3UqRgrDIQ208yNGiWKRMNt",
+   "web": "https://www.napalmdeath.org/",
+   "youtube": "https://www.youtube.com/napalmdeathofficial"
+  },
+  "mbid": "ce7bba8b-026b-4aa6-bddb-f98ed6d595e4",
+  "name": "Napalm Death",
+  "query": "Napalm Death",
   "v": 2
  },
  "natali dizdar": {
@@ -1345,6 +4423,103 @@
   "checked": "2026-11-08",
   "query": "nemanja"
  },
+ "neunundneunzig": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "instagram": "https://www.instagram.com/neunundneunzig.band/",
+   "soundcloud": "https://soundcloud.com/user-399648465-526583987",
+   "web": "https://www.neunundneunzig.eu/shop"
+  },
+  "mbid": "3df071f1-e903-4c14-82b6-86dcc59a31d4",
+  "name": "Neunundneunzig",
+  "query": "Neunundneunzig",
+  "v": 2
+ },
+ "nickelback": {
+  "checked": "2026-11-09",
+  "country": "CA",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://nickelbackofficial.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/338",
+   "facebook": "https://www.facebook.com/Nickelback",
+   "instagram": "https://www.instagram.com/nickelback/",
+   "soundcloud": "https://soundcloud.com/nickelback",
+   "spotify": "https://open.spotify.com/artist/6deZN1bslXzeGvOLaLMOIF",
+   "web": "http://www.nickelback.com/",
+   "youtube": "https://www.youtube.com/channel/UCx5IEfAbL5pqw3fgKgRi6DQ"
+  },
+  "mbid": "bc710bcf-8815-42cf-bad2-3f1d12246aeb",
+  "name": "Nickelback",
+  "query": "Nickelback",
+  "v": 2
+ },
+ "nico santos": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/409717",
+   "facebook": "https://www.facebook.com/nicosantosofficial",
+   "instagram": "https://www.instagram.com/nicosantosofficial/",
+   "soundcloud": "https://soundcloud.com/nicosantosofficial",
+   "spotify": "https://open.spotify.com/artist/3A9B6c1CrSPauiOblw7pWz",
+   "web": "https://www.nico-santos.de/",
+   "youtube": "https://www.youtube.com/channel/UCBShNAEvshYBowY-Tg-8SNQ"
+  },
+  "mbid": "15316b5d-232c-4288-a74e-14f9912a5b1d",
+  "name": "Nico Santos",
+  "query": "Nico Santos",
+  "v": 2
+ },
+ "nieve ella": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/118683522",
+   "facebook": "https://www.facebook.com/nieveella",
+   "instagram": "https://www.instagram.com/nieveella/",
+   "soundcloud": "https://soundcloud.com/nieve-ella",
+   "spotify": "https://open.spotify.com/artist/14zhvja4OxwrmivOB3LHOn",
+   "web": "https://www.nieveella.com/",
+   "youtube": "https://www.youtube.com/channel/UCJ2FioVxNVJKtGfIvZU19CQ"
+  },
+  "mbid": "0d351b4b-7986-4fd2-ac7f-40fdf2a34c71",
+  "name": "Nieve Ella",
+  "query": "Nieve Ella",
+  "v": 2
+ },
+ "nik p": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "narodna",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/80647",
+   "facebook": "https://www.facebook.com/NikP.Offiziell",
+   "spotify": "https://open.spotify.com/artist/159oJddLiuKFNYTa3ZNueS",
+   "web": "https://www.nikp.com/"
+  },
+  "mbid": "673e76a3-6897-4013-9b34-d6d444cd3099",
+  "name": "Nik P.",
+  "query": "Nik P.",
+  "v": 2
+ },
+ "nik west": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/nikwestmusic",
+   "web": "http://www.nikwestbass.com/"
+  },
+  "mbid": "bde6cd44-9178-47a4-b0d8-2e1ab45e5a7e",
+  "name": "Nik West",
+  "query": "Nik West",
+  "v": 2
+ },
  "nikola kojo": {
   "checked": "2026-11-09",
   "country": "RS",
@@ -1363,6 +4538,21 @@
   "mbid": "7a6a355a-775d-40d5-baa8-be255826bc85",
   "name": "Nikola Vranjković",
   "query": "Nikola Vranjković",
+  "v": 2
+ },
+ "nipplepeople": {
+  "checked": "2026-11-09",
+  "country": "HR",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://nipplepeople.bandcamp.com/",
+   "soundcloud": "https://soundcloud.com/nipplepeople",
+   "spotify": "https://open.spotify.com/artist/4s37t1y2MeGisxpV6EN7tJ",
+   "web": "http://nipplepeople.blogspot.com/"
+  },
+  "mbid": "4d2bf4ed-1ead-42b7-a26b-a41d5aa2e1d4",
+  "name": "Nipplepeople",
+  "query": "Nipplepeople",
   "v": 2
  },
  "no jazz": {
@@ -1391,9 +4581,40 @@
   "checked": "2026-11-08",
   "query": "Novi val poduzetništva powered by Aestus"
  },
+ "nto": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/171883",
+   "facebook": "https://www.facebook.com/nto.music",
+   "instagram": "https://www.instagram.com/ntomusic/",
+   "soundcloud": "https://soundcloud.com/ntonto",
+   "spotify": "https://open.spotify.com/artist/7ry8L53T4oJtSIogGYuioq",
+   "youtube": "https://www.youtube.com/channel/UCGbyt2Lm2WlWULsMuhMeZvg"
+  },
+  "mbid": "619f53fa-0f28-4f02-a313-9078979fd04c",
+  "name": "NTO",
+  "query": "NTO",
+  "v": 2
+ },
  "ocean of another u zagrebu": {
   "checked": "2026-11-08",
   "query": "Ocean Of Another u Zagrebu"
+ },
+ "oceanfromtheblue": {
+  "checked": "2026-11-09",
+  "country": "KR",
+  "genre": "",
+  "links": {
+   "instagram": "https://www.instagram.com/oceanfromtheblue/",
+   "spotify": "https://open.spotify.com/artist/76eIrOIqck4yuOhrYZGx3a",
+   "youtube": "https://www.youtube.com/channel/UCEjs03xlDMbKsOdYeTny-3Q"
+  },
+  "mbid": "67c9d89f-a026-4f46-bf39-585256819180",
+  "name": "oceanfromtheblue",
+  "query": "oceanfromtheblue",
+  "v": 2
  },
  "officium triste": {
   "checked": "2026-11-09",
@@ -1418,6 +4639,60 @@
   "checked": "2026-11-08",
   "query": "Oiv Toranj Sljeme"
  },
+ "okvsho": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "jazz",
+  "links": {
+   "bandcamp": "https://soulofzurich.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/90673462",
+   "facebook": "https://www.facebook.com/okvsho",
+   "instagram": "https://www.instagram.com/okvsho/",
+   "spotify": "https://open.spotify.com/artist/1AYg9svyPINHz0DWC99QmZ",
+   "youtube": "https://www.youtube.com/channel/UC8PQ-GSN_j6NsQ5JZWnkl3A"
+  },
+  "mbid": "bed6a824-1e65-4742-a850-8085dd6a46d7",
+  "name": "Okvsho",
+  "query": "okvsho",
+  "v": 2
+ },
+ "oldschoolbasterds": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "68adcb48-bc81-4378-b895-e613e928ce09",
+  "name": "OldSchoolBasterds",
+  "query": "OldSchoolBasterds",
+  "v": 2
+ },
+ "oneus": {
+  "checked": "2026-11-09",
+  "country": "KR",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/58547552",
+   "facebook": "https://www.facebook.com/officialONEUS",
+   "instagram": "https://www.instagram.com/official_oneus/",
+   "spotify": "https://open.spotify.com/artist/3CVYSpM7nfHFG5qCTW7Ht9",
+   "web": "http://www.rbbridge.com/?page_id=23497",
+   "youtube": "https://www.youtube.com/channel/UCWTYf4xModfNsyq2NUYjF5g"
+  },
+  "mbid": "c010eb84-2de1-40b2-b267-40de6002daab",
+  "name": "ONEUS",
+  "query": "OneUs",
+  "v": 2
+ },
+ "onk lou": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {},
+  "mbid": "d7554e0a-4a71-45bb-98cc-25a6937adbd2",
+  "name": "Onk Lou",
+  "query": "Onk Lou",
+  "v": 2
+ },
  "opca opasnost": {
   "checked": "2026-11-09",
   "country": "HR",
@@ -1434,6 +4709,69 @@
   "mbid": "8086adb9-e9f6-49af-9737-d2d3697a281c",
   "name": "Opća opasnost",
   "query": "Opća Opasnost",
+  "v": 2
+ },
+ "orbay lilla": {
+  "checked": "2026-11-09",
+  "query": "Orbay Lilla",
+  "v": 2
+ },
+ "osees": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://ohsees.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/72314",
+   "facebook": "https://www.facebook.com/TheeOhSees",
+   "soundcloud": "https://soundcloud.com/osees-music",
+   "spotify": "https://open.spotify.com/artist/0Ynh5WKqwbdYqJUpVpfEGS",
+   "web": "http://www.theeohsees.com/"
+  },
+  "mbid": "194272cc-dcc8-4640-a4a6-66da7d250d5c",
+  "name": "Osees",
+  "query": "Osees",
+  "v": 2
+ },
+ "ossian": {
+  "checked": "2026-11-09",
+  "query": "Ossian",
+  "v": 2
+ },
+ "our promise": {
+  "checked": "2026-11-09",
+  "query": "Our Promise",
+  "v": 2
+ },
+ "paris texas": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/pages/Paris-Texas-band/104115426292227"
+  },
+  "mbid": "22685c6b-2900-4fc0-a030-d56c00cc0601",
+  "name": "Paris, Texas",
+  "query": "Paris Texas",
+  "v": 2
+ },
+ "parov stelar": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://parovstelar.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/3452",
+   "facebook": "https://www.facebook.com/parovstelar",
+   "instagram": "https://www.instagram.com/parovstelarofficial/",
+   "soundcloud": "https://soundcloud.com/parov_stelar",
+   "spotify": "https://open.spotify.com/artist/65EXuYHVoehCKqp0kOS6px",
+   "web": "https://www.parovstelar.com/",
+   "youtube": "https://www.youtube.com/channel/UCVtnG15ufdzur71RqfqNSOg"
+  },
+  "mbid": "fe1a873d-2000-4789-a895-4187fe756203",
+  "name": "Parov Stelar",
+  "query": "Parov Stelar",
   "v": 2
  },
  "paulaner acoustic live session": {
@@ -1456,6 +4794,11 @@
   "query": "Perpetuum Jazzile",
   "v": 2
  },
+ "pete": {
+  "checked": "2026-11-09",
+  "query": "Pete",
+  "v": 2
+ },
  "peti korak": {
   "checked": "2026-11-08",
   "query": "Peti Korak"
@@ -1472,9 +4815,51 @@
   "checked": "2026-11-08",
   "query": "PipsChips&Videoclips u Areni!"
  },
+ "pipsi u zaboku": {
+  "checked": "2026-11-09",
+  "query": "Pipsi u Zaboku!",
+  "v": 2
+ },
  "pismo moja": {
   "checked": "2026-11-08",
   "query": "Pismo Moja"
+ },
+ "pitbull": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/776",
+   "facebook": "https://www.facebook.com/pitbull",
+   "instagram": "https://www.instagram.com/pitbull/",
+   "soundcloud": "https://soundcloud.com/pitbull",
+   "spotify": "https://open.spotify.com/artist/0TnOYISbd1XYRBk9myaseg",
+   "web": "http://www.pitbullmusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCv8nzwVPQDRjkPCkEsOdEwA"
+  },
+  "mbid": "d262ea27-3ffe-40f7-b922-85c42d625e67",
+  "name": "Pitbull",
+  "query": "Pitbull",
+  "v": 2
+ },
+ "placebo": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://placeboworld.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/8",
+   "facebook": "https://www.facebook.com/officialplacebo",
+   "instagram": "https://www.instagram.com/placeboworld/",
+   "soundcloud": "https://soundcloud.com/placeboworld",
+   "spotify": "https://open.spotify.com/artist/6RZUqkomCmb8zCRqc9eznB",
+   "web": "https://www.placeboworld.co.uk/",
+   "youtube": "https://www.youtube.com/channel/UC2b9IFlgcfZ_2TOW_BQTh0A"
+  },
+  "mbid": "847e8284-8582-4b0e-9c26-b042a4f49e57",
+  "name": "Placebo",
+  "query": "Placebo",
+  "v": 2
  },
  "plattenbau": {
   "checked": "2026-11-08",
@@ -1503,6 +4888,25 @@
   "query": "Portrayal of Guilt",
   "v": 2
  },
+ "portugal the man": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://portugaltheman.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/181878",
+   "facebook": "https://www.facebook.com/portugaltheman",
+   "instagram": "https://www.instagram.com/portugaltheman/",
+   "soundcloud": "https://soundcloud.com/portugaltheman",
+   "spotify": "https://open.spotify.com/artist/4kI8Ie27vjvonwaB2ePh8T",
+   "web": "http://www.portugaltheman.net/",
+   "youtube": "https://www.youtube.com/channel/UC0TobZSDyMaXaoVK_9TcPHA"
+  },
+  "mbid": "3599a39e-4e10-4cb5-90d4-c8a015ebc73b",
+  "name": "Portugal. The Man",
+  "query": "Portugal. The Man",
+  "v": 2
+ },
  "praying mantis": {
   "checked": "2026-11-09",
   "country": "GB",
@@ -1521,6 +4925,11 @@
  "premijera": {
   "checked": "2026-11-08",
   "query": "Premijera"
+ },
+ "president": {
+  "checked": "2026-11-09",
+  "query": "President",
+  "v": 2
  },
  "prica mi se prica": {
   "checked": "2026-11-08",
@@ -1556,6 +4965,27 @@
   "checked": "2026-11-08",
   "query": "QUEER MOMENTI"
  },
+ "quixotic": {
+  "checked": "2026-11-09",
+  "query": "Quixotic",
+  "v": 2
+ },
+ "raf camora": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "hiphop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1419381",
+   "facebook": "https://www.facebook.com/RAFCamora.official",
+   "instagram": "https://www.instagram.com/raf_camora/",
+   "spotify": "https://open.spotify.com/artist/0Dvx6p8JDyzeOPGmaCIH1L",
+   "youtube": "https://www.youtube.com/channel/UChqcJ_MhP9a4bXy1jQ0QPzQ"
+  },
+  "mbid": "a5386648-7b2c-4e0a-8094-ac5d16b91e54",
+  "name": "RAF Camora",
+  "query": "Raf Camora",
+  "v": 2
+ },
  "rambo amadeus u saxu": {
   "checked": "2026-11-08",
   "query": "Rambo Amadeus u Saxu!"
@@ -1572,9 +5002,44 @@
   "query": "Ranking Ann",
   "v": 2
  },
+ "rauhbein": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/145452872",
+   "facebook": "https://www.facebook.com/profile.php?id=100064058886424",
+   "instagram": "https://www.instagram.com/rauhbein_offiziell/",
+   "soundcloud": "https://soundcloud.com/rauhbein",
+   "spotify": "https://open.spotify.com/artist/0neCOkQjYXJMLW7cvOw6fe",
+   "web": "https://rauhbein.de/",
+   "youtube": "https://www.youtube.com/channel/UCSTwUW9nD2xF0cNcdZozISQ"
+  },
+  "mbid": "c08cc067-5dab-444d-bf7e-d0a02ac9ebcb",
+  "name": "Rauhbein",
+  "query": "Rauhbein",
+  "v": 2
+ },
  "rave frequencies croatia": {
   "checked": "2026-11-08",
   "query": "Rave Frequencies Croatia"
+ },
+ "rea garvey": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/146100",
+   "facebook": "https://www.facebook.com/ReaGarvey",
+   "instagram": "https://www.instagram.com/reagarvey/",
+   "spotify": "https://open.spotify.com/artist/0bmxU94V20pNJ2Vie9kFYv",
+   "web": "http://www.reagarvey.com/",
+   "youtube": "https://www.youtube.com/channel/UCmPlvBF_ynmo8fCvNWlpYtQ"
+  },
+  "mbid": "2023a33b-9583-4ac5-9bdc-0832677aa544",
+  "name": "Rea Garvey",
+  "query": "Rea Garvey",
+  "v": 2
  },
  "repetitor": {
   "checked": "2026-11-09",
@@ -1598,6 +5063,94 @@
   "checked": "2026-11-08",
   "query": "REPETITOR u Tvornici kulture"
  },
+ "reverse bullets": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://reversebullets.bandcamp.com/",
+   "soundcloud": "https://soundcloud.com/reverse-bullets",
+   "web": "https://reverse-bullets.com/",
+   "youtube": "https://www.youtube.com/@ReverseBullets"
+  },
+  "mbid": "a53bfa32-6f33-41a9-a4cd-3da9965c8122",
+  "name": "ReVerse Bullets",
+  "query": "ReVerse Bullets",
+  "v": 2
+ },
+ "rhapsody of fire": {
+  "checked": "2026-11-09",
+  "country": "IT",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/12061",
+   "facebook": "https://www.facebook.com/rhapsodyoffire",
+   "instagram": "https://www.instagram.com/rhapsodyoffireofficial/",
+   "soundcloud": "https://soundcloud.com/rhapsodyoffireofficial",
+   "spotify": "https://open.spotify.com/artist/0zQfrabOFYf36Ikb6PXcCY",
+   "web": "http://www.rhapsodyoffire.com/",
+   "youtube": "https://www.youtube.com/channel/UCtTQK5lja9uO9b5PNTmbdXw"
+  },
+  "mbid": "4e0dffde-ad2d-45b7-9c75-d57ce55de061",
+  "name": "Rhapsody of Fire",
+  "query": "Rhapsody of Fire",
+  "v": 2
+ },
+ "right time w": {
+  "checked": "2026-11-09",
+  "query": "Right Time w",
+  "v": 2
+ },
+ "rin": {
+  "checked": "2026-11-09",
+  "country": "JP",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://rinx2musixxx.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12288662",
+   "soundcloud": "https://soundcloud.com/rinx2musixxx",
+   "spotify": "https://open.spotify.com/artist/7iZ5aCddMRZS4fKjjbrAgj",
+   "web": "http://kuronekolounge.sakura.ne.jp/"
+  },
+  "mbid": "2aef84c4-6b8a-460c-80ab-7ae62d60ad83",
+  "name": "Rin",
+  "query": "RIN",
+  "v": 2
+ },
+ "rise": {
+  "checked": "2026-11-09",
+  "query": "Rise",
+  "v": 2
+ },
+ "rock in peace": {
+  "checked": "2026-11-09",
+  "query": "Rock in Peace",
+  "v": 2
+ },
+ "romeo": {
+  "checked": "2026-11-09",
+  "query": "Romeo",
+  "v": 2
+ },
+ "rummelsnuff": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://rummelsnuff.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/287268",
+   "facebook": "https://www.facebook.com/Rummelsnuff",
+   "instagram": "https://www.instagram.com/rummelsnuff_official/",
+   "soundcloud": "https://soundcloud.com/rummelsnuff",
+   "spotify": "https://open.spotify.com/artist/0DxIuWeKbaYIMxkZKxyC9Y",
+   "web": "http://www.rummelsnuff.com/",
+   "youtube": "https://music.youtube.com/channel/UCJNVYTgWOasZ-sNEeY0SrzQ"
+  },
+  "mbid": "15307eba-0a4d-4e0f-89f1-3b55f6726a7e",
+  "name": "Rummelsnuff",
+  "query": "Rummelsnuff",
+  "v": 2
+ },
  "ruzno pace u tvornici": {
   "checked": "2026-11-08",
   "query": "Ružno Pače u Tvornici"
@@ -1606,9 +5159,90 @@
   "checked": "2026-11-08",
   "query": "S.a.r.s."
  },
+ "s b o": {
+  "checked": "2026-11-09",
+  "query": "S.B.O",
+  "v": 2
+ },
  "s o r": {
   "checked": "2026-11-09",
   "query": "S.O.R.",
+  "v": 2
+ },
+ "s p y": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/445582",
+   "facebook": "https://www.facebook.com/thespymusic",
+   "instagram": "https://www.instagram.com/Spydnb/",
+   "soundcloud": "https://soundcloud.com/spydnb",
+   "spotify": "https://open.spotify.com/artist/6aJAd8zM1s3Slw64KfsmaF",
+   "web": "http://www.spydnb.com/"
+  },
+  "mbid": "abe931fd-bc88-40ee-ba42-f0ef2dc2eba5",
+  "name": "S.P.Y",
+  "query": "S.P.Y",
+  "v": 2
+ },
+ "saal": {
+  "checked": "2026-11-09",
+  "query": "Saal",
+  "v": 2
+ },
+ "sabaton": {
+  "checked": "2026-11-09",
+  "country": "SE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://sabaton.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12022",
+   "facebook": "https://www.facebook.com/sabaton",
+   "instagram": "https://www.instagram.com/sabatonofficial/",
+   "soundcloud": "https://soundcloud.com/sabatonofficial",
+   "spotify": "https://open.spotify.com/artist/3o2dn2O0FCVsWDFSh8qxgG",
+   "web": "http://www.sabaton.net/",
+   "youtube": "https://www.youtube.com/channel/UCjQhd1APsd5NQhiVZV7GYzg"
+  },
+  "mbid": "39a31de6-763d-48b6-a45c-f7cfad58ffd8",
+  "name": "Sabaton",
+  "query": "Sabaton",
+  "v": 2
+ },
+ "sace6": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/118352442",
+   "instagram": "https://www.instagram.com/sace6hq/",
+   "soundcloud": "https://soundcloud.com/sace6",
+   "spotify": "https://open.spotify.com/artist/3II4BTkM0mJbwvFxVJRdeS",
+   "web": "https://sace6.com/",
+   "youtube": "https://www.youtube.com/@sace6"
+  },
+  "mbid": "fa58bfff-1c37-4af5-a2a4-8669caee35fd",
+  "name": "sace6",
+  "query": "sace6",
+  "v": 2
+ },
+ "santiano": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "world",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1593024",
+   "facebook": "https://www.facebook.com/SantianoMusik",
+   "instagram": "https://www.instagram.com/santianooffiziell/",
+   "soundcloud": "https://soundcloud.com/santiano-official",
+   "spotify": "https://open.spotify.com/artist/6E9zde1CFsBtKI66OEHkk3",
+   "web": "https://www.santiano.de/",
+   "youtube": "https://www.youtube.com/channel/UC9qKvxWJEiRxsQnFN0tenyw"
+  },
+  "mbid": "af689c12-a808-4f12-8ffb-f68dd021f5c0",
+  "name": "Santiano",
+  "query": "Santiano",
   "v": 2
  },
  "sarah brightman": {
@@ -1629,9 +5263,45 @@
   "query": "Sarah Brightman",
   "v": 2
  },
+ "sarahbernhardt": {
+  "checked": "2026-11-09",
+  "query": "SarahBernhardt",
+  "v": 2
+ },
+ "sari schorr": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/477011",
+   "facebook": "https://www.facebook.com/SariSchorrMusic",
+   "instagram": "https://www.instagram.com/sarischorr/",
+   "spotify": "https://open.spotify.com/artist/65EcwCjlQu3XbQEbSqYBGl",
+   "web": "http://www.sarischorr.com/"
+  },
+  "mbid": "abc48764-7350-4398-b4ae-f1ea401cab2c",
+  "name": "Sari Schorr",
+  "query": "Sari Schorr",
+  "v": 2
+ },
+ "sasha": {
+  "checked": "2026-11-09",
+  "query": "Sasha",
+  "v": 2
+ },
  "savrseni marginalci u boogaloo u": {
   "checked": "2026-11-08",
   "query": "Savršeni Marginalci u Boogaloo-u!"
+ },
+ "schattenmann": {
+  "checked": "2026-11-09",
+  "query": "Schattenmann",
+  "v": 2
+ },
+ "schumann": {
+  "checked": "2026-11-09",
+  "query": "Schumann",
+  "v": 2
  },
  "scorpions": {
   "checked": "2026-11-08",
@@ -1654,6 +5324,42 @@
   "checked": "2026-11-08",
   "query": "SCORPIONS with very special guests EUROPE"
  },
+ "seb lowe": {
+  "checked": "2026-11-09",
+  "query": "Seb Lowe",
+  "v": 2
+ },
+ "selig": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3474",
+   "facebook": "https://www.facebook.com/seligmusik",
+   "spotify": "https://open.spotify.com/artist/7ftDP5ZxHkJGm02tQjxtag",
+   "web": "http://www.selig.eu/"
+  },
+  "mbid": "a4362f27-5805-4e47-b327-2e9ad0e1a483",
+  "name": "Selig",
+  "query": "Selig",
+  "v": 2
+ },
+ "selofan": {
+  "checked": "2026-11-09",
+  "country": "GR",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://selofan.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/11094550",
+   "facebook": "https://www.facebook.com/selofan.funpage",
+   "spotify": "https://open.spotify.com/artist/1StVGGYOC5FM3aNpJQ74Vj",
+   "youtube": "https://www.youtube.com/channel/UC_VTXZXSms2D3jXtp9Mth1A"
+  },
+  "mbid": "ec84e56f-9fbe-40d3-9979-bc084359d79c",
+  "name": "Selofan",
+  "query": "Selofan",
+  "v": 2
+ },
  "she loves pablo": {
   "checked": "2026-11-09",
   "country": "",
@@ -1669,13 +5375,78 @@
   "query": "SHE LOVES PABLO",
   "v": 2
  },
+ "shkodra elektronike": {
+  "checked": "2026-11-09",
+  "country": "AL",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://shkodraelektronike.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/82826462",
+   "facebook": "https://www.facebook.com/shkodraelektronike",
+   "instagram": "https://www.instagram.com/shkodraelektronike/",
+   "soundcloud": "https://soundcloud.com/shkodraelektronike",
+   "spotify": "https://open.spotify.com/artist/4BGQ263PdhPoD46R8NagOD",
+   "web": "https://www.shkodraelektronike.com/",
+   "youtube": "https://www.youtube.com/channel/UCmmCtfQ3wuegXYtNHh-HwUw"
+  },
+  "mbid": "550e40ef-8359-44da-a725-130570d13e84",
+  "name": "Shkodra Elektronike",
+  "query": "Shkodra Elektronike",
+  "v": 2
+ },
  "shtosmo u tvornici": {
   "checked": "2026-11-08",
   "query": "Shtosmo u Tvornici"
  },
+ "sigi finkel": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "jazz",
+  "links": {
+   "web": "http://www.sigifinkel.com/"
+  },
+  "mbid": "aebc8542-f6ef-4e59-9fe0-e831e8a0dd7a",
+  "name": "Sigi Finkel",
+  "query": "Sigi Finkel",
+  "v": 2
+ },
+ "signs of the swarm": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://signsoftheswarm.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/10285590",
+   "facebook": "https://www.facebook.com/signsoftheswarm",
+   "instagram": "https://www.instagram.com/signsoftheswarm/",
+   "soundcloud": "https://soundcloud.com/signsoftheswarm",
+   "spotify": "https://open.spotify.com/artist/0yxJx8OEyDfd7dzLsFuNrS",
+   "youtube": "https://www.youtube.com/channel/UClVqgQ87G6YgpiNlB9WoM1Q/about"
+  },
+  "mbid": "cdeefae7-b8e2-4972-8730-4611013837de",
+  "name": "Signs of the Swarm",
+  "query": "Signs of the Swarm",
+  "v": 2
+ },
  "silente u sax u": {
   "checked": "2026-11-08",
   "query": "Silente u Sax-u!"
+ },
+ "simone kopmajer": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/159428",
+   "facebook": "https://www.facebook.com/Jazz.Singer.Simone.Kopmajer",
+   "spotify": "https://open.spotify.com/artist/0RYuPorBeQ6ee57bAN9ujO",
+   "web": "http://www.simonekopmajer.com/",
+   "youtube": "https://www.youtube.com/user/simonekopmajer"
+  },
+  "mbid": "76bc50ef-bf4a-4e57-a09e-ecacc17b11bc",
+  "name": "Simone Kopmajer",
+  "query": "Simone Kopmajer",
+  "v": 2
  },
  "sinisa tamamovic": {
   "checked": "2026-11-09",
@@ -1698,9 +5469,45 @@
   "checked": "2026-11-08",
   "query": "SIXTEEN HORSEPOWER u Tvornici kulture"
  },
+ "skeler": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://skelermusic.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/12787101",
+   "facebook": "https://www.facebook.com/skelermusic",
+   "instagram": "https://www.instagram.com/skelerofficial/",
+   "soundcloud": "https://soundcloud.com/skelermusic",
+   "spotify": "https://open.spotify.com/artist/7ks4LdnBvp6HUsmVJiKgsB",
+   "youtube": "https://www.youtube.com/channel/UCpoKdKVhH-jcr3Pu0auKjmw"
+  },
+  "mbid": "4cb4ebd9-3a15-406b-aadd-b5401754ba40",
+  "name": "skeler.",
+  "query": "skeler",
+  "v": 2
+ },
  "skier and yeti": {
   "checked": "2026-11-08",
   "query": "Skier and Yeti"
+ },
+ "skillet": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/9315",
+   "facebook": "https://www.facebook.com/skillet",
+   "instagram": "https://www.instagram.com/skilletmusic/",
+   "soundcloud": "https://soundcloud.com/skilletofficial",
+   "spotify": "https://open.spotify.com/artist/49bzE5vRBRIota4qeHtQM8",
+   "web": "http://www.skillet.com/",
+   "youtube": "https://www.youtube.com/user/skilletband"
+  },
+  "mbid": "16a43d5e-c52d-4eaa-9c3b-00b2c1d8e816",
+  "name": "Skillet",
+  "query": "Skillet",
+  "v": 2
  },
  "skolski sat s ladom": {
   "checked": "2026-11-08",
@@ -1745,6 +5552,21 @@
   "checked": "2026-11-08",
   "query": "Snjeguljica"
  },
+ "so soon": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://alwayssosoon.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/13308127",
+   "instagram": "https://www.instagram.com/alwayssosoon/",
+   "spotify": "https://open.spotify.com/artist/2UGXhai4cvsToa2TtNz5Ye"
+  },
+  "mbid": "b8e7209f-99aa-4f6c-be57-8e9727f1a6b2",
+  "name": "So Soon",
+  "query": "So Soon",
+  "v": 2
+ },
  "soen": {
   "checked": "2026-11-09",
   "country": "",
@@ -1762,6 +5584,24 @@
   "mbid": "7a42f70d-7c01-46d2-bd88-738967a631f0",
   "name": "Soen",
   "query": "Soen",
+  "v": 2
+ },
+ "softcult": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://softcult.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/116202712",
+   "facebook": "https://www.facebook.com/softcultband",
+   "instagram": "https://www.instagram.com/softcultband/",
+   "spotify": "https://open.spotify.com/artist/13pYXGtaLO9d06VrXX4Aw0",
+   "web": "https://www.softcult.band/",
+   "youtube": "https://music.youtube.com/browse/UCB5pbQiZa6LEIfbV5h3yZLQ"
+  },
+  "mbid": "321eaf5a-be21-4faf-a7a0-0a4e59e5ee29",
+  "name": "Softcult",
+  "query": "Softcult",
   "v": 2
  },
  "solstafir": {
@@ -1783,6 +5623,63 @@
   "query": "Sólstafir",
   "v": 2
  },
+ "son lux": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://sonlux.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1256645",
+   "facebook": "https://www.facebook.com/sonlux",
+   "instagram": "https://www.instagram.com/son_lux/",
+   "soundcloud": "https://soundcloud.com/son-lux",
+   "spotify": "https://open.spotify.com/artist/3kZdsaTYgaaolNxpnJ4iDe",
+   "web": "http://sonluxmusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCvaVEjRMc91tuAxO3b3JuQw"
+  },
+  "mbid": "afcd292c-3c1e-4708-af4a-991aadf957e4",
+  "name": "Son Lux",
+  "query": "Son Lux",
+  "v": 2
+ },
+ "son mieux": {
+  "checked": "2026-11-09",
+  "country": "NL",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://sonmieux.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/9007592",
+   "facebook": "https://www.facebook.com/sonmieux",
+   "instagram": "https://www.instagram.com/son.mieux/",
+   "soundcloud": "https://soundcloud.com/son-mieux",
+   "spotify": "https://open.spotify.com/artist/1BCBAzjX8J0qpvNTPRDCLc",
+   "web": "http://www.sonmieux.com/",
+   "youtube": "https://www.youtube.com/channel/UC4R9TnCrCwENZ9n-m0X5olw"
+  },
+  "mbid": "5d3e4f6b-76a0-407f-b42e-d70d9d94e5fb",
+  "name": "Son Mieux",
+  "query": "Son Mieux",
+  "v": 2
+ },
+ "sondre lerche": {
+  "checked": "2026-11-09",
+  "country": "NO",
+  "genre": "alt",
+  "links": {
+   "bandcamp": "https://sondrelerchemusic.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/2070",
+   "facebook": "https://www.facebook.com/sondrelerche",
+   "instagram": "https://www.instagram.com/sondrelerche/",
+   "soundcloud": "https://soundcloud.com/sondrelerche",
+   "spotify": "https://open.spotify.com/artist/0Q6X1jqwOVQuclYp2P1bub",
+   "web": "http://www.sondrelerche.com/",
+   "youtube": "https://www.youtube.com/channel/UCyWuaLsD1yeInrDusJNHp8Q"
+  },
+  "mbid": "a1c29c2f-778f-4b02-9ac7-80f0c37cdea9",
+  "name": "Sondre Lerche",
+  "query": "Sondre Lerche",
+  "v": 2
+ },
  "soul legacy": {
   "checked": "2026-11-08",
   "query": "Soul Legacy"
@@ -1794,6 +5691,23 @@
  "soyuz in zagreb": {
   "checked": "2026-11-08",
   "query": "Soyuz In Zagreb"
+ },
+ "special efx": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "jazz",
+  "links": {
+   "spotify": "https://open.spotify.com/artist/5xUKGtiP4KvMEJWSQ72SyZ"
+  },
+  "mbid": "a244d658-c78a-4abb-be68-4e5fb87d776b",
+  "name": "Special EFX",
+  "query": "Special EFX",
+  "v": 2
+ },
+ "spike": {
+  "checked": "2026-11-09",
+  "query": "Spike",
+  "v": 2
  },
  "spike and the gimme gimmes u zagrebu": {
   "checked": "2026-11-08",
@@ -1871,9 +5785,38 @@
   "checked": "2026-11-08",
   "query": "STEREO MC's u Tvornici kulture"
  },
+ "stone sober": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://stonesober.bandcamp.com/"
+  },
+  "mbid": "f9793b28-46ac-4c37-8fc3-48cc1cf5249f",
+  "name": "Stone Sober",
+  "query": "Stone Sober",
+  "v": 2
+ },
  "studio 54 by tomo ricov": {
   "checked": "2026-11-08",
   "query": "Studio 54 by Tomo Ricov"
+ },
+ "stvw": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/8785778",
+   "facebook": "https://www.facebook.com/stvwmusic",
+   "instagram": "https://www.instagram.com/stvwmusic/",
+   "soundcloud": "https://soundcloud.com/stvwofficial",
+   "spotify": "https://open.spotify.com/artist/3yycPRFMwYENrpe3nw7L4k",
+   "web": "https://www.stvwmusic.com/"
+  },
+  "mbid": "d177eecf-05cf-464b-8840-724cb370d9a6",
+  "name": "STVW",
+  "query": "Stvw",
+  "v": 2
  },
  "suede": {
   "checked": "2026-11-09",
@@ -1891,6 +5834,24 @@
   "mbid": "a55c2f1b-3f3f-4d6a-aa30-5e186dbadce6",
   "name": "Suede",
   "query": "SUEDE",
+  "v": 2
+ },
+ "suicide silence": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/170672",
+   "facebook": "https://www.facebook.com/suicidesilence",
+   "instagram": "https://www.instagram.com/suicidesilenceofficial/",
+   "soundcloud": "https://soundcloud.com/suicidesilenceofficial",
+   "spotify": "https://open.spotify.com/artist/6HZr7Fs2VfV1PYHIwo8Ylc",
+   "web": "http://www.suicidesilence.net/",
+   "youtube": "https://www.youtube.com/channel/UC_KZ6lUe4JU01qELYUsvSvQ"
+  },
+  "mbid": "4fd53e84-ffa1-4434-9146-3fab25ece7e0",
+  "name": "Suicide Silence",
+  "query": "Suicide Silence",
   "v": 2
  },
  "suparnice": {
@@ -1913,6 +5874,32 @@
   "checked": "2026-11-08",
   "query": "SWINGERS present's ELVIS! u Tvornici Kulture"
  },
+ "swiss": {
+  "checked": "2026-11-09",
+  "query": "Swiss",
+  "v": 2
+ },
+ "takeshis cashew": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/97067932",
+   "facebook": "https://www.facebook.com/takeshiscashew",
+   "instagram": "https://www.instagram.com/takeshiscashew/",
+   "soundcloud": "https://soundcloud.com/takeshis-cashew",
+   "spotify": "https://open.spotify.com/artist/6Fz85Ih5XufwQ1TH4s0pHA"
+  },
+  "mbid": "4944b1bf-d022-4632-a690-f263efeb6eaa",
+  "name": "Takeshi’s Cashew",
+  "query": "Takeshi's Cashew",
+  "v": 2
+ },
+ "tara": {
+  "checked": "2026-11-09",
+  "query": "Tara",
+  "v": 2
+ },
  "tarja": {
   "checked": "2026-11-09",
   "country": "FI",
@@ -1929,6 +5916,39 @@
   "mbid": "1fd8c24b-eaf3-4ee2-9931-b8130099d789",
   "name": "Tarja",
   "query": "Tarja",
+  "v": 2
+ },
+ "technodub seance w": {
+  "checked": "2026-11-09",
+  "query": "Technodub Seance w",
+  "v": 2
+ },
+ "technokunst pres acidmoon w": {
+  "checked": "2026-11-09",
+  "query": "Technokunst pres. Acidmoon w",
+  "v": 2
+ },
+ "terror": {
+  "checked": "2026-11-09",
+  "query": "Terror",
+  "v": 2
+ },
+ "the browning": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://thebrowningofficial.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1041170",
+   "facebook": "https://www.facebook.com/TheBrowningOfficial",
+   "instagram": "https://www.instagram.com/thebrowningofficial/",
+   "soundcloud": "https://soundcloud.com/the-browning",
+   "spotify": "https://open.spotify.com/artist/4DSNcg40nf6T3eNAObq1Lo",
+   "youtube": "https://www.youtube.com/user/thebrowningproject"
+  },
+  "mbid": "fb759bfb-34ec-4f1d-91f9-fd46549bc3cd",
+  "name": "The Browning",
+  "query": "The Browning",
   "v": 2
  },
  "the cassandra complex": {
@@ -1963,9 +5983,119 @@
   "query": "The Chameleons",
   "v": 2
  },
+ "the dark tenor": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "klasika",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5286456",
+   "spotify": "https://open.spotify.com/artist/2GIKcsT0xfsxpYUZ5yX2tL",
+   "web": "https://www.thedarktenor.com/"
+  },
+  "mbid": "2c048a8d-5e7d-45fc-9fcf-b6f43f1e5f63",
+  "name": "The Dark Tenor",
+  "query": "The Dark Tenor",
+  "v": 2
+ },
  "the darts": {
   "checked": "2026-11-08",
   "query": "The Darts"
+ },
+ "the halo effect": {
+  "checked": "2026-11-09",
+  "country": "SE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://thehaloeffectse.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/149492812",
+   "facebook": "https://www.facebook.com/thehaloeffectse",
+   "instagram": "https://www.instagram.com/thehaloeffectse/",
+   "soundcloud": "https://soundcloud.com/thehaloeffect-music",
+   "spotify": "https://open.spotify.com/artist/2qvK5iLLoDV5mJeAvh5uka",
+   "web": "https://www.thehaloeffect.band/",
+   "youtube": "https://www.youtube.com/channel/UCR2pGOaIIf5W5FY8uwIkEiA"
+  },
+  "mbid": "4e6e78c6-160f-4e2b-8b25-3227a4ec677f",
+  "name": "The Halo Effect",
+  "query": "The Halo Effect",
+  "v": 2
+ },
+ "the hardkiss": {
+  "checked": "2026-11-09",
+  "country": "UA",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1432088",
+   "facebook": "https://www.facebook.com/THEHARDKISS",
+   "instagram": "https://www.instagram.com/the_hardkiss/",
+   "spotify": "https://open.spotify.com/artist/4IJcztNtY5L7G3qK4yu1qt",
+   "web": "http://www.thehardkiss.com/",
+   "youtube": "https://www.youtube.com/channel/UCgJxsxqbS_lQ3Y-_gbEq-lA"
+  },
+  "mbid": "b72469ab-0235-4ff5-8e39-09c66dcbe305",
+  "name": "The Hardkiss",
+  "query": "The Hardkiss",
+  "v": 2
+ },
+ "the howlers": {
+  "checked": "2026-11-09",
+  "query": "The Howlers",
+  "v": 2
+ },
+ "the interrupters": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://theinterrupters.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/5945602",
+   "facebook": "https://www.facebook.com/wearetheinterrupters",
+   "spotify": "https://open.spotify.com/artist/25Maank76ry2Tmbi2Ql1SF",
+   "web": "http://www.wearetheinterrupters.com/",
+   "youtube": "https://www.youtube.com/channel/UCHLYhebp9oaoqj_u0yG0ZYA"
+  },
+  "mbid": "f8ed032c-0d34-4ae6-a069-91417097509e",
+  "name": "The Interrupters",
+  "query": "The Interrupters",
+  "v": 2
+ },
+ "the kvb": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://thekvb.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4607909",
+   "facebook": "https://www.facebook.com/thekvbmusic",
+   "instagram": "https://www.instagram.com/thekvb/",
+   "soundcloud": "https://soundcloud.com/thekvb",
+   "spotify": "https://open.spotify.com/artist/0BzJFLqchxKNQyEwswwQ40",
+   "web": "http://www.thekvb.co.uk/",
+   "youtube": "https://music.youtube.com/channel/UCXGzW2K3UVH-wKynbSvyiJg"
+  },
+  "mbid": "cec651c7-19f4-4965-9566-3a05024130be",
+  "name": "The KVB",
+  "query": "The KVB",
+  "v": 2
+ },
+ "the last internationale": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://thelastinternationale.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1053069",
+   "facebook": "https://www.facebook.com/thelastinternationale",
+   "instagram": "https://www.instagram.com/thelastinternationale/",
+   "soundcloud": "https://soundcloud.com/the-last-internationale",
+   "spotify": "https://open.spotify.com/artist/2K9hz9205EQR7KkKNdyXFc",
+   "web": "http://www.thelastinternationale.com/",
+   "youtube": "https://www.youtube.com/channel/UCuaHnBSENAWcuDhdeRJBblQ"
+  },
+  "mbid": "8d5586b4-74f2-4297-a298-f6fe02986523",
+  "name": "The Last Internationale",
+  "query": "The Last Internationale",
+  "v": 2
  },
  "the messthetics and james brandon lewis": {
   "checked": "2026-11-08",
@@ -1975,9 +6105,57 @@
   "checked": "2026-11-08",
   "query": "The Messthetics i James Brandon Lewis"
  },
+ "the mission": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://themissionuk.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/6810",
+   "facebook": "https://www.facebook.com/themissionuk",
+   "spotify": "https://open.spotify.com/artist/3DLtpqLMAU6uc0BOJ7JmlM",
+   "web": "https://themissionukband.com/",
+   "youtube": "https://www.youtube.com/user/PaulMWIS"
+  },
+  "mbid": "d85e95a3-07c7-4c04-a411-234290615113",
+  "name": "The Mission",
+  "query": "The Mission",
+  "v": 2
+ },
+ "the moments": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/64407",
+   "spotify": "https://open.spotify.com/artist/6avGAzQTmqu8mfSmZrN7gT"
+  },
+  "mbid": "f4dbedba-619c-4398-a010-75f48e1a469b",
+  "name": "The Moments",
+  "query": "The Moments",
+  "v": 2
+ },
  "the music of hans zimmer": {
   "checked": "2026-11-08",
   "query": "The Music of Hans Zimmer"
+ },
+ "the ocean": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://theocean.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/332642",
+   "facebook": "https://www.facebook.com/theoceancollective",
+   "instagram": "https://www.instagram.com/theoceancollective/",
+   "spotify": "https://open.spotify.com/artist/6fuALtryzj4cq7vkglKLxq",
+   "web": "https://www.theoceancollective.com/",
+   "youtube": "https://www.youtube.com/channel/UCtU2wC8lyQXnqZ6TF2aXmPQ"
+  },
+  "mbid": "8d0acf0e-c099-49ac-b4b3-d57ca9eb2561",
+  "name": "The Ocean",
+  "query": "The Ocean",
+  "v": 2
  },
  "the ocean u zagrebu": {
   "checked": "2026-11-08",
@@ -1999,6 +6177,25 @@
   "mbid": "e8f55abb-a6d5-4e5f-81b4-14f9cc320519",
   "name": "The Pineapple Thief",
   "query": "The Pineapple Thief",
+  "v": 2
+ },
+ "the prodigy": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "elektro",
+  "links": {
+   "bandcamp": "https://theprodigy.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/85",
+   "facebook": "https://www.facebook.com/theprodigyofficial",
+   "instagram": "https://www.instagram.com/theprodigyofficial/",
+   "soundcloud": "https://soundcloud.com/theprodigy",
+   "spotify": "https://open.spotify.com/artist/4k1ELeJKT1ISyDv8JivPpB",
+   "web": "https://theprodigy.com/",
+   "youtube": "https://www.youtube.com/channel/UC7IZbkKDd20v6Ni_vFX63rQ"
+  },
+  "mbid": "4a4ee089-93b1-4470-af9a-6ff575d32704",
+  "name": "The Prodigy",
+  "query": "The Prodigy",
   "v": 2
  },
  "the rasmus": {
@@ -2035,6 +6232,42 @@
   "query": "The Riven",
   "v": 2
  },
+ "the veils": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3568",
+   "facebook": "https://www.facebook.com/theveils",
+   "instagram": "https://www.instagram.com/the_veils/",
+   "soundcloud": "https://soundcloud.com/theveils",
+   "spotify": "https://open.spotify.com/artist/1MDw0zSUU0XtI9D5JgEZH5",
+   "web": "http://www.theveils.com/",
+   "youtube": "https://www.youtube.com/channel/UCqbfYwBh38nreHdxw1WBlsw"
+  },
+  "mbid": "c3bf5aee-646e-4030-9ab4-d1fbd4947a97",
+  "name": "The Veils",
+  "query": "The Veils",
+  "v": 2
+ },
+ "thirty seconds to mars": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/390183",
+   "facebook": "https://www.facebook.com/thirtysecondstomars",
+   "instagram": "https://www.instagram.com/30secondstomars/",
+   "soundcloud": "https://soundcloud.com/thirtysecondstomars",
+   "spotify": "https://open.spotify.com/artist/0RqtSIYZmd4fiBKVFqyIqD",
+   "web": "https://thirtysecondstomars.com/",
+   "youtube": "https://www.youtube.com/channel/UCK7wTMguyPyPCjhLoOK2rJg"
+  },
+  "mbid": "d8354b38-e942-4c89-ba93-29323432abc3",
+  "name": "Thirty Seconds to Mars",
+  "query": "Thirty Seconds to Mars",
+  "v": 2
+ },
  "this is michael": {
   "checked": "2026-11-09",
   "country": "BR",
@@ -2045,6 +6278,75 @@
   "mbid": "66ea2663-c8e4-4df2-8895-e75e64bfff50",
   "name": "This is Michael",
   "query": "This is Michael",
+  "v": 2
+ },
+ "thomas d": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "hiphop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/16680",
+   "facebook": "https://www.facebook.com/thomasdsolo",
+   "instagram": "https://www.instagram.com/tdissoo/",
+   "spotify": "https://open.spotify.com/artist/5YL5sKtxi1J4bApusQ2uwI",
+   "web": "http://www.thomasd.net/",
+   "youtube": "https://www.youtube.com/channel/UCs0Jf-x6IR4S0M5iZ-7XbOA"
+  },
+  "mbid": "0c0ff6da-b4eb-4edb-ba38-1c76ae189650",
+  "name": "Thomas D",
+  "query": "Thomas D",
+  "v": 2
+ },
+ "three for silver": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://threeforsilver.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/6397102",
+   "facebook": "https://www.facebook.com/pg/ThreeForSilver",
+   "spotify": "https://open.spotify.com/artist/4oaHP6wA2Bo7qRdFyNJ942",
+   "web": "http://www.threeforsilver.com/"
+  },
+  "mbid": "ed509a14-9032-486a-a094-8a3c16cb9b7c",
+  "name": "Three for Silver",
+  "query": "Three for Silver",
+  "v": 2
+ },
+ "thrown": {
+  "checked": "2026-11-09",
+  "query": "Thrown",
+  "v": 2
+ },
+ "thunderballs": {
+  "checked": "2026-11-09",
+  "query": "Thunderballs",
+  "v": 2
+ },
+ "thundermother": {
+  "checked": "2026-11-09",
+  "query": "Thundermother",
+  "v": 2
+ },
+ "tim fischer": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/215079",
+   "facebook": "https://www.facebook.com/tim.fischer.official",
+   "soundcloud": "https://soundcloud.com/timfischerofficial",
+   "spotify": "https://open.spotify.com/artist/6CZzwyMVpXk4qVy9CG0gxt",
+   "web": "https://www.timfischer.de/"
+  },
+  "mbid": "799cd229-4b95-42c4-8905-5c90dc363916",
+  "name": "Tim Fischer",
+  "query": "Tim Fischer",
+  "v": 2
+ },
+ "tina dico": {
+  "checked": "2026-11-09",
+  "query": "Tina Dico",
   "v": 2
  },
  "tindersticks": {
@@ -2065,6 +6367,24 @@
   "query": "Tindersticks",
   "v": 2
  },
+ "tokio hotel": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/3255",
+   "facebook": "https://www.facebook.com/tokiohotel",
+   "instagram": "https://www.instagram.com/tokiohotel/",
+   "soundcloud": "https://soundcloud.com/tokio-hotel-official",
+   "spotify": "https://open.spotify.com/artist/46aNfN89JrOQTCy97GoCHa",
+   "web": "https://www.tokiohotel.com/",
+   "youtube": "https://www.youtube.com/channel/UCEGVZ50kxeQrgbZ9CBTPXcg"
+  },
+  "mbid": "462a85b4-83ac-4164-86b3-e5ac6a7ec040",
+  "name": "Tokio Hotel",
+  "query": "Tokio Hotel",
+  "v": 2
+ },
  "tom skinner u vintageu": {
   "checked": "2026-11-08",
   "query": "TOM SKINNER u Vintageu"
@@ -2077,6 +6397,22 @@
   "checked": "2026-11-08",
   "query": "Tomislav Bralić i klapa Intrade"
  },
+ "tonic walter": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/14879519",
+   "facebook": "https://www.facebook.com/therealtonicwalter",
+   "instagram": "https://www.instagram.com/therealtonicwalter/",
+   "soundcloud": "https://soundcloud.com/therealtonicwalter",
+   "spotify": "https://open.spotify.com/artist/6HfRl1vZ3mVDGkXb7Pknjv"
+  },
+  "mbid": "5b8eed33-067c-4c2d-afd4-490635cb4c32",
+  "name": "Tonic Walter",
+  "query": "Tonic Walter",
+  "v": 2
+ },
  "toody cole": {
   "checked": "2026-11-09",
   "country": "US",
@@ -2087,25 +6423,187 @@
   "query": "Toody Cole",
   "v": 2
  },
+ "tramhaus": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://tramhaus.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/153791482",
+   "facebook": "https://www.facebook.com/tramhaus",
+   "instagram": "https://www.instagram.com/tramhaus.rtm/",
+   "spotify": "https://open.spotify.com/artist/5HXrUfoDwofY8lehLNIykB",
+   "web": "https://tramhaus.com/",
+   "youtube": "https://www.youtube.com/channel/UCVcDDF9cM6qfMaEtmvLC0Lw"
+  },
+  "mbid": "dace0d40-f90f-4b3b-99da-aa99be756920",
+  "name": "Tramhaus",
+  "query": "Tramhaus",
+  "v": 2
+ },
  "tri prascica": {
   "checked": "2026-11-08",
   "query": "Tri Praščića"
+ },
+ "trinix": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "elektro",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5355382",
+   "facebook": "https://www.facebook.com/trinixmusic",
+   "instagram": "https://www.instagram.com/trinixmusic/",
+   "soundcloud": "https://soundcloud.com/trinix1",
+   "spotify": "https://open.spotify.com/artist/3HqP3nd8WI0VfHRhApPlan",
+   "web": "http://www.trinixmusic.com/",
+   "youtube": "https://www.youtube.com/channel/UC7PB68IsFxdham90io_syxw"
+  },
+  "mbid": "5a691568-a34e-4fd8-b031-01e4c9e36070",
+  "name": "Trinix",
+  "query": "Trinix",
+  "v": 2
+ },
+ "true loves": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://truelovesband.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1305600",
+   "facebook": "https://www.facebook.com/truelovesband",
+   "instagram": "https://www.instagram.com/thetruelovesband/",
+   "soundcloud": "https://soundcloud.com/truelovesband",
+   "spotify": "https://open.spotify.com/artist/1IlKHxSbOJDx10sotxhk4Z",
+   "web": "https://www.truelovesband.com/",
+   "youtube": "https://www.youtube.com/channel/UCkyGyPilwi6qwyGqsvznLHg"
+  },
+  "mbid": "0a28e2c9-20d3-4541-8e25-bcea06916fc2",
+  "name": "True Loves",
+  "query": "True Loves",
+  "v": 2
  },
  "tyr": {
   "checked": "2026-11-08",
   "query": "Týr"
  },
+ "u d o": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "metal",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/6748",
+   "facebook": "https://www.facebook.com/udoonline",
+   "instagram": "https://www.instagram.com/u.d.o.official/",
+   "soundcloud": "https://soundcloud.com/udo-scmusic",
+   "spotify": "https://open.spotify.com/artist/2aWjaq32aRQo58dw0w8NM6",
+   "web": "http://www.udo-online.de/",
+   "youtube": "https://www.youtube.com/channel/UCdqWEuyMXDLBd13Xbgm68Tw"
+  },
+  "mbid": "3fef3bbc-53eb-46f8-8679-980d0c943c34",
+  "name": "U.D.O.",
+  "query": "U.D.O.",
+  "v": 2
+ },
+ "ulli baer": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "web": "http://www.ullibaer.at/"
+  },
+  "mbid": "169fd68d-761f-4d71-8e76-338582bbb796",
+  "name": "Ulli Bäer",
+  "query": "Ulli Bäer",
+  "v": 2
+ },
  "uredda": {
   "checked": "2026-11-08",
   "query": "UREDDA"
+ },
+ "uriah heep": {
+  "checked": "2026-11-09",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/7709",
+   "facebook": "https://www.facebook.com/uriahheepofficial",
+   "instagram": "https://www.instagram.com/uriahheepofficial/",
+   "spotify": "https://open.spotify.com/artist/45O9BwPMyywM755SYUK0sP",
+   "web": "http://www.uriah-heep.com/",
+   "youtube": "https://www.youtube.com/@UriahHeepNetwork"
+  },
+  "mbid": "f1548c5b-329e-4036-921c-02213a04b525",
+  "name": "Uriah Heep",
+  "query": "Uriah Heep",
+  "v": 2
  },
  "uspjesna hr": {
   "checked": "2026-11-08",
   "query": "Uspješna.hr"
  },
+ "valerija nikolovska": {
+  "checked": "2026-11-09",
+  "country": "HR",
+  "genre": "",
+  "links": {},
+  "mbid": "d43ee87d-f4ab-4acb-9b02-ad4caef3a165",
+  "name": "Valerija Nikolovska",
+  "query": "Valerija Nikolovska",
+  "v": 2
+ },
+ "vanessa mai": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "narodna",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/7568478",
+   "facebook": "https://www.facebook.com/vanessa.mai.official",
+   "instagram": "https://www.instagram.com/vanessa.mai.official/",
+   "spotify": "https://open.spotify.com/artist/3WUe8ADT5d65WeByR3ubl7",
+   "web": "http://www.vanessa-mai.de/",
+   "youtube": "https://www.youtube.com/channel/UC-fMvx4-Hl7Y__dNIac7upQ"
+  },
+  "mbid": "ee7fe8ca-b7e2-44c2-aba1-e72e4550c3f3",
+  "name": "Vanessa Mai",
+  "query": "Vanessa Mai",
+  "v": 2
+ },
+ "vazz": {
+  "checked": "2026-11-09",
+  "country": "SI",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://vazz.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/13428947",
+   "facebook": "https://www.facebook.com/1000Vazz",
+   "instagram": "https://www.instagram.com/youngpreseren/",
+   "spotify": "https://open.spotify.com/artist/7bHAlN6EblzQWHcctyb9zp",
+   "web": "https://vazz.si/",
+   "youtube": "https://www.youtube.com/channel/UCFPZxc72Zfg1s71RjN3-Saw"
+  },
+  "mbid": "d3507d40-7e90-47b9-8bba-4a6d8c593cf2",
+  "name": "Vazz",
+  "query": "Vazz",
+  "v": 2
+ },
  "vendi opet u zagrebu": {
   "checked": "2026-11-08",
   "query": "Vendi opet u Zagrebu"
+ },
+ "vienna boys choir": {
+  "checked": "2026-11-09",
+  "query": "Vienna Boys Choir",
+  "v": 2
+ },
+ "vienna symphony orchestra": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "13416ec5-9940-4e57-855c-3cf24f1790e6",
+  "name": "The Vienna Symphony Orchestra",
+  "query": "Vienna Symphony Orchestra",
+  "v": 2
  },
  "vlatko stefanovski": {
   "checked": "2026-11-09",
@@ -2123,6 +6621,24 @@
   "mbid": "e9d87fc2-2961-4e12-a56e-67fe1f8be2b9",
   "name": "Vlatko Stefanovski",
   "query": "Vlatko Stefanovski",
+  "v": 2
+ },
+ "voila": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/74163",
+   "facebook": "https://www.facebook.com/wearevoila",
+   "instagram": "https://www.instagram.com/wearevoila/",
+   "soundcloud": "https://soundcloud.com/wearevoila",
+   "spotify": "https://open.spotify.com/artist/6NnBBumbcMYsaPTHFhPtXD",
+   "web": "https://www.wearevoila.com/",
+   "youtube": "https://www.youtube.com/channel/UCpHoi3I_CIXSq1iEIGpaA3g"
+  },
+  "mbid": "a65344cf-73e5-48fc-800c-3415a5ab038d",
+  "name": "VOILÀ",
+  "query": "Voilà",
   "v": 2
  },
  "vrijeme plesa svecani godisnji koncert ansambla lado": {
@@ -2148,13 +6664,96 @@
   "query": "Warhaus",
   "v": 2
  },
+ "wesghost": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/204879517",
+   "instagram": "https://www.instagram.com/wesghost/",
+   "spotify": "https://open.spotify.com/artist/6YmJPuYzqe1HsJArGYcHBJ",
+   "web": "https://www.wesghost.com/",
+   "youtube": "https://www.youtube.com/channel/UCsL5bgJStpmBCBMqMrm_ZDA"
+  },
+  "mbid": "2a9a7e4e-e19c-4b34-b1df-90e14f221811",
+  "name": "WesGhost",
+  "query": "WesGhost",
+  "v": 2
+ },
  "when tomorrow comes": {
   "checked": "2026-11-08",
   "query": "When Tomorrow Comes"
  },
+ "wiener blond": {
+  "checked": "2026-11-09",
+  "country": "AT",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/7442616",
+   "facebook": "https://www.facebook.com/wienerblond",
+   "instagram": "https://www.instagram.com/wienerblond/",
+   "soundcloud": "https://soundcloud.com/wienerblond",
+   "spotify": "https://open.spotify.com/artist/2Feb69dzNfS5H2n7QVxYtt",
+   "web": "https://www.wienerblond.at/",
+   "youtube": "https://www.youtube.com/channel/UCkjdgwp8HmpllFOcTSXnktg"
+  },
+  "mbid": "16e1b383-431c-4d31-bb69-591e1c5ded77",
+  "name": "Wiener Blond",
+  "query": "wiener blond",
+  "v": 2
+ },
+ "william jack": {
+  "checked": "2026-11-09",
+  "query": "William Jack",
+  "v": 2
+ },
+ "william wahl": {
+  "checked": "2026-11-09",
+  "country": "DE",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/williamwahlmusik",
+   "web": "http://www.williamwahl.de/"
+  },
+  "mbid": "4c978a3e-7022-4db2-b51d-6bb57cddd986",
+  "name": "William Wahl",
+  "query": "William Wahl",
+  "v": 2
+ },
+ "wilt": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://wilt314.bandcamp.com/",
+   "web": "http://wilt.adnoiseam.net/"
+  },
+  "mbid": "05ac0d9e-79f3-4d10-9222-e849f9214b6e",
+  "name": "Wilt",
+  "query": "Wilt",
+  "v": 2
+ },
  "winterfest 2026 velesajam": {
   "checked": "2026-11-08",
   "query": "Winterfest 2026 Velesajam"
+ },
+ "xzibit": {
+  "checked": "2026-11-09",
+  "country": "US",
+  "genre": "hiphop",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/2541",
+   "facebook": "https://www.facebook.com/xzibit",
+   "instagram": "https://www.instagram.com/xzibit/",
+   "soundcloud": "https://soundcloud.com/xzibit-official",
+   "spotify": "https://open.spotify.com/artist/4tujQJicOnuZRLiBFdp3Ou",
+   "web": "http://xzibit.com/",
+   "youtube": "https://www.youtube.com/channel/UCga4sfErAjEli4XNVv1yvDw"
+  },
+  "mbid": "9e839dc3-55f3-4492-ad0e-a1a2e84275e2",
+  "name": "Xzibit",
+  "query": "Xzibit",
+  "v": 2
  },
  "yamato": {
   "checked": "2026-11-09",
@@ -2195,6 +6794,29 @@
   "checked": "2026-11-08",
   "query": "Zagreb Jazz Workshop"
  },
+ "zakhorov": {
+  "checked": "2026-11-09",
+  "query": "Zakhorov",
+  "v": 2
+ },
+ "zebrahead": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "punk",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1777",
+   "facebook": "https://www.facebook.com/Zebrahead",
+   "instagram": "https://www.instagram.com/zebraheadofficial/",
+   "soundcloud": "https://soundcloud.com/zebraheadofficial",
+   "spotify": "https://open.spotify.com/artist/6SiyKSeJo6gcsS2NvuAbsl",
+   "web": "https://zebrahead.com/",
+   "youtube": "https://www.youtube.com/Zebraheadofficial"
+  },
+  "mbid": "4df5d35b-a9d4-4d4f-91f6-bae55693de31",
+  "name": "Zebrahead",
+  "query": "Zebrahead",
+  "v": 2
+ },
  "zeljko joksimovic": {
   "checked": "2026-11-09",
   "country": "RS",
@@ -2211,9 +6833,19 @@
   "query": "Željko Joksimović",
   "v": 2
  },
+ "zemlinsky": {
+  "checked": "2026-11-09",
+  "query": "Zemlinsky",
+  "v": 2
+ },
  "zene koje vriste u sebi": {
   "checked": "2026-11-08",
   "query": "Žene koje vrište u sebi"
+ },
+ "zenomrzac 2026": {
+  "checked": "2026-11-09",
+  "query": "Ženomrzac 2026",
+  "v": 2
  },
  "zirafa zizi plese step": {
   "checked": "2026-11-08",

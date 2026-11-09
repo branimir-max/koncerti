@@ -7,6 +7,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-u-povodu-220-obljetnice-osnutka-zidovske-o/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -17,6 +18,7 @@
   "genre": "",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/unicef-ov-humanitarni-br-gala-koncert-br-80-godina/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -27,6 +29,7 @@
   "genre": "",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/mladi-za-mlade-laureati-natjecanja/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -37,6 +40,7 @@
   "genre": "",
   "price": "40–70 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/branford-marsalis-dianne-reeves-celebrate-john-col/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -47,6 +51,7 @@
   "genre": "world",
   "price": "22 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-magali-sare-manel-f/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -57,6 +62,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-nemir-i-zanos-ljubav/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -67,6 +73,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-marija-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -77,6 +84,7 @@
   "genre": "klasika",
   "price": "40–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-nikolaj-luganski-glasovir/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -85,8 +93,9 @@
   "title": "Najbolji Hrvatski Tamburaši - Upregnite u Fijaker Vrance",
   "venue": "lisV",
   "genre": "trad",
-  "price": "30–40 €",
+  "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/najbolji-hrvatski-tamburasi-upregnite-u-fijaker-vr/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -97,6 +106,7 @@
   "genre": "world",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/flamenco-en-vivo-feat-la-lupi/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -107,6 +117,7 @@
   "genre": "world",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/yamato-the-drummers-of-japan-the-power-of-human-st/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -117,6 +128,7 @@
   "genre": "",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/chansonfest-2026/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -127,6 +139,7 @@
   "genre": "trad",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagrebac/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -137,6 +150,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-pavl-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -147,6 +161,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-7/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -157,6 +172,7 @@
   "genre": "",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neustekani-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -167,6 +183,7 @@
   "genre": "",
   "price": "20–30 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/pismo-moja-hrli-tamo-br-zagrebu-na-dar/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -175,8 +192,9 @@
   "title": "Guitarra Viva – Ciklus Gitarskih Koncerata Hrvatski Gitarski Kvartet",
   "venue": "lisM",
   "genre": "klasika",
-  "price": "13 €",
+  "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-hrvats/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -187,6 +205,7 @@
   "genre": "trad",
   "price": "32–59 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagreb-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -197,6 +216,7 @@
   "genre": "jazz",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-simfonijski-jazz-br-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -207,6 +227,7 @@
   "genre": "klasika",
   "price": "besplatno",
   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-tajne-velikih-majstora-br-simfoni/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -217,6 +238,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-11/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -227,6 +249,7 @@
   "genre": "klasika",
   "price": "40–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-becki-simfonicari-br-petr-pope/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -237,6 +260,7 @@
   "genre": "djeca",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/30-hrvatski-djecji-festival-2026/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -247,6 +271,7 @@
   "genre": "trad",
   "price": "22–33 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnji-koncert-ansambla/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -257,6 +282,7 @@
   "genre": "trad",
   "price": "8 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/skolski-sat-s-ladom-4/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -267,6 +293,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-emilia-rukavina-mezz/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -277,6 +304,7 @@
   "genre": "trad",
   "price": "22–33 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/vrijeme-plesa-br-svecani-godisnji-koncert-ansamb-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -287,6 +315,7 @@
   "genre": "",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-afro-gitano/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -297,6 +326,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-gabri-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -307,6 +337,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-4/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -317,6 +348,7 @@
   "genre": "",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -327,6 +359,7 @@
   "genre": "djeca",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/jacques-houdek-kad-si-sretan-najljepse-djecje-pj-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -337,6 +370,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.lisinski.hr/hr/dogadanja/lions-klub-zrinjevac-za-prihvatiliste-kriz-u-zagre/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -347,6 +381,7 @@
   "genre": "jazz",
   "price": "36–55 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/perpetuum-jazzile-8/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -357,6 +392,7 @@
   "genre": "world",
   "price": "22 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-dunije/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -367,6 +403,7 @@
   "genre": "klasika",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/ciklus-glazbene-staze-br-weber-200-duo-trio-kvarte/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -377,6 +414,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-ljetni-povjetarac-le/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -387,6 +425,7 @@
   "genre": "djeca",
   "price": "5 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djecu-9/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -397,6 +436,7 @@
   "genre": "klasika",
   "price": "80–200 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lang-lang-klavir-br-zagrebacka-filharmonija-br-daw/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -407,6 +447,7 @@
   "genre": "djeca",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/orasar-br-glazbena-prica-za-djecu-10/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -417,6 +458,7 @@
   "genre": "klasika",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-kevin-z/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -427,6 +469,7 @@
   "genre": "klasika",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-ivan-petrovic-poljak-glasovir/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -437,6 +480,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -447,6 +491,7 @@
   "genre": "",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/slusaj-ovo-br-glazbeno-scenski-program-za-mlade-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -457,6 +502,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-lionel/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -467,6 +513,7 @@
   "genre": "klasika",
   "price": "32–48 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-koncert-u-povodu-25-obljetnice/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -477,6 +524,7 @@
   "genre": "djeca",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/carobni-bozicni-sat-14/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -487,6 +535,7 @@
   "genre": "",
   "price": "37–50 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/vlatko-stefanovski-prijatelji-br-acoustic-night/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -497,6 +546,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-bo-8/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -507,6 +557,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-bo-9/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -517,6 +568,7 @@
   "genre": "djeca",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/kako-je-vilenjak-spasio-bozic-19/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -527,6 +579,7 @@
   "genre": "",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/josipa-lisac-br-u-lisinskom-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -537,6 +590,7 @@
   "genre": "",
   "price": "30–40 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/dan-dvorane-2026/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -547,6 +601,7 @@
   "genre": "klasika",
   "price": "30–50 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/filharmonijski-bal-br-dawid-runtz-dirigent/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -557,6 +612,7 @@
   "genre": "",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-petrit-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -567,6 +623,7 @@
   "genre": "klasika",
   "price": "13 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-lovro-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -577,6 +634,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/fantom-slobode-kanconijer-br-zbor-i-simfonijski-or/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -587,6 +645,7 @@
   "genre": "",
   "price": "30–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/dzo-maracic-maki-uspomene-koje-traju/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -597,6 +656,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-trio-bmi-ana-batinic/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -607,6 +667,7 @@
   "genre": "jazz",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-chui-jazz-orkestar-hrt-a-br-c/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -617,6 +678,7 @@
   "genre": "",
   "price": "28–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zabranjeno-pusenje-br-kao-neustekani-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -627,6 +689,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-in-me-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -637,6 +700,7 @@
   "genre": "klasika",
   "price": "32–48 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-svedski-komorni-orkestar-br-ma/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -647,6 +711,7 @@
   "genre": "klasika",
   "price": "70–95 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/100-violina-budimpestanski-romski-simfonijski-or-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -657,6 +722,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-od-burbanka-do-napul/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -667,6 +733,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-brcrveni-ciklus-br-case-sc/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -677,6 +744,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-trio-elogio-8/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -687,6 +755,7 @@
   "genre": "",
   "price": "32–46 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/miro-ungar-br-to-je-bila-moja-muzika-br-koncert-u-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -697,6 +766,7 @@
   "genre": "klasika",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-katarina-kocelj-violina/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -707,6 +777,7 @@
   "genre": "",
   "price": "32,90–53,90 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/crvena-jabuka-br-nek-vrijeme-stane/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -717,6 +788,7 @@
   "genre": "jazz",
   "price": "12 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/jazz-karneval/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -727,6 +799,7 @@
   "genre": "",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-lp-duo/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -737,6 +810,7 @@
   "genre": "djeca",
   "price": "8 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-18/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -747,6 +821,7 @@
   "genre": "djeca",
   "price": "8 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-19/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -757,6 +832,7 @@
   "genre": "klasika",
   "price": "35–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-karneva-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -767,6 +843,7 @@
   "genre": "klasika",
   "price": "32–48 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-wayne-marshall-orgulje/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -777,6 +854,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-4/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -787,6 +865,7 @@
   "genre": "",
   "price": "29–49 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/slavonske-lole-br-45-godina-karijere/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -797,6 +876,7 @@
   "genre": "world",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-abdullah-miniawy/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -807,6 +887,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-manfred-br-aleksanda/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -817,6 +898,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-in-m-5/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -827,6 +909,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-5/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -837,6 +920,7 @@
   "genre": "",
   "price": "33–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/haris-dzinovic-br-40-godina/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -847,6 +931,7 @@
   "genre": "klasika",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ramon-o/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -857,6 +942,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-goran-filipec-klavir/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -867,6 +953,7 @@
   "genre": "world",
   "price": "29–37 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/mostar-sevdah-reunion/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -877,6 +964,7 @@
   "genre": "",
   "price": "besplatno",
   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-ususret-muzickom-biennalu-zagreb-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -887,6 +975,7 @@
   "genre": "",
   "price": "6 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/cudnovata-dama-trema-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -897,6 +986,7 @@
   "genre": "jazz",
   "price": "35–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/makedonski-nacionalni-jazz-orkestar-rambo-amadeus/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -907,6 +997,7 @@
   "genre": "",
   "price": "28–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/domoljubni-koncert-br-djeca-pjevaju-domu-mom/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -917,6 +1008,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-da-s/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -927,6 +1019,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-vrtlog-plesa-vihor-r/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -937,6 +1030,7 @@
   "genre": "klasika",
   "price": "25–35 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-musical-g/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -947,6 +1041,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-8/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -957,6 +1052,7 @@
   "genre": "",
   "price": "35–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/natali-dizdar-akustik-petar-dundov-rework/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -967,6 +1063,7 @@
   "genre": "",
   "price": "30–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/decki-z-bregov-50-let-z-vami/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -977,6 +1074,7 @@
   "genre": "",
   "price": "30–40 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/mejasi-15-godina-hitova/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -987,6 +1085,7 @@
   "genre": "world",
   "price": "25–35 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-legen-br-30-godina-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -997,6 +1096,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-lawrenc/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1007,6 +1107,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/regoc-br-opera-za-djecu-i-mlade-25/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1017,6 +1118,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-lawr-3/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1027,6 +1129,7 @@
   "genre": "klasika",
   "price": "40–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-orkestar-nacionalne-akademije-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1037,6 +1140,7 @@
   "genre": "trad",
   "price": "rasprodano",
   "url": "https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-lisinskom/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1047,6 +1151,7 @@
   "genre": "trad",
   "price": "35–55 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-lisinskom-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1057,6 +1162,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/glazbeni-umjetnici-zagrebu-br-kapun-cizic/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1067,6 +1173,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/ciklus-kanconijer-klasika-za-tjeskobna-vremena-br-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1077,6 +1184,7 @@
   "genre": "klasika",
   "price": "13 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-petra-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1087,6 +1195,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawid-9/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1097,6 +1206,7 @@
   "genre": "",
   "price": "35 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-miguel-zenon-quartet-feat-chi/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1107,6 +1217,7 @@
   "genre": "",
   "price": "15–25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/dobrotvorni-koncert-srce-u-srcu-zagreba/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1117,6 +1228,7 @@
   "genre": "",
   "price": "30–45 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/luka-nizetic-br-autoportret-s-juga-br-25-godina-ka/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1127,6 +1239,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-killian/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1137,6 +1250,7 @@
   "genre": "klasika",
   "price": "40–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-simfonijski-orkestar-beckoga-r/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1147,6 +1261,7 @@
   "genre": "klasika",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-dane-franolic-udaraljke/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1157,6 +1272,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-je-5/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1167,6 +1283,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-5/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1177,6 +1294,7 @@
   "genre": "",
   "price": "35–55 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/sars-elekroakusticni-koncert/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1187,6 +1305,7 @@
   "genre": "djeca",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-je-7/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1197,6 +1316,7 @@
   "genre": "",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-adhd/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1207,6 +1327,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-phantasmagoria-br-pa/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1217,6 +1338,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.lisinski.hr/hr/dogadanja/gipsy-kings-ft-tonino-baliardo-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1227,6 +1349,7 @@
   "genre": "",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ziyang-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1237,6 +1360,7 @@
   "genre": "",
   "price": "45–75 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/indie-ikone-br-tindersticks-bru-zagrebu/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1247,6 +1371,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-34-muz/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1257,6 +1382,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-papandopulo-kvartet-9/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1267,6 +1393,7 @@
   "genre": "",
   "price": "",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-br-maja-rivic/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1277,6 +1404,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-enigma-br-stanislav-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1287,6 +1415,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-kirill-/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1297,6 +1426,7 @@
   "genre": "klasika",
   "price": "22–38 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-simfonijski-orkestar-muzicke-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1307,6 +1437,7 @@
   "genre": "",
   "price": "35–110 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/od-opere-do-hollywooda-gala-koncert-tamare-radjeno/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1317,6 +1448,7 @@
   "genre": "djeca",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-minimini-ciklus-br-na-6/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1327,6 +1459,7 @@
   "genre": "djeca",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/beethoven-9-kanconijer-br-zbor-i-simfonijski-orkes/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1337,6 +1470,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-cosett/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1347,6 +1481,7 @@
   "genre": "",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-mirella/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1357,6 +1492,7 @@
   "genre": "klasika",
   "price": "32–48 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-estonski-nacionalni-muski-zbor/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1367,6 +1503,7 @@
   "genre": "klasika",
   "price": "10 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/rezidenti-muza-br-zajednicki-koncert/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1377,6 +1514,7 @@
   "genre": "world",
   "price": "22 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-yaraka/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1387,6 +1525,7 @@
   "genre": "klasika",
   "price": "30–40 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-off-ciklus-br-john-will/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1397,6 +1536,7 @@
   "genre": "klasika",
   "price": "40–60 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-subotom-br-academy-of-st-martin-in-the-fi/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1407,6 +1547,7 @@
   "genre": "klasika",
   "price": "13 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-anja-l/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1417,6 +1558,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-preobrazbe-br-pascal/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1427,6 +1569,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawi-10/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1437,6 +1580,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-trio-elogio-9/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1447,6 +1591,7 @@
   "genre": "klasika",
   "price": "15 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/koncert-108-sezone-zagrebackog-kvarteta-6/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1457,6 +1602,7 @@
   "genre": "",
   "price": "besplatno",
   "url": "https://www.lisinski.hr/hr/dogadanja/feelharmonija-br-beethovenova-deveta-br-ivan-scepa/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1467,6 +1613,7 @@
   "genre": "",
   "price": "30 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/doma-je-najljepse-vjera-obitelj-domovina-2/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1477,6 +1624,7 @@
   "genre": "klasika",
   "price": "13–18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/majstorski-ciklus-so-hrt-a-br-simfonijski-horizont/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1487,6 +1635,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-crveni-ciklus-br-davi-8/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1497,6 +1646,7 @@
   "genre": "klasika",
   "price": "20 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-da-camera-br-dunja-bontek-br-marija-and-6/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1507,6 +1657,7 @@
   "genre": "klasika",
   "price": "18–27 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-dawi-11/",
+  "city": "zagreb",
   "source": "lisinski"
  },
  {
@@ -1517,6 +1668,7 @@
   "genre": "klasika",
   "price": "18 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/73-koncertna-sezona-zagrebackih-solista-br-ilya-gr/",
+  "city": "zagreb",
   "source": "lisinski"
  }
 ]

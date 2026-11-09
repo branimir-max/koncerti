@@ -7,6 +7,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/the-messthetics-and-james-brandon-lewis-8efa/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -18,6 +19,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kulture-1a2a/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -29,6 +31,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ba-bu-la-bum-improvizacijski-glazbeno-plesni-koncerti-za-bebe-a0b0/",
+  "city": "zagreb",
   "venue_name": "Scena Ribnjak – velika dvorana",
   "source": "coreevent"
  },
@@ -40,6 +43,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/spike-fuck-b53d/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -51,6 +55,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kulture-d012/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -62,6 +67,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/kensington-lima-drito-ispod-c73c/",
+  "city": "zagreb",
   "venue_name": "Drito Ispod",
   "source": "coreevent"
  },
@@ -73,6 +79,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/clan-of-xymox-u-tvornici-kulture-ca34/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -84,6 +91,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ooioo-eksterminator-81-7bf1/",
+  "city": "zagreb",
   "venue_name": "Močvara",
   "source": "coreevent"
  },
@@ -95,6 +103,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/mudro-brk-predstavlja-rolo-gdinjko-i-turbo-trans-turisti-c076/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -106,6 +115,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/petkom-prije-ponoci-scena-piano-lovro-mirth-nikola-santek-9aa8/",
+  "city": "zagreb",
   "venue_name": "Foaje, Scena Piano",
   "source": "coreevent"
  },
@@ -117,6 +127,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/yem-takes-over-katran-fdf6/",
+  "city": "zagreb",
   "venue_name": "Museum katran",
   "source": "coreevent"
  },
@@ -128,6 +139,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/hohcajt-w-vladimir-ivkovic-pepi-8045/",
+  "city": "zagreb",
   "venue_name": "Mali Barbarella's",
   "source": "coreevent"
  },
@@ -139,6 +151,7 @@
   "genre": "dj",
   "price": "",
   "url": "https://core-event.co/events/elevate-party-1311-cc13/",
+  "city": "zagreb",
   "venue_name": "Lift Club",
   "source": "coreevent"
  },
@@ -150,6 +163,7 @@
   "genre": "trad",
   "price": "",
   "url": "https://core-event.co/events/50-godina-mladi-svecani-koncert-u-cast-50-godina-kud-a-mladost-ac70/",
+  "city": "zagreb",
   "venue_name": "KUC Travno",
   "source": "coreevent"
  },
@@ -161,6 +175,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/paulaner-acoustic-live-session-oiv-toranj-sljeme-14112026-5461/",
+  "city": "zagreb",
   "venue_name": "OIV toranj Sljeme - Ostakljeni Vidikovac",
   "source": "coreevent"
  },
@@ -172,6 +187,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/let-3-u-tvornici-kulture-6c28/",
+  "city": "zagreb",
   "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
@@ -183,7 +199,20 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/rambo-amadeus-u-saxu-ca46/",
+  "city": "zagreb",
   "venue_name": "Sax!",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "21:00",
+  "title": "Pipsi u Zaboku!",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/pipsi-u-zaboku-9649/",
+  "city": "zabok",
+  "venue_name": "Regenerator",
   "source": "coreevent"
  },
  {
@@ -194,6 +223,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/bailar-gasolina-dc30/",
+  "city": "zagreb",
   "venue_name": "Prvi kat (Out Garden)",
   "source": "coreevent"
  },
@@ -205,7 +235,20 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/jojo-i-prijatelji-ed0b/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "20:00",
+  "title": "Valerija Nikolovska - Green Heart",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/valerija-nikolovska-green-heart-regenerator-zabok-bc39/",
+  "city": "zabok",
+  "venue_name": "Regenerator",
   "source": "coreevent"
  },
  {
@@ -216,6 +259,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/iza-ugla-uho-svijeta-igor-bozanic-8116/",
+  "city": "zagreb",
   "venue_name": "Scena Ribnjak – velika dvorana",
   "source": "coreevent"
  },
@@ -227,6 +271,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/suede-yammatov-6-fueled-by-cockta-78e5/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -238,7 +283,20 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/the-darts-u-tvornici-kulture-577d/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "20:30",
+  "title": "Los Fastidios",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/los-fastidios-regenerator-zabok-76cb/",
+  "city": "zabok",
+  "venue_name": "Regenerator",
   "source": "coreevent"
  },
  {
@@ -249,6 +307,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/after-work-hangouts-pilot-9004/",
+  "city": "zagreb",
   "venue_name": "OUT Rooftop",
   "source": "coreevent"
  },
@@ -260,6 +319,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -271,6 +331,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/flux-first-edition-warm-up-disko-70-e-776d/",
+  "city": "zagreb",
   "venue_name": "Koncept bar",
   "source": "coreevent"
  },
@@ -282,6 +343,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/nova-events-podmornica-93e8/",
+  "city": "zagreb",
   "venue_name": "Katran, Podmornica",
   "source": "coreevent"
  },
@@ -293,6 +355,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/serious-ensemble-zagreb-koncert-f061/",
+  "city": "zagreb",
   "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
@@ -304,6 +367,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -315,6 +379,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/bitanga-princeza-best-of-ex-yu-hits-6409/",
+  "city": "zagreb",
   "venue_name": "Grof Melin",
   "source": "coreevent"
  },
@@ -326,6 +391,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/lady-gaga-mother-monster-all-night-f8dc/",
+  "city": "zagreb",
   "venue_name": "Lift",
   "source": "coreevent"
  },
@@ -337,6 +403,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/fluentes-10-godina-rodendanski-koncert-2dc8/",
+  "city": "zagreb",
   "venue_name": "Klub Sax!",
   "source": "coreevent"
  },
@@ -348,6 +415,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/mmv-2026-roomful-of-teeth-roomful-of-teeth-7261/",
+  "city": "zagreb",
   "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
@@ -359,6 +427,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/mmv-2026-lovro-mercep-dijalog-c12d/",
+  "city": "zagreb",
   "venue_name": "Koncertna dvorana Centra KNAP",
   "source": "coreevent"
  },
@@ -370,6 +439,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/koncert-marka-vukesa-b70f/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -381,6 +451,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921c/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -392,6 +463,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/silente-u-sax-u-5b70/",
+  "city": "zagreb",
   "venue_name": "SAX club",
   "source": "coreevent"
  },
@@ -403,6 +475,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/mmv-2026-herme-sensemble-traces-7f7e/",
+  "city": "zagreb",
   "venue_name": "Kazalište Knap - Zagreb",
   "source": "coreevent"
  },
@@ -414,6 +487,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ocean-of-another-u-zagrebu-5ab4/",
+  "city": "zagreb",
   "venue_name": "PRIMARIUS PIVOVARA",
   "source": "coreevent"
  },
@@ -425,7 +499,20 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/soul-legacy-kino-sc-zagreb-109d/",
+  "city": "zagreb",
   "venue_name": "KINO SC ZAGREB",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-27",
+  "time": "",
+  "title": "J.r. August - Unplugged",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/jr-august-unplugged-regenerator-zabok-bf14/",
+  "city": "zabok",
+  "venue_name": "Regenerator",
   "source": "coreevent"
  },
  {
@@ -436,6 +523,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/zoster-u-tvornici-kulture-ff4b/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -447,6 +535,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/petkom-prije-ponoci-scena-piano-ricardo-luque-i-zlatan-doslic-d909/",
+  "city": "zagreb",
   "venue_name": "Foaje, Scena Piano",
   "source": "coreevent"
  },
@@ -458,6 +547,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/brzeguze-w-pitaya-soundystem-a541/",
+  "city": "zagreb",
   "venue_name": "Club Aquarius",
   "source": "coreevent"
  },
@@ -469,6 +559,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/3012-bozicno-cudo-d9a2/",
+  "city": "zagreb",
   "venue_name": "Velika dvorana",
   "source": "coreevent"
  },
@@ -480,6 +571,7 @@
   "genre": "trad",
   "price": "",
   "url": "https://core-event.co/events/metaklapa-10-godina-a-cappella-metala-a613/",
+  "city": "zagreb",
   "venue_name": "Hrvatski prirodoslovni muzej",
   "source": "coreevent"
  },
@@ -491,6 +583,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/spike-and-the-gimme-gimmes-u-zagrebu-55b2/",
+  "city": "zagreb",
   "venue_name": "Boogaloo",
   "source": "coreevent"
  },
@@ -502,6 +595,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/greenlight-w-danielle-uk-9cfd/",
+  "city": "zagreb",
   "venue_name": "Mali Barbarellas",
   "source": "coreevent"
  },
@@ -513,6 +607,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/altin-gun-4044/",
+  "city": "zagreb",
   "venue_name": "Lauba",
   "source": "coreevent"
  },
@@ -524,6 +619,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/the-ocean-u-zagrebu-932f/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -535,6 +631,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/svemirko-u-vintage-u-ece8/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -546,6 +643,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/blu-vinil-u-zagrebu-3174/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -557,6 +655,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/shtosmo-u-tvornici-945f/",
+  "city": "zagreb",
   "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
@@ -568,6 +667,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ante-balen-u-zagrebu-sax-06122026-494c/",
+  "city": "zagreb",
   "venue_name": "SAX!",
   "source": "coreevent"
  },
@@ -579,6 +679,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/dolores-drito-ispod-4d42/",
+  "city": "zagreb",
   "venue_name": "Drito Ispod",
   "source": "coreevent"
  },
@@ -590,6 +691,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/when-tomorrow-comes-1df5/",
+  "city": "zagreb",
   "venue_name": "Klub Sax!",
   "source": "coreevent"
  },
@@ -601,6 +703,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ruzno-pace-u-tvornici-ee19/",
+  "city": "zagreb",
   "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
@@ -612,6 +715,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/buzzcocks-u-tvornici-kulture-5a29/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -623,6 +727,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/kries-u-vintage-u-e29d/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -634,6 +739,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/avatar-u-zagrebu-4d53/",
+  "city": "zagreb",
   "venue_name": "Boogaloo",
   "source": "coreevent"
  },
@@ -645,6 +751,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/savrseni-marginalci-u-boogaloo-u-ad2b/",
+  "city": "zagreb",
   "venue_name": "Boogaloo",
   "source": "coreevent"
  },
@@ -656,6 +763,7 @@
   "genre": "dj",
   "price": "",
   "url": "https://core-event.co/events/80-s-vs-90-s-live-koncerti-fit-anja-rupel-videosex-dj-musikfantastique-predbozicni-party-14d3/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -667,6 +775,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/baby-lasagna-u-boogaloo-u-6bf8/",
+  "city": "zagreb",
   "venue_name": "Boogaloo",
   "source": "coreevent"
  },
@@ -678,6 +787,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/indira-forza-arena-zagreb-30-godina-karijere-0dbe/",
+  "city": "zagreb",
   "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
@@ -689,6 +799,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/winterfest-2026-velesajam-53df/",
+  "city": "zagreb",
   "venue_name": "Velesajam - paviljon 9",
   "source": "coreevent"
  },
@@ -700,6 +811,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/studio-54-by-tomo-ricov-2026-1d7f/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -711,6 +823,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/docek-2027-godine-oiv-toranj-sljeme-d6a7/",
+  "city": "zagreb",
   "venue_name": "OIV toranj Sljeme",
   "source": "coreevent"
  },
@@ -722,6 +835,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/swingers-presents-elvis-u-tvornici-kulture-813c/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -733,6 +847,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/zivo-blato-u-tvornici-kulture-cc00/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -744,6 +859,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/repetitor-u-tvornici-kulture-07d0/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -755,6 +871,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/editors-u-zagrebu-7126/",
+  "city": "zagreb",
   "venue_name": "Boćarski dom",
   "source": "coreevent"
  },
@@ -766,6 +883,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/daf-deutsch-amerikanische-freundschaft-0764/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -777,6 +895,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/my-new-band-believe-6de0/",
+  "city": "zagreb",
   "venue_name": "Močvara",
   "source": "coreevent"
  },
@@ -788,6 +907,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/warhaus-21f1/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial",
   "source": "coreevent"
  },
@@ -799,6 +919,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/conjurer-u-boogaloo-u-7891/",
+  "city": "zagreb",
   "venue_name": "Boogaloo klub",
   "source": "coreevent"
  },
@@ -810,6 +931,7 @@
   "genre": "dj",
   "price": "",
   "url": "https://core-event.co/events/party-cannon-x-internal-bleeding-u-zagrebu-4e05/",
+  "city": "zagreb",
   "venue_name": "Vintage Industrial Bar",
   "source": "coreevent"
  },
@@ -821,6 +943,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/the-rasmus-weirdo-tour-36f5/",
+  "city": "zagreb",
   "venue_name": "Tvornica kulture",
   "source": "coreevent"
  },
@@ -832,6 +955,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/drito-iz-bocarskog-c5ac/",
+  "city": "zagreb",
   "venue_name": "Boćarski dom",
   "source": "coreevent"
  },
@@ -843,6 +967,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/freedom-a-tribute-to-george-michael-tvornica-kulture-6871/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -854,6 +979,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/pips-chips-videoclips-u-areni-7687/",
+  "city": "zagreb",
   "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
@@ -865,6 +991,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/luky-tvornica-kulture-zagreb-4d0a/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -876,6 +1003,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/katatonia-u-boogaloo-u-4318/",
+  "city": "zagreb",
   "venue_name": "Boogaloo klub",
   "source": "coreevent"
  },
@@ -887,6 +1015,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -898,6 +1027,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/nouvelle-vague-u-tvornici-kulture-f329/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -909,6 +1039,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/ian-paice-deep-purple-purpendicular-2574/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -920,6 +1051,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/fontaines-dc-u-zagrebu-62e5/",
+  "city": "zagreb",
   "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
@@ -931,6 +1063,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/scorpions-with-special-guests-europe-arena-zagreb-cf3d/",
+  "city": "zagreb",
   "venue_name": "Arena Zagreb",
   "source": "coreevent"
  },
@@ -942,6 +1075,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/kim-wilde-u-tvornici-kulture-30a4/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -953,6 +1087,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/electric-six-u-tvornici-kulture-6818/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  },
@@ -964,6 +1099,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/slash-featuring-myles-kennedy-and-the-conspirators-flying-blind-world-tour-2027-zagreb-salata-18cc/",
+  "city": "zagreb",
   "venue_name": "SRC Šalata",
   "source": "coreevent"
  },
@@ -975,6 +1111,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/jasna-zlokic-zagreb-tvornica-kulture-9903/",
+  "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"
  },
@@ -986,6 +1123,7 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/stereo-m-cs-u-tvornici-kulture-e538/",
+  "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"
  }
