@@ -113,6 +113,8 @@ def main() -> None:
     def add(e: dict, prefer: bool) -> None:
         if not e.get("date") or e["date"] < today or not e.get("title"):
             return
+        if e.get("genre") == "jazz" and "no jazz" in e["title"].lower() and "jazz" not in e["title"].lower().replace("no jazz", ""):
+            e["genre"] = ""  # "NO Jazz" je naziv festivala, ne žanr
         if NOT_MUSIC.search(e["title"]):  # sportske utakmice s prodaje ulaznica (npr. dvorana Tivoli)
             return
         if e["date"] > (date.today() + timedelta(days=550)).isoformat():  # očito krivi datumi (npr. 2030.)

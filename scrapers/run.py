@@ -49,7 +49,7 @@ def venue_from_text(text: str, city: str = "zagreb") -> str | None:
 
 
 def classify(title: str, default: str, dj_words: list[str]) -> str:
-    t = f" {title.lower()} "
+    t = f" {title.lower()} ".replace("no jazz", "")  # NO Jazz festival nije jazz
     if any(w in t for w in dj_words) or title.lower().startswith("dj "):
         return "dj"
     for genre, words in GENRE_WORDS:
