@@ -427,7 +427,6 @@ function fRange(a,b){
 const NEAR_KM = 100;   // festivali do ove udaljenosti pojavljuju se i u popisu koncerata grada
 const nearFest = FEST.filter(f=>fLive(f) && (f.city===CITY || (km(CITIES[CITY],f)??999) <= NEAR_KM));
 let FCITY = CITY, FSORT = "date";
-function festMapLink(f){ return `https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lon}`; }
 function festGcal(f){
   const end = iso(addDays(parse(f.to),1)).replace(/-/g,"");
   return "https://calendar.google.com/calendar/render?action=TEMPLATE&text="+encodeURIComponent(f.name)+"&dates="+f.from.replace(/-/g,"")+"/"+end+"&location="+encodeURIComponent(f.place)+(f.url?"&details="+encodeURIComponent(f.url):"");
@@ -440,7 +439,7 @@ function feHTML(f){
     : `<div class="when tbd">uskoro${f.last?`<small>prošli put ${fRange(f.last[0],f.last[1])}</small>`:""}</div>`;
   const name = f.url ? `<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name);
   return `<article class="fe">${when}<div><h3>${name}</h3>
-    <div class="sub"><a href="${festMapLink(f)}" target="_blank" rel="noopener">${esc(f.place)}</a><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
+    <div class="sub"><span>${esc(f.place)}</span><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
     <div class="km" title="Zračna udaljenost od grada ${esc(cityName(FCITY))}">${d==null?"":d<5?"u gradu":"~"+d+" km"}</div></article>`;
 }
 function renderFest(){
@@ -546,8 +545,8 @@ function gcalLink(e){
     location: e.venue + (e.addr? ", "+e.addr : "") + ", " + cityName(e.city), details:"Izvor: "+e.src});
   return "https://calendar.google.com/calendar/render?"+p.toString();
 }
-// Karta samo kad znamo adresu prostora; bez adrese ne stavljamo poveznicu (to bi bila samo Google pretraga)
-const mapLink = e => e.addr ? "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((VENUES[e.vkey].full||e.venue.replace(/ – .*/,""))+", "+e.addr+", "+cityName(e.city)) : "";
+// Prostor vodi na njegovu službenu stranicu; ako je ne znamo, samo ime (bez Google pretraga)
+const venueWeb = e => (VENUES[e.vkey]||{}).web || "";
 
 function priceHTML(e){
   if (e.sold) return `<span class="price sold">Rasprodano</span>`;
@@ -572,7 +571,7 @@ function detailsHTML(e){
     ${listen.length ? `<div><b>Poslušaj</b> ${listen.join(" · ")}</div>` : ""}
     ${social.length ? `<div><b>Izvođač</b> ${social.join(" · ")}</div>` : ""}
     <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
-    <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · ${mapLink(e) ? `<a href="${mapLink(e)}" target="_blank" rel="noopener">${esc(e.venue)}, ${esc(e.addr)}</a>` : esc(e.venue)}</div>
+    <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · ${venueWeb(e) ? `<a href="${safeUrl(venueWeb(e))}" target="_blank" rel="noopener">${esc(e.venue)}</a>` : esc(e.venue)}${e.addr?", "+esc(e.addr):""}</div>
   </div>`;
 }
 const CHEV = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg>`;
@@ -861,7 +860,7 @@ function renderBanner(){
 function renderRegular(){
   const regs = Object.entries(DATA.venues).filter(([k,v])=>v.regular && (v.city||"zagreb")===CITY && (!S.venue || S.venue===k));
   if (!regs.length || S.favOnly || SHARED) return "";
-  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, ${v.address ? `<a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+v.address+", "+cityName(v.city||"zagreb"))}" target="_blank" rel="noopener">${esc(v.address)}</a>` : ""}<span>${esc(v.regular)}</span></div>`).join("")}</section>`;
+  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, ${esc(v.address||"")}<span>${esc(v.regular)}</span></div>`).join("")}</section>`;
 }
 
 function view(){ return location.hash==="#kalendar" ? "kalendar" : location.hash==="#festivali" ? "festivali" : "popis"; }

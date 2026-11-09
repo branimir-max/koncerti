@@ -272,6 +272,16 @@ def main() -> None:
         e.pop("_t", None)
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
+    # Službena stranica prostora: ručno upisana ("web") ili adresa izvora koji skuplja njegov program
+    from urllib.parse import urlparse
+    from scrapers.sources import SOURCES
+    for src in SOURCES:
+        if src.get("venue") or src.get("default_venue"):
+            k = src.get("venue") or src.get("default_venue")
+            u = urlparse(src["urls"][0])
+            for vk, v in out_venues.items():
+                if (vk == k or v.get("group") == k) and not v.get("web"):
+                    v["web"] = f"{u.scheme}://{u.netloc}/"
     for e in events:
         e["city"] = venues[e["venue"]].get("city", "zagreb")
     used_cities = {e["city"] for e in events} | {"zagreb"}
