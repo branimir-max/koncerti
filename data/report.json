@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T13:40:23+00:00",
+ "run_at": "2026-11-09T14:45:49+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -40,7 +40,7 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 114
+   "count": 115
   },
   "songkick": {
    "ok": true,
