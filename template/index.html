@@ -133,6 +133,8 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .install-in button{font:inherit;font-size:14px;font-weight:600;border:0;border-radius:6px;padding:8px 14px;background:var(--accent);color:#fff;cursor:pointer}
 .install-in .x{background:transparent;color:var(--bg);font-size:22px;padding:4px 8px;font-weight:400}
 #toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:8px;font-size:14px;max-width:calc(100% - 32px);box-shadow:0 6px 24px rgba(0,0,0,.25);transition:transform .25s;z-index:20}
+.soon{background:var(--accent-bg,#e8eefa);border-left:4px solid #1D4E9E;padding:10px 14px;margin:0 0 12px;border-radius:6px;font-size:14px;display:grid;gap:4px}
+@media (prefers-color-scheme: dark){.soon{background:#1b2740}}
 #toast.on{transform:translate(-50%,0)}
 #toast a{color:var(--bg);font-weight:600}
 .pill{border:1px solid var(--accent);background:var(--surface);color:var(--accent);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:600;cursor:pointer;display:inline-flex;gap:6px;align-items:center;margin-left:auto}
@@ -243,6 +245,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 
 <main class="wrap">
   <div id="panel" class="panel" hidden></div>
+  <div id="soon" class="soon" hidden></div>
   <div id="banner"></div>
   <div class="status"><span id="count"></span><button id="reset" type="button">Poništi filtre</button></div>
   <div id="out"></div>
@@ -300,7 +303,13 @@ const R = ranges();
 // state
 let favs = new Set();
 try { favs = new Set(JSON.parse(localStorage.getItem("kz-fav")||"[]")); } catch(e) {}
-const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} };
+const saveFavs = () => { try { localStorage.setItem("kz-fav", JSON.stringify([...favs])); } catch(e) {} syncMine(); };
+// Podsjetnici: koliko prije koncerta (u minutama) javiti, za .ics i obavijesti na uređaju
+// polje parova, ne objekt: brojčani ključevi bi u objektu promijenili redoslijed
+const REM_LIST = [["","bez podsjetnika"],["1440","dan prije"],["180","3 sata prije"],["1440,180","dan prije i 3 sata prije"]];
+const REM_OPTS = Object.fromEntries(REM_LIST);
+let REM = "1440,180";
+try { const r = localStorage.getItem("kz-rem"); if (r !== null && r in REM_OPTS) REM = r; } catch(e) {}
 const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, calMonth:null, day:""};
 
 const upcoming = EVENTS.filter(e => e.date >= TODAY);
@@ -551,6 +560,13 @@ function renderPanel(){
       ${mine.length ? `<p>Zvjezdicom spremljeni koncerti. Dodaj ih u kalendar ili pošalji popis prijateljima.</p>
       <div class="links"><button type="button" id="dlMine">Preuzmi u kalendar (.ics)</button><button type="button" data-copy="${SITE_URL}#moji=${mine.map(e=>e.id).join(",")}">Kopiraj poveznicu za dijeljenje</button></div>`
       : `<p>Želiš samo pojedine koncerte? Klikni zvjezdicu uz koncert i dodaj ga u kalendar jednim klikom.</p>`}
+    </section>
+    <section>
+      <h4>Podsjetnici za spremljene koncerte</h4>
+      <div class="pick"><span>Kad podsjetiti</span><div class="chipwrap">${REM_LIST.map(([k,v])=>`<button type="button" class="chip" data-rem="${k}" aria-pressed="${REM===k}">${v}</button>`).join("")}</div></div>
+      <p class="note">Vrijedi za koncerte koje dodaš u kalendar preko „Apple / Outlook” i za obavijesti na ovom uređaju. Google kalendar koristi svoje zadane obavijesti (obično 30 minuta prije).</p>
+      <div class="links"><button type="button" id="notifBtn">${notifLabel()}</button></div>
+      <p class="note" id="notifNote">${notifNote()}</p>
     </section>`;
 }
 document.getElementById("panelBtn").addEventListener("click", e=>{
@@ -569,6 +585,9 @@ document.getElementById("panel").addEventListener("click", async ev=>{
     catch(e){ c.outerHTML = `<input value="${c.dataset.copy}" readonly style="width:100%;font-size:12px" onclick="this.select()">`; }
     return;
   }
+  const rb = ev.target.closest("[data-rem]");
+  if (rb){ REM = rb.dataset.rem; try { localStorage.setItem("kz-rem", REM); } catch(e) {} syncMine(); renderPanel(); return; }
+  if (ev.target.id==="notifBtn"){ await enableNotifs(); renderPanel(); return; }
   if (ev.target.id==="dlMine") downloadICS(upcoming.filter(e=>favs.has(e.id)));
 });
 function icsDate(e){
@@ -588,11 +607,71 @@ function toast(e){
 function downloadICS(list, name){
   const x = s => String(s).replace(/[\\;,]/g, c=>"\\"+c);
   const lines = ["BEGIN:VCALENDAR","VERSION:2.0","PRODID:-//Koncerti u Zagrebu//HR","X-WR-CALNAME:Moji koncerti"];
-  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,"END:VEVENT"));
+  const alarms = e => (REM ? REM.split(",") : []).flatMap(m => ["BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${x(e.artist)}`,
+    // koncert bez satnice traje cijeli dan: "dan prije" = 12 h prije ponoći, tj. podne dan ranije
+    `TRIGGER:-PT${e.time ? m : (m==="180" ? 0 : 720)}M`, "END:VALARM"]);
+  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,...alarms(e),"END:VEVENT"));
   lines.push("END:VCALENDAR");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type:"text/calendar"}));
   a.download = (name ? name.toLowerCase().replace(/[^a-z0-9]+/g,"-").slice(0,40) : "moji-koncerti") + ".ics"; document.body.appendChild(a); a.click(); a.remove();
+}
+// ---------- Obavijesti na uređaju ----------
+// Nema poslužitelja: aplikacija spremi popis zvjezdicom označenih koncerata u
+// pregledniku, a service worker ga povremeno provjeri (Periodic Background Sync,
+// Chrome na Androidu kad je aplikacija instalirana) i javi dan prije / na dan.
+const canNotify = () => "Notification" in window && "serviceWorker" in navigator;
+const NS = {periodic:false};
+function notifLabel(){
+  if (!canNotify()) return "Obavijesti nisu podržane";
+  if (Notification.permission === "granted" && localStorage.getItem("kz-notif")==="1") return "Isključi obavijesti na ovom uređaju";
+  return "Uključi obavijesti na ovom uređaju";
+}
+function notifNote(){
+  if (!canNotify()) return "Ovaj preglednik ne prikazuje obavijesti. Podsjetnik u kalendaru radi svugdje.";
+  if (Notification.permission === "denied") return "Obavijesti su blokirane u postavkama preglednika za ovu stranicu.";
+  if (localStorage.getItem("kz-notif")!=="1") return "Javimo ti se za koncerte označene zvjezdicom. Na iPhoneu i u pregledniku na računalu pouzdaniji je podsjetnik u kalendaru.";
+  return NS.periodic ? "Uključeno. Obavijest stiže i kad je aplikacija zatvorena."
+    : "Uključeno, ali ovaj preglednik javlja samo kad otvoriš aplikaciju. Za podsjetnik u svakom slučaju dodaj koncert u kalendar.";
+}
+async function enableNotifs(){
+  if (!canNotify()) return;
+  if (localStorage.getItem("kz-notif")==="1" && Notification.permission==="granted"){
+    localStorage.setItem("kz-notif","0");
+    try { const r = await navigator.serviceWorker.ready; if (r.periodicSync) await r.periodicSync.unregister("moji"); } catch(e) {}
+    syncMine(); return;
+  }
+  const p = await Notification.requestPermission();
+  if (p !== "granted") return;
+  localStorage.setItem("kz-notif","1");
+  try {
+    const r = await navigator.serviceWorker.ready;
+    if (r.periodicSync){ await r.periodicSync.register("moji", {minInterval: 6*60*60*1000}); NS.periodic = true; }
+  } catch(e) { NS.periodic = false; }
+  await syncMine();
+}
+async function syncMine(){
+  // popis za service worker (on ne vidi localStorage), spremljen kao datoteka u cacheu
+  if (!("caches" in window)) return;
+  const on = localStorage.getItem("kz-notif")==="1";
+  const list = on ? upcoming.filter(e=>favs.has(e.id)).map(e=>({id:e.id, artist:e.artist, venue:e.venue, date:e.date, time:e.time||""})) : [];
+  try {
+    const c = await caches.open("koncerti-moji");
+    await c.put("moji.json", new Response(JSON.stringify({rem: REM, events: list}), {headers:{"Content-Type":"application/json"}}));
+    if (on && navigator.serviceWorker && navigator.serviceWorker.controller) navigator.serviceWorker.controller.postMessage("check");
+  } catch(e) {}
+}
+async function checkPeriodic(){
+  try { const r = await navigator.serviceWorker.ready;
+    if (r.periodicSync) NS.periodic = (await r.periodicSync.getTags()).includes("moji"); } catch(e) {}
+}
+// Traka na vrhu: tvoji koncerti danas i sutra
+function renderSoon(){
+  const el = document.getElementById("soon"); if (!el) return;
+  const tm = iso(addDays(parse(TODAY),1));
+  const soon = upcoming.filter(e=>favs.has(e.id) && (e.date===TODAY || e.date===tm));
+  el.hidden = !soon.length;
+  el.innerHTML = soon.map(e=>`<div><b>${e.date===TODAY?"Danas":"Sutra"}${e.time?" u "+e.time:""}</b> ${esc(e.artist)} · ${esc(e.venue)}</div>`).join("");
 }
 function renderBanner(){
   const b = document.getElementById("banner");
@@ -623,7 +702,7 @@ function render(){
   const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.day;
   document.getElementById("reset").hidden = !filtered;
   out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
-  renderBanner(); renderPanel();
+  renderBanner(); renderPanel(); renderSoon();
 }
 window.addEventListener("hashchange", ()=>{ S.day=""; readShared(); render(); });
 readShared();
@@ -631,7 +710,9 @@ render();
 
 // ---------- Instalacija (PWA) ----------
 if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
-  navigator.serviceWorker.register("sw.js").catch(()=>{});
+  navigator.serviceWorker.register("sw.js").then(()=>{
+    if (localStorage.getItem("kz-notif")==="1") checkPeriodic().then(syncMine);
+  }).catch(()=>{});
 }
 (function(){
   const box = document.getElementById("install"), btn = document.getElementById("installBtn");
