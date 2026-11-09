@@ -199,7 +199,7 @@ def main() -> None:
 
 
 GENRES = {"rock": "Rock", "metal": "Metal", "punk": "Punk", "alt": "Alternativa", "pop": "Pop", "narodna": "Narodna",
-          "elektro": "Elektronika", "dj": "DJ party", "hiphop": "Hip-hop", "jazz": "Jazz", "klasika": "Klasika", "opera": "Opera i balet", "trad": "Tradicijska",
+          "elektro": "Elektronika", "dj": "DJ party", "hiphop": "Hip-hop / rap", "jazz": "Jazz", "klasika": "Klasika", "opera": "Opera i balet", "trad": "Tradicijska",
           "world": "World", "djeca": "Za djecu", "ostalo": "Ostalo"}
 
 VTIMEZONE = """BEGIN:VTIMEZONE
