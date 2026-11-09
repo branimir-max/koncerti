@@ -24,6 +24,32 @@ NOT_MUSIC = re.compile(r"\b(HK|KK|NK|RK|ACH)\s+\w+.*\s[–-]\s|\bvolley|hokej|ko
                        r"paketna vstopnica|paket dveh tekem|\btekm[ae]\b", re.I)
 
 
+def generic_url(u: str) -> bool:
+    from urllib.parse import urlparse
+    p = urlparse(u)
+    return "/metro-areas/" in u or (p.path.strip("/") in ("", "hr", "en") and not p.query) or p.path.rstrip("/").endswith("/dogadanja")
+
+
+def trust(source: str) -> int:
+    """Pouzdanost izvora: službeni program prostora > prodaja ulaznica > Songkick (agregator)."""
+    if source.startswith("songkick"):
+        return 1
+    if source in ("ulaznice", "coreevent", "entrio", "eventim", "visitrijeka") or source.startswith(("ulaznice", "coreevent", "entrio")):
+        return 2
+    return 3
+
+
+NUM_WORDS = {"one": "1", "two": "2", "three": "3", "four": "4", "five": "5", "six": "6", "seven": "7", "eight": "8",
+             "nine": "9", "ten": "10", "eleven": "11", "twelve": "12", "thirteen": "13", "fourteen": "14",
+             "fifteen": "15", "sixteen": "16", "seventeen": "17", "eighteen": "18", "nineteen": "19", "twenty": "20"}
+# riječi koje se ponavljaju u naslovima različitih koncerata, pa same ne znače da je koncert isti
+GENERIC = set("""koncert koncerti festival festivala tribute party afterparty obljetnica obljetnice obljetnicu ansambl
+ansambla orkestar orkestra zbor zbora lisinski subotom srijedom nedjeljom sezona sezone ciklus ciklusa glazbena prica djecu
+band bend night live special guests gosti gost zagreb zagrebu croatia hrvatska tour edition edicija dvorana velika mala
+presents predstavlja povodu svecani godisnji koncertna koncertne majstorski simfonijski jazz rock metal punk balkan
+christmas bozicni bozic novogodisnji klapa klape tamburasi""".split())
+
+
 def norm(s: str) -> str:
     s = unicodedata.normalize("NFKD", s.lower())
     s = "".join(c for c in s if not unicodedata.combining(c))
@@ -33,11 +59,11 @@ def norm(s: str) -> str:
 
 
 def norm_all(s: str) -> list[str]:
-    s = unicodedata.normalize("NFKD", s.lower())
+    s = unicodedata.normalize("NFKD", s.lower().replace("ı", "i").replace("ø", "o").replace("đ", "d"))
     s = "".join(c for c in s if not unicodedata.combining(c))
     s = re.sub(r"^kset\d*:\s*", "", s)
     stop = {"the", "i", "and", "feat", "ft", "koncert", "live", "u", "na", "x", "presents"}
-    return [w for w in re.findall(r"[a-z0-9]+", s) if w not in stop]
+    return [NUM_WORDS.get(w, w) for w in re.findall(r"[a-z0-9]+", s) if w not in stop]
 
 
 def slug(s: str) -> str:
@@ -80,7 +106,10 @@ def main() -> None:
     manual = json.loads((DATA / "manual.json").read_text())["events"]
     scraped = []
     for f in sorted((DATA / "scraped").glob("*.json")):
-        scraped += json.loads(f.read_text())
+        for e in json.loads(f.read_text()):
+            e["_t"] = trust(f.stem)
+            scraped.append(e)
+    scraped.sort(key=lambda e: -e["_t"])  # najpouzdaniji izvor prvi: njegov naziv i prostor ostaju
 
     group = lambda k: venues.get(k, {}).get("group", k)  # noqa: E731
     today = date.today().isoformat()
@@ -94,6 +123,25 @@ def main() -> None:
     def same(a: str, b: str) -> bool:
         ca, cb = core(a), core(b)
         return _same(a, b) or _same(ca, cb) or _same(ca, b) or _same(a, cb) or _same_set(a, b)
+
+    def close_times(x: dict, y: dict) -> bool:
+        if not x.get("time") or not y.get("time"):
+            return True
+        h = lambda t: int(t[:2]) * 60 + int(t[3:5])  # noqa: E731
+        return abs(h(x["time"]) - h(y["time"])) <= 120
+
+    def shares_name(a: str, b: str, venue: str) -> bool:
+        """Isti prostor i dan: dijele li naslovi rijetku riječ (ime izvođača), npr. 'Ansambl Cantus –
+        25. obljetnica' i 'Lisinski subotom: Koncert u povodu 25. obljetnice Cantus Ansambla'."""
+        skip = GENERIC | set(norm_all(venues.get(venue, {}).get("name", "")))
+        wa = {w for w in norm_all(core(a)) if len(w) >= 5 and w not in skip}
+        wb = {w for w in norm_all(core(b)) if len(w) >= 5 and w not in skip}
+        return bool(wa & wb)
+
+    def strong(a: str, b: str) -> bool:
+        """Gotovo isti naslov (za isti dan u istom gradu, a različitom prostoru)."""
+        x, y = "".join(norm_all(core(a))), "".join(norm_all(core(b)))
+        return len(x) >= 5 and x == y
 
     def _same_set(a: str, b: str) -> bool:
         sa, sb = set(norm_all(a)), set(norm_all(b))
@@ -129,27 +177,53 @@ def main() -> None:
             venues.setdefault(key, {"name": name.strip(), "address": "", "auto": True, "city": city})
             e["venue"] = key
         bucket = buckets.setdefault((e["date"], group(e["venue"])), [])
-        for old in bucket:
-            if same(old["title"], e["title"]):
+        t_new = e.get("_t", 4)  # ručni unosi su najpouzdaniji
+        city = venues[e["venue"]].get("city", "zagreb")
+        match = next((o for o in bucket if close_times(o, e) and
+                      (same(o["title"], e["title"]) or shares_name(o["title"], e["title"], e["venue"]))), None)
+        if match is None:  # isti koncert, a izvori ga stavljaju u različite prostore istog grada
+            for (d, g), b in buckets.items():
+                if d == e["date"] and b is not bucket and b and venues[b[0]["venue"]].get("city", "zagreb") == city:
+                    match = next((o for o in b if strong(o["title"], e["title"])), None)
+                    if match:
+                        break
+        for old in ([match] if match else []):
+            if True:
                 # drugi nazivi istog koncerta (druga postava na drugom izvoru) – za pretragu
                 if not set(norm_all(e["title"])) <= set(norm_all(old["title"])) and e["title"] not in old.setdefault("alt", []):
                     old["alt"].append(e["title"])
+                # čišći naslov (bez naziva ciklusa ispred dvotočke) bolje pokazuje izvođača
+                prefix = old["title"][: len(old["title"]) - len(core(old["title"]))].rstrip(": ")
+                if old.get("_t") != 4 and prefix and core(e["title"]) == e["title"] \
+                        and not set(norm_all(prefix)) <= set(norm_all(e["title"])):
+                    old.setdefault("alt", []).append(old["title"])
+                    old["title"] = e["title"]
+                    old["alt"] = [a for a in old["alt"] if a != e["title"]]
+                # pouzdaniji izvor odlučuje o prostoru (npr. prodaja ulaznica naspram Songkicka)
+                if t_new > old.get("_t", 0) and group(e["venue"]) != group(old["venue"]) \
+                        and venues[e["venue"]].get("city", "zagreb") == venues[old["venue"]].get("city", "zagreb"):
+                    old["venue"] = e["venue"]
                 if prefer:  # automatski podaci su svježiji, ali ne brišu poznate vrijednosti
+                    better = t_new >= old.get("_t", 0) or (old.get("_t", 0) == 4 and t_new >= 2)  # Songkick samo dopunjuje
                     for f in ("time", "price", "url"):
-                        if e.get(f):
+                        if f == "url" and old.get("url") and generic_url(e.get("url") or ""):
+                            continue  # ne mijenjaj poveznicu na koncert općom stranicom (popis grada, naslovnica)
+                        empty = not old.get(f) or (f == "url" and generic_url(old["url"]))
+                        if e.get(f) and (better or empty):
                             old[f] = e[f]
                     if not old.get("genre") and e.get("genre"):  # ručno odabrani žanr ima prednost
                         old["genre"] = e["genre"]
                     # Konkretna dvorana (npr. Lisinski – Mala dvorana) ima prednost pred općim prostorom
-                    if venues.get(e["venue"], {}).get("group"):
+                    if venues.get(e["venue"], {}).get("group") and group(e["venue"]) == group(old["venue"]):
                         old["venue"] = e["venue"]
                 return
         if not re.match(r"^https?://", e.get("url") or ""):  # samo prave web poveznice
             e["url"] = ""
-        bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")} | {"alt": []})
+        bucket.append({f: e.get(f, "") for f in ("date", "time", "title", "venue", "genre", "price", "url")} | {"alt": [], "_t": t_new})
 
     for e in manual:
-        add(dict(e), prefer=False)
+        # ručni unosi prepisani sa Songkicka nisu pouzdaniji od samog Songkicka
+        add(dict(e) | {"_t": 1 if "songkick.com" in (e.get("url") or "") else 4}, prefer=False)
     for e in scraped:
         add(dict(e), prefer=True)
 
@@ -180,6 +254,8 @@ def main() -> None:
                     e["links"] = {k: u for k, u in links.items() if re.match(r"^https?://", u or "")}
 
     events = sorted((e for b in buckets.values() for e in b), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
+    for e in events:
+        e.pop("_t", None)
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
     for e in events:
