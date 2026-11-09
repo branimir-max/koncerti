@@ -439,7 +439,7 @@ function feHTML(f){
     : `<div class="when tbd">uskoro${f.last?`<small>prošli put ${fRange(f.last[0],f.last[1])}</small>`:""}</div>`;
   const name = f.url ? `<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">${esc(f.name)}</a>` : esc(f.name);
   return `<article class="fe">${when}<div><h3>${name}</h3>
-    <div class="sub"><a href="https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lon}" target="_blank" rel="noopener">${esc(f.place)}</a><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
+    <div class="sub"><a href="${f.url ? safeUrl(f.url) : `https://www.google.com/maps/search/?api=1&query=${f.lat},${f.lon}`}" target="_blank" rel="noopener">${esc(f.place)}</a><span class="tag">${GENRES[f.genre]}</span>${fLive(f)?`<a href="${festGcal(f)}" target="_blank" rel="noopener">U kalendar</a>`:""}${f.url?`<a href="${safeUrl(f.url)}" target="_blank" rel="noopener">Web i ulaznice</a>`:""}</div></div>
     <div class="km" title="Zračna udaljenost od grada ${esc(cityName(FCITY))}">${d==null?"":d<5?"u gradu":"~"+d+" km"}</div></article>`;
 }
 function renderFest(){
