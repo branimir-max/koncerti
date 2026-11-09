@@ -166,6 +166,9 @@ def scrape(src: dict) -> list[dict]:
         for pat in src.get("strip", []):
             e["title"] = re.sub(pat, "", e["title"], flags=re.I).strip()
         e["title"] = nice_case(clean(e["title"]))
+        # ukrasi s najava: emojiji na rubovima i "… u Rijeci!" / "… u Pogonu!" na kraju
+        e["title"] = re.sub(r"^[^\w\"„(]+|[^\w)\"”'’.?!]+$", "", e["title"]).strip()
+        e["title"] = re.sub(r"\s+u\s+[A-ZČĆŠŽĐ][\wčćšžđ]+!$", "", e["title"]).strip()
         title_l = e["title"].lower()
         if e["date"] < today or len(title_l) < 2:
             continue

@@ -428,5 +428,44 @@
    "Marganovo"
   ],
   "city": "rijeka"
+ },
+ "ri-pogon": {
+  "name": "Pogon kulture",
+  "address": "",
+  "aliases": [
+   "Pogon kulture",
+   "Pogon Kulture",
+   "Pogon Rijeka",
+   "Pogon"
+  ],
+  "city": "rijeka"
+ },
+ "ri-crkva": {
+  "name": "Klub Crkva",
+  "address": "",
+  "aliases": [
+   "Klub Crkva",
+   "Crkva Club",
+   "Crkva"
+  ],
+  "city": "rijeka"
+ },
+ "ri-zamet": {
+  "name": "Centar Zamet",
+  "address": "",
+  "aliases": [
+   "Centar Zamet",
+   "Dvorana Zamet"
+  ],
+  "city": "rijeka"
+ },
+ "ri-beertija": {
+  "name": "The Beertija",
+  "address": "",
+  "aliases": [
+   "The Beertija",
+   "Beertija"
+  ],
+  "city": "rijeka"
  }
 }
