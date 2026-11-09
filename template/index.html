@@ -179,6 +179,10 @@ header.top{padding:18px 0 14px}
 .ev .acts .icon{border:0;background:transparent;height:40px;min-width:40px;padding:0;color:var(--muted)}
 .ev .acts .icon:hover{color:var(--ink)}
 .ev .acts .icon svg{width:20px;height:20px}
+.ev .acts{position:relative}
+.sharemenu{position:absolute;right:0;top:42px;z-index:6;min-width:170px;background:var(--surface);border:1.5px solid var(--ink);border-radius:10px;padding:6px;display:flex;flex-direction:column;box-shadow:0 8px 24px rgba(0,0,0,.15)}
+.sharemenu a,.sharemenu button{all:unset;cursor:pointer;padding:10px 12px;border-radius:6px;font-size:14.5px;color:var(--ink)}
+.sharemenu a:hover,.sharemenu button:hover,.sharemenu a:focus-visible,.sharemenu button:focus-visible{background:var(--accent-soft);color:var(--accent)}
 .ev.hl{background:var(--accent-soft);box-shadow:-8px 0 0 var(--accent-soft),8px 0 0 var(--accent-soft)}
 /* filters */
 .bar{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:12px 0}
@@ -736,7 +740,7 @@ function renderCal(list){
 const out = document.getElementById("out");
 out.addEventListener("click", ev=>{
   const sh=ev.target.closest("[data-share]");
-  if (sh){ const e=EVENTS.find(x=>x.id===sh.dataset.share); if(e) shareEvent(e); return; }
+  if (sh){ const e=EVENTS.find(x=>x.id===sh.dataset.share); if(e) shareEvent(e, sh); return; }
   if (ev.target.closest("#moreBtn")){ shownWeeks += 1; const y = scrollY; render(); scrollTo(0, y); return; }
   const mo2=ev.target.closest("[data-more]");
   if (mo2){
@@ -973,14 +977,31 @@ function goTo(id){
   el.classList.add("hl"); setTimeout(()=>el.classList.remove("hl"), 2500);
   el.scrollIntoView({block:"center", behavior: matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth"});
 }
-async function shareEvent(e){
+// Na mobitelu sustavni izbornik za dijeljenje; na računalu naš kratki izbornik (WhatsApp, Viber, e-mail, kopiraj)
+async function shareEvent(e, btn){
   const url = SITE_URL + "k/" + e.id + "/";
   const dt = parse(e.date);
   const text = `${e.artist} · ${e.venue}, ${DAYS[dt.getDay()]} ${dt.getDate()}. ${MONTHS[dt.getMonth()]}${e.time ? " u " + e.time : ""}`;
-  if (navigator.share){ try { await navigator.share({title: e.artist, text, url}); } catch(err) {} return; }
-  try { await navigator.clipboard.writeText(text + "\n" + url); flash("Link kopiran, zalijepi ga prijatelju."); }
-  catch(err) { flash(url); }
+  if (navigator.share && matchMedia("(pointer: coarse)").matches){ try { await navigator.share({title: e.artist, text, url}); } catch(err) {} return; }
+  closeShare();
+  const full = text + "\n" + url, enc = encodeURIComponent(full);
+  const m = document.createElement("div");
+  m.className = "sharemenu"; m.setAttribute("role", "menu");
+  m.innerHTML = `<a role="menuitem" href="https://wa.me/?text=${enc}" target="_blank" rel="noopener">WhatsApp</a>
+    <a role="menuitem" href="viber://forward?text=${enc}">Viber</a>
+    <a role="menuitem" href="mailto:?subject=${encodeURIComponent(e.artist)}&body=${enc}">E-mail</a>
+    <button role="menuitem" type="button" data-copylink>Kopiraj link</button>`;
+  m.querySelector("[data-copylink]").onclick = async ()=>{
+    try { await navigator.clipboard.writeText(full); flash("Link kopiran."); } catch(err) { flash(url); }
+    closeShare();
+  };
+  btn.parentElement.appendChild(m);
+  m.querySelector("a,button").focus();
+  setTimeout(()=>document.addEventListener("click", outShare), 0);
 }
+function outShare(ev){ if (!ev.target.closest(".sharemenu")) closeShare(); }
+function closeShare(){ document.querySelectorAll(".sharemenu").forEach(x=>x.remove()); document.removeEventListener("click", outShare); }
+document.addEventListener("keydown", ev=>{ if (ev.key==="Escape") closeShare(); });
 function flash(msg){
   let t=document.getElementById("toast");
   if(!t){ t=document.createElement("div"); t.id="toast"; t.setAttribute("role","status"); document.body.appendChild(t); }
