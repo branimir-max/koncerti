@@ -141,6 +141,10 @@ def jsonld_events(html: str, venue: str, base_url: str, genre: str = "") -> list
             if isinstance(loc, list) and loc:
                 loc = loc[0]
             loc_text = loc.get("name", "") if isinstance(loc, dict) else str(loc)
+            addr = loc.get("address") if isinstance(loc, dict) else None
+            town = addr.get("addressLocality", "") if isinstance(addr, dict) else ""
+            if town and town.lower() not in loc_text.lower():
+                loc_text = f"{loc_text}, {town}"  # grad, da drugi gradovi mogu odvojiti okolicu
             out.append({
                 "date": d, "time": tm, "title": clean(o.get("name", "")), "venue": venue,
                 "genre": genre, "price": price, "url": o.get("url") or base_url, "_text": loc_text,

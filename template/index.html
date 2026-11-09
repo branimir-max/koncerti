@@ -63,7 +63,11 @@ header.top{padding:28px 0 18px;border-bottom:3px solid var(--ink)}
 h1{font-family:var(--font-display);font-weight:800;font-size:clamp(44px,8vw,76px);line-height:.88;letter-spacing:.5px;margin:0;text-transform:uppercase;text-wrap:balance}
 h1 span{color:var(--accent)}
 h1 .home{color:inherit;text-decoration:none}
-h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
+h1 .home:hover{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
+.cityw{position:relative;display:inline-flex;align-items:center;gap:.08em}
+.cityw svg{width:.42em;height:.42em;flex:none}
+.cityw select{position:absolute;inset:0;width:100%;height:100%;opacity:0;cursor:pointer;font-size:16px}
+.cityw:focus-within{outline:3px solid var(--accent);outline-offset:4px;border-radius:4px}
 .meta{color:var(--muted);font-size:13.5px;max-width:34ch}
 .meta strong{color:var(--ink);font-weight:600}
 .quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:20px}
@@ -202,7 +206,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 <header class="top">
   <div class="wrap">
     <div class="brand">
-      <h1><a href="./" class="home" title="Početna">Koncerti<br><span>u Zagrebu</span></a></h1>
+      <h1><a href="./" class="home" title="Početna">Koncerti</a><br><span class="cityw"><span id="cityIn">u Zagrebu</span><svg id="cityChev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" aria-hidden="true" hidden><path d="m6 9 6 6 6-6"/></svg><select id="city" aria-label="Odaberi grad" hidden></select></span></h1>
       <p class="meta" id="meta"></p>
     </div>
     <div class="quick" id="quick"></div>
@@ -212,7 +216,7 @@ footer p{margin:0 0 8px;max-width:72ch}
 <div id="install" class="install" hidden>
   <div class="wrap install-in">
     <img src="icon-192.png" alt="" width="40" height="40">
-    <div><b>Stavi Koncerte ZG na mobitel</b><span id="installHint">Otvara se kao aplikacija, radi i bez interneta.</span></div>
+    <div><b>Stavi Koncerte na mobitel</b><span id="installHint">Otvara se kao aplikacija, radi i bez interneta.</span></div>
     <button type="button" id="installBtn">Instaliraj</button>
     <button type="button" id="installClose" class="x" aria-label="Zatvori">×</button>
   </div>
@@ -252,14 +256,16 @@ footer p{margin:0 0 8px;max-width:72ch}
 </main>
 
 <footer class="wrap">
-  <p><strong>Izvori:</strong> službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…) i agregatori poput Songkicka. Podaci se automatski osvježavaju svaki dan.</p>
+  <p><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event) i Songkick. Podaci se automatski osvježavaju svaki dan.</p>
   <p>Datumi i cijene mogu se promijeniti, pa prije kupnje ulaznice provjeri kod organizatora (poveznica „Izvor” uz svaki koncert).</p>
 </footer>
 
 <script>
 const DATA = /*__DATA__*/{"updated":"2026-11-08","venues":{},"events":[]};
 const UPDATED = DATA.updated;
-const VENUES = Object.fromEntries(Object.entries(DATA.venues).map(([k,v])=>[k,{n:v.name, a:v.address||"", full:v.full, group:v.group}]));
+const VENUES = Object.fromEntries(Object.entries(DATA.venues).map(([k,v])=>[k,{n:v.name, a:v.address||"", full:v.full, group:v.group, city:v.city||"zagreb"}]));
+const CITIES = DATA.cities || {zagreb:{name:"Zagreb", in:"u Zagrebu"}};
+const cityName = c => (CITIES[c]||CITIES.zagreb).name;
 const GENRES = {
   rock:"Rock", metal:"Metal", punk:"Punk", alt:"Alternativa", pop:"Pop", narodna:"Narodna",
   elektro:"Elektronika", dj:"DJ party", hiphop:"Hip-hop", jazz:"Jazz", klasika:"Klasika", trad:"Tradicijska", world:"World", djeca:"Za djecu", ostalo:"Ostalo"
@@ -268,7 +274,7 @@ const GENRES = {
 const EVENTS = DATA.events.filter(r=>VENUES[r.venue]).map((r,i)=>{
   const v = VENUES[r.venue];
   return {id:r.id||("e-"+r.date+"-"+r.venue+"-"+r.title.toLowerCase().replace(/[^a-z0-9]+/g,"").slice(0,24)), date:r.date, time:r.time||"", artist:r.title, alt:r.alt||[], vkey:r.venue, vgroup:v.group||r.venue,
-    venue:v.n, addr:v.a, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null,
+    venue:v.n, addr:v.a, city:v.city, genre:GENRES[r.genre]?r.genre:"ostalo", price:r.price||"", src:r.url, links:r.links||null,
     sold:/rasprodano/i.test(r.price||""), free:/besplatno/i.test(r.price||"")};
 }).sort((a,b)=> (a.date+(a.time||"99")).localeCompare(b.date+(b.time||"99")));
 
@@ -312,7 +318,28 @@ let REM = "1440,180";
 try { const r = localStorage.getItem("kz-rem"); if (r !== null && r in REM_OPTS) REM = r; } catch(e) {}
 const S = {q:"", venue:"", genres:new Set(), range:"", hideSold:false, freeOnly:false, favOnly:false, calMonth:null, day:""};
 
-const upcoming = EVENTS.filter(e => e.date >= TODAY);
+// Grad: ?grad=… u adresi, zatim zadnji odabir, inače Zagreb. Podijeljeni popis (#moji=…) otvara svoj grad.
+let CITY = (()=>{
+  let c = new URLSearchParams(location.search).get("grad");
+  if (!c) { try { c = localStorage.getItem("kz-city"); } catch(e) {} }
+  const ids = (location.hash.match(/^#moji=([a-z0-9,]+)/i)||[])[1];
+  if (ids){ const first = EVENTS.find(e=>ids.split(",").includes(e.id)); if (first) c = first.city; }
+  return CITIES[c] ? c : "zagreb";
+})();
+const PRE = CITY==="zagreb" ? "" : CITY+"-";   // prefiks kalendara i RSS-a za druge gradove
+document.getElementById("cityIn").textContent = CITIES[CITY].in;
+document.title = "Koncerti " + CITIES[CITY].in;
+(function(){
+  const sel = document.getElementById("city"), keys = Object.keys(CITIES);
+  if (keys.length < 2) return;
+  sel.innerHTML = keys.map(k=>`<option value="${k}"${k===CITY?" selected":""}>${esc(CITIES[k].name)}</option>`).join("");
+  sel.hidden = false; document.getElementById("cityChev").removeAttribute("hidden");
+  sel.addEventListener("change", ()=>{
+    const c = sel.value; try { localStorage.setItem("kz-city", c); } catch(e) {}
+    location.href = location.pathname + (c==="zagreb" ? "" : "?grad="+c);
+  });
+})();
+const upcoming = EVENTS.filter(e => e.date >= TODAY && e.city === CITY);
 
 function match(e, ignoreRange){
   if (S.q){ const q=S.q.toLowerCase(); if(!(e.artist+" "+e.venue+" "+e.alt.join(" ")).toLowerCase().includes(q)) return false; }
@@ -330,10 +357,11 @@ function match(e, ignoreRange){
 }
 
 // header
+const plural = (n, one, few, many) => (n%10===1 && n%100!==11) ? one : (n%10>=2 && n%10<=4 && (n%100<12 || n%100>14)) ? few : many;
 const venueCount = new Set(upcoming.map(e=>e.vgroup)).size;
 const u = parse(UPDATED);
 document.getElementById("meta").innerHTML =
-  `<strong>${upcoming.length} koncerata</strong> u ${venueCount} prostora, od Arene do Močvare. Podaci od ${u.getDate()}. ${MONTHS[u.getMonth()]} ${u.getFullYear()}.`;
+  `<strong>${upcoming.length} ${plural(upcoming.length,"koncert","koncerta","koncerata")}</strong> u ${venueCount} ${plural(venueCount,"prostoru","prostora","prostora")}${CITY==="zagreb" ? ", od Arene do Močvare" : ""}. Podaci od ${u.getDate()}. ${MONTHS[u.getMonth()]} ${u.getFullYear()}.`;
 
 function renderQuick(){
   const el = document.getElementById("quick");
@@ -392,10 +420,10 @@ function gcalLink(e){
     dates = `${d}/${iso(addDays(parse(e.date),1)).replace(/-/g,"")}`;
   }
   const p = new URLSearchParams({action:"TEMPLATE", text:e.artist, dates, ctz:"Europe/Zagreb",
-    location: e.venue + (e.addr? ", "+e.addr : "") + ", Zagreb", details:"Izvor: "+e.src});
+    location: e.venue + (e.addr? ", "+e.addr : "") + ", " + cityName(e.city), details:"Izvor: "+e.src});
   return "https://calendar.google.com/calendar/render?"+p.toString();
 }
-const mapLink = e => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((VENUES[e.vkey].full||e.venue.replace(/ – .*/,""))+", "+(e.addr? e.addr+", ":"")+"Zagreb");
+const mapLink = e => "https://www.google.com/maps/search/?api=1&query="+encodeURIComponent((VENUES[e.vkey].full||e.venue.replace(/ – .*/,""))+", "+(e.addr? e.addr+", ":"")+cityName(e.city));
 
 function priceHTML(e){
   if (e.sold) return `<span class="price sold">Rasprodano</span>`;
@@ -518,9 +546,9 @@ function readShared(){
   SHARED = m ? new Set(m[1].split(",")) : null;
 }
 const feedKey = () => {
-  if (S.genres.size===1) return {key:[...S.genres][0], label:GENRES[[...S.genres][0]]};
+  if (S.genres.size===1) return {key:PRE+[...S.genres][0], label:GENRES[[...S.genres][0]]};
   if (S.venue) return {key:"prostor-"+S.venue, label:(S.venue==="lisinski"?"Lisinski":VENUES[S.venue].n)};
-  return {key:"sve", label:"svi koncerti"};
+  return {key:PRE+"sve", label:"svi koncerti"};
 };
 function feedLinks(key){
   const https = SITE_URL+"cal/"+key+".ics", webcal = https.replace(/^https?:/, "webcal:");
@@ -542,7 +570,7 @@ function renderPanel(){
   const gc = {}; upcoming.forEach(e=>{ gc[e.genre]=(gc[e.genre]||0)+1; });
   const gchips = Object.keys(GENRES).filter(g=>gc[g]).map(g=>`<button type="button" class="chip" data-pg="${g}" aria-pressed="${P.genres.has(g)}">${GENRES[g]}</button>`).join("");
   const vchips = topVenues().map(v=>`<button type="button" class="chip" data-pv="${v.k}" aria-pressed="${P.venues.has(v.k)}">${esc(v.name)}</button>`).join("");
-  const picked = [...[...P.genres].map(g=>({key:g, label:GENRES[g]})), ...[...P.venues].map(k=>({key:"prostor-"+k, label:(k==="lisinski"?"Lisinski":VENUES[k].n)}))];
+  const picked = [...[...P.genres].map(g=>({key:PRE+g, label:GENRES[g]})), ...[...P.venues].map(k=>({key:"prostor-"+k, label:(k==="lisinski"?"Lisinski":VENUES[k].n)}))];
   const rows = picked.length
     ? picked.map(p=>`<div class="feedrow"><b>${esc(p.label)}</b>${feedLinks(p.key)}</div>`).join("") +
       `<p class="note">Svaki odabir dolazi kao zaseban kalendar, pa mu u kalendaru možeš dati boju ili ga privremeno sakriti. Za svaki klikni jednom.</p>`
@@ -610,7 +638,7 @@ function downloadICS(list, name){
   const alarms = e => (REM ? REM.split(",") : []).flatMap(m => ["BEGIN:VALARM","ACTION:DISPLAY",`DESCRIPTION:${x(e.artist)}`,
     // koncert bez satnice traje cijeli dan: "dan prije" = 12 h prije ponoći, tj. podne dan ranije
     `TRIGGER:-PT${e.time ? m : (m==="180" ? 0 : 720)}M`, "END:VALARM"]);
-  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", Zagreb")}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,...alarms(e),"END:VEVENT"));
+  list.forEach(e=>lines.push("BEGIN:VEVENT",`UID:${e.id}@koncerti-zagreb`,...icsDate(e),`SUMMARY:${x(e.artist)}`,`LOCATION:${x(e.venue+(e.addr?", "+e.addr:"")+", "+cityName(e.city))}`,`URL:${/^https?:/i.test(e.src)?e.src:""}`,...alarms(e),"END:VEVENT"));
   lines.push("END:VCALENDAR");
   const a = document.createElement("a");
   a.href = URL.createObjectURL(new Blob([lines.join("\r\n")], {type:"text/calendar"}));
@@ -683,9 +711,9 @@ function renderBanner(){
   document.getElementById("showAll").onclick = ()=>{ location.hash="popis"; };
 }
 function renderRegular(){
-  const regs = Object.entries(DATA.venues).filter(([k,v])=>v.regular && (!S.venue || S.venue===k));
+  const regs = Object.entries(DATA.venues).filter(([k,v])=>v.regular && (v.city||"zagreb")===CITY && (!S.venue || S.venue===k));
   if (!regs.length || S.favOnly || SHARED) return "";
-  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+(v.address||"")+", Zagreb")}" target="_blank" rel="noopener">${esc(v.address||"karta")}</a><span>${esc(v.regular)}</span></div>`).join("")}</section>`;
+  return `<section class="regular"><h3>Redovne svirke</h3><p class="note">Ovi prostori imaju žive svirke, ali program objavljuju samo na društvenim mrežama.</p>${regs.map(([k,v])=>`<div class="rv"><b>${esc(v.name)}</b>, <a href="https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(v.name+", "+(v.address||"")+", "+cityName(v.city||"zagreb"))}" target="_blank" rel="noopener">${esc(v.address||"karta")}</a><span>${esc(v.regular)}</span></div>`).join("")}</section>`;
 }
 
 function view(){ return location.hash==="#kalendar" ? "kalendar" : "popis"; }

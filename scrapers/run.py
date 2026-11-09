@@ -19,12 +19,28 @@ from .sources import GENRE_WORDS, JUNK, SOURCES
 ROOT = Path(__file__).resolve().parent.parent
 OUT = ROOT / "data" / "scraped"
 VENUES = json.loads((ROOT / "data" / "venues.json").read_text())
+CITIES = json.loads((ROOT / "data" / "cities.json").read_text())
 
 
-def venue_from_text(text: str) -> str | None:
-    """Prepoznaj prostor po nazivu u tekstu; dulji nazivi imaju prednost."""
+def city_of(place: str) -> str | None:
+    """Grad iz teksta mjesta ('Dom mladih, Split' -> 'split')."""
+    p = place.lower()
+    for key, c in CITIES.items():
+        if any(re.search(rf"\b{re.escape(w)}\b", p) for w in c["match"]):
+            return key
+    return None
+
+
+def strip_city(name: str, city: str) -> str:
+    words = "|".join(re.escape(w) for w in CITIES.get(city, {}).get("match", []) + [CITIES.get(city, {}).get("name", city)])
+    name = re.sub(rf",\s*\b({words})\b.*$", "", name, flags=re.I).strip(" ,-")
+    return name
+
+
+def venue_from_text(text: str, city: str = "zagreb") -> str | None:
+    """Prepoznaj prostor po nazivu u tekstu; dulji nazivi imaju prednost. Samo prostori iz tog grada."""
     t = text.lower()
-    pairs = [(a.lower(), k) for k, v in VENUES.items() if "group" not in v
+    pairs = [(a.lower(), k) for k, v in VENUES.items() if "group" not in v and v.get("city", "zagreb") == city
              for a in [v.get("name", "")] + v.get("aliases", []) if a]
     for alias, key in sorted(pairs, key=lambda p: -len(p[0])):
         if alias in t:
@@ -79,9 +95,13 @@ def scrape(src: dict) -> list[dict]:
             found = tootoot_events(html, v, url)
         elif parser in ("ulaznice", "coreevent"):
             fn = ulaznice_events if parser == "ulaznice" else coreevent_events
-            found = [e for e in fn(html, url) if "zagreb" in e["_place"].lower()]
-            for e in found:
-                e["venue_name"] = re.sub(r",\s*zagreb.*$", "", e.pop("_place"), flags=re.I).strip()
+            found = []
+            for e in fn(html, url):
+                c = city_of(e["_place"])
+                if c:  # samo gradovi koje pokrivamo
+                    e["city"] = c
+                    e["venue_name"] = strip_city(e.pop("_place"), c)
+                    found.append(e)
         elif parser == "microdata":
             found = microdata_events(html, v, url)
         elif parser == "detail":
@@ -102,16 +122,20 @@ def scrape(src: dict) -> list[dict]:
         else:
             found = jsonld_events(html, v, url) or card_events(html, v, url, card_selector=src.get("card"))
         # Prostor iz teksta (agregatori, KSET) ili dvorana (Lisinski)
+        src_city = src.get("city", "zagreb")
+        if src.get("locality"):  # Songkick: odbaci okolicu (Kranj, Šibenik, Mödling…)
+            found = [e for e in found if city_of(e.get("_text", "")) == src_city]
         for e in found:
+            e["city"] = e.get("city") or src_city
             blob = e.pop("_text", "") or e["title"]
             e["_blob"] = (e["title"] + " " + blob).lower()
             for hall, key in src.get("halls", {}).items():
                 if hall in blob.lower():
                     e["venue"] = key
             if not src["venue"]:
-                e["venue"] = venue_from_text(blob) or src.get("default_venue", "")
+                e["venue"] = venue_from_text(blob, e["city"]) or src.get("default_venue", "")
                 if not e["venue"]:
-                    e["venue_name"] = e.get("venue_name") or blob[:60]
+                    e["venue_name"] = strip_city(e.get("venue_name") or blob[:60], e["city"])
         events += found
         time.sleep(1.5)  # pristojno prema serverima
     # Filtriranje i obogaćivanje

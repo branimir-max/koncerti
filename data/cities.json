@@ -1,0 +1,54 @@
+{
+ "zagreb": {
+  "name": "Zagreb",
+  "in": "u Zagrebu",
+  "pfx": "",
+  "match": [
+   "zagreb"
+  ]
+ },
+ "ljubljana": {
+  "name": "Ljubljana",
+  "in": "u Ljubljani",
+  "pfx": "lj",
+  "match": [
+   "ljubljana"
+  ]
+ },
+ "split": {
+  "name": "Split",
+  "in": "u Splitu",
+  "pfx": "st",
+  "match": [
+   "split"
+  ]
+ },
+ "zabok": {
+  "name": "Zabok",
+  "in": "u Zaboku",
+  "pfx": "zb",
+  "match": [
+   "zabok",
+   "regenerator"
+  ]
+ },
+ "budimpesta": {
+  "name": "Budimpešta",
+  "in": "u Budimpešti",
+  "pfx": "bp",
+  "match": [
+   "budapest",
+   "budimpešta"
+  ]
+ },
+ "bec": {
+  "name": "Beč",
+  "in": "u Beču",
+  "pfx": "wi",
+  "match": [
+   "vienna",
+   "wien",
+   "beč"
+  ]
+ }
+}

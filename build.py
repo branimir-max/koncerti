@@ -17,6 +17,7 @@ ROOT = Path(__file__).resolve().parent
 SITE_URL = "https://branimir-max.github.io/koncerti/"  # promijeni kad dođe vlastita domena
 DATA = ROOT / "data"
 SITE = ROOT / "site"
+CITIES = json.loads((DATA / "cities.json").read_text())
 
 
 def norm(s: str) -> str:
@@ -70,6 +71,8 @@ def trust_links(title: str, links: dict) -> dict:
 
 def main() -> None:
     venues = json.loads((DATA / "venues.json").read_text())
+    for v in venues.values():
+        v.setdefault("city", "zagreb")
     manual = json.loads((DATA / "manual.json").read_text())["events"]
     scraped = []
     for f in sorted((DATA / "scraped").glob("*.json")):
@@ -99,8 +102,10 @@ def main() -> None:
             name = e.get("venue_name") or e.get("venue") or ""
             if not name:
                 return
-            key = slug(name)
-            venues.setdefault(key, {"name": name.strip(), "address": "", "auto": True})
+            city = e.get("city") or "zagreb"
+            pfx = CITIES.get(city, {}).get("pfx", "")
+            key = f"{pfx}-{slug(name)}" if pfx else slug(name)
+            venues.setdefault(key, {"name": name.strip(), "address": "", "auto": True, "city": city})
             e["venue"] = key
         bucket = buckets.setdefault((e["date"], group(e["venue"])), [])
         for old in bucket:
@@ -156,7 +161,11 @@ def main() -> None:
     events = sorted((e for b in buckets.values() for e in b), key=lambda e: (e["date"], e["time"] or "99", e["title"]))
     used = {e["venue"] for e in events} | {venues[e["venue"]].get("group") for e in events if venues[e["venue"]].get("group")}
     out_venues = {k: v for k, v in venues.items() if k in used or v.get("regular")}
-    payload = {"updated": today, "site_url": SITE_URL, "venues": out_venues, "events": events}
+    for e in events:
+        e["city"] = venues[e["venue"]].get("city", "zagreb")
+    used_cities = {e["city"] for e in events} | {"zagreb"}
+    out_cities = {k: {"name": c["name"], "in": c["in"]} for k, c in CITIES.items() if k in used_cities}
+    payload = {"updated": today, "site_url": SITE_URL, "cities": out_cities, "venues": out_venues, "events": events}
 
     # Stabilan kratki ID i datum prve pojave (za RSS "novo najavljeno")
     seen_path = DATA / "seen.json"
@@ -238,7 +247,7 @@ def ics(events: list[dict], venues: dict, name: str) -> str:
         else:
             nxt = (datetime.strptime(e["date"], "%Y-%m-%d") + timedelta(days=1)).strftime("%Y%m%d")
             when = [f"DTSTART;VALUE=DATE:{d}", f"DTEND;VALUE=DATE:{nxt}"]
-        loc = ", ".join(x for x in [v.get("name", ""), v.get("address", ""), "Zagreb"] if x)
+        loc = ", ".join(x for x in [v.get("name", ""), v.get("address", ""), CITIES.get(v.get("city", "zagreb"), {}).get("name", "")] if x)
         desc = " · ".join(x for x in [GENRES.get(e.get("genre") or "ostalo", ""), e.get("price", ""), e.get("url", "")] if x)
         lines += ["BEGIN:VEVENT", f"UID:{e['id']}@koncerti-zagreb", f"DTSTAMP:{stamp}", *when,
                   f"SUMMARY:{ics_escape(e['title'])}", f"LOCATION:{ics_escape(loc)}",
@@ -247,7 +256,7 @@ def ics(events: list[dict], venues: dict, name: str) -> str:
     return "\r\n".join(ics_fold(l) for l in lines) + "\r\n"
 
 
-def rss(events: list[dict], venues: dict, name: str) -> str:
+def rss(events: list[dict], venues: dict, name: str, city_in: str = "u Zagrebu") -> str:
     esc = lambda s: s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")  # noqa: E731
     items = []
     for e in sorted(events, key=lambda e: (e["added"], e["date"]), reverse=True)[:60]:
@@ -259,25 +268,33 @@ def rss(events: list[dict], venues: dict, name: str) -> str:
                      f"<pubDate>{format_datetime(added)}</pubDate>"
                      f"<description>{esc(' · '.join(x for x in [e.get('time',''), v, e.get('price','')] if x))}</description></item>")
     return ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
-            f"<title>{esc(name)}</title><link>https://branimir-max.github.io/koncerti/</link>"
-            f"<description>Novo najavljeni koncerti u Zagrebu</description><language>hr</language>{''.join(items)}</channel></rss>")
+            f"<title>{esc(name)}</title><link>{SITE_URL}</link>"
+            f"<description>Novo najavljeni koncerti {esc(city_in)}</description><language>hr</language>{''.join(items)}</channel></rss>")
 
 
 def write_feeds(events: list[dict], venues: dict) -> None:
+    """Kalendari i RSS po gradu: Zagreb zadržava stare nazive (sve.ics, rock.ics…) da
+    postojeće pretplate rade, a drugi gradovi dobiju prefiks (ljubljana-sve.ics…)."""
     cal, feed = SITE / "cal", SITE / "rss"
     cal.mkdir(parents=True, exist_ok=True)
     feed.mkdir(parents=True, exist_ok=True)
     grp = lambda k: venues.get(k, {}).get("group", k)  # noqa: E731
-    sets = {"sve": ("Koncerti u Zagrebu", events)}
-    for g, label in GENRES.items():
-        sel = [e for e in events if (e.get("genre") or "ostalo") == g]
-        if sel:
-            sets[g] = (f"Koncerti u Zagrebu – {label}", sel)
+    sets = {}
+    for city in {e["city"] for e in events}:
+        c = CITIES[city]
+        pre = "" if city == "zagreb" else f"{city}-"
+        mine = [e for e in events if e["city"] == city]
+        sets[f"{pre}sve"] = (f"Koncerti {c['in']}", mine, c["in"])
+        for g, label in GENRES.items():
+            sel = [e for e in mine if (e.get("genre") or "ostalo") == g]
+            if sel:
+                sets[f"{pre}{g}"] = (f"Koncerti {c['in']} – {label}", sel, c["in"])
     for k in {grp(e["venue"]) for e in events}:
-        sets[f"prostor-{k}"] = (f"Koncerti – {venues.get(k, {}).get('name', k)}", [e for e in events if grp(e["venue"]) == k])
-    for key, (name, sel) in sets.items():
+        sel = [e for e in events if grp(e["venue"]) == k]
+        sets[f"prostor-{k}"] = (f"Koncerti – {venues.get(k, {}).get('name', k)}", sel, CITIES[sel[0]["city"]]["in"])
+    for key, (name, sel, city_in) in sets.items():
         (cal / f"{key}.ics").write_text(ics(sel, venues, name), newline="")
-        (feed / f"{key}.xml").write_text(rss(sel, venues, name))
+        (feed / f"{key}.xml").write_text(rss(sel, venues, name, city_in))
 
 
 if __name__ == "__main__":

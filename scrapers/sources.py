@@ -55,9 +55,25 @@ SOURCES = [
      "strip": [r"\s+u\s+tvornici\s+kulture!?$", r"\s*@.*$", r"\s*[-–|]\s*\d{1,2}\.\s?\d{1,2}\.(\s?\d{4}\.?)?$"],
      "urls": ["https://core-event.co/"]},
     # Agregator: pokriva Arenu, Boogaloo, Vintage, Boćarski dom i manje klubove (JSON-LD MusicEvent)
-    {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE,
+    {"key": "songkick", "venue": None, "strip": [r"\s+@\s+.*$"], "outside": OUTSIDE, "locality": True,
      "urls": ["https://www.songkick.com/metro-areas/29037-croatia-zagreb",
               "https://www.songkick.com/metro-areas/29037-croatia-zagreb?page=2"]},
+
+    # ---------- Drugi gradovi ----------
+    # Split i Zabok stižu preko Ulaznice.hr i Core Eventa (gore). Songkick daje osnovu za
+    # svaki grad ("locality": samo događaji kojima je mjesto baš taj grad, ne okolica),
+    # a službeni programi klubova dodaju se jedan po jedan.
+    *[{"key": f"songkick-{city}", "city": city, "venue": None, "strip": [r"\s+@\s+.*$"], "locality": True,
+       "allow_empty": True, "urls": [f"https://www.songkick.com/metro-areas/{metro}"] +
+       [f"https://www.songkick.com/metro-areas/{metro}?page={n}" for n in range(2, pages + 1)]}
+      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1),
+                                 ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
+    {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True,
+     "urls": ["https://www.kinosiska.si/program/"]},
+    {"key": "cvetlicarna", "city": "ljubljana", "venue": "lj-cvetlicarna", "debug_always": True,
+     "urls": ["https://www.cvetlicarna.info/"]},
+    {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True,
+     "urls": ["https://www.orto-bar.com/dogodki/koncerti/"]},
 ]
 
 # Ključne riječi za prepoznavanje žanra iz naslova (prvi pogodak pobjeđuje)

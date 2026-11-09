@@ -203,5 +203,185 @@
    "Klovićevi dvori",
    "Galerija Klovićevi dvori"
   ]
+ },
+ "lj-kinosiska": {
+  "name": "Kino Šiška",
+  "address": "Trg prekomorskih brigad 3",
+  "aliases": [
+   "Kino Šiška",
+   "Kino Siska",
+   "Cuk Kino Šiška",
+   "Centre for Urban Culture"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-cvetlicarna": {
+  "name": "Cvetličarna",
+  "address": "Kranjčeva ulica 20",
+  "aliases": [
+   "Cvetličarna",
+   "Cvetlicarna",
+   "Media Center Cvetličarna",
+   "Klub Cvetličarna"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-krizanke": {
+  "name": "Križanke",
+  "address": "Trg francoske revolucije 1",
+  "aliases": [
+   "Križanke",
+   "Krizanke",
+   "Viteška dvorana"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-cankarjev": {
+  "name": "Cankarjev dom",
+  "address": "Prešernova cesta 10",
+  "aliases": [
+   "Cankarjev dom",
+   "Cankarjev Dom",
+   "Gallusova dvorana",
+   "Linhartova dvorana",
+   "Klub CD"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-orto": {
+  "name": "Orto bar",
+  "address": "Grablovičeva ulica 1",
+  "aliases": [
+   "Orto Bar",
+   "Orto bar"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-galahala": {
+  "name": "Gala hala (Metelkova)",
+  "address": "",
+  "aliases": [
+   "Gala Hala",
+   "Gala hala"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-channelzero": {
+  "name": "Channel Zero (Metelkova)",
+  "address": "",
+  "aliases": [
+   "Channel Zero"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-gromka": {
+  "name": "Gromka (Metelkova)",
+  "address": "",
+  "aliases": [
+   "Klub Gromka",
+   "Gromka"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-menza": {
+  "name": "Menza pri koritu (Metelkova)",
+  "address": "",
+  "aliases": [
+   "Menza pri koritu",
+   "Menza"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-jalla": {
+  "name": "Jalla Jalla (Metelkova)",
+  "address": "",
+  "aliases": [
+   "Jalla Jalla"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-k4": {
+  "name": "Klub K4",
+  "address": "Kersnikova ulica 4",
+  "aliases": [
+   "Klub K4",
+   "K4"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-stozice": {
+  "name": "Arena Stožice",
+  "address": "Vojkova cesta 100",
+  "aliases": [
+   "Dvorana Stožice",
+   "Dvorana Stozice",
+   "Arena Stožice",
+   "Stožice",
+   "Stozice"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-tivoli": {
+  "name": "Hala Tivoli",
+  "address": "Celovška cesta 25",
+  "aliases": [
+   "Dvorana Tivoli",
+   "Hala Tivoli",
+   "Tivoli Hall"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-cukrarna": {
+  "name": "Cukrarna",
+  "address": "Poljanski nasip 40",
+  "aliases": [
+   "Cukrarna"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-filharmonija": {
+  "name": "Slovenska filharmonija",
+  "address": "Kongresni trg 10",
+  "aliases": [
+   "Slovenska filharmonija",
+   "Slovenian Philharmonic"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-gr": {
+  "name": "Gospodarsko razstavišče",
+  "address": "Dunajska cesta 18",
+  "aliases": [
+   "Gospodarsko razstavišče",
+   "Ljubljana Exhibition & Convention Centre"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-prulcek": {
+  "name": "Prulček",
+  "address": "",
+  "aliases": [
+   "Prulček",
+   "Prulcek"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-festivalna": {
+  "name": "Festivalna dvorana",
+  "address": "",
+  "aliases": [
+   "Festivalna dvorana",
+   "Festivalna Dvorana"
+  ],
+  "city": "ljubljana"
+ },
+ "lj-grad": {
+  "name": "Ljubljanski grad",
+  "address": "",
+  "aliases": [
+   "Ljubljanski grad",
+   "Ljubljana Castle"
+  ],
+  "city": "ljubljana"
  }
 }
