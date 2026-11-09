@@ -46,6 +46,27 @@
   --accent:#7FA6F5;--accent-ink:#0A101C;--accent-soft:#1A2848;--signal:#FF6B55;--star:#F2BC48;
   color-scheme:dark;
 }
+/* Boja grada (lajtmotiv, prema gradskim zastavama); Zagreb ostaje plavi :root */
+:root[data-city="ljubljana"]{--accent:#1F7A3A;--accent-soft:#E2F1E6;--accent-ink:#FFFFFF}
+:root[data-city="split"]{--accent:#0F78B0;--accent-soft:#DFF0F9;--accent-ink:#FFFFFF}
+:root[data-city="rijeka"]{--accent:#8E1B3A;--accent-soft:#F6E3E8;--accent-ink:#FFFFFF}
+:root[data-city="zabok"]{--accent:#127F80;--accent-soft:#DDF2F1;--accent-ink:#FFFFFF}
+:root[data-city="budimpesta"]{--accent:#9A6B00;--accent-soft:#F7EDD3;--accent-ink:#FFFFFF}
+:root[data-city="bec"]{--accent:#C8201B;--accent-soft:#FAE1E0;--accent-ink:#FFFFFF}
+@media (prefers-color-scheme: dark){
+  :root[data-city="ljubljana"]:not([data-theme="light"]){--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
+  :root[data-city="split"]:not([data-theme="light"]){--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
+  :root[data-city="rijeka"]:not([data-theme="light"]){--accent:#E46E8D;--accent-soft:#3A1220;--accent-ink:#0A101C}
+  :root[data-city="zabok"]:not([data-theme="light"]){--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
+  :root[data-city="budimpesta"]:not([data-theme="light"]){--accent:#F2C14E;--accent-soft:#3A2E10;--accent-ink:#1A1300}
+  :root[data-city="bec"]:not([data-theme="light"]){--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
+}
+:root[data-theme="dark"][data-city="ljubljana"]{--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
+:root[data-theme="dark"][data-city="split"]{--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
+:root[data-theme="dark"][data-city="rijeka"]{--accent:#E46E8D;--accent-soft:#3A1220;--accent-ink:#0A101C}
+:root[data-theme="dark"][data-city="zabok"]{--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
+:root[data-theme="dark"][data-city="budimpesta"]{--accent:#F2C14E;--accent-soft:#3A2E10;--accent-ink:#1A1300}
+:root[data-theme="dark"][data-city="bec"]{--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{margin:0}
@@ -64,10 +85,10 @@ h1 .home{color:inherit;text-decoration:none}
 h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
 .toprow{flex:1 0 100%;display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:2px}
 .addgig{display:inline-flex;align-items:center;gap:6px;font-family:var(--font-display);font-weight:800;font-size:16px;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);text-decoration:none;border:2px solid var(--ink);padding:6px 12px 5px;white-space:nowrap}
-.addgig svg{width:15px;height:15px}
+.addgig svg{width:14px;height:14px;display:block;margin-top:-2px}
 .addgig:hover{background:var(--ink);color:var(--bg)}
-.logo{display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:800;font-size:20px;letter-spacing:.3px;color:var(--ink);text-decoration:none;margin-bottom:2px}
-.logo svg{width:22px;height:22px;fill:var(--accent)}
+.logo{display:inline-flex;align-items:center;gap:9px;font-family:var(--font-display);font-weight:800;font-size:27px;letter-spacing:.3px;color:var(--ink);text-decoration:none;margin-bottom:2px}
+.logo svg{width:28px;height:28px;fill:var(--accent)}
 .cities{flex:1 0 100%;display:flex;gap:4px 22px;overflow-x:auto;scrollbar-width:none;margin:2px 0 6px;padding:2px 0 4px;border-bottom:1px solid var(--line)}
 .cities::-webkit-scrollbar{display:none}
 .cities a{flex:none;position:relative;font-family:var(--font-display);font-weight:800;font-size:21px;line-height:1;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);text-decoration:none;padding:6px 0 8px;white-space:nowrap}
@@ -75,10 +96,10 @@ h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text
 .cities a:hover{color:var(--ink)}
 .cities a[aria-current="page"]{color:var(--ink)}
 .cities a[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:4px;background:var(--accent)}
-.more{display:flex;justify-content:center;margin:18px 0 6px}
-.more button{font:inherit;font-weight:600;font-size:15px;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:0;padding:12px 22px;cursor:pointer;text-transform:uppercase;letter-spacing:.04em;font-family:var(--font-display);font-size:18px}
-.more button:hover{background:var(--ink);color:var(--bg)}
-.more small{display:block;font-family:var(--font-body);font-size:12px;text-transform:none;letter-spacing:0;font-weight:500;opacity:.75;margin-top:2px}
+.loadmore{display:flex;justify-content:center;margin:18px 0 6px}
+.loadmore button{font:inherit;font-weight:600;font-size:15px;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:0;padding:12px 22px;cursor:pointer;text-transform:uppercase;letter-spacing:.04em;font-family:var(--font-display);font-size:18px}
+.loadmore button:hover{background:var(--ink);color:var(--bg)}
+.loadmore small{display:block;font-family:var(--font-body);font-size:12px;text-transform:none;letter-spacing:0;font-weight:500;opacity:.75;margin-top:2px}
 .meta{color:var(--muted);font-size:13.5px;max-width:34ch}
 .meta strong{color:var(--ink);font-weight:600}
 .quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:20px}
@@ -343,7 +364,9 @@ let CITY = (()=>{
   if (ids){ const first = EVENTS.find(e=>ids.split(",").includes(e.id)); if (first) c = first.city; }
   return CITIES[c] ? c : "zagreb";
 })();
-const PRE = CITY==="zagreb" ? "" : CITY+"-";   // prefiks kalendara i RSS-a za druge gradove
+const PRE = CITY==="zagreb" ? "" : CITY+"-";
+document.documentElement.dataset.city = CITY;
+(function(){ const m=document.querySelector('meta[name="theme-color"]'); if(m) m.content = getComputedStyle(document.documentElement).getPropertyValue("--accent").trim() || m.content; })();   // prefiks kalendara i RSS-a za druge gradove
 document.getElementById("cityIn").textContent = CITIES[CITY].in;
 document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
 (function(){
@@ -504,7 +527,7 @@ let shownWeeks = 1, lastSig = "";
 function renderList(list){
   if (!list.length) return `<div class="empty">Nema koncerata za ove filtre. Probaj maknuti neki filtar. Znaš za koncert koji fali? <a href="prijavi.html">Prijavi ga</a>.</div>`;
   let more = "";
-  if (!S.q && !S.range && !S.day){
+  if (!S.q && !S.range && !S.day && list.length > 20){   // kratke popise prikaži cijele
     let cut = iso(addDays(parse(TODAY), shownWeeks*7 - 1));
     if (list.length > 15 && list[14].date > cut) cut = list[14].date;   // uvijek barem ~15 koncerata
     const rest = list.filter(e=>e.date > cut);
@@ -512,7 +535,7 @@ function renderList(list){
       const nextCut = iso(addDays(parse(cut), PAGE_DAYS));
       const nNext = rest.filter(e=>e.date <= nextCut).length || Math.min(rest.length, 15);
       list = list.filter(e=>e.date <= cut);
-      more = `<div class="more"><button type="button" id="moreBtn">Prikaži još<small>sljedećih ${nNext} od još ${rest.length} ${plural(rest.length,"koncerta","koncerta","koncerata")}</small></button></div>`;
+      more = `<div class="loadmore"><button type="button" id="moreBtn">Prikaži još<small>sljedećih ${nNext} od još ${rest.length} ${plural(rest.length,"koncerta","koncerta","koncerata")}</small></button></div>`;
     }
   }
   const byDay = {};
