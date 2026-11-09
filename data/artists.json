@@ -170,6 +170,20 @@
   "checked": "2026-11-08",
   "query": "Akustika Session w"
  },
+ "alen islamovic": {
+  "checked": "2026-11-09",
+  "country": "BA",
+  "genre": "",
+  "links": {
+   "spotify": "https://open.spotify.com/artist/1XkpNzMFtZGUTgSArEtuyy",
+   "web": "http://www.alen-islamovic.com",
+   "youtube": "https://www.youtube.com/channel/UCnqLJXfpr1SSCtbtk2ix6rg"
+  },
+  "mbid": "20bd7647-2495-4dd9-b0b3-469790e1bd9b",
+  "name": "Alen Islamović",
+  "query": "Alen ISLAMOVIĆ",
+  "v": 2
+ },
  "allt": {
   "checked": "2026-11-09",
   "country": "",
@@ -527,6 +541,11 @@
   "checked": "2026-11-08",
   "query": "Baby Lasagna u Boogaloo-u!"
  },
+ "baby lasagna u rijeci": {
+  "checked": "2026-11-09",
+  "query": "Baby Lasagna u Rijeci!",
+  "v": 2
+ },
  "back to the 2000": {
   "checked": "2026-11-09",
   "query": "Back To the 2000",
@@ -630,6 +649,22 @@
   "mbid": "b44a1850-3a9e-4784-8428-40b38a2a7a05",
   "name": "Berq",
   "query": "Berq",
+  "v": 2
+ },
+ "bijelo dugme": {
+  "checked": "2026-11-09",
+  "country": "YU",
+  "genre": "rock",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5682",
+   "soundcloud": "https://soundcloud.com/bijelodugmeofficial",
+   "spotify": "https://open.spotify.com/artist/6YrXP3uxNWpENU4zWRUSVx",
+   "web": "http://www.bijelodugme.com.hr/",
+   "youtube": "https://www.youtube.com/channel/UCNqfjjPEVT_6wa_J50xnH6w"
+  },
+  "mbid": "759ed502-d127-4ca0-902f-465efb9e104b",
+  "name": "Bijelo dugme",
+  "query": "Bijelo Dugme",
   "v": 2
  },
  "bila": {
@@ -1822,6 +1857,11 @@
   "query": "Elektro Guzzi",
   "v": 2
  },
+ "elemental u pogonu": {
+  "checked": "2026-11-09",
+  "query": "Elemental u Pogonu!",
+  "v": 2
+ },
  "ella stern": {
   "checked": "2026-11-09",
   "country": "",
@@ -2286,6 +2326,16 @@
   "mbid": "85997032-ff48-4383-b86a-a920d4230a0b",
   "name": "Gloryhammer",
   "query": "Gloryhammer",
+  "v": 2
+ },
+ "grc": {
+  "checked": "2026-11-09",
+  "country": "HR",
+  "genre": "",
+  "links": {},
+  "mbid": "f708c29a-edfd-4c02-b631-2970cdcf0541",
+  "name": "Grč",
+  "query": "GRČ",
   "v": 2
  },
  "green lung": {
@@ -2892,6 +2942,11 @@
   "checked": "2026-11-08",
   "query": "Još gori"
  },
+ "jos gori u pogonu": {
+  "checked": "2026-11-09",
+  "query": "Još Gori u Pogonu!",
+  "v": 2
+ },
  "jose gonzalez": {
   "checked": "2026-11-09",
   "query": "José González",
@@ -3087,6 +3142,11 @@
   "query": "Kid Kapichi",
   "v": 2
  },
+ "kids from the sky": {
+  "checked": "2026-11-09",
+  "query": "Kids From the Sky",
+  "v": 2
+ },
  "kim salmon s smoked salmon": {
   "checked": "2000-01-01",
   "query": "Kim Salmon's Smoked Salmon"
@@ -3207,6 +3267,16 @@
   "checked": "2026-11-08",
   "query": "Kolt Teatar"
  },
+ "koncert": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "b1f189b5-fb98-45ce-9371-d0a0825ebf8a",
+  "name": "Koncert",
+  "query": "koncert",
+  "v": 2
+ },
  "konstantinos argiros": {
   "checked": "2026-11-09",
   "query": "Konstantinos Argiros",
@@ -3300,6 +3370,16 @@
  "kucno kino ribnjak": {
   "checked": "2026-11-08",
   "query": "KUĆNO KINO RIBNJAK"
+ },
+ "kuzma": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "192e8d48-2950-4942-803f-53991927d4fb",
+  "name": "KUZMA",
+  "query": "Kuzma",
+  "v": 2
  },
  "kytes": {
   "checked": "2026-11-09",
@@ -3820,6 +3900,11 @@
   "mbid": "56c13a16-b4ae-4f0a-b317-2ba6f2ecc2f3",
   "name": "Martin Listabarth",
   "query": "Martin Listabarth",
+  "v": 2
+ },
+ "martinje uz gustafe": {
+  "checked": "2026-11-09",
+  "query": "Martinje uz Gustafe",
   "v": 2
  },
  "maruska aras": {
@@ -4559,6 +4644,11 @@
   "checked": "2026-11-08",
   "query": "NO Jazz"
  },
+ "nostalgicin": {
+  "checked": "2026-11-09",
+  "query": "Nostalgicin",
+  "v": 2
+ },
  "nouvelle vague": {
   "checked": "2026-11-09",
   "country": "FR",
@@ -4865,6 +4955,27 @@
   "checked": "2026-11-08",
   "query": "Plattenbau"
  },
+ "podocnjaci": {
+  "checked": "2026-11-09",
+  "country": "HR",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/97973802",
+   "instagram": "https://www.instagram.com/podocnjaciofficial/",
+   "spotify": "https://open.spotify.com/artist/6J2pMjmemDWMD4ndjsNwnr",
+   "web": "https://podocnjacimusic.com/",
+   "youtube": "https://www.youtube.com/@podocnjacimusic"
+  },
+  "mbid": "8a1f82c2-93c8-4db5-bd47-980ad7e1f085",
+  "name": "Podočnjaci",
+  "query": "Podočnjaci",
+  "v": 2
+ },
+ "podocnjaci u rijeci": {
+  "checked": "2026-11-09",
+  "query": "PODOČNJACI u Rijeci!",
+  "v": 2
+ },
  "podrzi scenu": {
   "checked": "2026-11-08",
   "query": "Podrži scenu!"
@@ -5062,6 +5173,11 @@
  "repetitor u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "REPETITOR u Tvornici kulture"
+ },
+ "retro techno": {
+  "checked": "2026-11-09",
+  "query": "Retro Techno",
+  "v": 2
  },
  "reverse bullets": {
   "checked": "2026-11-09",
@@ -5862,6 +5978,11 @@
   "checked": "2026-11-08",
   "query": "Sve Je To u Vašoj Glavi"
  },
+ "svemirko u rijeci": {
+  "checked": "2026-11-09",
+  "query": "Svemirko u Rijeci!",
+  "v": 2
+ },
  "svemirko u vintage u": {
   "checked": "2026-11-08",
   "query": "Svemirko u Vintage-u!"
@@ -5931,6 +6052,11 @@
  "terror": {
   "checked": "2026-11-09",
   "query": "Terror",
+  "v": 2
+ },
+ "the black wizards u rijeci": {
+  "checked": "2026-11-09",
+  "query": "The Black Wizards u Rijeci!",
   "v": 2
  },
  "the browning": {
@@ -6833,6 +6959,23 @@
   "query": "Željko Joksimović",
   "v": 2
  },
+ "zeljko samardzic": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/126473",
+   "facebook": "https://www.facebook.com/272249040959",
+   "instagram": "https://www.instagram.com/zeljko_samardzic/",
+   "spotify": "https://open.spotify.com/artist/0M7vmKfvE4HPMPWAEsTBM3",
+   "web": "http://www.zeljkosamardzic.com/",
+   "youtube": "https://www.youtube.com/channel/UCbqC4WPSxoxahHVnCfFTCxg"
+  },
+  "mbid": "6c582671-4514-4864-b34c-dd9e6bcb50b7",
+  "name": "Željko Samardžić",
+  "query": "Željko Samardžić",
+  "v": 2
+ },
  "zemlinsky": {
   "checked": "2026-11-09",
   "query": "Zemlinsky",
@@ -6872,5 +7015,15 @@
  "zubi": {
   "checked": "2026-11-08",
   "query": "Zubi"
+ },
+ "zvjezdan ruzic": {
+  "checked": "2026-11-09",
+  "country": "HR",
+  "genre": "",
+  "links": {},
+  "mbid": "8fddb9b7-e119-4c5a-811f-a42da8d51598",
+  "name": "Zvjezdan Ružić",
+  "query": "Zvjezdan Ružić",
+  "v": 2
  }
 }

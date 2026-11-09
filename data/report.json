@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-09T09:05:35+00:00",
+ "run_at": "2026-11-09T09:42:41+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -14,9 +14,8 @@
    "count": 12
   },
   "dvaosam": {
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='dvaosam.com', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "count": 6
   },
   "kset": {
    "ok": true,
@@ -41,7 +40,7 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 94
+   "count": 114
   },
   "songkick": {
    "ok": true,
@@ -55,6 +54,10 @@
    "ok": true,
    "count": 1
   },
+  "songkick-rijeka": {
+   "ok": true,
+   "count": 5
+  },
   "songkick-budimpesta": {
    "ok": true,
    "count": 122
@@ -63,15 +66,14 @@
    "ok": true,
    "count": 242
   },
-  "kinosiska": {
+  "visitrijeka": {
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://www.kinosiska.si/program/"
+   "error": "HTTPError: 404 Client Error: Not Found for url: https://visitrijeka.hr/en/events/categoria/culture-art/2026-11/?ical=1"
   },
-  "cvetlicarna": {
-   "ok": false,
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='www.cvetlicarna.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cvetlicarna.info'. (_ssl.c:1011)\"))"
+  "kinosiska": {
+   "ok": true,
+   "count": 2
   },
   "orto": {
    "ok": false,

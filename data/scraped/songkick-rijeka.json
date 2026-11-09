@@ -1,0 +1,61 @@
+[
+ {
+  "date": "2026-11-13",
+  "time": "20:00",
+  "title": "Podočnjaci",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43411279-podocnjaci-at-crkva-club?utm_medium=organic&utm_source=microformat",
+  "city": "rijeka",
+  "venue_name": "Crkva Club",
+  "source": "songkick-rijeka"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "20:00",
+  "title": "Picastro",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43493217-picastro-at-beertija?utm_medium=organic&utm_source=microformat",
+  "city": "rijeka",
+  "venue_name": "The Beertija",
+  "source": "songkick-rijeka"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "20:00",
+  "title": "Bijelo Dugme",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/festivals/3807064-bijelo-dugme-rijeka/id/43435616-bijelo-dugme--rijeka-2026?utm_medium=organic&utm_source=microformat",
+  "city": "rijeka",
+  "venue_name": "Centar Zamet",
+  "source": "songkick-rijeka"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "20:00",
+  "title": "Zvjezdan Ružić",
+  "venue": "ri-hkd",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43232805-zvjezdan-ruzic-at-hkd-na-susaku?utm_medium=organic&utm_source=microformat",
+  "city": "rijeka",
+  "source": "songkick-rijeka"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "20:00",
+  "title": "Željko Samardžić",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43478355-zeljko-samardzic-at-centar-zamet?utm_medium=organic&utm_source=microformat",
+  "city": "rijeka",
+  "venue_name": "Centar Zamet",
+  "source": "songkick-rijeka"
+ }
+]
