@@ -1,15 +1,5 @@
 [
  {
-  "date": "2026-11-08",
-  "time": "18:00",
-  "title": "Završnica 48. Smotre Folklornih Amatera Grada Zagreba",
-  "venue": "lisV",
-  "genre": "trad",
-  "price": "15–20 €",
-  "url": "https://www.lisinski.hr/hr/dogadanja/zavrsnica-48-smotre-folklornih-amatera-grada-zagre/",
-  "source": "lisinski"
- },
- {
   "date": "2026-11-09",
   "time": "19:00",
   "title": "Koncert u Povodu 220. Obljetnice Osnutka Židovske Općine Zagreb",
@@ -92,21 +82,21 @@
  {
   "date": "2026-11-15",
   "time": "20:00",
-  "title": "Flamenco en Vivo! feat. la Lupi",
-  "venue": "lisM",
-  "genre": "world",
-  "price": "rasprodano",
-  "url": "https://www.lisinski.hr/hr/dogadanja/flamenco-en-vivo-feat-la-lupi/",
-  "source": "lisinski"
- },
- {
-  "date": "2026-11-15",
-  "time": "20:00",
   "title": "Najbolji Hrvatski Tamburaši - Upregnite u Fijaker Vrance",
   "venue": "lisV",
   "genre": "trad",
   "price": "30–40 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/najbolji-hrvatski-tamburasi-upregnite-u-fijaker-vr/",
+  "source": "lisinski"
+ },
+ {
+  "date": "2026-11-15",
+  "time": "20:00",
+  "title": "Flamenco en Vivo! feat. la Lupi",
+  "venue": "lisM",
+  "genre": "world",
+  "price": "rasprodano",
+  "url": "https://www.lisinski.hr/hr/dogadanja/flamenco-en-vivo-feat-la-lupi/",
   "source": "lisinski"
  },
  {
@@ -337,6 +327,16 @@
   "genre": "djeca",
   "price": "25 €",
   "url": "https://www.lisinski.hr/hr/dogadanja/jacques-houdek-kad-si-sretan-najljepse-djecje-pj-3/",
+  "source": "lisinski"
+ },
+ {
+  "date": "2026-12-08",
+  "time": "19:30",
+  "title": "Lions Klub Zrinjevac za Prihvatilište Križ u Zagrebu",
+  "venue": "lisM",
+  "genre": "",
+  "price": "",
+  "url": "https://www.lisinski.hr/hr/dogadanja/lions-klub-zrinjevac-za-prihvatiliste-kriz-u-zagre/",
   "source": "lisinski"
  },
  {

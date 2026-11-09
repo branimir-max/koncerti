@@ -891,6 +891,17 @@
   "source": "coreevent"
  },
  {
+  "date": "2027-05-01",
+  "time": "20:00",
+  "title": "Nouvelle Vague",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/nouvelle-vague-u-tvornici-kulture-f329/",
+  "venue_name": "TVORNICA KULTURE",
+  "source": "coreevent"
+ },
+ {
   "date": "2027-05-09",
   "time": "20:00",
   "title": "Ian Paice (deep Purple) Purpendicular",

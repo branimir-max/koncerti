@@ -4,17 +4,19 @@
   "query": "СОЮЗ"
  },
  "16 horsepower": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "alt",
   "links": {
    "deezer": "https://www.deezer.com/artist/1414",
    "facebook": "https://www.facebook.com/p/sixteen-horsepower-100063927750825",
-   "instagram": "https://www.instagram.com/16horsepower_band/"
+   "instagram": "https://www.instagram.com/16horsepower_band/",
+   "web": "http://www.16horsepower.net"
   },
   "mbid": "9a22fc7b-ad7f-4c70-9e0f-4d40cd7562cd",
   "name": "16 Horsepower",
-  "query": "16 Horsepower"
+  "query": "16 Horsepower",
+  "v": 2
  },
  "3 multidisciplinarna konferencija znanost psihodelika u primjeni": {
   "checked": "2026-11-08",
@@ -33,7 +35,7 @@
   "query": "73. Koncertna Sezona Zagrebačkih Solista Petrit Çeku"
  },
  "acid arab": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "elektro",
   "links": {
@@ -47,16 +49,18 @@
   },
   "mbid": "f32e763e-be49-44e2-bde0-27c8e5686992",
   "name": "Acid Arab",
-  "query": "Acid Arab"
+  "query": "Acid Arab",
+  "v": 2
  },
  "adi sose": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "721bc284-25c5-4150-9737-9fdfc5ba55da",
   "name": "Adi Šoše",
-  "query": "Adi Šoše"
+  "query": "Adi Šoše",
+  "v": 2
  },
  "advent prije adventa 2026": {
   "checked": "2026-11-08",
@@ -87,7 +91,7 @@
   "query": "Akustika Session w"
  },
  "alt n gun": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "NL",
   "genre": "rock",
   "links": {
@@ -102,7 +106,8 @@
   },
   "mbid": "cd5799f6-e6cf-4322-a659-96f5de4a2f6c",
   "name": "Altın Gün",
-  "query": "Altın Gün"
+  "query": "Altın Gün",
+  "v": 2
  },
  "altin gun": {
   "checked": "2026-11-08",
@@ -117,7 +122,7 @@
   "query": "Ante Balen u Zagrebu"
  },
  "arab strap": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "alt",
   "links": {
@@ -130,10 +135,11 @@
   },
   "mbid": "6caf09f5-2f01-4f76-bcc7-6207930c56c6",
   "name": "Arab Strap",
-  "query": "Arab Strap"
+  "query": "Arab Strap",
+  "v": 2
  },
  "artur menezes": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BR",
   "genre": "",
   "links": {
@@ -141,7 +147,8 @@
   },
   "mbid": "513db29e-65b1-4aff-bb6e-ed9b643cec6f",
   "name": "Artur Menezes",
-  "query": "ARTUR MENEZES"
+  "query": "ARTUR MENEZES",
+  "v": 2
  },
  "atomsko skloniste i gosti 50 atomskih godina": {
   "checked": "2026-11-08",
@@ -176,7 +183,7 @@
   "query": "Bailar Gasolina"
  },
  "bilal": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "pop",
   "links": {
@@ -188,7 +195,8 @@
   },
   "mbid": "260097c7-d628-4a3f-966f-956ea430c0d8",
   "name": "Bilal",
-  "query": "Bilal"
+  "query": "Bilal",
+  "v": 2
  },
  "bitanga": {
   "checked": "2026-11-08",
@@ -207,7 +215,7 @@
   "query": "Britni i Panterski"
  },
  "bruce dickinson": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "metal",
   "links": {
@@ -221,14 +229,15 @@
   },
   "mbid": "50698127-f6f4-4c0c-8010-db98c21100e1",
   "name": "Bruce Dickinson",
-  "query": "Bruce Dickinson"
+  "query": "Bruce Dickinson",
+  "v": 2
  },
  "brzeguze w": {
   "checked": "2026-11-08",
   "query": "brzeguze w"
  },
  "buzzcocks": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "pop",
   "links": {
@@ -242,7 +251,8 @@
   },
   "mbid": "31e9c35b-2675-4632-8596-f9bd9286f6c8",
   "name": "Buzzcocks",
-  "query": "Buzzcocks"
+  "query": "Buzzcocks",
+  "v": 2
  },
  "buzzcocks u tvornici kulture": {
   "checked": "2026-11-08",
@@ -261,7 +271,7 @@
   "query": "Christopher Robin Cox and Powercords"
  },
  "clan of xymox": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "NL",
   "genre": "rock",
   "links": {
@@ -275,10 +285,11 @@
   },
   "mbid": "1fc54353-dcd0-47b1-bb59-7bd2974df829",
   "name": "Clan of Xymox",
-  "query": "Clan of Xymox"
+  "query": "Clan of Xymox",
+  "v": 2
  },
  "cockney rejects": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "punk",
   "links": {
@@ -288,7 +299,8 @@
   },
   "mbid": "9a4c746f-8ae7-47a1-8292-937ec6792e7a",
   "name": "Cockney Rejects",
-  "query": "Cockney Rejects"
+  "query": "Cockney Rejects",
+  "v": 2
  },
  "come closer": {
   "checked": "2026-11-08",
@@ -299,7 +311,7 @@
   "query": "Conjurer u Boogaloo-u!"
  },
  "crimson glory": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "metal",
   "links": {
@@ -313,14 +325,15 @@
   },
   "mbid": "83560efc-3ead-446a-9652-02476a5f18c3",
   "name": "Crimson Glory",
-  "query": "Crimson Glory"
+  "query": "Crimson Glory",
+  "v": 2
  },
  "croatia goes hardcore": {
   "checked": "2026-11-08",
   "query": "Croatia Goes Hardcore"
  },
  "crvena jabuka": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BA",
   "genre": "rock",
   "links": {
@@ -329,11 +342,13 @@
    "instagram": "https://www.instagram.com/crvenajabukaofficial/",
    "soundcloud": "https://soundcloud.com/crvenajabuka",
    "spotify": "https://open.spotify.com/artist/19hMTYd0ummiKGQEDI1C6s",
+   "web": "https://crvena-jabuka.com/",
    "youtube": "https://www.youtube.com/channel/UCi-wA5tOhq291rOwbEoTIEw"
   },
   "mbid": "e46cf239-77ed-4aa4-a12a-17264f747935",
   "name": "Crvena jabuka",
-  "query": "Crvena Jabuka"
+  "query": "Crvena Jabuka",
+  "v": 2
  },
  "cudnovata dama trema": {
   "checked": "2026-11-08",
@@ -352,7 +367,7 @@
   "query": "David Elefson"
  },
  "david morales": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "elektro",
   "links": {
@@ -367,7 +382,8 @@
   },
   "mbid": "5cc3455b-99b4-415a-9acc-6c335b92f756",
   "name": "David Morales",
-  "query": "David Morales"
+  "query": "David Morales",
+  "v": 2
  },
  "david temelkov": {
   "checked": "2026-11-08",
@@ -402,13 +418,14 @@
   "query": "Dočekaj Martinja uz Gustafe"
  },
  "dolores": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {},
   "mbid": "6ffee7da-5ba3-4efd-93ce-c640bd549f8d",
   "name": "Dolores",
-  "query": "Dolores"
+  "query": "Dolores",
+  "v": 2
  },
  "doma je najljepse": {
   "checked": "2026-11-08",
@@ -436,7 +453,7 @@
   "query": "Draga Ulija"
  },
  "drazen zecic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -447,60 +464,66 @@
   },
   "mbid": "f8ddbcd8-a856-4508-a353-0b43159b8f65",
   "name": "Dražen Zečić",
-  "query": "Dražen Zečić"
+  "query": "Dražen Zečić",
+  "v": 2
  },
  "drito iz bocarskog": {
   "checked": "2026-11-08",
   "query": "Drito Iz Boćarskog"
  },
  "drugi nacin": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "rock",
   "links": {},
   "mbid": "37ec6f32-48eb-4f6e-9657-334dd81a097d",
   "name": "Drugi način",
-  "query": "Drugi Način"
+  "query": "Drugi Način",
+  "v": 2
  },
  "drugi plan": {
   "checked": "2026-11-08",
   "query": "Drugi Plan"
  },
  "dunjaluk": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {},
   "mbid": "9ea8e077-e354-4d4a-b2da-ea7df745a026",
   "name": "Dunjaluk",
-  "query": "Dunjaluk"
+  "query": "Dunjaluk",
+  "v": 2
  },
  "dzo maracic maki": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "828a695d-697f-4ba4-8416-e6f37bf98002",
   "name": "Džo Maračić Maki",
-  "query": "Džo Maračić Maki"
+  "query": "Džo Maračić Maki",
+  "v": 2
  },
  "eagle eye cherry": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "SE",
   "genre": "rock",
   "links": {
    "deezer": "https://www.deezer.com/artist/1193",
    "facebook": "https://www.facebook.com/EagleEyeCherryofficial",
+   "instagram": "https://www.instagram.com/eagle_eyecherry/",
    "spotify": "https://open.spotify.com/artist/3ngKsDXZAssmljeXCvEgOe",
    "web": "http://www.eagle-eye-cherry.com/",
    "youtube": "https://www.youtube.com/channel/UC2t2ZkC7eKVtYzECM7SdtOQ"
   },
   "mbid": "4a5777b3-f55b-437c-8b23-d9ee7791c7fc",
   "name": "Eagle‐Eye Cherry",
-  "query": "Eagle-Eye Cherry"
+  "query": "Eagle-Eye Cherry",
+  "v": 2
  },
  "editors": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "alt",
   "links": {
@@ -515,14 +538,15 @@
   },
   "mbid": "0efe858c-89e5-4e47-906a-356fa953fd6e",
   "name": "Editors",
-  "query": "Editors"
+  "query": "Editors",
+  "v": 2
  },
  "edo maajka na salati": {
   "checked": "2026-11-08",
   "query": "EDO MAAJKA na Šalati!"
  },
  "electric six": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "alt",
   "links": {
@@ -535,20 +559,24 @@
   },
   "mbid": "54b0584e-4e5e-4976-80d4-eea7a82a7213",
   "name": "Electric Six",
-  "query": "Electric Six"
+  "query": "Electric Six",
+  "v": 2
  },
  "electric six u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "ELECTRIC SIX u Tvornici Kulture"
  },
  "enis beslagic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
-  "links": {},
+  "links": {
+   "instagram": "https://www.instagram.com/beslagicenis_jedini_pravi/"
+  },
   "mbid": "d6a92653-d08a-4ddb-9b51-bc47605e0dff",
   "name": "Enis Bešlagić",
-  "query": "Enis Bešlagić"
+  "query": "Enis Bešlagić",
+  "v": 2
  },
  "feelharmonija ususret muzickom biennalu zagreb ivan josip skender": {
   "checked": "2026-11-08",
@@ -559,20 +587,21 @@
   "query": "Flamenco en vivo!"
  },
  "fluentes": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "58451f88-66c6-47b8-9c02-cb2d5c99f9b9",
   "name": "Fluentes",
-  "query": "Fluentes"
+  "query": "Fluentes",
+  "v": 2
  },
  "flux": {
   "checked": "2026-11-08",
   "query": "FLUX"
  },
  "follakzoid": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "CL",
   "genre": "rock",
   "links": {
@@ -587,16 +616,18 @@
   },
   "mbid": "3940a6c3-a334-4fc8-a5d5-1706f59118fe",
   "name": "Föllakzoid",
-  "query": "Föllakzoid"
+  "query": "Föllakzoid",
+  "v": 2
  },
  "foltin": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "6b12ffa7-9688-40b8-9aa2-405db68d8b1e",
   "name": "Foltin",
-  "query": "Foltin"
+  "query": "Foltin",
+  "v": 2
  },
  "fontaines d c u zagrebu": {
   "checked": "2026-11-08",
@@ -619,7 +650,7 @@
   "query": "Gdje je nestalo moje dijete? dopunska nastava za roditelje adolescenata"
  },
  "gipsy kings": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "FR",
   "genre": "pop",
   "links": {
@@ -632,7 +663,8 @@
   },
   "mbid": "44a7f7d5-79df-4f44-8f5e-02dfc0626904",
   "name": "Gipsy Kings",
-  "query": "Gipsy Kings"
+  "query": "Gipsy Kings",
+  "v": 2
  },
  "glas": {
   "checked": "2026-11-08",
@@ -643,29 +675,32 @@
   "query": "Greenlight w"
  },
  "haris dzinovic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BA",
   "genre": "",
   "links": {
    "deezer": "https://www.deezer.com/artist/414575",
    "facebook": "https://www.facebook.com/haris.dzinovic",
+   "instagram": "https://www.instagram.com/harisdzinovic_official/",
    "spotify": "https://open.spotify.com/artist/09RBIwsBGuhgSvNPLKpD3Z",
    "web": "http://www.harisdzinovic.com/",
    "youtube": "https://www.youtube.com/channel/UCivtI3djPy2SrJ5DVsT38ng"
   },
   "mbid": "fb00ab7f-7c5b-4474-baa3-f6227fa52f48",
   "name": "Haris Džinović",
-  "query": "Haris Džinović"
+  "query": "Haris Džinović",
+  "v": 2
  },
  "hohcajt w": {
   "checked": "2026-11-08",
   "query": "hohcajt w"
  },
  "hollywood undead": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "hiphop",
   "links": {
+   "bandcamp": "https://huarmy.bandcamp.com/",
    "deezer": "https://www.deezer.com/artist/17000",
    "facebook": "https://www.facebook.com/hollywoodundead",
    "instagram": "https://www.instagram.com/hollywoodundead/",
@@ -676,7 +711,8 @@
   },
   "mbid": "321fdfbb-426b-43f7-8295-fa9aca6348d9",
   "name": "Hollywood Undead",
-  "query": "Hollywood Undead"
+  "query": "Hollywood Undead",
+  "v": 2
  },
  "hood vibes night": {
   "checked": "2026-11-08",
@@ -691,15 +727,17 @@
   "query": "HUSH! W"
  },
  "ian paice": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "rock",
   "links": {
+   "deezer": "https://www.deezer.com/artist/1577504",
    "spotify": "https://open.spotify.com/artist/2gNdXbhyIbXHWvurrlrUAq"
   },
   "mbid": "29c11f6b-df9f-454f-964e-75eedadb4a1e",
   "name": "Ian Paice",
-  "query": "Ian Paice"
+  "query": "Ian Paice",
+  "v": 2
  },
  "idu hobiti": {
   "checked": "2026-11-08",
@@ -718,7 +756,7 @@
   "query": "Izvorišta Dunije"
  },
  "jasna zlokic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -727,7 +765,8 @@
   },
   "mbid": "b09d7d1b-094d-48e4-9802-13ca69303140",
   "name": "Jasna Zlokić",
-  "query": "Jasna Zlokić"
+  "query": "Jasna Zlokić",
+  "v": 2
  },
  "jazz karneval": {
   "checked": "2026-11-08",
@@ -738,7 +777,7 @@
   "query": "Još gori"
  },
  "josipa lisac": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "rock",
   "links": {
@@ -752,7 +791,8 @@
   },
   "mbid": "a3d0e0ad-e449-4e58-a523-e713422aadbe",
   "name": "Josipa Lisac",
-  "query": "Josipa Lisac"
+  "query": "Josipa Lisac",
+  "v": 2
  },
  "jura stublic": {
   "checked": "2026-11-08",
@@ -763,7 +803,7 @@
   "query": "K-pop Mania"
  },
  "kamelot": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "metal",
   "links": {
@@ -778,10 +818,11 @@
   },
   "mbid": "2449300a-6ca7-45da-8102-22789d256475",
   "name": "Kamelot",
-  "query": "Kamelot"
+  "query": "Kamelot",
+  "v": 2
  },
  "katatonia": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "SE",
   "genre": "metal",
   "links": {
@@ -796,7 +837,8 @@
   },
   "mbid": "61ed9c9c-79eb-4e8f-8015-bd599ac0ab49",
   "name": "Katatonia",
-  "query": "Katatonia"
+  "query": "Katatonia",
+  "v": 2
  },
  "kensington lima": {
   "checked": "2026-11-08",
@@ -811,7 +853,7 @@
   "query": "Kim Salmon's Smoked Salmon"
  },
  "kim wilde": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "pop",
   "links": {
@@ -824,20 +866,22 @@
   },
   "mbid": "4b462375-c508-432a-8c88-ceeec38b16ae",
   "name": "Kim Wilde",
-  "query": "Kim Wilde"
+  "query": "Kim Wilde",
+  "v": 2
  },
  "kim wilde u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "KIM WILDE u Tvornici Kulture"
  },
  "klinika denisa kataneca": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "d1ead493-92bb-4704-a7b0-896a608033fd",
   "name": "Klinika Denisa Kataneca",
-  "query": "Klinika Denisa Kataneca"
+  "query": "Klinika Denisa Kataneca",
+  "v": 2
  },
  "klinika denisa kataneca u tvornici kulture": {
   "checked": "2026-11-08",
@@ -852,7 +896,7 @@
   "query": "Košarkaški Klub Dinamo Zagreb"
  },
  "kovacs": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "NL",
   "genre": "pop",
   "links": {
@@ -866,7 +910,8 @@
   },
   "mbid": "d49a7ace-9471-406e-9ba5-1b33a2c4adbf",
   "name": "Kovacs",
-  "query": "Kovacs"
+  "query": "Kovacs",
+  "v": 2
  },
  "kries u vintage u": {
   "checked": "2026-11-08",
@@ -881,7 +926,7 @@
   "query": "KUĆNO KINO RIBNJAK"
  },
  "lady gaga": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "pop",
   "links": {
@@ -895,14 +940,15 @@
   },
   "mbid": "650e7db6-b795-4eb5-a702-5ea2fc46c848",
   "name": "Lady Gaga",
-  "query": "Lady Gaga"
+  "query": "Lady Gaga",
+  "v": 2
  },
  "lalalar istanbulska psihodelija": {
   "checked": "2026-11-08",
   "query": "Lalalar — Istanbulska Psihodelija"
  },
  "laura pausini": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "IT",
   "genre": "pop",
   "links": {
@@ -916,10 +962,11 @@
   },
   "mbid": "472b9953-1f10-4aed-b1ec-d0c23ffb2cf1",
   "name": "Laura Pausini",
-  "query": "Laura Pausini"
+  "query": "Laura Pausini",
+  "v": 2
  },
  "leo middea": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BR",
   "genre": "",
   "links": {
@@ -933,10 +980,11 @@
   },
   "mbid": "876ca1b6-4d0b-41e3-bd13-8de7af2f941e",
   "name": "Leo Middea",
-  "query": "Leo Middea"
+  "query": "Leo Middea",
+  "v": 2
  },
  "let 3": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "alt",
   "links": {
@@ -948,7 +996,8 @@
   },
   "mbid": "443dfd6c-3e62-4040-9af3-a69a86411cd2",
   "name": "Let 3",
-  "query": "Let 3"
+  "query": "Let 3",
+  "v": 2
  },
  "let 3 u tvornici kulture": {
   "checked": "2026-11-08",
@@ -980,8 +1029,13 @@
   "name": "Lion’s Law",
   "query": "Lion's Law"
  },
+ "lions klub zrinjevac za prihvatiliste kriz u zagrebu": {
+  "checked": "2026-11-09",
+  "query": "Lions Klub Zrinjevac za Prihvatilište Križ u Zagrebu",
+  "v": 2
+ },
  "lions law": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "punk",
   "links": {
@@ -992,7 +1046,8 @@
   },
   "mbid": "f131d1a9-9147-4101-8aa7-6c3f8e033fbf",
   "name": "Lion’s Law",
-  "query": "Lion's Law"
+  "query": "Lion's Law",
+  "v": 2
  },
  "lisinski srijedom": {
   "checked": "2026-11-08",
@@ -1019,16 +1074,17 @@
   "query": "Luka Nižetić Autoportret s Juga 25 Godina Karijere"
  },
  "luky": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "63e376f7-3cb1-4dfd-9bb5-1dabc86cc0a8",
   "name": "Luky",
-  "query": "Luky"
+  "query": "Luky",
+  "v": 2
  },
  "magali sare": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "ES",
   "genre": "jazz",
   "links": {
@@ -1040,10 +1096,11 @@
   },
   "mbid": "7877f283-89e5-4491-b11c-4477c02cb1bd",
   "name": "Magalí Sare",
-  "query": "Magalí Sare"
+  "query": "Magalí Sare",
+  "v": 2
  },
  "marko kutlic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1053,7 +1110,8 @@
   },
   "mbid": "a1c15a35-1020-4008-b896-98912f73d9af",
   "name": "Marko Kutlić",
-  "query": "Marko Kutlić"
+  "query": "Marko Kutlić",
+  "v": 2
  },
  "marko vukes": {
   "checked": "2026-11-08",
@@ -1064,16 +1122,17 @@
   "query": "Maruška Aras"
  },
  "masinko": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "punk",
   "links": {},
   "mbid": "672f9429-1c18-4931-9eed-b21d81f62cb4",
   "name": "Mašinko",
-  "query": "Mašinko"
+  "query": "Mašinko",
+  "v": 2
  },
  "matija cvek": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1082,10 +1141,11 @@
   },
   "mbid": "a05df3f2-cffa-4ea1-be8f-49b4b089bdfd",
   "name": "Matija Cvek",
-  "query": "Matija Cvek"
+  "query": "Matija Cvek",
+  "v": 2
  },
  "mejasi": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1096,10 +1156,11 @@
   },
   "mbid": "fd9f1814-5930-46aa-823f-eb1e54af11c8",
   "name": "Mejaši",
-  "query": "Mejaši"
+  "query": "Mejaši",
+  "v": 2
  },
  "metaklapa": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1108,19 +1169,24 @@
   },
   "mbid": "21c1b2dd-907e-4386-b4e0-b7db44611f78",
   "name": "Metaklapa",
-  "query": "Metaklapa"
+  "query": "Metaklapa",
+  "v": 2
  },
  "miroslav ilic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "RS",
   "genre": "",
-  "links": {},
+  "links": {
+   "deezer": "https://www.deezer.com/artist/432917",
+   "spotify": "https://open.spotify.com/artist/6yKU73GScPUGxItMjEZoYs"
+  },
   "mbid": "c6f4909d-3024-44f9-a875-8299b2d0d150",
   "name": "Miroslav Ilić",
-  "query": "Miroslav Ilić"
+  "query": "Miroslav Ilić",
+  "v": 2
  },
  "miroslav skoro": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1129,14 +1195,15 @@
   },
   "mbid": "543aa817-ec8d-4af2-8de1-1d58b45e38eb",
   "name": "Miroslav Škoro",
-  "query": "Miroslav Škoro"
+  "query": "Miroslav Škoro",
+  "v": 2
  },
  "mmv 2026": {
   "checked": "2026-11-08",
   "query": "MMV 2026"
  },
  "monolord": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "SE",
   "genre": "metal",
   "links": {
@@ -1151,10 +1218,11 @@
   },
   "mbid": "043225b4-3c61-4aea-8644-9065306d3499",
   "name": "Monolord",
-  "query": "Monolord"
+  "query": "Monolord",
+  "v": 2
  },
  "mostar sevdah reunion": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BA",
   "genre": "world",
   "links": {
@@ -1162,10 +1230,11 @@
   },
   "mbid": "7a432caa-44ec-4713-9c4a-d3390565eb77",
   "name": "Mostar Sevdah Reunion",
-  "query": "Mostar Sevdah Reunion"
+  "query": "Mostar Sevdah Reunion",
+  "v": 2
  },
  "mothers finest": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "rock",
   "links": {
@@ -1178,7 +1247,8 @@
   },
   "mbid": "7b38a145-7137-4c61-8d04-89ade521a6fc",
   "name": "Mother’s Finest",
-  "query": "Mothers Finest"
+  "query": "Mothers Finest",
+  "v": 2
  },
  "mudri brk predstavlja": {
   "checked": "2026-11-08",
@@ -1193,7 +1263,7 @@
   "query": "Munly"
  },
  "my new band believe": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "",
   "links": {
@@ -1206,7 +1276,8 @@
   },
   "mbid": "d296518f-e5e3-4ba9-a026-560916dcbc2f",
   "name": "My New Band Believe",
-  "query": "My New Band Believe"
+  "query": "My New Band Believe",
+  "v": 2
  },
  "n bauman": {
   "checked": "2026-11-08",
@@ -1229,25 +1300,32 @@
   "query": "Na Prvi Pogled"
  },
  "najbolji hrvatski tamburasi": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "world",
   "links": {},
   "mbid": "a28f7391-f56f-40fd-b6b7-d0ed019667b1",
   "name": "Najbolji Hrvatski Tamburasi",
-  "query": "Najbolji hrvatski tamburaši"
+  "query": "Najbolji hrvatski tamburaši",
+  "v": 2
  },
  "natali dizdar": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
-  "links": {},
+  "links": {
+   "facebook": "https://www.facebook.com/natalidizdar.official",
+   "instagram": "https://www.instagram.com/natalidizdar/",
+   "spotify": "https://open.spotify.com/artist/1WapVAszFAieFwhh60F1F3",
+   "web": "https://hr-hr.facebook.com/natalidizdar.official"
+  },
   "mbid": "c38beb42-7487-4cc0-a7c1-6f3d6bf30069",
   "name": "Natali Dizdar",
-  "query": "Natali Dizdar"
+  "query": "Natali Dizdar",
+  "v": 2
  },
  "natasa bekvalac": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "RS",
   "genre": "",
   "links": {
@@ -1255,37 +1333,59 @@
    "facebook": "https://www.facebook.com/natasab.official",
    "instagram": "https://www.instagram.com/bekvalceva/",
    "spotify": "https://open.spotify.com/artist/0fLubJall2M6nQ61eCphyj",
+   "web": "http://www.natasabekvalac.rs",
    "youtube": "https://www.youtube.com/channel/UCYd42uqEFBlXl-THI-QtDUQ"
   },
   "mbid": "ef2c6587-db95-4b6b-bea0-e0521c82ff13",
   "name": "Nataša Bekvalac",
-  "query": "Nataša Bekvalac"
+  "query": "Nataša Bekvalac",
+  "v": 2
  },
  "nemanja": {
   "checked": "2026-11-08",
   "query": "nemanja"
  },
  "nikola kojo": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "RS",
   "genre": "",
   "links": {},
   "mbid": "b01379ef-abf0-4e47-aebf-9f5ae329492a",
   "name": "Nikola Kojo",
-  "query": "Nikola Kojo"
+  "query": "Nikola Kojo",
+  "v": 2
  },
  "nikola vranjkovic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "7a6a355a-775d-40d5-baa8-be255826bc85",
   "name": "Nikola Vranjković",
-  "query": "Nikola Vranjković"
+  "query": "Nikola Vranjković",
+  "v": 2
  },
  "no jazz": {
   "checked": "2026-11-08",
   "query": "NO Jazz"
+ },
+ "nouvelle vague": {
+  "checked": "2026-11-09",
+  "country": "FR",
+  "genre": "jazz",
+  "links": {
+   "bandcamp": "https://nouvellevague.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/1387",
+   "facebook": "https://www.facebook.com/nouvellevagueofficial",
+   "instagram": "https://www.instagram.com/nouvellesvagues/",
+   "spotify": "https://open.spotify.com/artist/4h7NLIlg1oYdEtfQJfyto0",
+   "web": "http://www.nouvellevaguemusic.com/",
+   "youtube": "https://music.youtube.com/channel/UC53hOAvsD51G0HfWaPmS8FA"
+  },
+  "mbid": "b017a7ae-e5ee-4675-bb13-c83346134971",
+  "name": "Nouvelle Vague",
+  "query": "Nouvelle Vague",
+  "v": 2
  },
  "novi val poduzetnistva powered by aestus": {
   "checked": "2026-11-08",
@@ -1296,7 +1396,7 @@
   "query": "Ocean Of Another u Zagrebu"
  },
  "officium triste": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "NL",
   "genre": "metal",
   "links": {
@@ -1311,14 +1411,15 @@
   },
   "mbid": "72246929-51c8-4516-af90-3b9d98a37779",
   "name": "Officium Triste",
-  "query": "Officium Triste"
+  "query": "Officium Triste",
+  "v": 2
  },
  "oiv toranj sljeme": {
   "checked": "2026-11-08",
   "query": "Oiv Toranj Sljeme"
  },
  "opca opasnost": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1332,14 +1433,15 @@
   },
   "mbid": "8086adb9-e9f6-49af-9737-d2d3697a281c",
   "name": "Opća opasnost",
-  "query": "Opća Opasnost"
+  "query": "Opća Opasnost",
+  "v": 2
  },
  "paulaner acoustic live session": {
   "checked": "2026-11-08",
   "query": "Paulaner acoustic live session"
  },
  "perpetuum jazzile": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "SI",
   "genre": "",
   "links": {
@@ -1351,7 +1453,8 @@
   },
   "mbid": "478e34fc-23ea-4073-b50c-97b3596a4ccf",
   "name": "Perpetuum Jazzile",
-  "query": "Perpetuum Jazzile"
+  "query": "Perpetuum Jazzile",
+  "v": 2
  },
  "peti korak": {
   "checked": "2026-11-08",
@@ -1382,7 +1485,7 @@
   "query": "Podrži scenu!"
  },
  "portrayal of guilt": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "metal",
   "links": {
@@ -1397,18 +1500,23 @@
   },
   "mbid": "0f3f7357-73d3-42a3-81a5-b359bc4e8a56",
   "name": "portrayal of guilt",
-  "query": "Portrayal of Guilt"
+  "query": "Portrayal of Guilt",
+  "v": 2
  },
  "praying mantis": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "metal",
   "links": {
-   "web": "http://www.prayingmantis.rocks/"
+   "facebook": "https://www.facebook.com/PrayingMantisUKRockMetal",
+   "instagram": "https://www.instagram.com/mantisofficial/",
+   "web": "http://www.prayingmantis.rocks/",
+   "youtube": "https://www.youtube.com/channel/UC9mgPe1jTBoyfVZs2wRidsQ"
   },
   "mbid": "4150ecb6-ec16-474e-8273-d4bdf577e931",
   "name": "Praying Mantis",
-  "query": "Praying Mantis"
+  "query": "Praying Mantis",
+  "v": 2
  },
  "premijera": {
   "checked": "2026-11-08",
@@ -1427,7 +1535,7 @@
   "query": "Project Days 2026"
  },
  "psihomodo pop": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {
@@ -1441,7 +1549,8 @@
   },
   "mbid": "68e38dca-0ae0-4b2e-a5fa-62e39d6e89db",
   "name": "Psihomodo Pop",
-  "query": "Psihomodo Pop"
+  "query": "Psihomodo Pop",
+  "v": 2
  },
  "queer momenti": {
   "checked": "2026-11-08",
@@ -1452,28 +1561,38 @@
   "query": "Rambo Amadeus u Saxu!"
  },
  "ranking ann": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
-  "links": {},
+  "links": {
+   "spotify": "https://open.spotify.com/artist/2L4PjOpTsgJyzQZ6Q94JUg"
+  },
   "mbid": "b383756f-8274-4304-aefb-2d38a67de884",
   "name": "Ranking Ann",
-  "query": "Ranking Ann"
+  "query": "Ranking Ann",
+  "v": 2
  },
  "rave frequencies croatia": {
   "checked": "2026-11-08",
   "query": "Rave Frequencies Croatia"
  },
  "repetitor": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "RS",
   "genre": "",
   "links": {
-   "bandcamp": "https://repetitor.bandcamp.com/"
+   "bandcamp": "https://repetitor.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/4184285",
+   "facebook": "https://www.facebook.com/repetitorbgd",
+   "instagram": "https://www.instagram.com/repetitor_bgd/",
+   "spotify": "https://open.spotify.com/artist/4dd92BDTLc5Q1BSFkfEIfy",
+   "web": "http://www.myspace.com/repetitor/",
+   "youtube": "https://www.youtube.com/channel/UCjFjcMV638t1Ldde7amqNWA"
   },
   "mbid": "7404a2b1-a04b-4157-8790-ec7f2ca67159",
   "name": "Repetitor",
-  "query": "Repetitor"
+  "query": "Repetitor",
+  "v": 2
  },
  "repetitor u tvornici kulture": {
   "checked": "2026-11-08",
@@ -1487,8 +1606,13 @@
   "checked": "2026-11-08",
   "query": "S.a.r.s."
  },
+ "s o r": {
+  "checked": "2026-11-09",
+  "query": "S.O.R.",
+  "v": 2
+ },
  "sarah brightman": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "klasika",
   "links": {
@@ -1502,7 +1626,8 @@
   },
   "mbid": "896f0194-8ab2-4278-81e0-c56a0444b569",
   "name": "Sarah Brightman",
-  "query": "Sarah Brightman"
+  "query": "Sarah Brightman",
+  "v": 2
  },
  "savrseni marginalci u boogaloo u": {
   "checked": "2026-11-08",
@@ -1530,7 +1655,7 @@
   "query": "SCORPIONS with very special guests EUROPE"
  },
  "she loves pablo": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {
@@ -1541,7 +1666,8 @@
   },
   "mbid": "e7bab76f-f19b-4d19-9abb-613c2dc5856f",
   "name": "She Loves Pablo",
-  "query": "SHE LOVES PABLO"
+  "query": "SHE LOVES PABLO",
+  "v": 2
  },
  "shtosmo u tvornici": {
   "checked": "2026-11-08",
@@ -1552,7 +1678,7 @@
   "query": "Silente u Sax-u!"
  },
  "sinisa tamamovic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {
@@ -1561,7 +1687,8 @@
   },
   "mbid": "784c35e7-4b45-484b-b699-844286efe194",
   "name": "Sinisa Tamamovic",
-  "query": "Siniša Tamamović"
+  "query": "Siniša Tamamović",
+  "v": 2
  },
  "sixteen horsepower": {
   "checked": "2026-11-08",
@@ -1588,7 +1715,7 @@
   "query": "Slash featuring Myles Kennedy"
  },
  "slash featuring myles kennedy and the conspirators": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "rock",
   "links": {
@@ -1597,16 +1724,18 @@
   },
   "mbid": "7ce51ba7-91f4-46aa-a030-1e22aaa7510d",
   "name": "Slash featuring Myles Kennedy and the Conspirators",
-  "query": "SLASH featuring Myles Kennedy and The Conspirators"
+  "query": "SLASH featuring Myles Kennedy and The Conspirators",
+  "v": 2
  },
  "slavonske lole": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {},
   "mbid": "86b510a3-b939-4fc4-9f71-94c6e7018f57",
   "name": "Slavonske Lole",
-  "query": "Slavonske Lole"
+  "query": "Slavonske Lole",
+  "v": 2
  },
  "slusaj ovo": {
   "checked": "2026-11-08",
@@ -1617,7 +1746,7 @@
   "query": "Snjeguljica"
  },
  "soen": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "metal",
   "links": {
@@ -1632,10 +1761,11 @@
   },
   "mbid": "7a42f70d-7c01-46d2-bd88-738967a631f0",
   "name": "Soen",
-  "query": "Soen"
+  "query": "Soen",
+  "v": 2
  },
  "solstafir": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "IS",
   "genre": "metal",
   "links": {
@@ -1650,7 +1780,8 @@
   },
   "mbid": "5f976464-4a48-4c0e-aee4-bb70afaf7a8b",
   "name": "Sólstafir",
-  "query": "Sólstafir"
+  "query": "Sólstafir",
+  "v": 2
  },
  "soul legacy": {
   "checked": "2026-11-08",
@@ -1669,7 +1800,7 @@
   "query": "Spike and the Gimme Gimmes u Zagrebu!"
  },
  "spike fuck": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {
@@ -1681,10 +1812,11 @@
   },
   "mbid": "dfd00fba-ae9f-4f0e-a9fc-1da10cbb43da",
   "name": "Spike Fuck",
-  "query": "Spike Fuck"
+  "query": "Spike Fuck",
+  "v": 2
  },
  "spk": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "AU",
   "genre": "elektro",
   "links": {
@@ -1694,7 +1826,8 @@
   },
   "mbid": "7d461c29-63bd-4fdf-b3f3-1f8d25de1fff",
   "name": "SPK",
-  "query": "Spk"
+  "query": "Spk",
+  "v": 2
  },
  "sport innovest 2027": {
   "checked": "2026-11-08",
@@ -1705,7 +1838,7 @@
   "query": "SRCE Super sedmica by House of Flamingo"
  },
  "stereo deficit": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "",
   "genre": "",
   "links": {
@@ -1714,10 +1847,11 @@
   },
   "mbid": "bf57e9d9-3680-41dd-b644-7f6c5b67074d",
   "name": "Stereo Deficit",
-  "query": "Stereo Deficit"
+  "query": "Stereo Deficit",
+  "v": 2
  },
  "stereo mcs": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "jazz",
   "links": {
@@ -1730,7 +1864,8 @@
   },
   "mbid": "5e0ca89b-f5a6-4034-af31-17f10ff5a7d2",
   "name": "Stereo MC’s",
-  "query": "Stereo Mc's"
+  "query": "Stereo Mc's",
+  "v": 2
  },
  "stereo mcs u tvornici kulture": {
   "checked": "2026-11-08",
@@ -1741,7 +1876,7 @@
   "query": "Studio 54 by Tomo Ricov"
  },
  "suede": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "pop",
   "links": {
@@ -1755,7 +1890,8 @@
   },
   "mbid": "a55c2f1b-3f3f-4d6a-aa30-5e186dbadce6",
   "name": "Suede",
-  "query": "SUEDE"
+  "query": "SUEDE",
+  "v": 2
  },
  "suparnice": {
   "checked": "2026-11-08",
@@ -1778,7 +1914,7 @@
   "query": "SWINGERS present's ELVIS! u Tvornici Kulture"
  },
  "tarja": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "FI",
   "genre": "metal",
   "links": {
@@ -1792,24 +1928,27 @@
   },
   "mbid": "1fd8c24b-eaf3-4ee2-9931-b8130099d789",
   "name": "Tarja",
-  "query": "Tarja"
+  "query": "Tarja",
+  "v": 2
  },
  "the cassandra complex": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "elektro",
   "links": {
    "bandcamp": "https://thecassandracomplex.bandcamp.com/",
    "deezer": "https://www.deezer.com/artist/258301",
+   "facebook": "https://www.facebook.com/thecassandracomplex",
    "spotify": "https://open.spotify.com/artist/3NhBwiq1BSgJg7HMJPlwVT",
    "web": "http://cassandracomplex.co.uk/"
   },
   "mbid": "576978ee-657e-418a-a17c-31eac4032352",
   "name": "The Cassandra Complex",
-  "query": "The Cassandra Complex"
+  "query": "The Cassandra Complex",
+  "v": 2
  },
  "the chameleons": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "punk",
   "links": {
@@ -1821,7 +1960,8 @@
   },
   "mbid": "8d07f60f-b9f4-46c0-9c27-31de0fb9b671",
   "name": "The Chameleons",
-  "query": "The Chameleons"
+  "query": "The Chameleons",
+  "v": 2
  },
  "the darts": {
   "checked": "2026-11-08",
@@ -1844,7 +1984,7 @@
   "query": "The Ocean u Zagrebu!"
  },
  "the pineapple thief": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "rock",
   "links": {
@@ -1858,10 +1998,11 @@
   },
   "mbid": "e8f55abb-a6d5-4e5f-81b4-14f9cc320519",
   "name": "The Pineapple Thief",
-  "query": "The Pineapple Thief"
+  "query": "The Pineapple Thief",
+  "v": 2
  },
  "the rasmus": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "FI",
   "genre": "rock",
   "links": {
@@ -1876,10 +2017,11 @@
   },
   "mbid": "012e3432-71d3-4317-9ce5-b60cb6cdc38f",
   "name": "The Rasmus",
-  "query": "The Rasmus"
+  "query": "The Rasmus",
+  "v": 2
  },
  "the riven": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "SE",
   "genre": "rock",
   "links": {
@@ -1890,10 +2032,11 @@
   },
   "mbid": "07578936-dfbf-4509-aa4e-01c2d26f57e7",
   "name": "The Riven",
-  "query": "The Riven"
+  "query": "The Riven",
+  "v": 2
  },
  "this is michael": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BR",
   "genre": "",
   "links": {
@@ -1901,10 +2044,11 @@
   },
   "mbid": "66ea2663-c8e4-4df2-8895-e75e64bfff50",
   "name": "This is Michael",
-  "query": "This is Michael"
+  "query": "This is Michael",
+  "v": 2
  },
  "tindersticks": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "GB",
   "genre": "pop",
   "links": {
@@ -1918,7 +2062,8 @@
   },
   "mbid": "4306a798-e2f8-4192-9a45-2fd41cdae60c",
   "name": "Tindersticks",
-  "query": "Tindersticks"
+  "query": "Tindersticks",
+  "v": 2
  },
  "tom skinner u vintageu": {
   "checked": "2026-11-08",
@@ -1933,13 +2078,14 @@
   "query": "Tomislav Bralić i klapa Intrade"
  },
  "toody cole": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "US",
   "genre": "",
   "links": {},
   "mbid": "905e5ef7-d938-4af8-b5dd-079a6fb5944c",
   "name": "Toody Cole",
-  "query": "Toody Cole"
+  "query": "Toody Cole",
+  "v": 2
  },
  "tri prascica": {
   "checked": "2026-11-08",
@@ -1962,7 +2108,7 @@
   "query": "Vendi opet u Zagrebu"
  },
  "vlatko stefanovski": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "MK",
   "genre": "elektro",
   "links": {
@@ -1976,14 +2122,15 @@
   },
   "mbid": "e9d87fc2-2961-4e12-a56e-67fe1f8be2b9",
   "name": "Vlatko Stefanovski",
-  "query": "Vlatko Stefanovski"
+  "query": "Vlatko Stefanovski",
+  "v": 2
  },
  "vrijeme plesa svecani godisnji koncert ansambla lado": {
   "checked": "2026-11-08",
   "query": "vrijeme Plesa Svečani Godišnji Koncert Ansambla Lado"
  },
  "warhaus": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "BE",
   "genre": "",
   "links": {
@@ -1998,7 +2145,8 @@
   },
   "mbid": "d9fccd7c-a14c-4c1a-8a3b-17d05b2f549c",
   "name": "Warhaus",
-  "query": "Warhaus"
+  "query": "Warhaus",
+  "v": 2
  },
  "when tomorrow comes": {
   "checked": "2026-11-08",
@@ -2009,13 +2157,14 @@
   "query": "Winterfest 2026 Velesajam"
  },
  "yamato": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "JP",
   "genre": "",
   "links": {},
   "mbid": "bb2a5e08-54c0-4830-8474-6d4dab0da29c",
   "name": "YAMATO組−",
-  "query": "Yamato"
+  "query": "Yamato",
+  "v": 2
  },
  "yasmina reza": {
   "checked": "2026-11-08",
@@ -2047,18 +2196,20 @@
   "query": "Zagreb Jazz Workshop"
  },
  "zeljko joksimovic": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "RS",
   "genre": "pop",
   "links": {
    "facebook": "https://www.facebook.com/joksimoviczeljko",
+   "instagram": "https://www.instagram.com/zzeljko/",
    "spotify": "https://open.spotify.com/artist/1pIYImXgkOQFZAeGrLk7ZI",
    "web": "http://www.zeljkojoksimovic.com/",
    "youtube": "https://www.youtube.com/user/ZeljkoJoksimovicTV"
   },
   "mbid": "380b799f-4aca-44e9-aade-5b0714cadb6c",
   "name": "Željko Joksimović",
-  "query": "Željko Joksimović"
+  "query": "Željko Joksimović",
+  "v": 2
  },
  "zene koje vriste u sebi": {
   "checked": "2026-11-08",
@@ -2069,13 +2220,14 @@
   "query": "Žirafa Žiži Pleše Step"
  },
  "zivo blato": {
-  "checked": "2026-11-08",
+  "checked": "2026-11-09",
   "country": "HR",
   "genre": "",
   "links": {},
   "mbid": "15cb4925-3ba4-4b79-b51b-07b6d97005e9",
   "name": "Živo Blato",
-  "query": "Živo Blato"
+  "query": "Živo Blato",
+  "v": 2
  },
  "zivo blato u tvornici kulture": {
   "checked": "2026-11-08",

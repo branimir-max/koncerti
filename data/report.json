@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-08T21:40:23+00:00",
+ "run_at": "2026-11-09T08:36:41+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "mocvara": {
    "ok": true,
-   "count": 14
+   "count": 12
   },
   "dvaosam": {
    "ok": true,
@@ -23,7 +23,7 @@
   },
   "attack": {
    "ok": true,
-   "count": 3
+   "count": 5
   },
   "vintage": {
    "ok": true,
@@ -40,7 +40,7 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 89
+   "count": 90
   },
   "songkick": {
    "ok": true,
