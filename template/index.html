@@ -143,6 +143,14 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .panel .links a,.panel .links button{font-size:13px;padding:6px 10px;border-radius:6px;border:1px solid var(--line);background:var(--bg);color:var(--ink);text-decoration:none;cursor:pointer}
 .panel .links a:hover,.panel .links button:hover{border-color:var(--accent)}
 .panel .feed{margin-top:8px}
+.panel{grid-template-columns:minmax(0,2fr) minmax(0,1fr)}
+@media (max-width:760px){.panel{grid-template-columns:1fr}}
+.pick{display:grid;grid-template-columns:72px minmax(0,1fr);gap:8px;align-items:start;margin-bottom:8px}
+.pick>span{font-size:12.5px;color:var(--muted);padding-top:6px}
+.chipwrap{display:flex;flex-wrap:wrap;gap:6px}
+.feeds{border-top:1px solid var(--line);margin-top:10px;padding-top:10px;display:grid;gap:10px}
+.feedrow{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px}
+.feedrow b{font-size:14px;min-width:90px}
 .panel .feed b{font-size:13px}
 .note{font-size:12.5px;color:var(--muted)}
 .banner{background:var(--accent-soft);border:1px solid var(--accent);border-radius:8px;padding:12px 14px;margin-top:14px;display:flex;flex-wrap:wrap;gap:8px 14px;align-items:center}
@@ -164,6 +172,8 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .cell.out{opacity:.35;cursor:default}
 .cell.past{opacity:.5}
 .cell.today{border:2px solid var(--accent)}
+.cell.sel{background:var(--accent-soft);border-color:var(--accent)}
+#daylist{scroll-margin-top:150px}
 .cell .n{font-weight:600;font-variant-numeric:tabular-nums;font-size:13px}
 .cell .it{font-size:11.5px;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;color:var(--muted)}
 .cell .more{font-size:11px;color:var(--accent);font-weight:600}
@@ -449,12 +459,12 @@ function renderCal(list){
   for(let i=0;i<42;i++){
     const d=addDays(start,i), k=iso(d), evs=byDay[k]||[], out=d.getMonth()!==m;
     if (i>=35 && out) break;
-    const cls=["cell", out?"out":"", k<TODAY?"past":"", k===TODAY?"today":""].join(" ");
+    const cls=["cell", out?"out":"", k<TODAY?"past":"", k===TODAY?"today":"", k===S.day?"sel":""].join(" ");
     const items=evs.slice(0,3).map(e=>`<span class="it">${esc(e.artist)}</span>`).join("");
     const more=evs.length>3?`<span class="more">+${evs.length-3} još</span>`:"";
     cells+=`<button type="button" class="${cls}" ${out||!evs.length?"disabled":""} data-day="${k}" aria-label="${d.getDate()}. ${MONTHS[d.getMonth()]}: ${evs.length} koncerata"><span class="n">${d.getDate()}</span>${evs.length?`<span class="cnt">${evs.length}</span>`:""}${items}${more}</button>`;
   }
-  const sel = S.day ? renderList(list.filter(e=>e.date===S.day)) : `<p class="empty" style="padding:20px 0">Klikni dan za popis koncerata.</p>`;
+  const sel = `<div id="daylist">` + (S.day ? renderList(list.filter(e=>e.date===S.day)) : `<p class="empty" style="padding:20px 0">Klikni dan za popis koncerata.</p>`) + `</div>`;
   return `<div class="cal"><div class="calhead"><button class="icon" type="button" data-mon="-1" aria-label="Prethodni mjesec">‹</button><h2>${MONTHS_N[m]} ${y}.</h2><button class="icon" type="button" data-mon="1" aria-label="Sljedeći mjesec">›</button></div>
   <div class="grid">${DAYS_S.map(d=>`<div class="wd">${d}</div>`).join("")}${cells}</div>${sel}</div>`;
 }
@@ -480,7 +490,14 @@ out.addEventListener("click", ev=>{
   const mo=ev.target.closest("[data-mon]");
   if (mo){ let [y,m]=S.calMonth; m+=Number(mo.dataset.mon); if(m<0){m=11;y--;} if(m>11){m=0;y++;} S.calMonth=[y,m]; S.day=""; render(); return; }
   const dc=ev.target.closest("[data-day]");
-  if (dc && !dc.disabled){ S.day = S.day===dc.dataset.day ? "" : dc.dataset.day; render(); }
+  if (dc && !dc.disabled){
+    S.day = S.day===dc.dataset.day ? "" : dc.dataset.day; render();
+    if (S.day){
+      const dl = document.getElementById("daylist");
+      const smooth = !matchMedia("(prefers-reduced-motion: reduce)").matches;
+      if (dl) dl.scrollIntoView({behavior: smooth ? "smooth" : "auto", block: "start"});
+    }
+  }
 });
 
 // ---------- Kalendar, obavijesti, dijeljenje ----------
@@ -501,25 +518,38 @@ function feedLinks(key){
     <a href="https://calendar.google.com/calendar/render?cid=${encodeURIComponent(webcal)}" target="_blank" rel="noopener">Google kalendar</a>
     <a href="${webcal}">Apple / iPhone</a>
     <a href="https://outlook.live.com/calendar/0/addfromweb?url=${encodeURIComponent(https)}" target="_blank" rel="noopener">Outlook</a>
-    <button type="button" data-copy="${https}">Kopiraj poveznicu</button>
-    <a href="${SITE_URL}rss/${key}.xml" target="_blank" rel="noopener">RSS</a></div>`;
+    <button type="button" data-copy="${https}">Kopiraj poveznicu</button></div>`;
+}
+const P = {genres:new Set(), venues:new Set(), init:false};
+function topVenues(){
+  const c = {}; upcoming.forEach(e=>{ c[e.vgroup]=(c[e.vgroup]||0)+1; });
+  return Object.entries(c).sort((a,b)=>b[1]-a[1]).slice(0,14).map(([k,n])=>({k, n, name: k==="lisinski"?"Lisinski":(VENUES[k]?VENUES[k].n:k)}));
 }
 function renderPanel(){
   const el = document.getElementById("panel");
   if (el.hidden) return;
-  const f = feedKey(), mine = upcoming.filter(e=>favs.has(e.id));
-  const others = [...S.genres].length>1 ? [...S.genres].map(g=>`<div class="feed"><b>${GENRES[g]}</b>${feedLinks(g)}</div>`).join("") : `<div class="feed"><b>${esc(f.label[0].toUpperCase()+f.label.slice(1))}</b>${feedLinks(f.key)}</div>`;
-  el.innerHTML = `<section>
+  if (!P.init){ S.genres.forEach(g=>P.genres.add(g)); if (S.venue) P.venues.add(S.venue); P.init = true; }
+  const gc = {}; upcoming.forEach(e=>{ gc[e.genre]=(gc[e.genre]||0)+1; });
+  const gchips = Object.keys(GENRES).filter(g=>gc[g]).map(g=>`<button type="button" class="chip" data-pg="${g}" aria-pressed="${P.genres.has(g)}">${GENRES[g]}</button>`).join("");
+  const vchips = topVenues().map(v=>`<button type="button" class="chip" data-pv="${v.k}" aria-pressed="${P.venues.has(v.k)}">${esc(v.name)}</button>`).join("");
+  const picked = [...[...P.genres].map(g=>({key:g, label:GENRES[g]})), ...[...P.venues].map(k=>({key:"prostor-"+k, label:(k==="lisinski"?"Lisinski":VENUES[k].n)}))];
+  const rows = picked.length
+    ? picked.map(p=>`<div class="feedrow"><b>${esc(p.label)}</b>${feedLinks(p.key)}</div>`).join("") +
+      `<p class="note">Svaki odabir dolazi kao zaseban kalendar, pa mu u kalendaru možeš dati boju ili ga privremeno sakriti. Za svaki klikni jednom.</p>`
+    : `<p class="note">Odaberi barem jedan žanr ili prostor.</p>`;
+  const mine = upcoming.filter(e=>favs.has(e.id));
+  el.innerHTML = `<section class="sub-sec">
       <h4>Pretplati se na kalendar</h4>
-      <p>Koncerti se sami pojavljuju u tvom kalendaru na mobitelu i osvježavaju se svaki dan. Odaberi žanr ili prostor u filtrima pa se pretplati samo na to, npr. samo jazz ili samo Močvaru.</p>
-      ${others}
-      <p class="note" style="margin-top:10px">RSS javlja novo najavljene koncerte. Možeš ga spojiti s aplikacijom za vijesti ili e-mail obavijesti.</p>
+      <p>Odaberi što te zanima. Ti koncerti se sami pojavljuju u tvom kalendaru i osvježavaju svaki dan, a ostali ne.</p>
+      <div class="pick"><span>Žanrovi</span><div class="chipwrap">${gchips}</div></div>
+      <div class="pick"><span>Prostori</span><div class="chipwrap">${vchips}</div></div>
+      <div class="feeds">${rows}</div>
     </section>
     <section>
       <h4>Moji koncerti (${mine.length})</h4>
       ${mine.length ? `<p>Zvjezdicom spremljeni koncerti. Dodaj ih u kalendar ili pošalji popis prijateljima.</p>
       <div class="links"><button type="button" id="dlMine">Preuzmi u kalendar (.ics)</button><button type="button" data-copy="${SITE_URL}#moji=${mine.map(e=>e.id).join(",")}">Kopiraj poveznicu za dijeljenje</button></div>`
-      : `<p>Klikni zvjezdicu uz koncert da ga spremiš. Spremljene možeš dodati u kalendar ili poslati prijateljima.</p>`}
+      : `<p>Želiš samo pojedine koncerte? Klikni zvjezdicu uz koncert i dodaj ga u kalendar jednim klikom.</p>`}
     </section>`;
 }
 document.getElementById("panelBtn").addEventListener("click", e=>{
@@ -527,6 +557,11 @@ document.getElementById("panelBtn").addEventListener("click", e=>{
   e.currentTarget.setAttribute("aria-expanded", String(!p.hidden)); renderPanel();
 });
 document.getElementById("panel").addEventListener("click", async ev=>{
+  const pg = ev.target.closest("[data-pg]"), pv = ev.target.closest("[data-pv]");
+  if (pg || pv){
+    const set = pg ? P.genres : P.venues, k = pg ? pg.dataset.pg : pv.dataset.pv;
+    set.has(k) ? set.delete(k) : set.add(k); renderPanel(); return;
+  }
   const c = ev.target.closest("[data-copy]");
   if (c){
     try { await navigator.clipboard.writeText(c.dataset.copy); c.textContent = "Kopirano"; }
