@@ -383,5 +383,50 @@
    "Ljubljana Castle"
   ],
   "city": "ljubljana"
+ },
+ "ri-palach": {
+  "name": "Klub Palach",
+  "address": "Kružna 8",
+  "aliases": [
+   "Klub Palach",
+   "Palach"
+  ],
+  "city": "rijeka"
+ },
+ "ri-hkd": {
+  "name": "HKD na Sušaku",
+  "address": "Strossmayerova 1",
+  "aliases": [
+   "HKD na Sušaku",
+   "HKD Sušak",
+   "Hrvatski kulturni dom na Sušaku"
+  ],
+  "city": "rijeka"
+ },
+ "ri-hnk": {
+  "name": "HNK Ivana pl. Zajca",
+  "address": "Uljarska 1",
+  "aliases": [
+   "HNK Ivana pl. Zajca",
+   "HNK Zajc",
+   "HNK Rijeka"
+  ],
+  "city": "rijeka"
+ },
+ "ri-mladost": {
+  "name": "Dvorana Mladosti",
+  "address": "",
+  "aliases": [
+   "Dvorana Mladosti"
+  ],
+  "city": "rijeka"
+ },
+ "ri-marganovo": {
+  "name": "Klub Marganovo",
+  "address": "",
+  "aliases": [
+   "Marganovo"
+  ],
+  "city": "rijeka"
  }
 }

@@ -335,3 +335,28 @@ def coreevent_events(html: str, base_url: str) -> list[dict]:
                     "genre": "", "price": "", "url": clean(a.get("href", base_url)),
                     "_text": place, "_place": place})
     return out
+
+
+# ---------- iCalendar (npr. visitrijeka.hr, WordPress "The Events Calendar") ----------
+
+def ics_events(text: str, base_url: str) -> list[dict]:
+    """Događaji iz .ics datoteke; _place = LOCATION, _cats = CATEGORIES."""
+    text = re.sub(r"\r?\n[ \t]", "", text)  # spoji presavijene retke
+    out = []
+    for block in re.findall(r"BEGIN:VEVENT(.*?)END:VEVENT", text, flags=re.S):
+        f = {}
+        for line in block.strip().splitlines():
+            if ":" not in line:
+                continue
+            k, v = line.split(":", 1)
+            f[k.split(";")[0].upper()] = v.replace("\\,", ",").replace("\\;", ";").replace("\\n", " ").strip()
+        start = f.get("DTSTART", "")
+        m = re.match(r"(\d{4})(\d{2})(\d{2})(?:T(\d{2})(\d{2}))?", start)
+        if not m or not f.get("SUMMARY"):
+            continue
+        d = f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
+        tm = f"{m.group(4)}:{m.group(5)}" if m.group(4) and f"{m.group(4)}{m.group(5)}" != "0000" else ""
+        place = f.get("LOCATION", "")
+        out.append({"date": d, "time": tm, "title": clean(f["SUMMARY"]), "venue": "", "genre": "", "price": "",
+                    "url": f.get("URL") or base_url, "_text": place, "_place": place, "_cats": f.get("CATEGORIES", "").lower()})
+    return out

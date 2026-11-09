@@ -23,6 +23,14 @@
    "split"
   ]
  },
+ "rijeka": {
+  "name": "Rijeka",
+  "in": "u Rijeci",
+  "pfx": "ri",
+  "match": [
+   "rijeka"
+  ]
+ },
  "zabok": {
   "name": "Zabok",
   "in": "u Zaboku",

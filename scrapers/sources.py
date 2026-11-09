@@ -66,8 +66,11 @@ SOURCES = [
     *[{"key": f"songkick-{city}", "city": city, "venue": None, "strip": [r"\s+@\s+.*$"], "locality": True,
        "allow_empty": True, "urls": [f"https://www.songkick.com/metro-areas/{metro}"] +
        [f"https://www.songkick.com/metro-areas/{metro}?page={n}" for n in range(2, pages + 1)]}
-      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1),
+      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1), ("rijeka", "29032-croatia-rijeka", 1),
                                  ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
+    {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics", "debug_always": True,
+     "categories": ["music", "glazba", "koncert", "concert"],
+     "urls": ["https://visitrijeka.hr/en/events/?ical=1"]},
     {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True,
      "urls": ["https://www.kinosiska.si/program/"]},
     {"key": "cvetlicarna", "city": "ljubljana", "venue": "lj-cvetlicarna", "debug_always": True,
