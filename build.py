@@ -14,7 +14,7 @@ from email.utils import format_datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
-SITE_URL = "https://branimir-max.github.io/koncerti/"  # promijeni kad dođe vlastita domena
+SITE_URL = "https://gigomat.com/"
 DATA = ROOT / "data"
 SITE = ROOT / "site"
 CITIES = json.loads((DATA / "cities.json").read_text())

@@ -22,7 +22,7 @@ import requests
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 CACHE = DATA / "artists.json"
-UA = "Gigomat/0.3 ( https://github.com/branimir-max/koncerti )"
+UA = "Gigomat/0.3 ( https://gigomat.com )"
 API = "https://musicbrainz.org/ws/2"
 EXYU = {"HR", "RS", "BA", "SI", "ME", "MK", "XK", "YU"}
 MAX_LOOKUPS = 400  # po pokretanju, da prvi put ne traje predugo

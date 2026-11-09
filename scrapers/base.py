@@ -13,7 +13,7 @@ from datetime import date, datetime
 import requests
 from bs4 import BeautifulSoup
 
-UA = "Gigomat/0.3 (+https://github.com/branimir-max/koncerti)"
+UA = "Gigomat/0.3 (+https://gigomat.com)"
 TIMEOUT = 25
 
 MONTHS_HR = {
