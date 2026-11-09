@@ -64,13 +64,17 @@ h1 .home{color:inherit;text-decoration:none}
 h1 .home:hover span{text-decoration:underline;text-decoration-thickness:4px;text-underline-offset:6px}
 .logo{flex:1 0 100%;display:inline-flex;align-items:center;gap:8px;font-family:var(--font-display);font-weight:800;font-size:20px;letter-spacing:.3px;color:var(--ink);text-decoration:none;margin-bottom:2px}
 .logo svg{width:22px;height:22px;fill:var(--accent)}
-.cities{flex:1 0 100%;display:flex;gap:6px;overflow-x:auto;scrollbar-width:none;margin:0 -2px 4px;padding:2px}
+.cities{flex:1 0 100%;display:flex;gap:4px 22px;overflow-x:auto;scrollbar-width:none;margin:2px 0 6px;padding:2px 0 4px;border-bottom:1px solid var(--line)}
 .cities::-webkit-scrollbar{display:none}
-.cities a{flex:none;display:inline-flex;align-items:center;gap:6px;padding:7px 13px;border:1px solid var(--line);border-radius:999px;background:var(--surface);color:var(--ink);text-decoration:none;font-size:14px;font-weight:600;white-space:nowrap}
-.cities a:hover{border-color:var(--accent)}
-.cities a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:var(--accent-ink,#fff)}
-.cities a small{font-weight:500;opacity:.7}
-.cities svg{width:14px;height:14px}
+.cities a{flex:none;position:relative;font-family:var(--font-display);font-weight:800;font-size:21px;line-height:1;text-transform:uppercase;letter-spacing:.03em;color:var(--muted);text-decoration:none;padding:6px 0 8px;white-space:nowrap}
+.cities a sup{font-family:var(--font-body);font-size:11px;font-weight:600;letter-spacing:0;margin-left:3px;vertical-align:top;position:relative;top:-2px;opacity:.8}
+.cities a:hover{color:var(--ink)}
+.cities a[aria-current="page"]{color:var(--ink)}
+.cities a[aria-current="page"]::after{content:"";position:absolute;left:0;right:0;bottom:-5px;height:4px;background:var(--accent)}
+.more{display:flex;justify-content:center;margin:18px 0 6px}
+.more button{font:inherit;font-weight:600;font-size:15px;background:var(--surface);color:var(--ink);border:2px solid var(--ink);border-radius:0;padding:12px 22px;cursor:pointer;text-transform:uppercase;letter-spacing:.04em;font-family:var(--font-display);font-size:18px}
+.more button:hover{background:var(--ink);color:var(--bg)}
+.more small{display:block;font-family:var(--font-body);font-size:12px;text-transform:none;letter-spacing:0;font-weight:500;opacity:.75;margin-top:2px}
 .meta{color:var(--muted);font-size:13.5px;max-width:34ch}
 .meta strong{color:var(--ink);font-weight:600}
 .quick{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:10px;margin-top:20px}
@@ -339,9 +343,8 @@ document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
   // Gradovi kao gumbi iznad naslova (s brojem nadolazećih koncerata)
   const keys = Object.keys(CITIES); if (keys.length < 2) return;
   const n = {}; EVENTS.forEach(e=>{ if (e.date>=TODAY) n[e.city]=(n[e.city]||0)+1; });
-  const pin = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></svg>`;
   const nav = document.getElementById("cities");
-  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${k===CITY?pin:""}${esc(CITIES[k].name)} <small>${n[k]}</small></a>`).join("");
+  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}<sup>${n[k]}</sup></a>`).join("");
   nav.hidden = false;
   nav.addEventListener("click", ev=>{
     const a = ev.target.closest("[data-city]"); if (!a) return;
@@ -487,15 +490,31 @@ function relLabel(date){
   return "";
 }
 
+// Popis se prikazuje tjedan po tjedan; "Prikaži još" dodaje sljedeći tjedan. Pretraga i
+// brzi filtri datuma prikazuju sve (lista je ionako kratka).
+const PAGE_DAYS = 7;
+let shownWeeks = 1, lastSig = "";
 function renderList(list){
   if (!list.length) return `<div class="empty">Nema koncerata za ove filtre. Probaj maknuti neki filtar.</div>`;
+  let more = "";
+  if (!S.q && !S.range && !S.day){
+    let cut = iso(addDays(parse(TODAY), shownWeeks*7 - 1));
+    if (list.length > 15 && list[14].date > cut) cut = list[14].date;   // uvijek barem ~15 koncerata
+    const rest = list.filter(e=>e.date > cut);
+    if (rest.length){
+      const nextCut = iso(addDays(parse(cut), PAGE_DAYS));
+      const nNext = rest.filter(e=>e.date <= nextCut).length || Math.min(rest.length, 15);
+      list = list.filter(e=>e.date <= cut);
+      more = `<div class="more"><button type="button" id="moreBtn">Prikaži još<small>sljedećih ${nNext} od još ${rest.length} ${plural(rest.length,"koncerta","koncerta","koncerata")}</small></button></div>`;
+    }
+  }
   const byDay = {};
   list.forEach(e=>(byDay[e.date]=byDay[e.date]||[]).push(e));
   return Object.entries(byDay).map(([d,evs])=>{
     const dt=parse(d);
     const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
     return `<section class="day"><div class="dayhead"><span class="dnum">${dt.getDate()}.</span><span class="dname">${MONTHS[dt.getMonth()]}${yr} · ${DAYS[dt.getDay()]}</span><span class="rel">${relLabel(d)}</span></div>${evs.map(evHTML).join("")}</section>`;
-  }).join("");
+  }).join("") + more;
 }
 
 function renderCal(list){
@@ -519,6 +538,7 @@ function renderCal(list){
 
 const out = document.getElementById("out");
 out.addEventListener("click", ev=>{
+  if (ev.target.closest("#moreBtn")){ shownWeeks += 1; const y = scrollY; render(); scrollTo(0, y); return; }
   const mo2=ev.target.closest("[data-more]");
   if (mo2){
     const d=document.getElementById("d-"+mo2.dataset.more); if(!d) return;
@@ -734,6 +754,8 @@ function render(){
   if (v==="popis") document.getElementById("v-popis").setAttribute("aria-current","page"); else document.getElementById("v-kalendar").setAttribute("aria-current","page");
   renderQuick();
   const list = upcoming.filter(e=>match(e, v==="kalendar"));
+  const sig = JSON.stringify([S.q,S.venue,[...S.genres],S.range,S.hideSold,S.freeOnly,S.favOnly,S.day,v]);
+  if (sig !== lastSig){ shownWeeks = 1; lastSig = sig; }
   const n = list.length, n10 = n%10, n100 = n%100;
   const word = (n10===1 && n100!==11) ? "koncert" : (n10>=2 && n10<=4 && (n100<12 || n100>14)) ? "koncerta" : "koncerata";
   document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
