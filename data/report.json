@@ -1,9 +1,9 @@
 {
- "run_at": "2026-11-09T09:42:41+00:00",
+ "run_at": "2026-11-09T12:53:14+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
-   "count": 152
+   "count": 153
   },
   "tvornica": {
    "ok": true,
@@ -69,11 +69,11 @@
   "visitrijeka": {
    "ok": false,
    "count": 0,
-   "error": "HTTPError: 404 Client Error: Not Found for url: https://visitrijeka.hr/en/events/categoria/culture-art/2026-11/?ical=1"
+   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
   },
   "kinosiska": {
    "ok": true,
-   "count": 2
+   "count": 3
   },
   "orto": {
    "ok": false,

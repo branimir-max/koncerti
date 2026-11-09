@@ -8,7 +8,6 @@
   "price": "",
   "url": "https://www.songkick.com/concerts/43411279-podocnjaci-at-crkva-club?utm_medium=organic&utm_source=microformat",
   "city": "rijeka",
-  "venue_name": "Crkva Club",
   "source": "songkick-rijeka"
  },
  {
@@ -20,7 +19,6 @@
   "price": "",
   "url": "https://www.songkick.com/concerts/43493217-picastro-at-beertija?utm_medium=organic&utm_source=microformat",
   "city": "rijeka",
-  "venue_name": "The Beertija",
   "source": "songkick-rijeka"
  },
  {
@@ -32,7 +30,6 @@
   "price": "",
   "url": "https://www.songkick.com/festivals/3807064-bijelo-dugme-rijeka/id/43435616-bijelo-dugme--rijeka-2026?utm_medium=organic&utm_source=microformat",
   "city": "rijeka",
-  "venue_name": "Centar Zamet",
   "source": "songkick-rijeka"
  },
  {
@@ -55,7 +52,6 @@
   "price": "",
   "url": "https://www.songkick.com/concerts/43478355-zeljko-samardzic-at-centar-zamet?utm_medium=organic&utm_source=microformat",
   "city": "rijeka",
-  "venue_name": "Centar Zamet",
   "source": "songkick-rijeka"
  }
 ]

@@ -1478,18 +1478,6 @@
  {
   "date": "2026-11-23",
   "time": "20:00",
-  "title": "Filow",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43249247-filow-at-raiffeisen-halle-im-gasometer?utm_medium=organic&utm_source=microformat",
-  "city": "bec",
-  "venue_name": "Raiffeisen Halle im Gasometer",
-  "source": "songkick-bec"
- },
- {
-  "date": "2026-11-23",
-  "time": "20:00",
   "title": "Howie Day",
   "venue": "",
   "genre": "",
@@ -1497,6 +1485,18 @@
   "url": "https://www.songkick.com/concerts/43396874-howie-day-at-club-lucia?utm_medium=organic&utm_source=microformat",
   "city": "bec",
   "venue_name": "Club Lucia",
+  "source": "songkick-bec"
+ },
+ {
+  "date": "2026-11-23",
+  "time": "20:00",
+  "title": "Filow",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/concerts/43249247-filow-at-raiffeisen-halle-im-gasometer?utm_medium=organic&utm_source=microformat",
+  "city": "bec",
+  "venue_name": "Raiffeisen Halle im Gasometer",
   "source": "songkick-bec"
  },
  {

@@ -1026,7 +1026,6 @@
  "https://mochvara.hr/event-detail/6ab0ea3e162b2a007578d1bf/": {
   "checked": "2026-11-09",
   "clean": {
-   "facebook": "https://www.facebook.com/mochvara",
    "instagram": "https://www.instagram.com/jos_gori_band/"
   },
   "links": {
@@ -1039,7 +1038,6 @@
   "checked": "2026-11-09",
   "clean": {
    "bandcamp": "https://astralartifacts.bandcamp.com/album/and-then-theres-this",
-   "facebook": "https://www.facebook.com/mochvara",
    "instagram": "https://www.instagram.com/mochvara/"
   },
   "links": {
@@ -1107,18 +1105,34 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://mochvara.hr/event-detail/6af18900004429833c744d2d/": {
+  "checked": "2026-11-09",
+  "clean": {
+   "instagram": "https://www.instagram.com/jos_gori_band/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/jos_gori_band/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
  "https://www.concertarchives.org/venues/arena-zagreb--3": {
   "checked": "2026-11-09",
   "clean": {},
   "links": {}
  },
- "https://www.kinosiska.si/dogodek/nipplepeople/": {
+ "https://www.kinosiska.si/dogodek/kino-siska-dostava-jet-black-diamonds-hangar-teatri/": {
   "checked": "2026-11-09",
-  "clean": {
+  "clean": {},
+  "links": {
    "facebook": "https://www.facebook.com/kinosiska.si/",
    "instagram": "http://www.instagram.com/kinosiska",
    "youtube": "https://www.youtube.com/channel/UCw3zJE1u5h8IMdewKB8I3UA"
-  },
+  }
+ },
+ "https://www.kinosiska.si/dogodek/nipplepeople/": {
+  "checked": "2026-11-09",
+  "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/kinosiska.si/",
    "instagram": "http://www.instagram.com/kinosiska",
@@ -1127,11 +1141,7 @@
  },
  "https://www.kinosiska.si/dogodek/sonica-2026-marina-herlop-estelle-schorpp-charline-dally-litost/": {
   "checked": "2026-11-09",
-  "clean": {
-   "facebook": "https://www.facebook.com/kinosiska.si/",
-   "instagram": "http://www.instagram.com/kinosiska",
-   "youtube": "https://www.youtube.com/channel/UCw3zJE1u5h8IMdewKB8I3UA"
-  },
+  "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/kinosiska.si/",
    "instagram": "http://www.instagram.com/kinosiska",
@@ -2201,6 +2211,15 @@
   }
  },
  "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-19/": {
+  "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/www.lisinski.hr",
+   "instagram": "https://instagram.com/vatroslavlisinski",
+   "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
+  }
+ },
+ "https://www.lisinski.hr/hr/dogadanja/suma-striborova-br-glazbena-prica-20/": {
   "checked": "2026-11-09",
   "clean": {},
   "links": {

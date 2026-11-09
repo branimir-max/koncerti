@@ -484,6 +484,11 @@
   "query": "Atomic Rooster",
   "v": 2
  },
+ "atomik space flight": {
+  "checked": "2026-11-09",
+  "query": "Atomik Space Flight",
+  "v": 2
+ },
  "atomsko skloniste i gosti 50 atomskih godina": {
   "checked": "2026-11-08",
   "query": "ATOMSKO SKLONIŠTE i gosti 50 Atomskih godina"
@@ -753,6 +758,19 @@
   "mbid": "064814c9-1560-4d45-aaab-1b1f2c3b2b65",
   "name": "BLOK3",
   "query": "BLOK3",
+  "v": 2
+ },
+ "bluvinil": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/bluvinil",
+   "instagram": "https://www.instagram.com/bluvinil_official/"
+  },
+  "mbid": "bb301ef4-4eea-45ed-98e9-9ce2b01752b1",
+  "name": "BluVinil",
+  "query": "BluVinil",
   "v": 2
  },
  "bluvinil u zagrebu": {
@@ -1857,6 +1875,11 @@
   "query": "Elektro Guzzi",
   "v": 2
  },
+ "elemental": {
+  "checked": "2026-11-09",
+  "query": "Elemental",
+  "v": 2
+ },
  "elemental u pogonu": {
   "checked": "2026-11-09",
   "query": "Elemental u Pogonu!",
@@ -2163,6 +2186,25 @@
   "mbid": "6b12ffa7-9688-40b8-9aa2-405db68d8b1e",
   "name": "Foltin",
   "query": "Foltin",
+  "v": 2
+ },
+ "fontaines d c": {
+  "checked": "2026-11-09",
+  "country": "IE",
+  "genre": "punk",
+  "links": {
+   "bandcamp": "https://fontainesdc.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/14175163",
+   "facebook": "https://www.facebook.com/fontainesband",
+   "instagram": "https://www.instagram.com/fontainesband/",
+   "soundcloud": "https://soundcloud.com/fontainesdublin",
+   "spotify": "https://open.spotify.com/artist/3SXwqSqAoBz9WCI9PDQzY6",
+   "web": "https://fontainesdc.com/",
+   "youtube": "https://www.youtube.com/channel/UCVtO4Hc3qiKScQBad51RAIQ"
+  },
+  "mbid": "fd87acc7-e0a0-4a45-bc2a-d2ab5c10be68",
+  "name": "Fontaines D.C.",
+  "query": "Fontaines D.C.",
   "v": 2
  },
  "fontaines d c u zagrebu": {
@@ -2945,6 +2987,11 @@
  "jos gori u pogonu": {
   "checked": "2026-11-09",
   "query": "Još Gori u Pogonu!",
+  "v": 2
+ },
+ "jos gori u zacaranoj mocvari": {
+  "checked": "2026-11-09",
+  "query": "Još gori u Začaranoj Močvari",
   "v": 2
  },
  "jose gonzalez": {
@@ -4901,9 +4948,19 @@
   "checked": "2026-11-08",
   "query": "Picastro"
  },
+ "pipschips videoclips": {
+  "checked": "2026-11-09",
+  "query": "PipsChips&Videoclips",
+  "v": 2
+ },
  "pipschips videoclips u areni": {
   "checked": "2026-11-08",
   "query": "PipsChips&Videoclips u Areni!"
+ },
+ "pipsi": {
+  "checked": "2026-11-09",
+  "query": "Pipsi",
+  "v": 2
  },
  "pipsi u zaboku": {
   "checked": "2026-11-09",
@@ -5095,6 +5152,25 @@
   "mbid": "a5386648-7b2c-4e0a-8094-ac5d16b91e54",
   "name": "RAF Camora",
   "query": "Raf Camora",
+  "v": 2
+ },
+ "rambo amadeus": {
+  "checked": "2026-11-09",
+  "country": "ME",
+  "genre": "",
+  "links": {
+   "bandcamp": "https://ramboamadeus.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/402358",
+   "facebook": "https://www.facebook.com/11905338353",
+   "instagram": "https://www.instagram.com/ramboamadeus_official/",
+   "soundcloud": "https://soundcloud.com/ramboamadeuspodcast",
+   "spotify": "https://open.spotify.com/artist/4uZXJDJ8mZDLczwNs4COYo",
+   "web": "https://ramboamadeus.com/",
+   "youtube": "https://www.youtube.com/channel/UCzWBvyyG_9kL3lrXbKxyhqw"
+  },
+  "mbid": "fd673f97-a906-4eed-89a8-f58fe28ccc30",
+  "name": "Rambo Amadeus",
+  "query": "Rambo Amadeus",
   "v": 2
  },
  "rambo amadeus u saxu": {
@@ -5825,6 +5901,11 @@
   "query": "Spike",
   "v": 2
  },
+ "spike and the gimme gimmes": {
+  "checked": "2026-11-09",
+  "query": "Spike and the Gimme Gimmes",
+  "v": 2
+ },
  "spike and the gimme gimmes u zagrebu": {
   "checked": "2026-11-08",
   "query": "Spike and the Gimme Gimmes u Zagrebu!"
@@ -5978,6 +6059,16 @@
   "checked": "2026-11-08",
   "query": "Sve Je To u Vašoj Glavi"
  },
+ "svemirko": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "",
+  "links": {},
+  "mbid": "57782fad-2ffe-496e-98dc-cf36195ec3cb",
+  "name": "Svemirko",
+  "query": "Svemirko",
+  "v": 2
+ },
  "svemirko u rijeci": {
   "checked": "2026-11-09",
   "query": "Svemirko u Rijeci!",
@@ -5986,6 +6077,11 @@
  "svemirko u vintage u": {
   "checked": "2026-11-08",
   "query": "Svemirko u Vintage-u!"
+ },
+ "swingers present elvis": {
+  "checked": "2026-11-09",
+  "query": "SWINGERS present ELVIS!",
+  "v": 2
  },
  "swingers presents elvis": {
   "checked": "2026-11-08",
@@ -6052,6 +6148,23 @@
  "terror": {
   "checked": "2026-11-09",
   "query": "Terror",
+  "v": 2
+ },
+ "the black wizards": {
+  "checked": "2026-11-09",
+  "country": "",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://theblackwizards.bandcamp.com/",
+   "facebook": "https://www.facebook.com/theblackwizardsband",
+   "instagram": "https://www.instagram.com/theblackwizardsgram/",
+   "spotify": "https://open.spotify.com/artist/6pTMMeBBPWFMl9Mm26IH1J",
+   "web": "https://www.theblackwizards.com/",
+   "youtube": "https://www.youtube.com/channel/UCXnSIXqvafzkd5k4tXgsJOA"
+  },
+  "mbid": "5cbe1989-4621-4997-95a1-722c30183253",
+  "name": "The Black Wizards",
+  "query": "The Black Wizards",
   "v": 2
  },
  "the black wizards u rijeci": {
