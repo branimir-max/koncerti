@@ -74,9 +74,9 @@ SOURCES = [
                                  ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
     # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
     # HNK Zagreb: samo glazbeni program (drama ne ide u Gigomat)
-    {"key": "hnk-opera", "venue": "hnk", "force_genre": "opera", "probe": True, "allow_empty": True,
+    {"key": "hnk-opera", "venue": "hnk", "parser": "hnk", "force_genre": "opera", "probe": True, "allow_empty": True,
      "urls": ["https://www.hnk.hr/hr/raspored/opera/", "https://www.hnk.hr/hr/raspored/balet/"]},
-    {"key": "hnk-koncert", "venue": "hnk", "genre": "klasika", "probe": True, "allow_empty": True,
+    {"key": "hnk-koncert", "venue": "hnk", "parser": "hnk", "genre": "klasika", "probe": True, "allow_empty": True,
      "urls": ["https://www.hnk.hr/hr/raspored/koncert/"]},
     {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics", "tolerant": True,
      "include": ["koncert", "concert", "festival", "band", "dj", "jazz", "rock", "punk", "metal", "live", "glazb", "music",

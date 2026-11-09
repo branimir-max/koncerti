@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
+from .base import hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -155,6 +155,10 @@ def scrape(src: dict) -> list[dict]:
                 e.pop("_cats", None)
                 e["venue_name"] = place.split(",")[0].strip()  # "Klub Palach, Kružna 8, Rijeka" -> "Klub Palach"
                 found.append(e)
+        elif parser == "hnk":
+            found = hnk_events(html, url, v)
+            for e in found:
+                e.pop("_stage", None)
         elif parser == "microdata":
             found = microdata_events(html, v, url)
         elif parser == "detail":

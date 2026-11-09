@@ -360,3 +360,47 @@ def ics_events(text: str, base_url: str) -> list[dict]:
         out.append({"date": d, "time": tm, "title": clean(f["SUMMARY"]), "venue": "", "genre": "", "price": "",
                     "url": f.get("URL") or base_url, "_text": place, "_place": place, "_cats": f.get("CATEGORIES", "").lower()})
     return out
+
+
+# ---------- HNK Zagreb (raspored: blokovi div.item s "Uto 10" bez mjeseca) ----------
+
+HR_DOW = {"pon": 0, "uto": 1, "sri": 2, "čet": 3, "cet": 3, "pet": 4, "sub": 5, "ned": 6}
+
+
+def hnk_events(html: str, base_url: str, venue: str) -> list[dict]:
+    """Raspored HNK-a ima samo dan u tjednu i broj dana; mjesec se izvodi redoslijedom
+    (prvi sljedeći datum s tim brojem dana koji pada na taj dan u tjednu)."""
+    from datetime import date as _d, timedelta as _td
+    s = soup(html)
+    out, cur = [], _d.today()
+    for item in s.select("div.item"):
+        h = item.select_one(".date")
+        if not h:
+            continue
+        m = re.match(r"\s*(\w{3})\w*\s+(\d{1,2})", h.get_text(" ", strip=True).lower())
+        if not m or m.group(1) not in HR_DOW:
+            continue
+        dow, day = HR_DOW[m.group(1)], int(m.group(2))
+        found = None
+        for k in range(0, 400):
+            c = cur + _td(days=k)
+            if c.day == day and c.weekday() == dow:
+                found = c
+                break
+        if not found:
+            continue
+        cur = found
+        text = item.get_text(" ", strip=True)
+        if "gostovanje" in text.lower():   # izvedba izvan HNK-a
+            continue
+        t = item.select_one("h3") or item.select_one("h2") or item.select_one(".title")
+        title = clean(t.get_text(" ", strip=True)) if t else ""
+        title = re.split(r"\s+Izvedba se održava", title)[0]
+        if not title:
+            continue
+        stage = "HNK2" if "HNK2" in text else ""
+        a = item.find("a", href=True)
+        out.append({"date": found.isoformat(), "time": parse_time(text), "title": title, "venue": venue,
+                    "genre": "", "price": "", "url": requests.compat.urljoin(base_url, a["href"]) if a else base_url,
+                    "_text": text, "_stage": stage})
+    return out
