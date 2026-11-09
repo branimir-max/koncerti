@@ -85,7 +85,12 @@ def nice_case(t: str) -> str:
 def scrape(src: dict) -> list[dict]:
     events: list[dict] = []
     for i, url in enumerate(src["urls"]):
-        html = fetch(url)
+        try:
+            html = fetch(url)
+        except Exception:  # noqa: BLE001 – prva stranica mora proći, dodatne (page=2…) smiju izostati
+            if i == 0:
+                raise
+            continue
         if i == 0:  # snimka prve stranice za otklanjanje grešaka
             DEBUG.mkdir(parents=True, exist_ok=True)
             (DEBUG / f"{src['key']}.html").write_text(html[:400_000])

@@ -19,6 +19,10 @@ OUTSIDE = ["maribor", "čakovec", "cakovec", "zabok", "regenerator", "karlovac",
            "varazdin", "ljubljana", "slovenia", "samobor", "velika gorica", "sisak"]
 DJ = ["party", "afterparty", "after party", "sound system", "hi-fi", "rave", "techno night"]
 
+from datetime import date as _date
+_t = _date.today()
+_MONTHS = [f"{_t.year + (_t.month - 1 + i) // 12}-{(_t.month - 1 + i) % 12 + 1:02d}" for i in range(3)]
+
 SOURCES = [
     {"key": "lisinski", "venue": "lisinski", "exclude": THEATRE + ["teatar", "aplauz", "mare #", "idea, obrt"],
      "card": "tr", "parser": "cards",
@@ -68,13 +72,15 @@ SOURCES = [
        [f"https://www.songkick.com/metro-areas/{metro}?page={n}" for n in range(2, pages + 1)]}
       for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("split", "29035-croatia-split", 1), ("rijeka", "29032-croatia-rijeka", 1),
                                  ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
-    {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics", "debug_always": True,
-     "categories": ["music", "glazba", "koncert", "concert"],
-     "urls": ["https://visitrijeka.hr/en/events/?ical=1"]},
+    # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
+    {"key": "visitrijeka", "city": "rijeka", "venue": None, "parser": "ics",
+     "include": ["koncert", "concert", "festival", "band", "dj", "jazz", "rock", "punk", "metal", "live", "glazb", "music",
+                 "orkest", "orchestra", "zbor", "choir", "klapa", "palach", "marganovo"],
+     "exclude": ["izložb", "exhibition", "predstava", "radionic", "workshop", "predavanj", "lecture", "film"],
+     "urls": [f"https://visitrijeka.hr/en/events/categoria/{cat}/{_m}/?ical=1"
+              for _m in _MONTHS for cat in ("culture-art", "entertainment")]},
     {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True,
      "urls": ["https://www.kinosiska.si/"]},
-    {"key": "cvetlicarna", "city": "ljubljana", "venue": "lj-cvetlicarna", "debug_always": True,
-     "urls": ["https://cvetlicarna.info/"]},
     {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True,
      "urls": ["https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa"]},
 ]
