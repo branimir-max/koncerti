@@ -4,6 +4,18 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Koncerti u Zagrebu</title>
+<meta name="description" content="Svi koncerti i DJ večeri u Zagrebu na jednom mjestu: Lisinski, Tvornica, Močvara, Vintage, Boogaloo i ostali.">
+<meta name="theme-color" content="#1D4E9E">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Koncerti ZG">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta property="og:title" content="Koncerti u Zagrebu">
+<meta property="og:description" content="Svi koncerti i DJ večeri u Zagrebu na jednom mjestu.">
+<meta property="og:image" content="icon-512.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@600;800&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -111,6 +123,13 @@ select{background:var(--surface);border:1px solid var(--line);border-radius:6px;
 .det{margin-top:8px;padding:10px 12px;background:var(--bg);border-radius:6px;font-size:13.5px;display:grid;gap:6px}
 .det b{font-weight:600;margin-right:6px}
 .det a{color:var(--accent)}
+.install{background:var(--ink);color:var(--bg)}
+.install-in{display:flex;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px}
+.install-in img{border-radius:9px;flex:none}
+.install-in div{flex:1;min-width:0;font-size:14px;line-height:1.3}
+.install-in div span{display:block;opacity:.75;font-size:12.5px}
+.install-in button{font:inherit;font-size:14px;font-weight:600;border:0;border-radius:6px;padding:8px 14px;background:var(--accent);color:#fff;cursor:pointer}
+.install-in .x{background:transparent;color:var(--bg);font-size:22px;padding:4px 8px;font-weight:400}
 #toast{position:fixed;left:50%;bottom:18px;transform:translate(-50%,140%);background:var(--ink);color:var(--bg);padding:12px 16px;border-radius:8px;font-size:14px;max-width:calc(100% - 32px);box-shadow:0 6px 24px rgba(0,0,0,.25);transition:transform .25s;z-index:20}
 #toast.on{transform:translate(-50%,0)}
 #toast a{color:var(--bg);font-weight:600}
@@ -154,6 +173,7 @@ footer{margin:40px 0 32px;padding-top:16px;border-top:1px solid var(--line);colo
 footer p{margin:0 0 8px;max-width:72ch}
 
 @media (max-width:640px){
+  .bar{position:static}
   .quick{grid-template-columns:repeat(2,minmax(0,1fr))}
   .ev{grid-template-columns:48px minmax(0,1fr)}
   .side{grid-column:2;flex-direction:row;align-items:center;justify-content:space-between;margin-top:6px}
@@ -174,6 +194,15 @@ footer p{margin:0 0 8px;max-width:72ch}
     <div class="quick" id="quick"></div>
   </div>
 </header>
+
+<div id="install" class="install" hidden>
+  <div class="wrap install-in">
+    <img src="icon-192.png" alt="" width="40" height="40">
+    <div><b>Stavi Koncerte ZG na mobitel</b><span id="installHint">Otvara se kao aplikacija, radi i bez interneta.</span></div>
+    <button type="button" id="installBtn">Instaliraj</button>
+    <button type="button" id="installClose" class="x" aria-label="Zatvori">×</button>
+  </div>
+</div>
 
 <div class="bar">
   <div class="wrap">
@@ -563,6 +592,31 @@ function render(){
 window.addEventListener("hashchange", ()=>{ S.day=""; readShared(); render(); });
 readShared();
 render();
+
+// ---------- Instalacija (PWA) ----------
+if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+  navigator.serviceWorker.register("sw.js").catch(()=>{});
+}
+(function(){
+  const box = document.getElementById("install"), btn = document.getElementById("installBtn");
+  const standalone = matchMedia("(display-mode: standalone)").matches || navigator.standalone;
+  let dismissed = false; try { dismissed = localStorage.getItem("kz-install-x") === "1"; } catch(e) {}
+  if (standalone || dismissed) return;
+  let deferred = null;
+  window.addEventListener("beforeinstallprompt", e => { e.preventDefault(); deferred = e; box.hidden = false; });
+  btn.addEventListener("click", async () => {
+    if (deferred) { deferred.prompt(); await deferred.userChoice.catch(()=>{}); deferred = null; box.hidden = true; }
+  });
+  document.getElementById("installClose").addEventListener("click", () => {
+    box.hidden = true; try { localStorage.setItem("kz-install-x", "1"); } catch(e) {}
+  });
+  // iPhone/iPad: Safari nema gumb za instalaciju, pa pokažemo kako
+  const ios = /iphone|ipad|ipod/i.test(navigator.userAgent) && !/crios|fxios/i.test(navigator.userAgent);
+  if (ios) {
+    document.getElementById("installHint").textContent = "U Safariju dodirni Dijeli, pa „Dodaj na početni zaslon”.";
+    btn.hidden = true; box.hidden = false;
+  }
+})();
 </script>
 </body>
 </html>
