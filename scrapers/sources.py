@@ -107,6 +107,9 @@ SOURCES = [
                        "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
         ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
     ]],
+    # Entrio: proba – čitamo li ga pod pravim imenom, bez ikakvog zaobilaženja zaštite?
+    {"key": "entrio", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.entrio.hr/"]},
+    {"key": "entrio-sitemap", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.entrio.hr/sitemap.xml"]},
     # InfoZagreb: kalendar se učitava tek u pregledniku (JavaScript), a sitemap.xml ne postoji – zasad nije izvor.
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
     *[dict({"city": "maribor", "exclude": THEATRE, "dj_words": DJ, "probe": True, "probe_only": True, "allow_empty": True}, **x) for x in [

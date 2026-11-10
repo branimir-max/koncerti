@@ -94,6 +94,11 @@ def write_probe(key: str, html: str) -> None:
     """Kratki sažetak strukture stranice (bez skripti i ključeva) za pisanje novog parsera.
     Sprema se u repozitorij, za razliku od cijelih snimki."""
     from .base import parse_date, soup as _soup
+    if "<urlset" in html[:3000] or "<sitemapindex" in html[:3000]:  # sitemap: pokaži adrese
+        locs = re.findall(r"<loc>([^<]+)</loc>", html)
+        PROBE.mkdir(parents=True, exist_ok=True)
+        (PROBE / f"{key}.txt").write_text(f"sitemap, adresa: {len(locs)}\n" + "\n".join(locs[:40]) + "\n…\n" + "\n".join(locs[-20:]))
+        return
     s = _soup(html)
     lines = [f"title: {s.title.get_text(strip=True) if s.title else ''}"]
     lines.append("jsonld types: " + ", ".join(re.findall(r'"@type"\s*:\s*"([^"]+)"', html))[:300])
