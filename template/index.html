@@ -545,30 +545,64 @@ body.okopen{overflow:hidden}
 .seolinks a{color:inherit}
 :root:not([data-city="zagreb"]) .seolinks{display:none}
 
-/* Zid u pozadini: ostaci starih plakata lijevo i desno od programa (samo široki ekrani) */
-.wall{display:none}
-@media (min-width:1200px){
-  .wall{display:block;position:fixed;inset:52px 0 0 0;z-index:0;pointer-events:none;overflow:hidden}
-  header.top,main,footer,.bar{position:relative;z-index:1}
-  .wall .sc{position:absolute;box-sizing:border-box;font-family:var(--font-display);font-weight:900;text-transform:uppercase;line-height:.85;color:#E9E4D8;overflow:hidden;white-space:nowrap}
-  .wall .sc small{display:block;font-family:var(--font-mono);font-weight:500;font-size:12px;letter-spacing:.08em;margin-top:10px;line-height:1.3}
-  .wall .a{background:var(--accent);opacity:.5}
-  .wall .k{background:#121212;opacity:.28}
-  .wall .t{background:rgba(240,232,200,.9);height:24px;opacity:1}
-  .wall .l1{left:calc(50% - 520px - 230px);top:110px;width:250px;height:330px;padding:26px 24px 0 34px;font-size:76px;transform:rotate(-4deg);clip-path:polygon(0 0,92% 3%,100% 22%,94% 41%,100% 63%,90% 100%,0 96%)}
-  .wall .l2{left:calc(50% - 520px - 190px);top:470px;width:190px;height:260px;padding:20px;font-size:52px;transform:rotate(3deg);clip-path:polygon(4% 0,100% 5%,96% 100%,0 92%,6% 50%)}
-  .wall .l3{left:calc(50% - 520px - 110px);top:96px;width:120px;transform:rotate(-9deg)}
-  .wall .r1{left:calc(50% + 520px + 4px);top:60px;width:260px;height:350px;padding:26px 30px 0 40px;font-size:150px;transform:rotate(5deg);clip-path:polygon(6% 2%,100% 0,100% 100%,10% 94%,0 60%,8% 30%)}
-  .wall .r2{left:calc(50% + 520px + 30px);top:400px;width:230px;height:300px;padding:26px 26px;font-size:58px;transform:rotate(-2.5deg);clip-path:polygon(0 4%,88% 0,100% 30%,95% 100%,5% 97%,0 70%)}
-  .wall .r3{left:calc(50% + 520px + 60px);top:384px;width:110px;transform:rotate(7deg)}
-  .bar,header.top{background:transparent!important;border-bottom:0!important;box-shadow:none!important}
-  .bar>.wrap{background-color:var(--bg);background-image:var(--grain);border-bottom:2px solid var(--ink);padding-bottom:12px}
-  .hero{background-color:var(--bg);background-image:var(--grain)}
-  :root[data-theme="dark"] .wall .a{opacity:.35}
-  :root[data-theme="dark"] .wall .k{background:#000;opacity:.5}
-  :root[data-theme="dark"] .wall .t{opacity:.15}
+
+/* ---------- Tiskani program: sve je otisnuto ili zalijepljeno na papir ---------- */
+/* zaglavlje: otisnuta traka u boji grada, raster, poderan donji rub */
+.band{background:radial-gradient(rgba(0,0,0,.2) 30%,transparent 34%) 0 0/5px 5px,var(--accent);color:#F5F1E7;padding-bottom:10px;clip-path:polygon(0 0,100% 0,100% 84%,97% 92%,93% 86%,88% 96%,83% 87%,77% 94%,71% 86%,65% 97%,59% 88%,53% 93%,47% 85%,41% 96%,35% 87%,29% 93%,23% 86%,17% 96%,11% 87%,6% 94%,2% 86%,0 90%)}
+.toprow h1,.toprow .addgig,.toprow .bellbtn{border-color:rgba(245,241,231,.35)}
+.toprow .logo,.toprow .citybtn,.toprow .addgig,.toprow .bellbtn,.toprow .citybtn svg{color:#F5F1E7}
+.logo .dot{background:#F5F1E7}
+.toprow .minebtn{background:#F5F1E7;color:var(--accent);border-radius:999px;margin:9px 0;padding:0 13px;min-height:34px;align-self:center}
+.toprow .minebtn[aria-pressed="true"]{background:#141414;color:#F5F1E7}
+/* veliki datum: siluete grada i žig DANAS */
+.hero{position:relative;isolation:isolate}
+.hero .sky{position:absolute;right:0;bottom:16px;width:min(420px,78%);height:auto;fill:var(--accent);opacity:.16;z-index:-1;mix-blend-mode:multiply}
+.hero .stampd{position:absolute;right:6px;top:10px;width:78px;height:78px;border:2.5px solid var(--accent);border-radius:50%;color:var(--accent);display:flex;align-items:center;justify-content:center;transform:rotate(-12deg);font-family:var(--font-display);font-weight:900;font-size:22px;letter-spacing:.04em;opacity:.9}
+@media (min-width:700px){.hero .stampd{right:auto;left:470px;top:24px}}
+/* tražilica i filtri: tanko, bez debelih kutija */
+.bar>.wrap,.bar{border-bottom:0!important}
+.search,.bar input[type="search"]{border:0!important;border-bottom:1.5px solid var(--ink)!important;border-radius:0!important;background:transparent!important}
+.chip{border:1px solid color-mix(in srgb,var(--ink) 35%,transparent)!important;border-radius:999px!important;background:transparent!important}
+.chip[aria-pressed="true"]{background:var(--ink)!important;color:var(--bg)!important;border-color:var(--ink)!important}
+.seg,.viewtoggle{border-radius:999px!important}
+/* program: bez kutija, kao složena tiskana rubrika */
+.ev{background:transparent!important;border:0!important;border-bottom:1px solid color-mix(in srgb,var(--ink) 22%,transparent)!important;transform:none!important;margin:0!important;grid-template-columns:58px minmax(0,1fr) auto}
+.ev .tm{border-right:0!important;font-family:var(--font-mono);font-weight:500;font-size:14px;justify-content:flex-start;align-items:flex-start;padding:13px 0 0}
+.ev .body{padding:11px 8px 10px 0}
+.ev .acts{border-left:0!important}
+.ev .acts .icon{min-width:36px}
+.ev .sub{align-items:center}
+.ev .sub .g{display:inline-block;color:var(--gc,var(--ink))!important;border:1.5px solid currentColor!important;border-radius:3px!important;padding:0 5px!important;font-size:10.5px!important;text-transform:uppercase!important;letter-spacing:.06em!important;transform:rotate(-2deg);opacity:.92}
+.ev.hl{background:color-mix(in srgb,var(--accent) 10%,transparent)!important}
+.day .ev:last-child{border-bottom:0!important}
+/* naslovi dana: zalijepljeni papirnatom trakom */
+.dayhead{border-bottom:2px solid var(--ink)!important}
+.dayhead .dname{position:relative;isolation:isolate;padding:2px 10px 2px 6px}
+.dayhead .dname::before{content:"";position:absolute;inset:-4px -14px -4px -10px;z-index:-1;background:linear-gradient(90deg,rgba(255,255,255,.18),rgba(255,255,255,0) 30%,rgba(255,255,255,.12) 70%,rgba(255,255,255,0)),repeating-linear-gradient(90deg,rgba(120,100,50,.05) 0 1px,transparent 1px 4px),rgba(232,214,160,.72);transform:rotate(-3.2deg);mix-blend-mode:multiply;clip-path:polygon(0 4%,3% 0,4% 9%,6% 2%,8% 7%,92% 2%,94% 9%,96% 1%,98% 8%,100% 3%,98% 22%,100% 34%,97% 47%,100% 58%,98% 71%,100% 84%,97% 100%,95% 92%,93% 99%,90% 93%,10% 98%,7% 92%,5% 100%,3% 93%,0 98%,2% 84%,0 70%,3% 57%,0 45%,2% 31%,0 18%)}
+/* tamni način: isti jezik, tamni papir i svijetla tinta */
+:root[data-theme="dark"] .hero .sky{mix-blend-mode:normal;opacity:.22}
+:root[data-theme="dark"] .dayhead .dname::before{background:rgba(160,140,90,.38);mix-blend-mode:normal}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .hero .sky{mix-blend-mode:normal;opacity:.22}:root:not([data-theme="light"]) .dayhead .dname::before{background:rgba(160,140,90,.38);mix-blend-mode:normal}}
+/* računalo: program kao tablica (vrijeme · ime · prostor · žanr · radnje) */
+@media (min-width:900px){
+  .ev{grid-template-columns:70px minmax(0,1fr) auto}
+  .ev .tm{font-size:15px}
+  .ev h3{font-size:18px}
 }
-@media (min-width:1200px) and (prefers-color-scheme: dark){:root:not([data-theme="light"]) .wall .a{opacity:.35}:root:not([data-theme="light"]) .wall .t{opacity:.15}}
+
+.num .pt,.dnum .pt{font-style:normal;font-size:.55em}
+.num .p2 .pt,.dnum .p2 .pt{color:transparent}
+.num .p1 .pt,.dnum .p1 .pt{color:var(--ink);-webkit-text-stroke:0}
+.dayhead .dname{margin-left:4px}
+/* tamni način: tamnija traka zaglavlja, svjetliji žigovi žanrova */
+:root[data-theme="dark"] .band{background:radial-gradient(rgba(0,0,0,.25) 30%,transparent 34%) 0 0/5px 5px,color-mix(in srgb,var(--accent) 45%,#05080F)}
+:root[data-theme="dark"] .ev .sub .g{color:color-mix(in srgb,var(--gc,#fff) 45%,#fff)!important}
+:root[data-theme="dark"] .toprow .minebtn{color:#05080F}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]) .band{background:radial-gradient(rgba(0,0,0,.25) 30%,transparent 34%) 0 0/5px 5px,color-mix(in srgb,var(--accent) 45%,#05080F)}
+  :root:not([data-theme="light"]) .ev .sub .g{color:color-mix(in srgb,var(--gc,#fff) 45%,#fff)!important}
+  :root:not([data-theme="light"]) .toprow .minebtn{color:#05080F}
+}
 </style>
 </head>
 <body>
@@ -625,7 +659,6 @@ body.okopen{overflow:hidden}
   </div>
 </div>
 
-<div class="wall" id="wall" aria-hidden="true"></div>
 <button type="button" class="deck" id="deck" hidden aria-haspopup="dialog"></button>
 <div class="ok" id="ok" role="dialog" aria-modal="true" aria-label="Otkrij koncerte" hidden></div>
 <div class="dpick" id="dpick" role="dialog" aria-label="Skoči na dan" hidden></div>
@@ -980,7 +1013,7 @@ function evHTML(e){
     <span class="tm${e.time?"":" none"}">${e.time||"—"}</span>
     <div class="body">
       <h3><button type="button" class="ttl" data-more="${e.id}" aria-expanded="false" aria-controls="d-${e.id}">${esc(e.artist)}</button></h3>
-      <div class="sub"><span><button type="button" class="vlink" data-v="${e.vgroup}" title="Svi koncerti: ${esc(e.venue)}">${esc(e.venue)}</button></span><span class="g">${GENRES[e.genre]}</span>${priceSub(e)}</div>
+      <div class="sub"><span><button type="button" class="vlink" data-v="${e.vgroup}" title="Svi koncerti: ${esc(e.venue)}">${esc(e.venue)}</button></span><span class="g" style="--gc:${GCOL[e.genre]||"#121212"}">${GENRES[e.genre]}</span>${priceSub(e)}</div>
       ${detailsHTML(e)}
     </div>
     <div class="acts">
@@ -1027,7 +1060,7 @@ function renderList(list){
   return Object.entries(byDay).sort((a,b)=>a[0].localeCompare(b[0])).map(([d,evs])=>{
     const dt=parse(d);
     const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
-    return `<section class="day" data-d="${d}"><div class="dayhead"><button type="button" class="dbtn" data-dpick aria-label="${dt.getDate()}. ${MONTHS[dt.getMonth()]}, ${DAYS[dt.getDay()]}. Skoči na drugi dan"><span class="dnum"><span class="p2" aria-hidden="true">${dt.getDate()}</span><span class="p1">${dt.getDate()}</span></span><span class="dname">${MONTHS[dt.getMonth()]}${yr}<small>${DAYS[dt.getDay()]}${relLabel(d)?" · "+relLabel(d).toLowerCase():""}</small></span><span class="dch" aria-hidden="true">▾</span></button></div>${evs.map(e=>e.fest?festRowHTML(e.fest):evHTML(e)).join("")}</section>`;
+    return `<section class="day" data-d="${d}"><div class="dayhead"><button type="button" class="dbtn" data-dpick aria-label="${dt.getDate()}. ${MONTHS[dt.getMonth()]}, ${DAYS[dt.getDay()]}. Skoči na drugi dan"><span class="dnum"><span class="p2" aria-hidden="true">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="dname">${MONTHS[dt.getMonth()]}${yr}<small>${DAYS[dt.getDay()]}${relLabel(d)?" · "+relLabel(d).toLowerCase():""}</small></span><span class="dch" aria-hidden="true">▾</span></button></div>${evs.map(e=>e.fest?festRowHTML(e.fest):evHTML(e)).join("")}</section>`;
   }).join("") + more;
 }
 
@@ -1374,7 +1407,9 @@ function renderHero(show, first){
   const d = first || S.day || TODAY, dt = parse(d);
   const rel = relLabel(d);
   const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
-  el.innerHTML = `<h2 class="hd"><span class="num" aria-hidden="true"><span class="p2">${dt.getDate()}</span><span class="p1">${dt.getDate()}</span></span><span class="txt"><span class="mo">${MONTHS[dt.getMonth()]}${yr}</span><span class="wd">${DAYS[dt.getDay()]}${rel?" · "+rel.toLowerCase():""}</span></span></h2>`;
+  const sky = CITY==="zagreb" ? `<svg class="sky" aria-hidden="true" viewBox="0 0 400 110" preserveAspectRatio="xMaxYMax meet"><path d="M0 110 Q70 78 130 98 Q200 70 260 96 Q330 62 400 92 V110Z" opacity=".45"/><path d="M329 70V30h2v40z M326 40h8v2h-8z" opacity=".45"/><path d="M6 110V64h4V40l6-34 6 34v24h6V40l6-34 6 34v24h4v46z"/><path d="M60 110V36h-2v-5h4v-3h4v3h3v-3h4v3h3v-3h4v5h-2v74z"/><path d="M94 110V74h13q18-26 36 0h13v36z M124 56h2v-8h-2z"/><path d="M174 110V22h26v88z"/><path d="M214 110V14h7v56l10-8v8l10-8v8l10-8v8l10-8v46z"/><path d="M278 110V18q10-8 20 0v92z"/><path d="M308 110V84l36-10 40 10v26z"/></svg>` : "";
+  const stamp = d===TODAY ? `<span class="stampd" aria-hidden="true">DANAS</span>` : "";
+  el.innerHTML = sky + stamp + `<h2 class="hd"><span class="num" aria-hidden="true"><span class="p2">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="txt"><span class="mo">${MONTHS[dt.getMonth()]}${yr}</span><span class="wd">${DAYS[dt.getDay()]}${rel?" · "+rel.toLowerCase():""}</span></span></h2>`;
 }
 // Datum putuje: naslov dana se lijepi gore dok skrolaš; klik otvara listiće za skok na drugi dan
 function setStick(){
@@ -1504,28 +1539,7 @@ okEl.addEventListener("keydown", ev=>{
 });
 
 
-// Zid u pozadini: komadići "starih plakata" složeni iz stvarnog programa grada
-(function(){
-  const w = document.getElementById("wall"); if (!w) return;
-  const t = parse(TODAY);
-  const nm = new Date(t.getFullYear(), t.getMonth()+1, 1);
-  const MN = ["SIJEČANJ","VELJAČA","OŽUJAK","TRAVANJ","SVIBANJ","LIPANJ","SRPANJ","KOLOVOZ","RUJAN","LISTOPAD","STUDENI","PROSINAC"];
-  const cnt = {}; upcoming.forEach(e=>{ cnt[e.vgroup||e.venue]=(cnt[e.vgroup||e.venue]||0)+1; });
-  const tops = Object.keys(cnt).sort((a,b)=>cnt[b]-cnt[a]);
-  const vn = k => (VENUES[k]||{}).n || "";
-  const cut = s => esc(s.toUpperCase().replace(/[^A-ZČĆŠŽĐ0-9 ]/g,"").trim().split(/\s+/)[0] || "");
-  const half = s => { const x = cut(s); return x.length > 5 ? x.slice(0, Math.ceil(x.length/2)) + "<br>" + x.slice(Math.ceil(x.length/2)) : x; };
-  const fri = upcoming.find(e=>parse(e.date).getDay()===5);
-  const big = upcoming.find(e=>e.date>TODAY && e.time) || upcoming[0];
-  const m = MN[nm.getMonth()];
-  w.innerHTML =
-    `<div class="sc a l1">${m.slice(0,4)}<br>${m.slice(4)}<small>${esc(vn(tops[0]))}</small></div>` +
-    `<div class="sc k l2">LIVE<small>${big ? DAYS_T[parse(big.date).getDay()]+" "+parse(big.date).getDate()+"."+(parse(big.date).getMonth()+1)+". · "+big.time.slice(0,2)+"H" : ""}</small></div>` +
-    `<div class="sc t l3"></div>` +
-    `<div class="sc k r1">${fri ? parse(fri.date).getDate() : t.getDate()}</div>` +
-    `<div class="sc a r2">${half(vn(tops[1]||tops[0]))}<small>${esc(CITIES[CITY].name.toUpperCase())}</small></div>` +
-    `<div class="sc t r3"></div>`;
-})();
+
 
 function render(){
   const v=view();
