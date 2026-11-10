@@ -710,8 +710,8 @@ document.title = "Koncerti " + CITIES[CITY].in + " – večeras, vikend i dalje 
   const keys = Object.keys(CITIES); if (keys.length < 2) return;
   const n = {}; EVENTS.forEach(e=>{ if (e.date>=TODAY) n[e.city]=(n[e.city]||0)+1; });
   const nav = document.getElementById("cities");
-  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}<sup>${n[k]}</sup></a>`).join("")
-    + (FEST.length ? `<a href="#festivali" class="fest" data-fest>Festivali<sup>${FEST.length}</sup></a>` : "");
+  nav.innerHTML = keys.filter(k=>n[k]).map(k=>`<a href="${k==="zagreb" ? "./?grad=zagreb" : "./?grad="+k}" data-city="${k}"${k===CITY?' aria-current="page"':""}>${esc(CITIES[k].name)}</a>`).join("")
+    + (FEST.length ? `<a href="#festivali" class="fest" data-fest>Festivali</a>` : "");
   const cb = document.getElementById("cityBtn");
   cb.addEventListener("click", ()=>{ nav.hidden = !nav.hidden; cb.setAttribute("aria-expanded", String(!nav.hidden)); });
   nav.addEventListener("click", ev=>{
