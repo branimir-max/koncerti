@@ -22,6 +22,17 @@
   "source": "lj-cd"
  },
  {
+  "date": "2026-12-31",
+  "time": "19:00",
+  "title": "Isimangaliso",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
   "date": "2026-11-10",
   "time": "",
   "title": "Kristijan Krajnčan 5tet: Alchymia XXI",
@@ -227,17 +238,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/bozicna-fantazija",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-31",
-  "time": "",
-  "title": "Isimangaliso",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
   "city": "ljubljana",
   "source": "lj-cd"
  },

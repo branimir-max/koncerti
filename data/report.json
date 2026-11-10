@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T13:22:04+00:00",
+ "run_at": "2026-11-10T13:26:36+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -107,13 +107,11 @@
   },
   "hangtime": {
    "ok": true,
-   "count": 31,
-   "note": "samo proba"
+   "count": 15
   },
   "laa": {
    "ok": true,
-   "count": 0,
-   "note": "samo proba"
+   "count": 20
   },
   "mb-narodnidom": {
    "ok": true,
