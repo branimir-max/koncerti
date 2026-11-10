@@ -33,7 +33,7 @@ SOURCES = [
      "urls": ["https://www.tvornicakulture.com/", "https://www.tvornicakulture.com/svi-dogadaji/"]},
     {"key": "mocvara", "venue": "mocvara", "exclude": THEATRE, "dj_words": DJ, "parser": "tootoot",
      "strip": [r"^[^:]{3,70}:\s+(?=\S)"],
-     "urls": ["https://www.mochvara.hr/"]},
+     "urls": ["https://mochvara.hr/program/", "https://www.mochvara.hr/"], "tolerant": True},  # naslovnica pokazuje samo izbor, /program/ sve
     {"key": "dvaosam", "venue": "dvaosam", "exclude": THEATRE, "dj_words": DJ, "parser": "tootoot",
      "urls": ["https://dvaosam.com/"]},
     {"key": "kset", "venue": None, "exclude": THEATRE, "dj_words": DJ, "title_prefix": "KSET: ",
