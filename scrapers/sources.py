@@ -87,7 +87,7 @@ SOURCES = [
         ("bec", {"key": "wi-flex", "venue": "wi-flex", "urls": ["https://flex.at/events/"]}),
         ("bec", {"key": "wi-planet", "venue": None, "probe_only": True, "urls": ["https://planet.tt/"]}),  # Gasometer, Szene, Simm City
         ("bec", {"key": "wi-stadthalle", "venue": "wi-stadthalle", "parser": "rows", "row": "li.event-item",
-                 "link": "/events/alle-events/", "strip": [r"^(Nähere Infos zu|Detailinfos zu)\s+"],
+                 "link": "/events/alle-events/", "strip": [r"^(Nähere Infos zu|Detailinfos zu)\s+", r"\s+(Montag|Dienstag|Mittwoch|Donnerstag|Freitag|Samstag|Sonntag),.*$"],
                  "exclude": THEATRE + ["verschoben", "abgesagt", "musical", "on ice", "eisshow", "show", "comedy", "kabarett",
                                        "tennis", "handball", "basketball", "volleyball", "sport", "zirkus", "circus",
                                        "lesung", "messe", "kongress", "ballett", "nussknacker", "weihnachtspostamt"],
