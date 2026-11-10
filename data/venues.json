@@ -55,13 +55,14 @@
  },
  "mocvara": {
   "name": "Močvara",
-  "address": "Trnjanski nasip bb",
+  "address": "Trnjanska struga 34",
   "aliases": [
    "Klub Močvara",
    "Club Mochvara",
    "Močvara",
    "Mochvara"
-  ]
+  ],
+  "addr_ok": true
  },
  "vintage": {
   "name": "Vintage Industrial Bar",

@@ -27,3 +27,5 @@ Disallow: /
 User-agent: *
 Disallow: /events.json
 Allow: /
+
+Sitemap: https://gigomat.com/sitemap.xml

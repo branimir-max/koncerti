@@ -324,7 +324,10 @@ def main() -> None:
         dest.parent.mkdir(parents=True, exist_ok=True)
         dest.write_bytes(data)
     (SITE / "events.json").write_text(json.dumps(payload, ensure_ascii=False, indent=1))
-    write_event_pages(events, out_venues)
+    import seo
+    n_pages, vslug = seo.build(SITE, SITE_URL, events, out_venues, CITIES, GENRES)
+    (SITE / "index.html").write_text((SITE / "index.html").read_text().replace("<!--SEO_LINKS-->", seo.home_links(events, out_venues, vslug)))
+    print(f"SEO: {n_pages} stranica u sitemap.xml")
     print(f"{len(events)} događaja u {len(out_venues)} prostora (ručno {len(manual)}, automatski {len(scraped)})")
 
 
