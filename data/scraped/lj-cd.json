@@ -22,17 +22,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-11-17",
-  "time": "19:30",
-  "title": "Dresdenska filharmonija",
-  "venue": "lj-cankarjev",
-  "genre": "klasika",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-11-10",
   "time": "",
   "title": "Kristijan Krajnčan 5tet: Alchymia XXI",
@@ -62,6 +51,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/josipa-lisac",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "",
+  "title": "Dresdenska filharmonija",
+  "venue": "lj-cankarjev",
+  "genre": "klasika",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
