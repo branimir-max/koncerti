@@ -445,8 +445,8 @@ header.top{padding:0;border-bottom:0}
   .day .ev:nth-of-type(4n){transform:rotate(.14deg)}
 }
 @media (max-width:520px){
-  .ev .acts{flex-direction:column;justify-content:center;padding:2px 0}
-  .ev .acts .icon{height:32px;min-width:38px}
+  .ev .acts [data-cal],.ev .acts [data-share]{display:none}
+  .ev .acts .icon{height:100%;min-width:46px}
   .sticker{width:82px;height:82px}
   .sticker b{font-size:21px}
 }
@@ -529,6 +529,9 @@ body.okopen{overflow:hidden}
 .okend button{border:2px solid var(--ink);background:var(--surface);padding:8px 14px;cursor:pointer;font:inherit}
 @media (min-width:700px){.deck{left:auto;right:24px;transform:none;width:340px}}
 @media (prefers-reduced-motion: reduce){.deck .pk1{transition:none}}
+.linkbtn{all:unset;cursor:pointer;color:var(--accent);text-decoration:underline}
+.linkbtn:focus-visible{outline:2px solid var(--accent)}
+@media (min-width:521px){.detshare{display:none}}
 </style>
 </head>
 <body>
@@ -918,6 +921,7 @@ function detailsHTML(e){
     ${listen.length ? `<div><b>Poslušaj</b> ${listen.join(" · ")}</div>` : ""}
     ${social.length ? `<div><b>Izvođač</b> ${social.join(" · ")}</div>` : ""}
     <div><b>U kalendar</b> <a href="${gcalLink(e)}" target="_blank" rel="noopener">Google</a> · <a href="#" data-ics="${e.id}">Apple / Outlook</a></div>
+    <div class="detshare"><b>Podijeli</b> <button type="button" class="linkbtn" data-share="${e.id}">pošalji prijatelju</button></div>
     <div><b>Cijena</b> ${e.sold?"rasprodano":e.free?"besplatno":esc(e.price||"kod organizatora")}</div>
     <div><b>Koncert</b> <a href="${safeUrl(e.src)}" target="_blank" rel="noopener">Ulaznice i info</a> · ${venueWeb(e) ? `<a href="${safeUrl(venueWeb(e))}" target="_blank" rel="noopener">${esc(e.venue)}</a>` : esc(e.venue)}${e.addr?", "+esc(e.addr):""}</div>
   </div>`;
