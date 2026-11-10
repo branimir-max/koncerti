@@ -363,7 +363,7 @@ body{background-color:var(--bg);background-image:url("data:image/svg+xml,%3Csvg 
 
 header.top{padding:0;border-bottom:0}
 .band{background:var(--band);color:var(--band-ink)}
-.toprow{display:flex;align-items:stretch;gap:0;min-height:52px;margin:0;padding-right:0}
+.toprow{display:flex;align-items:stretch;gap:0;min-height:52px;margin:0 auto;padding-right:0}
 .toprow .logo{color:var(--band-ink);font-family:var(--font-display);font-weight:900;font-size:27px;letter-spacing:0;text-transform:lowercase;gap:9px;margin:0;padding-right:14px}
 .logo .dot{width:20px;height:20px;border-radius:50%;background:var(--accent);flex:none}
 .toprow h1{font-size:inherit;line-height:1;margin:0;display:flex;align-items:stretch;border-left:1px solid #4A4740}
@@ -535,6 +535,8 @@ body.okopen{overflow:hidden}
 /* nakrivljeni retci su svaki svoj sloj: redak s otvorenim izbornikom mora biti iznad ostalih */
 .ev{position:relative}
 .ev:has(.sharemenu){z-index:9}
+.hero{padding-bottom:22px}
+@media (min-width:700px){.toprow{padding-right:20px}}
 </style>
 </head>
 <body>
@@ -544,7 +546,7 @@ body.okopen{overflow:hidden}
       <a class="logo" href="./" aria-label="Gigomat, početna"><span class="dot" aria-hidden="true"></span>gigomat</a>
       <h1><button type="button" class="citybtn" id="cityBtn" aria-expanded="false" aria-controls="cities"><span id="cityIn">Zagreb</span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></button></h1>
       <span class="topacts">
-        <a class="addgig" href="prijavi.html" aria-label="Prijavi koncert"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Prijavi</span></a>
+        <a class="addgig" href="prijavi.html" aria-label="Prijavi događaj"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><path d="M12 5v14M5 12h14"/></svg><span>Prijavi događaj</span></a>
         <button type="button" class="bellbtn" id="panelBtn" aria-expanded="false" aria-controls="panel" title="Kalendar i obavijesti" aria-label="Kalendar i obavijesti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M6 8a6 6 0 1 1 12 0c0 7 3 9 3 9H3s3-2 3-9"/><path d="M10.3 21a1.94 1.94 0 0 0 3.4 0"/></svg></button>
         <button type="button" class="minebtn" id="mineBtn" aria-pressed="false" title="Moji koncerti"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="m12 3 2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1-4.4-4.3 6.1-.9z"/></svg><span id="mineN">0</span></button>
       </span>
@@ -606,7 +608,7 @@ body.okopen{overflow:hidden}
 <footer class="wrap">
   <p id="sources"><strong>Izvori:</strong> službeni programi prostora (u Zagrebu Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack…), prodaja ulaznica (Ulaznice.hr, Core Event). Podaci se automatski osvježavaju svaki dan.</p>
   <p>Datumi i cijene mogu se promijeniti, pa prije kupnje ulaznice provjeri kod organizatora (poveznica „Izvor” uz svaki koncert).</p>
-  <p><strong>Organiziraš svirku ili sviraš u bendu?</strong> <a href="prijavi.html">Prijavi koncert</a> · <a href="privatnost.html">Privatnost</a> · <a href="mailto:info@gigomat.com">info@gigomat.com</a></p>
+  <p><strong>Organiziraš svirku ili sviraš u bendu?</strong> <a href="prijavi.html">Prijavi događaj</a> · <a href="privatnost.html">Privatnost</a> · <a href="mailto:info@gigomat.com">info@gigomat.com</a></p>
   <p class="tm">Gigomat™ i izgled stranice zaštićeni su autorskim pravom. © 2026 Gigomat</p>
 </footer>
 

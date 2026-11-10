@@ -43,3 +43,17 @@ footer{margin-top:32px;color:var(--muted);font-size:14px}
 .kind input{width:auto;margin:0}
 .kind label:has(input:checked){border-color:currentColor;box-shadow:inset 0 0 0 1px currentColor}
 .gdpr{font-size:13px;line-height:1.45;color:var(--muted,#667);margin:-4px 0 0;background:var(--surface-2,rgba(0,0,0,.03));border-left:3px solid var(--accent,#1d4fa0);padding:8px 12px;border-radius:4px}
+
+/* Zid: isti izgled kao početna */
+:root{--bg:#E9E4D8;--surface:#F6F3EC;--ink:#121212;--muted:#4A4740;--line:#121212;--font-body:"Space Grotesk","IBM Plex Sans",system-ui,sans-serif}
+@media (prefers-color-scheme: dark){:root{--bg:#0A101C;--surface:#121A2A;--ink:#E7ECF4;--muted:#93A0B5;--line:#5A6680}}
+.band{background:#121212;color:#E9E4D8}
+.bandin{max-width:680px;margin:0 auto;padding:0 20px;min-height:52px;display:flex;align-items:center}
+.band .logo{color:#E9E4D8;font-weight:800;font-size:26px;gap:9px;text-transform:lowercase}
+.band .logo .dot{width:18px;height:18px;border-radius:50%;background:#1D4E9E}
+.wrap{padding-top:8px}
+form{border:2px solid var(--ink);border-radius:0}
+input,select,textarea{border:2px solid var(--ink);border-radius:0;background:var(--bg)}
+button{border-radius:0;font-family:var(--font-display);font-weight:800;text-transform:uppercase;letter-spacing:.04em;font-size:18px}
+.msg{border-radius:0}
+.kind label{border:2px solid var(--ink);border-radius:0}
