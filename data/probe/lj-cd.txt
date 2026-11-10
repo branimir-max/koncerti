@@ -1,20 +1,20 @@
 title: Glasba | Cankarjev dom
 jsonld types: 
-<div class=carouselSingle> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
-<div class=single--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
-<div class=hero--content> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
-<div class=content--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
-<div class=hero--date> 4. dec. 20:00 | 
+<div class=carouselSingle> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba/dresdenska-filharmonija-0
+<div class=single--wrapper> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba/dresdenska-filharmonija-0
+<div class=hero--content> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba
+<div class=content--wrapper> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba
+<div class=hero--date> 17. nov. 19:30 | 
+<div class=carouselSingle> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
+<div class=single--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
+<div class=hero--content> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
+<div class=content--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
+<div class=hero--date> 25. maj 19:30 | 
 <div class=carouselSingle> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=single--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=hero--content> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
 <div class=content--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
 <div class=hero--date> 30. dec. 18:00 | 
-<div class=carouselSingle> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba/isimangaliso
-<div class=single--wrapper> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba/isimangaliso
-<div class=hero--content> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba
-<div class=content--wrapper> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba
-<div class=hero--date> 31. dec. 19:00 | 
 <div class=singleThumb> Festival 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=singleThumb--wrapper> Festival 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=content> 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana

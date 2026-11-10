@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T15:34:54+00:00",
+ "run_at": "2026-11-10T19:05:39+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "mocvara": {
    "ok": true,
-   "count": 11
+   "count": 14
   },
   "dvaosam": {
    "ok": true,
@@ -71,7 +71,7 @@
   },
   "wi-stadthalle": {
    "ok": true,
-   "count": 135
+   "count": 136
   },
   "wi-wuk": {
    "ok": true,
@@ -140,7 +140,7 @@
   },
   "mb-sng": {
    "ok": true,
-   "count": 12,
+   "count": 13,
    "note": "samo proba"
   },
   "mb-mkc": {
