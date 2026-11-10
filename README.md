@@ -1,6 +1,6 @@
 # Koncerti u Zagrebu
 
-Svi koncerti i DJ večeri u Zagrebu na jednom mjestu, od Arene do Močvare.
+Svi koncerti u Zagrebu na jednom mjestu, od Arene do Močvare.
 
 ## Kako radi
 
