@@ -108,6 +108,10 @@ SOURCES = [
     {"key": "hangtime", "venue": None, "locality": True, "allow_empty": True, "parser": "detail", "performers": True,
      "link_pattern": r"/hr/event/[\w-]{4,}", "limit": 40, "exclude": THEATRE, "urls": ["https://hangtimeagency.com/hr/events/"]},
     {"key": "laa", "venue": None, "parser": "slash", "allow_empty": True, "exclude": THEATRE, "urls": ["https://www.laa.hr/koncerti-buduci"]},
+    # Proba: Lauba, Sax, Studentski centar (Kino SC) – robots.txt dopušta
+    {"key": "lauba", "venue": "lauba", "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.lauba.hr/"]},
+    {"key": "sax", "venue": "sax", "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://sax-zg.hr/"]},
+    {"key": "sczg", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.sczg.unizg.hr/eventi/"]},
     # Entrio: 10. 11. 2026. vraća 403 našem robotu (i za sitemap) – ne zaobilazimo, čekamo njihov odgovor.
     # InfoZagreb: kalendar se učitava tek u pregledniku (JavaScript), a sitemap.xml ne postoji – zasad nije izvor.
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
