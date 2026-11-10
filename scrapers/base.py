@@ -317,6 +317,11 @@ def page_event(html: str, url: str, venue: str) -> dict | None:
 
 
 def event_links(html: str, base_url: str, pattern: str, limit: int = 25) -> list[str]:
+    if "<urlset" in html[:2000]:  # sitemap.xml: najnovije izmijenjene stranice prve
+        items = re.findall(r"<url>\s*<loc>([^<]+)</loc>(?:\s*<lastmod>([^<]+)</lastmod>)?", html)
+        items = [(u.strip(), m or "") for u, m in items if re.search(pattern, u)]
+        items.sort(key=lambda x: x[1], reverse=True)
+        return [u for u, _ in items][:limit]
     links, seen = [], set()
     for a in soup(html).find_all("a", href=True):
         href = requests.compat.urljoin(base_url, a["href"]).split("#")[0]
