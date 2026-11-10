@@ -98,10 +98,12 @@
   "addr_ok": true
  },
  "primarius": {
-  "name": "Primarius",
+  "name": "Primarius Craft",
   "address": "",
   "aliases": [
-   "Primarius"
+   "Primarius",
+   "Primarius Craft",
+   "Primarius Craft pivovarna"
   ]
  },
  "hardplace": {
