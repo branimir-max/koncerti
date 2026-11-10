@@ -72,3 +72,4 @@ jsonld types:
 <a class=news-item.d-flex.flex-column> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/[…]/
 <div class=news-content> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | 
 <div class=news-date> Objavljeno 6. 11. 2026 | 
+poveznice (12): https://sngmb.mojekarte.si/si/2-koncert-cikla-carpe-artem/vstopnice-1213609.html https://www.sng-mb.si/drama-program/?lang=sl https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/bajadera/ https://www.sng-mb.si/event/gospa-ministrica/ https://www.sng-mb.si/event/jutra-v-dzeninu/ https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/kot-noc-in-dan/ https://www.sng-mb.si/event/netopir-3/ https://www.sng-mb.si/opera-program/?lang=sl https://www.sng-mb.si/program/?lang=sl https://www.sng-mb.si/prvi-prizor-program/?lang=sl

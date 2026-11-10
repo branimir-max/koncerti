@@ -62,3 +62,4 @@ api/json hints: /hr/raspored/, /hr/raspored/?predstava=aida-nova, /hr/raspored/?
 <div class=content-wrapper> Opera Johann Strauss ml. Šišmiš Glavna pozornica HNK 18:00 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Kupi ulaznice
 <div class=tickets> Glavna pozornica HNK 18:00 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Kupi ulaznice
 <div class=item.keep-img-ratio> Pon 11 Opera Giuseppe Verdi Aida Glavna pozornica HNK 19:30 Glavna pozornica HNK Pretplata 14 Ulaznice u slobodnoj prodaji Kupi ulaznice
+poveznice (1): /hr/informacije/posebni-programi/

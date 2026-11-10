@@ -34,3 +34,4 @@ jsonld types:
 <div class=fce-teaser-magazin-article> Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
 <div class=[…]> Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
 <div class=article-meta-info> Posted 6.10.2026 | 
+poveznice (8): #c4502-programm /programm/ /programm/[…]/ /programm/bosse-2026/ /programm/cassia/ /programm/itchy/ /programm/kytes/ /programm/xzibit/

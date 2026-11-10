@@ -60,3 +60,4 @@ jsonld types:
 <a class=no-hover> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | https://www.kinosiska.si/dogodek/nipplepeople/
 <div class=card-event-featured> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | 
 <div class=header> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | 
+poveznice (3): https://www.eventim.si/event/19972932/?affiliate=VC1 https://www.kinosiska.si/dogodek/cikcak-koncerti-alostari/ https://www.kinosiska.si/dogodek/cikcak-koncerti-mrfy/

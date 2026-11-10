@@ -8,3 +8,4 @@ api/json hints: /hr/raspored/, /hr/raspored/?predstava=aida-nova, /hr/raspored/?
 <div class=content-wrapper> Koncert Zagrebački kvartet saksofona Haydn, Mozart i Sax None 11:00 Ulaznice u slobodnoj prodaji Rasprodano
 <div class=tickets> None 11:00 Ulaznice u slobodnoj prodaji Rasprodano
 <div class=copyright.footer-info> © 2026 HNK u Zagrebu. Fiksni tečaj konverzije: 1 EUR = 7,53450 HRK
+poveznice (2): /hr/informacije/posebni-programi/ /hr/koncert/predstave/haydn-mozart-i-sax/#22.11.11.00

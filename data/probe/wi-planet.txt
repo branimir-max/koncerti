@@ -30,3 +30,4 @@ jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebP
 <div class=pl-thumbnail> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
 <div class=pl-thumb-desc> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
 <div class=pl-date> Do., 12. November 2026 | 
+poveznice (0): 
