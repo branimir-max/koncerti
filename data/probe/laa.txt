@@ -1,5 +1,65 @@
-title: KONCERTI  | laagency
-jsonld types: WebSite
-bez prepoznatih datuma; html bytes=345366
+title: BUDUĆI  | laagency
+jsonld types: 
+bez prepoznatih datuma; html bytes=354045
 api/json hints: /_api/one-app-session-web/v3/businesses, /_api/v1/access-tokens, /_api/v2/dynamicmodel, /api/
+<p class=font_8.wixui-rich-text__text> 14.11.2026. / PipsChips&Videoclips / Regenerator / Zabok
+<span class=wixui-rich-text__text> 14.11.2026. / PipsChips&Videoclips / Regenerator / Zabok
+<span class=wixui-rich-text__text> 14.11.2026. / PipsChips&Videoclips / Regenerator / Zabok
+<p class=font_8.wixui-rich-text__text> 28.11.2026. / Spike and the Gimme Gimmes / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 28.11.2026. / Spike and the Gimme Gimmes / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 28.11.2026. / Spike and the Gimme Gimmes / Boogaloo / Zagreb
+<p class=font_8.wixui-rich-text__text> 29.11.2026. / The Ocean / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 29.11.2026. / The Ocean / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 29.11.2026. / The Ocean / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 03.12.2026. / Svemirko / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 03.12.2026. / Svemirko / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 03.12.2026. / Svemirko / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 04.12.2026. / BluVinil / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 04.12.2026. / BluVinil / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 04.12.2026. / BluVinil / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 04.12.2026. / Svemirko / Palach / Rijeka
+<span class=wixui-rich-text__text> 04.12.2026. / Svemirko / Palach / Rijeka
+<span class=wixui-rich-text__text> 04.12.2026. / Svemirko / Palach / Rijeka
+<p class=font_8.wixui-rich-text__text> 05.12.2026. / Josipa Lisac / Lisinski / Zagreb
+<span class=wixui-rich-text__text> 05.12.2026. / Josipa Lisac / Lisinski / Zagreb
+<span class=wixui-rich-text__text> 05.12.2026. / Josipa Lisac / Lisinski / Zagreb
+<p class=font_8.wixui-rich-text__text> 16.12.2026. / Kries / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 16.12.2026. / Kries / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 16.12.2026. / Kries / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 17.12.2026. / Avatar / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 17.12.2026. / Avatar / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 17.12.2026. / Avatar / Boogaloo / Zagreb
+<p class=font_8.wixui-rich-text__text> 18.12.2026. / Savršeni Marginalci / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 18.12.2026. / Savršeni Marginalci / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 18.12.2026. / Savršeni Marginalci / Boogaloo / Zagreb
+<p class=font_8.wixui-rich-text__text> 23.12.2026. / Josipa Lisac / Lisinki / Zagreb
+<span class=wixui-rich-text__text> 23.12.2026. / Josipa Lisac / Lisinki / Zagreb
+<span class=wixui-rich-text__text> 23.12.2026. / Josipa Lisac / Lisinki / Zagreb
+<p class=font_8.wixui-rich-text__text> 04.02.2027. / Editors / Boćarski dom / Zagreb
+<span class=wixui-rich-text__text> 04.02.2027. / Editors / Boćarski dom / Zagreb
+<span class=wixui-rich-text__text> 04.02.2027. / Editors / Boćarski dom / Zagreb
+<p class=font_8.wixui-rich-text__text> 13.03.2027. / Conjurer / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 13.03.2027. / Conjurer / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 13.03.2027. / Conjurer / Boogaloo / Zagreb
+<p class=font_8.wixui-rich-text__text> 17.03.2027. / Party Cannon / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 17.03.2027. / Party Cannon / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 17.03.2027. / Party Cannon / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 17.03.2027. / Internal Bleeding / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 17.03.2027. / Internal Bleeding / Vintage Industrial Bar / Zagreb
+<span class=wixui-rich-text__text> 17.03.2027. / Internal Bleeding / Vintage Industrial Bar / Zagreb
+<p class=font_8.wixui-rich-text__text> 10.04.2027. / PipsChips&Videoclips / Arena / Zagreb
+<span class=wixui-rich-text__text> 10.04.2027. / PipsChips&Videoclips / Arena / Zagreb
+<span class=wixui-rich-text__text> 10.04.2027. / PipsChips&Videoclips / Arena / Zagreb
+<p class=font_8.wixui-rich-text__text> 12.04.2027. / Katatonia / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 12.04.2027. / Katatonia / Boogaloo / Zagreb
+<span class=wixui-rich-text__text> 12.04.2027. / Katatonia / Boogaloo / Zagreb
+<p class=font_8.wixui-rich-text__text> 31.05.2027. / Fontaines D.C. / Arena / Zagreb
+<span class=wixui-rich-text__text> 31.05.2027. / Fontaines D.C. / Arena / Zagreb
+<span class=wixui-rich-text__text> 31.05.2027. / Fontaines D.C. / Arena / Zagreb
+<p class=font_8.wixui-rich-text__text> 12.06.2027. / Scorpions / Arena / Zagreb
+<span class=wixui-rich-text__text> 12.06.2027. / Scorpions / Arena / Zagreb
+<span class=wixui-rich-text__text> 12.06.2027. / Scorpions / Arena / Zagreb
+<p class=font_8.wixui-rich-text__text> 12.06..2027. / Europe / Arena / Zagreb
+<span class=wixui-rich-text__text> 12.06..2027. / Europe / Arena / Zagreb
+<span class=wixui-rich-text__text> 12.06..2027. / Europe / Arena / Zagreb
 poveznice (2): https://www.laa.hr/koncerti-buduci https://www.laa.hr/koncerti-prosli

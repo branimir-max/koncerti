@@ -1,6 +1,12 @@
-title: Naslovnica — Hangtime Agency
-jsonld types: WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification
-bez prepoznatih datuma; html bytes=65194
+title: Events — Hangtime Agency
+jsonld types: CollectionPage, ImageObject, BreadcrumbList, ListItem, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification
+bez prepoznatih datuma; html bytes=88113
 api/json hints: //fonts.googleapis.com
+<a class=card-link> KAMELOT – povratak u Beograd nakon 18 godina
+<a class=card-link> ROTTING CHRIST uz INFERNAL STORM u Beogradu – povratak posle više od 19 godina
+<a class=card-link> MORBIDFEST 2026 – I AM MORBID, ATHEIST, CANCER i STELLVRIS – večer death metal klasika
+<a class=card-link> IGORRR premijerno u Hrvatskoj uz SECRET CHIEFS 3 i FANGE
+<a class=card-link> IGORRR u Beogradu + SECRET CHIEFS 3 + FANGE – premijerno u Srbiji
+<a class=card-link> KATATONIA u Beogradu uz BONNIE TRASH – povratak posle gotovo 21 godine
 <div class=col> Opći uvjeti poslovanja – prodaja ulaznica Kolačići Pravila privatnosti F T Y M © 2026 Hangtime Agency d.o.o.
-poveznice (1): https://hangtimeagency.com/hr/events/
+poveznice (33): https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/ https://hangtimeagency.com/hr/event/[…]/

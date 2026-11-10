@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T13:17:28+00:00",
+ "run_at": "2026-11-10T13:22:04+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -41,25 +41,6 @@
   "coreevent": {
    "ok": true,
    "count": 117
-  },
-  "ticketmaster-zagreb": {
-   "ok": true,
-   "count": 0,
-   "note": "trenutno nema koncerata"
-  },
-  "ticketmaster-ljubljana": {
-   "ok": true,
-   "count": 0,
-   "note": "trenutno nema koncerata"
-  },
-  "ticketmaster-budimpesta": {
-   "ok": true,
-   "count": 0,
-   "note": "trenutno nema koncerata"
-  },
-  "ticketmaster-bec": {
-   "ok": true,
-   "count": 1
   },
   "hnk-opera": {
    "ok": true,
@@ -126,7 +107,7 @@
   },
   "hangtime": {
    "ok": true,
-   "count": 0,
+   "count": 31,
    "note": "samo proba"
   },
   "laa": {
