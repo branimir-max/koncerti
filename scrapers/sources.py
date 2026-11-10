@@ -104,10 +104,10 @@ SOURCES = [
                        "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
         ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
     ]],
-    # Promotori (javni programi; robots.txt se provjerava prije čitanja) – prvo probe
-    {"key": "hangtime", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "parser": "detail",
+    # Promotori (javni programi; robots.txt se provjerava prije čitanja). Hangtime: samo Zagreb (imaju i Beograd).
+    {"key": "hangtime", "venue": None, "locality": True, "allow_empty": True, "parser": "detail",
      "link_pattern": r"/hr/event/[\w-]{4,}", "limit": 40, "exclude": THEATRE, "urls": ["https://hangtimeagency.com/hr/events/"]},
-    {"key": "laa", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.laa.hr/koncerti-buduci"]},
+    {"key": "laa", "venue": None, "parser": "slash", "allow_empty": True, "exclude": THEATRE, "urls": ["https://www.laa.hr/koncerti-buduci"]},
     # Entrio: 10. 11. 2026. vraća 403 našem robotu (i za sitemap) – ne zaobilazimo, čekamo njihov odgovor.
     # InfoZagreb: kalendar se učitava tek u pregledniku (JavaScript), a sitemap.xml ne postoji – zasad nije izvor.
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija

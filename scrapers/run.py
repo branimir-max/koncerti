@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import row_events, hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
+from .base import slash_events, row_events, hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 from .ticketmaster import events as tm_events
 
@@ -152,8 +152,8 @@ def scrape(src: dict) -> list[dict]:
             found = tm_events(url)
         elif parser == "tootoot":
             found = tootoot_events(html, v, url)
-        elif parser in ("ulaznice", "coreevent"):
-            fn = ulaznice_events if parser == "ulaznice" else coreevent_events
+        elif parser in ("ulaznice", "coreevent", "slash"):
+            fn = {"ulaznice": ulaznice_events, "coreevent": coreevent_events, "slash": slash_events}[parser]
             found = []
             for e in fn(html, url):
                 c = city_of(e["_place"])

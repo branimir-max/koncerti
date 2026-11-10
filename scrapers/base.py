@@ -466,3 +466,22 @@ def row_events(html: str, venue: str, base_url: str, row: str, link: str, requir
         out.append({"date": d, "time": parse_time(text), "title": max(names, key=len), "venue": venue, "genre": "",
                     "price": find_price(text), "url": requests.compat.urljoin(base_url, links[0]["href"]), "_text": text})
     return out
+
+
+SLASH_RE = re.compile(r"^(\d{1,2}\.\s?\d{1,2}\.\s?\d{4})\.?\s*/\s*([^/]+?)\s*/\s*([^/]+?)\s*/\s*([^/]+?)\s*$")
+
+
+def slash_events(html: str, base_url: str) -> list[dict]:
+    """Popis u obliku "28.11.2026. / Izvođač / Prostor / Grad" (LAA)."""
+    out, seen = [], set()
+    for el in soup(html).find_all(["p", "li", "div", "span"]):
+        t = el.get_text(" ", strip=True)
+        m = SLASH_RE.match(t)
+        if not m or t in seen:
+            continue
+        seen.add(t)
+        d = parse_date(m.group(1))
+        if d:
+            out.append({"date": d, "time": "", "title": clean(m.group(2)), "venue": "", "genre": "", "price": "",
+                        "url": base_url, "_place": f"{m.group(3)}, {m.group(4)}"})
+    return out
