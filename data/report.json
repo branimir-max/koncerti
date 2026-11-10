@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T13:26:36+00:00",
+ "run_at": "2026-11-10T13:32:53+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -107,7 +107,7 @@
   },
   "hangtime": {
    "ok": true,
-   "count": 15
+   "count": 12
   },
   "laa": {
    "ok": true,
