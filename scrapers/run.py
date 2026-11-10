@@ -277,8 +277,26 @@ def main(only: list[str] | None = None) -> int:
         if only and src["key"] not in only:
             continue
         path = OUT / f"{src['key']}.json"
+        # robots.txt poštujemo PRIJE čitanja: zabranjene adrese se uopće ne otvaraju
+        if src.get("parser") != "ticketmaster":
+            try:
+                blocked = robots_blocked(src["urls"])
+            except Exception:  # noqa: BLE001
+                blocked = []
+            if blocked:
+                allowed = [u for u in src["urls"] if u not in blocked]
+                if not allowed:
+                    path.unlink(missing_ok=True)
+                    report["sources"][src["key"]] = {"ok": False, "count": 0, "error": "robots.txt ne dopušta čitanje"}
+                    print(f"{src['key']:10} ROBOTS – preskočeno")
+                    continue
+                src = dict(src, urls=allowed)
         try:
             events = scrape(src)
+            if src.get("probe_only"):  # novi izvor: samo snimka strukture, događaji još ne idu na stranicu
+                report["sources"][src["key"]] = {"ok": True, "count": len(events), "note": "samo proba"}
+                print(f"{src['key']:10} PROBA {len(events):4}")
+                continue
             if events:
                 path.write_text(json.dumps(events, ensure_ascii=False, indent=1))
                 status = {"ok": True, "count": len(events)}

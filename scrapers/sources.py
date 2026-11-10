@@ -86,9 +86,23 @@ SOURCES = [
      "exclude": ["izložb", "exhibition", "predstava", "radionic", "workshop", "predavanj", "lecture", "film"],
      "urls": [f"https://visitrijeka.hr/en/events/categoria/{cat}/{_m}/?ical=1"
               for _m in _MONTHS for cat in ("culture-art", "entertainment")]},
-    {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True,
+    # ---------- Službeni programi klubova: Beč, Budimpešta, Ljubljana (robots.txt provjeren) ----------
+    *[dict({"city": city, "exclude": THEATRE, "dj_words": DJ, "probe": True, "allow_empty": True}, **x) for city, x in [
+        ("bec", {"key": "wi-arena", "venue": "wi-arenawien", "urls": ["https://arena.wien/Home/Event-List"]}),
+        ("bec", {"key": "wi-flex", "venue": "wi-flex", "urls": ["https://flex.at/events/"]}),
+        ("bec", {"key": "wi-planet", "venue": None, "probe_only": True, "urls": ["https://planet.tt/kalender/"]}),  # Gasometer, Szene, Simm City
+        ("bec", {"key": "wi-wuk", "venue": "wi-werkstattenkulturhau", "urls": ["https://www.wuk.at/musik/"]}),
+        ("bec", {"key": "wi-porgy", "venue": "wi-porgybess", "genre": "jazz", "urls": ["https://www.porgy.at/events/upcoming"]}),
+        ("budimpesta", {"key": "bp-akvarium", "venue": "bp-akvariumklub", "urls": ["https://akvariumklub.hu/programok/"]}),
+        ("budimpesta", {"key": "bp-barbanegra", "venue": "bp-barbanegra", "urls": ["https://www.barbanegra.hu/programok"]}),
+        ("budimpesta", {"key": "bp-a38", "venue": "bp-a38shipa38", "urls": ["https://www.a38.hu/en/programs"]}),
+        ("ljubljana", {"key": "lj-festival", "venue": None, "default_venue": "lj-krizanke",
+                       "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
+        ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
+    ]],
+    {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True, "probe": True,
      "urls": ["https://www.kinosiska.si/"]},
-    {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True,
+    {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True, "probe": True,
      "urls": ["https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa"]},
 ]
 

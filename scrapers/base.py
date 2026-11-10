@@ -42,12 +42,33 @@ DATE_PATTERNS = [
     # 2026-11-13
     re.compile(r"\b(\d{4})-(\d{2})-(\d{2})\b"),
 ]
+# Mjeseci na njemačkom, mađarskom, slovenskom i engleskom (Beč, Budimpešta, Ljubljana)
+MONTHS_X = {}
+for _n, _words in enumerate([
+        "jan januar jänner jänn january január januarja", "feb februar february február februarja",
+        "mar mär märz march március márc marec marca", "apr april április aprila", "mai may máj május maj maja",
+        "jun juni june jún június junij junija", "jul juli july júl július julij julija",
+        "aug august augusztus avg avgust avgusta", "sep sept september szeptember szept septembra",
+        "okt oct oktober october október oktobra", "nov november novembra", "dez dec dezember december decembra"], 1):
+    for _w in _words.split():
+        MONTHS_X[_w] = _n
+_MX = "|".join(sorted(MONTHS_X, key=len, reverse=True))
+_WD = r"(?:[a-zäöüáéíóöőúüűčšž]{2,4}\.?,?\s+)?"  # dan u tjednu između dana i mjeseca ("11 Mi. Nov")
+DAY_MONTH_RE = re.compile(rf"\b(\d{{1,2}})\.?\s+{_WD}({_MX})\b\.?\s*(?:\|\s*)?,?\s*(\d{{4}})?", re.I)
+MONTH_DAY_RE = re.compile(rf"\b({_MX})\b\.?\s+(\d{{1,2}})(?:\.(?!\d)|,?\s+(\d{{4}})\b)", re.I)  # "Nov 12." / "Nov 12, 2026"
+HU_DATE_RE = re.compile(r"\b(20\d\d)\.\s?(\d{1,2})\.\s?(\d{1,2})\b")
 TIME_RE = re.compile(r"\b([01]?\d|2[0-3])[:.]([0-5]\d)\s*(?:h|sati)?\b")
 
 
 def parse_date(text: str, today: date | None = None) -> str | None:
     """Vrati prvi datum iz teksta kao YYYY-MM-DD (podržava hrvatske formate)."""
     today = today or date.today()
+    m = HU_DATE_RE.search(text)  # 2026.11.21.
+    if m:
+        try:
+            return date(int(m.group(1)), int(m.group(2)), int(m.group(3))).isoformat()
+        except ValueError:
+            pass
     m = DATE_PATTERNS[1].search(text)
     if m:
         return f"{m.group(1)}-{m.group(2)}-{m.group(3)}"
@@ -78,11 +99,22 @@ def parse_date(text: str, today: date | None = None) -> str | None:
             return date(y, mo, d).isoformat()
         except ValueError:
             return None
+    # "10. November 2026", "11 Mi. Nov | 2026", "14 NOV SZO", "17. nov.", "Nov 12."
+    for rx, di, mi in ((DAY_MONTH_RE, 1, 2), (MONTH_DAY_RE, 2, 1)):
+        m = rx.search(text)
+        if m:
+            d, mo = int(m.group(di)), MONTHS_X[m.group(mi).lower()]
+            y = int(m.group(3)) if m.group(3) else (today.year + (1 if mo < today.month - 1 else 0))
+            try:
+                return date(y, mo, d).isoformat()
+            except ValueError:
+                return None
     return None
 
 
 def parse_time(text: str) -> str:
     # Prvo makni datume, inače bi "14.11.2026" izgledalo kao 14:11
+    text = HU_DATE_RE.sub(" ", text)
     text = DATE_PATTERNS[0].sub(" ", DATE_PATTERNS[1].sub(" ", text))
     text = re.sub(r"\b\d{1,2}\.\s*(" + "|".join(MONTHS_HR) + r")", " ", text, flags=re.I)
     text = re.sub(r"\b\d{1,2}\.\s?(0?[1-9]|1[0-2])\.(?!\d)", " ", text)  # 21.11. bez godine

@@ -511,5 +511,108 @@
    "Lauba – kuća za ljude i umjetnost"
   ],
   "addr_ok": true
+ },
+ "wi-arenawien": {
+  "name": "Arena Wien",
+  "city": "bec",
+  "aliases": [
+   "Arena Wien",
+   "Arena - Große Halle",
+   "Arena - Kleine Halle",
+   "Arena Wien - Große Halle",
+   "Arena Wien - Kleine Halle",
+   "Arena Wien - Open Air"
+  ],
+  "web": "https://arena.wien/"
+ },
+ "wi-flex": {
+  "name": "Flex",
+  "city": "bec",
+  "aliases": [
+   "Flex",
+   "Flex Café",
+   "Flex Halle"
+  ],
+  "web": "https://flex.at/"
+ },
+ "wi-werkstattenkulturhau": {
+  "name": "WUK",
+  "city": "bec",
+  "aliases": [
+   "WUK",
+   "Werkstätten- & Kulturhaus (WUK)",
+   "Werkstätten- und Kulturhaus"
+  ],
+  "web": "https://www.wuk.at/"
+ },
+ "wi-porgybess": {
+  "name": "Porgy & Bess",
+  "city": "bec",
+  "aliases": [
+   "Porgy & Bess",
+   "Porgy and Bess"
+  ],
+  "web": "https://www.porgy.at/"
+ },
+ "wi-raiffeisenhalleim": {
+  "name": "Raiffeisen Halle Gasometer",
+  "city": "bec",
+  "aliases": [
+   "Raiffeisen Halle im Gasometer",
+   "Raiffeisen Halle Gasometer",
+   "Gasometer"
+  ],
+  "web": "https://planet.tt/"
+ },
+ "wi-szenewien": {
+  "name": "Szene Wien",
+  "city": "bec",
+  "aliases": [
+   "Szene Wien",
+   "((szene)) Wien",
+   "(szene) Wien"
+  ],
+  "web": "https://planet.tt/"
+ },
+ "wi-simmcityfestsaal": {
+  "name": "Simm City",
+  "city": "bec",
+  "aliases": [
+   "SimmCity",
+   "Simm City",
+   "Simm City Festsaal, Zentrum Simmering"
+  ],
+  "web": "https://planet.tt/"
+ },
+ "bp-akvariumklub": {
+  "name": "Akvárium Klub",
+  "city": "budimpesta",
+  "aliases": [
+   "Akvárium Klub",
+   "Akvarium Klub",
+   "Akvárium"
+  ],
+  "web": "https://akvariumklub.hu/"
+ },
+ "bp-barbanegra": {
+  "name": "Barba Negra",
+  "city": "budimpesta",
+  "aliases": [
+   "Barba Negra",
+   "Barba Negra Red Stage",
+   "Barba Negra Blue Stage"
+  ],
+  "web": "https://www.barbanegra.hu/"
+ },
+ "bp-a38shipa38": {
+  "name": "A38",
+  "city": "budimpesta",
+  "aliases": [
+   "A38 Ship / A38 Hajó",
+   "A38 Hajó",
+   "A38 Ship",
+   "A38"
+  ],
+  "web": "https://www.a38.hu/"
  }
 }
