@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T09:25:07+00:00",
+ "run_at": "2026-11-10T09:41:45+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -40,7 +40,7 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 115
+   "count": 116
   },
   "ticketmaster-zagreb": {
    "ok": true,
@@ -124,6 +124,11 @@
   "lj-cd": {
    "ok": true,
    "count": 54
+  },
+  "infozagreb": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
   },
   "mb-narodnidom": {
    "ok": true,
