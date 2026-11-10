@@ -24,17 +24,6 @@
  {
   "date": "2026-11-13",
   "time": "21:00",
-  "title": "13. NO Jazz festival: OOIOO, Eksterminator '81",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6a5f8f694b73f07adb3be3a2/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
-  "date": "2026-11-13",
-  "time": "21:00",
   "title": "Artifacts Trio, Eksterminator '81",
   "venue": "mocvara",
   "genre": "",
@@ -51,6 +40,17 @@
   "genre": "dj",
   "price": "",
   "url": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "22:00",
+  "title": "Balkan rock",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6aa7cb0fd71134be6105e484/",
   "city": "zagreb",
   "source": "mocvara"
  },

@@ -302,6 +302,18 @@
  {
   "date": "2026-11-17",
   "time": "20:00",
+  "title": "Koncert orkestra \"Greenhill Club big band\": Chiaroscuro",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/koncert-orkestra-greenhill-club-big-band-chiaroscuro-39fe/",
+  "city": "zagreb",
+  "venue_name": "Velika dvorana",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "20:00",
   "title": "Valerija Nikolovska - Green Heart",
   "venue": "",
   "genre": "",
@@ -1104,6 +1116,18 @@
   "source": "coreevent"
  },
  {
+  "date": "2027-01-16",
+  "time": "20:00",
+  "title": "Axiom Dejana Terzića",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/axiom-dejana-terzica-083e/",
+  "city": "pula",
+  "venue_name": "Circolo Pula",
+  "source": "coreevent"
+ },
+ {
   "date": "2027-01-21",
   "time": "20:00",
   "title": "The Black Wizards",
@@ -1365,6 +1389,18 @@
   "url": "https://core-event.co/events/electric-six-u-tvornici-kulture-6818/",
   "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
+  "source": "coreevent"
+ },
+ {
+  "date": "2027-06-30",
+  "time": "20:00",
+  "title": "Queens of the Stone Age u pulskoj Areni!",
+  "venue": "pu-arena",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/queens-of-the-stone-age-u-pulskoj-areni-d869/",
+  "city": "pula",
+  "venue_name": "Arena Pula",
   "source": "coreevent"
  },
  {

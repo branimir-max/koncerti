@@ -742,5 +742,17 @@
   "city": "zagreb",
   "venue_name": "ŠRC Šalata",
   "source": "ulaznice"
+ },
+ {
+  "date": "2027-06-27",
+  "time": "21:00",
+  "title": "Russell Crowe's INDOOR GARDEN PARTY",
+  "venue": "pu-arena",
+  "genre": "dj",
+  "price": "",
+  "url": "https://www.entrio.hr/event/russell-crowes-indoor-garden-party-34938",
+  "city": "pula",
+  "venue_name": "Arena Pula",
+  "source": "ulaznice"
  }
 ]

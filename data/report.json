@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T13:37:28+00:00",
+ "run_at": "2026-11-10T15:18:24+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "kset": {
    "ok": true,
-   "count": 4
+   "count": 5
   },
   "attack": {
    "ok": true,
@@ -36,11 +36,11 @@
   },
   "ulaznice": {
    "ok": true,
-   "count": 62
+   "count": 63
   },
   "coreevent": {
    "ok": true,
-   "count": 117
+   "count": 120
   },
   "hnk-opera": {
    "ok": true,
@@ -83,7 +83,7 @@
   },
   "bp-akvarium": {
    "ok": true,
-   "count": 88
+   "count": 89
   },
   "bp-budapestpark": {
    "ok": true,
@@ -111,7 +111,7 @@
   },
   "laa": {
    "ok": true,
-   "count": 20
+   "count": 22
   },
   "lauba": {
    "ok": true,
@@ -146,6 +146,16 @@
   "mb-mkc": {
    "ok": true,
    "count": 17,
+   "note": "samo proba"
+  },
+  "pu-tz": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "pu-ink": {
+   "ok": true,
+   "count": 6,
    "note": "samo proba"
   },
   "kinosiska": {
