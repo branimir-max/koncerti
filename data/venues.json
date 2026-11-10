@@ -640,5 +640,150 @@
    "Budapest Park"
   ],
   "web": "https://www.budapestpark.hu/"
+ },
+ "pu-ink": {
+  "name": "Istarsko narodno kazalište",
+  "address": "Laginjina 5",
+  "aliases": [
+   "Istarsko narodno kazalište",
+   "INK",
+   "Gradsko kazalište Pula",
+   "Istrian National Theatre"
+  ],
+  "city": "pula",
+  "web": "https://www.ink.hr/"
+ },
+ "pu-arena": {
+  "name": "Arena Pula",
+  "address": "Flavijevska ulica",
+  "aliases": [
+   "Arena Pula",
+   "Amfiteatar",
+   "Amphitheatre",
+   "In front of the Arena",
+   "Ispred Arene",
+   "Arena"
+  ],
+  "city": "pula"
+ },
+ "pu-rojc": {
+  "name": "DC Rojc",
+  "address": "Ulica Ljudevita Gaja 3",
+  "aliases": [
+   "DC Rojc",
+   "Društveni centar Rojc",
+   "Rojc"
+  ],
+  "city": "pula"
+ },
+ "pu-monteparadiso": {
+  "name": "Monteparadiso (Rojc)",
+  "address": "Ulica Ljudevita Gaja 3",
+  "aliases": [
+   "Monteparadiso",
+   "Monte Paradiso"
+  ],
+  "city": "pula"
+ },
+ "pu-kotac": {
+  "name": "Klub Kotač (Rojc)",
+  "address": "Ulica Ljudevita Gaja 3",
+  "aliases": [
+   "Klub Kotač",
+   "Kotač"
+  ],
+  "city": "pula"
+ },
+ "pu-uljanik": {
+  "name": "Club Uljanik",
+  "address": "Dobrilina 2",
+  "aliases": [
+   "Club Uljanik",
+   "Klub Uljanik",
+   "Rock club Uljanik"
+  ],
+  "city": "pula"
+ },
+ "pu-valli": {
+  "name": "Kino Valli",
+  "address": "Giardini 1",
+  "aliases": [
+   "Kino Valli"
+  ],
+  "city": "pula"
+ },
+ "pu-dhb": {
+  "name": "Dom hrvatskih branitelja",
+  "address": "Trg Republike 1",
+  "aliases": [
+   "Dom hrvatskih branitelja",
+   "Croatian Defenders' Home",
+   "Dom branitelja"
+  ],
+  "city": "pula"
+ },
+ "pu-malorimsko": {
+  "name": "Malo rimsko kazalište",
+  "address": "Herculov prolaz",
+  "aliases": [
+   "Malo rimsko kazalište",
+   "Small Roman Theatre",
+   "Rimsko kazalište"
+  ],
+  "city": "pula"
+ },
+ "pu-kastel": {
+  "name": "Kaštel",
+  "address": "Gradinski uspon 6",
+  "aliases": [
+   "Kaštel",
+   "Kastel",
+   "Castle"
+  ],
+  "city": "pula"
+ },
+ "pu-forum": {
+  "name": "Forum",
+  "address": "Forum",
+  "aliases": [
+   "Forum"
+  ],
+  "city": "pula"
+ },
+ "pu-trznica": {
+  "name": "Tržnica",
+  "address": "Narodni trg",
+  "aliases": [
+   "Tržnica",
+   "Market"
+  ],
+  "city": "pula"
+ },
+ "pu-scandal": {
+  "name": "Scandal Express",
+  "address": "",
+  "aliases": [
+   "Scandal express",
+   "Scandal Express"
+  ],
+  "city": "pula"
+ },
+ "pu-cargo": {
+  "name": "Cargo",
+  "address": "",
+  "aliases": [
+   "Club Cargo",
+   "Cargo"
+  ],
+  "city": "pula"
+ },
+ "pu-sportskadvorana": {
+  "name": "Dom sportova Mate Parlov",
+  "address": "Trg kralja Tomislava 7",
+  "aliases": [
+   "Dom sportova Mate Parlov",
+   "Mate Parlov"
+  ],
+  "city": "pula"
  }
 }

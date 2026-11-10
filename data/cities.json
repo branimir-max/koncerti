@@ -82,5 +82,15 @@
   ],
   "lat": 46.557,
   "lon": 15.646
+ },
+ "pula": {
+  "name": "Pula",
+  "in": "u Puli",
+  "pfx": "pu",
+  "match": [
+   "pula"
+  ],
+  "lat": 44.867,
+  "lon": 13.85
  }
 }
