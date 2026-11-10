@@ -11,6 +11,17 @@
   "source": "lj-cd"
  },
  {
+  "date": "2026-12-04",
+  "time": "20:00",
+  "title": "Votia (Reunion)",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
   "date": "2026-11-10",
   "time": "",
   "title": "Od opere do muzikala",
@@ -46,22 +57,22 @@
  {
   "date": "2026-11-17",
   "time": "",
-  "title": "Dresdenska filharmonija",
+  "title": "Tom Skinner",
   "venue": "lj-cankarjev",
-  "genre": "klasika",
+  "genre": "",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
+  "url": "https://www.cd-cc.si/kultura/glasba/tom-skinner",
   "city": "ljubljana",
   "source": "lj-cd"
  },
  {
   "date": "2026-11-17",
   "time": "",
-  "title": "Tom Skinner",
+  "title": "Dresdenska filharmonija",
   "venue": "lj-cankarjev",
-  "genre": "",
+  "genre": "klasika",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/tom-skinner",
+  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -172,17 +183,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/kromatika-3-operna-noc",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-04",
-  "time": "",
-  "title": "Votia (Reunion)",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
   "city": "ljubljana",
   "source": "lj-cd"
  },
