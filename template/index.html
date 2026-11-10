@@ -604,6 +604,10 @@ body.okopen{overflow:hidden}
   :root:not([data-theme="light"]) .ev .sub .g{color:color-mix(in srgb,var(--gc,#fff) 45%,#fff)!important}
   :root:not([data-theme="light"]) .toprow .minebtn{color:#05080F}
 }
+.dayhead .lm{height:38px;width:auto;max-width:150px;margin-left:auto;align-self:flex-end;fill:var(--accent);opacity:.32;flex:none}
+.dayhead .lm+.dch{margin-left:12px}
+:root[data-theme="dark"] .dayhead .lm{opacity:.45}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .dayhead .lm{opacity:.45}}
 </style>
 </head>
 <body>
@@ -1025,6 +1029,21 @@ function evHTML(e){
   </article>`;
 }
 
+const LMS = {
+  zagreb: [[`4 4 42 108`, `<path d="M6 110V64h4V40l6-34 6 34v24h6V40l6-34 6 34v24h4v46z"/>`], [`56 26 28 86`, `<path d="M60 110V36h-2v-5h4v-3h4v3h3v-3h4v3h3v-3h4v5h-2v74z"/>`], [`92 46 66 66`, `<path d="M94 110V74h13q18-26 36 0h13v36z M124 56h2v-8h-2z"/>`], [`170 20 34 92`, `<path d="M174 110V22h26v88z"/>`], [`212 12 52 100`, `<path d="M214 110V14h7v56l10-8v8l10-8v8l10-8v8l10-8v46z"/>`], [`274 10 28 102`, `<path d="M278 110V18q10-8 20 0v92z"/>`], [`306 72 80 40`, `<path d="M308 110V84l36-10 40 10v26z"/>`]],
+  rijeka: [[`145 18 32 94`, `<path d="M150 110V52h22v58z M147 52v-5h28v5z M152 47q9-18 18 0z M160 29h2v-9h-2z"/>`], [`36 39 38 29`, `<path d="M38 66V46h6v-5h4v5h6v-5h4v5h6v-5h4v5h4v20z"/>`], [`226 29 62 83`, `<path d="M228 110V40h6v70z M231 40l54-9v5l-54 9z M278 33v22h2V33z"/>`], [`308 87 90 25`, `<path d="M310 110l6-12h80l-6 12z M330 98v-9h28v9z"/>`]],
+  split: [[`113 0 32 112`, `<path d="M118 110V40h22v70z M115 40v-6h28v6z M120 34V22h18v12z M122 22l7-20 7 20z"/>`], [`240 38 56 74`, `<path d="M262 110q-2-32 4-52h3q-6 22-3 52z M267 58q-14-7-24 2q11-5 24 0z M268 58q12-11 26-4q-13 0-26 6z M268 58q-4-13-15-17q11 4 15 17z M269 58q6-15 19-15q-13 4-19 17z"/>`], [`8 66 104 46`, `<path fill-rule="evenodd" d="M10 110V78h100v32z M16 110v-22q5.0 -7.0 10 0v22zM32 110v-22q5.0 -7.0 10 0v22zM48 110v-22q5.0 -7.0 10 0v22zM64 110v-22q5.0 -7.0 10 0v22zM80 110v-22q5.0 -7.0 10 0v22zM96 110v-22q5.0 -7.0 10 0v22z"/>`]],
+  pula: [[`38 40 204 72`, `<path fill-rule="evenodd" d="M40 110V48q100-16 200 0v62z M52 76v-12q5.0 -7.0 10 0v12zM70 76v-12q5.0 -7.0 10 0v12zM88 76v-12q5.0 -7.0 10 0v12zM106 76v-12q5.0 -7.0 10 0v12zM124 76v-12q5.0 -7.0 10 0v12zM142 76v-12q5.0 -7.0 10 0v12zM160 76v-12q5.0 -7.0 10 0v12zM178 76v-12q5.0 -7.0 10 0v12zM196 76v-12q5.0 -7.0 10 0v12zM214 76v-12q5.0 -7.0 10 0v12z M52 104v-16q5.0 -7.0 10 0v16zM70 104v-16q5.0 -7.0 10 0v16zM88 104v-16q5.0 -7.0 10 0v16zM106 104v-16q5.0 -7.0 10 0v16zM124 104v-16q5.0 -7.0 10 0v16zM142 104v-16q5.0 -7.0 10 0v16zM160 104v-16q5.0 -7.0 10 0v16zM178 104v-16q5.0 -7.0 10 0v16zM196 104v-16q5.0 -7.0 10 0v16zM214 104v-16q5.0 -7.0 10 0v16z"/>`], [`260 8 84 104`, `<path d="M270 110V26h7v84z M326 110V26h7v84z M262 26v-8h80v8z M296 18V10h12v8z"/>`], [`344 61 56 51`, `<path fill-rule="evenodd" d="M350 110V78h44v32z M346 78h52l-26-15z M354 106v-24h4v24zM363 106v-24h4v24zM372 106v-24h4v24zM381 106v-24h4v24zM390 106v-24h4v24z"/>`]],
+  zabok: [[`158 22 56 90`, `<path d="M160 110V82h52v28z M171 82V52h14v30z M169 52q9-20 18 0z M177 33h2v-9h-2z"/>`], [`296 54 20 24`, `<path d="M300 76v-10h12v10z M303 66l3-8 3 8z"/>`], [`48 85 23 27`, `<path d="M58 110V96h3v14z M59.5 96m-9 0a9 9 0 1 0 18 0a9 9 0 1 0-18 0"/>`]],
+  ljubljana: [[`266 16 48 46`, `<path d="M268 60V40h44v20z M300 40V22h10v18z M297 22v-4h16v4z M268 40v-4h4v4h4v-4h4v4h4v-4h4v4z"/>`], [`26 26 26 70`, `<path d="M28 94V34h22v60z M30 34v-6h18v6z"/>`], [`102 25 52 71`, `<path d="M108 94V58h40v36z M104 58h48l-24-17z M124 41h8v-14h-8z"/>`], [`0 80 200 32`, `<path fill-rule="evenodd" d="M0 110V92h200v18z M14 110v-10q17.0 -23.8 34 0v10zM58 110v-10q17.0 -23.8 34 0v10zM102 110v-10q17.0 -23.8 34 0v10zM146 110v-10q17.0 -23.8 34 0v10z"/>`]],
+  bec: [[`28 2 106 110`, `<path d="M30 110V70h84v40z M30 70l42-24 42 24z M116 110V24l8-20 8 20v86z"/>`], [`156 26 88 86`, `<path d="M168 110V76h64v34z M178 76q22-38 44 0z M198 38h4v-10h-4z M158 110V58h9v52z M233 110V58h9v52z"/>`], [`264 14 92 98`, `<path fill-rule="evenodd" d="M310 60m-44 0a44 44 0 1 0 88 0a44 44 0 1 0-88 0z M310 60m-39 0a39 39 0 1 0 78 0a39 39 0 1 0-78 0z M307 60h6v-2h-6z M300 110l10-50 10 50z"/>`]],
+  budimpesta: [[`8 18 236 94`, `<path fill-rule="evenodd" d="M10 110V80h230v30z M18 80l4-16 4 16zM40 80l4-16 4 16zM62 80l4-16 4 16zM84 80l4-16 4 16zM172 80l4-16 4 16zM194 80l4-16 4 16zM216 80l4-16 4 16z"/><path d="M108 81q22-46 44 0z M128 37h4v-18h-4z"/>`], [`246 46 154 66`, `<path fill-rule="evenodd" d="M262 110V48h16v62z M352 110V48h16v62z M248 94h152v-5H248z M265 110v-14q5.0 -7.0 10 0v14z M355 110v-14q5.0 -7.0 10 0v14z"/><path d="M248 90Q262 66 270 50l2 1Q264 68 250 92z M278 50Q315 82 352 50l1 2Q315 86 277 52z M368 50Q382 66 398 90l-2 1Q380 68 367 52z"/>`]]
+};
+function landmark(d){
+  const L = LMS[CITY]; if (!L) return "";
+  const [vb, inner] = L[Math.floor(parse(d).getTime()/864e5) % L.length];
+  return `<svg class="lm" aria-hidden="true" viewBox="${vb}">${inner}</svg>`;
+}
 function relLabel(date){
   if (date===TODAY) return "Danas";
   if (date===iso(addDays(parse(TODAY),1))) return "Sutra";
@@ -1065,7 +1084,7 @@ function renderList(list){
   return Object.entries(byDay).sort((a,b)=>a[0].localeCompare(b[0])).map(([d,evs])=>{
     const dt=parse(d);
     const yr = dt.getFullYear()!==parse(TODAY).getFullYear() ? " "+dt.getFullYear()+"." : "";
-    return `<section class="day" data-d="${d}"><div class="dayhead"><button type="button" class="dbtn" data-dpick aria-label="${dt.getDate()}. ${MONTHS[dt.getMonth()]}, ${DAYS[dt.getDay()]}. Skoči na drugi dan"><span class="dnum"><span class="p2" aria-hidden="true">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="dname">${MONTHS[dt.getMonth()]}${yr}<small>${DAYS[dt.getDay()]}${relLabel(d)?" · "+relLabel(d).toLowerCase():""}</small></span><span class="dch" aria-hidden="true">▾</span></button></div>${evs.map(e=>e.fest?festRowHTML(e.fest):evHTML(e)).join("")}</section>`;
+    return `<section class="day" data-d="${d}"><div class="dayhead"><button type="button" class="dbtn" data-dpick aria-label="${dt.getDate()}. ${MONTHS[dt.getMonth()]}, ${DAYS[dt.getDay()]}. Skoči na drugi dan"><span class="dnum"><span class="p2" aria-hidden="true">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="dname">${MONTHS[dt.getMonth()]}${yr}<small>${DAYS[dt.getDay()]}${relLabel(d) && d!==TODAY ?" · "+relLabel(d).toLowerCase():""}</small></span>${landmark(d)}<span class="dch" aria-hidden="true">▾</span></button></div>${evs.map(e=>e.fest?festRowHTML(e.fest):evHTML(e)).join("")}</section>`;
   }).join("") + more;
 }
 
@@ -1423,8 +1442,7 @@ function renderHero(show, first){
   budimpesta: `<path fill-rule="evenodd" d="M10 110V80h230v30z M18 80l4-16 4 16zM40 80l4-16 4 16zM62 80l4-16 4 16zM84 80l4-16 4 16zM172 80l4-16 4 16zM194 80l4-16 4 16zM216 80l4-16 4 16z"/><path fill-rule="evenodd" d="M262 110V48h16v62z M352 110V48h16v62z M248 94h152v-5H248z M265 110v-14q5.0 -7.0 10 0v14z M355 110v-14q5.0 -7.0 10 0v14z"/><path d="M108 81q22-46 44 0z M128 37h4v-18h-4z"/><path d="M248 90Q262 66 270 50l2 1Q264 68 250 92z M278 50Q315 82 352 50l1 2Q315 86 277 52z M368 50Q382 66 398 90l-2 1Q380 68 367 52z"/>`
 };
   const sky = SKYS[CITY] ? `<svg class="sky" aria-hidden="true" viewBox="0 0 400 110" preserveAspectRatio="xMaxYMax meet">${SKYS[CITY]}</svg>` : "";
-  const stamp = d===TODAY ? `<span class="stampd" aria-hidden="true">DANAS</span>` : "";
-  el.innerHTML = sky + stamp + `<h2 class="hd"><span class="num" aria-hidden="true"><span class="p2">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="txt"><span class="mo">${MONTHS[dt.getMonth()]}${yr}</span><span class="wd">${DAYS[dt.getDay()]}${rel?" · "+rel.toLowerCase():""}</span></span></h2>`;
+  el.innerHTML = sky + `<h2 class="hd"><span class="num" aria-hidden="true"><span class="p2">${dt.getDate()}<i class="pt">.</i></span><span class="p1">${dt.getDate()}<i class="pt">.</i></span></span><span class="txt"><span class="mo">${MONTHS[dt.getMonth()]}${yr}</span><span class="wd">${DAYS[dt.getDay()]}${rel && d!==TODAY ? " · "+rel.toLowerCase() : ""}</span></span></h2>`;
 }
 // Datum putuje: naslov dana se lijepi gore dok skrolaš; klik otvara listiće za skok na drugi dan
 function setStick(){
