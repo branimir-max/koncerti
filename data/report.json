@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T09:06:44+00:00",
+ "run_at": "2026-11-10T09:10:04+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -91,7 +91,7 @@
   },
   "wi-stadthalle": {
    "ok": true,
-   "count": 137
+   "count": 134
   },
   "wi-wuk": {
    "ok": true,
