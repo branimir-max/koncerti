@@ -171,11 +171,13 @@ def scrape(src: dict) -> list[dict]:
             found = microdata_events(html, v, url)
         elif parser == "detail":
             found = []
-            for j, link in enumerate(event_links(html, url, src["link_pattern"])):
+            for j, link in enumerate(event_links(html, url, src["link_pattern"], src.get("limit", 25))):
                 try:
                     page = fetch(link)
                     if j == 0:
                         (DEBUG / f"{src['key']}-detail.html").write_text(page[:300_000])
+                    if j < 2 and src.get("probe"):
+                        write_probe(f"{src['key']}-detail{j}", page)
                     e = page_event(page, link, v)
                     if e:
                         found.append(e)

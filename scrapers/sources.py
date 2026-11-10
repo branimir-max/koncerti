@@ -108,7 +108,8 @@ SOURCES = [
         ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
     ]],
     # Turistička zajednica grada Zagreba – javni kalendar događanja (proba)
-    {"key": "infozagreb", "venue": None, "probe": True, "probe_only": True, "allow_empty": True,
+    {"key": "infozagreb", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "parser": "detail",
+     "link_pattern": r"/dogadanja/koncerti-i-glazbena-dogadanja/[^/?#]+$", "limit": 80,
      "urls": ["https://www.infozagreb.hr/hr/dogadanja/koncerti-i-glazbena-dogadanja"]},
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
     *[dict({"city": "maribor", "exclude": THEATRE, "dj_words": DJ, "probe": True, "probe_only": True, "allow_empty": True}, **x) for x in [
