@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T12:36:47+00:00",
+ "run_at": "2026-11-10T13:17:28+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -59,8 +59,7 @@
   },
   "ticketmaster-bec": {
    "ok": true,
-   "count": 0,
-   "note": "trenutno nema koncerata"
+   "count": 1
   },
   "hnk-opera": {
    "ok": true,
@@ -124,6 +123,16 @@
   "lj-cd": {
    "ok": true,
    "count": 54
+  },
+  "hangtime": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
+  },
+  "laa": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
   },
   "mb-narodnidom": {
    "ok": true,
