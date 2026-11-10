@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T08:47:03+00:00",
+ "run_at": "2026-11-10T09:02:20+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -62,18 +62,6 @@
    "count": 0,
    "note": "trenutno nema koncerata"
   },
-  "songkick-ljubljana": {
-   "ok": true,
-   "count": 85
-  },
-  "songkick-budimpesta": {
-   "ok": true,
-   "count": 125
-  },
-  "songkick-bec": {
-   "ok": true,
-   "count": 242
-  },
   "hnk-opera": {
    "ok": true,
    "count": 42
@@ -98,13 +86,17 @@
   },
   "wi-planet": {
    "ok": true,
-   "count": 0,
+   "count": 5,
+   "note": "samo proba"
+  },
+  "wi-stadthalle": {
+   "ok": true,
+   "count": 176,
    "note": "samo proba"
   },
   "wi-wuk": {
-   "ok": false,
-   "count": 0,
-   "error": "ReadTimeout: HTTPSConnectionPool(host='www.wuk.at', port=443): Read timed out. (read timeout=25)"
+   "ok": true,
+   "count": 7
   },
   "wi-porgy": {
    "ok": true,
@@ -112,8 +104,12 @@
   },
   "bp-akvarium": {
    "ok": true,
-   "count": 0,
-   "note": "trenutno nema koncerata"
+   "count": 88
+  },
+  "bp-budapestpark": {
+   "ok": true,
+   "count": 10,
+   "note": "samo proba"
   },
   "bp-barbanegra": {
    "ok": true,
@@ -121,19 +117,24 @@
   },
   "bp-a38": {
    "ok": true,
-   "count": 41
+   "count": 42
   },
   "lj-festival": {
    "ok": true,
-   "count": 24
+   "count": 23
+  },
+  "lj-cvetlicarna": {
+   "ok": false,
+   "count": 0,
+   "error": "SSLError: HTTPSConnectionPool(host='www.cvetlicarna.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cvetlicarna.info'. (_ssl.c:1011)\"))"
   },
   "lj-cd": {
    "ok": true,
-   "count": 78
+   "count": 54
   },
   "kinosiska": {
    "ok": true,
-   "count": 2
+   "count": 3
   },
   "orto": {
    "ok": true,

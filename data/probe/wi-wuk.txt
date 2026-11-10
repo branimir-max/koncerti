@@ -1,0 +1,36 @@
+title: Musik
+jsonld types: 
+<div class=col-xl-2.col-md-4.col-sm-6> Cassia Di 17.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/cassia/
+<div class=fce-teaser-event.w-100> Cassia Di 17.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/cassia/
+<div class=mt-auto.font-size-xs> Di 17.11.2026 20.00 Saal Barrierefrei zugänglich | 
+<div class=col-xl-2.col-md-4.col-sm-6> Kytes Indie Rave Tour 2026 & 2027 Mi 18.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/kytes/
+<div class=fce-teaser-event.w-100> Kytes Indie Rave Tour 2026 & 2027 Mi 18.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/kytes/
+<div class=mt-auto.font-size-xs> Mi 18.11.2026 20.00 Saal Barrierefrei zugänglich | 
+<div class=col-xl-2.col-md-4.col-sm-6> XZIBIT Kingmaker European Tour Pt. 2 Do 19.11.2026, 20 Uhr Saal Barrierefrei zugänglich Mehr lesen | /programm/xzibit/
+<div class=fce-teaser-event.w-100> XZIBIT Kingmaker European Tour Pt. 2 Do 19.11.2026, 20 Uhr Saal Barrierefrei zugänglich Mehr lesen | /programm/xzibit/
+<div class=mt-auto.font-size-xs> Do 19.11.2026, 20 Uhr Saal Barrierefrei zugänglich | 
+<div class=col-xl-2.col-md-4.col-sm-6> Itchy Special Guest: Rat Boy Fr 20.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/itchy/
+<div class=fce-teaser-event.w-100> Itchy Special Guest: Rat Boy Fr 20.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/itchy/
+<div class=mt-auto.font-size-xs> Fr 20.11.2026 20.00 Saal Barrierefrei zugänglich | 
+<div class=col-xl-2.col-md-4.col-sm-6> Bosse Stabile Poesie Clubtour 2026 So 22.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/bosse-2026/
+<div class=fce-teaser-event.w-100> Bosse Stabile Poesie Clubtour 2026 So 22.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/bosse-2026/
+<div class=mt-auto.font-size-xs> So 22.11.2026 20.00 Saal Barrierefrei zugänglich | 
+<div class=col-xl-2.col-md-4.col-sm-6> Austrofred & Kurt Razelli Di 24.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/[…]/
+<div class=fce-teaser-event.w-100> Austrofred & Kurt Razelli Di 24.11.2026 20.00 Saal Barrierefrei zugänglich Mehr lesen | /programm/[…]/
+<div class=mt-auto.font-size-xs> Di 24.11.2026 20.00 Saal Barrierefrei zugänglich | 
+<div class=[…]> Magazin Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=container> Magazin Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=row> Magazin Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=col-12.px-0> Magazin Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=container.grid-element.grid-50x50> Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=row> Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=col-md-6.col-left.px-0> Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 | /magazin/[…]/
+<div class=container> Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 | /magazin/[…]/
+<div class=fce-teaser-magazin-article> Artikel lesen Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 | /magazin/[…]/
+<div class=[…]> Über den Beginn der „Wiener Tschuschenkapelle“ im WUK Posted 4.11.2026 | /magazin/[…]/
+<div class=article-meta-info> Posted 4.11.2026 | 
+<div class=col-md-6.col-left.px-0> Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=container> Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=fce-teaser-magazin-article> Artikel lesen Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=[…]> Baba Yaga präsentiert das neue Album Odiseja im WUK Posted 6.10.2026 | /magazin/[…]/
+<div class=article-meta-info> Posted 6.10.2026 | 

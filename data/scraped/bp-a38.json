@@ -13,11 +13,22 @@
  {
   "date": "2026-11-13",
   "time": "19:20",
-  "title": "Konyha Farewell Concert â Konyha is closing; opening act: LibidÃ",
+  "title": "Konyha Farewell Concert – Konyha is closing; opening act: Libidø",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
   "url": "https://www.a38.hu/en/program/konyha-hu-30935",
+  "city": "budimpesta",
+  "source": "bp-a38"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "20:00",
+  "title": "Kávészünet",
+  "venue": "bp-a38shipa38",
+  "genre": "",
+  "price": "",
+  "url": "https://www.a38.hu/en/program/kaveszunet-hu-32065",
   "city": "budimpesta",
   "source": "bp-a38"
  },
@@ -46,7 +57,7 @@
  {
   "date": "2026-11-20",
   "time": "19:30",
-  "title": "Prosectura, guest: CsizmÃ¡SKAndÃor",
+  "title": "Prosectura, guest: CsizmáSKAndúr",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -101,7 +112,7 @@
  {
   "date": "2026-11-26",
   "time": "20:30",
-  "title": "Ãgi 70 â Career-spanning concert with legendary guests",
+  "title": "Ági 70 – Career-spanning concert with legendary guests",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -112,7 +123,7 @@
  {
   "date": "2026-11-27",
   "time": "20:00",
-  "title": "Here We Are â Album Launch Concert",
+  "title": "Here We Are – Album Launch Concert",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -156,7 +167,7 @@
  {
   "date": "2026-12-03",
   "time": "19:30",
-  "title": "Kolibri, guest: HÃ©ra BarnabÃ¡s",
+  "title": "Kolibri, guest: Héra Barnabás",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -189,7 +200,7 @@
  {
   "date": "2026-12-09",
   "time": "19:00",
-  "title": "Siddhi â The First - album release concert",
+  "title": "Siddhi – The First - album release concert",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -200,7 +211,7 @@
  {
   "date": "2026-12-10",
   "time": "19:45",
-  "title": "FiÃok",
+  "title": "Fiúk",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -211,7 +222,7 @@
  {
   "date": "2026-12-11",
   "time": "19:00",
-  "title": "RÃ3meÃ3 VÃ©rzik",
+  "title": "Rómeó Vérzik",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -244,7 +255,7 @@
  {
   "date": "2026-12-18",
   "time": "19:40",
-  "title": "Fish! â Grand Jubilee Season Finale + Mirror 10",
+  "title": "Fish! – Grand Jubilee Season Finale + Mirror 10",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -255,7 +266,7 @@
  {
   "date": "2026-12-20",
   "time": "20:00",
-  "title": "Budapest BÃ¡r Christmas",
+  "title": "Budapest Bár Christmas",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",

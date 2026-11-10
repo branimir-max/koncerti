@@ -1,5 +1,16 @@
 [
  {
+  "date": "2026-12-31",
+  "time": "19:00",
+  "title": "Isimangaliso",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
   "date": "2026-11-17",
   "time": "19:30",
   "title": "Dresdenska filharmonija",
@@ -7,39 +18,6 @@
   "genre": "klasika",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-30",
-  "time": "18:00",
-  "title": "Klasični Artač",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/gledalisce-in-ples/klasicni-artac-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-04",
-  "time": "20:00",
-  "title": "Votia (Reunion)",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2027-06-30",
-  "time": "",
-  "title": "68. Jazz festival Ljubljana",
-  "venue": "lj-cankarjev",
-  "genre": "jazz",
-  "price": "",
-  "url": "https://www.cd-cc.si/68-jazz-festival-ljubljana",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -62,17 +40,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/kristijan-krajncan-5tet-alchymia-xxi",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-11-12",
-  "time": "",
-  "title": "Tesla",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/za-mlade-in-sole/tesla",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -132,28 +99,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-11-22",
-  "time": "",
-  "title": "Koncert Prifarcev s prijatelji!",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/koncert-prifarcev-s-prijatelji",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-11-23",
-  "time": "",
-  "title": "Perpetuum Jazzile - Največji hiti",
-  "venue": "lj-cankarjev",
-  "genre": "jazz",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/perpetuum-jazzile-najvecji-hiti",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-11-23",
   "time": "",
   "title": "Izštekani Leopold I.",
@@ -198,28 +143,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-11-29",
-  "time": "15:00",
-  "title": "32. Gala koncert Radia Ognjišče: Mir in dobro",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/32-gala-koncert-radia-ognjisce-mir-in-dobro",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-11-30",
-  "time": "",
-  "title": "Koncert Godbe Slovenskih železnic z gostom Gregorjem Ravnikom",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/koncert-godbe-slovenskih-zeleznic-z-gostom-gregorjem",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-12-01",
   "time": "",
   "title": "Zvokotok v CD: Gravitacija tišine",
@@ -253,24 +176,13 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-12-06",
+  "date": "2026-12-04",
   "time": "",
-  "title": "Obrazi Italije, božično-novoletni koncert PPO Vevče",
+  "title": "Votia (Reunion)",
   "venue": "lj-cankarjev",
   "genre": "",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/obrazi-italije-bozicno-novoletni-koncert-ppo-vevce-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-07",
-  "time": "",
-  "title": "Tomislav Bralić in Klapa Intrade",
-  "venue": "lj-cankarjev",
-  "genre": "trad",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/tomislav-bralic-in-klapa-intrade",
+  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -297,17 +209,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-12-10",
-  "time": "",
-  "title": "Via Negativa / Svojat: Fuga za narod",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/gledalisce-in-ples/negativa-svojat-fuga-za-narod",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-12-11",
   "time": "19:30",
   "title": "FKK 3: »Velika",
@@ -315,28 +216,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/fkk-3-velika",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-12",
-  "time": "",
-  "title": "Curawaka - prvič v Sloveniji",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/curawaka-prvic-v-sloveniji",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-13",
-  "time": "",
-  "title": "Gospel Night with Florida Inspirational Singers",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/gospel-night-florida-inspirational-singers",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -359,105 +238,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/bozicna-fantazija",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-21",
-  "time": "",
-  "title": "Luka Šulič - Road to Joy Tour",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/luka-sulic-road-joy-tour",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-22",
-  "time": "",
-  "title": "Don Q – Zorrov sin (Don Q – Son of Zorro)",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/film/don-q-zorrov-sin-don-q-son-zorro",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-25",
-  "time": "",
-  "title": "Helena Blagne, ekskluzivni božični koncert",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/helena-blagne-ekskluzivni-bozicni-koncert",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-26",
-  "time": "",
-  "title": "Božo Vrećo – Sevdahology",
-  "venue": "lj-cankarjev",
-  "genre": "world",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/bozo-vreco-sevdahology",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-27",
-  "time": "",
-  "title": "Perpetuum Jazzile - praznični koncert",
-  "venue": "lj-cankarjev",
-  "genre": "jazz",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/perpetuum-jazzile-praznicni-koncert",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-28",
-  "time": "",
-  "title": "Vlatko Stefanovski z Miroslavom Tadićem in gosti",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/vlatko-stefanovski-z-miroslavom-tadicem-in-gosti",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-29",
-  "time": "",
-  "title": "Piaf, Edith Piaf",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/gledalisce-in-ples/piaf-edith-piaf-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-30",
-  "time": "",
-  "title": "HNK Ivana pl. Zajca Rijeka Sergej Prokofjev – Leo Mujić: Pepelka",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/gledalisce-in-ples/hnk-ivana-pl-zajca-rijeka-sergej-prokofjev-leo-mujic-pepelka",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-12-31",
-  "time": "",
-  "title": "Isimangaliso",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -495,17 +275,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2027-01-21",
-  "time": "",
-  "title": "Richard Wagner: Tannhäuser",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/gledalisce-in-ples/richard-wagner-tannhauser",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2027-01-28",
   "time": "",
   "title": "Andrej Šifrer: Pol stoletja pisanja in petja",
@@ -524,17 +293,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/laibach-volkswagner-re-visited",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2027-02-01",
-  "time": "",
-  "title": "100 romskih violin",
-  "venue": "lj-cankarjev",
-  "genre": "klasika",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/100-romskih-violin",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -671,17 +429,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2027-03-22",
-  "time": "",
-  "title": "Amira Medunjanin",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/amira-medunjanin",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2027-04-04",
   "time": "",
   "title": "Simfonični orkester radia ORF z Dunaja",
@@ -799,17 +546,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/akademija-st-martin-in-fields",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2027-05-25",
-  "time": "",
-  "title": "Ajeet ponovno v Sloveniji",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/prireditev-drugega-organizatorja/ajeet-ponovno-v-sloveniji",
   "city": "ljubljana",
   "source": "lj-cd"
  },

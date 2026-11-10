@@ -1,6 +1,6 @@
-title: Arena Wien - Event-List
+title: Arena Wien - Programm
 jsonld types: 
-bez prepoznatih datuma; html bytes=65128
+bez prepoznatih datuma; html bytes=65925
 api/json hints: 
 <div class=row> Programm: Februar 2015
 <div class=col-md-12> Programm: Februar 2015

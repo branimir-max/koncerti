@@ -1,9 +1,32 @@
-title: Kalender - Planet Music & Media
-jsonld types: ImageObject, ImageObject, WebSite, WebPage, Person, ImageObject, Article
-bez prepoznatih datuma; html bytes=162216
-api/json hints: 
-<div class=elementor-element.elementor-element-c7e824f.e-flex> PLANET.TT - OFFICE@PLANET.TT site by omanbros.com © 2023
-<div class=e-con-inner> PLANET.TT - OFFICE@PLANET.TT site by omanbros.com © 2023
-<div class=elementor-element.elementor-element-159b89a.elementor-widget> site by omanbros.com © 2023
-<div class=elementor-widget-container> site by omanbros.com © 2023
-<p class=elementor-heading-title.elementor-size-default> site by omanbros.com © 2023
+title: Planet Music & Media
+jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebPage, Person, ImageObject, Article
+<div class=pl-card> Di., 10. November 2026 Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € PRESIDENT Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
+<div class=pl-card-front.pl-pointer> Di., 10. November 2026 Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € PRESIDENT | 
+<div class=pl-date> Di., 10. November 2026 | 
+<div class=pl-thumbnail> Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
+<div class=pl-thumb-desc> Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
+<div class=pl-date> Di., 10. November 2026 | 
+<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
+<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-thumbnail> Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
+<div class=pl-thumb-desc> Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr MURDA Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
+<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr MURDA | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-thumbnail> Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
+<div class=pl-thumb-desc> Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr STVW Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
+<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr STVW | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-thumbnail> Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
+<div class=pl-thumb-desc> Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
+<div class=pl-date> Mi., 11. November 2026 | 
+<div class=pl-card> Do., 12. November 2026 Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € DRUHA RIKA 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
+<div class=pl-card-front.pl-pointer> Do., 12. November 2026 Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € DRUHA RIKA | 
+<div class=pl-date> Do., 12. November 2026 | 
+<div class=pl-thumbnail> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
+<div class=pl-thumb-desc> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
+<div class=pl-date> Do., 12. November 2026 | 
