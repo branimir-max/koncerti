@@ -107,6 +107,9 @@ SOURCES = [
                        "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
         ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
     ]],
+    # Turistička zajednica grada Zagreba – javni kalendar događanja (proba)
+    {"key": "infozagreb", "venue": None, "probe": True, "probe_only": True, "allow_empty": True,
+     "urls": ["https://www.infozagreb.hr/hr/dogadanja/koncerti-i-glazbena-dogadanja"]},
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
     *[dict({"city": "maribor", "exclude": THEATRE, "dj_words": DJ, "probe": True, "probe_only": True, "allow_empty": True}, **x) for x in [
         {"key": "mb-narodnidom", "venue": None, "urls": ["https://nd-mb.si/narodni-dom-maribor/program-dogodkov-narodni-dom-maribor/"]},
