@@ -658,10 +658,9 @@
   "address": "Flavijevska ulica",
   "aliases": [
    "Arena Pula",
+   "Pulska Arena",
    "Amfiteatar",
    "Amphitheatre",
-   "In front of the Arena",
-   "Ispred Arene",
    "Arena"
   ],
   "city": "pula"
@@ -783,6 +782,34 @@
   "aliases": [
    "Dom sportova Mate Parlov",
    "Mate Parlov"
+  ],
+  "city": "pula"
+ },
+ "pu-ispredarene": {
+  "name": "Ispred Arene",
+  "address": "Flavijevska ulica",
+  "aliases": [
+   "ispred Arene",
+   "In front of the Arena"
+  ],
+  "city": "pula"
+ },
+ "pu-katedrala": {
+  "name": "Katedrala",
+  "address": "Trg sv. Tome",
+  "aliases": [
+   "Katedrala Uznesenja",
+   "Pulska katedrala",
+   "Cathedral"
+  ],
+  "city": "pula"
+ },
+ "pu-titopark": {
+  "name": "Titov park",
+  "address": "",
+  "aliases": [
+   "Tito park",
+   "Titov park"
   ],
   "city": "pula"
  }

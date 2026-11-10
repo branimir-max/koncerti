@@ -125,6 +125,7 @@ SOURCES = [
     {"key": "pu-tz", "city": "pula", "venue": None, "probe": True, "allow_empty": True,
      "exclude": ["met opera", "live in hd", "sajam", "book fair", "stilt", "circus", "cirkus", "predstava"],  # kategorija je već "Concerts"
      "dj_words": DJ, "parser": "pulainfo", "tolerant": True,
+     "strip": [r"^(Advent[^:]{0,30}|Christmas[^:]{0,30}|New Year[^:]{0,40}|Gitarijada Presents):\s*"],
      "urls": ["https://pulainfo.hr/events-type/concerts/"] + [f"https://pulainfo.hr/events-type/concerts/page/{i}/" for i in (2, 3)]},
     {"key": "pu-ink", "city": "pula", "venue": "pu-ink", "probe": True, "probe_only": True, "allow_empty": True,
      "urls": ["https://www.ink.hr/"]},
