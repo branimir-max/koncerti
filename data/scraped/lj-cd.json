@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-12-31",
-  "time": "19:00",
-  "title": "Isimangaliso",
-  "venue": "lj-cankarjev",
-  "genre": "",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-12-04",
   "time": "20:00",
   "title": "Votia (Reunion)",
@@ -22,7 +11,7 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-11-10",
+  "date": "2026-11-11",
   "time": "",
   "title": "Od opere do muzikala",
   "venue": "lj-cankarjev",
@@ -57,22 +46,22 @@
  {
   "date": "2026-11-17",
   "time": "",
-  "title": "Tom Skinner",
+  "title": "Dresdenska filharmonija",
   "venue": "lj-cankarjev",
-  "genre": "",
+  "genre": "klasika",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/tom-skinner",
+  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
  {
   "date": "2026-11-17",
   "time": "",
-  "title": "Dresdenska filharmonija",
+  "title": "Tom Skinner",
   "venue": "lj-cankarjev",
-  "genre": "klasika",
+  "genre": "",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
+  "url": "https://www.cd-cc.si/kultura/glasba/tom-skinner",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -238,6 +227,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/bozicna-fantazija",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2026-12-31",
+  "time": "",
+  "title": "Isimangaliso",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/isimangaliso",
   "city": "ljubljana",
   "source": "lj-cd"
  },

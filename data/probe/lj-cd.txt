@@ -1,10 +1,10 @@
 title: Glasba | Cankarjev dom
 jsonld types: 
-<div class=carouselSingle> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba/isimangaliso
-<div class=single--wrapper> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba/isimangaliso
-<div class=hero--content> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba
-<div class=content--wrapper> Glasba Praznični december 31. dec. 19:00 Isimangaliso Pripovedovalski koncert z Boštjanom Gombačem Preberi več | /kultura/glasba
-<div class=hero--date> 31. dec. 19:00 | 
+<div class=carouselSingle> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
+<div class=single--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
+<div class=hero--content> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
+<div class=content--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
+<div class=hero--date> 25. maj 19:30 | 
 <div class=carouselSingle> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=single--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=hero--content> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
@@ -21,23 +21,17 @@ jsonld types:
 <div class=content--wrapper> 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=meta> 30. jun.  – 3. jul. 2027 | 
 <div class=date> 30. jun.  – 3. jul. 2027 | 
-<div class=singleThumb> 10. nov., 
-11. nov., 
+<div class=singleThumb> 11. nov., 
 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=singleThumb--wrapper> 10. nov., 
-11. nov., 
+<div class=singleThumb--wrapper> 11. nov., 
 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=content> 10. nov., 
-11. nov., 
+<div class=content> 11. nov., 
 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=content--wrapper> 10. nov., 
-11. nov., 
+<div class=content--wrapper> 11. nov., 
 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=meta> 10. nov., 
-11. nov., 
+<div class=meta> 11. nov., 
 11. nov., | 
-<div class=date> 10. nov., 
-11. nov., 
+<div class=date> 11. nov., 
 11. nov., | 
 <div class=singleThumb> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
 <div class=singleThumb--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
@@ -57,16 +51,16 @@ jsonld types:
 <div class=content--wrapper> 12. nov., Josipa Lisac | /kultura/glasba/josipa-lisac
 <div class=meta> 12. nov., | 
 <div class=date> 12. nov., | 
-<div class=singleThumb> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
-<div class=singleThumb--wrapper> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
-<div class=content> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
-<div class=content--wrapper> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
-<div class=meta> 17. nov., | 
-<div class=date> 17. nov., | 
 <div class=singleThumb> 17. nov., Dresdenska filharmonija | /kultura/glasba/dresdenska-filharmonija-0
 <div class=singleThumb--wrapper> 17. nov., Dresdenska filharmonija | /kultura/glasba/dresdenska-filharmonija-0
 <div class=content> 17. nov., Dresdenska filharmonija | /kultura/glasba/dresdenska-filharmonija-0
 <div class=content--wrapper> 17. nov., Dresdenska filharmonija | /kultura/glasba/dresdenska-filharmonija-0
+<div class=meta> 17. nov., | 
+<div class=date> 17. nov., | 
+<div class=singleThumb> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
+<div class=singleThumb--wrapper> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
+<div class=content> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
+<div class=content--wrapper> 17. nov., Tom Skinner | /kultura/glasba/tom-skinner
 <div class=meta> 17. nov., | 
 <div class=date> 17. nov., | 
 <div class=singleThumb> 18. nov. 2026 ob 19.30 SOS 2: Materi | /kultura/glasba/sos-2-materi
