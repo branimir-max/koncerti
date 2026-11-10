@@ -118,6 +118,8 @@ def write_probe(key: str, html: str) -> None:
                 n += 1
                 if n >= 60:
                     break
+    hrefs = sorted({a["href"] for a in s.find_all("a", href=True) if re.search(r"dogad|event|program|koncert", a["href"], re.I)})
+    lines.append(f"poveznice ({len(hrefs)}): " + " ".join(hrefs[:25]))
     PROBE.mkdir(parents=True, exist_ok=True)
     text = "\n".join(lines)
     text = re.sub(r"[A-Za-z0-9_\-]{32,}", "[…]", text)  # dugi nizovi (mogući ključevi) van
