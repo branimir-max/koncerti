@@ -122,9 +122,10 @@ SOURCES = [
         {"key": "mb-mkc", "venue": None, "urls": ["https://www.mkc.si/"]},
     ]],
     # Pula: kalendar Turističke zajednice Pule (službeni gradski kalendar, kao Visit Rijeka) + proba INK-a
-    {"key": "pu-tz", "city": "pula", "venue": None, "probe": True, "allow_empty": True, "require_venue": True,
-     "exclude": THEATRE + ["kazalište", "theatre", "kino", "met opera", "sajam", "fair", "stilt", "circus", "cirkus"],
-     "dj_words": DJ, "urls": ["https://pulainfo.hr/events-type/concerts/"]},
+    {"key": "pu-tz", "city": "pula", "venue": None, "probe": True, "allow_empty": True,
+     "exclude": ["met opera", "live in hd", "sajam", "book fair", "stilt", "circus", "cirkus", "predstava"],  # kategorija je već "Concerts"
+     "dj_words": DJ, "parser": "pulainfo", "tolerant": True,
+     "urls": ["https://pulainfo.hr/events-type/concerts/"] + [f"https://pulainfo.hr/events-type/concerts/page/{i}/" for i in (2, 3)]},
     {"key": "pu-ink", "city": "pula", "venue": "pu-ink", "probe": True, "probe_only": True, "allow_empty": True,
      "urls": ["https://www.ink.hr/"]},
     {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "probe": True,

@@ -495,3 +495,29 @@ def slash_events(html: str, base_url: str) -> list[dict]:
             out.append({"date": d, "time": "", "title": clean(m.group(2)), "venue": "", "genre": "", "price": "",
                         "url": base_url, "_place": f"{m.group(3)}, {m.group(4)}"})
     return out
+
+
+PULAINFO_RE = re.compile(r"^(.*?)\s+Event type\s+(.*?)(?:\s+Location\s+(.*?))?\s+Date\s+(\d{1,2})/(\d{1,2})/(\d{4})(\s*-\s*\d{1,2}/\d{1,2}/\d{4})?(?:\s+Time\s+(\d{1,2}[:.]\d{2}))?", re.S)
+
+
+def pulainfo_events(html: str, base_url: str) -> list[dict]:
+    """Kalendar TZ Pule (pulainfo.hr): kartica "Naziv Event type Concerts Location X Date 13/11/2026 Time 20:00".
+    Višednevni programi (Advent, festivali) se preskaču – to nisu pojedinačni koncerti."""
+    out, seen = [], set()
+    for art in soup(html).select("article.pula-events, article.list-article"):
+        cap = art.select_one(".color-caption") or art
+        text = re.sub(r"\s+", " ", cap.get_text(" ", strip=True))
+        m = PULAINFO_RE.search(text)
+        if not m or m.group(7) or "concert" not in m.group(2).lower():
+            continue
+        title, place = clean(m.group(1)), clean(m.group(3) or "")
+        d = f"{m.group(6)}-{int(m.group(5)):02d}-{int(m.group(4)):02d}"
+        a = next((x for x in art.find_all("a", href=True) if "/pula-events/" in x["href"]), None)
+        key = (d, title.lower())
+        if not title or key in seen:
+            continue
+        seen.add(key)
+        out.append({"date": d, "time": (m.group(8) or "").replace(".", ":"), "title": title, "venue": "", "genre": "",
+                    "price": "", "url": requests.compat.urljoin(base_url, a["href"]) if a else base_url,
+                    "venue_name": place, "_text": place or title})
+    return out

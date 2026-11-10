@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import slash_events, row_events, hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
+from .base import pulainfo_events, slash_events, row_events, hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 from .ticketmaster import events as tm_events
 
@@ -191,6 +191,8 @@ def scrape(src: dict) -> list[dict]:
                 except Exception:  # noqa: BLE001 – jedna pokvarena stranica ne ruši izvor
                     pass
                 time.sleep(1)
+        elif parser == "pulainfo":
+            found = pulainfo_events(html, url)
         elif parser == "rows":
             found = row_events(html, v, url, src.get("row", "tr"), src["link"], src.get("row_require", ""))
         elif parser == "cards":
