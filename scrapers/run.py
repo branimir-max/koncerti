@@ -231,6 +231,9 @@ def scrape(src: dict) -> list[dict]:
             e["time"] = ""
         if src.get("require") and src["require"].lower() not in blob:
             continue
+        perf = e.pop("_performers", None)
+        if src.get("performers") and perf:  # naslov najave ("KAMELOT – power metal velikani…") -> izvođači
+            e["title"] = ", ".join(dict.fromkeys(perf))
         if src.get("slug_title"):  # naslov iz adrese događaja (".../51342/The-Witcher-in-Concert")
             slug = (e.get("url") or "").rstrip("/").rsplit("/", 1)[-1]
             if slug:

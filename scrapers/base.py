@@ -182,9 +182,13 @@ def jsonld_events(html: str, venue: str, base_url: str, genre: str = "") -> list
             town = addr.get("addressLocality", "") if isinstance(addr, dict) else ""
             if town and town.lower() not in loc_text.lower():
                 loc_text = f"{loc_text}, {town}"  # grad, da drugi gradovi mogu odvojiti okolicu
+            perf = o.get("performer") or []
+            perf = perf if isinstance(perf, list) else [perf]
+            perf = [p.get("name", "") if isinstance(p, dict) else str(p) for p in perf]
             out.append({
                 "date": d, "time": tm, "title": clean(o.get("name", "")), "venue": venue,
                 "genre": genre, "price": price, "url": o.get("url") or base_url, "_text": loc_text,
+                "_performers": [clean(x) for x in perf if x and x.strip()],
             })
     return out
 
@@ -241,6 +245,8 @@ def find_price(text: str) -> str:
 
 
 def clean(s: str) -> str:
+    import html as _html
+    s = _html.unescape(s or "")
     import unicodedata
     s = unicodedata.normalize("NFKC", str(s))  # npr. 𝗠𝗢𝗡𝗢𝗟𝗢𝗥𝗗 -> MONOLORD
     return re.sub(r"\s+", " ", s).strip()
