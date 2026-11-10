@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T09:13:32+00:00",
+ "run_at": "2026-11-10T09:25:07+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -115,7 +115,7 @@
   },
   "bp-a38": {
    "ok": true,
-   "count": 42
+   "count": 43
   },
   "lj-festival": {
    "ok": true,
@@ -124,6 +124,26 @@
   "lj-cd": {
    "ok": true,
    "count": 54
+  },
+  "mb-narodnidom": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
+  },
+  "mb-stuk": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
+  },
+  "mb-sng": {
+   "ok": true,
+   "count": 12,
+   "note": "samo proba"
+  },
+  "mb-mkc": {
+   "ok": true,
+   "count": 16,
+   "note": "samo proba"
   },
   "kinosiska": {
    "ok": true,

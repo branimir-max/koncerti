@@ -30,6 +30,7 @@ jsonld types:
 <div class=flex.flex-col.md:flex-row> Sunday Dec 27. 20:00 · Concert hall Kiscsillag One of the most time-honored Christmas traditions: the year-end bash by the band Kiscsillag on the A38 Ship! Elővételes jegy 7 900 HUF Buy tickets | https://www.a38.hu/en/program/kiscsillag-hu-31191
 <div class=md:min-w-40> Sunday Dec 27. | 
 <div class=md:min-w-40> Monday Dec 28. | 
+<div class=md:min-w-40> Tuesday Dec 29. | 
 <div class=md:min-w-40> Wednesday Dec 30. | 
 <div class=md:min-w-40> Friday Jan 22. | 
 <div class=md:min-w-40> Saturday Jan 30. | 
@@ -59,4 +60,3 @@ jsonld types:
 <a class=hover-zoom-container.block.cursor-pointer> Call Me Karizma (US) 2026 Nov 5. | https://www.a38.hu/en/picture-gallery/call-me-karizma-us
 <div class=bg-blue-5/50.flex.flex-col> Call Me Karizma (US) 2026 Nov 5. | 
 <div class=card-content.text-left> Call Me Karizma (US) 2026 Nov 5. | 
-<li class=glide__slide> Tito & Tarantula (US) – ‘Best ... 2026 Nov 2. | https://www.a38.hu/en/picture-gallery/[…]
