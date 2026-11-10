@@ -1034,17 +1034,21 @@ function relLabel(date){
 // Popis se prikazuje tjedan po tjedan; "Prikaži još" dodaje sljedeći tjedan. Pretraga i
 // brzi filtri datuma prikazuju sve (lista je ionako kratka).
 const PAGE_DAYS = 7;
-let shownWeeks = 1, lastSig = "";
+let shownWeeks = 1, lastSig = "", shownUntil = "", nextUntil = "";
 function renderList(list){
   if (!list.length) return `<div class="empty">Nema koncerata za ove filtre. Probaj maknuti neki filtar. Znaš za koncert koji fali? <a href="prijavi.html">Prijavi ga</a>.</div>`;
   let more = "";
   if (!S.q && !S.range && !S.day && list.length > 20){   // kratke popise prikaži cijele
     let cut = iso(addDays(parse(TODAY), shownWeeks*7 - 1));
     if (list.length > 15 && list[14].date > cut) cut = list[14].date;   // uvijek barem ~15 koncerata
+    if (shownUntil > cut) cut = shownUntil;                                // "Prikaži još" već kliknut
     const rest = list.filter(e=>e.date > cut);
     if (rest.length){
       const nextCut = iso(addDays(parse(cut), PAGE_DAYS));
-      const nNext = rest.filter(e=>e.date <= nextCut).length || Math.min(rest.length, 15);
+      // sljedeća skupina: idući tjedan, a ako je prazan (manji gradovi), idućih ~10 koncerata koliko god daleko bili
+      let nNext = rest.filter(e=>e.date <= nextCut).length;
+      if (!nNext){ const k = Math.min(rest.length, 10); const lastD = rest[k-1].date; nNext = rest.filter(e=>e.date <= lastD).length; nextUntil = lastD; }
+      else nextUntil = nextCut;
       list = list.filter(e=>e.date <= cut);
       more = `<div class="loadmore"><button type="button" id="moreBtn">Prikaži još<small>sljedećih ${nNext} od još ${rest.length} ${plural(rest.length,"koncerta","koncerta","koncerata")}</small></button></div>`;
     }
@@ -1090,7 +1094,7 @@ out.addEventListener("click", ev=>{
   if (cb){ const e=EVENTS.find(x=>x.id===cb.dataset.cal); if(e) calMenu(e, cb); return; }
   const sh=ev.target.closest("[data-share]");
   if (sh){ const e=EVENTS.find(x=>x.id===sh.dataset.share); if(e) shareEvent(e, sh); return; }
-  if (ev.target.closest("#moreBtn")){ shownWeeks += 1; const y = scrollY; render(); scrollTo(0, y); return; }
+  if (ev.target.closest("#moreBtn")){ shownWeeks += 1; shownUntil = nextUntil; const y = scrollY; render(); scrollTo(0, y); return; }
   const mo2=ev.target.closest("[data-more]");
   if (mo2){
     const d=document.getElementById("d-"+mo2.dataset.more); if(!d) return;
@@ -1571,7 +1575,7 @@ function render(){
   renderQuick();
   const list = upcoming.filter(e=>match(e, v==="kalendar"));
   const sig = JSON.stringify([S.q,S.venue,[...S.genres],S.range,S.hideSold,S.freeOnly,S.favOnly,S.newOnly,S.day,v]);
-  if (sig !== lastSig){ shownWeeks = 1; lastSig = sig; }
+  if (sig !== lastSig){ shownWeeks = 1; shownUntil = ""; lastSig = sig; }
   const n = list.length, n10 = n%10, n100 = n%100;
   const word = (n10===1 && n100!==11) ? "koncert" : (n10>=2 && n10<=4 && (n100<12 || n100>14)) ? "koncerta" : "koncerata";
   document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
