@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-09",
-  "time": "20:00",
-  "title": "Bob Dylan",
-  "venue": "lj-stozice",
-  "genre": "",
-  "price": "",
-  "url": "https://www.songkick.com/concerts/43331559-bob-dylan-at-dvorana-stozice?utm_medium=organic&utm_source=microformat",
-  "city": "ljubljana",
-  "source": "songkick-ljubljana"
- },
- {
   "date": "2026-11-11",
   "time": "",
   "title": "Uriah Heep",
@@ -521,6 +510,17 @@
   "source": "songkick-ljubljana"
  },
  {
+  "date": "2027-01-07",
+  "time": "19:00",
+  "title": "Mladi virtuozi: Kitarski duo Vitja in Maks in Zala Zarja Mesec 2027",
+  "venue": "lj-krizanke",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/festivals/3804401-mladi-virtuozi-kitarski-duo-vitja-in-maks-in-zala-zarja-mesec/id/43403609-mladi-virtuozi-kitarski-duo-vitja-in-maks-in-zala-zarja-mesec-2027?utm_medium=organic&utm_source=microformat",
+  "city": "ljubljana",
+  "source": "songkick-ljubljana"
+ },
+ {
   "date": "2027-01-14",
   "time": "19:00",
   "title": "Mladi virtuozi: Lea Kaci, Xhoni Xhavari in Elena Lamnica 2027",
@@ -617,6 +617,18 @@
   "price": "",
   "url": "https://www.songkick.com/festivals/3807766-zimski/id/43444194-zimski-festival-2027?utm_medium=organic&utm_source=microformat",
   "city": "ljubljana",
+  "source": "songkick-ljubljana"
+ },
+ {
+  "date": "2027-02-17",
+  "time": "",
+  "title": "MENT Ljubljana 2027",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://www.songkick.com/festivals/1216353-ment-ljubljana/id/43507884-ment-ljubljana-2027?utm_medium=organic&utm_source=microformat",
+  "city": "ljubljana",
+  "venue_name": "MENT Ljubljana 2027",
   "source": "songkick-ljubljana"
  },
  {

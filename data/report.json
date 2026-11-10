@@ -1,9 +1,9 @@
 {
- "run_at": "2026-11-09T23:50:29+00:00",
+ "run_at": "2026-11-10T08:47:03+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
-   "count": 153
+   "count": 151
   },
   "tvornica": {
    "ok": true,
@@ -64,15 +64,15 @@
   },
   "songkick-ljubljana": {
    "ok": true,
-   "count": 84
+   "count": 85
   },
   "songkick-budimpesta": {
    "ok": true,
-   "count": 124
+   "count": 125
   },
   "songkick-bec": {
    "ok": true,
-   "count": 237
+   "count": 242
   },
   "hnk-opera": {
    "ok": true,
@@ -87,14 +87,57 @@
    "count": 0,
    "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
   },
+  "wi-arena": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "wi-flex": {
+   "ok": true,
+   "count": 33
+  },
+  "wi-planet": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
+  },
+  "wi-wuk": {
+   "ok": false,
+   "count": 0,
+   "error": "ReadTimeout: HTTPSConnectionPool(host='www.wuk.at', port=443): Read timed out. (read timeout=25)"
+  },
+  "wi-porgy": {
+   "ok": true,
+   "count": 181
+  },
+  "bp-akvarium": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
+  "bp-barbanegra": {
+   "ok": true,
+   "count": 46
+  },
+  "bp-a38": {
+   "ok": true,
+   "count": 41
+  },
+  "lj-festival": {
+   "ok": true,
+   "count": 24
+  },
+  "lj-cd": {
+   "ok": true,
+   "count": 78
+  },
   "kinosiska": {
    "ok": true,
    "count": 2
   },
   "orto": {
-   "ok": false,
-   "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+   "ok": true,
+   "count": 7
   }
  }
 }

@@ -1,0 +1,79 @@
+[
+ {
+  "date": "2026-11-11",
+  "time": "12:00",
+  "title": "Uninvited,Life On Display",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "8–12 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/uninvitedlife-on-display/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-11",
+  "time": "20:00",
+  "title": "Plateau,RANR",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "18–20 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/plateauranr/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-12",
+  "time": "12:00",
+  "title": "Anomalo, Šalamun",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "8–12 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/anomalo-salamun/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "12:00",
+  "title": "Jugoslovanka Party",
+  "venue": "lj-orto",
+  "genre": "dj",
+  "price": "12 €",
+  "url": "https://www.orto-bar.com/dogodki/dj/jugoslovanka-party/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-13",
+  "time": "15:00",
+  "title": "Bomb Shell",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "10–15 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/bomb-shell/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "17:00",
+  "title": "LIZBERRIES- The Cranberries Tribute Band",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "13–17 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/lizberries-the-cranberries-tribute-band/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "",
+  "title": "Bands Without Borders: Elvis Jackson, the Last Supper, Blame Betty",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "25 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/bands-without-borders-elvis-jackson-the-last-supper-blame-betty/",
+  "city": "ljubljana",
+  "source": "orto"
+ }
+]
