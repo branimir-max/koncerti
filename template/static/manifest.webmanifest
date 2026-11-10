@@ -1,7 +1,7 @@
 {
-  "name": "Gigomat – koncerti u tvom gradu",
+  "name": "Gigomat – koncerti u Zagrebu",
   "short_name": "Gigomat",
-  "description": "Svi koncerti u Zagrebu, Ljubljani, Rijeci, Splitu, Beču i Budimpešti, na jednom mjestu.",
+  "description": "Koncerti u Zagrebu na jednom mjestu: što svira večeras, ovaj vikend i idućih mjeseci.",
   "lang": "hr",
   "start_url": "./",
   "scope": "./",

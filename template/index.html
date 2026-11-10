@@ -3,8 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Gigomat · Koncerti u Zagrebu</title>
-<meta name="description" content="Svi koncerti u Zagrebu na jednom mjestu: Lisinski, Tvornica, Močvara, Vintage, Boogaloo i ostali.">
+<title>Koncerti u Zagrebu – večeras, vikend i dalje · Gigomat</title>
+<meta name="description" content="Koncerti u Zagrebu na jednom mjestu: što svira večeras, ovaj vikend i idućih mjeseci u Lisinskom, Tvornici kulture, Močvari, Boogaloou i drugdje. Osvježeno svaki dan.">
 <meta name="theme-color" content="#121212">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
@@ -13,8 +13,8 @@
 <meta name="mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-title" content="Gigomat">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
-<meta property="og:title" content="Gigomat · koncerti u tvom gradu">
-<meta property="og:description" content="Svi koncerti u Zagrebu, Ljubljani, Rijeci, Splitu, Beču i Budimpešti, na jednom mjestu.">
+<meta property="og:title" content="Koncerti u Zagrebu · Gigomat">
+<meta property="og:description" content="Što svira večeras? Svi koncerti u Zagrebu, od Lisinskog do Močvare.">
 <meta property="og:image" content="icon-512.png">
 <link rel="stylesheet" href="fonts.css"><!-- fontovi s vlastitog poslužitelja: bez slanja IP adresa Googleu -->
 <style>
@@ -698,7 +698,7 @@ document.getElementById("cityIn").textContent = CITIES[CITY].name;
   const el = document.getElementById("sources");
   if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "službeni programi prostora i prodaja ulaznica") + ". Podaci se automatski osvježavaju svaki dan.";
 })();
-document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
+document.title = "Koncerti " + CITIES[CITY].in + " – večeras, vikend i dalje · Gigomat";
 (function(){
   // Gradovi kao gumbi iznad naslova (s brojem nadolazećih koncerata)
   const keys = Object.keys(CITIES); if (keys.length < 2) return;
