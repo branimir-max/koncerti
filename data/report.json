@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T09:02:20+00:00",
+ "run_at": "2026-11-10T09:06:44+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -91,12 +91,11 @@
   },
   "wi-stadthalle": {
    "ok": true,
-   "count": 176,
-   "note": "samo proba"
+   "count": 137
   },
   "wi-wuk": {
    "ok": true,
-   "count": 7
+   "count": 6
   },
   "wi-porgy": {
    "ok": true,
@@ -108,8 +107,7 @@
   },
   "bp-budapestpark": {
    "ok": true,
-   "count": 10,
-   "note": "samo proba"
+   "count": 10
   },
   "bp-barbanegra": {
    "ok": true,
@@ -122,11 +120,6 @@
   "lj-festival": {
    "ok": true,
    "count": 23
-  },
-  "lj-cvetlicarna": {
-   "ok": false,
-   "count": 0,
-   "error": "SSLError: HTTPSConnectionPool(host='www.cvetlicarna.info', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, \"[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid for 'www.cvetlicarna.info'. (_ssl.c:1011)\"))"
   },
   "lj-cd": {
    "ok": true,
