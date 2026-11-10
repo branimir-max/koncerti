@@ -1,6 +1,6 @@
 title: Infozagreb -  Koncerti i glazbena događanja
 jsonld types: Organization, ContactPoint
-bez prepoznatih datuma; html bytes=563419
+bez prepoznatih datuma; html bytes=563418
 api/json hints: 
 <li class=> Multimedija Brošure Panorame Photo press kit / Download Zagreb 360
 <li class=> Zagreb 360

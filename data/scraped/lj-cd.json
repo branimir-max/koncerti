@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-17",
-  "time": "19:30",
-  "title": "Dresdenska filharmonija",
-  "venue": "lj-cankarjev",
-  "genre": "klasika",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-11-10",
   "time": "",
   "title": "Od opere do muzikala",
@@ -51,6 +40,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/tom-skinner",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2026-11-17",
+  "time": "",
+  "title": "Dresdenska filharmonija",
+  "venue": "lj-cankarjev",
+  "genre": "klasika",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
