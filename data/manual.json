@@ -2,121 +2,13 @@
  "_note": "Ručno uneseni događaji (prostori bez automatskog izvora ili s nepouzdanim izvorom). Automatski skupljeni podaci imaju prednost kad se poklope.",
  "events": [
   {
-   "date": "2026-11-13",
-   "time": "23:00",
-   "title": "Dark Dance Dejavu – Clan of Xymox afterparty (DJ Ivan Krželj)",
-   "venue": "dvaosam",
-   "genre": "dj",
-   "price": "8 € (5 € s ulaznicom za Clan of Xymox)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-20",
-   "time": "23:00",
-   "title": "In Aeternum + The Chameleons afterparty (DJ Mila Car)",
-   "venue": "dvaosam",
-   "genre": "dj",
-   "price": "6 € (8 € na dan)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-20",
+   "date": "2026-11-08",
    "time": "",
-   "title": "SOUND2LOUD: SAGA 1",
-   "venue": "medika",
-   "genre": "dj",
-   "price": "",
-   "url": "https://attack.hr/"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "22:00",
-   "title": "Open Heart K-pop Party",
-   "venue": "dvaosam",
-   "genre": "dj",
-   "price": "5 € (7 € na dan)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "",
-   "title": "Future Scope: Deep Dish",
-   "venue": "boogaloo",
-   "genre": "dj",
-   "price": "",
-   "url": "https://insite-croatia.com/?p=20511"
-  },
-  {
-   "date": "2026-11-12",
-   "time": "20:00",
-   "title": "Kolt Teatar, Balkan Funk Experiment, Aleksandar Stajčić Band",
-   "venue": "dvaosam",
-   "genre": "world",
-   "price": "10 € (studenti 6 €)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-13",
-   "time": "21:00",
-   "title": "KSET: Britni i Panterski x Viking Krew",
-   "venue": "medika",
-   "genre": "alt",
-   "price": "10 € (12 € na dan)",
-   "url": "https://www.kset.org/"
-  },
-  {
-   "date": "2026-11-14",
-   "time": "",
-   "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
-   "venue": "medika",
-   "genre": "dj",
-   "price": "",
-   "url": "https://attack.hr/"
-  },
-  {
-   "date": "2026-11-19",
-   "time": "21:00",
-   "title": "Sea Sound Party: Hornsman Coyote, Anja G & Dr. Obi (live)",
-   "venue": "dvaosam",
-   "genre": "world",
-   "price": "15 € (18 € na dan)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-21",
-   "time": "20:00",
-   "title": "KSET: Idu Hobiti – promocija albuma „Idu dalje”",
+   "title": "Kim Salmon's Smoked Salmon",
    "venue": "mocvara",
-   "genre": "alt",
-   "price": "12 € (15 € na dan)",
-   "url": "https://www.kset.org/"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:00",
-   "title": "Zubi, Bogec, Masna Repchuga, Take The Tides",
-   "venue": "dvaosam",
-   "genre": "punk",
-   "price": "7 € (10 € na dan)",
-   "url": "https://dvaosam.com/"
-  },
-  {
-   "date": "2026-11-25",
-   "time": "20:00",
-   "title": "KSET: Dunjaluk",
-   "venue": "vintage",
-   "genre": "alt",
-   "price": "12 € (15 € na dan)",
-   "url": "https://www.kset.org/"
-  },
-  {
-   "date": "2026-12-19",
-   "time": "20:00",
-   "title": "KSET50: Mašinko + Žasu",
-   "venue": "vintage",
-   "genre": "punk",
-   "price": "14 € (18 € na dan)",
-   "url": "https://www.kset.org/"
+   "genre": "rock",
+   "price": "20 € (25 € na dan)",
+   "url": "https://www.mochvara.hr/"
   },
   {
    "date": "2026-11-08",
@@ -126,15 +18,6 @@
    "genre": "trad",
    "price": "15 / 20 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-11-08",
-   "time": "",
-   "title": "Kim Salmon's Smoked Salmon",
-   "venue": "mocvara",
-   "genre": "rock",
-   "price": "20 € (25 € na dan)",
-   "url": "https://www.mochvara.hr/"
   },
   {
    "date": "2026-11-09",
@@ -183,6 +66,15 @@
   },
   {
    "date": "2026-11-11",
+   "time": "",
+   "title": "Podrži scenu!: Mladen, Pozeri, Felina",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "besplatno",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-11-11",
    "time": "20:00",
    "title": "Lisinski srijedom: Magalí Sare & Manel Fortià",
    "venue": "lisM",
@@ -200,12 +92,12 @@
    "url": "https://www.tvornicakulture.com/"
   },
   {
-   "date": "2026-11-11",
+   "date": "2026-11-12",
    "time": "",
-   "title": "Podrži scenu!: Mladen, Pozeri, Felina",
+   "title": "Officium Triste, The Answer Lies in the Black Void, Mortajas",
    "venue": "mocvara",
-   "genre": "alt",
-   "price": "besplatno",
+   "genre": "metal",
+   "price": "15 € (18 € na dan)",
    "url": "https://www.mochvara.hr/"
   },
   {
@@ -219,11 +111,20 @@
   },
   {
    "date": "2026-11-12",
+   "time": "20:00",
+   "title": "Kolt Teatar, Balkan Funk Experiment, Aleksandar Stajčić Band",
+   "venue": "dvaosam",
+   "genre": "world",
+   "price": "10 € (studenti 6 €)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-13",
    "time": "",
-   "title": "Officium Triste, The Answer Lies in the Black Void, Mortajas",
+   "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81",
    "venue": "mocvara",
-   "genre": "metal",
-   "price": "15 € (18 € na dan)",
+   "genre": "jazz",
+   "price": "",
    "url": "https://www.mochvara.hr/"
   },
   {
@@ -246,12 +147,48 @@
   },
   {
    "date": "2026-11-13",
+   "time": "20:00",
+   "title": "Mudri Brk predstavlja vol. 2: RØLØ, Gdinjko, Turbo Trans Turisti",
+   "venue": "vintage",
+   "genre": "alt",
+   "price": "17–23 €",
+   "url": "https://karlobag.eu/en/music/rolo-gdinjko-and-turbo-trans-turisti-bring-three-indie-sounds-to-zagreb-s-vintag-lv4ik/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "21:00",
+   "title": "KSET: Britni i Panterski x Viking Krew",
+   "venue": "medika",
+   "genre": "alt",
+   "price": "10 € (12 € na dan)",
+   "url": "https://www.kset.org/"
+  },
+  {
+   "date": "2026-11-13",
+   "time": "23:00",
+   "title": "Dark Dance Dejavu – Clan of Xymox afterparty (DJ Ivan Krželj)",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "8 € (5 € s ulaznicom za Clan of Xymox)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-14",
    "time": "",
-   "title": "13. NO Jazz festival: Artifacts Trio, Eksterminator '81",
-   "venue": "mocvara",
-   "genre": "jazz",
+   "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
+   "venue": "medika",
+   "genre": "dj",
    "price": "",
-   "url": "https://www.mochvara.hr/"
+   "url": "https://attack.hr/"
+  },
+  {
+   "date": "2026-11-14",
+   "time": "",
+   "title": "Cockney Rejects",
+   "venue": "primarius",
+   "genre": "punk",
+   "price": "",
+   "url": ""
   },
   {
    "date": "2026-11-14",
@@ -270,6 +207,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-15",
+   "time": "",
+   "title": "Još gori",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
   },
   {
    "date": "2026-11-15",
@@ -297,15 +243,6 @@
    "genre": "trad",
    "price": "30 / 35 / 40 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-11-15",
-   "time": "",
-   "title": "Još gori",
-   "venue": "mocvara",
-   "genre": "alt",
-   "price": "",
-   "url": "https://www.mochvara.hr/"
   },
   {
    "date": "2026-11-17",
@@ -344,6 +281,24 @@
    "url": "https://www.lisinski.hr/hr/dogadanja/"
   },
   {
+   "date": "2026-11-19",
+   "time": "21:00",
+   "title": "Sea Sound Party: Hornsman Coyote, Anja G & Dr. Obi (live)",
+   "venue": "dvaosam",
+   "genre": "world",
+   "price": "15 € (18 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-20",
+   "time": "",
+   "title": "SOUND2LOUD: SAGA 1",
+   "venue": "medika",
+   "genre": "dj",
+   "price": "",
+   "url": "https://attack.hr/"
+  },
+  {
    "date": "2026-11-20",
    "time": "19:30",
    "title": "Zagrebačka filharmonija – Crveni ciklus (Sebastian Manz, klarinet)",
@@ -362,6 +317,24 @@
    "url": "https://www.tvornicakulture.com/"
   },
   {
+   "date": "2026-11-20",
+   "time": "23:00",
+   "title": "In Aeternum + The Chameleons afterparty (DJ Mila Car)",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "6 € (8 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "",
+   "title": "Future Scope: Deep Dish",
+   "venue": "boogaloo",
+   "genre": "dj",
+   "price": "",
+   "url": "https://insite-croatia.com/?p=20511"
+  },
+  {
    "date": "2026-11-21",
    "time": "19:00",
    "title": "Lisinski da camera: Kvartet Papandopulo",
@@ -369,6 +342,15 @@
    "genre": "klasika",
    "price": "20 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "20:00",
+   "title": "KSET: Idu Hobiti – promocija albuma „Idu dalje”",
+   "venue": "mocvara",
+   "genre": "alt",
+   "price": "12 € (15 € na dan)",
+   "url": "https://www.kset.org/"
   },
   {
    "date": "2026-11-21",
@@ -387,6 +369,15 @@
    "genre": "rock",
    "price": "",
    "url": "https://www.tvornicakulture.com/"
+  },
+  {
+   "date": "2026-11-21",
+   "time": "22:00",
+   "title": "Open Heart K-pop Party",
+   "venue": "dvaosam",
+   "genre": "dj",
+   "price": "5 € (7 € na dan)",
+   "url": "https://dvaosam.com/"
   },
   {
    "date": "2026-11-22",
@@ -432,6 +423,24 @@
    "genre": "trad",
    "price": "32–59 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:00",
+   "title": "Zubi, Bogec, Masna Repchuga, Take The Tides",
+   "venue": "dvaosam",
+   "genre": "punk",
+   "price": "7 € (10 € na dan)",
+   "url": "https://dvaosam.com/"
+  },
+  {
+   "date": "2026-11-25",
+   "time": "20:00",
+   "title": "KSET: Dunjaluk",
+   "venue": "vintage",
+   "genre": "alt",
+   "price": "12 € (15 € na dan)",
+   "url": "https://www.kset.org/"
   },
   {
    "date": "2026-11-25",
@@ -597,15 +606,6 @@
   },
   {
    "date": "2026-12-06",
-   "time": "10:00",
-   "title": "Jacques Houdek: „Kad si sretan” (i u 12:30)",
-   "venue": "lisV",
-   "genre": "djeca",
-   "price": "25 €",
-   "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-12-06",
    "time": "",
    "title": "Föllakzoid + Beau Wanzer",
    "venue": "mocvara",
@@ -614,9 +614,27 @@
    "url": "https://www.mochvara.hr/"
   },
   {
+   "date": "2026-12-06",
+   "time": "10:00",
+   "title": "Jacques Houdek: „Kad si sretan” (i u 12:30)",
+   "venue": "lisV",
+   "genre": "djeca",
+   "price": "25 €",
+   "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
    "date": "2026-12-07",
    "time": "",
    "title": "UREDDA",
+   "venue": "mocvara",
+   "genre": "elektro",
+   "price": "",
+   "url": "https://www.mochvara.hr/"
+  },
+  {
+   "date": "2026-12-08",
+   "time": "",
+   "title": "Desire, MOTHERMARY, Johnny Jewel",
    "venue": "mocvara",
    "genre": "elektro",
    "price": "",
@@ -630,15 +648,6 @@
    "genre": "jazz",
    "price": "36–55 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-12-08",
-   "time": "",
-   "title": "Desire, MOTHERMARY, Johnny Jewel",
-   "venue": "mocvara",
-   "genre": "elektro",
-   "price": "",
-   "url": "https://www.mochvara.hr/"
   },
   {
    "date": "2026-12-09",
@@ -720,6 +729,15 @@
    "genre": "klasika",
    "price": "32–48 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
+  },
+  {
+   "date": "2026-12-19",
+   "time": "20:00",
+   "title": "KSET50: Mašinko + Žasu",
+   "venue": "vintage",
+   "genre": "punk",
+   "price": "14 € (18 € na dan)",
+   "url": "https://www.kset.org/"
   },
   {
    "date": "2026-12-20",
@@ -828,15 +846,6 @@
    "genre": "rock",
    "price": "28–45 €",
    "url": "https://www.lisinski.hr/hr/dogadanja/"
-  },
-  {
-   "date": "2026-11-13",
-   "time": "20:00",
-   "title": "Mudri Brk predstavlja vol. 2: RØLØ, Gdinjko, Turbo Trans Turisti",
-   "venue": "vintage",
-   "genre": "alt",
-   "price": "17–23 €",
-   "url": "https://karlobag.eu/en/music/rolo-gdinjko-and-turbo-trans-turisti-bring-three-indie-sounds-to-zagreb-s-vintag-lv4ik/"
   }
  ]
 }
