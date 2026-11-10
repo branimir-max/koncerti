@@ -24,7 +24,7 @@ CITIES = json.loads((ROOT / "data" / "cities.json").read_text())
 
 
 GENERIC_TITLES = {"koncert", "koncerti", "dogodek", "dogodki", "događaj", "concert", "event", "klub", "festival",
-                  "predstava", "party", "zabava"}
+                  "predstava", "party", "zabava", "programm", "program", "programok"}
 
 
 def city_of(place: str) -> str | None:
@@ -222,6 +222,10 @@ def scrape(src: dict) -> list[dict]:
             e["time"] = ""
         if src.get("require") and src["require"].lower() not in blob:
             continue
+        if src.get("slug_title"):  # naslov iz adrese događaja (".../51342/The-Witcher-in-Concert")
+            slug = (e.get("url") or "").rstrip("/").rsplit("/", 1)[-1]
+            if slug:
+                e["title"] = re.sub(r"[-_]\d{4}[-_]\d{2}[-_]\d{2}$", "", slug).replace("-", " ").replace("_", " ")
         for pat in src.get("strip", []):
             e["title"] = re.sub(pat, "", e["title"], flags=re.I).strip()
         # Naslov je samo kategorija ("koncert", "dogodek"): pravi naziv uzmi iz adrese događaja

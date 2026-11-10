@@ -614,5 +614,27 @@
    "A38"
   ],
   "web": "https://www.a38.hu/"
+ },
+ "wi-stadthalle": {
+  "name": "Wiener Stadthalle",
+  "city": "bec",
+  "aliases": [
+   "Wiener Stadthalle",
+   "Stadthalle",
+   "Halle D, Wiener Stadthalle",
+   "Halle F, Wiener Stadthalle",
+   "Halle D",
+   "Halle F",
+   "Halle E"
+  ],
+  "web": "https://www.stadthalle.com/"
+ },
+ "bp-budapestpark": {
+  "name": "Budapest Park",
+  "city": "budimpesta",
+  "aliases": [
+   "Budapest Park"
+  ],
+  "web": "https://www.budapestpark.hu/"
  }
 }
