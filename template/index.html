@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Gigomat · Koncerti u Zagrebu</title>
 <meta name="description" content="Svi koncerti i DJ večeri u Zagrebu na jednom mjestu: Lisinski, Tvornica, Močvara, Vintage, Boogaloo i ostali.">
-<meta name="theme-color" content="#1D4E9E">
+<meta name="theme-color" content="#EDEAE2">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -18,20 +18,21 @@
 <meta property="og:image" content="icon-512.png">
 <link rel="stylesheet" href="fonts.css"><!-- fontovi s vlastitog poslužitelja: bez slanja IP adresa Googleu -->
 <style>
-/* Layout: gig-poster header, sticky filter bar, day-grouped listing (or month grid). Accent = ZET tram blue, signal red only for "rasprodano". */
+/* Izgled "Plakat": papir, crna tinta, uski naslovi; boja grada kao tisak. Layout: gig-poster header, sticky filter bar, day-grouped listing (or month grid). Accent = ZET tram blue, signal red only for "rasprodano". */
 :root{
-  --bg:#F2F4F7;
-  --surface:#FFFFFF;
-  --ink:#0E1828;
-  --muted:#5B6678;
-  --line:#DCE1E9;
+  --bg:#EDEAE2;
+  --surface:#F6F3EC;
+  --ink:#121212;
+  --muted:#4A4740;
+  --line:#C9C4B8;
   --accent:#1D4E9E;
   --accent-ink:#FFFFFF;
   --accent-soft:#E3EBF8;
   --signal:#D93A25;
   --star:#E3A21A;
   --font-display:"Big Shoulders Display","Arial Narrow",Impact,sans-serif;
-  --font-body:"IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-body:"Space Grotesk","IBM Plex Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --font-mono:"IBM Plex Mono",ui-monospace,Menlo,monospace;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){
@@ -318,6 +319,36 @@ footer p{margin:0 0 8px;max-width:72ch}
   .cell .cnt{display:block;font-family:var(--font-display);font-weight:800;color:var(--accent);font-size:18px;line-height:1}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+
+/* ---------- Plakat: završni sloj ---------- */
+header.top{border-bottom:3px solid var(--ink)}
+.cities{border-bottom:2px solid var(--ink)}
+.cities a[aria-current="page"]{color:var(--ink)}
+.bar{border-bottom:2px solid var(--ink)}
+.search,.views,select,.filtbtn,.clubs,.clubs input,.fhead select,.fhead .seg{border-radius:0;border:2px solid var(--ink)}
+.search:focus-within{border-color:var(--accent)}
+.views a{font-family:var(--font-display);font-weight:800;font-size:16px;text-transform:uppercase;letter-spacing:.04em;padding:8px 14px 7px}
+.chip{border-radius:0;border:1.5px solid var(--ink);background:transparent;font-weight:500}
+.chip[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:var(--bg)}
+.dayhead{border-bottom:2px solid var(--ink);padding-top:14px}
+.dayhead .dnum{font-size:36px}
+.ev{border-bottom:1px solid var(--line)}
+.ev h3{font-weight:800;text-transform:uppercase;font-size:22px;line-height:1.02;letter-spacing:.3px}
+.ev .sub>span:first-child{font-family:var(--font-mono);font-weight:500;color:var(--ink)}
+.ev .sub .g{font-family:var(--font-mono);font-size:11.5px;text-transform:uppercase;letter-spacing:.06em}
+.sharemenu,.nowc,.panel,.calmenu{border-radius:0!important}
+.loadmore button{border-radius:0}
+footer{font-size:13px}
+.minebtn{border-radius:0}
+@media (max-width:440px){
+  .toprow{gap:6px}
+  .logo{font-size:23px;gap:6px}
+  .logo svg{width:23px;height:23px}
+  .addgig{font-size:13px;padding:5px 7px 4px;gap:4px}
+  .addgig svg{width:11px;height:11px}
+  .bellbtn{width:34px}
+  .minebtn{padding:0 9px;gap:4px;min-height:36px}
+}
 </style>
 </head>
 <body>
