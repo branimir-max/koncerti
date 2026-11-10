@@ -1,0 +1,14 @@
+title: SCZG Eventi
+jsonld types: 
+bez prepoznatih datuma; html bytes=47082
+api/json hints: 
+<div class=py-3.border-b.border-black/20> Facebook Instagram YouTube Otvoreni smo svaki dan od 7:30 - 15:30 + 385 1 4593 621
+<div class=max-w-6xl.mx-auto.px-10> Facebook Instagram YouTube Otvoreni smo svaki dan od 7:30 - 15:30 + 385 1 4593 621
+<div class=flex.items-center.gap-8> Otvoreni smo svaki dan od 7:30 - 15:30 + 385 1 4593 621
+<div class=flex.items-center> Otvoreni smo svaki dan od 7:30 - 15:30
+<div class=text-sm> Otvoreni smo svaki dan od 7:30 - 15:30
+<div class=items-center.hidden.md:flex> + 385 1 4593 621
+<a class=underline.text-sm> + 385 1 4593 621
+<footer class=flex.py-6.max-w-6xl> Studentski centar u Zagrebu Sva prava zadržana 2026 Izradio Refresh.hr
+<p class=mt-1> Sva prava zadržana 2026
+poveznice (5): /eventi /eventi/catering /eventi/dvorane /eventi/kontakt /eventi/promotivne-usluge

@@ -1,0 +1,8 @@
+title: SAX!
+jsonld types: Organization, ImageObject, WebSite, SearchAction, EntryPoint
+<article class=event-card.reveal> 26.11., 27.11., 3.12., 4.12., 10.12., 11.12., 16.12., 17.12. Silente Koncert Silente se vraća u Sax odraditi čak osam koncerata! Kupi ulaznicu online Dostupno i na blagajni kluba Silente | https://core-event.co/en/events/silente-u-sax-u-5b70/
+<div class=event-card-date> 26.11., 27.11., 3.12., 4.12., 10.12., 11.12., 16.12., 17.12. | 
+<article class=event-card.reveal> nedjelja, 6.12. Ante Balen koncert Kupi ulaznicu online Ante Balen | https://core-event.co/events/[…]/
+<div class=event-card-date> nedjelja, 6.12. | 
+<div class=event-card-date> subota, 12.12. | 
+poveznice (9): https://core-event.co/en/events/silente-u-sax-u-5b70/ https://core-event.co/events/[…]/ https://core-event.co/events/ante-gelo-band-9cb4/ https://core-event.co/events/[…]/ https://core-event.co/events/ljetno-kino-b8a6/ https://core-event.co/events/rambo-amadeus-u-saxu-ca46/?fbclid=[…] https://core-event.co/events/when-tomorrow-comes-1df5/?fbclid=[…] https://core-event.co/events/[…]/ https://www.entrio.hr/event/[…]

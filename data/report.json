@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T13:32:53+00:00",
+ "run_at": "2026-11-10T13:37:28+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -112,6 +112,21 @@
   "laa": {
    "ok": true,
    "count": 20
+  },
+  "lauba": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
+  },
+  "sax": {
+   "ok": true,
+   "count": 3,
+   "note": "samo proba"
+  },
+  "sczg": {
+   "ok": true,
+   "count": 0,
+   "note": "samo proba"
   },
   "mb-narodnidom": {
    "ok": true,
