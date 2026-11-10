@@ -1128,7 +1128,7 @@ function render(){
   document.getElementById("count").textContent = `${n} ${word}` + (v==="kalendar" ? " (brzi filtri datuma ne vrijede u kalendaru)" : "");
   const filtered = S.q||S.venue||S.genres.size||S.range||S.hideSold||S.freeOnly||S.favOnly||S.newOnly||S.day;
   document.getElementById("reset").hidden = !filtered;
-  out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list) + renderRegular();
+  out.innerHTML = v==="kalendar" ? renderCal(list) : renderList(list);  // "Redovne svirke" maknute: bez programa i poveznice čitatelju ne znače ništa
   renderBanner(); renderPanel(); renderSoon(); renderTop(v, filtered); syncClub();
 }
 out.addEventListener("change", ev=>{ if (ev.target.id==="fcity"){ FCITY = ev.target.value; render(); } });
