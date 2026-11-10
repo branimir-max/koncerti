@@ -53,6 +53,7 @@
 :root[data-city="zabok"]{--accent:#127F80;--accent-soft:#DDF2F1;--accent-ink:#FFFFFF}
 :root[data-city="budimpesta"]{--accent:#7A4A2A;--accent-soft:#F1E6DD;--accent-ink:#FFFFFF}
 :root[data-city="bec"]{--accent:#C8201B;--accent-soft:#FAE1E0;--accent-ink:#FFFFFF}
+:root[data-city="maribor"]{--accent:#6A3D9A;--accent-soft:#EEE6F7;--accent-ink:#FFFFFF}
 @media (prefers-color-scheme: dark){
   :root[data-city="ljubljana"]:not([data-theme="light"]){--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
   :root[data-city="split"]:not([data-theme="light"]){--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
@@ -60,6 +61,7 @@
   :root[data-city="zabok"]:not([data-theme="light"]){--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
   :root[data-city="budimpesta"]:not([data-theme="light"]){--accent:#C99470;--accent-soft:#3A2A1F;--accent-ink:#1A120C}
   :root[data-city="bec"]:not([data-theme="light"]){--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
+  :root[data-city="maribor"]:not([data-theme="light"]){--accent:#B48CF0;--accent-soft:#2A1C3E;--accent-ink:#0A101C}
 }
 :root[data-theme="dark"][data-city="ljubljana"]{--accent:#5CC57E;--accent-soft:#14301E;--accent-ink:#0A101C}
 :root[data-theme="dark"][data-city="split"]{--accent:#5BB8E8;--accent-soft:#10293A;--accent-ink:#0A101C}
@@ -67,6 +69,7 @@
 :root[data-theme="dark"][data-city="zabok"]{--accent:#4FD1C5;--accent-soft:#0E2E2D;--accent-ink:#0A101C}
 :root[data-theme="dark"][data-city="budimpesta"]{--accent:#C99470;--accent-soft:#3A2A1F;--accent-ink:#1A120C}
 :root[data-theme="dark"][data-city="bec"]{--accent:#FF6B60;--accent-soft:#3E1513;--accent-ink:#0A101C}
+:root[data-theme="dark"][data-city="maribor"]{--accent:#B48CF0;--accent-soft:#2A1C3E;--accent-ink:#0A101C}
 *{box-sizing:border-box}
 [hidden]{display:none!important}
 html,body{margin:0}
@@ -465,6 +468,7 @@ document.getElementById("cityIn").textContent = CITIES[CITY].name;
     ljubljana: "službeni programi prostora (Cankarjev dom, Festival Ljubljana / Križanke, Kino Šiška, Orto bar)",
     bec: "službeni programi prostora (Porgy & Bess, Flex, Arena Wien, WUK…)",
     budimpesta: "službeni programi prostora (Barba Negra, A38, Akvárium Klub…)",
+    maribor: "službeni programi prostora (Narodni dom Maribor…)",
     rijeka: "prodaja ulaznica (Ulaznice.hr, Core Event) i kalendar Visit Rijeka",
     split: "prodaja ulaznica (Ulaznice.hr, Core Event)",
     zabok: "prodaja ulaznica (Ulaznice.hr, Core Event)",

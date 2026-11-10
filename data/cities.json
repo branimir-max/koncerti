@@ -72,5 +72,15 @@
   ],
   "lat": 48.208,
   "lon": 16.373
+ },
+ "maribor": {
+  "name": "Maribor",
+  "in": "u Mariboru",
+  "pfx": "mb",
+  "match": [
+   "maribor"
+  ],
+  "lat": 46.557,
+  "lon": 15.646
  }
 }

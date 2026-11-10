@@ -15,7 +15,7 @@ THEATRE = ["predstava", "komedija", "mjuzikl", "balet", "teorija glazbe", "preda
            "radionica", "filmsk", "projekcij", "izložba", "kviz", "poezij"]
 JUNK = ["blog", "intervju", "izdvojeno", "vijesti", "novosti", "newsletter", "galerija", "o nama", "kontakt"]
 # Gradovi izvan Zagreba koje agregatori ponekad uvrste u "Zagreb i okolica"
-OUTSIDE = ["maribor", "čakovec", "cakovec", "zabok", "regenerator", "karlovac", "mala scena", "varaždin",
+OUTSIDE = ["čakovec", "cakovec", "zabok", "regenerator", "karlovac", "mala scena", "varaždin",
            "varazdin", "ljubljana", "slovenia", "samobor", "velika gorica", "sisak"]
 DJ = ["party", "afterparty", "after party", "sound system", "hi-fi", "rave", "techno night"]
 
@@ -106,6 +106,13 @@ SOURCES = [
         ("ljubljana", {"key": "lj-festival", "venue": None, "require_venue": True, "include": ["glasb"],
                        "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
         ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
+    ]],
+    # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
+    *[dict({"city": "maribor", "exclude": THEATRE, "dj_words": DJ, "probe": True, "probe_only": True, "allow_empty": True}, **x) for x in [
+        {"key": "mb-narodnidom", "venue": None, "urls": ["https://nd-mb.si/narodni-dom-maribor/program-dogodkov-narodni-dom-maribor/"]},
+        {"key": "mb-stuk", "venue": None, "urls": ["https://stuk.org/"]},
+        {"key": "mb-sng", "venue": None, "urls": ["https://www.sng-mb.si/"]},
+        {"key": "mb-mkc", "venue": None, "urls": ["https://www.mkc.si/"]},
     ]],
     {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "probe": True,
      "parser": "rows", "row": "tr", "link": "/dogodek/", "row_require": "glasba", "exclude": ["dostava"],
