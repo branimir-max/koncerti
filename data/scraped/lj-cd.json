@@ -11,17 +11,6 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-11-11",
-  "time": "",
-  "title": "Od opere do muzikala",
-  "venue": "lj-cankarjev",
-  "genre": "opera",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/od-opere-do-muzikala",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
   "date": "2026-11-10",
   "time": "",
   "title": "Kristijan Krajnčan 5tet: Alchymia XXI",
@@ -29,6 +18,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/kristijan-krajncan-5tet-alchymia-xxi",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2026-11-11",
+  "time": "",
+  "title": "Od opere do muzikala",
+  "venue": "lj-cankarjev",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/od-opere-do-muzikala",
   "city": "ljubljana",
   "source": "lj-cd"
  },

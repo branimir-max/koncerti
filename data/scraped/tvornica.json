@@ -231,6 +231,17 @@
   "source": "tvornica"
  },
  {
+  "date": "2026-12-27",
+  "time": "21:00",
+  "title": "Studio 54 by Tomo Ricov",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/studio-54-by-tomo-ricov-af98",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
   "date": "2027-01-08",
   "time": "20:00",
   "title": "SWINGERS present's ELVIS!",
@@ -315,17 +326,6 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
-  "date": "2027-05-01",
-  "time": "20:00",
-  "title": "Nouvelle Vague",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/nouvelle-vague-u-tvornici-kulture-f329",
   "city": "zagreb",
   "source": "tvornica"
  }

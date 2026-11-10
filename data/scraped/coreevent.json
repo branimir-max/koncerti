@@ -110,7 +110,7 @@
  {
   "date": "2026-11-13",
   "time": "",
-  "title": "Mudri Brk predstavlja: RØLØ, Gdinjko i Turbo Trans Turisti",
+  "title": "Mudri Brk predstavlja: RØLØ, Tidal Pull i Turbo Trans Turisti",
   "venue": "vintage",
   "genre": "",
   "price": "",
@@ -1063,6 +1063,18 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/studio-54-by-tomo-ricov-2026-1d7f/",
+  "city": "zagreb",
+  "venue_name": "Tvornica Kulture",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-12-27",
+  "time": "",
+  "title": "Studio 54 by Tomo Ricov",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/studio-54-by-tomo-ricov-af98/",
   "city": "zagreb",
   "venue_name": "Tvornica Kulture",
   "source": "coreevent"

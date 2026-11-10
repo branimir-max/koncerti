@@ -1,5 +1,63 @@
-title: One moment, please...
+title: Shop  - ORTO Bar
 jsonld types: 
-bez prepoznatih datuma; html bytes=12255
-api/json hints: 
-poveznice (0): 
+<li class=jet-woo-builder-product.[…].entry> Orto Tribute-Poklon Najboljšim -Sezona Jesen 2026-Pomlad 2027 3. september, 2026 Hala-pritlicje Več o dogodku Preberi več | https://www.orto-bar.com/dogodki/dj/[…]/
+<div class=elementor.elementor-21746> Orto Tribute-Poklon Najboljšim -Sezona Jesen 2026-Pomlad 2027 3. september, 2026 Hala-pritlicje Več o dogodku Preberi več | https://www.orto-bar.com/dogodki/dj/[…]/
+<div class=elementor-container.elementor-column-gap-default> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-container.elementor-column-gap-default> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 3. september, 2026 Hala-pritlicje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 3. september, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> Uninvited,Life On Display 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/uninvitedlife-on-display/
+<div class=elementor.elementor-21746> Uninvited,Life On Display 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/uninvitedlife-on-display/
+<div class=elementor-container.elementor-column-gap-default> 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-widget-wrap.elementor-element-populated> 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-container.elementor-column-gap-default> 11. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 11. november, 2026 Klub- nadstropje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 11. november, 2026 Klub- nadstropje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 11. november, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> Plateau,RANR 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/plateauranr/
+<div class=elementor.elementor-21746> Plateau,RANR 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/plateauranr/
+<div class=elementor-container.elementor-column-gap-default> 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. | 
+<div class=elementor-widget-wrap.elementor-element-populated> 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. | 
+<div class=elementor-container.elementor-column-gap-default> 11. november, 2026 Hala-pritlicje 20.00 € Izvirna cena je bila: 20.00€. 18.00 € Trenutna cena je: 18.00€. | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 11. november, 2026 Hala-pritlicje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 11. november, 2026 Hala-pritlicje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 11. november, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> Anomalo, Šalamun 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/anomalo-salamun/
+<div class=elementor.elementor-21746> Anomalo, Šalamun 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/anomalo-salamun/
+<div class=elementor-container.elementor-column-gap-default> 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-widget-wrap.elementor-element-populated> 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-container.elementor-column-gap-default> 12. november, 2026 Klub- nadstropje 12.00 € Izvirna cena je bila: 12.00€. 8.00 € Trenutna cena je: 8.00€. | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 12. november, 2026 Klub- nadstropje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 12. november, 2026 Klub- nadstropje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 12. november, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> Jugoslovanka Party 13. november, 2026 Hala-pritlicje 12.00 € Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/dj/jugoslovanka-party/
+<div class=elementor.elementor-21746> Jugoslovanka Party 13. november, 2026 Hala-pritlicje 12.00 € Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/dj/jugoslovanka-party/
+<div class=elementor-container.elementor-column-gap-default> 13. november, 2026 Hala-pritlicje 12.00 € | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 13. november, 2026 Hala-pritlicje 12.00 € | 
+<div class=elementor-widget-wrap.elementor-element-populated> 13. november, 2026 Hala-pritlicje 12.00 € | 
+<div class=elementor-container.elementor-column-gap-default> 13. november, 2026 Hala-pritlicje 12.00 € | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 13. november, 2026 Hala-pritlicje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 13. november, 2026 Hala-pritlicje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 13. november, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> Bomb Shell 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/bomb-shell/
+<div class=elementor.elementor-21746> Bomb Shell 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/bomb-shell/
+<div class=elementor-container.elementor-column-gap-default> 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. | 
+<div class=elementor-widget-wrap.elementor-element-populated> 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. | 
+<div class=elementor-container.elementor-column-gap-default> 13. november, 2026 Klub- nadstropje 15.00 € Izvirna cena je bila: 15.00€. 10.00 € Trenutna cena je: 10.00€. | 
+<div class=elementor-column.elementor-col-50.elementor-inner-column> 13. november, 2026 Klub- nadstropje | 
+<div class=elementor-widget-wrap.elementor-element-populated> 13. november, 2026 Klub- nadstropje | 
+<div class=elementor-element.elementor-element-16b9dc2.elementor-widget> 13. november, 2026 | 
+<li class=jet-woo-builder-product.[…].entry> LIZBERRIES- The Cranberries Tribute Band 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/[…]/
+<div class=elementor.elementor-21746> LIZBERRIES- The Cranberries Tribute Band 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. Več o dogodku Dodaj v košarico | https://www.orto-bar.com/dogodki/koncerti/[…]/
+<div class=elementor-container.elementor-column-gap-default> 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. | 
+<div class=elementor-column.elementor-col-100.elementor-top-column> 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. | 
+<div class=elementor-widget-wrap.elementor-element-populated> 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. | 
+<div class=elementor-container.elementor-column-gap-default> 14. november, 2026 Hala-pritlicje 17.00 € Izvirna cena je bila: 17.00€. 13.00 € Trenutna cena je: 13.00€. | 
+poveznice (22): /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=144733 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=152613 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=154897 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=156285 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=158205 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=158348 /shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa&add-to-cart=159470 https://www.orto-bar.com/category/koncerti/ https://www.orto-bar.com/dogodki/koncerti/anomalo-salamun/ https://www.orto-bar.com/dogodki/koncerti/[…]/ https://www.orto-bar.com/dogodki/koncerti/bomb-shell/ https://www.orto-bar.com/dogodki/koncerti/[…]/ https://www.orto-bar.com/dogodki/koncerti/plateauranr/ https://www.orto-bar.com/dogodki/koncerti/uninvitedlife-on-display/ https://www.orto-bar.com/en/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/[…]/ https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat:194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat:194&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat:226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat:230&sort=orderby%3Ameta_value%3Border%3ADESC%3Bmeta_key%3Adatum-eventa https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat:233&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa

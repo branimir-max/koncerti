@@ -5,22 +5,28 @@ jsonld types:
 <div class=hero--content> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
 <div class=content--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
 <div class=hero--date> 25. maj 19:30 | 
-<div class=carouselSingle> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
-<div class=single--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
-<div class=hero--content> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
-<div class=content--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
-<div class=hero--date> 30. dec. 18:00 | 
 <div class=carouselSingle> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
 <div class=single--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
 <div class=hero--content> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
 <div class=content--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
 <div class=hero--date> 4. dec. 20:00 | 
+<div class=carouselSingle> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
+<div class=single--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
+<div class=hero--content> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
+<div class=content--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
+<div class=hero--date> 30. dec. 18:00 | 
 <div class=singleThumb> Festival 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=singleThumb--wrapper> Festival 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=content> 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=content--wrapper> 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=meta> 30. jun.  – 3. jul. 2027 | 
 <div class=date> 30. jun.  – 3. jul. 2027 | 
+<div class=singleThumb> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
+<div class=singleThumb--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
+<div class=content> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
+<div class=content--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
+<div class=meta> 10. nov., | 
+<div class=date> 10. nov., | 
 <div class=singleThumb> 11. nov., 
 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
 <div class=singleThumb--wrapper> 11. nov., 
@@ -33,12 +39,6 @@ jsonld types:
 11. nov., | 
 <div class=date> 11. nov., 
 11. nov., | 
-<div class=singleThumb> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=singleThumb--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=content> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=content--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=meta> 10. nov., | 
-<div class=date> 10. nov., | 
 <div class=singleThumb> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla
 <div class=singleThumb--wrapper> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla
 <div class=content> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla

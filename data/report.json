@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-10T11:04:00+00:00",
+ "run_at": "2026-11-10T12:36:47+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -10,9 +10,8 @@
    "count": 30
   },
   "mocvara": {
-   "ok": false,
-   "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+   "ok": true,
+   "count": 11
   },
   "dvaosam": {
    "ok": true,
@@ -27,9 +26,8 @@
    "count": 5
   },
   "vintage": {
-   "ok": false,
-   "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+   "ok": true,
+   "count": 7
   },
   "pogon": {
    "ok": true,
@@ -42,7 +40,7 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 116
+   "count": 117
   },
   "ticketmaster-zagreb": {
    "ok": true,
@@ -101,7 +99,7 @@
   },
   "wi-porgy": {
    "ok": true,
-   "count": 182
+   "count": 183
   },
   "bp-akvarium": {
    "ok": true,
@@ -127,16 +125,6 @@
    "ok": true,
    "count": 54
   },
-  "entrio": {
-   "ok": false,
-   "count": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.entrio.hr/"
-  },
-  "entrio-sitemap": {
-   "ok": false,
-   "count": 0,
-   "error": "HTTPError: 403 Client Error: Forbidden for url: https://www.entrio.hr/sitemap.xml"
-  },
   "mb-narodnidom": {
    "ok": true,
    "count": 0,
@@ -154,7 +142,7 @@
   },
   "mb-mkc": {
    "ok": true,
-   "count": 16,
+   "count": 17,
    "note": "samo proba"
   },
   "kinosiska": {
@@ -162,9 +150,8 @@
    "count": 3
   },
   "orto": {
-   "ok": false,
-   "count": 0,
-   "error": "nijedan događaj nije prepoznat (promijenio se HTML?)"
+   "ok": true,
+   "count": 7
   }
  }
 }

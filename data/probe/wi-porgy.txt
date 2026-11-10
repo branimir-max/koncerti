@@ -60,4 +60,4 @@ jsonld types:
 <div class=row.event_list> So 29. November 2026 14:30 Jazzinfection Trio & Kornél Fekete-Kovács (SK/H) | /events/13199/
 <div class=col-md-3.event_list> So 29. November 2026 | 
 <div class=date> So 29. November 2026 | 
-poveznice (259): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13010/ /events/13018/ /events/13019/ /events/13020/ /events/13021/
+poveznice (260): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13010/ /events/13018/ /events/13019/ /events/13020/ /events/13021/
