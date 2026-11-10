@@ -462,13 +462,15 @@ document.getElementById("cityIn").textContent = CITIES[CITY].name;
   // Izvori u podnožju za odabrani grad
   const SRC = {
     zagreb: "službeni programi prostora (Lisinski, Tvornica kulture, Močvara, Dva Osam, KSET, Attack!, Vintage, HNK…) i prodaja ulaznica (Ulaznice.hr, Core Event)",
-    ljubljana: "službeni programi Kina Šiška i Orta, privremeno Songkick",
+    ljubljana: "službeni programi prostora (Cankarjev dom, Festival Ljubljana / Križanke, Kino Šiška, Orto bar)",
+    bec: "službeni programi prostora (Porgy & Bess, Flex, Arena Wien, WUK…)",
+    budimpesta: "službeni programi prostora (Barba Negra, A38, Akvárium Klub…)",
     rijeka: "prodaja ulaznica (Ulaznice.hr, Core Event) i kalendar Visit Rijeka",
     split: "prodaja ulaznica (Ulaznice.hr, Core Event)",
     zabok: "prodaja ulaznica (Ulaznice.hr, Core Event)",
   };
   const el = document.getElementById("sources");
-  if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "privremeno Songkick") + ". Podaci se automatski osvježavaju svaki dan.";
+  if (el) el.innerHTML = "<strong>Izvori:</strong> " + (SRC[CITY] || "službeni programi prostora i prodaja ulaznica") + ". Podaci se automatski osvježavaju svaki dan.";
 })();
 document.title = "Gigomat · Koncerti " + CITIES[CITY].in;
 (function(){

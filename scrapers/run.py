@@ -13,7 +13,7 @@ import time
 from datetime import date, datetime, timezone
 from pathlib import Path
 
-from .base import hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
+from .base import row_events, hnk_events, ics_events, coreevent_events, ulaznice_events, card_events, clean, event_links, fetch, jsonld_events, microdata_events, page_event, soup, tootoot_events
 from .sources import GENRE_WORDS, JUNK, SOURCES
 from .ticketmaster import events as tm_events
 
@@ -182,6 +182,8 @@ def scrape(src: dict) -> list[dict]:
                 except Exception:  # noqa: BLE001 – jedna pokvarena stranica ne ruši izvor
                     pass
                 time.sleep(1)
+        elif parser == "rows":
+            found = row_events(html, v, url, src.get("row", "tr"), src["link"], src.get("row_require", ""))
         elif parser == "cards":
             found = card_events(html, v, url, card_selector=src.get("card"), title_selector=src.get("title", "h1, h2, h3, h4, .title, [class*=title]"))
         else:
@@ -212,6 +214,12 @@ def scrape(src: dict) -> list[dict]:
             continue
         if src.get("include") and not any(w in blob for w in src["include"]):
             continue
+        if src.get("url_include") and src["url_include"] not in (e.get("url") or ""):
+            continue
+        if src.get("require_venue") and not e.get("venue"):
+            continue  # prostor nije prepoznat – radije ništa nego krivo mjesto
+        if src.get("no_time"):
+            e["time"] = ""
         if src.get("require") and src["require"].lower() not in blob:
             continue
         for pat in src.get("strip", []):

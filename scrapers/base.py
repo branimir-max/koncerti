@@ -26,6 +26,11 @@ MONTHS_HR = {
 def fetch(url: str) -> str:
     r = requests.get(url, headers={"User-Agent": UA, "Accept-Language": "hr,en;q=0.8"}, timeout=TIMEOUT)
     r.raise_for_status()
+    if "charset" not in r.headers.get("content-type", "").lower():  # bez deklaracije requests pogađa latin-1 (A38: "Ã¡")
+        try:
+            return r.content.decode("utf-8")
+        except UnicodeDecodeError:
+            r.encoding = r.apparent_encoding
     r.encoding = r.encoding or "utf-8"
     return r.text
 
@@ -211,7 +216,7 @@ def card_events(html: str, venue: str, base_url: str, genre: str = "",
         if key in seen:
             continue
         seen.add(key)
-        a = c.find("a", href=True)
+        a = c if c.name == "a" and c.get("href") else c.find("a", href=True)
         url = requests.compat.urljoin(base_url, a["href"]) if a else base_url
         out.append({"date": d, "time": parse_time(text), "title": title, "venue": venue,
                     "genre": genre, "price": find_price(text), "url": url, "_text": text})
@@ -435,4 +440,24 @@ def hnk_events(html: str, base_url: str, venue: str) -> list[dict]:
         out.append({"date": found.isoformat(), "time": parse_time(text), "title": title, "venue": venue,
                     "genre": "", "price": "", "url": requests.compat.urljoin(base_url, a["href"]) if a else base_url,
                     "_text": text, "_stage": stage})
+    return out
+
+
+def row_events(html: str, venue: str, base_url: str, row: str, link: str, require: str = "") -> list[dict]:
+    """Tablični program (Kino Šiška): svaki redak ima datum, vrijeme, kategoriju i poveznicu na događaj."""
+    out = []
+    for r in soup(html).select(row):
+        text = r.get_text(" ", strip=True)
+        if require and require.lower() not in text.lower():
+            continue
+        d = parse_date(text)
+        links = [a for a in r.find_all("a", href=True) if link in a["href"]]
+        if not d or not links:
+            continue
+        names = [clean(a.get_text(" ", strip=True)) for a in links]
+        names = [n for n in names if n and not re.search(r"nakup|vstopnic|tickets?|kupi", n, re.I)]
+        if not names:
+            continue
+        out.append({"date": d, "time": parse_time(text), "title": max(names, key=len), "venue": venue, "genre": "",
+                    "price": find_price(text), "url": requests.compat.urljoin(base_url, links[0]["href"]), "_text": text})
     return out

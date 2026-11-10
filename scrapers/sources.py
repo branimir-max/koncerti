@@ -68,12 +68,7 @@ SOURCES = [
 
     # ---------- Drugi gradovi ----------
     # Split, Rijeka i Zabok stižu preko Ulaznice.hr i Core Eventa (gore) i Visit Rijeke.
-    # Songkick je PRIVREMENO samo za Ljubljanu, Budimpeštu i Beč, dok Ticketmaster API
-    # i službeni programi klubova ne preuzmu pokrivenost; tada ga potpuno gasimo.
-    *[{"key": f"songkick-{city}", "city": city, "venue": None, "strip": [r"\s+@\s+.*$"], "locality": True,
-       "allow_empty": True, "urls": [f"https://www.songkick.com/metro-areas/{metro}"] +
-       [f"https://www.songkick.com/metro-areas/{metro}?page={n}" for n in range(2, pages + 1)]}
-      for city, metro, pages in [("ljubljana", "32259-slovenia-ljubljana", 3), ("budimpesta", "29047-hungary-budapest", 4), ("bec", "26771-austria-vienna", 5)]],
+    # Songkick se NE koristi nigdje: agregator, bez dopuštenja.
     # Kalendar Turističke zajednice Rijeke: mjesečni iCal po kategoriji; glazbu biramo po riječima i klubovima
     # HNK Zagreb: samo glazbeni program (drama ne ide u Gigomat)
     {"key": "hnk-opera", "venue": "hnk", "parser": "hnk", "force_genre": "opera", "probe": True, "allow_empty": True,
@@ -88,21 +83,28 @@ SOURCES = [
               for _m in _MONTHS for cat in ("culture-art", "entertainment")]},
     # ---------- Službeni programi klubova: Beč, Budimpešta, Ljubljana (robots.txt provjeren) ----------
     *[dict({"city": city, "exclude": THEATRE, "dj_words": DJ, "probe": True, "allow_empty": True}, **x) for city, x in [
-        ("bec", {"key": "wi-arena", "venue": "wi-arenawien", "urls": ["https://arena.wien/Home/Event-List"]}),
+        ("bec", {"key": "wi-arena", "venue": "wi-arenawien", "urls": ["https://arena.wien/Home/Programm"]}),
         ("bec", {"key": "wi-flex", "venue": "wi-flex", "urls": ["https://flex.at/events/"]}),
-        ("bec", {"key": "wi-planet", "venue": None, "probe_only": True, "urls": ["https://planet.tt/kalender/"]}),  # Gasometer, Szene, Simm City
+        ("bec", {"key": "wi-planet", "venue": None, "probe_only": True, "urls": ["https://planet.tt/"]}),  # Gasometer, Szene, Simm City
+        ("bec", {"key": "wi-stadthalle", "venue": None, "probe_only": True, "urls": ["https://www.stadthalle.com/de/schauen/events"]}),
         ("bec", {"key": "wi-wuk", "venue": "wi-werkstattenkulturhau", "urls": ["https://www.wuk.at/musik/"]}),
         ("bec", {"key": "wi-porgy", "venue": "wi-porgybess", "genre": "jazz", "urls": ["https://www.porgy.at/events/upcoming"]}),
-        ("budimpesta", {"key": "bp-akvarium", "venue": "bp-akvariumklub", "urls": ["https://akvariumklub.hu/programok/"]}),
+        ("budimpesta", {"key": "bp-akvarium", "venue": "bp-akvariumklub", "parser": "cards", "card": "a.m-card",
+                        "title": "[class*=title], [class*=description], h2, h3",
+                        "exclude": THEATRE + ["talks", "sicc production", "telex after", "előadás"],
+                        "urls": ["https://akvariumklub.hu/programok/"]}),
+        ("budimpesta", {"key": "bp-budapestpark", "venue": None, "probe_only": True, "urls": ["https://www.budapestpark.hu/programok"]}),
         ("budimpesta", {"key": "bp-barbanegra", "venue": "bp-barbanegra", "urls": ["https://www.barbanegra.hu/programok"]}),
         ("budimpesta", {"key": "bp-a38", "venue": "bp-a38shipa38", "urls": ["https://www.a38.hu/en/programs"]}),
-        ("ljubljana", {"key": "lj-festival", "venue": None, "default_venue": "lj-krizanke",
+        ("ljubljana", {"key": "lj-festival", "venue": None, "require_venue": True, "include": ["glasb"],
                        "urls": ["https://www.ljubljanafestival.si/sl/koledar-dogodkov/"]}),
-        ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
+        ("ljubljana", {"key": "lj-cvetlicarna", "venue": None, "probe_only": True, "urls": ["https://www.cvetlicarna.info/"]}),
+        ("ljubljana", {"key": "lj-cd", "venue": "lj-cankarjev", "url_include": "/glasba/", "urls": ["https://www.cd-cc.si/kultura/glasba"]}),
     ]],
-    {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "debug_always": True, "probe": True,
+    {"key": "kinosiska", "city": "ljubljana", "venue": "lj-kinosiska", "probe": True,
+     "parser": "rows", "row": "tr", "link": "/dogodek/", "row_require": "glasba", "exclude": ["dostava"],
      "urls": ["https://www.kinosiska.si/"]},
-    {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "debug_always": True, "probe": True,
+    {"key": "orto", "city": "ljubljana", "venue": "lj-orto", "probe": True, "no_time": True,  # vrijeme na popisu nije početak
      "urls": ["https://www.orto-bar.com/shop/?jsf=woocommerce-archive&tax=product_cat%3A194%2C226&sort=orderby%3Ameta_value%3Border%3AASC%3Bmeta_key%3Adatum-eventa"]},
 ]
 
