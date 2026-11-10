@@ -82,6 +82,8 @@ def parse_date(text: str, today: date | None = None) -> str | None:
         d, mo, y = int(m.group(1)), int(m.group(2)), int(m.group(3))
         if y < 100:
             y += 2000
+        if y < 2000:  # tipfeler na stranici ("2. svibnja 1017") -> najbliža buduća godina
+            y = today.year + (1 if mo < today.month - 1 else 0)
         try:
             return date(y, mo, d).isoformat()
         except ValueError:
@@ -100,6 +102,8 @@ def parse_date(text: str, today: date | None = None) -> str | None:
     if m:
         d, mo = int(m.group(1)), MONTHS_HR[m.group(2)]
         y = int(m.group(3)) if m.group(3) else (today.year + (1 if mo < today.month - 1 else 0))
+        if y < 2000:  # tipfeler ("1017")
+            y = today.year + (1 if mo < today.month - 1 else 0)
         try:
             return date(y, mo, d).isoformat()
         except ValueError:
