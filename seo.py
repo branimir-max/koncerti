@@ -1,5 +1,5 @@
 """Stranice za tražilice: koncert (/k/<id>/), prostor (/prostori/<slug>/), žanr (/zanr/<žanr>/),
-i karta stranica (samo Zagreb; stranice koncerata iz drugih gradova postoje za dijeljenje, ali su noindex) (sitemap.xml).
+i karta stranica (hrvatski gradovi; stranice koncerata iz drugih gradova postoje za dijeljenje, ali su noindex) (sitemap.xml).
 
 Svaka stranica je obična HTML stranica u izgledu Gigomata, s pravim sadržajem (bez preusmjeravanja),
 da je Google može pročitati. Stranica koncerta ima strukturirane podatke (schema.org MusicEvent),
@@ -16,6 +16,7 @@ from pathlib import Path
 from zoneinfo import ZoneInfo
 
 TZ = ZoneInfo("Europe/Zagreb")
+SEO_CITIES = ["zagreb", "rijeka", "split", "pula", "zabok"]  # hrvatski gradovi: stranice u tražilicama
 DAYS = ["ponedjeljak", "utorak", "srijeda", "četvrtak", "petak", "subota", "nedjelja"]
 MONTHS = ["siječnja", "veljače", "ožujka", "travnja", "svibnja", "lipnja", "srpnja", "kolovoza", "rujna",
           "listopada", "studenoga", "prosinca"]
@@ -135,7 +136,7 @@ def build(site_dir: Path, site: str, events: list[dict], venues: dict, cities: d
     used: set[str] = set()
     for k in sorted(by_venue):
         v = venues.get(k, {})
-        if not v or v.get("city", "zagreb") != "zagreb":
+        if not v or v.get("city", "zagreb") not in SEO_CITIES:
             continue
         s = slugify(v.get("name", k))
         if s in used:
@@ -179,7 +180,8 @@ def build(site_dir: Path, site: str, events: list[dict], venues: dict, cities: d
         if vweb:
             facts.append(("Prostor", f'<a href="{e_(vweb)}" rel="nofollow noopener" target="_blank">{e_(re.sub(r"^https?://(www[.])?", "", vweb).rstrip("/"))}</a>'))
         more = [x for x in by_venue.get(e["venue"], []) if x["id"] != e["id"]][:6]
-        city_link = f"{r}?grad={v.get('city', 'zagreb')}" if v.get("city", "zagreb") != "zagreb" else r
+        ck = v.get("city", "zagreb")
+        city_link = r if ck == "zagreb" else (f"{r}grad/{ck}/" if ck in SEO_CITIES else f"{r}?grad={ck}")
         body = f"""<p class="crumbs"><a href="{city_link}">Koncerti {e_(c.get('in', ''))}</a>{f' › <a href="{r}prostori/{vslug[e["venue"]]}/">{e_(vname)}</a>' if e["venue"] in vslug else ''}</p>
 <h1>{e_(e['title'])}</h1>
 <p class="when">{e_(when(e))}</p>
@@ -189,7 +191,7 @@ def build(site_dir: Path, site: str, events: list[dict], venues: dict, cities: d
 {f'<h2>Još u: {e_(vname)}</h2><ul class="list">' + ''.join(ev_li(x, venues, r, False) for x in more) + '</ul>' if more else ''}
 <p><a href="{city_link}">Svi koncerti {e_(c.get('in', ''))} →</a></p>"""
         (kroot / e["id"]).mkdir(exist_ok=True)
-        zgb = v.get("city", "zagreb") == "zagreb"
+        zgb = v.get("city", "zagreb") in SEO_CITIES
         (kroot / e["id"] / "index.html").write_text(page(f"{title} – Gigomat", desc, f"{site}k/{e['id']}/", body, r,
                                                           jsonld(e, v, c, site) if zgb else "", noindex=not zgb))
         if zgb:
@@ -221,11 +223,11 @@ def build(site_dir: Path, site: str, events: list[dict], venues: dict, cities: d
     groups: dict[str, list] = {}
     for it in idx_items:
         groups.setdefault(it[0], []).append(it)
-    body = '<p class="crumbs"><a href="../">Gigomat</a></p><h1>Prostori u Zagrebu</h1>' + "".join(
-        '<ul class="tags">' + "".join(f'<li><a href="{s}/">{e_(n)}</a></li>' for _, n, s, _, _ in its) + "</ul>"
+    body = '<p class="crumbs"><a href="../">Gigomat</a></p><h1>Prostori</h1>' + "".join(
+        f'<h2>{e_(cn)}</h2><ul class="tags">' + "".join(f'<li><a href="{s}/">{e_(n)}</a></li>' for _, n, s, _, _ in its) + "</ul>"
         for cn, its in groups.items())
-    (proot / "index.html").write_text(page("Koncertni prostori u Zagrebu – programi · Gigomat",
-                                           "Programi koncerata po prostorima: Lisinski, Tvornica kulture, Močvara, Boogaloo, Arena i drugi.",
+    (proot / "index.html").write_text(page("Koncertni prostori – Zagreb, Rijeka, Split, Pula · Gigomat",
+                                           "Programi koncerata po prostorima u Zagrebu, Rijeci, Splitu i Puli: Lisinski, Tvornica kulture, Močvara, Boogaloo, Arena Pula i drugi.",
                                            f"{site}prostori/", body, "../"))
     urls.append(f"{site}prostori/")
 
@@ -248,6 +250,29 @@ def build(site_dir: Path, site: str, events: list[dict], venues: dict, cities: d
         (zroot / g / "index.html").write_text(page(title, desc, f"{site}zanr/{g}/", body, r))
         urls.append(f"{site}zanr/{g}/")
 
+    # --- hrvatski gradovi (Zagreb je naslovnica) ---
+    groot = site_dir / "grad"
+    groot.mkdir(exist_ok=True)
+    for ck in SEO_CITIES[1:]:
+        c = cities.get(ck, {})
+        evs = [e for e in events if venues.get(e["venue"], {}).get("city", e.get("city")) == ck]
+        if len(evs) < 3:
+            continue
+        r = "../../"
+        vs = sorted({e["venue"] for e in evs if e["venue"] in vslug}, key=lambda k: -sum(1 for e in evs if e["venue"] == k))
+        vnames = ", ".join(venues[k].get("name", k) for k in vs[:3])
+        title = f"Koncerti {c.get('in', '')} – večeras, vikend i dalje · Gigomat"
+        desc = (f"Koncerti {c.get('in', '')} na jednom mjestu: {len(evs)} nadolazećih koncerata"
+                + (f" – {vnames} i drugi prostori" if vnames else "") + ". Osvježeno svaki dan.")
+        body = f"""<p class="crumbs"><a href="{r}">Gigomat</a> › Gradovi</p>
+<h1>Koncerti {e_(c.get('in', ''))}</h1>
+<div class="acts"><a class="pri" href="{r}?grad={ck}">Otvori u Gigomatu</a></div>
+<ul class="list">{''.join(ev_li(x, venues, r) for x in evs[:150])}</ul>
+{'<h2>Prostori</h2><ul class="tags">' + ''.join(f'<li><a href="{r}prostori/{vslug[k]}/">{e_(venues[k].get("name", k))}</a></li>' for k in vs) + '</ul>' if vs else ''}"""
+        (groot / ck).mkdir(exist_ok=True)
+        (groot / ck / "index.html").write_text(page(title, desc, f"{site}grad/{ck}/", body, r))
+        urls.append(f"{site}grad/{ck}/")
+
     (site_dir / "sitemap.xml").write_text(
         '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
         + "\n".join(f"<url><loc>{u}</loc></url>" for u in urls) + "\n</urlset>\n")
@@ -266,4 +291,7 @@ def home_links(events: list[dict], venues: dict, vslug: dict) -> str:
     return ('<nav class="seolinks" aria-label="Prostori i žanrovi"><p><b>Prostori:</b> '
             + " · ".join(f'<a href="prostori/{vslug[k]}/">{e_(venues[k].get("name", k))}</a>' for k in top if k in venues)
             + ' · <a href="prostori/">svi prostori</a></p><p><b>Žanrovi:</b> '
-            + " · ".join(f'<a href="zanr/{g}/">{e_(GENRE_T[g])}</a>' for g in gs) + "</p></nav>")
+            + " · ".join(f'<a href="zanr/{g}/">{e_(GENRE_T[g])}</a>' for g in gs) + "</p></nav>"
+            + '<nav class="seocities" aria-label="Koncerti u drugim gradovima"><p><b>Koncerti u drugim gradovima:</b> '
+            + " · ".join(f'<a href="grad/{k}/">{n}</a>' for k, n in [("rijeka", "Rijeka"), ("split", "Split"), ("pula", "Pula"), ("zabok", "Zabok")])
+            + "</p></nav>")
