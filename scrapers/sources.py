@@ -60,11 +60,8 @@ SOURCES = [
      "urls": ["https://core-event.co/"]},
     # Songkick NE koristimo za hrvatske gradove: to je agregator, a nemamo njegovo dopuštenje.
     # Arena Zagreb i Boogaloo zabranjuju robote u robots.txt – njih dodajemo tek uz njihovo dopuštenje.
-    # Ticketmaster Discovery: službeni API, radi tek kad je postavljen ključ TM_API_KEY.
-    *[{"key": f"ticketmaster-{city}", "city": city, "venue": None, "parser": "ticketmaster", "locality": True,
-       "allow_empty": True, "exclude": THEATRE, "dj_words": DJ, "urls": [spec]}
-      for city, spec in [("zagreb", "HR/Zagreb"), ("ljubljana", "SI/Ljubljana"),
-                         ("budimpesta", "HU/Budapest"), ("bec", "AT/Wien")]],
+    # Ticketmaster Discovery (ključ TM_API_KEY postoji): 10. 11. 2026. za Zagreb, Ljubljanu i Budimpeštu 0 koncerata,
+    # za Beč samo jedan "ulaznica + hotel" paket – zasad isključen; kod je u scrapers/ticketmaster.py.
 
     # ---------- Drugi gradovi ----------
     # Split, Rijeka i Zabok stižu preko Ulaznice.hr i Core Eventa (gore) i Visit Rijeke.
@@ -109,8 +106,8 @@ SOURCES = [
     ]],
     # Promotori (javni programi; robots.txt se provjerava prije čitanja) – prvo probe
     {"key": "hangtime", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "parser": "detail",
-     "link_pattern": r"/hr/event/[\w-]{4,}", "limit": 40, "exclude": THEATRE, "urls": ["https://hangtimeagency.com/hr/"]},
-    {"key": "laa", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.laa.hr/"]},
+     "link_pattern": r"/hr/event/[\w-]{4,}", "limit": 40, "exclude": THEATRE, "urls": ["https://hangtimeagency.com/hr/events/"]},
+    {"key": "laa", "venue": None, "probe": True, "probe_only": True, "allow_empty": True, "urls": ["https://www.laa.hr/koncerti-buduci"]},
     # Entrio: 10. 11. 2026. vraća 403 našem robotu (i za sitemap) – ne zaobilazimo, čekamo njihov odgovor.
     # InfoZagreb: kalendar se učitava tek u pregledniku (JavaScript), a sitemap.xml ne postoji – zasad nije izvor.
     # Maribor – prvo samo probe (struktura stranica), zatim aktivacija
