@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-11T08:12:48+00:00",
+ "run_at": "2026-11-11T08:18:36+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -26,9 +26,9 @@
    "count": 5
   },
   "boogaloo": {
-   "ok": true,
+   "ok": false,
    "count": 0,
-   "note": "trenutno nema koncerata"
+   "error": "ConnectionError: HTTPSConnectionPool(host='boogaloo.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='boogaloo.hr', port=443): Failed to resolve 'boogaloo.hr' ([Errno -2] Name or service not known)\"))"
   },
   "vintage": {
    "ok": true,
