@@ -28,8 +28,6 @@ jsonld types:
                                 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
 <div class=datetime> 15. 12. 2026 |
                                 19.00 | 
-<div class=d-flex.date-container> 11 Nov Sre Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
-<div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
 <div class=content__programs--date> 12 Nov Čet | 
 <div class=d-flex.date-container> 13 Nov Pet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
@@ -38,6 +36,8 @@ jsonld types:
 <div class=content__programs--date> 17 Nov Tor | 
 <div class=d-flex.date-container> 18 Nov Sre Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 18 Nov Sre | 
+<div class=d-flex.date-container> 20 Nov Pet Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
+<div class=content__programs--date> 20 Nov Pet | 
 <div class=d-flex.date-container> 11 Nov Sre 2. koncert cikla Carpe artem »Glasovi nove generacije« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma DIJAŠKI OPERA BALET | https://www.sng-mb.si/event/bajadera/
@@ -48,8 +48,6 @@ jsonld types:
 <div class=content__programs--date> 14 Nov Sob | 
 <div class=d-flex.date-container> 26 Nov Čet 3. koncert cikla Carpe artem »Refleksije strun« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 26 Nov Čet | 
-<div class=d-flex.date-container> 11 Nov Sre Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
-<div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
 <div class=content__programs--date> 12 Nov Čet | 
 <div class=d-flex.date-container> 13 Nov Pet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
@@ -58,6 +56,8 @@ jsonld types:
 <div class=content__programs--date> 17 Nov Tor | 
 <div class=d-flex.date-container> 18 Nov Sre Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 18 Nov Sre | 
+<div class=d-flex.date-container> 20 Nov Pet Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
+<div class=content__programs--date> 20 Nov Pet | 
 <div class=d-flex.date-container> 11 Nov Sre 2. koncert cikla Carpe artem »Glasovi nove generacije« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma DIJAŠKI OPERA BALET | https://www.sng-mb.si/event/bajadera/

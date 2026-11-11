@@ -33,6 +33,17 @@
   "source": "wi-stadthalle"
  },
  {
+  "date": "2026-11-13",
+  "time": "",
+  "title": "Jungle",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51340/Jungle",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
   "date": "2026-11-14",
   "time": "",
   "title": "Beatrice Egli",
@@ -51,17 +62,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51218/The-Dark-Tenor",
-  "city": "bec",
-  "source": "wi-stadthalle"
- },
- {
-  "date": "2026-11-19",
-  "time": "",
-  "title": "KoRn",
-  "venue": "wi-stadthalle",
-  "genre": "",
-  "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51330/KoRn",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -418,6 +418,17 @@
   "source": "wi-stadthalle"
  },
  {
+  "date": "2027-01-16",
+  "time": "",
+  "title": "Sabri Fejzullahu",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51606/Sabri-Fejzullahu",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
   "date": "2027-01-19",
   "time": "",
   "title": "Das Phantom der Oper",
@@ -425,17 +436,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51358/Das-Phantom-der-Oper",
-  "city": "bec",
-  "source": "wi-stadthalle"
- },
- {
-  "date": "2027-01-23",
-  "time": "",
-  "title": "Rebellia [1991",
-  "venue": "wi-stadthalle",
-  "genre": "",
-  "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51586/Rebellia-1991",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -700,6 +700,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51424/Loreena-McKennitt",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2027-03-21",
+  "time": "",
+  "title": "Rebellia [1991",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51586/Rebellia-1991",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -1261,17 +1272,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51462/The-Music-in-Me",
-  "city": "bec",
-  "source": "wi-stadthalle"
- },
- {
-  "date": "2026-11-11",
-  "time": "",
-  "title": "Powerwolf",
-  "venue": "wi-stadthalle",
-  "genre": "",
-  "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51604/POWERWOLF",
   "city": "bec",
   "source": "wi-stadthalle"
  },

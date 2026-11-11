@@ -1,4 +1,16 @@
 {
+ "https://akvariumklub.hu/programok/a-varhegyutca-bemutatja-maxihessz/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/5arfgRXgs0kQH9jQvLchda"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/5arfgRXgs0kQH9jQvLchda",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/ana-moura/": {
   "checked": "2026-11-10",
   "clean": {
@@ -29,6 +41,30 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/artur-rambo/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/6ojhS7hjck7Lztk5mHagHe"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/6ojhS7hjck7Lztk5mHagHe",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/balkan-vip/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/4BsLUhw1OJirbGZrIyd1GN"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/4BsLUhw1OJirbGZrIyd1GN",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/belano/": {
   "checked": "2026-11-10",
   "clean": {
@@ -38,6 +74,39 @@
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
    "spotify": "https://open.spotify.com/artist/3YuXDaxA5aNH0yA4SLeEPA",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/bladerunnaz-pres-metrik-goddard-emily-makis/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/bladerunnaz-pres-mozey/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/1h8wkWuZQKyDiwbLogtoL0"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/1h8wkWuZQKyDiwbLogtoL0",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/blahalouisiana-alarcosbal-akvarium-foldonkivuliek-talalkozoja/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/0W2LWS5PPbVl0f6prrMcoP"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/0W2LWS5PPbVl0f6prrMcoP",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -64,6 +133,15 @@
  },
  "https://akvariumklub.hu/programok/chelsea-wolfe-the-dark-world-tour/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/deep-forest/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -101,6 +179,18 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/ember-mark-szulinapi-nagykoncert/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/6XuW7sIumU6N1E2VEsNHBU"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/6XuW7sIumU6N1E2VEsNHBU",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/escape-my-shadows/": {
   "checked": "2026-11-10",
   "clean": {
@@ -110,6 +200,15 @@
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
    "spotify": "https://open.spotify.com/artist/3dGVADHtSRqb1af3p0AayZ",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/eugene-tooms-x-jackalope/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -143,6 +242,30 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/felkor-koncert-vendeg-dirty-caps/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2GKS1c5Rvuqx2F3vzFNOD9"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2GKS1c5Rvuqx2F3vzFNOD9",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/fiesta-nyar-a-telben/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/0LapJ35kPIfe83Pn3VFFN9"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/0LapJ35kPIfe83Pn3VFFN9",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/filo-minden-elmulik-lemezbemutato-akvarium-klub-nagyhall/": {
   "checked": "2026-11-10",
   "clean": {
@@ -152,6 +275,18 @@
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
    "spotify": "https://open.spotify.com/artist/2pWeXE1GbI1qweHZHZi4Ee",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/frenk/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/4FWETEIzcVQSkRfsGYA8Vi"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/4FWETEIzcVQSkRfsGYA8Vi",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -173,8 +308,53 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/ghostface-killah/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/6FD0unjzGQhX3b6eMccMJe"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/6FD0unjzGQhX3b6eMccMJe",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/goldi-geri-karacsonyi-koncert/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2GhhnmFCQ4cZvbOFuqiiwg"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2GhhnmFCQ4cZvbOFuqiiwg",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/gulu-gulu-x-zuzmo-x-rtificialred-hr/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/haiden-henderson/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/79xvSUqngetd6CbJ1bgb4p"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/79xvSUqngetd6CbJ1bgb4p",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/harry-christmas-one-direction-party-12-04/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -197,6 +377,18 @@
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/i-am-production-pres-alignment/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/4eFbq5PZgW7YbtA65PP4wS"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/4eFbq5PZgW7YbtA65PP4wS",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -233,6 +425,18 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/ivan-the-parazol-budai-pop-ujrajatszo-koncert/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/0arW2wuAryC7RMZpjpw3N8"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/0arW2wuAryC7RMZpjpw3N8",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/jambalaya-new-orleans-music-show/": {
   "checked": "2026-11-10",
   "clean": {
@@ -242,6 +446,33 @@
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
    "spotify": "https://open.spotify.com/artist/03eg5uqAwEv0YomQmTgXmD",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/jamie-winchester-hrutka-robert-back-underground/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/k-osz-disco-3bday/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/keep-floyding-animals-in-construction/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -257,6 +488,18 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/klangphonics/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/0UoXOPQo2BAZ3pSfkt5XZA"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/0UoXOPQo2BAZ3pSfkt5XZA",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/kolg8eight-verrel-megy-lemezbemutato/": {
   "checked": "2026-11-10",
   "clean": {
@@ -266,6 +509,18 @@
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
    "spotify": "https://open.spotify.com/artist/4aXeIRAbV0aEn0NZVImnqO",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/kozmosz-evzaro-support-zuhano-honapok-negativ-rekord/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/6Vfl90aoGAiXeHyA9WztPP"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/6Vfl90aoGAiXeHyA9WztPP",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -283,6 +538,15 @@
  },
  "https://akvariumklub.hu/programok/lithium-night-classic/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/little-g-weevil-tommy-katona-petendi-tamas-blues-guitar-showdown-harom-gitarlegenda-egy-szinpadon/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -320,12 +584,90 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/megtalallak-meg-flm-nagykoncert/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/mehringer-day-1-szabadsag/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2onsfuh37zW0OHB3lFa3t1"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2onsfuh37zW0OHB3lFa3t1",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/mehringer-day-2-szerelem/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2onsfuh37zW0OHB3lFa3t1"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2onsfuh37zW0OHB3lFa3t1",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/melody-maker-luxfunk-presents-funk-fusion-live/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2XzxtULEr8c7aEy9RtHZMx"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2XzxtULEr8c7aEy9RtHZMx",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/mentalis-egeszseg-konferencia-a-gyermekekert/": {
   "checked": "2026-11-10",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
    "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/molnar-tamas-nagyhall/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/nagy-bogi-2-nap/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/3VgOKuwKvAYU4aT7atESfM"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/3VgOKuwKvAYU4aT7atESfM",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/nagy-bogi/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/3VgOKuwKvAYU4aT7atESfM"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/3VgOKuwKvAYU4aT7atESfM",
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
@@ -422,6 +764,15 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/secret-market-12-20/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/skeler-nightfall-world-tour/": {
   "checked": "2026-11-10",
   "clean": {
@@ -452,8 +803,38 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/sztarban-sztar-all-stars/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/tarany-tamas-kacatok-lemezbemutato/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/1xqP1RZfm48GbOxFX82KH1"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/1xqP1RZfm48GbOxFX82KH1",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/techno-pilates-uv-pilates-november-powered-by-techno-yoga/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/techno-pilates-xmas-season-closing-powered-by-techno-yoga/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -470,8 +851,50 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/teeth-marks/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/4R2lpzUwIlfogOTNiIplCx"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/4R2lpzUwIlfogOTNiIplCx",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/the-hungarian-depeche-mode-fan-club-farewell-series-the-year-end-party-2026/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/the-palace-isten-tenyeren-lemezbemutato/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/2kWBViJwRgI6wTRCfPLZNK"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/2kWBViJwRgI6wTRCfPLZNK",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/wannabe-best-of-90s-00s-11-21/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/white-girl-music-party-girlypop-christmas/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -555,12 +978,28 @@
    "instagram": "https://www.instagram.com/kudmladostodra/"
   }
  },
+ "https://core-event.co/events/80-s-vs-90-s-live-koncerti-fit-anja-rupel-videosex-dj-musikfantastique-predbozicni-party-14d3": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
  "https://core-event.co/events/80-s-vs-90-s-live-koncerti-fit-anja-rupel-videosex-dj-musikfantastique-predbozicni-party-14d3/": {
   "checked": "2026-11-09",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
+ "https://core-event.co/events/abracadabra-bozicni-specijal-64a1": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/rtl_hr/"
   }
  },
  "https://core-event.co/events/after-work-hangouts-pilot-9004/": {
@@ -606,6 +1045,16 @@
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/core_event/"
+  }
+ },
+ "https://core-event.co/events/axiom-dejana-terzica-083e/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/JAZZBINA.PULA/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/JAZZBINA.PULA/",
    "instagram": "https://www.instagram.com/core_event/"
   }
  },
@@ -711,6 +1160,14 @@
  },
  "https://core-event.co/events/crkva-season-13-opening-701a/": {
   "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/core_event/"
+  }
+ },
+ "https://core-event.co/events/daf-deutsch-amerikanische-freundschaft-0764": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
@@ -863,6 +1320,14 @@
    "instagram": "https://www.instagram.com/hohcajt"
   }
  },
+ "https://core-event.co/events/ian-paice-deep-purple-purpendicular-2574": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
  "https://core-event.co/events/ian-paice-deep-purple-purpendicular-2574/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -897,9 +1362,7 @@
  },
  "https://core-event.co/events/jojo-i-prijatelji-ed0b": {
   "checked": "2026-11-09",
-  "clean": {
-   "instagram": "https://www.instagram.com/rtl_hr/"
-  },
+  "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/rtl_hr/"
@@ -907,9 +1370,7 @@
  },
  "https://core-event.co/events/jojo-i-prijatelji-ed0b/": {
   "checked": "2026-11-10",
-  "clean": {
-   "instagram": "https://www.instagram.com/rtl_hr/"
-  },
+  "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/rtl_hr/"
@@ -1009,6 +1470,14 @@
    "instagram": "https://www.instagram.com/marko.vukes/"
   }
  },
+ "https://core-event.co/events/koncert-orkestra-greenhill-club-big-band-chiaroscuro-39fe/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/core_event/"
+  }
+ },
  "https://core-event.co/events/kries-u-vintage-u-e29d/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -1055,6 +1524,14 @@
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/zcuk_regenerator/"
+  }
+ },
+ "https://core-event.co/events/luky-tvornica-kulture-zagreb-4d0a": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/core_event/"
   }
  },
  "https://core-event.co/events/luky-tvornica-kulture-zagreb-4d0a/": {
@@ -1243,6 +1720,16 @@
    "instagram": "https://www.instagram.com/el_ej_ej/"
   }
  },
+ "https://core-event.co/events/porto-morto-u-rijeci-0d3f/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "instagram": "https://www.instagram.com/jeboton/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/jeboton/"
+  }
+ },
  "https://core-event.co/events/psihomodo-pop-u-tvornici-kulture-ba36": {
   "checked": "2026-11-09",
   "clean": {},
@@ -1273,6 +1760,14 @@
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/core_event/"
+  }
+ },
+ "https://core-event.co/events/repetitor-u-tvornici-kulture-07d0": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
  "https://core-event.co/events/repetitor-u-tvornici-kulture-07d0/": {
@@ -1358,6 +1853,14 @@
    "instagram": "https://www.instagram.com/core_event/"
   }
  },
+ "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
  "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -1406,8 +1909,24 @@
    "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
+ "https://core-event.co/events/studio-54-by-tomo-ricov-2026-1d7f": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
  "https://core-event.co/events/studio-54-by-tomo-ricov-2026-1d7f/": {
   "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
+ },
+ "https://core-event.co/events/studio-54-by-tomo-ricov-af98": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/share.php",
@@ -1436,6 +1955,14 @@
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/el_ej_ej/"
+  }
+ },
+ "https://core-event.co/events/swingers-presents-elvis-u-tvornici-kulture-813c": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
  "https://core-event.co/events/swingers-presents-elvis-u-tvornici-kulture-813c/": {
@@ -1486,6 +2013,14 @@
    "instagram": "https://www.instagram.com/zcuk_regenerator/"
   }
  },
+ "https://core-event.co/events/warhaus-21f1/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/core_event/"
+  }
+ },
  "https://core-event.co/events/when-tomorrow-comes-1df5/": {
   "checked": "2026-11-09",
   "clean": {
@@ -1510,6 +2045,14 @@
   "links": {
    "facebook": "https://www.facebook.com/share.php",
    "instagram": "https://www.instagram.com/yemhr/"
+  }
+ },
+ "https://core-event.co/events/zivo-blato-u-tvornici-kulture-cc00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
  "https://core-event.co/events/zivo-blato-u-tvornici-kulture-cc00/": {
@@ -1742,6 +2285,11 @@
   "clean": {},
   "links": {}
  },
+ "https://flex.at/event/united-battle-culture-2/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://flex.at/event/voila/": {
   "checked": "2026-11-10",
   "clean": {},
@@ -1760,6 +2308,148 @@
   "checked": "2026-11-10",
   "clean": {},
   "links": {}
+ },
+ "https://hangtimeagency.com/hr/event/acid-arab-dolaze-opet-raspametiti-zagreb-plesni-podij-bez-granica/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/acidarab",
+   "instagram": "https://www.instagram.com/acid_arab/",
+   "spotify": "https://open.spotify.com/artist/3ShO8tPKqXUUpOA0urOWW7",
+   "youtube": "https://www.youtube.com/channel/UChbNWfnY5xA-A57jmcals1w"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/acidarab",
+   "instagram": "https://www.instagram.com/acid_arab/",
+   "spotify": "https://open.spotify.com/artist/3ShO8tPKqXUUpOA0urOWW7",
+   "youtube": "https://www.youtube.com/channel/UChbNWfnY5xA-A57jmcals1w"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/arctic-monkeys-party-godine-stereo-deficit-ponovno-puni-vintage/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/stereodeficit/",
+   "youtube": "https://www.youtube.com/channel/UClG49KISq0kGbU8rwVEpcPQ"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/stereodeficit/",
+   "youtube": "https://www.youtube.com/channel/UClG49KISq0kGbU8rwVEpcPQ"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/forever-nu-u-zagrebu-chop-suey-i-slip-not-vracaju-veliki-nu-metal-tribute-spektakl/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/voaduk",
+   "instagram": "https://www.instagram.com/chopsuey_uktributetosoad/",
+   "youtube": "https://www.youtube.com/channel/UClG49KISq0kGbU8rwVEpcPQ"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/voaduk",
+   "instagram": "https://www.instagram.com/chopsuey_uktributetosoad/",
+   "youtube": "https://www.youtube.com/channel/UClG49KISq0kGbU8rwVEpcPQ"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/igorrr-premijerno-u-hrvatskoj-uz-secret-chiefs-3-i-fange/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/IgorrrBarrroque/",
+   "instagram": "https://www.instagram.com/igorrr",
+   "spotify": "https://open.spotify.com/artist/2p2uE4i92Dn4DkThfoKIB9",
+   "youtube": "https://www.youtube.com/channel/UC_3P0PpZrIhXLtV8kwsaC9Q"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/IgorrrBarrroque/",
+   "instagram": "https://www.instagram.com/igorrr",
+   "spotify": "https://open.spotify.com/artist/2p2uE4i92Dn4DkThfoKIB9",
+   "youtube": "https://www.youtube.com/channel/UC_3P0PpZrIhXLtV8kwsaC9Q"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/kamelot-u-zagrebu-power-metal-velikani-premijerno-u-hrvatskoj/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/kamelotofficial",
+   "instagram": "https://www.instagram.com/kamelotofficial",
+   "spotify": "https://open.spotify.com/artist/7gTbq5nTZGQIUgjEGXQpOS",
+   "youtube": "https://www.youtube.com/channel/UCZ8tFz25t-9RsGCZKhwML0A"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/kamelotofficial",
+   "instagram": "https://www.instagram.com/kamelotofficial",
+   "spotify": "https://open.spotify.com/artist/7gTbq5nTZGQIUgjEGXQpOS",
+   "youtube": "https://www.youtube.com/channel/UCZ8tFz25t-9RsGCZKhwML0A"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/moonspell-se-vraca-u-zagreb-kao-headliner-uz-iotunn-i-todomal/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/iotunn",
+   "instagram": "https://www.instagram.com/moonspellofficial",
+   "spotify": "https://open.spotify.com/artist/17bYSQ9ZRnreVnJjE5X2x6",
+   "youtube": "https://www.youtube.com/channel/UCsh-FOHtF-_bGOzftZYP5VA"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/iotunn",
+   "instagram": "https://www.instagram.com/moonspellofficial",
+   "spotify": "https://open.spotify.com/artist/17bYSQ9ZRnreVnJjE5X2x6",
+   "youtube": "https://www.youtube.com/channel/UCsh-FOHtF-_bGOzftZYP5VA"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/rotting-christ-u-zagrebu-grcke-metal-legende-vracaju-se-nakon-sedam-godina/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/hangtime.agency",
+   "spotify": "https://open.spotify.com/artist/7FhkwcO8Jd7BRWdllBpXBJ",
+   "youtube": "https://www.youtube.com/channel/UCZ7jBi1TD0fvyC_gses45OQ"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/hangtime.agency",
+   "spotify": "https://open.spotify.com/artist/7FhkwcO8Jd7BRWdllBpXBJ",
+   "youtube": "https://www.youtube.com/channel/UCZ7jBi1TD0fvyC_gses45OQ"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/sajeta-u-saxu-sus-bec-ima-filharmoniju-a-zagreb-sajetu-za-novogodisnji-koncert/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/Å ajeta-690223194782003/",
+   "instagram": "https://www.instagram.com/sajeta_____/",
+   "spotify": "https://open.spotify.com/artist/3m97PzF5kvkWOHMyZtRvUO",
+   "youtube": "https://www.youtube.com/channel/UCzoxPhr0TpT_rJ4Vaviqzkw"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/Å ajeta-690223194782003/",
+   "instagram": "https://www.instagram.com/sajeta_____/",
+   "spotify": "https://open.spotify.com/artist/3m97PzF5kvkWOHMyZtRvUO",
+   "youtube": "https://www.youtube.com/channel/UCzoxPhr0TpT_rJ4Vaviqzkw"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/the-tiger-lillies-pretvaraju-tvornicu-kulture-u-kabaret-uz-songs-for-the-dead/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/TheTigerLillies",
+   "instagram": "https://www.instagram.com/thetigerlillies/",
+   "spotify": "https://open.spotify.com/artist/72o2T9aqYR2PFNYpzYrMmw",
+   "youtube": "https://www.youtube.com/@TheTigerLillies-official"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/TheTigerLillies",
+   "instagram": "https://www.instagram.com/thetigerlillies/",
+   "spotify": "https://open.spotify.com/artist/72o2T9aqYR2PFNYpzYrMmw",
+   "youtube": "https://www.youtube.com/@TheTigerLillies-official"
+  }
+ },
+ "https://hangtimeagency.com/hr/event/tyr-predvodi-valhalla-calling-turneju-u-zagrebu-uz-twilight-force-dragonland-i-vanaheim/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/tyrband",
+   "instagram": "https://www.instagram.com/tyr_official/",
+   "spotify": "https://open.spotify.com/artist/6TmGNPW2oDM5uaXBILozGa",
+   "youtube": "https://www.youtube.com/@Tyrband"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/tyrband",
+   "instagram": "https://www.instagram.com/tyr_official/",
+   "spotify": "https://open.spotify.com/artist/6TmGNPW2oDM5uaXBILozGa",
+   "youtube": "https://www.youtube.com/@Tyrband"
+  }
  },
  "https://mochvara.hr/event-detail/6a352d0cad796c9981d65fa6/": {
   "checked": "2026-11-09",
@@ -1817,6 +2507,15 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://mochvara.hr/event-detail/6aa7cb0fd71134be6105e484/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/mochvara/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
  "https://mochvara.hr/event-detail/6ab0ea3e162b2a007578d1bf/": {
   "checked": "2026-11-09",
   "clean": {
@@ -1831,8 +2530,7 @@
  "https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/": {
   "checked": "2026-11-09",
   "clean": {
-   "bandcamp": "https://astralartifacts.bandcamp.com/album/and-then-theres-this",
-   "instagram": "https://www.instagram.com/mochvara/"
+   "bandcamp": "https://astralartifacts.bandcamp.com/album/and-then-theres-this"
   },
   "links": {
    "bandcamp": "https://astralartifacts.bandcamp.com/album/and-then-theres-this",
@@ -1869,6 +2567,15 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://mochvara.hr/event-detail/6ac8ad71653eb342985b8702/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/mochvara/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
  "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/": {
   "checked": "2026-11-09",
   "clean": {
@@ -1880,6 +2587,32 @@
    "bandcamp": "https://mladen-zg-punk.bandcamp.com/album/probudi-se",
    "facebook": "https://www.facebook.com/mladensklupice",
    "instagram": "https://www.instagram.com/mladen_zg_punk",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
+ "https://mochvara.hr/event-detail/6accf83f5e5f72dd4ba8a6ac/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "instagram": "https://www.instagram.com/voltage.punk/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/voltage.punk/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
+ "https://mochvara.hr/event-detail/6ae20789ca71fac878b0f24d/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "bandcamp": "https://pagat.bandcamp.com/album/limerence",
+   "instagram": "https://www.instagram.com/_suutoo_/",
+   "soundcloud": "https://soundcloud.com/suutoo"
+  },
+  "links": {
+   "bandcamp": "https://pagat.bandcamp.com/album/limerence",
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/_suutoo_/",
+   "soundcloud": "https://soundcloud.com/suutoo",
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
@@ -1901,9 +2634,7 @@
  },
  "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/": {
   "checked": "2026-11-10",
-  "clean": {
-   "instagram": "https://www.instagram.com/mochvara/"
-  },
+  "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/mochvara",
    "instagram": "https://www.instagram.com/mochvara/",
@@ -1921,6 +2652,17 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://pulainfo.hr/events-type/concerts/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "instagram": "https://www.instagram.com/pula_plus/",
+   "youtube": "https://www.youtube.com/user/Pulaplus"
+  },
+  "links": {
+   "instagram": "https://www.instagram.com/pula_plus/",
+   "youtube": "https://www.youtube.com/user/Pulaplus"
+  }
+ },
  "https://www.a38.hu/en/program/agi-es-a-fiuk-hu": {
   "checked": "2026-11-10",
   "clean": {},
@@ -1930,8 +2672,53 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/anima-sound-system-32105": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/arab-strap": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/aranyakkord-hu-32647": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/bed-by-10pm-uk": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/budapest-bar-hu-32378": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/carbon-based-lifeforms-se-32385": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -1957,6 +2744,24 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/dressed-like-boys-be": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/fish-32486": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/fiuk-hu-31442": {
   "checked": "2026-11-10",
   "clean": {},
@@ -1975,8 +2780,26 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/hiperkarma-hu-32098": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/kaveszunet-hu-32065": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/kiscsillag-hu-31191": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -2011,6 +2834,15 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/lead-zeppelin-hu-32388": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/lenkke-hu": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2029,6 +2861,15 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/leo-middea-br": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/lucy-dreams-at": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2040,6 +2881,24 @@
  },
  "https://www.a38.hu/en/program/master-boot-record-it": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/peterfy-bori-love-band-hu-31500": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/poppy-ackroyd-uk": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -2074,8 +2933,26 @@
    "youtube": "https://www.youtube.com/user/A38Captain"
   }
  },
+ "https://www.a38.hu/en/program/shantel-bucovina-club-soundsystem-de-31120": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
  "https://www.a38.hu/en/program/siddhi": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/signs-of-the-swarm-us": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -2094,6 +2971,24 @@
  },
  "https://www.a38.hu/en/program/spike-and-the-gimme-gimmes-us": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/the-devotees-hu-32432": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/tramhaus-nl-31934": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -2137,6 +3032,15 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/amorphis_20270127": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/avatar_20261205": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2146,8 +3050,44 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/bikini_20261218": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/black-veil-brides_20270206": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/carpenter-brut_health_20261119": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/charlotte-wessels_and_the-obsession_20270217": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/depresszio-budapest_20261219": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
@@ -2182,6 +3122,15 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/evil-invaders-exhorder-heathen_20270314": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/future-palace_20261114": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2193,6 +3142,33 @@
  },
  "https://www.barbanegra.hu/program/hatebreed-plus-support-budapest_2026": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/hollywood-undead_20270203": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/imminence_20270125": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/iron-maidnem_20270130": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
@@ -2236,6 +3212,24 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/kowalsky-meg-a-vega_road_20261228": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/lamb-of-god_20270131": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/little-big_20261118": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2263,6 +3257,15 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/mobilmania-vikidal-gyulaval_20261229": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/moby-dick_omen_20261120": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2281,8 +3284,71 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/os-pbox-es-varga-miklos_uj-babylon_20261227": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/pokolgep_20261230": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/saxon_20270312": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/serenity_20270227": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/stardust_rockstars-not-dead_20261218": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/tankcsapda_20261212": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/the-halo-effect_20270309": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/the-rasmus_20270205": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
@@ -2299,6 +3365,24 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/thundermother_20270324": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/trb-last-tour_tunyo-80_20270320": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/tyr_20261215": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2308,8 +3392,80 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/udo_20270207": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.barbanegra.hu/program/vad-fruttik_20261227": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/alexander-gadjiev-klavir-0": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/andrej-sifrer-pol-stoletja-pisanja-in-petja": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/berlinski-barocni-solisti": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/bor-patrik-burjan-tolkala-tevz-kupljenik-oboa": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/bozicna-fantazija": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/brina-podgajski-kampus-viola-trobilni-kvintet-fivebrass": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/carminho-portugalska": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2326,8 +3482,44 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/ensemble-chakam-iran-francija-grcija": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/fkk-3-velika": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/fkk-4-la-maestra": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/gulzoda-uzbekistan": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/isimangaliso": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2350,6 +3542,33 @@
  },
  "https://www.cd-cc.si/kultura/glasba/josipa-lisac": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/kika-szomi-kralj-klarinet-vid-verdinek-saksofon": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/komorni-orkester-iz-stuttgarta": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/komorni-zbor-megaron-barocni-orkester-megaron": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2384,8 +3603,44 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/kromatika-4-vondracek-in-kuokman": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/kromatika-5-kontrabas": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/laeticia-hormuth-sopran-eva-kokot-sopran": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/laibach-volkswagner-re-visited": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/marija-terezija-kolman-violina-gabrijel-rakar-violoncelo": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2411,8 +3666,53 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/novoletni-koncert-orkestra-slovenske-filharmonije-0": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/od-opere-do-muzikala": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/odmevi-zgodb": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/orkester-peter-in-volk-0": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/pia-rener-kontrabas-lukas-grum-flavta": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/s-skladatelji-v-disneyjeve-risanke-0": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2429,6 +3729,15 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/simfonicni-orkester-radia-orf-z-dunaja": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/sms-3-podobe": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2438,8 +3747,26 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/sms-5-dan-v-gorah": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/sos-2-materi": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/sos-3-alkimist": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2458,6 +3785,24 @@
  },
  "https://www.cd-cc.si/kultura/glasba/tom-skinner": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/vlado-kreslin-pelji-me-se-kdaj-tja": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
+ "https://www.cd-cc.si/kultura/glasba/vokalni-ansambel-jugozahodnega-nemskega-radia-iz-stuttgarta": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
@@ -2496,6 +3841,14 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#02.01.18.00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#03.12.19.30": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2504,8 +3857,24 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#04.01.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#04.12.19.30": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#05.01.19.30": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/hnk.hr/",
@@ -2544,6 +3913,46 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#19.12.18.00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#22.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#23.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#24.12.12.00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#27.11.19.00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#27.11.19.30": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2560,6 +3969,14 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#29.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#30.11.19.30": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2568,8 +3985,48 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#30.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/koncert/predstave/haydn-mozart-i-sax/#22.11.11.00": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/aida-nova/#11.01.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/aida-nova/#13.01.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/aida-nova/#14.01.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/aida-nova/#16.01.18.00": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/hnk.hr/",
@@ -2600,6 +4057,14 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/opera/predstave/klasika-nedjeljom-3/#17.01.11.00": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/opera/predstave/la-bohème/#12.12.18.00": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2610,6 +4075,30 @@
  },
  "https://www.hnk.hr/hr/opera/predstave/la-bohème/#14.12.19.30": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/la-bohème/#18.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/nikola-šubić-zrinjski/#21.01.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/nikola-šubić-zrinjski/#30.01.18.00": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/hnk.hr/",
@@ -2634,6 +4123,30 @@
  },
  "https://www.hnk.hr/hr/opera/predstave/razgovori-karmelićanki/#03.12.19.30": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/šišmiš/#21.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/šišmiš/#28.12.19.30": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/šišmiš/#31.12.18.00": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/hnk.hr/",
@@ -2712,6 +4225,15 @@
    "youtube": "http://www.youtube.com/user/KsetVideo"
   }
  },
+ "https://www.kset.org/dogadaj/2026-12-12-tim-reaper-mocvara/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/KSETZg",
+   "instagram": "https://www.instagram.com/klubkset/",
+   "youtube": "http://www.youtube.com/user/KsetVideo"
+  }
+ },
  "https://www.kset.org/dogadaj/2026-12-19-kset50-masinko-zasu-vintage-industrial-bar/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -2720,6 +4242,11 @@
    "instagram": "https://www.instagram.com/klubkset/",
    "youtube": "http://www.youtube.com/user/KsetVideo"
   }
+ },
+ "https://www.laa.hr/koncerti-buduci": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
  },
  "https://www.lisinski.hr/hr/dogadanja/": {
   "checked": "2026-11-09",
@@ -3092,6 +4619,15 @@
  },
  "https://www.lisinski.hr/hr/dogadanja/hrvatska-tamburaska-rapsodija-u-lisinskom/": {
   "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/www.lisinski.hr",
+   "instagram": "https://instagram.com/vatroslavlisinski",
+   "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
+  }
+ },
+ "https://www.lisinski.hr/hr/dogadanja/indie-ikone-br-tindersticks-bru-zagrebu/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/www.lisinski.hr",
@@ -3612,6 +5148,15 @@
    "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
   }
  },
+ "https://www.lisinski.hr/hr/dogadanja/natali-dizdar-akustik-petar-dundov-rework/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/www.lisinski.hr",
+   "instagram": "https://instagram.com/vatroslavlisinski",
+   "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
+  }
+ },
  "https://www.lisinski.hr/hr/dogadanja/od-opere-do-hollywooda-gala-koncert-tamare-radjeno/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -4071,6 +5616,15 @@
    "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
   }
  },
+ "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-br-plavi-ciklus-br-pavle-3/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/www.lisinski.hr",
+   "instagram": "https://instagram.com/vatroslavlisinski",
+   "youtube": "https://www.youtube.com/channel/UCHKYTT4qLI4zdegYDTI8CHA"
+  }
+ },
  "https://www.lisinski.hr/hr/dogadanja/zagrebacka-filharmonija-brcrveni-ciklus-br-case-sc/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -4343,11 +5897,69 @@
    "instagram": "https://www.instagram.com/orto_bar_slovenija/"
   }
  },
+ "https://www.porgy.at/events/12911/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/12952/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/12957/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13034/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
  "https://www.porgy.at/events/13199/": {
   "checked": "2026-11-10",
   "clean": {},
   "links": {
    "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13201/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13281/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13282/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13338/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/PDWorldwide/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/PDWorldwide/"
   }
  },
  "https://www.porgy.at/events/13343/": {
@@ -4357,8 +5969,120 @@
    "facebook": "http://www.facebook.com/share.php"
   }
  },
+ "https://www.porgy.at/events/13344/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13345/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13354/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13355/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13356/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13360/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13366/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13367/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13371/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13382/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13383/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13384/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13385/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13386/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
  "https://www.porgy.at/events/series/142/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/series/143/": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/series/144/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "http://www.facebook.com/share.php"
@@ -4373,6 +6097,13 @@
  },
  "https://www.porgy.at/events/series/44/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/series/78/": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {
    "facebook": "http://www.facebook.com/share.php"
@@ -4406,8 +6137,29 @@
    "facebook": "http://www.facebook.com/share.php"
   }
  },
+ "https://www.rocker.si/cockney-rejects-prihajajo-v-primarius-craft-pivovarno/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/rock3rsi",
+   "instagram": "https://www.instagram.com/rocker.si/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/rock3rsi",
+   "instagram": "https://www.instagram.com/rocker.si/"
+  }
+ },
+ "https://www.stadthalle.com/de/events/alle-events/50873/Paul-Panzer": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/50967/Beatrice-Egli": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/50980/Buelent-Ceylan-Diktatuerk": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4416,8 +6168,38 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51094/Tash-Sultana": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51110/Unheilig": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51142/BAP": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51150/LEA": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51160/Nimo": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51172/One-Vision-of-Queen": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51180/Martin-Ruetter": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4428,6 +6210,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51186/Seiler-uampd-Speer": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51200/Wanda-2026": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4443,6 +6230,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51218/The-Dark-Tenor": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51220/Riverdance-30": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4471,8 +6263,53 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51250/Annis-wilde-Tierabenteuer": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51254/Kaya-Yanar": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51262/Hazel-Brugger": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51277/Gregorian": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51287/Gernot-amp-Stipsits": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51299/Schwanensee-International-Festival-Ballet-amp-Festival-Orchestra": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51302/Resident-Evil": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51304/Thommy-Ten-amp-Amelie-van-Tass": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51318/Giovanni-Zarrella": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51325/Masters-of-Dirt": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4486,6 +6323,31 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51334/The-World-of-Hans-Zimmer": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51340/Jungle": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51344/Outlander-in-Concert": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51352/World-of-Bricks-2027": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51358/Das-Phantom-der-Oper": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51362/The-Prodigy": {
   "checked": "2026-11-10",
   "clean": {},
@@ -4496,8 +6358,98 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51368/Thirty-Seconds-To-Mars": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51372/Roland-Kaiser": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51374/Smokie": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51376/Lords-of-the-Sound-Magic-Symphony": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51386/BEAT-IT": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51388/The-Magic-of-Hans-Zimmer-The-Concert": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51392/THE-12-TENORS": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51394/Der-Herr-der-Ringe-amp-Der-Hobbit--Das-Konzert": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51400/Schwanensee-Royal-Classical-Ballet": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51410/The-Best-of-Ennio-Morricone": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51414/Five-Finger-Death-Punch": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51424/Loreena-McKennitt": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51426/AVATAR-The-Legend-of-Korra-in-Concert": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51430/Shen-Yun": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51432/Ice-Nine-Kills": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51452/The-Music-of-Star-Wars": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51456/Die-Eiskoenigin-1amp2": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51459/DER-KOeNIG-DER-LOeWEN--The-Music-Live-in-Concert": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51465/Saso-Avsenik-amp-seine-Oberkrainer": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4506,13 +6458,63 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51468/FALCO-MEETS-AMADEUS": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51474/Bob-Dylan": {
   "checked": "2026-11-10",
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51478/I-am-from-Austria": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51484/Konstantinos-Argiros": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51486/The-Witch-of-Konotop": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51492/TRIVIUM-amp-IN-FLAMES": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51502/James-Blunt": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51506/Cirque-Du-Soleil-OVO": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51510/Jesus-Christ-Superstar": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51516/VIRSKY--Das-Maerchen-von-den-12-Monaten": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51520/Sinatra-amp-Friends": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51528/Bullet-For-My-Valentine": {
+  "checked": "2026-11-11",
   "clean": {},
   "links": {}
  },
@@ -4525,6 +6527,57 @@
   "checked": "2026-11-10",
   "clean": {},
   "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51544/An-Evening-with-Gabor-Mate": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51556/Oktagon-103": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51560/Ricky-Gervais": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51572/Dawood-Sarkhosh": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51582/Xavier-Naidoo": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51586/Rebellia-1991": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51590/BC-Vienna-vs-Partizan-Mozzart-Bet": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51606/Sabri-Fejzullahu": {
+  "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.tvornicakulture.com/2026/10/the-rasmus-u-tvornici-kulture/": {
+  "checked": "2026-11-11",
+  "clean": {
+   "facebook": "https://www.facebook.com/tvornicakulture/",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/tvornicakulture/",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
+  }
  },
  "https://www.tvornicakulture.com/2026/11/splean-u-tvornici-kulture/": {
   "checked": "2026-11-10",

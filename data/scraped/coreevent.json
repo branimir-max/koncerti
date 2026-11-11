@@ -1,18 +1,6 @@
 [
  {
   "date": "2026-11-11",
-  "time": "",
-  "title": "BaBuLaBum - plesni koncerti za bebe",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/ba-bu-la-bum-improvizacijski-glazbeno-plesni-koncerti-za-bebe-a0b0/",
-  "city": "zagreb",
-  "venue_name": "Scena Ribnjak – velika dvorana",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-11",
   "time": "20:00",
   "title": "Martinje uz Gustafe",
   "venue": "ri-pogon",
@@ -789,6 +777,18 @@
   "url": "https://core-event.co/events/alen-islamovic-c3a3/",
   "city": "rijeka",
   "venue_name": "HKD na Sušaku",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-12-02",
+  "time": "10:00",
+  "title": "BaBuLaBum - plesni koncerti za bebe",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/ba-bu-la-bum-improvizacijski-glazbeno-plesni-koncerti-za-bebe-a0b0/",
+  "city": "zagreb",
+  "venue_name": "Scena Ribnjak – velika dvorana",
   "source": "coreevent"
  },
  {

@@ -60,4 +60,4 @@ jsonld types:
 <div class=row.event_list> Mo 30. November 2026 19:00 In der Strengen Kammer : Lost & Found Good News Radio Quartet | /events/stage/1/
 <div class=col-md-3.event_list> Mo 30. November 2026 | 
 <div class=date> Mo 30. November 2026 | 
-poveznice (258): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13018/ /events/13019/ /events/13020/ /events/13021/ /events/13023/
+poveznice (259): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13018/ /events/13019/ /events/13020/ /events/13021/ /events/13023/

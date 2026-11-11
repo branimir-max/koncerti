@@ -20,10 +20,10 @@ jsonld types:
 <div class=splide__slide__short> Motionless in White 2027. június 13. | 
 <div class=splide__slide__main> Motionless in White 2027. június 13. vasárnap Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/motionless-in-white-20270613
 <div class=box-info> Motionless in White 2027. június 13. vasárnap Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/motionless-in-white-20270613
-<li class=splide__slide> The Neighbourhood – Wourld Tour II 2027. június 28. The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert i | /jegyvasarlas/event/the-neighbourhood-2027-06-28
+<li class=splide__slide> The Neighbourhood – Wourld Tour II 2027. június 28. The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/the-neighbourhood-2027-06-28
 <div class=splide__slide__short> The Neighbourhood – Wourld Tour II 2027. június 28. | 
-<div class=splide__slide__main> The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert infók | /jegyvasarlas/event/the-neighbourhood-2027-06-28
-<div class=box-info> The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert infók | /jegyvasarlas/event/the-neighbourhood-2027-06-28
+<div class=splide__slide__main> The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/the-neighbourhood-2027-06-28
+<div class=box-info> The Neighbourhood – Wourld Tour II 2027. június 28. hétfő Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/the-neighbourhood-2027-06-28
 <li class=splide__slide> Slash ft. Myles Kennedy and The Conspirators 2027. július 14. Slash ft. Myles Kennedy and The Conspirators 2027. július 14. szerda Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/[…]
 <div class=splide__slide__short> Slash ft. Myles Kennedy and The Conspirators 2027. július 14. | 
 <div class=splide__slide__main> Slash ft. Myles Kennedy and The Conspirators 2027. július 14. szerda Kapunyitás 18:00 Nemzetközi koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/[…]

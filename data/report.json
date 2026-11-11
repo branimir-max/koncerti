@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-11T08:18:36+00:00",
+ "run_at": "2026-11-11T11:52:11+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
@@ -24,11 +24,6 @@
   "attack": {
    "ok": true,
    "count": 5
-  },
-  "boogaloo": {
-   "ok": false,
-   "count": 0,
-   "error": "ConnectionError: HTTPSConnectionPool(host='boogaloo.hr', port=443): Max retries exceeded with url: / (Caused by NameResolutionError(\"HTTPSConnection(host='boogaloo.hr', port=443): Failed to resolve 'boogaloo.hr' ([Errno -2] Name or service not known)\"))"
   },
   "vintage": {
    "ok": true,
@@ -88,7 +83,7 @@
   },
   "bp-akvarium": {
    "ok": true,
-   "count": 89
+   "count": 90
   },
   "bp-budapestpark": {
    "ok": true,
@@ -108,7 +103,7 @@
   },
   "lj-cd": {
    "ok": true,
-   "count": 53
+   "count": 52
   },
   "hangtime": {
    "ok": true,
