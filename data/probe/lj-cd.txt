@@ -1,15 +1,20 @@
 title: Glasba | Cankarjev dom
 jsonld types: 
+<div class=carouselSingle> Film Praznični december 22. dec. 19:00 Don Q – Zorrov sin (Don Q – Son of Zorro) Nemi film z glasbo v živo Režija:  Donald Crisp, ZDA, 1925, 108' Glasba: Andrej Goričar Preberi več | /kultura/film/[…]
+<div class=single--wrapper> Film Praznični december 22. dec. 19:00 Don Q – Zorrov sin (Don Q – Son of Zorro) Nemi film z glasbo v živo Režija:  Donald Crisp, ZDA, 1925, 108' Glasba: Andrej Goričar Preberi več | /kultura/film/[…]
+<div class=hero--content> Film Praznični december 22. dec. 19:00 Don Q – Zorrov sin (Don Q – Son of Zorro) Nemi film z glasbo v živo Režija:  Donald Crisp, ZDA, 1925, 108' Glasba: Andrej Goričar Preberi več | /kultura/film
+<div class=content--wrapper> Film Praznični december 22. dec. 19:00 Don Q – Zorrov sin (Don Q – Son of Zorro) Nemi film z glasbo v živo Režija:  Donald Crisp, ZDA, 1925, 108' Glasba: Andrej Goričar Preberi več | /kultura/film
+<div class=hero--date> 22. dec. 19:00 | 
+<div class=carouselSingle> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
+<div class=single--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba/votia-reunion
+<div class=hero--content> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
+<div class=content--wrapper> Glasba Abonma Glasbe sveta 4. dec. 20:00 Votia (Reunion) Preberi več | /kultura/glasba
+<div class=hero--date> 4. dec. 20:00 | 
 <div class=carouselSingle> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba/dresdenska-filharmonija-0
 <div class=single--wrapper> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba/dresdenska-filharmonija-0
 <div class=hero--content> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba
 <div class=content--wrapper> Glasba Zlati abonma 17. nov. 19:30 Dresdenska filharmonija Dirigent: Sir Donald Runnicles Preberi več | /kultura/glasba
 <div class=hero--date> 17. nov. 19:30 | 
-<div class=carouselSingle> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
-<div class=single--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]/ajeet-ponovno-v-sloveniji
-<div class=hero--content> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
-<div class=content--wrapper> Prireditev drugega organizatorja 25. maj 19:30 Ajeet ponovno v Sloveniji Prireja: Društvo Nova Preberi več | /kultura/[…]
-<div class=hero--date> 25. maj 19:30 | 
 <div class=carouselSingle> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=single--wrapper> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples/klasicni-artac-0
 <div class=hero--content> Gledališče in ples Praznični december 30. dec. 18:00 Klasični Artač Koncert, inovativno zlitje klasične glasbe in humorja Preberi več | /kultura/gledalisce-in-ples
@@ -21,24 +26,12 @@ jsonld types:
 <div class=content--wrapper> 30. jun.  – 3. jul. 2027 68. Jazz festival Ljubljana | /68-jazz-festival-ljubljana
 <div class=meta> 30. jun.  – 3. jul. 2027 | 
 <div class=date> 30. jun.  – 3. jul. 2027 | 
-<div class=singleThumb> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=singleThumb--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=content> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=content--wrapper> 10. nov., Kristijan Krajnčan 5tet: Alchymia XXI | /kultura/glasba/[…]
-<div class=meta> 10. nov., | 
-<div class=date> 10. nov., | 
-<div class=singleThumb> 11. nov., 
-11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=singleThumb--wrapper> 11. nov., 
-11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=content> 11. nov., 
-11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=content--wrapper> 11. nov., 
-11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
-<div class=meta> 11. nov., 
-11. nov., | 
-<div class=date> 11. nov., 
-11. nov., | 
+<div class=singleThumb> 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
+<div class=singleThumb--wrapper> 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
+<div class=content> 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
+<div class=content--wrapper> 11. nov., Od opere do muzikala | /kultura/glasba/od-opere-do-muzikala
+<div class=meta> 11. nov., | 
+<div class=date> 11. nov., | 
 <div class=singleThumb> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla
 <div class=singleThumb--wrapper> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla
 <div class=content> 12. nov., Tesla | /kultura/za-mlade-in-sole/tesla
@@ -66,4 +59,5 @@ jsonld types:
 <div class=singleThumb> 18. nov. 2026 ob 19.30 SOS 2: Materi | /kultura/glasba/sos-2-materi
 <div class=singleThumb--wrapper> 18. nov. 2026 ob 19.30 SOS 2: Materi | /kultura/glasba/sos-2-materi
 <div class=content> 18. nov. 2026 ob 19.30 SOS 2: Materi | /kultura/glasba/sos-2-materi
+<div class=content--wrapper> 18. nov. 2026 ob 19.30 SOS 2: Materi | /kultura/glasba/sos-2-materi
 poveznice (11): /[…] /kultura/glasba/[…] /kultura/glasba/kromatika-6-dogadin-in-christ /kultura/glasba/[…] /kultura/glasba/[…] /kultura/[…]/[…] /kultura/[…]/[…] /kultura/[…]/[…] /kultura/[…]/koncert-prifarcev-s-prijatelji /kultura/[…]/[…] /kultura/[…]/[…]

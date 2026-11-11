@@ -1,13 +1,13 @@
 title: Istarsko narodno kazalište Gradsko kazalište Pula
 jsonld types: WebPage, ReadAction, BreadcrumbList, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject
-<div class=swiper-slide> 10.11.2026. u 20:00 MAMA SE VRAĆA VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/mama-se-vraca/
-<div class=slide-content> 10.11.2026. u 20:00 MAMA SE VRAĆA VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/mama-se-vraca/
 <div class=swiper-slide> 11.11.2026. u 20:00 Mediteranski brevijar,na valovima Radio Mediterana VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/[…]/
 <div class=slide-content> 11.11.2026. u 20:00 Mediteranski brevijar,na valovima Radio Mediterana VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/[…]/
-<div class=performance-grid-item.anim-up> 14. studenog 2026. 19:00 h Donacijski koncert Vita Nova – 10 godina zajedno za život Više o predstavi | https://www.ink.hr/repertoire/[…]/
-<div class=performance-item-schedule> 14. studenog 2026. 19:00 h | 
+<div class=swiper-slide> 14.11.2026. u 19:00 Vita Nova – 10 godina zajedno za život VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/[…]/
+<div class=slide-content> 14.11.2026. u 19:00 Vita Nova – 10 godina zajedno za život VIŠE O PROGRAMU KUPI ULAZNICU | https://www.ink.hr/repertoire/[…]/
 <div class=performance-grid-item.anim-up> 16. studenog 2026. 20:00 h Drago Hedl i Patrik Lazić MATIJA Više o predstavi | https://www.ink.hr/repertoire/matija/
 <div class=performance-item-schedule> 16. studenog 2026. 20:00 h | 
 <div class=performance-grid-item.anim-up> 17. studenog 2026. 20:00 h Nina Peruško FOR THOSE WHO LIKE TO JUDGE vol.2 Više o predstavi | https://www.ink.hr/repertoire/[…]/
 <div class=performance-item-schedule> 17. studenog 2026. 20:00 h | 
+<div class=performance-grid-item.anim-up> NOĆ KAZALIŠTA 21. studenog 2026. 20:00 h Jean Cocteau LJUDSKI GLAS Više o predstavi | https://www.ink.hr/repertoire/ljudski-glas/
+<div class=performance-item-schedule> 21. studenog 2026. 20:00 h | 
 poveznice (0): 

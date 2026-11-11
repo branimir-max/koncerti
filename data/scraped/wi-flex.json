@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-10",
-  "time": "19:00",
-  "title": "The Browning",
-  "venue": "wi-flex",
-  "genre": "",
-  "price": "",
-  "url": "https://flex.at/event/the-browning/",
-  "city": "bec",
-  "source": "wi-flex"
- },
- {
   "date": "2026-11-11",
   "time": "19:00",
   "title": "Stvw",
@@ -315,6 +304,17 @@
   "genre": "",
   "price": "",
   "url": "https://flex.at/event/8409/",
+  "city": "bec",
+  "source": "wi-flex"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "18:00",
+  "title": "United Battle Culture",
+  "venue": "wi-flex",
+  "genre": "",
+  "price": "",
+  "url": "https://flex.at/event/united-battle-culture-2/",
   "city": "bec",
   "source": "wi-flex"
  },

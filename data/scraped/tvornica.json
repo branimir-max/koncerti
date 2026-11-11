@@ -33,17 +33,6 @@
   "source": "tvornica"
  },
  {
-  "date": "2026-11-10",
-  "time": "20:00",
-  "title": "Doček Martinja uz Gustafe",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/docek-martinja-uz-gustafe-u-tvornici-kulture-1a2a",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
   "date": "2026-11-11",
   "time": "20:00",
   "title": "David Temelkov",
@@ -326,6 +315,17 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2027-05-01",
+  "time": "20:00",
+  "title": "Nouvelle Vague",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/nouvelle-vague-u-tvornici-kulture-f329",
   "city": "zagreb",
   "source": "tvornica"
  }

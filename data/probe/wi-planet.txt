@@ -1,11 +1,5 @@
 title: Planet Music & Media
 jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebPage, Person, ImageObject, Article
-<div class=pl-card> Di., 10. November 2026 Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € PRESIDENT Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
-<div class=pl-card-front.pl-pointer> Di., 10. November 2026 Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € PRESIDENT | 
-<div class=pl-date> Di., 10. November 2026 | 
-<div class=pl-thumbnail> Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
-<div class=pl-thumb-desc> Di., 10. November 2026 Blood Of Your Empire Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 50,49 € | 
-<div class=pl-date> Di., 10. November 2026 | 
 <div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
 <div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY | 
 <div class=pl-date> Mi., 11. November 2026 | 
@@ -30,4 +24,10 @@ jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebP
 <div class=pl-thumbnail> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
 <div class=pl-thumb-desc> Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
 <div class=pl-date> Do., 12. November 2026 | 
+<div class=pl-card> Fr., 13. November 2026 Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € THUNDER/BALLS ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € | 
+<div class=pl-card-front.pl-pointer> Fr., 13. November 2026 Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € THUNDER/BALLS | 
+<div class=pl-date> Fr., 13. November 2026 | 
+<div class=pl-thumbnail> Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € | 
+<div class=pl-thumb-desc> Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € | 
+<div class=pl-date> Fr., 13. November 2026 | 
 poveznice (0): 

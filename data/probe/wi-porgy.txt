@@ -1,8 +1,5 @@
 title: Demnächst im  Porgy & Bess - Jazz & Music Club
 jsonld types: 
-<div class=row.event_list> Di 10. November 2026 19:00 In der Strengen Kammer : Christoph Cech & Valentina Cinquini 'Satiesfaction +' feat. Dušan Kranjc & Stefan Konzett | /events/stage/1/
-<div class=col-md-3.event_list> Di 10. November 2026 | 
-<div class=date> Di 10. November 2026 | 
 <div class=row.event_list> Mi 11. November 2026 20:30 The P&B Stageband Wednesday Night Prayer Orchestra feat. Gerald Raunig 'Making Multiplicity' (A) | /events/series/26/
 <div class=col-md-3.event_list> Mi 11. November 2026 | 
 <div class=date> Mi 11. November 2026 | 
@@ -60,4 +57,7 @@ jsonld types:
 <div class=row.event_list> So 29. November 2026 14:30 Jazzinfection Trio & Kornél Fekete-Kovács (SK/H) | /events/13199/
 <div class=col-md-3.event_list> So 29. November 2026 | 
 <div class=date> So 29. November 2026 | 
-poveznice (260): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13010/ /events/13018/ /events/13019/ /events/13020/ /events/13021/
+<div class=row.event_list> Mo 30. November 2026 19:00 In der Strengen Kammer : Lost & Found Good News Radio Quartet | /events/stage/1/
+<div class=col-md-3.event_list> Mo 30. November 2026 | 
+<div class=date> Mo 30. November 2026 | 
+poveznice (258): /en/events/upcoming /events/12741/ /events/12851/ /events/12904/ /events/12911/ /events/12914/ /events/12952/ /events/12957/ /events/12967/ /events/12974/ /events/12977/ /events/12978/ /events/12979/ /events/12981/ /events/12982/ /events/12983/ /events/12984/ /events/12985/ /events/13003/ /events/13004/ /events/13018/ /events/13019/ /events/13020/ /events/13021/ /events/13023/

@@ -1,9 +1,9 @@
 {
- "run_at": "2026-11-10T19:05:39+00:00",
+ "run_at": "2026-11-11T08:12:48+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
-   "count": 151
+   "count": 149
   },
   "tvornica": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "mocvara": {
    "ok": true,
-   "count": 14
+   "count": 15
   },
   "dvaosam": {
    "ok": true,
@@ -25,9 +25,14 @@
    "ok": true,
    "count": 5
   },
+  "boogaloo": {
+   "ok": true,
+   "count": 0,
+   "note": "trenutno nema koncerata"
+  },
   "vintage": {
    "ok": true,
-   "count": 7
+   "count": 6
   },
   "pogon": {
    "ok": true,
@@ -40,11 +45,11 @@
   },
   "coreevent": {
    "ok": true,
-   "count": 120
+   "count": 118
   },
   "hnk-opera": {
    "ok": true,
-   "count": 42
+   "count": 41
   },
   "hnk-koncert": {
    "ok": true,
@@ -79,7 +84,7 @@
   },
   "wi-porgy": {
    "ok": true,
-   "count": 183
+   "count": 182
   },
   "bp-akvarium": {
    "ok": true,
@@ -103,7 +108,7 @@
   },
   "lj-cd": {
    "ok": true,
-   "count": 54
+   "count": 53
   },
   "hangtime": {
    "ok": true,
@@ -145,7 +150,7 @@
   },
   "mb-mkc": {
    "ok": true,
-   "count": 17,
+   "count": 14,
    "note": "samo proba"
   },
   "pu-tz": {
