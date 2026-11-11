@@ -42,6 +42,9 @@ SOURCES = [
     {"key": "attack", "venue": "medika", "exclude": THEATRE, "dj_words": DJ,
      "urls": ["https://attack.hr/"]},
     # Boogaloo: robots.txt zabranjuje robote – samo uz njihovo dopuštenje (poslan upit).
+    # Boogaloo: vlastiti program (ulaznice prodaje preko Entrija, koji nam ne dopušta čitanje)
+    {"key": "boogaloo", "venue": "boogaloo", "dj_words": DJ, "probe": True, "allow_empty": True, "tolerant": True,
+     "urls": ["https://www.boogaloo.hr/", "https://www.boogaloo.hr/program/", "https://www.boogaloo.hr/dogadaji/"]},
     {"key": "vintage", "venue": "vintage", "dj_words": DJ,
      "urls": ["https://vintageindustrial-bar.com/"]},
     # Peti Kupe: na stranicama događaja nema pouzdanog datuma – pokriva ga Ulaznice.hr.
