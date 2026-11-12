@@ -33,17 +33,6 @@
   "source": "tvornica"
  },
  {
-  "date": "2026-11-11",
-  "time": "20:00",
-  "title": "David Temelkov",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://www.tvornicakulture.com/2026/09/david-temelkov-u-tvornici-kulture/",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
   "date": "2026-11-14",
   "time": "20:00",
   "title": "LET 3",
@@ -315,6 +304,17 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2027-04-29",
+  "time": "20:00",
+  "title": "The Hoosiers",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/the-hoosiers-u-tvornici-kulture-1cb4",
   "city": "zagreb",
   "source": "tvornica"
  },

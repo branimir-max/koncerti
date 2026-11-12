@@ -3,7 +3,7 @@ jsonld types:
 <div class=show.active> balet Ludwig Minkus Bajadera 12. 11. 2026 | 19.30 | https://www.sng-mb.si/event/bajadera/
 <div class=show> opera Johann Strauss ml. Netopir 27. 11. 2026 | 19.30 | https://www.sng-mb.si/event/netopir-3/
 <div class=show> drama Branislav Nušić Gospa ministrica 9. 12. 2026 | 20.00 | https://www.sng-mb.si/event/gospa-ministrica/
-<div class=show> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 15. 12. 2026 | 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
+<div class=show> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 14. 12. 2026 | 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
 <div class=swiper-slide.active> balet Ludwig Minkus Bajadera 12. 11. 2026 |
                                 19.30 | https://www.sng-mb.si/event/bajadera/
 <a class=show__list--item.p-3> balet Ludwig Minkus Bajadera 12. 11. 2026 |
@@ -22,24 +22,19 @@ jsonld types:
                                 20.00 | https://www.sng-mb.si/event/gospa-ministrica/
 <div class=datetime> 9. 12. 2026 |
                                 20.00 | 
-<div class=swiper-slide> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 15. 12. 2026 |
+<div class=swiper-slide> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 14. 12. 2026 |
                                 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
-<a class=show__list--item.p-3> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 15. 12. 2026 |
+<a class=show__list--item.p-3> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 14. 12. 2026 |
                                 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
-<div class=datetime> 15. 12. 2026 |
+<div class=datetime> 14. 12. 2026 |
                                 19.00 | 
-<div class=d-flex.date-container> 12 Nov Čet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
-<div class=content__programs--date> 12 Nov Čet | 
 <div class=d-flex.date-container> 13 Nov Pet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
 <div class=content__programs--date> 13 Nov Pet | 
 <div class=d-flex.date-container> 17 Nov Tor Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 17 Nov Tor | 
 <div class=d-flex.date-container> 18 Nov Sre Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 18 Nov Sre | 
-<div class=d-flex.date-container> 20 Nov Pet Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 20 Nov Pet | 
-<div class=d-flex.date-container> 11 Nov Sre 2. koncert cikla Carpe artem »Glasovi nove generacije« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
-<div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma DIJAŠKI OPERA BALET | https://www.sng-mb.si/event/bajadera/
 <div class=content__programs--date> 12 Nov Čet | 
 <div class=d-flex.date-container> 13 Nov Pet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc | https://www.sng-mb.si/event/bajadera/
@@ -48,18 +43,15 @@ jsonld types:
 <div class=content__programs--date> 14 Nov Sob | 
 <div class=d-flex.date-container> 26 Nov Čet 3. koncert cikla Carpe artem »Refleksije strun« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 26 Nov Čet | 
-<div class=d-flex.date-container> 12 Nov Čet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
-<div class=content__programs--date> 12 Nov Čet | 
+<div class=d-flex.date-container> 27 Nov Pet Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET PREMIERA | https://www.sng-mb.si/event/netopir-3/
+<div class=content__programs--date> 27 Nov Pet | 
 <div class=d-flex.date-container> 13 Nov Pet Cvetka Sokolov, Maja Borin Cvetka Sokolov, Maja Borin Kot noč in dan 10.00 Komorni oder | https://www.sng-mb.si/event/kot-noc-in-dan/
 <div class=content__programs--date> 13 Nov Pet | 
 <div class=d-flex.date-container> 17 Nov Tor Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 17 Nov Tor | 
 <div class=d-flex.date-container> 18 Nov Sre Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 18 Nov Sre | 
-<div class=d-flex.date-container> 20 Nov Pet Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 20 Nov Pet | 
-<div class=d-flex.date-container> 11 Nov Sre 2. koncert cikla Carpe artem »Glasovi nove generacije« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
-<div class=content__programs--date> 11 Nov Sre | 
 <div class=d-flex.date-container> 12 Nov Čet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma DIJAŠKI OPERA BALET | https://www.sng-mb.si/event/bajadera/
 <div class=content__programs--date> 12 Nov Čet | 
 <div class=d-flex.date-container> 13 Nov Pet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc | https://www.sng-mb.si/event/bajadera/
@@ -68,8 +60,16 @@ jsonld types:
 <div class=content__programs--date> 14 Nov Sob | 
 <div class=d-flex.date-container> 26 Nov Čet 3. koncert cikla Carpe artem »Refleksije strun« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 26 Nov Čet | 
+<div class=d-flex.date-container> 27 Nov Pet Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET PREMIERA | https://www.sng-mb.si/event/netopir-3/
+<div class=content__programs--date> 27 Nov Pet | 
 <div class=swiper-slide.hover-zoom> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/[…]/
 <a class=news-item.d-flex.flex-column> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/[…]/
 <div class=news-content> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | 
 <div class=news-date> Objavljeno 6. 11. 2026 | 
-poveznice (14): https://sngmb.mojekarte.si/si/2-koncert-cikla-carpe-artem/vstopnice-1213609.html https://sngmb.mojekarte.si/si/3-koncert-cikla-carpe-artem/vstopnice-1213610.html https://www.sng-mb.si/drama-program/?lang=sl https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/bajadera/ https://www.sng-mb.si/event/gospa-ministrica/ https://www.sng-mb.si/event/jutra-v-dzeninu/ https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/kot-noc-in-dan/ https://www.sng-mb.si/event/netopir-3/ https://www.sng-mb.si/opera-program/?lang=sl https://www.sng-mb.si/program/?lang=sl https://www.sng-mb.si/prvi-prizor-program/?lang=sl
+<div class=swiper-slide.hover-zoom> Janja Klasinc se z avtobiografijo vrača k družinskim koreninam Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/predstavitev-knjige/
+<a class=news-item.d-flex.flex-column> Janja Klasinc se z avtobiografijo vrača k družinskim koreninam Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/predstavitev-knjige/
+<div class=news-content> Janja Klasinc se z avtobiografijo vrača k družinskim koreninam Objavljeno 6. 11. 2026 | 
+<div class=news-date> Objavljeno 6. 11. 2026 | 
+<div class=swiper-slide.hover-zoom> Bajadera obuja razkošje in brezčasno lepoto klasičnega baleta Objavljeno 4. 11. 2026 | https://www.sng-mb.si/2026/11/04/[…]/
+<a class=news-item.d-flex.flex-column> Bajadera obuja razkošje in brezčasno lepoto klasičnega baleta Objavljeno 4. 11. 2026 | https://www.sng-mb.si/2026/11/04/[…]/
+poveznice (13): https://sngmb.mojekarte.si/si/3-koncert-cikla-carpe-artem/vstopnice-1213610.html https://www.sng-mb.si/drama-program/?lang=sl https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/bajadera/ https://www.sng-mb.si/event/gospa-ministrica/ https://www.sng-mb.si/event/jutra-v-dzeninu/ https://www.sng-mb.si/event/[…]/ https://www.sng-mb.si/event/kot-noc-in-dan/ https://www.sng-mb.si/event/netopir-3/ https://www.sng-mb.si/event/uberkrajina/ https://www.sng-mb.si/opera-program/?lang=sl https://www.sng-mb.si/program/?lang=sl https://www.sng-mb.si/prvi-prizor-program/?lang=sl

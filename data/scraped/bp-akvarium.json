@@ -684,11 +684,11 @@
  {
   "date": "2026-12-22",
   "time": "",
-  "title": "TARÁNY TAMÁS – Kacatok lemezbemutató",
+  "title": "TARÁNY TAMÁS – Other Side koncert",
   "venue": "bp-akvariumklub",
   "genre": "",
   "price": "",
-  "url": "https://akvariumklub.hu/programok/tarany-tamas-kacatok-lemezbemutato/",
+  "url": "https://akvariumklub.hu/programok/tarany-tamas-other-side-koncert/",
   "city": "budimpesta",
   "source": "bp-akvarium"
  },
@@ -803,6 +803,17 @@
   "source": "bp-akvarium"
  },
  {
+  "date": "2027-01-11",
+  "time": "",
+  "title": "És megfőttek a vízilovak... – Jack Kerouac és William S. Burroughs azonos című regényének ihletésére",
+  "venue": "bp-akvariumklub",
+  "genre": "",
+  "price": "",
+  "url": "https://akvariumklub.hu/programok/es-megfottek-a-vizilovak-111/",
+  "city": "budimpesta",
+  "source": "bp-akvarium"
+ },
+ {
   "date": "2027-01-15",
   "time": "",
   "title": "Balkan Vip",
@@ -832,6 +843,17 @@
   "genre": "",
   "price": "",
   "url": "https://akvariumklub.hu/programok/ember-mark-szulinapi-nagykoncert/",
+  "city": "budimpesta",
+  "source": "bp-akvarium"
+ },
+ {
+  "date": "2027-01-16",
+  "time": "",
+  "title": "Hungarian Techno Night",
+  "venue": "bp-akvariumklub",
+  "genre": "dj",
+  "price": "",
+  "url": "https://akvariumklub.hu/programok/hungarian-techno-night/",
   "city": "budimpesta",
   "source": "bp-akvarium"
  },
@@ -937,7 +959,7 @@
  {
   "date": "2027-03-19",
   "time": "",
-  "title": "Nagy Bogi – 2. nap",
+  "title": "TELTHÁZ! Nagy Bogi – 2. nap",
   "venue": "bp-akvariumklub",
   "genre": "",
   "price": "",

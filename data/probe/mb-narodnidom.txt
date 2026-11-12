@@ -1,6 +1,6 @@
 title: Program dogodkov Narodni dom Maribor - Narodni dom Maribor
 jsonld types: 
-bez prepoznatih datuma; html bytes=308247
+bez prepoznatih datuma; html bytes=309851
 api/json hints: 
 <label class=filter-item> Abonma Kekec 2024/2025
 <label class=filter-item> Abonma Kekec 2025/2026

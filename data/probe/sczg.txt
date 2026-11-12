@@ -1,6 +1,6 @@
 title: SCZG Eventi
 jsonld types: 
-bez prepoznatih datuma; html bytes=47112
+bez prepoznatih datuma; html bytes=47082
 api/json hints: 
 <div class=py-3.border-b.border-black/20> Facebook Instagram YouTube Otvoreni smo svaki dan od 7:30 - 15:30 + 385 1 4593 621
 <div class=max-w-6xl.mx-auto.px-10> Facebook Instagram YouTube Otvoreni smo svaki dan od 7:30 - 15:30 + 385 1 4593 621

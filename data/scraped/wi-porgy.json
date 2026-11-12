@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "time": "20:30",
-  "title": "Wednesday Night Prayer Orchestra feat. Gerald Raunig 'Making Multiplicity' (A)",
-  "venue": "wi-porgybess",
-  "genre": "jazz",
-  "price": "",
-  "url": "https://www.porgy.at/events/series/26/",
-  "city": "bec",
-  "source": "wi-porgy"
- },
- {
   "date": "2026-11-12",
   "time": "20:30",
   "title": "Myles Sanko (GB)",
@@ -1719,6 +1708,17 @@
   "date": "2027-05-02",
   "time": "20:30",
   "title": "Schneeberger & Bakanic Quartet (A)",
+  "venue": "wi-porgybess",
+  "genre": "jazz",
+  "price": "",
+  "url": "https://www.porgy.at/events/series/79/",
+  "city": "bec",
+  "source": "wi-porgy"
+ },
+ {
+  "date": "2027-05-09",
+  "time": "20:30",
+  "title": "Omar Sosa & Yilian Cañizares 'Aguas' feat. Gustavo Ovalles (CU/F)",
   "venue": "wi-porgybess",
   "genre": "jazz",
   "price": "",

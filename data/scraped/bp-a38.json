@@ -46,7 +46,7 @@
  {
   "date": "2026-11-19",
   "time": "19:00",
-  "title": "Sonya \"Beams\" album-release",
+  "title": "Sonya \"Beams\" Album Launch, Guest: Sunny Gloom (LUX)",
   "venue": "bp-a38shipa38",
   "genre": "",
   "price": "",
@@ -199,7 +199,7 @@
  },
  {
   "date": "2026-12-09",
-  "time": "19:00",
+  "time": "20:00",
   "title": "Siddhi – The First - album release concert",
   "venue": "bp-a38shipa38",
   "genre": "",
@@ -260,6 +260,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.a38.hu/en/program/fish-32486",
+  "city": "budimpesta",
+  "source": "bp-a38"
+ },
+ {
+  "date": "2026-12-19",
+  "time": "23:30",
+  "title": "Technokunst pres. Acidmoon w/ Luigi Tozzi (IT), Isu, Valens",
+  "venue": "bp-a38shipa38",
+  "genre": "",
+  "price": "",
+  "url": "https://www.a38.hu/en/program/luigi-tozzi-it-32213",
   "city": "budimpesta",
   "source": "bp-a38"
  },

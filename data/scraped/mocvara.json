@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "time": "20:30",
-  "title": "Mladen, Pozeri, Felina",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6ac8bc39027abbb418733ab1/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
   "date": "2026-11-12",
   "time": "20:00",
   "title": "Officium Triste, The Answer Lies In The Black Void, Mortajas",
@@ -40,6 +29,17 @@
   "genre": "dj",
   "price": "",
   "url": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-14",
+  "time": "18:00",
+  "title": "Ana Fazekaš, Rebeka Petković",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6af5acef6f44c2a5708a838d/",
   "city": "zagreb",
   "source": "mocvara"
  },

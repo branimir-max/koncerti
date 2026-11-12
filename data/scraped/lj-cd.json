@@ -11,13 +11,13 @@
   "source": "lj-cd"
  },
  {
-  "date": "2026-12-04",
-  "time": "20:00",
-  "title": "Votia (Reunion)",
+  "date": "2026-11-17",
+  "time": "19:30",
+  "title": "Dresdenska filharmonija",
   "venue": "lj-cankarjev",
-  "genre": "",
+  "genre": "klasika",
   "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
+  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -29,17 +29,6 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/josipa-lisac",
-  "city": "ljubljana",
-  "source": "lj-cd"
- },
- {
-  "date": "2026-11-17",
-  "time": "",
-  "title": "Dresdenska filharmonija",
-  "venue": "lj-cankarjev",
-  "genre": "klasika",
-  "price": "",
-  "url": "https://www.cd-cc.si/kultura/glasba/dresdenska-filharmonija-0",
   "city": "ljubljana",
   "source": "lj-cd"
  },
@@ -161,6 +150,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/kromatika-3-operna-noc",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2026-12-04",
+  "time": "",
+  "title": "Votia (Reunion)",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/votia-reunion",
   "city": "ljubljana",
   "source": "lj-cd"
  },

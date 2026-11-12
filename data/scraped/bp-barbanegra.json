@@ -308,6 +308,17 @@
   "source": "bp-barbanegra"
  },
  {
+  "date": "2027-01-23",
+  "time": "18:00",
+  "title": "Ismerős Arcok | Gyuszi 75",
+  "venue": "bp-barbanegra",
+  "genre": "",
+  "price": "",
+  "url": "https://www.barbanegra.hu/program/ismeros-arcok_20270123",
+  "city": "budimpesta",
+  "source": "bp-barbanegra"
+ },
+ {
   "date": "2027-01-25",
   "time": "",
   "title": "Imminence",
@@ -480,6 +491,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.barbanegra.hu/program/the-sons-of-buena-vista_20270522",
+  "city": "budimpesta",
+  "source": "bp-barbanegra"
+ },
+ {
+  "date": "2027-06-14",
+  "time": "17:00",
+  "title": "Lorna Shore",
+  "venue": "bp-barbanegra",
+  "genre": "",
+  "price": "",
+  "url": "https://www.barbanegra.hu/program/lorna-shore_20270614",
   "city": "budimpesta",
   "source": "bp-barbanegra"
  },

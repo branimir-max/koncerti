@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "time": "20:00",
-  "title": "Lisinski Srijedom & Izvorišta Magalí Sare & Manel Fortià",
-  "venue": "lisM",
-  "genre": "world",
-  "price": "22 €",
-  "url": "https://www.lisinski.hr/hr/dogadanja/lisinski-srijedom-izvorista-br-magali-sare-manel-f/",
-  "city": "zagreb",
-  "source": "lisinski"
- },
- {
   "date": "2026-11-12",
   "time": "19:30",
   "title": "Majstorski Ciklus SO HRT-a Nemir i Zanos Ljubavi Mateo Narančić, Dirigent Kajana Pačko, Violončelo",
@@ -145,22 +134,22 @@
  {
   "date": "2026-11-24",
   "time": "20:00",
-  "title": "Guitarra Viva – Ciklus Gitarskih Koncerata Hrvatski Gitarski Kvartet",
-  "venue": "lisM",
-  "genre": "klasika",
-  "price": "rasprodano",
-  "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-hrvats/",
+  "title": "Tomislav Bralić i Klapa Intrade – 20 Godina Zagrebačke Tradicije",
+  "venue": "lisV",
+  "genre": "trad",
+  "price": "32–59 €",
+  "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagreb-2/",
   "city": "zagreb",
   "source": "lisinski"
  },
  {
   "date": "2026-11-24",
   "time": "20:00",
-  "title": "Tomislav Bralić i Klapa Intrade – 20 Godina Zagrebačke Tradicije",
-  "venue": "lisV",
-  "genre": "trad",
-  "price": "32–59 €",
-  "url": "https://www.lisinski.hr/hr/dogadanja/tomislav-bralic-i-klapa-intrade-20-godina-zagreb-2/",
+  "title": "Guitarra Viva – Ciklus Gitarskih Koncerata Hrvatski Gitarski Kvartet",
+  "venue": "lisM",
+  "genre": "klasika",
+  "price": "rasprodano",
+  "url": "https://www.lisinski.hr/hr/dogadanja/guitarra-viva-ciklus-gitarskih-koncerata-br-hrvats/",
   "city": "zagreb",
   "source": "lisinski"
  },

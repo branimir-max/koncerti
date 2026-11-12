@@ -517,6 +517,11 @@
   "query": "An Evening with Jools Holland",
   "v": 2
  },
+ "ana fazekas": {
+  "checked": "2026-11-12",
+  "query": "Ana Fazekaš",
+  "v": 2
+ },
  "ana moura": {
   "checked": "2026-11-09",
   "country": "PT",
@@ -1090,6 +1095,18 @@
   "mbid": "b1db0b2b-800c-47fa-bacf-568d84960ffe",
   "name": "BELANO",
   "query": "Belano",
+  "v": 2
+ },
+ "belfast food": {
+  "checked": "2026-11-12",
+  "country": "HR",
+  "genre": "",
+  "links": {
+   "web": "http://belfastfood.com/"
+  },
+  "mbid": "fb3dd255-56f1-4d2a-b878-b23a52719f28",
+  "name": "Belfast Food",
+  "query": "Belfast Food",
   "v": 2
  },
  "belocca": {
@@ -1967,6 +1984,11 @@
   "mbid": "d0ff507b-51fa-486d-902a-d27c88ff214d",
   "name": "Climax Blues Band",
   "query": "Climax Blues Band",
+  "v": 2
+ },
+ "co lee nem vagyok egyedul lemezbemutato": {
+  "checked": "2026-11-12",
+  "query": "Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató",
   "v": 2
  },
  "cockney rejects": {
@@ -3117,6 +3139,11 @@
   "mbid": "5c14e10e-735e-4108-a8a5-74d8771672da",
   "name": "ERRA",
   "query": "Erra",
+  "v": 2
+ },
+ "es megfottek a vizilovak": {
+  "checked": "2026-11-12",
+  "query": "És megfőttek a vízilovak...",
   "v": 2
  },
  "escape my shadows": {
@@ -4278,6 +4305,11 @@
   "query": "Hugo Race Fatalists",
   "v": 2
  },
+ "hungarian techno night": {
+  "checked": "2026-11-12",
+  "query": "Hungarian Techno Night",
+  "v": 2
+ },
  "hush w": {
   "checked": "2026-11-08",
   "query": "HUSH! W"
@@ -4429,6 +4461,11 @@
   "query": "Imminence",
   "v": 2
  },
+ "in media res 2026": {
+  "checked": "2026-11-12",
+  "query": "In Media Res 2026.",
+  "v": 2
+ },
  "indie ikone tindersticks": {
   "checked": "2026-11-11",
   "query": "Indie Ikone Tindersticks",
@@ -4513,6 +4550,11 @@
   "mbid": "92cdc7a0-5961-4b81-8120-0d966789eaa2",
   "name": "Iskra",
   "query": "Iskra",
+  "v": 2
+ },
+ "ismeros arcok gyuszi 75": {
+  "checked": "2026-11-12",
+  "query": "Ismerős Arcok | Gyuszi 75",
   "v": 2
  },
  "istvan": {
@@ -6091,6 +6133,25 @@
   "mbid": "a9f15e48-42cd-4778-a344-61f0a4d3dce2",
   "name": "Loriot",
   "query": "Loriot",
+  "v": 2
+ },
+ "lorna shore": {
+  "checked": "2026-11-12",
+  "country": "US",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://lornashore.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/482260",
+   "facebook": "https://www.facebook.com/LornaShore",
+   "instagram": "https://www.instagram.com/lornashore/",
+   "soundcloud": "https://soundcloud.com/lorna-shore",
+   "spotify": "https://open.spotify.com/artist/6vXYoy8ouRVib302zxaxFF",
+   "web": "https://ifeeltheeverblackfesteringwithinme.com/",
+   "youtube": "https://www.youtube.com/channel/UC0nS0FSoouwc_Nm8g6DnH8w"
+  },
+  "mbid": "e86fc1f5-d632-44b2-8aea-38f83aadffe8",
+  "name": "Lorna Shore",
+  "query": "Lorna Shore",
   "v": 2
  },
  "los fastidios": {
@@ -7771,6 +7832,21 @@
   "query": "OM",
   "v": 2
  },
+ "omar sosa": {
+  "checked": "2026-11-12",
+  "country": "CU",
+  "genre": "jazz",
+  "links": {
+   "bandcamp": "https://omarsosa.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/83698",
+   "spotify": "https://open.spotify.com/artist/2zyVwasA2QkaVopBFZ2RfX",
+   "web": "http://www.omarsosa.com/"
+  },
+  "mbid": "235abd9b-3d2f-4613-9d67-a7a1bb59ec3d",
+  "name": "Omar Sosa",
+  "query": "Omar Sosa",
+  "v": 2
+ },
  "one vision of queen": {
   "checked": "2026-11-10",
   "query": "One Vision of Queen",
@@ -7965,6 +8041,11 @@
  "paulaner acoustic live session": {
   "checked": "2026-11-08",
   "query": "Paulaner acoustic live session"
+ },
+ "peoples kitchen": {
+  "checked": "2026-11-12",
+  "query": "People's Kitchen",
+  "v": 2
  },
  "perpetuum jazzile": {
   "checked": "2026-11-09",
@@ -8218,6 +8299,25 @@
   "mbid": "3599a39e-4e10-4cb5-90d4-c8a015ebc73b",
   "name": "Portugal. The Man",
   "query": "Portugal. The Man",
+  "v": 2
+ },
+ "powerwolf": {
+  "checked": "2026-11-12",
+  "country": "",
+  "genre": "metal",
+  "links": {
+   "bandcamp": "https://powerwolf.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/428405",
+   "facebook": "https://www.facebook.com/powerwolfmetal",
+   "instagram": "https://www.instagram.com/officialpowerwolf/",
+   "soundcloud": "https://soundcloud.com/powerwolf-official",
+   "spotify": "https://open.spotify.com/artist/5HFkc3t0HYETL4JeEbDB1v",
+   "web": "http://www.powerwolf.net/",
+   "youtube": "https://www.youtube.com/channel/UCL25rDdQtKGs2r7a9rbuNYg"
+  },
+  "mbid": "3ef77bdc-b1ce-4e44-aa4b-acfa763c5284",
+  "name": "Powerwolf",
+  "query": "Powerwolf",
   "v": 2
  },
  "praying mantis": {
@@ -8871,6 +8971,11 @@
   "mbid": "ac9f091c-7b50-4e75-bb0a-bd85a75fa648",
   "name": "Šajeta",
   "query": "ŠAJETA",
+  "v": 2
+ },
+ "saloma": {
+  "checked": "2026-11-12",
+  "query": "Saloma",
   "v": 2
  },
  "santiano": {
@@ -9629,6 +9734,11 @@
   "query": "SONICA 2026",
   "v": 2
  },
+ "sonya beams album launch": {
+  "checked": "2026-11-12",
+  "query": "Sonya Beams Album Launch",
+  "v": 2
+ },
  "sonya beams album release": {
   "checked": "2026-11-10",
   "query": "Sonya Beams album-release",
@@ -9825,6 +9935,11 @@
   "mbid": "d177eecf-05cf-464b-8840-724cb370d9a6",
   "name": "STVW",
   "query": "Stvw",
+  "v": 2
+ },
+ "sub bar taktilna zvocna izkusnja za gluhe in slisece": {
+  "checked": "2026-11-12",
+  "query": "sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče",
   "v": 2
  },
  "suede": {
@@ -10306,6 +10421,23 @@
   "mbid": "13760c0f-e191-4948-baac-3371f8a7e323",
   "name": "Hive",
   "query": "The Hive",
+  "v": 2
+ },
+ "the hoosiers": {
+  "checked": "2026-11-12",
+  "country": "GB",
+  "genre": "rock",
+  "links": {
+   "bandcamp": "https://thehoosiers.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/16675",
+   "facebook": "https://www.facebook.com/thehoosiers",
+   "spotify": "https://open.spotify.com/artist/4LlDtNr8qFwhrT8eL2wzH4",
+   "web": "http://www.thehoosiers.com/",
+   "youtube": "https://www.youtube.com/channel/UC2b_Poiry5LG4gecha-UhwQ"
+  },
+  "mbid": "52fe888b-112f-4023-adc9-f8287f177f7a",
+  "name": "The Hoosiers",
+  "query": "The Hoosiers",
   "v": 2
  },
  "the howlers": {
@@ -11746,6 +11878,22 @@
  "zivo blato u tvornici kulture": {
   "checked": "2026-11-08",
   "query": "ŽIVO BLATO u Tvornici kulture"
+ },
+ "zorana micanovic": {
+  "checked": "2026-11-12",
+  "country": "RS",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/148140002",
+   "facebook": "https://www.facebook.com/zokamicanovic",
+   "instagram": "https://www.instagram.com/zorana_micanovic_official/",
+   "spotify": "https://open.spotify.com/artist/1c8braZzQ5j4VKr4RmQOaA",
+   "youtube": "https://www.youtube.com/channel/UCKkn25Q4mRlEOhs8EPWvj2Q"
+  },
+  "mbid": "93c9176e-59c4-4de5-aa4d-161bd0029efa",
+  "name": "Zorana Mićanović",
+  "query": "Zorana Mićanović",
+  "v": 2
  },
  "zoster": {
   "checked": "2026-11-08",

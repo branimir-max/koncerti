@@ -1,29 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "time": "20:00",
-  "title": "Martinje uz Gustafe",
-  "venue": "ri-pogon",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/martinje-uz-gustafe-69bd/",
-  "city": "rijeka",
-  "venue_name": "Pogon",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-11",
-  "time": "20:00",
-  "title": "Spike Fuck + Goran Glad",
-  "venue": "vintage",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/spike-fuck-b53d/",
-  "city": "zagreb",
-  "venue_name": "Vintage Industrial Bar",
-  "source": "coreevent"
- },
- {
   "date": "2026-11-12",
   "time": "20:00",
   "title": "Klinika Denisa Kataneca",
@@ -470,6 +446,18 @@
  {
   "date": "2026-11-21",
   "time": "",
+  "title": "Zorana Mićanović/ 21 rođendan kluba Pietas Julia",
+  "venue": "",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/zorana-micanovic-21-rodendan-kluba-pietas-julia-2c6a/",
+  "city": "pula",
+  "venue_name": "club Pietas Julia",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "",
   "title": "Retro Techno / Energetica / Crkva",
   "venue": "ri-crkva",
   "genre": "",
@@ -837,6 +825,18 @@
   "url": "https://core-event.co/events/shtosmo-u-tvornici-945f/",
   "city": "zagreb",
   "venue_name": "Tvornica kulture",
+  "source": "coreevent"
+ },
+ {
+  "date": "2026-12-05",
+  "time": "",
+  "title": "Belfast Food - 30 godina",
+  "venue": "ri-pogon",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/belfast-food-30-godina-802b/",
+  "city": "rijeka",
+  "venue_name": "Pogon",
   "source": "coreevent"
  },
  {
@@ -1291,6 +1291,18 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/sixteen-horsepower-u-tvornici-kulture-4561/",
+  "city": "zagreb",
+  "venue_name": "TVORNICA KULTURE",
+  "source": "coreevent"
+ },
+ {
+  "date": "2027-04-29",
+  "time": "20:00",
+  "title": "The Hoosiers",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/the-hoosiers-u-tvornici-kulture-1cb4/",
   "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"

@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-11",
-  "time": "20:00",
-  "title": "Rijeka–Paris–Texas II",
-  "venue": "lj-kinosiska",
-  "genre": "",
-  "price": "",
-  "url": "https://www.kinosiska.si/dogodek/rijeka-paris-texas-ii/",
-  "city": "ljubljana",
-  "source": "kinosiska"
- },
- {
   "date": "2026-11-12",
   "time": "20:00",
   "title": "SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt",
@@ -29,6 +18,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/",
+  "city": "ljubljana",
+  "source": "kinosiska"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "11:00",
+  "title": "sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče",
+  "venue": "lj-kinosiska",
+  "genre": "",
+  "price": "",
+  "url": "https://www.kinosiska.si/dogodek/sub_bar-taktilna-zvocna-izkusnja-za-gluhe-in-slisece/",
   "city": "ljubljana",
   "source": "kinosiska"
  }

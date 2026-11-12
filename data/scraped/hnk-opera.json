@@ -198,6 +198,61 @@
   "source": "hnk-opera"
  },
  {
+  "date": "2027-02-05",
+  "time": "19:30",
+  "title": "Saloma",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/saloma/#05.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-06",
+  "time": "18:00",
+  "title": "Saloma",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/saloma/#06.02.18.00",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-08",
+  "time": "19:30",
+  "title": "Saloma",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/saloma/#08.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-10",
+  "time": "19:30",
+  "title": "Saloma",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/saloma/#10.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-12",
+  "time": "19:30",
+  "title": "Saloma",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/saloma/#12.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
   "date": "2026-11-27",
   "time": "19:00",
   "title": "Orašar",

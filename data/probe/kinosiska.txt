@@ -1,10 +1,10 @@
 title: Kino Šiška – Center urbane kulture
 jsonld types: 
-<tr class=> 11. 11. / 20:00 Kino Šiška Rijeka–Paris–Texas II Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/rijeka-paris-texas-ii/
 <tr class=> 12. 11. / 20:00 dvorana Katedrala SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/[…]/
 <tr class=> 13. 11. / 19:30 dvorana Katedrala ŠPIL LIGA: 1. večer 14. sezone Glasba vstop prost | https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/
 <tr class=> 13. 11. / 20:30 Hangar Teatri Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/[…]/
 <tr class=> 15. 11. / 16:00 dvorana Katedrala 37. LIFFE V KINU ŠIŠKA Film Nakup vstopnice | https://www.kinosiska.si/dogodek/37-liffe-v-kinu-siska/
+<tr class=> 19. 11. / 11:00 dvorana Katedrala sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Glasba vstop prost | https://www.kinosiska.si/dogodek/[…]/
 <a class=no-hover> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <div class=card-event-full-width> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
 <div class=header> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
@@ -28,14 +28,14 @@ jsonld types:
 <a class=no-hover> Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | https://www.kinosiska.si/dogodek/dogodki-v-dobrivagi/
 <article class=card-event-small> Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | 
 <div class=content.pass-on-hover> 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | 
-<div class=col-md-4.mt-1> Glasba 11. 11. / sre  / 20:00 Rijeka–Paris–Texas II Koncert The Siids & Chasing Nord & Turisti & Mr.Lee & IvaneSky | https://www.kinosiska.si/dogodek/rijeka-paris-texas-ii/
-<a class=no-hover> Glasba 11. 11. / sre  / 20:00 Rijeka–Paris–Texas II Koncert The Siids & Chasing Nord & Turisti & Mr.Lee & IvaneSky | https://www.kinosiska.si/dogodek/rijeka-paris-texas-ii/
-<article class=card-event-small> Glasba 11. 11. / sre  / 20:00 Rijeka–Paris–Texas II Koncert The Siids & Chasing Nord & Turisti & Mr.Lee & IvaneSky | 
-<div class=content.pass-on-hover> 11. 11. / sre  / 20:00 Rijeka–Paris–Texas II Koncert The Siids & Chasing Nord & Turisti & Mr.Lee & IvaneSky | 
-<div class=col-md-4.mt-1> Film 15. 11. / ned  / 16:00 37. LIFFE V KINU ŠIŠKA Ljubljanski mednarodni filmski festival | https://www.kinosiska.si/dogodek/37-liffe-v-kinu-siska/
-<a class=no-hover> Film 15. 11. / ned  / 16:00 37. LIFFE V KINU ŠIŠKA Ljubljanski mednarodni filmski festival | https://www.kinosiska.si/dogodek/37-liffe-v-kinu-siska/
-<article class=card-event-small> Film 15. 11. / ned  / 16:00 37. LIFFE V KINU ŠIŠKA Ljubljanski mednarodni filmski festival | 
-<div class=content.pass-on-hover> 15. 11. / ned  / 16:00 37. LIFFE V KINU ŠIŠKA Ljubljanski mednarodni filmski festival | 
+<div class=col-md-4.mt-1> Glasba 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/
+<a class=no-hover> Glasba 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/
+<article class=card-event-small> Glasba 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | 
+<div class=content.pass-on-hover> 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | 
+<div class=col-md-4.mt-1> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | https://www.kinosiska.si/dogodek/[…]/
+<a class=no-hover> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | https://www.kinosiska.si/dogodek/[…]/
+<article class=card-event-small> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | 
+<div class=content.pass-on-hover> 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | 
 <div class=col-md-8.mt-1> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <a class=no-hover> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <div class=card-event-featured> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 

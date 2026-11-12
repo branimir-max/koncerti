@@ -1,23 +1,5 @@
 title: Planet Music & Media
 jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebPage, Person, ImageObject, Article
-<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
-<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € DAD HARMONY | 
-<div class=pl-date> Mi., 11. November 2026 | 
-<div class=pl-thumbnail> Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
-<div class=pl-thumb-desc> Mi., 11. November 2026 Tour '26 Beginn: 20:00 Uhr Vorverkauf: 47,95 € | 
-<div class=pl-date> Mi., 11. November 2026 | 
-<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr MURDA Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
-<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr MURDA | 
-<div class=pl-date> Mi., 11. November 2026 | 
-<div class=pl-thumbnail> Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
-<div class=pl-thumb-desc> Mi., 11. November 2026 Abgesagt UZAY-Tour Beginn: 20:00 Uhr | 
-<div class=pl-date> Mi., 11. November 2026 | 
-<div class=pl-card> Mi., 11. November 2026 Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr STVW Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
-<div class=pl-card-front.pl-pointer> Mi., 11. November 2026 Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr STVW | 
-<div class=pl-date> Mi., 11. November 2026 | 
-<div class=pl-thumbnail> Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
-<div class=pl-thumb-desc> Mi., 11. November 2026 Verlegt Punk Rave Europe Tour 2026 Beginn: 20:00 Uhr | 
-<div class=pl-date> Mi., 11. November 2026 | 
 <div class=pl-card> Do., 12. November 2026 Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € DRUHA RIKA 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € | 
 <div class=pl-card-front.pl-pointer> Do., 12. November 2026 Do., 12. November 2026 30 Years - Europe Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 45,50 € DRUHA RIKA | 
 <div class=pl-date> Do., 12. November 2026 | 
@@ -30,4 +12,21 @@ jsonld types: ImageObject, ImageObject, WebSite, SearchAction, ImageObject, WebP
 <div class=pl-thumbnail> Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € | 
 <div class=pl-thumb-desc> Fr., 13. November 2026 ...back for a 21 gun salute ! Beginn: 20:00 Uhr Vorverkauf: 22,00 € | 
 <div class=pl-date> Fr., 13. November 2026 | 
+<div class=pl-card> Sa., 14. November 2026 Sa., 14. November 2026 Beginn: 20:00 Uhr Vorverkauf: 54,99 € JOSÉ GONZÁLEZ Beginn: 20:00 Uhr Vorverkauf: 54,99 € | 
+<div class=pl-card-front.pl-pointer> Sa., 14. November 2026 Sa., 14. November 2026 Beginn: 20:00 Uhr Vorverkauf: 54,99 € JOSÉ GONZÁLEZ | 
+<div class=pl-date> Sa., 14. November 2026 | 
+<div class=pl-thumbnail> Sa., 14. November 2026 Beginn: 20:00 Uhr Vorverkauf: 54,99 € | 
+<div class=pl-thumb-desc> Sa., 14. November 2026 Beginn: 20:00 Uhr Vorverkauf: 54,99 € | 
+<div class=pl-date> Sa., 14. November 2026 | 
+<div class=pl-card-front.pl-pointer> Sa., 14. November 2026 Sa., 14. November 2026 Verschoben HASSIAS - Er ist wieder da. Und er hasst euch noch immer Beginn: 20:00 Uhr SERDAR SOMUNCU | 
+<div class=pl-date> Sa., 14. November 2026 | 
+<div class=pl-thumbnail> Sa., 14. November 2026 Verschoben HASSIAS - Er ist wieder da. Und er hasst euch noch immer Beginn: 20:00 Uhr | 
+<div class=pl-thumb-desc> Sa., 14. November 2026 Verschoben HASSIAS - Er ist wieder da. Und er hasst euch noch immer Beginn: 20:00 Uhr | 
+<div class=pl-date> Sa., 14. November 2026 | 
+<div class=pl-card> Sa., 14. November 2026 Sa., 14. November 2026 Endgegner - Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 34,99 € SCHATTENMANN Endgegner - Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 34,99 € | 
+<div class=pl-card-front.pl-pointer> Sa., 14. November 2026 Sa., 14. November 2026 Endgegner - Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 34,99 € SCHATTENMANN | 
+<div class=pl-date> Sa., 14. November 2026 | 
+<div class=pl-thumbnail> Sa., 14. November 2026 Endgegner - Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 34,99 € | 
+<div class=pl-thumb-desc> Sa., 14. November 2026 Endgegner - Tour 2026 Beginn: 20:00 Uhr Vorverkauf: 34,99 € | 
+<div class=pl-date> Sa., 14. November 2026 | 
 poveznice (0): 
