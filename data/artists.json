@@ -83,6 +83,11 @@
   "query": "2. Božični koncert",
   "v": 2
  },
+ "20 bozicni koncert": {
+  "checked": "2026-11-13",
+  "query": "20. Božični koncert",
+  "v": 2
+ },
  "25 babyexpo": {
   "checked": "2026-11-11",
   "query": "25. BabyExpo",
@@ -1853,6 +1858,11 @@
   "mbid": "60e8e938-365e-4429-a141-4c79eb49588d",
   "name": "Chelsea Wolfe",
   "query": "Chelsea Wolfe",
+  "v": 2
+ },
+ "cherry flavoured predstavlja prvenec akt": {
+  "checked": "2026-11-13",
+  "query": "Cherry Flavoured predstavlja prvenec AKT",
   "v": 2
  },
  "ches smith clone row": {
@@ -5033,6 +5043,11 @@
   "checked": "2026-11-08",
   "query": "Jura Stublić"
  },
+ "k i z nur fur frauen 2027": {
+  "checked": "2026-11-13",
+  "query": "K.I.Z nur für Frauen 2027",
+  "v": 2
+ },
  "k osz disco 3bday w": {
   "checked": "2026-11-10",
   "query": "K-osz Disco 3BDAY W",
@@ -7029,6 +7044,11 @@
   "query": "Molnár Tamás ✶ December 27",
   "v": 2
  },
+ "monika gruber 16 03 2027 18 03 2027 halle f": {
+  "checked": "2026-11-13",
+  "query": "Monika Gruber 16.03.2027–18.03.2027 Halle F",
+  "v": 2
+ },
  "monika herzig": {
   "checked": "2026-11-09",
   "country": "DE",
@@ -8710,6 +8730,11 @@
   "query": "RIN Neuer Termin",
   "v": 2
  },
+ "riot": {
+  "checked": "2026-11-13",
+  "query": "Riot",
+  "v": 2
+ },
  "rise": {
   "checked": "2026-11-09",
   "query": "Rise",
@@ -8801,6 +8826,11 @@
   "mbid": "d006fbef-d230-4082-863a-2d779b6848d4",
   "name": "Rómeó vérzik",
   "query": "Rómeó Vérzik",
+  "v": 2
+ },
+ "rostiljarka live 2026": {
+  "checked": "2026-11-13",
+  "query": "Roštiljarka Live 2026",
   "v": 2
  },
  "rotting christ": {
@@ -9222,6 +9252,11 @@
   "query": "Serenity",
   "v": 2
  },
+ "seun kuti": {
+  "checked": "2026-11-13",
+  "query": "Seun Kuti",
+  "v": 2
+ },
  "shantel": {
   "checked": "2026-11-10",
   "country": "DE",
@@ -9264,6 +9299,11 @@
   "mbid": "69fc8c8e-552c-4fac-b91b-e220fd0650fe",
   "name": "Shen Yun",
   "query": "Shen Yun",
+  "v": 2
+ },
+ "shift happens": {
+  "checked": "2026-11-13",
+  "query": "Shift_happens",
   "v": 2
  },
  "shkodra elektronike": {
@@ -9667,6 +9707,23 @@
   "query": "Sólstafir",
   "v": 2
  },
+ "sombr": {
+  "checked": "2026-11-13",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/145468192",
+   "instagram": "https://www.instagram.com/somb.r/",
+   "soundcloud": "https://soundcloud.com/sombrsongs",
+   "spotify": "https://open.spotify.com/artist/4G9NDjRyZFDlJKMRL8hx3S",
+   "web": "https://www.sombrmusic.com/",
+   "youtube": "https://www.youtube.com/channel/UCXlqFQmZZOb78teSnAqhuwA"
+  },
+  "mbid": "502cf908-9921-48bc-bf0e-265c881c0156",
+  "name": "sombr",
+  "query": "SOMBR",
+  "v": 2
+ },
  "son lux": {
   "checked": "2026-11-09",
   "country": "",
@@ -9749,6 +9806,18 @@
   "query": "Sophie Hassfurther",
   "v": 2
  },
+ "sophy": {
+  "checked": "2026-11-13",
+  "country": "PR",
+  "genre": "",
+  "links": {
+   "facebook": "https://www.facebook.com/Sophy-De-Puerto-Rico-107163603112670"
+  },
+  "mbid": "c503fc13-aaa6-418f-be95-e6a3bad35f2f",
+  "name": "Sophy",
+  "query": "Sophy",
+  "v": 2
+ },
  "sos 2": {
   "checked": "2026-11-10",
   "query": "SOS 2",
@@ -9770,6 +9839,11 @@
  "soyuz in zagreb": {
   "checked": "2026-11-08",
   "query": "Soyuz In Zagreb"
+ },
+ "space unicorn on fire": {
+  "checked": "2026-11-13",
+  "query": "Space Unicorn on Fire",
+  "v": 2
  },
  "special efx": {
   "checked": "2026-11-09",
@@ -10196,6 +10270,24 @@
  "technokunst pres acidmoon w": {
   "checked": "2026-11-09",
   "query": "Technokunst pres. Acidmoon w",
+  "v": 2
+ },
+ "teddy swims": {
+  "checked": "2026-11-13",
+  "country": "US",
+  "genre": "pop",
+  "links": {
+   "bandcamp": "https://teddyswims.bandcamp.com/",
+   "deezer": "https://www.deezer.com/artist/64927672",
+   "facebook": "https://www.facebook.com/teddyswims404",
+   "instagram": "https://www.instagram.com/teddyswims/",
+   "spotify": "https://open.spotify.com/artist/33qOK5uJ8AR2xuQQAhHump",
+   "web": "https://teddyswims.com/",
+   "youtube": "https://www.youtube.com/channel/UCb-ikMqe9iS8GjG7WgGwCrQ"
+  },
+  "mbid": "35feae82-8b2c-4f8f-ae7a-af5662848947",
+  "name": "Teddy Swims",
+  "query": "Teddy Swims",
   "v": 2
  },
  "teeth marks vendegek": {
@@ -11579,6 +11671,24 @@
  "wednesday night prayer orchestra grande finale": {
   "checked": "2026-11-11",
   "query": "Wednesday Night Prayer Orchestra 'Grande Finale'",
+  "v": 2
+ },
+ "wellhello": {
+  "checked": "2026-11-13",
+  "country": "HU",
+  "genre": "",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/1066094",
+   "facebook": "https://www.facebook.com/elnokok",
+   "instagram": "https://www.instagram.com/wellhello_hivatalos/",
+   "soundcloud": "https://soundcloud.com/wellhello-music",
+   "spotify": "https://open.spotify.com/artist/4URlJ0EofF5gUvCGDtxr3m",
+   "web": "http://www.wellhello.hu/",
+   "youtube": "https://www.youtube.com/channel/UC9yLH0K0gmzfxJH9HjQOe9g"
+  },
+  "mbid": "6aa3e6e3-a5f2-4d9e-a963-faee850162b1",
+  "name": "Wellhello",
+  "query": "Wellhello",
   "v": 2
  },
  "wesghost": {

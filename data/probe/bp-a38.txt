@@ -1,6 +1,5 @@
 title: Events - A38 Ship
 jsonld types: 
-<div class=md:min-w-40> Thursday Nov 12. | 
 <div class=md:min-w-40> Friday Nov 13. | 
 <div class=md:min-w-40> Saturday Nov 14. | 
 <div class=md:min-w-40> Tuesday Nov 17. | 
@@ -24,6 +23,8 @@ jsonld types:
 <div class=md:min-w-40> Thursday Dec 10. | 
 <div class=md:min-w-40> Friday Dec 11. | 
 <div class=md:min-w-40> Saturday Dec 12. | 
+<div class=flex.flex-col.md:flex-row> Monday Dec 14. 20:00 · Concert hall The Tiger Lillies (UK) Death catches up with us all, sooner or later. The Tiger Lillies, however, prefer to meet it halfway. Buy tickets | https://www.a38.hu/en/program/the-tiger-lillies-uk-32186
+<div class=md:min-w-40> Monday Dec 14. | 
 <div class=md:min-w-40> Thursday Dec 17. | 
 <div class=md:min-w-40> Friday Dec 18. | 
 <div class=md:min-w-40> Saturday Dec 19. | 
@@ -59,5 +60,4 @@ jsonld types:
 <div class=card-content.text-left> Sports (US) / special guest: P... 2026 Nov 6. | 
 <li class=glide__slide> Call Me Karizma (US) 2026 Nov 5. | https://www.a38.hu/en/picture-gallery/call-me-karizma-us
 <a class=hover-zoom-container.block.cursor-pointer> Call Me Karizma (US) 2026 Nov 5. | https://www.a38.hu/en/picture-gallery/call-me-karizma-us
-<div class=bg-blue-5/50.flex.flex-col> Call Me Karizma (US) 2026 Nov 5. | 
 poveznice (114): https://ec.europa.eu/programmes/creative-europe/ https://www.a38.hu/en/event-organizing https://www.a38.hu/en/ical/programs https://www.a38.hu/en/program/agi-es-a-fiuk-hu https://www.a38.hu/en/program/agi-es-a-fiuk-hu?#!checkout https://www.a38.hu/en/program/allah-las-us-32318 https://www.a38.hu/en/program/allah-las-us-32318?#!checkout https://www.a38.hu/en/program/anima-sound-system-32105 https://www.a38.hu/en/program/anima-sound-system-32105?#!checkout https://www.a38.hu/en/program/arab-strap https://www.a38.hu/en/program/arab-strap?#!checkout https://www.a38.hu/en/program/aranyakkord-hu-32647 https://www.a38.hu/en/program/aranyakkord-hu-32647?#!checkout https://www.a38.hu/en/program/baby-lasagna-hr https://www.a38.hu/en/program/baby-lasagna-hr?#!checkout https://www.a38.hu/en/program/bad-bunny-party-32218 https://www.a38.hu/en/program/bad-bunny-party-32218?#!checkout https://www.a38.hu/en/program/bed-by-10pm-uk https://www.a38.hu/en/program/bed-by-10pm-uk?#!checkout https://www.a38.hu/en/program/[…] https://www.a38.hu/en/program/[…]?#!checkout https://www.a38.hu/en/program/[…] https://www.a38.hu/en/program/[…]?#!checkout https://www.a38.hu/en/program/budapest-bar-hu-32378 https://www.a38.hu/en/program/budapest-bar-hu-32378?#!checkout

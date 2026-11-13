@@ -800,6 +800,15 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/shift_happens-after-w-loripop/": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/skeler-nightfall-world-tour/": {
   "checked": "2026-11-10",
   "clean": {
@@ -949,6 +958,15 @@
  },
  "https://akvariumklub.hu/programok/wannabe-best-of-90s-00s-11-21/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
+ "https://akvariumklub.hu/programok/wellhello-sunday-funday/": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/akvariumklub/",
@@ -1530,6 +1548,14 @@
    "instagram": "https://www.instagram.com/core_event/"
   }
  },
+ "https://core-event.co/events/kocani-orkestar-u-pogonu-2f29/": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/pogonkulturerijeka/"
+  }
+ },
  "https://core-event.co/events/koncert-marka-vukesa-b70f": {
   "checked": "2026-11-09",
   "clean": {
@@ -1726,6 +1752,16 @@
    "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
+ "https://core-event.co/events/nova-events-podmornica-0728/": {
+  "checked": "2026-11-13",
+  "clean": {
+   "instagram": "https://www.instagram.com/novaevents.cro"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/novaevents.cro"
+  }
+ },
  "https://core-event.co/events/nova-events-podmornica-93e8/": {
   "checked": "2026-11-09",
   "clean": {
@@ -1917,6 +1953,14 @@
   "links": {
    "facebook": "https://www.facebook.com/MusicMissionVision/",
    "instagram": "https://www.instagram.com/kazaliste_knap/"
+  }
+ },
+ "https://core-event.co/events/seun-kuti-egypt-80-u-tvornici-kulture-0028": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/share.php",
+   "instagram": "https://www.instagram.com/tvornicakulture/"
   }
  },
  "https://core-event.co/events/shtosmo-u-tvornici-945f": {
@@ -2211,6 +2255,14 @@
  },
  "https://dvaosam.com/event-detail/6ad21144ff5b73d20d2f0262/": {
   "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/jabuka2.8",
+   "instagram": "https://www.instagram.com/jabuka2.8"
+  }
+ },
+ "https://dvaosam.com/event-detail/6ad89ce9af4ecaea55cec030/": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/jabuka2.8",
@@ -2665,6 +2717,19 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://mochvara.hr/event-detail/6ab51108f11bc39a84ef59cf/": {
+  "checked": "2026-11-13",
+  "clean": {
+   "instagram": "https://www.instagram.com/iduhobiti/",
+   "spotify": "https://open.spotify.com/artist/4UNtCM8znVIMIuC0ZJuWpu"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/iduhobiti/",
+   "spotify": "https://open.spotify.com/artist/4UNtCM8znVIMIuC0ZJuWpu",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
  "https://mochvara.hr/event-detail/6aba39cd285befa19b3eba6d/": {
   "checked": "2026-11-09",
   "clean": {
@@ -2724,6 +2789,21 @@
   "links": {
    "facebook": "https://www.facebook.com/mochvara",
    "instagram": "https://www.instagram.com/voltage.punk/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
+ "https://mochvara.hr/event-detail/6ad0bb06bd7ade09d875b314/": {
+  "checked": "2026-11-13",
+  "clean": {
+   "bandcamp": "https://picastro.bandcamp.com/album/double-on-time",
+   "instagram": "https://www.instagram.com/gallti___/",
+   "spotify": "https://open.spotify.com/artist/1TTJJzHdc6IWChZrVpkr4k"
+  },
+  "links": {
+   "bandcamp": "https://picastro.bandcamp.com/album/double-on-time",
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/gallti___/",
+   "spotify": "https://open.spotify.com/artist/1TTJJzHdc6IWChZrVpkr4k",
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
@@ -3151,6 +3231,15 @@
  },
  "https://www.a38.hu/en/program/the-devotees-hu-32432": {
   "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/a38.hajo",
+   "instagram": "https://www.instagram.com/a38ship/",
+   "youtube": "https://www.youtube.com/user/A38Captain"
+  }
+ },
+ "https://www.a38.hu/en/program/the-tiger-lillies-uk-32186": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/a38.hajo",
@@ -6336,6 +6425,15 @@
    "youtube": "https://www.youtube.com/@TheFestivalLjubljana"
   }
  },
+ "https://www.ljubljanafestival.si/sl/koledar-dogodkov/25188-20-bozicni-koncert-glasbena-sola-vic-rudnik": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/LjubljanaFestival",
+   "instagram": "https://www.instagram.com/festival_ljubljana",
+   "youtube": "https://www.youtube.com/@TheFestivalLjubljana"
+  }
+ },
  "https://www.ljubljanafestival.si/sl/koledar-dogodkov/25190-najboljsi-prijateljici": {
   "checked": "2026-11-10",
   "clean": {},
@@ -6377,6 +6475,14 @@
    "instagram": "https://www.instagram.com/orto_bar_slovenija/"
   }
  },
+ "https://www.orto-bar.com/dogodki/koncerti/cherry-flavoured-predstavlja-prvenec-akt/": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/noplacelikeorto",
+   "instagram": "https://www.instagram.com/orto_bar_slovenija/"
+  }
+ },
  "https://www.orto-bar.com/dogodki/koncerti/lizberries-the-cranberries-tribute-band/": {
   "checked": "2026-11-10",
   "clean": {},
@@ -6387,6 +6493,22 @@
  },
  "https://www.orto-bar.com/dogodki/koncerti/plateauranr/": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/noplacelikeorto",
+   "instagram": "https://www.instagram.com/orto_bar_slovenija/"
+  }
+ },
+ "https://www.orto-bar.com/dogodki/koncerti/sophy/": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/noplacelikeorto",
+   "instagram": "https://www.instagram.com/orto_bar_slovenija/"
+  }
+ },
+ "https://www.orto-bar.com/dogodki/koncerti/space-unicorn-on-fire-bigbadwolf/": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/noplacelikeorto",
@@ -6685,6 +6807,11 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/50948/Tokio-Hotel": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/50967/Beatrice-Egli": {
   "checked": "2026-11-10",
   "clean": {},
@@ -6732,6 +6859,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51172/One-Vision-of-Queen": {
   "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51178/SANTIANO": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {}
  },
@@ -6865,6 +6997,11 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51308/Pitbull": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51318/Giovanni-Zarrella": {
   "checked": "2026-11-11",
   "clean": {},
@@ -6882,6 +7019,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51330/KoRn": {
   "checked": "2026-11-10",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51332/Monika-Gruber": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {}
  },
@@ -7075,6 +7217,11 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51460/KIZ-quotnur-fuer-Frauenquot-2027": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51462/The-Music-in-Me": {
   "checked": "2026-11-12",
   "clean": {},
@@ -7110,6 +7257,11 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51480/Teddy-Swims": {
+  "checked": "2026-11-13",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51484/Konstantinos-Argiros": {
   "checked": "2026-11-10",
   "clean": {},
@@ -7127,6 +7279,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51494/Montez": {
   "checked": "2026-11-12",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51498/SOMBR-You-Are-The-Reason-Tour-VIENNA": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {}
  },
@@ -7347,6 +7504,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51606/Sabri-Fejzullahu": {
   "checked": "2026-11-11",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51608/RIOT-amp-BREW-Fest": {
+  "checked": "2026-11-13",
   "clean": {},
   "links": {}
  },

@@ -1,9 +1,9 @@
 {
- "run_at": "2026-11-12T12:40:50+00:00",
+ "run_at": "2026-11-13T12:10:40+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
-   "count": 148
+   "count": 147
   },
   "tvornica": {
    "ok": true,
@@ -27,7 +27,7 @@
   },
   "vintage": {
    "ok": true,
-   "count": 5
+   "count": 4
   },
   "pogon": {
    "ok": true,
@@ -36,7 +36,7 @@
   },
   "ulaznice": {
    "ok": true,
-   "count": 62
+   "count": 61
   },
   "coreevent": {
    "ok": true,
@@ -44,7 +44,7 @@
   },
   "hnk-opera": {
    "ok": true,
-   "count": 46
+   "count": 45
   },
   "hnk-koncert": {
    "ok": true,
@@ -62,7 +62,7 @@
   },
   "wi-flex": {
    "ok": true,
-   "count": 32
+   "count": 30
   },
   "wi-planet": {
    "ok": true,
@@ -71,7 +71,7 @@
   },
   "wi-stadthalle": {
    "ok": true,
-   "count": 135
+   "count": 144
   },
   "wi-wuk": {
    "ok": true,
@@ -79,11 +79,11 @@
   },
   "wi-porgy": {
    "ok": true,
-   "count": 182
+   "count": 181
   },
   "bp-akvarium": {
    "ok": true,
-   "count": 92
+   "count": 93
   },
   "bp-budapestpark": {
    "ok": true,
@@ -103,7 +103,7 @@
   },
   "lj-cd": {
    "ok": true,
-   "count": 52
+   "count": 51
   },
   "hangtime": {
    "ok": true,
@@ -130,7 +130,7 @@
   },
   "mb-narodnidom": {
    "ok": true,
-   "count": 0,
+   "count": 17,
    "note": "samo proba"
   },
   "mb-stuk": {
@@ -150,7 +150,7 @@
   },
   "pu-tz": {
    "ok": true,
-   "count": 29
+   "count": 31
   },
   "pu-ink": {
    "ok": true,
@@ -163,7 +163,7 @@
   },
   "orto": {
    "ok": true,
-   "count": 5
+   "count": 7
   }
  }
 }

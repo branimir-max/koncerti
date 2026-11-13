@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "time": "20:00",
-  "title": "Officium Triste, The Answer Lies In The Black Void, Mortajas",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6aa1db893b0465ffa82fbb2b/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
   "date": "2026-11-13",
   "time": "21:00",
   "title": "Artifacts Trio, Eksterminator '81",
@@ -29,17 +18,6 @@
   "genre": "dj",
   "price": "",
   "url": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
-  "date": "2026-11-14",
-  "time": "18:00",
-  "title": "Ana Fazekaš, Rebeka Petković",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6af5acef6f44c2a5708a838d/",
   "city": "zagreb",
   "source": "mocvara"
  },
@@ -106,6 +84,28 @@
   "genre": "dj",
   "price": "",
   "url": "https://mochvara.hr/event-detail/6ac8ad71653eb342985b8702/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "21:00",
+  "title": "Idu Hobiti – promocija albuma \"Idu Dalje\"",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ab51108f11bc39a84ef59cf/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-22",
+  "time": "21:00",
+  "title": "Picastro, GALLT1",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6ad0bb06bd7ade09d875b314/",
   "city": "zagreb",
   "source": "mocvara"
  },

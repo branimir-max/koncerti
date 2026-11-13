@@ -1,12 +1,8 @@
 title: HNK - Opera
 jsonld types: 
-bez prepoznatih datuma; html bytes=451472
+bez prepoznatih datuma; html bytes=451667
 api/json hints: /hr/raspored/, /hr/raspored/?predstava=aida-nova, /hr/raspored/?predstava=cabaret, /hr/raspored/?predstava=ero-s-onoga-svijeta, /hr/raspored/?predstava=godine, /hr/raspored/?predstava=idealan-muž, /hr/raspored/?predstava=iza-kulisa, /hr/raspored/?predstava=kazimirs-colours-rossini-cards, /hr/raspored/?predstava=la-bohème, /hr/raspored/?predstava=maria-stuart, /hr/raspored/?predstava=[…], /hr/raspored/?predstava=nikola-šubić-zrinjski, /hr/raspored/?predstava=orašarr2025, /hr/raspored/?predstava=raseljene, /hr/raspored/?predstava=razgovori-karmelićanki
 <select class=third.filter-select> Sve kategorije Opera Drama Balet Koncert Ostalo ZAGREBAČKI OPERNI FESTIVAL HNK2 HNK2EU
-<div class=item.keep-img-ratio> Čet 12 Opera Jakov Gotovac Ero s onoga svijeta Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Rasprodano
-<h4 class=date> Čet 12
-<div class=content-wrapper> Opera Jakov Gotovac Ero s onoga svijeta Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Rasprodano
-<div class=tickets> Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Rasprodano
 <div class=item.keep-img-ratio> Pon 16 Opera Peter Lund Vještica Hillary ide u operu Gostovanje u HNK u Varaždinu u sklopu K-HNK Gostovanje 11:00 Gostovanje
 <h4 class=date> Pon 16
 <div class=content-wrapper> Opera Peter Lund Vještica Hillary ide u operu Gostovanje u HNK u Varaždinu u sklopu K-HNK Gostovanje 11:00 Gostovanje
@@ -62,4 +58,8 @@ api/json hints: /hr/raspored/, /hr/raspored/?predstava=aida-nova, /hr/raspored/?
 <div class=content-wrapper> Opera Giuseppe Verdi Aida Glavna pozornica HNK 19:30 Glavna pozornica HNK Pretplata 14 Ulaznice u slobodnoj prodaji Kupi ulaznice
 <div class=tickets> Glavna pozornica HNK 19:30 Glavna pozornica HNK Pretplata 14 Ulaznice u slobodnoj prodaji Kupi ulaznice
 <span class=subscription> Pretplata 14
+<div class=item.keep-img-ratio> Sri 13 Opera Giuseppe Verdi Aida Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Kupi ulaznice
+<h4 class=date> Sri 13
+<div class=content-wrapper> Opera Giuseppe Verdi Aida Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Kupi ulaznice
+<div class=tickets> Glavna pozornica HNK 19:30 Glavna pozornica HNK Ulaznice u slobodnoj prodaji Kupi ulaznice
 poveznice (1): /hr/informacije/posebni-programi/

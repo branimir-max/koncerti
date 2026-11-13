@@ -1,9 +1,5 @@
 title: Programok • Akvárium
 jsonld types: CollectionPage, BreadcrumbList, ListItem, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject
-<a class=grid-item.m-card.november> Nov. 12. csütörtök BP Clothing 15. Birthday Party – MEHRINGER // 11.12. | https://akvariumklub.hu/programok/[…]/
-<div class=m-card__date.override-bg.override-color> Nov. 12. csütörtök | 
-<div class=m-card__inner-wrapper> BP Clothing 15. Birthday Party – MEHRINGER // 11.12. | 
-<div class=m-card__description> BP Clothing 15. Birthday Party – MEHRINGER // 11.12. | 
 <a class=grid-item.m-card.november> Nov. 13. péntek F.O. System XL | https://akvariumklub.hu/programok/f-o-system-xl/
 <div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
 <a class=grid-item.m-card.november> Nov. 13. péntek kisbetűs ünnepnapok x ARCOSOK // dupla lemezbemutató koncert | https://akvariumklub.hu/programok/[…]/
@@ -48,6 +44,8 @@ jsonld types: CollectionPage, BreadcrumbList, ListItem, ListItem, WebSite, Searc
 <div class=m-card__date.override-bg.override-color> Nov. 21. szombat | 
 <a class=grid-item.m-card.november> Nov. 21. szombat Pál Utcai Fiúk vendég: The Pontiac | https://akvariumklub.hu/programok/[…]/
 <div class=m-card__date.override-bg.override-color> Nov. 21. szombat | 
+<a class=grid-item.m-card.november> Nov. 21. szombat SHIFT_HAPPENS/ AFTER w. LORIPOP | https://akvariumklub.hu/programok/shift_happens-after-w-loripop/
+<div class=m-card__date.override-bg.override-color> Nov. 21. szombat | 
 <a class=grid-item.m-card.november> Nov. 21. szombat Wannabe – Best of ’90S + ’00S // 11.21. | https://akvariumklub.hu/programok/wannabe-best-of-90s-00s-11-21/
 <div class=m-card__date.override-bg.override-color> Nov. 21. szombat | 
 <a class=grid-item.m-card.november> Nov. 22. vasárnap Ez az a nap! Worship Night: Hillsong London Worship x Éden | https://akvariumklub.hu/programok/[…]/
@@ -60,4 +58,6 @@ jsonld types: CollectionPage, BreadcrumbList, ListItem, ListItem, WebSite, Searc
 <div class=m-card__date.override-bg.override-color> Nov. 28. szombat | 
 <a class=grid-item.m-card.november> Nov. 28. szombat FILO – Minden elmúlik lemezbemutató | https://akvariumklub.hu/programok/[…]/
 <div class=m-card__date.override-bg.override-color> Nov. 28. szombat | 
-poveznice (114): https://akvariumklub.hu/en/events/ https://akvariumklub.hu/programok/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/ana-moura/ https://akvariumklub.hu/programok/andrea-vanzo-ultetett/ https://akvariumklub.hu/programok/andrea-vanzo/ https://akvariumklub.hu/programok/apollo-brown-x-skyzoo/ https://akvariumklub.hu/programok/artur-rambo/ https://akvariumklub.hu/programok/balkan-vip/ https://akvariumklub.hu/programok/belano/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bladerunnaz-pres-mozey/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bongor-az-utolso-extazis/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/cloud-9-15-szulinap/ https://akvariumklub.hu/programok/dead-poet-society/ https://akvariumklub.hu/programok/deep-forest/ https://akvariumklub.hu/programok/dirty-honey-budapest-2027/ https://akvariumklub.hu/programok/eagle-eye-cherry-budapest-2026/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/edm-2010-x-avicii-forever-party/
+<a class=grid-item.m-card.november> Nov. 28. szombat JAMBALAYA New Orleans Music Show | https://akvariumklub.hu/programok/[…]/
+<div class=m-card__date.override-bg.override-color> Nov. 28. szombat | 
+poveznice (116): https://akvariumklub.hu/en/events/ https://akvariumklub.hu/programok/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/ana-moura/ https://akvariumklub.hu/programok/andrea-vanzo-ultetett/ https://akvariumklub.hu/programok/andrea-vanzo/ https://akvariumklub.hu/programok/apollo-brown-x-skyzoo/ https://akvariumklub.hu/programok/artur-rambo/ https://akvariumklub.hu/programok/balkan-vip/ https://akvariumklub.hu/programok/belano/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bladerunnaz-pres-mozey/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bongor-az-utolso-extazis/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/cloud-9-15-szulinap/ https://akvariumklub.hu/programok/dead-poet-society/ https://akvariumklub.hu/programok/deep-forest/ https://akvariumklub.hu/programok/dirty-honey-budapest-2027/ https://akvariumklub.hu/programok/eagle-eye-cherry-budapest-2026/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/edm-2010-x-avicii-forever-party/ https://akvariumklub.hu/programok/[…]/

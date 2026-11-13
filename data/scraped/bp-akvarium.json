@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-12-11",
-  "time": "",
-  "title": "BP Clothing 15. Birthday Party – MEHRINGER // 11.12.",
-  "venue": "bp-akvariumklub",
-  "genre": "dj",
-  "price": "",
-  "url": "https://akvariumklub.hu/programok/bp-clothing-15-birthday-party-mehringer-11-12/",
-  "city": "budimpesta",
-  "source": "bp-akvarium"
- },
- {
   "date": "2026-11-13",
   "time": "",
   "title": "F.O. System XL",
@@ -243,6 +232,17 @@
  },
  {
   "date": "2026-11-21",
+  "time": "",
+  "title": "Shift_happens/ After W. Loripop",
+  "venue": "bp-akvariumklub",
+  "genre": "",
+  "price": "",
+  "url": "https://akvariumklub.hu/programok/shift_happens-after-w-loripop/",
+  "city": "budimpesta",
+  "source": "bp-akvarium"
+ },
+ {
+  "date": "2026-11-21",
   "time": "11:21",
   "title": "Wannabe – Best of ’90S + ’00S // 11.21.",
   "venue": "bp-akvariumklub",
@@ -447,6 +447,17 @@
   "genre": "",
   "price": "",
   "url": "https://akvariumklub.hu/programok/secret-market-12-06/",
+  "city": "budimpesta",
+  "source": "bp-akvarium"
+ },
+ {
+  "date": "2026-12-06",
+  "time": "",
+  "title": "Wellhello – Sunday Funday",
+  "venue": "bp-akvariumklub",
+  "genre": "",
+  "price": "",
+  "url": "https://akvariumklub.hu/programok/wellhello-sunday-funday/",
   "city": "budimpesta",
   "source": "bp-akvarium"
  },

@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "time": "",
-  "title": "Amadej Štrajhar in Blaž Kozjek",
-  "venue": "lj-krizanke",
-  "genre": "",
-  "price": "",
-  "url": "https://www.ljubljanafestival.si/sl/koledar-dogodkov/24494-amadej-strajhar-in-blaz-kozjek",
-  "city": "ljubljana",
-  "source": "lj-festival"
- },
- {
   "date": "2026-11-19",
   "time": "",
   "title": "Oliver Hak in Igor Świątek",
@@ -249,6 +238,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.ljubljanafestival.si/sl/koledar-dogodkov/25183-19-bozicni-koncert-glasbena-sola-vic-rudnik",
+  "city": "ljubljana",
+  "source": "lj-festival"
+ },
+ {
+  "date": "2026-12-13",
+  "time": "",
+  "title": "20. Božični koncert: Glasbena šola Vič Rudnik",
+  "venue": "lj-krizanke",
+  "genre": "",
+  "price": "",
+  "url": "https://www.ljubljanafestival.si/sl/koledar-dogodkov/25188-20-bozicni-koncert-glasbena-sola-vic-rudnik",
   "city": "ljubljana",
   "source": "lj-festival"
  }

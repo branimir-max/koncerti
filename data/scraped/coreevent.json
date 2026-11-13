@@ -1,29 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "time": "20:00",
-  "title": "Klinika Denisa Kataneca",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kulture-d012/",
-  "city": "zagreb",
-  "venue_name": "TVORNICA KULTURE",
-  "source": "coreevent"
- },
- {
-  "date": "2026-11-12",
-  "time": "",
-  "title": "Kensington Lima - Drito Ispod",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/kensington-lima-drito-ispod-c73c/",
-  "city": "zagreb",
-  "venue_name": "Drito Ispod",
-  "source": "coreevent"
- },
- {
   "date": "2026-11-13",
   "time": "20:00",
   "title": "Clan of Xymox",
@@ -402,7 +378,7 @@
   "venue": "",
   "genre": "",
   "price": "",
-  "url": "https://core-event.co/events/nova-events-podmornica-93e8/",
+  "url": "https://core-event.co/events/nova-events-podmornica-0728/",
   "city": "zagreb",
   "venue_name": "Katran, Podmornica",
   "source": "coreevent"
@@ -1104,6 +1080,18 @@
   "source": "coreevent"
  },
  {
+  "date": "2027-01-16",
+  "time": "",
+  "title": "Kočani Orkestar",
+  "venue": "ri-pogon",
+  "genre": "klasika",
+  "price": "",
+  "url": "https://core-event.co/events/kocani-orkestar-u-pogonu-2f29/",
+  "city": "rijeka",
+  "venue_name": "Pogon",
+  "source": "coreevent"
+ },
+ {
   "date": "2027-01-21",
   "time": "20:00",
   "title": "The Black Wizards",
@@ -1159,6 +1147,18 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/daf-deutsch-amerikanische-freundschaft-0764/",
+  "city": "zagreb",
+  "venue_name": "TVORNICA KULTURE",
+  "source": "coreevent"
+ },
+ {
+  "date": "2027-02-11",
+  "time": "20:00",
+  "title": "Seun Kuti & Egypt 80",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/seun-kuti-egypt-80-u-tvornici-kulture-0028/",
   "city": "zagreb",
   "venue_name": "TVORNICA KULTURE",
   "source": "coreevent"

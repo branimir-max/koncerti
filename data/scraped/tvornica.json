@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "time": "20:00",
-  "title": "Klinika Denisa Kataneca",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/klinika-denisa-kataneca-u-tvornici-kulture-d012",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
   "date": "2026-11-13",
   "time": "20:00",
   "title": "Clan of Xymox",
@@ -29,6 +18,17 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2026-11-26",
+  "time": "20:00",
+  "title": "Nikola Vranjković",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921c",
   "city": "zagreb",
   "source": "tvornica"
  },
@@ -95,17 +95,6 @@
   "genre": "klasika",
   "price": "",
   "url": "https://core-event.co/events/koncert-marka-vukesa-b70f",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
-  "date": "2026-11-26",
-  "time": "20:00",
-  "title": "Nikola Vranjković",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/nikola-vranjkovic-u-tvornici-kulture-921c",
   "city": "zagreb",
   "source": "tvornica"
  },
@@ -260,6 +249,17 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/daf-deutsch-amerikanische-freundschaft-0764",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2027-02-11",
+  "time": "20:00",
+  "title": "Seun Kuti & Egypt 80",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/seun-kuti-egypt-80-u-tvornici-kulture-0028",
   "city": "zagreb",
   "source": "tvornica"
  },

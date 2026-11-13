@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-12",
-  "time": "",
-  "title": "Anomalo, Šalamun",
-  "venue": "lj-orto",
-  "genre": "",
-  "price": "12 €",
-  "url": "https://www.orto-bar.com/dogodki/koncerti/anomalo-salamun/",
-  "city": "ljubljana",
-  "source": "orto"
- },
- {
   "date": "2026-11-13",
   "time": "",
   "title": "Jugoslovanka Party",
@@ -27,7 +16,7 @@
   "title": "Bomb Shell",
   "venue": "lj-orto",
   "genre": "",
-  "price": "10–15 €",
+  "price": "15 €",
   "url": "https://www.orto-bar.com/dogodki/koncerti/bomb-shell/",
   "city": "ljubljana",
   "source": "orto"
@@ -51,6 +40,39 @@
   "genre": "",
   "price": "25 €",
   "url": "https://www.orto-bar.com/dogodki/koncerti/bands-without-borders-elvis-jackson-the-last-supper-blame-betty/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-18",
+  "time": "",
+  "title": "Cherry Flavoured predstavlja prvenec AKT",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/cherry-flavoured-predstavlja-prvenec-akt/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "",
+  "title": "Space Unicorn on Fire ,BigBadWolf",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "12–15 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/space-unicorn-on-fire-bigbadwolf/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "",
+  "title": "Sophy",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "8–12 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/sophy/",
   "city": "ljubljana",
   "source": "orto"
  }

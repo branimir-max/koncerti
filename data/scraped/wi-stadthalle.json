@@ -2,7 +2,7 @@
  {
   "date": "2026-11-13",
   "time": "",
-  "title": "Romeo & Julia",
+  "title": "Romeo & Julia Heute",
   "venue": "wi-stadthalle",
   "genre": "",
   "price": "",
@@ -13,7 +13,7 @@
  {
   "date": "2026-11-13",
   "time": "",
-  "title": "Jungle",
+  "title": "Jungle Heute",
   "venue": "wi-stadthalle",
   "genre": "",
   "price": "",
@@ -33,6 +33,17 @@
   "source": "wi-stadthalle"
  },
  {
+  "date": "2026-11-15",
+  "time": "",
+  "title": "Tokio Hotel",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/50948/Tokio-Hotel",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
   "date": "2026-11-18",
   "time": "",
   "title": "The Dark Tenor",
@@ -40,6 +51,28 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51218/The-Dark-Tenor",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2026-11-18",
+  "time": "",
+  "title": "Pitbull",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51308/Pitbull",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2026-11-19",
+  "time": "",
+  "title": "KoRn",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51330/KoRn",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -90,6 +123,17 @@
  {
   "date": "2026-11-24",
   "time": "",
+  "title": "Santiano",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51178/SANTIANO",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2026-11-24",
+  "time": "",
   "title": "The Prodigy",
   "venue": "wi-stadthalle",
   "genre": "",
@@ -106,6 +150,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51466/BONEZ-MC-amp-RAF-CAMORA",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2026-11-27",
+  "time": "",
+  "title": "Riot & Brew Fest",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51608/RIOT-amp-BREW-Fest",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -605,6 +660,17 @@
   "source": "wi-stadthalle"
  },
  {
+  "date": "2027-03-08",
+  "time": "",
+  "title": "K.I.Z \"nur für Frauen\" 2027",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51460/KIZ-quotnur-fuer-Frauenquot-2027",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
   "date": "2027-03-12",
   "time": "",
   "title": "Masters of Dirt",
@@ -612,6 +678,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51325/Masters-of-Dirt",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2027-03-16",
+  "time": "",
+  "title": "Monika Gruber 16.03.2027–18.03.2027 Halle F",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51332/Monika-Gruber",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -678,6 +755,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51424/Loreena-McKennitt",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2027-03-21",
+  "time": "",
+  "title": "Teddy Swims",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51480/Teddy-Swims",
   "city": "bec",
   "source": "wi-stadthalle"
  },
@@ -986,6 +1074,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.stadthalle.com/de/events/alle-events/51354/Peter-Kraus-amp-Mike-Kraus",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
+  "date": "2027-05-29",
+  "time": "",
+  "title": "SOMBR // You Are The Reason Tour // VIENNA",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51498/SOMBR-You-Are-The-Reason-Tour-VIENNA",
   "city": "bec",
   "source": "wi-stadthalle"
  },

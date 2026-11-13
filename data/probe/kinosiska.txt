@@ -1,10 +1,10 @@
 title: Kino Šiška – Center urbane kulture
 jsonld types: 
-<tr class=> 12. 11. / 20:00 dvorana Katedrala SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/[…]/
 <tr class=> 13. 11. / 19:30 dvorana Katedrala ŠPIL LIGA: 1. večer 14. sezone Glasba vstop prost | https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/
 <tr class=> 13. 11. / 20:30 Hangar Teatri Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/[…]/
 <tr class=> 15. 11. / 16:00 dvorana Katedrala 37. LIFFE V KINU ŠIŠKA Film Nakup vstopnice | https://www.kinosiska.si/dogodek/37-liffe-v-kinu-siska/
 <tr class=> 19. 11. / 11:00 dvorana Katedrala sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Glasba vstop prost | https://www.kinosiska.si/dogodek/[…]/
+<tr class=> 19. 11. / 20:00 dvorana Katedrala NIPPLEPEOPLE Glasba Nakup vstopnice | https://www.kinosiska.si/dogodek/nipplepeople/
 <a class=no-hover> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <div class=card-event-full-width> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
 <div class=header> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
@@ -12,18 +12,15 @@ jsonld types:
 <div class=row> 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
 <div class=col-md-8> 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
 <div class=information> 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
-<div class=col-md-8.mt-1> Glasba 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup | https://www.kinosiska.si/dogodek/[…]/
-<a class=no-hover> Glasba 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup | https://www.kinosiska.si/dogodek/[…]/
-<div class=card-event-featured> Glasba 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup | 
-<div class=header> Glasba 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup | 
-<div class=container.text-shadow.pointer-events-disable> 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup vstopn | 
-<div class=row> 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup vstopn | 
-<div class=col-md-12> 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup vstopn | 
-<div class=information> 12. 11. / čet  / 20:00 18. edicija ljubljanskega festivala elektronske glasbe in tranzitornih umetnosti SONICA SONICA 2026: Marina Herlop, Estelle Schorpp & Charline Dally, Litošt koncert Nakup vstopn | 
-<div class=col-md-4.mt-1> Glasba 22. 06. / tor  / 20:00 OSEES koncert | https://www.kinosiska.si/dogodek/osees/
-<a class=no-hover> Glasba 22. 06. / tor  / 20:00 OSEES koncert | https://www.kinosiska.si/dogodek/osees/
-<article class=card-event-small> Glasba 22. 06. / tor  / 20:00 OSEES koncert | 
-<div class=content.pass-on-hover> 22. 06. / tor  / 20:00 OSEES koncert | 
+<div class=row> Glasba 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | https://www.kinosiska.si/dogodek/osees/
+<div class=col-md-8.mt-1> Glasba 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | https://www.kinosiska.si/dogodek/osees/
+<a class=no-hover> Glasba 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | https://www.kinosiska.si/dogodek/osees/
+<div class=card-event-featured> Glasba 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
+<div class=header> Glasba 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
+<div class=container.text-shadow.pointer-events-disable> 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
+<div class=row> 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
+<div class=col-md-12> 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
+<div class=information> 22. 06. / tor  / 20:00 OSEES koncert Nakup vstopnice | 
 <div class=col-md-4.mt-1> Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | https://www.kinosiska.si/dogodek/dogodki-v-dobrivagi/
 <a class=no-hover> Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | https://www.kinosiska.si/dogodek/dogodki-v-dobrivagi/
 <article class=card-event-small> Vizualna umetnost 01. 10.                        - 31. 12. DOGODKI V DOBRIVAGI razstave, delavnice, pogovori, predavanja... | 
@@ -32,10 +29,14 @@ jsonld types:
 <a class=no-hover> Glasba 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/
 <article class=card-event-small> Glasba 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | 
 <div class=content.pass-on-hover> 13. 11. / pet  / 19:30 ŠPIL LIGA: 1. večer 14. sezone koncert | 
-<div class=col-md-4.mt-1> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | https://www.kinosiska.si/dogodek/[…]/
-<a class=no-hover> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | https://www.kinosiska.si/dogodek/[…]/
-<article class=card-event-small> Glasba 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | 
-<div class=content.pass-on-hover> 19. 11. / čet  / 11:00 Zaznave glasbe sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče Predstavitev in izvedba zvočne izkušnje za gluhe, naglušne in slišeče. | 
+<div class=col-md-4.mt-1> Glasba 13. 11. / pet  / 20:30 koncert Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri + Katana Koala Kiwi | https://www.kinosiska.si/dogodek/[…]/
+<a class=no-hover> Glasba 13. 11. / pet  / 20:30 koncert Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri + Katana Koala Kiwi | https://www.kinosiska.si/dogodek/[…]/
+<article class=card-event-small> Glasba 13. 11. / pet  / 20:30 koncert Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri + Katana Koala Kiwi | 
+<div class=content.pass-on-hover> 13. 11. / pet  / 20:30 koncert Kino Šiška dostava: JET BLACK DIAMONDS @ Hangar Teatri + Katana Koala Kiwi | 
+<div class=col-md-4.mt-1> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma | https://www.kinosiska.si/dogodek/nipplepeople/
+<a class=no-hover> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma | https://www.kinosiska.si/dogodek/nipplepeople/
+<article class=card-event-small> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma | 
+<div class=content.pass-on-hover> 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma | 
 <div class=col-md-8.mt-1> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <a class=no-hover> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | https://www.kinosiska.si/dogodek/cofestival-2026/
 <div class=card-event-featured> Ples/gledališče 27. 11. / pet  / 20:00 CoFestival 2026 15. mednarodni festival sodobnega plesa Nakup vstopnice | 
@@ -59,5 +60,4 @@ jsonld types:
 <div class=col-md-8.mt-1> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | https://www.kinosiska.si/dogodek/nipplepeople/
 <a class=no-hover> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | https://www.kinosiska.si/dogodek/nipplepeople/
 <div class=card-event-featured> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | 
-<div class=header> Glasba 19. 11. / čet  / 20:00 koncert NIPPLEPEOPLE + Pocket Palma Nakup vstopnice | 
 poveznice (3): https://www.eventim.si/event/19972932/?affiliate=VC1 https://www.kinosiska.si/dogodek/cikcak-koncerti-alostari/ https://www.kinosiska.si/dogodek/cikcak-koncerti-mrfy/
