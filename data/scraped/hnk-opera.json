@@ -242,6 +242,17 @@
   "source": "hnk-opera"
  },
  {
+  "date": "2027-02-21",
+  "time": "11:00",
+  "title": "Klasika Nedjeljom 4",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/opera/predstave/klasika-nedjeljom-4/#21.02.11.00",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
   "date": "2026-11-27",
   "time": "19:00",
   "title": "Orašar",
@@ -447,6 +458,94 @@
   "genre": "opera",
   "price": "",
   "url": "https://www.hnk.hr/hr/balet/predstave/orašarr2025/#05.01.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-11",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#11.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-17",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#17.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-18",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#18.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-19",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#19.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-20",
+  "time": "18:00",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#20.02.18.00",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-22",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#22.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-23",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#23.02.19.30",
+  "city": "zagreb",
+  "source": "hnk-opera"
+ },
+ {
+  "date": "2027-02-24",
+  "time": "19:30",
+  "title": "Trnoružica",
+  "venue": "hnk",
+  "genre": "opera",
+  "price": "",
+  "url": "https://www.hnk.hr/hr/balet/predstave/trnoružica/#24.02.19.30",
   "city": "zagreb",
   "source": "hnk-opera"
  },

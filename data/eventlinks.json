@@ -11,6 +11,18 @@
    "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
   }
  },
+ "https://akvariumklub.hu/programok/akvarium-klub-presents-noga-erez-duck-season-tour-2027/": {
+  "checked": "2026-11-14",
+  "clean": {
+   "spotify": "https://open.spotify.com/artist/5VwCIS8jdx9ZHjApLFNrTZ"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/akvariumklub/",
+   "instagram": "https://www.instagram.com/akvariumklub/",
+   "spotify": "https://open.spotify.com/artist/5VwCIS8jdx9ZHjApLFNrTZ",
+   "youtube": "https://www.youtube.com/channel/UC7C1zwKSsOf1ESEnDWaVpyw"
+  }
+ },
  "https://akvariumklub.hu/programok/ana-moura/": {
   "checked": "2026-11-10",
   "clean": {
@@ -2293,6 +2305,14 @@
    "instagram": "https://www.instagram.com/jabuka2.8"
   }
  },
+ "https://dvaosam.com/event-detail/6ae3203a681449a5268388da/": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/jabuka2.8",
+   "instagram": "https://www.instagram.com/jabuka2.8"
+  }
+ },
  "https://flex.at/event/8409/": {
   "checked": "2026-11-10",
   "clean": {},
@@ -2858,6 +2878,15 @@
    "youtube": "http://www.youtube.com/user/klubmochvara"
   }
  },
+ "https://mochvara.hr/event-detail/6af2fa890029ced1861010c8/": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/mochvara",
+   "instagram": "https://www.instagram.com/mochvara/",
+   "youtube": "http://www.youtube.com/user/klubmochvara"
+  }
+ },
  "https://mochvara.hr/event-detail/6af5acef6f44c2a5708a838d/": {
   "checked": "2026-11-12",
   "clean": {},
@@ -2877,6 +2906,11 @@
    "instagram": "https://www.instagram.com/pula_plus/",
    "youtube": "https://www.youtube.com/user/Pulaplus"
   }
+ },
+ "https://westlive.mticket.eu/widget586site12853/widget/event/186461": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {}
  },
  "https://www.a38.hu/en/program/agi-es-a-fiuk-hu": {
   "checked": "2026-11-10",
@@ -3706,6 +3740,15 @@
    "youtube": "https://www.youtube.com/@barbanegrahungary1929"
   }
  },
+ "https://www.barbanegra.hu/program/ugly-kid-joe_20270225": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/BARBA.NEGRA.HUNGARY",
+   "instagram": "https://www.instagram.com/barbanegrahungary",
+   "youtube": "https://www.youtube.com/@barbanegrahungary1929"
+  }
+ },
  "https://www.barbanegra.hu/program/vad-fruttik_20261227": {
   "checked": "2026-11-11",
   "clean": {},
@@ -4133,6 +4176,15 @@
    "youtube": "https://www.youtube.com/user/Cankarjevdom"
   }
  },
+ "https://www.cd-cc.si/kultura/glasba/lolita-jure-pukl-pleseta-za-vas": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/cankarjev.dom.cd/",
+   "instagram": "https://www.instagram.com/cankarjevdom/",
+   "youtube": "https://www.youtube.com/user/Cankarjevdom"
+  }
+ },
  "https://www.cd-cc.si/kultura/glasba/marija-terezija-kolman-violina-gabrijel-rakar-violoncelo": {
   "checked": "2026-11-11",
   "clean": {},
@@ -4528,6 +4580,70 @@
    "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
   }
  },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#11.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#17.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#18.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#19.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#20.02.18.00": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#22.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#23.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/balet/predstave/trnoružica/#24.02.19.30": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
  "https://www.hnk.hr/hr/koncert/predstave/haydn-mozart-i-sax/#22.11.11.00": {
   "checked": "2026-11-10",
   "clean": {},
@@ -4594,6 +4710,14 @@
  },
  "https://www.hnk.hr/hr/opera/predstave/klasika-nedjeljom-3/#17.01.11.00": {
   "checked": "2026-11-11",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/hnk.hr/",
+   "instagram": "https://www.instagram.com/hrvatskonarodnokazalistezagreb/"
+  }
+ },
+ "https://www.hnk.hr/hr/opera/predstave/klasika-nedjeljom-4/#21.02.11.00": {
+  "checked": "2026-11-14",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/hnk.hr/",
@@ -4737,6 +4861,15 @@
    "youtube": "https://www.youtube.com/channel/UCw3zJE1u5h8IMdewKB8I3UA"
   }
  },
+ "https://www.kinosiska.si/dogodek/dadadisko-druzinski-rave/": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/kinosiska.si/",
+   "instagram": "http://www.instagram.com/kinosiska",
+   "youtube": "https://www.youtube.com/channel/UCw3zJE1u5h8IMdewKB8I3UA"
+  }
+ },
  "https://www.kinosiska.si/dogodek/kino-siska-dostava-jet-black-diamonds-hangar-teatri/": {
   "checked": "2026-11-09",
   "clean": {},
@@ -4748,6 +4881,15 @@
  },
  "https://www.kinosiska.si/dogodek/nipplepeople/": {
   "checked": "2026-11-09",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/kinosiska.si/",
+   "instagram": "http://www.instagram.com/kinosiska",
+   "youtube": "https://www.youtube.com/channel/UCw3zJE1u5h8IMdewKB8I3UA"
+  }
+ },
+ "https://www.kinosiska.si/dogodek/pihajmo-za-zdravo-slovenijo/": {
+  "checked": "2026-11-14",
   "clean": {},
   "links": {
    "facebook": "https://www.facebook.com/kinosiska.si/",
@@ -6491,6 +6633,25 @@
    "instagram": "https://www.instagram.com/orto_bar_slovenija/"
   }
  },
+ "https://www.orto-bar.com/dogodki/koncerti/loose-cannon/": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {
+   "facebook": "https://www.facebook.com/noplacelikeorto",
+   "instagram": "https://www.instagram.com/orto_bar_slovenija/"
+  }
+ },
+ "https://www.orto-bar.com/dogodki/koncerti/metropolis-ob-letu-osorej-ze-32-let/": {
+  "checked": "2026-11-14",
+  "clean": {
+   "youtube": "https://www.youtube.com/@MetropolisRocknrollBand"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/noplacelikeorto",
+   "instagram": "https://www.instagram.com/orto_bar_slovenija/",
+   "youtube": "https://www.youtube.com/@MetropolisRocknrollBand"
+  }
+ },
  "https://www.orto-bar.com/dogodki/koncerti/plateauranr/": {
   "checked": "2026-11-10",
   "clean": {},
@@ -6712,6 +6873,15 @@
   "clean": {},
   "links": {
    "facebook": "http://www.facebook.com/share.php"
+  }
+ },
+ "https://www.porgy.at/events/13392/": {
+  "checked": "2026-11-14",
+  "clean": {
+   "facebook": "https://www.facebook.com/wickerl.adam.5103"
+  },
+  "links": {
+   "facebook": "https://www.facebook.com/wickerl.adam.5103"
   }
  },
  "https://www.porgy.at/events/series/136/": {
@@ -7497,6 +7667,11 @@
   "clean": {},
   "links": {}
  },
+ "https://www.stadthalle.com/de/events/alle-events/51602/Schwanensee-Imperial-Ballet-amp-Live-Orchester": {
+  "checked": "2026-11-14",
+  "clean": {},
+  "links": {}
+ },
  "https://www.stadthalle.com/de/events/alle-events/51604/POWERWOLF": {
   "checked": "2026-11-12",
   "clean": {},
@@ -7509,6 +7684,11 @@
  },
  "https://www.stadthalle.com/de/events/alle-events/51608/RIOT-amp-BREW-Fest": {
   "checked": "2026-11-13",
+  "clean": {},
+  "links": {}
+ },
+ "https://www.stadthalle.com/de/events/alle-events/51610/KPop-Demon-Hunters": {
+  "checked": "2026-11-14",
   "clean": {},
   "links": {}
  },

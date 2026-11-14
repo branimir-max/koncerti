@@ -1,49 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "F.O. System XL",
-  "venue": "bp-akvariumklub",
-  "genre": "",
-  "price": "",
-  "url": "https://akvariumklub.hu/programok/f-o-system-xl/",
-  "city": "budimpesta",
-  "source": "bp-akvarium"
- },
- {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "kisbetűs ünnepnapok x ARCOSOK // dupla lemezbemutató koncert",
-  "venue": "bp-akvariumklub",
-  "genre": "",
-  "price": "",
-  "url": "https://akvariumklub.hu/programok/kisbetus-unnepnapok-x-arcosok-dupla-lemezbemutato-koncert/",
-  "city": "budimpesta",
-  "source": "bp-akvarium"
- },
- {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Gerappaaa ☾ 2000’S Bangers ☾ Akvárium Klub",
-  "venue": "bp-akvariumklub",
-  "genre": "",
-  "price": "",
-  "url": "https://akvariumklub.hu/programok/gerappaaa-2000s-bangers-akvarium-klub-1113/",
-  "city": "budimpesta",
-  "source": "bp-akvarium"
- },
- {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Lithium Night Classic",
-  "venue": "bp-akvariumklub",
-  "genre": "",
-  "price": "",
-  "url": "https://akvariumklub.hu/programok/lithium-night-classic/",
-  "city": "budimpesta",
-  "source": "bp-akvarium"
- },
- {
   "date": "2026-11-14",
   "time": "",
   "title": "TELT HÁZ! imago mundi: ad astra",
@@ -986,6 +942,17 @@
   "genre": "",
   "price": "",
   "url": "https://akvariumklub.hu/programok/nagy-bogi/",
+  "city": "budimpesta",
+  "source": "bp-akvarium"
+ },
+ {
+  "date": "2027-05-07",
+  "time": "",
+  "title": "Akvárium Klub Presents.: Noga Erez, Duck Season Tour 2027",
+  "venue": "bp-akvariumklub",
+  "genre": "",
+  "price": "",
+  "url": "https://akvariumklub.hu/programok/akvarium-klub-presents-noga-erez-duck-season-tour-2027/",
   "city": "budimpesta",
   "source": "bp-akvarium"
  },

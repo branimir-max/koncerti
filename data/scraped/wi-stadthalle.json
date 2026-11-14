@@ -1,30 +1,8 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Romeo & Julia Heute",
-  "venue": "wi-stadthalle",
-  "genre": "",
-  "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51184/Romeo-amp-Julia",
-  "city": "bec",
-  "source": "wi-stadthalle"
- },
- {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Jungle Heute",
-  "venue": "wi-stadthalle",
-  "genre": "",
-  "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51340/Jungle",
-  "city": "bec",
-  "source": "wi-stadthalle"
- },
- {
   "date": "2026-11-14",
   "time": "",
-  "title": "Beatrice Egli",
+  "title": "Beatrice Egli Heute",
   "venue": "wi-stadthalle",
   "genre": "",
   "price": "",
@@ -1177,6 +1155,17 @@
   "source": "wi-stadthalle"
  },
  {
+  "date": "2026-11-19",
+  "time": "10:00",
+  "title": "KPop Demon Hunters 11.09.2027–12.09.2027 Halle D VVK Start: 19.11.2026, 10:00 Uhr",
+  "venue": "wi-stadthalle",
+  "genre": "",
+  "price": "",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51610/KPop-Demon-Hunters",
+  "city": "bec",
+  "source": "wi-stadthalle"
+ },
+ {
   "date": "2027-09-16",
   "time": "",
   "title": "Max Raabe & Palast Orchester",
@@ -1487,11 +1476,11 @@
  {
   "date": "2027-12-26",
   "time": "",
-  "title": "Schwanensee",
+  "title": "Schwanensee - Imperial Ballet & Live Orchester",
   "venue": "wi-stadthalle",
   "genre": "",
   "price": "",
-  "url": "https://www.stadthalle.com/de/events/alle-events/51602/Schwanensee",
+  "url": "https://www.stadthalle.com/de/events/alle-events/51602/Schwanensee-Imperial-Ballet-amp-Live-Orchester",
   "city": "bec",
   "source": "wi-stadthalle"
  },

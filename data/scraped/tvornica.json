@@ -1,27 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "20:00",
-  "title": "Clan of Xymox",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/clan-of-xymox-u-tvornici-kulture-ca34",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
-  "date": "2026-11-21",
-  "time": "20:00",
-  "title": "Jura Stublić & Film",
-  "venue": "tvornica",
-  "genre": "",
-  "price": "",
-  "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c",
-  "city": "zagreb",
-  "source": "tvornica"
- },
- {
   "date": "2026-11-26",
   "time": "20:00",
   "title": "Nikola Vranjković",
@@ -161,6 +139,17 @@
   "genre": "dj",
   "price": "",
   "url": "https://core-event.co/events/80-s-vs-90-s-live-koncerti-fit-anja-rupel-videosex-dj-musikfantastique-predbozicni-party-14d3",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "20:00",
+  "title": "Jura Stublić & Film",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://core-event.co/events/jura-stublic-film-u-tvornici-kulture-5f2c",
   "city": "zagreb",
   "source": "tvornica"
  },
@@ -326,6 +315,17 @@
   "genre": "",
   "price": "",
   "url": "https://core-event.co/events/nouvelle-vague-u-tvornici-kulture-f329",
+  "city": "zagreb",
+  "source": "tvornica"
+ },
+ {
+  "date": "2027-05-02",
+  "time": "20:00",
+  "title": "Tarja",
+  "venue": "tvornica",
+  "genre": "",
+  "price": "",
+  "url": "https://westlive.mticket.eu/widget586site12853/widget/event/186461",
   "city": "zagreb",
   "source": "tvornica"
  }

@@ -1,53 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "21:00",
-  "title": "EKV Real Tribute by IQV",
-  "venue": "boogaloo",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/ekv-real-tribute-by-iqv-34057",
-  "city": "zagreb",
-  "venue_name": "Klub Boogaloo",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-13",
-  "time": "21:00",
-  "title": "U2 Tribute Band Live",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/u2-tribute-band-live13112026metropolis-club-35048",
-  "city": "zagreb",
-  "venue_name": "Metropolis Music & Billiards Club",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-13",
-  "time": "22:00",
-  "title": "Dreamers ExYu",
-  "venue": "",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/dreamers-exyu-34839",
-  "city": "split",
-  "venue_name": "BackBar Plan B",
-  "source": "ulaznice"
- },
- {
-  "date": "2026-11-13",
-  "time": "23:00",
-  "title": "HUSH! W/ MARRØN (Amsterdam), XIORRO (Berlin), INSOLATE",
-  "venue": "petikupe",
-  "genre": "",
-  "price": "",
-  "url": "https://www.entrio.hr/event/hush-w-marron-amsterdam-xiorro-berlin-insolate-35017",
-  "city": "zagreb",
-  "venue_name": "Peti kupe",
-  "source": "ulaznice"
- },
- {
   "date": "2026-11-14",
   "time": "18:00",
   "title": "K-pop Mania",

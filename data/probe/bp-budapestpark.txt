@@ -4,10 +4,10 @@ jsonld types:
 <div class=splide__slide__short> Csinibaba Táncdalfesztivál - Hello Tourist 2027. május 27. | 
 <div class=splide__slide__main> Csinibaba Táncdalfesztivál - Hello Tourist 2027. május 27. csütörtök Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/[…]
 <div class=box-info> Csinibaba Táncdalfesztivál - Hello Tourist 2027. május 27. csütörtök Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/[…]
-<li class=splide__slide> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert i | /jegyvasarlas/event/co-lee-2027-06-11
+<li class=splide__slide> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/co-lee-2027-06-11
 <div class=splide__slide__short> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. | 
-<div class=splide__slide__main> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert infók | /jegyvasarlas/event/co-lee-2027-06-11
-<div class=box-info> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek Részletek, koncert infók | /jegyvasarlas/event/co-lee-2027-06-11
+<div class=splide__slide__main> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/co-lee-2027-06-11
+<div class=box-info> Co Lee NEM VAGYOK EGYEDÜL Lemezbemutató 2027. június 11. péntek Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/co-lee-2027-06-11
 <li class=splide__slide> Kuplung 2027. augusztus 5. Kuplung 2027. augusztus 5. csütörtök Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/kuplung-2027-08-05
 <div class=splide__slide__short> Kuplung 2027. augusztus 5. | 
 <div class=splide__slide__main> Kuplung 2027. augusztus 5. csütörtök Kapunyitás 18:00 Koncertek - Nagyszínpad Jegyek, részletek | /jegyvasarlas/event/kuplung-2027-08-05

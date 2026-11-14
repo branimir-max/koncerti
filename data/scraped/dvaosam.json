@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "23:00",
-  "title": "Dark Dance Dejavu ft. Clan of Xymox Afterparty",
-  "venue": "dvaosam",
-  "genre": "dj",
-  "price": "",
-  "url": "https://dvaosam.com/event-detail/6ad21144ff5b73d20d2f0262/",
-  "city": "zagreb",
-  "source": "dvaosam"
- },
- {
   "date": "2026-11-19",
   "time": "21:00",
   "title": "Sea Sound Party: HORNSMAN COYOTE",
@@ -62,6 +51,17 @@
   "genre": "dj",
   "price": "",
   "url": "https://dvaosam.com/event-detail/6ad89ce9af4ecaea55cec030/",
+  "city": "zagreb",
+  "source": "dvaosam"
+ },
+ {
+  "date": "2026-12-03",
+  "time": "21:00",
+  "title": "Die Hausers",
+  "venue": "dvaosam",
+  "genre": "",
+  "price": "",
+  "url": "https://dvaosam.com/event-detail/6ae3203a681449a5268388da/",
   "city": "zagreb",
   "source": "dvaosam"
  }

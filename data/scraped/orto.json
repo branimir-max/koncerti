@@ -1,33 +1,11 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Jugoslovanka Party",
-  "venue": "lj-orto",
-  "genre": "dj",
-  "price": "12 €",
-  "url": "https://www.orto-bar.com/dogodki/dj/jugoslovanka-party/",
-  "city": "ljubljana",
-  "source": "orto"
- },
- {
-  "date": "2026-11-13",
-  "time": "",
-  "title": "Bomb Shell",
-  "venue": "lj-orto",
-  "genre": "",
-  "price": "15 €",
-  "url": "https://www.orto-bar.com/dogodki/koncerti/bomb-shell/",
-  "city": "ljubljana",
-  "source": "orto"
- },
- {
   "date": "2026-11-14",
   "time": "",
   "title": "LIZBERRIES- The Cranberries Tribute Band",
   "venue": "lj-orto",
   "genre": "",
-  "price": "13–17 €",
+  "price": "17 €",
   "url": "https://www.orto-bar.com/dogodki/koncerti/lizberries-the-cranberries-tribute-band/",
   "city": "ljubljana",
   "source": "orto"
@@ -73,6 +51,28 @@
   "genre": "",
   "price": "8–12 €",
   "url": "https://www.orto-bar.com/dogodki/koncerti/sophy/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "",
+  "title": "Loose Cannon",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "8–10 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/loose-cannon/",
+  "city": "ljubljana",
+  "source": "orto"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "",
+  "title": "Metropolis “Ob letu osorej, že 32 let!”",
+  "venue": "lj-orto",
+  "genre": "",
+  "price": "12–15 €",
+  "url": "https://www.orto-bar.com/dogodki/koncerti/metropolis-ob-letu-osorej-ze-32-let/",
   "city": "ljubljana",
   "source": "orto"
  }

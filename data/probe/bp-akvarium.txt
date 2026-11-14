@@ -1,15 +1,5 @@
 title: Programok • Akvárium
 jsonld types: CollectionPage, BreadcrumbList, ListItem, ListItem, WebSite, SearchAction, EntryPoint, PropertyValueSpecification, Organization, ImageObject
-<a class=grid-item.m-card.november> Nov. 13. péntek F.O. System XL | https://akvariumklub.hu/programok/f-o-system-xl/
-<div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
-<a class=grid-item.m-card.november> Nov. 13. péntek kisbetűs ünnepnapok x ARCOSOK // dupla lemezbemutató koncert | https://akvariumklub.hu/programok/[…]/
-<div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
-<a class=grid-item.m-card.november> Nov. 13. péntek Telex After Live – A GTA zenei evolúciója | https://akvariumklub.hu/programok/[…]/
-<div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
-<a class=grid-item.m-card.november> Nov. 13. péntek GERAPPAAA ☾ 2000’S BANGERS ☾ AKVÁRIUM KLUB | https://akvariumklub.hu/programok/[…]/
-<div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
-<a class=grid-item.m-card.november> Nov. 13. péntek Lithium Night Classic | https://akvariumklub.hu/programok/lithium-night-classic/
-<div class=m-card__date.override-bg.override-color> Nov. 13. péntek | 
 <a class=grid-item.m-card.november> Nov. 14. szombat TELT HÁZ! imago mundi: ad astra | https://akvariumklub.hu/programok/imago-mundi-ad-astra/
 <div class=m-card__date.override-bg.override-color> Nov. 14. szombat | 
 <a class=grid-item.m-card.november> Nov. 14. szombat TELTHÁZ! BONGOR – AZ UTOLSÓ EXTÁZIS | https://akvariumklub.hu/programok/bongor-az-utolso-extazis/
@@ -60,4 +50,14 @@ jsonld types: CollectionPage, BreadcrumbList, ListItem, ListItem, WebSite, Searc
 <div class=m-card__date.override-bg.override-color> Nov. 28. szombat | 
 <a class=grid-item.m-card.november> Nov. 28. szombat JAMBALAYA New Orleans Music Show | https://akvariumklub.hu/programok/[…]/
 <div class=m-card__date.override-bg.override-color> Nov. 28. szombat | 
-poveznice (116): https://akvariumklub.hu/en/events/ https://akvariumklub.hu/programok/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/ana-moura/ https://akvariumklub.hu/programok/andrea-vanzo-ultetett/ https://akvariumklub.hu/programok/andrea-vanzo/ https://akvariumklub.hu/programok/apollo-brown-x-skyzoo/ https://akvariumklub.hu/programok/artur-rambo/ https://akvariumklub.hu/programok/balkan-vip/ https://akvariumklub.hu/programok/belano/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bladerunnaz-pres-mozey/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bongor-az-utolso-extazis/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/cloud-9-15-szulinap/ https://akvariumklub.hu/programok/dead-poet-society/ https://akvariumklub.hu/programok/deep-forest/ https://akvariumklub.hu/programok/dirty-honey-budapest-2027/ https://akvariumklub.hu/programok/eagle-eye-cherry-budapest-2026/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/edm-2010-x-avicii-forever-party/ https://akvariumklub.hu/programok/[…]/
+<a class=grid-item.m-card.free> Nov. 29. vasárnap Secret Market – 11.29. | https://akvariumklub.hu/programok/secret-market-11-29/
+<div class=m-card__date.override-bg.override-color> Nov. 29. vasárnap | 
+<a class=grid-item.m-card.november> Nov. 30. hétfő Macy Gray | https://akvariumklub.hu/programok/macy-gray/
+<div class=m-card__date.override-bg.override-color> Nov. 30. hétfő | 
+<a class=grid-item.m-card.december> Dec. 01. kedd TECHNO YOGA // 5th Birthday & Santa Yoga | https://akvariumklub.hu/programok/[…]/
+<div class=m-card__date.override-bg.override-color> Dec. 01. kedd | 
+<a class=grid-item.m-card.december> Dec. 01. kedd A SICC PRODUCTION BEMUTATJA: MIZANTRÓP 26 | https://akvariumklub.hu/programok/[…]/
+<div class=m-card__date.override-bg.override-color> Dec. 01. kedd | 
+<a class=grid-item.m-card.december> Dec. 04. péntek GAB & 4ma: Vacsora & szupé dupla lemezbemutató | https://akvariumklub.hu/programok/gab-4ma-dupla-lemezbemutato/
+<div class=m-card__date.override-bg.override-color> Dec. 04. péntek | 
+poveznice (112): https://akvariumklub.hu/en/events/ https://akvariumklub.hu/programok/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/ana-moura/ https://akvariumklub.hu/programok/andrea-vanzo-ultetett/ https://akvariumklub.hu/programok/andrea-vanzo/ https://akvariumklub.hu/programok/apollo-brown-x-skyzoo/ https://akvariumklub.hu/programok/artur-rambo/ https://akvariumklub.hu/programok/balkan-vip/ https://akvariumklub.hu/programok/belano/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bladerunnaz-pres-mozey/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/bongor-az-utolso-extazis/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/cloud-9-15-szulinap/ https://akvariumklub.hu/programok/dead-poet-society/ https://akvariumklub.hu/programok/deep-forest/ https://akvariumklub.hu/programok/dirty-honey-budapest-2027/ https://akvariumklub.hu/programok/eagle-eye-cherry-budapest-2026/ https://akvariumklub.hu/programok/[…]/ https://akvariumklub.hu/programok/edm-2010-x-avicii-forever-party/

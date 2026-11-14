@@ -1,12 +1,12 @@
 [
  {
-  "date": "2026-11-13",
+  "date": "2026-11-14",
   "time": "",
-  "title": "Britni i Panterski",
+  "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
   "venue": "medika",
-  "genre": "",
+  "genre": "dj",
   "price": "",
-  "url": "https://attack.hr/hr/britni-i-panterski",
+  "url": "https://attack.hr/hr/ranking-ann-tonto-addi-long-fingah-sandokan-hi-fi",
   "city": "zagreb",
   "source": "attack"
  },
@@ -18,17 +18,6 @@
   "genre": "",
   "price": "",
   "url": "https://attack.hr/hr/people-s-kitchen-1d72ea7d-6666-42ef-a60c-dff34e8c45a3",
-  "city": "zagreb",
-  "source": "attack"
- },
- {
-  "date": "2026-11-14",
-  "time": "",
-  "title": "Ranking Ann, Tonto Addi, Long Fingah | Sandokan Hi-Fi",
-  "venue": "medika",
-  "genre": "dj",
-  "price": "",
-  "url": "https://attack.hr/hr/ranking-ann-tonto-addi-long-fingah-sandokan-hi-fi",
   "city": "zagreb",
   "source": "attack"
  },
@@ -51,6 +40,17 @@
   "genre": "",
   "price": "",
   "url": "https://attack.hr/hr/portrayal-of-guilt-spike-hellis-ponor-eeyore",
+  "city": "zagreb",
+  "source": "attack"
+ },
+ {
+  "date": "2026-12-05",
+  "time": "",
+  "title": "S.O.R. + Crna žuč + Indikator B + Katarza",
+  "venue": "medika",
+  "genre": "",
+  "price": "",
+  "url": "https://attack.hr/hr/s-o-r-crna-zuc-indikator-b-katarza",
   "city": "zagreb",
   "source": "attack"
  }

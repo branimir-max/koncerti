@@ -1,9 +1,9 @@
 {
- "run_at": "2026-11-13T12:10:40+00:00",
+ "run_at": "2026-11-14T11:27:04+00:00",
  "sources": {
   "lisinski": {
    "ok": true,
-   "count": 147
+   "count": 146
   },
   "tvornica": {
    "ok": true,
@@ -11,7 +11,7 @@
   },
   "mocvara": {
    "ok": true,
-   "count": 15
+   "count": 14
   },
   "dvaosam": {
    "ok": true,
@@ -19,7 +19,7 @@
   },
   "kset": {
    "ok": true,
-   "count": 6
+   "count": 5
   },
   "attack": {
    "ok": true,
@@ -36,15 +36,15 @@
   },
   "ulaznice": {
    "ok": true,
-   "count": 61
+   "count": 57
   },
   "coreevent": {
    "ok": true,
-   "count": 119
+   "count": 109
   },
   "hnk-opera": {
    "ok": true,
-   "count": 45
+   "count": 54
   },
   "hnk-koncert": {
    "ok": true,
@@ -62,7 +62,7 @@
   },
   "wi-flex": {
    "ok": true,
-   "count": 30
+   "count": 29
   },
   "wi-planet": {
    "ok": true,
@@ -71,7 +71,7 @@
   },
   "wi-stadthalle": {
    "ok": true,
-   "count": 144
+   "count": 143
   },
   "wi-wuk": {
    "ok": true,
@@ -79,11 +79,11 @@
   },
   "wi-porgy": {
    "ok": true,
-   "count": 181
+   "count": 182
   },
   "bp-akvarium": {
    "ok": true,
-   "count": 93
+   "count": 90
   },
   "bp-budapestpark": {
    "ok": true,
@@ -95,7 +95,7 @@
   },
   "bp-a38": {
    "ok": true,
-   "count": 44
+   "count": 43
   },
   "lj-festival": {
    "ok": true,
@@ -103,11 +103,11 @@
   },
   "lj-cd": {
    "ok": true,
-   "count": 51
+   "count": 52
   },
   "hangtime": {
    "ok": true,
-   "count": 12
+   "count": 11
   },
   "laa": {
    "ok": true,
@@ -130,7 +130,7 @@
   },
   "mb-narodnidom": {
    "ok": true,
-   "count": 17,
+   "count": 15,
    "note": "samo proba"
   },
   "mb-stuk": {
@@ -145,21 +145,21 @@
   },
   "mb-mkc": {
    "ok": true,
-   "count": 14,
+   "count": 13,
    "note": "samo proba"
   },
   "pu-tz": {
    "ok": true,
-   "count": 31
+   "count": 30
   },
   "pu-ink": {
    "ok": true,
-   "count": 5,
+   "count": 6,
    "note": "samo proba"
   },
   "kinosiska": {
    "ok": true,
-   "count": 3
+   "count": 4
   },
   "orto": {
    "ok": true,

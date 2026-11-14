@@ -1,7 +1,7 @@
 [
  {
   "date": "2026-11-17",
-  "time": "19:30",
+  "time": "",
   "title": "Dresdenska filharmonija",
   "venue": "lj-cankarjev",
   "genre": "klasika",
@@ -216,6 +216,17 @@
   "genre": "klasika",
   "price": "",
   "url": "https://www.cd-cc.si/kultura/glasba/novoletni-koncert-orkestra-slovenske-filharmonije-0",
+  "city": "ljubljana",
+  "source": "lj-cd"
+ },
+ {
+  "date": "2027-01-05",
+  "time": "",
+  "title": "Lolita & Jure Pukl – plešeta za vas",
+  "venue": "lj-cankarjev",
+  "genre": "",
+  "price": "",
+  "url": "https://www.cd-cc.si/kultura/glasba/lolita-jure-pukl-pleseta-za-vas",
   "city": "ljubljana",
   "source": "lj-cd"
  },

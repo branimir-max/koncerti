@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "19:30",
-  "title": "ŠPIL LIGA: 1. večer 14. sezone",
-  "venue": "lj-kinosiska",
-  "genre": "",
-  "price": "",
-  "url": "https://www.kinosiska.si/dogodek/1-vecer-14-sezone-spil-lige/",
-  "city": "ljubljana",
-  "source": "kinosiska"
- },
- {
   "date": "2026-11-19",
   "time": "11:00",
   "title": "sub_bar | Taktilna zvočna izkušnja za gluhe in slišeče",
@@ -29,6 +18,28 @@
   "genre": "",
   "price": "",
   "url": "https://www.kinosiska.si/dogodek/nipplepeople/",
+  "city": "ljubljana",
+  "source": "kinosiska"
+ },
+ {
+  "date": "2026-11-20",
+  "time": "20:00",
+  "title": "Pihajmo za zdravo Slovenijo",
+  "venue": "lj-kinosiska",
+  "genre": "",
+  "price": "",
+  "url": "https://www.kinosiska.si/dogodek/pihajmo-za-zdravo-slovenijo/",
+  "city": "ljubljana",
+  "source": "kinosiska"
+ },
+ {
+  "date": "2026-11-21",
+  "time": "10:00",
+  "title": "DaDADADISKO: družinski rave I JAMirko in All Around the House",
+  "venue": "lj-kinosiska",
+  "genre": "",
+  "price": "",
+  "url": "https://www.kinosiska.si/dogodek/dadadisko-druzinski-rave/",
   "city": "ljubljana",
   "source": "kinosiska"
  }

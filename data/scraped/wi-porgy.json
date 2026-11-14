@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "20:30",
-  "title": "The Messthetics & James Brandon Lewis (USA)",
-  "venue": "wi-porgybess",
-  "genre": "jazz",
-  "price": "",
-  "url": "https://www.porgy.at/events/series/79/",
-  "city": "bec",
-  "source": "wi-porgy"
- },
- {
   "date": "2026-11-14",
   "time": "20:30",
   "title": "True Loves (USA)",
@@ -1804,6 +1793,17 @@
   "source": "wi-porgy"
  },
  {
+  "date": "2027-05-25",
+  "time": "20:30",
+  "title": "Daniel 'Pipi' Piazzolla & Escalandrum 'Piazzolla plays Piazzolla' (ARG)",
+  "venue": "wi-porgybess",
+  "genre": "jazz",
+  "price": "",
+  "url": "https://www.porgy.at/events/series/79/",
+  "city": "bec",
+  "source": "wi-porgy"
+ },
+ {
   "date": "2027-05-30",
   "time": "20:30",
   "title": "Mario Biondi (I)",
@@ -1877,6 +1877,17 @@
   "genre": "jazz",
   "price": "",
   "url": "https://www.porgy.at/events/series/79/",
+  "city": "bec",
+  "source": "wi-porgy"
+ },
+ {
+  "date": "2027-06-11",
+  "time": "20:30",
+  "title": "Hallucination Company '50 Years' (A)",
+  "venue": "wi-porgybess",
+  "genre": "jazz",
+  "price": "",
+  "url": "https://www.porgy.at/events/13392/",
   "city": "bec",
   "source": "wi-porgy"
  },

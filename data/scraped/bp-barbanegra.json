@@ -1,16 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "17:30",
-  "title": "Hatebreed | Life of Agony | Despised Icon | Carnifex | Suffocation | End It | Gates To Hell",
-  "venue": "bp-barbanegra",
-  "genre": "",
-  "price": "",
-  "url": "https://www.barbanegra.hu/program/hatebreed-plus-support-budapest_2026",
-  "city": "budimpesta",
-  "source": "bp-barbanegra"
- },
- {
   "date": "2026-11-14",
   "time": "19:00",
   "title": "Future Palace",
@@ -414,6 +403,17 @@
   "genre": "",
   "price": "",
   "url": "https://www.barbanegra.hu/program/charlotte-wessels_and_the-obsession_20270217",
+  "city": "budimpesta",
+  "source": "bp-barbanegra"
+ },
+ {
+  "date": "2027-02-25",
+  "time": "19:00",
+  "title": "Ugly Kid Joe",
+  "venue": "bp-barbanegra",
+  "genre": "",
+  "price": "",
+  "url": "https://www.barbanegra.hu/program/ugly-kid-joe_20270225",
   "city": "budimpesta",
   "source": "bp-barbanegra"
  },

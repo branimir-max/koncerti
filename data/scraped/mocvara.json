@@ -1,27 +1,5 @@
 [
  {
-  "date": "2026-11-13",
-  "time": "21:00",
-  "title": "Artifacts Trio, Eksterminator '81",
-  "venue": "mocvara",
-  "genre": "",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6ab3c6ea555a499361410214/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
-  "date": "2026-11-13",
-  "time": "23:00",
-  "title": "Majmuniranje – indie party",
-  "venue": "mocvara",
-  "genre": "dj",
-  "price": "",
-  "url": "https://mochvara.hr/event-detail/6af0a60f5b67d31433d22702/",
-  "city": "zagreb",
-  "source": "mocvara"
- },
- {
   "date": "2026-11-14",
   "time": "22:00",
   "title": "Balkan rock",
@@ -111,7 +89,18 @@
  },
  {
   "date": "2026-11-23",
-  "time": "",
+  "time": "19:00",
+  "title": "Čuvam ti leđa! - Tvoja snaga, moja inspiracija!",
+  "venue": "mocvara",
+  "genre": "",
+  "price": "",
+  "url": "https://mochvara.hr/event-detail/6af2fa890029ced1861010c8/",
+  "city": "zagreb",
+  "source": "mocvara"
+ },
+ {
+  "date": "2026-11-23",
+  "time": "21:00",
   "title": "Munly & The Lupercalians",
   "venue": "mocvara",
   "genre": "",

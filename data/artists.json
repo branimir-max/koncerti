@@ -330,6 +330,11 @@
   "checked": "2026-11-08",
   "query": "Akustika Session w"
  },
+ "akvarium klub presents": {
+  "checked": "2026-11-14",
+  "query": "Akvárium Klub Presents.",
+  "v": 2
+ },
  "al cook": {
   "checked": "2026-11-10",
   "country": "AT",
@@ -1073,6 +1078,11 @@
   "mbid": "b14dcad7-bf9a-4d17-9a0f-f56d5b0d79bd",
   "name": "Beatrice Egli",
   "query": "Beatrice Egli",
+  "v": 2
+ },
+ "beatrice egli heute": {
+  "checked": "2026-11-14",
+  "query": "Beatrice Egli Heute",
   "v": 2
  },
  "bed by 10pm": {
@@ -2201,9 +2211,19 @@
   "query": "Current 93",
   "v": 2
  },
+ "cuvam ti le a": {
+  "checked": "2026-11-14",
+  "query": "Čuvam ti leđa!",
+  "v": 2
+ },
  "dad harmony": {
   "checked": "2026-11-09",
   "query": "Dad Harmony",
+  "v": 2
+ },
+ "dadadadisko": {
+  "checked": "2026-11-14",
+  "query": "DaDADADISKO",
   "v": 2
  },
  "daf": {
@@ -2235,6 +2255,11 @@
  "daniel herskedal solo": {
   "checked": "2026-11-11",
   "query": "Daniel Herskedal Solo",
+  "v": 2
+ },
+ "daniel pipi piazzolla": {
+  "checked": "2026-11-14",
+  "query": "Daniel 'Pipi' Piazzolla",
   "v": 2
  },
  "danielle nicole": {
@@ -2515,6 +2540,11 @@
  "die gewurztraminer": {
   "checked": "2026-11-10",
   "query": "Die Gewürztraminer",
+  "v": 2
+ },
+ "die hausers": {
+  "checked": "2026-11-14",
+  "query": "Die Hausers",
   "v": 2
  },
  "die monche des shaolin kung fu": {
@@ -3998,6 +4028,11 @@
   "query": "Half Me",
   "v": 2
  },
+ "hallucination company 50 years": {
+  "checked": "2026-11-14",
+  "query": "Hallucination Company '50 Years'",
+  "v": 2
+ },
  "halott penz": {
   "checked": "2026-11-09",
   "country": "HU",
@@ -5396,6 +5431,11 @@
   "query": "Klasika Nedjeljom 3",
   "v": 2
  },
+ "klasika nedjeljom 4": {
+  "checked": "2026-11-14",
+  "query": "Klasika Nedjeljom 4",
+  "v": 2
+ },
  "klavier": {
   "checked": "2026-11-09",
   "country": "",
@@ -5616,6 +5656,11 @@
  "kozmosz evzaro": {
   "checked": "2026-11-10",
   "query": "Kozmosz évzáró",
+  "v": 2
+ },
+ "kpop demon hunters 11 09 2027 12 09 2027 halle d vvk start": {
+  "checked": "2026-11-14",
+  "query": "KPop Demon Hunters 11.09.2027–12.09.2027 Halle D VVK Start",
   "v": 2
  },
  "kraak": {
@@ -6081,6 +6126,11 @@
   "query": "Lóci játszik",
   "v": 2
  },
+ "lolita": {
+  "checked": "2026-11-14",
+  "query": "Lolita",
+  "v": 2
+ },
  "look mum no computer": {
   "checked": "2026-11-09",
   "country": "GB",
@@ -6098,6 +6148,11 @@
   "mbid": "feaea9cb-5c0d-4cb4-b6d1-d4d5021ce5ec",
   "name": "LOOK MUM NO COMPUTER",
   "query": "Look Mum No Computer",
+  "v": 2
+ },
+ "loose cannon": {
+  "checked": "2026-11-14",
+  "query": "Loose Cannon",
   "v": 2
  },
  "lords of the sound": {
@@ -6867,6 +6922,11 @@
   "mbid": "2744b622-aaaf-467a-8641-d0deffbe43ac",
   "name": "Metrik",
   "query": "Metrik",
+  "v": 2
+ },
+ "metropolis ob letu osorej": {
+  "checked": "2026-11-14",
+  "query": "Metropolis Ob letu osorej",
   "v": 2
  },
  "michael mantler cerco un paese innocente hide and seek": {
@@ -8144,6 +8204,11 @@
  "picastro": {
   "checked": "2026-11-08",
   "query": "Picastro"
+ },
+ "pihajmo za zdravo slovenijo": {
+  "checked": "2026-11-14",
+  "query": "Pihajmo za zdravo Slovenijo",
+  "v": 2
  },
  "pippa": {
   "checked": "2026-11-10",
@@ -11246,6 +11311,11 @@
   "query": "Trivium",
   "v": 2
  },
+ "trnoruzica": {
+  "checked": "2026-11-14",
+  "query": "Trnoružica",
+  "v": 2
+ },
  "true loves": {
   "checked": "2026-11-09",
   "country": "",
@@ -11312,6 +11382,22 @@
   "mbid": "3fef3bbc-53eb-46f8-8679-980d0c943c34",
   "name": "U.D.O.",
   "query": "U.D.O.",
+  "v": 2
+ },
+ "ugly kid joe": {
+  "checked": "2026-11-14",
+  "country": "US",
+  "genre": "alt",
+  "links": {
+   "deezer": "https://www.deezer.com/artist/5765",
+   "facebook": "https://www.facebook.com/uglykidjoetheband",
+   "spotify": "https://open.spotify.com/artist/3XsgWn63EnA4wYZBjVyxjf",
+   "web": "http://www.uglykidjoe.net/",
+   "youtube": "https://www.youtube.com/channel/UCzbQmV31WqZpH1OSwEbWOaw"
+  },
+  "mbid": "91f32a6b-fc11-45b6-a243-4dd90eaee781",
+  "name": "Ugly Kid Joe",
+  "query": "Ugly Kid Joe",
   "v": 2
  },
  "ulli baer": {

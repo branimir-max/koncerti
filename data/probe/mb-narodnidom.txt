@@ -3,8 +3,9 @@ jsonld types:
 <div class=event-row> pet 13 nov 2026 18:00 pet 11 dec 2026 18:00 Prireditev drugega organizatorja Candlelight: Predstavljamo Štiri letne čase Vivaldija in še več Koncert 25 €  - 38 € e-nakup Preberite več | https://nd-mb.si/dogodek/[…]/
 <div class=flag> pet 13 nov 2026 18:00 | 
 <div class=flag> pet 11 dec 2026 18:00 | 
-<div class=event-row> pet 13 nov 2026 19:00 Prireditev drugega organizatorja Pridi gola! Komedija 24 € - 26 € e-nakup Preberite več | https://nd-mb.si/dogodek/pridi-gola-2/
+<div class=event-row> pet 13 nov 2026 19:00 sre 16 dec 2026 18:00 Prireditev drugega organizatorja Pridi gola! Komedija 24 € - 26 € e-nakup Preberite več | https://nd-mb.si/dogodek/pridi-gola-2/
 <div class=flag> pet 13 nov 2026 19:00 | 
+<div class=flag> sre 16 dec 2026 18:00 | 
 <div class=event-row> pet 13 nov 2026 20:30 čet 7 jan 2027 18:00 Prireditev drugega organizatorja Candlelight: Coldplay in Imagine Dragons Koncert 25 €  - 38 € e-nakup Preberite več | https://nd-mb.si/dogodek/[…]/
 <div class=flag> pet 13 nov 2026 20:30 | 
 <div class=flag> čet 7 jan 2027 18:00 | 
@@ -19,8 +20,9 @@ jsonld types:
 <div class=flag> tor 17 nov 2026 10:00 | 
 <div class=flag> čet 19 nov 2026 11:00 | 
 <div class=flag> čet 19 nov 2026 15:00 | 
-<div class=event-row> tor 17 nov 2026 18:00 Prireditev drugega organizatorja Alpski Ranko Komedija 24 € - 24 € e-nakup Preberite več | https://nd-mb.si/dogodek/alpski-ranko-6/
+<div class=event-row> tor 17 nov 2026 18:00 pet 22 jan 2027 18:00 Prireditev drugega organizatorja Alpski Ranko Komedija 24 € - 24 € e-nakup Preberite več | https://nd-mb.si/dogodek/alpski-ranko-6/
 <div class=flag> tor 17 nov 2026 18:00 | 
+<div class=flag> pet 22 jan 2027 18:00 | 
 <div class=event-row> sre 25 nov 2026 10:00 sre 18 nov 2026 10:00 sre 18 nov 2026 11:00 sre 25 nov 2026 11:00 Festival Enimation Kulturni dnevnik Za šole - Za šole e-nakup Preberite več | https://nd-mb.si/dogodek/festival-enimation-6/
 <div class=flag> sre 25 nov 2026 10:00 | 
 <div class=flag> sre 18 nov 2026 10:00 | 
@@ -58,6 +60,4 @@ jsonld types:
 <div class=flag> pet 4 dec 2026 20:00 | 
 <div class=flag> pon 14 dec 2026 20:00 | 
 <div class=event-row> pet 4 dec 2026 20:30 Priporočamo Afro Gitano Jazz v Narodnem domu e-nakup Preberite več | https://nd-mb.si/dogodek/afro-gitano/
-<div class=flag> pet 4 dec 2026 20:30 | 
-<div class=event-row> sob 5 dec 2026 20:00 30 let Foltin Koncert Lent po Lentu 18 € - 20 € e-nakup Preberite več | https://nd-mb.si/dogodek/30-let-foltin/
 poveznice (32): /narodni-dom-maribor/programski-sklopi/festivali/ https://nd-mb.si/narodni-dom-maribor/o-narodnem-domu-maribor/koncertna-poslovalnica/ https://nd-mb.si/narodni-dom-maribor/[…]/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/abomna-kekec/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/abonma-komedija/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/art-kamp/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/festival-lent/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/festival-maribor/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/festivali/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/jazz-v-narodnem-domu/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/komorni-cikel/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/kulturni-dnevnik/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/lastna-produkcija/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/mladinski-cikel/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/orkestrski-cikel/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/[…]/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/[…]/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/promenadni-koncerti/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/vetrinjski-dvor/ https://nd-mb.si/narodni-dom-maribor/programski-sklopi/vilinsko-mesto/ https://nd-mb.si/tag/komentirani-koncert/ https://nd-mb.si/tag/koncert/ https://nd-mb.si/vetrinjski-dvor/program-vetrinjski-dvor/ https://www.eventim.si/event/[…]/

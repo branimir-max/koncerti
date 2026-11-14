@@ -1,14 +1,14 @@
 title: SNG – Slovensko narodno gledališče
 jsonld types: 
-<div class=show.active> balet Ludwig Minkus Bajadera 13. 11. 2026 | 19.30 | https://www.sng-mb.si/event/bajadera/
+<div class=show.active> balet Ludwig Minkus Bajadera 14. 11. 2026 | 19.30 | https://www.sng-mb.si/event/bajadera/
 <div class=show> opera Johann Strauss ml. Netopir 27. 11. 2026 | 19.30 | https://www.sng-mb.si/event/netopir-3/
 <div class=show> drama Branislav Nušić Gospa ministrica 9. 12. 2026 | 20.00 | https://www.sng-mb.si/event/gospa-ministrica/
 <div class=show> drama Žiga Divjak in Gregor Zorc po romanu Susan Abulhawa Jutra v Dženinu 14. 12. 2026 | 19.00 | https://www.sng-mb.si/event/jutra-v-dzeninu/
-<div class=swiper-slide.active> balet Ludwig Minkus Bajadera 13. 11. 2026 |
+<div class=swiper-slide.active> balet Ludwig Minkus Bajadera 14. 11. 2026 |
                                 19.30 | https://www.sng-mb.si/event/bajadera/
-<a class=show__list--item.p-3> balet Ludwig Minkus Bajadera 13. 11. 2026 |
+<a class=show__list--item.p-3> balet Ludwig Minkus Bajadera 14. 11. 2026 |
                                 19.30 | https://www.sng-mb.si/event/bajadera/
-<div class=datetime> 13. 11. 2026 |
+<div class=datetime> 14. 11. 2026 |
                                 19.30 | 
 <div class=swiper-slide> opera Johann Strauss ml. Netopir 27. 11. 2026 |
                                 19.30 | https://www.sng-mb.si/event/netopir-3/
@@ -35,8 +35,6 @@ jsonld types:
 <div class=content__programs--date> 20 Nov Pet | 
 <div class=d-flex.date-container> 21 Nov Sob Svetlana Aleksijevič Svetlana Aleksijevič Vojna nima ženskega obraza 20.00 Mali oder ABONMA MALI ODER | https://www.sng-mb.si/event/vojna-nima-zenskega-obraza/
 <div class=content__programs--date> 21 Nov Sob | 
-<div class=d-flex.date-container> 13 Nov Pet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc | https://www.sng-mb.si/event/bajadera/
-<div class=content__programs--date> 13 Nov Pet | 
 <div class=d-flex.date-container> 14 Nov Sob Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET SOBOTA | https://www.sng-mb.si/event/bajadera/
 <div class=content__programs--date> 14 Nov Sob | 
 <div class=d-flex.date-container> 26 Nov Čet 3. koncert cikla Carpe artem »Refleksije strun« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
@@ -45,6 +43,8 @@ jsonld types:
 <div class=content__programs--date> 27 Nov Pet | 
 <div class=d-flex.date-container> 28 Nov Sob Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET SOBOTA | https://www.sng-mb.si/event/netopir-3/
 <div class=content__programs--date> 28 Nov Sob | 
+<div class=d-flex.date-container> 01 Dec Tor Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET TOREK | https://www.sng-mb.si/event/netopir-3/
+<div class=content__programs--date> 01 Dec Tor | 
 <div class=d-flex.date-container> 17 Nov Tor Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
 <div class=content__programs--date> 17 Nov Tor | 
 <div class=d-flex.date-container> 18 Nov Sre Ida Mlakar, Maja Borin Ida Mlakar, Maja Borin Kako sta Bibi in Gusti sipala srečo 10.00 Komorni oder | https://www.sng-mb.si/event/[…]/
@@ -52,8 +52,6 @@ jsonld types:
 <div class=content__programs--date> 20 Nov Pet | 
 <div class=d-flex.date-container> 21 Nov Sob Svetlana Aleksijevič Svetlana Aleksijevič Vojna nima ženskega obraza 20.00 Mali oder ABONMA MALI ODER | https://www.sng-mb.si/event/vojna-nima-zenskega-obraza/
 <div class=content__programs--date> 21 Nov Sob | 
-<div class=d-flex.date-container> 13 Nov Pet Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc | https://www.sng-mb.si/event/bajadera/
-<div class=content__programs--date> 13 Nov Pet | 
 <div class=d-flex.date-container> 14 Nov Sob Ludwig Minkus Ludwig Minkus Bajadera 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET SOBOTA | https://www.sng-mb.si/event/bajadera/
 <div class=content__programs--date> 14 Nov Sob | 
 <div class=d-flex.date-container> 26 Nov Čet 3. koncert cikla Carpe artem »Refleksije strun« 19.30 Kazinska dvorana abonma CIKEL CARPE ARTEM | https://www.sng-mb.si/event/[…]/
@@ -62,6 +60,8 @@ jsonld types:
 <div class=content__programs--date> 27 Nov Pet | 
 <div class=d-flex.date-container> 28 Nov Sob Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET SOBOTA | https://www.sng-mb.si/event/netopir-3/
 <div class=content__programs--date> 28 Nov Sob | 
+<div class=d-flex.date-container> 01 Dec Tor Johann Strauss ml. Johann Strauss ml. Netopir 19.30 Dvorana Ondine Otta Klasinc abonma OPERA BALET TOREK | https://www.sng-mb.si/event/netopir-3/
+<div class=content__programs--date> 01 Dec Tor | 
 <div class=swiper-slide.hover-zoom> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/[…]/
 <a class=news-item.d-flex.flex-column> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | https://www.sng-mb.si/2026/11/06/[…]/
 <div class=news-content> Drama SNG Maribor z Immaculato gostuje v Dubrovniku Objavljeno 6. 11. 2026 | 
